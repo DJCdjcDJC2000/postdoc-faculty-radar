@@ -1,18 +1,18 @@
-import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { load } from "cheerio";
 import { compareByPriorityThenDate, dedupeJobs, extractDate, normalizeUrl, normalizeWhitespace, stableId } from "./lib/normalize.mjs";
 import { findKeywordHits, inferRoleType, scoreJob } from "./lib/score.mjs";
+import { readJson, writeJson } from "./lib/read-write.mjs";
+import { buildAlerts, buildSimpleReason, labelForRole, labelForTrust } from "./lib/site-data.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const offline = process.argv.includes("--offline");
 const generatedAt = new Date().toISOString();
 
-const keywords = await readJson("config/keywords.json", {});
-const sources = await readJson("config/sources.json", []);
-const manualJobs = await readJson("data/manual/jobs.json", []);
-const manualPeople = await readJson("data/manual/people.json", []);
+const keywords = await readJson(projectRoot, "config/keywords.json", {});
+const sources = await readJson(projectRoot, "config/sources.json", []);
+const manualJobs = await readJson(projectRoot, "data/manual/jobs.json", []);
 
 const sourceStatuses = [];
 const liveJobs = [];
@@ -34,27 +34,16 @@ const scoredJobs = dedupeJobs([...manualNormalized, ...liveJobs])
     return {
       ...job,
       ...score,
+      roleLabelZh: labelForRole(job.roleType),
+      sourceTrustLabelZh: labelForTrust(job.trust),
+      simpleReason: buildSimpleReason({ ...job, ...score }),
       id: job.id || stableId([job.title, job.institution, job.sourceUrl]),
       updatedAt: generatedAt
     };
   })
   .sort(compareByPriorityThenDate);
 
-const alerts = scoredJobs
-  .filter((job) => ["A", "B"].includes(job.priority))
-  .slice(0, 30)
-  .map((job) => ({
-    id: job.id,
-    title: job.title,
-    institution: job.institution,
-    region: job.region,
-    roleType: job.roleType,
-    priority: job.priority,
-    matchScore: job.matchScore,
-    sourceName: job.sourceName,
-    sourceUrl: job.sourceUrl,
-    reason: buildReason(job)
-  }));
+const alerts = buildAlerts(scoredJobs);
 
 const sourceOutput = sources.map((source) => {
   const status = sourceStatuses.find((item) => item.id === source.id) ?? statusFor(source, "not_run", "Not run");
@@ -69,11 +58,10 @@ const sourceOutput = sources.map((source) => {
   };
 });
 
-await writeJson("public/data/jobs.json", scoredJobs);
-await writeJson("public/data/people.json", manualPeople);
-await writeJson("public/data/alerts.json", alerts);
-await writeJson("public/data/sources.json", sourceOutput);
-await writeJson("public/data/metadata.json", {
+await writeJson(projectRoot, "data/generated/jobs.json", scoredJobs);
+await writeJson(projectRoot, "data/generated/alerts.json", alerts);
+await writeJson(projectRoot, "data/generated/sources.json", sourceOutput);
+await writeJson(projectRoot, "data/generated/metadata.json", {
   generatedAt,
   offline,
   jobCount: scoredJobs.length,
@@ -223,15 +211,6 @@ function normalizeManualJob(job) {
   };
 }
 
-function buildReason(job) {
-  const parts = [
-    job.region,
-    job.roleType,
-    job.matchedKeywords?.slice(0, 4).join(", ")
-  ].filter(Boolean);
-  return parts.join(" | ");
-}
-
 function statusFor(source, status, message, startedAt, count = 0) {
   return {
     id: source.id,
@@ -241,19 +220,4 @@ function statusFor(source, status, message, startedAt, count = 0) {
     checkedAt: generatedAt,
     latencyMs: startedAt ? Date.now() - startedAt : 0
   };
-}
-
-async function readJson(relativePath, fallback) {
-  try {
-    const filePath = path.join(projectRoot, relativePath);
-    return JSON.parse(await fs.readFile(filePath, "utf8"));
-  } catch {
-    return fallback;
-  }
-}
-
-async function writeJson(relativePath, value) {
-  const filePath = path.join(projectRoot, relativePath);
-  await fs.mkdir(path.dirname(filePath), { recursive: true });
-  await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }

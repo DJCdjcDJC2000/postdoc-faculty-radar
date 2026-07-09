@@ -1,0 +1,2173 @@
+{
+  "7b364ef161065e69": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:17:50.648Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的博后机会，规则评分为 A 100。",
+    "tagsZh": [
+      "complementarity",
+      "stochastic complementarity",
+      "variational inequality",
+      "variational inequalities"
+    ],
+    "positiveZh": [
+      "Global · 博后 · complementarity / stochastic complementarity"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
+    "depth": "deep"
+  },
+  "1411a9a5c5c5768d": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:17:50.648Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的Fellowship机会，规则评分为 B 71。",
+    "tagsZh": [
+      "scientific computing",
+      "applied mathematics"
+    ],
+    "positiveZh": [
+      "Europe · Fellowship · scientific computing / applied mathematics"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
+    "depth": "deep"
+  },
+  "576a05e8b695f331": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:17:50.648Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Hong Kong地区的Fellowship机会，规则评分为 B 64。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Hong Kong · Fellowship"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
+    "depth": "deep"
+  },
+  "bbac44b5da0bc36a": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:17:50.648Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Singapore地区的Fellowship机会，规则评分为 B 64。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Singapore · Fellowship"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
+    "depth": "deep"
+  },
+  "e1e5047f5f87635e": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:17:50.648Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的Fellowship机会，规则评分为 C 59。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Europe · Fellowship"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "6b3b9b80b0551f74": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的Research Fellow机会，规则评分为 B 64。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Europe · Research Fellow · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
+    "depth": "deep"
+  },
+  "865c6a2df15a3668": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Hong Kong地区的博后机会，规则评分为 B 60。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Hong Kong · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
+    "depth": "deep"
+  },
+  "8f0378d469afbb63": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Hong Kong地区的Research Fellow机会，规则评分为 C 57。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Hong Kong · Research Fellow"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "947a41e9411a0d70": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的博后机会，规则评分为 C 53。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Global · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "bc0bb5114d5de285": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的博后机会，规则评分为 C 53。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Global · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "3192660094504ba1": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的博后机会，规则评分为 C 52。",
+    "tagsZh": [
+      "statistics"
+    ],
+    "positiveZh": [
+      "United Kingdom · 博后 · statistics"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "2b8bbb02556cfe0f": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的博后机会，规则评分为 C 52。",
+    "tagsZh": [
+      "statistics"
+    ],
+    "positiveZh": [
+      "United Kingdom · 博后 · statistics"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "f431feeb68b7db59": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的博后机会，规则评分为 C 52。",
+    "tagsZh": [
+      "statistics"
+    ],
+    "positiveZh": [
+      "United Kingdom · 博后 · statistics"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "bff0041a6b1a19b1": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的博后机会，规则评分为 C 52。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "United Kingdom · 博后 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "84de6efa06c4a2e8": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Hong Kong地区的教职机会，规则评分为 C 50。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Hong Kong · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "52b0d75c07a0100c": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Hong Kong地区的教职机会，规则评分为 C 50。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Hong Kong · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "71c1dff17c63f29a": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的Research Fellow机会，规则评分为 C 49。",
+    "tagsZh": [
+      "statistics"
+    ],
+    "positiveZh": [
+      "United Kingdom · Research Fellow · statistics"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "22864598f89b5c4a": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的博后机会，规则评分为 C 48。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "ad0598f43a3c9e24": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的博后机会，规则评分为 C 48。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "2e289867369c7dcc": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的博后机会，规则评分为 C 48。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "10d60baaa87801a9": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 48。",
+    "tagsZh": [
+      "人工智能",
+      "交通"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · 人工智能 / 交通"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "c30314647b849205": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 48。",
+    "tagsZh": [
+      "人工智能",
+      "交通"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · 人工智能 / 交通"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "247d9171e3e0459a": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 48。",
+    "tagsZh": [
+      "人工智能",
+      "交通"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · 人工智能 / 交通"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "396d8352b497c0b9": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 48。",
+    "tagsZh": [
+      "人工智能",
+      "交通"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · 人工智能 / 交通"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "b68a8453da3b8d78": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 48。",
+    "tagsZh": [
+      "人工智能",
+      "交通"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · 人工智能 / 交通"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "02bf7cbca3b32e78": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Hong Kong地区的博后机会，规则评分为 C 47。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Hong Kong · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "b12cad4f7e294e50": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的博后机会，规则评分为 C 45。",
+    "tagsZh": [
+      "data science"
+    ],
+    "positiveZh": [
+      "Global · 博后 · data science"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "51b7974d6e168655": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的博后机会，规则评分为 C 45。",
+    "tagsZh": [
+      "data science"
+    ],
+    "positiveZh": [
+      "Global · 博后 · data science"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "bf84797412bea179": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的博后机会，规则评分为 C 45。",
+    "tagsZh": [
+      "data science"
+    ],
+    "positiveZh": [
+      "Global · 博后 · data science"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "1a6b446b9ed064f6": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的Research Fellow机会，规则评分为 C 45。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · Research Fellow"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "6aa14dfbd2ecce20": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的Research Fellow机会，规则评分为 C 45。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · Research Fellow"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "8a710c4f371eb76a": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的Research Fellow机会，规则评分为 C 45。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · Research Fellow"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "b35b4151670d63f8": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的Research Fellow机会，规则评分为 C 45。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · Research Fellow"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "09af2861f59fd63d": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的Research Fellow机会，规则评分为 C 45。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · Research Fellow"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "efd9a2b1689ef99f": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 44。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "6b7d5a303dcb2ca8": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 44。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "871150b3f22e005b": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 44。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "117bfeadca872382": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 44。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "ba33b59a41f9be75": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 44。",
+    "tagsZh": [
+      "人工智能"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · 人工智能"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "65c3d3573c76eeb6": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 44。",
+    "tagsZh": [
+      "人工智能"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · 人工智能"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "59b8dfe3bd8f5abe": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 44。",
+    "tagsZh": [
+      "人工智能"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · 人工智能"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "3f3f58b2480578f3": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 44。",
+    "tagsZh": [
+      "人工智能"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · 人工智能"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "eacdcbdb2b08b4c9": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 44。",
+    "tagsZh": [
+      "人工智能"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · 人工智能"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "1cb2da2003d1b6e2": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 C 44。",
+    "tagsZh": [
+      "交通"
+    ],
+    "positiveZh": [
+      "Mainland China · 博后 · 交通"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "d5cdfa7b2aae407c": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:20:12.521Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的教职机会，规则评分为 C 43。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Global · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "f63bcce9a06b4f8e": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的教职机会，规则评分为 C 42。",
+    "tagsZh": [
+      "applied mathematics"
+    ],
+    "positiveZh": [
+      "United Kingdom · 教职 · applied mathematics"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "5aecb2bf9a984a3b": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的博后机会，规则评分为 C 40。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Europe · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "2662917ef7a401f5": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的博后机会，规则评分为 D 38。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Europe · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "f090d3a389b584e5": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的教职机会，规则评分为 D 38。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "dc860d298eabc6f0": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的教职机会，规则评分为 D 38。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "3f3176a617ce6871": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的大厂研究岗机会，规则评分为 D 38。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · 大厂研究岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "658ad2a0ab3c83bc": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的教职机会，规则评分为 D 38。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "ed27ad6f89258dc8": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Hong Kong地区的教职机会，规则评分为 D 37。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Hong Kong · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "9f01d9084813a45a": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的Research Fellow机会，规则评分为 D 37。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · Research Fellow"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "4782d61691e449e7": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 37。",
+    "tagsZh": [
+      "algorithms",
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · algorithms / AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "cd2cd43425823f11": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 37。",
+    "tagsZh": [
+      "algorithms",
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · algorithms / AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "2da8403ea67f9dd0": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "8507b27049602b20": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "algorithms"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · algorithms"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "56fa4546a6d1ced0": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "beccf206204d2f33": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "670b8f5ec4213585": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "76b27118b2023a4b": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "92d5f1adebc7a5ad": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "061636e7145481ba": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "74bb1225a0ef89fe": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "50007eb501c1aa9d": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "2266070a3fba9095": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "e0e7a4724964e6eb": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "d11465eefc9dc4a0": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "97d09977368b4f2e": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "algorithms"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · algorithms"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "e2813a0a07fdabcf": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "c835be9072742856": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "4504d78378586f6e": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "fd54959ea2551ede": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "5be856e8ec17d1a5": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "d6aa580183d42d17": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "8d186c9c6ba5e142": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "492d5cb1fd5a5ae0": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "machine learning"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · machine learning"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "1ab4ae4e60a4e3e8": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "3e1c2b1ba457abf7": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "algorithms"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · algorithms"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "787cb317be1ed326": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "94c34fae1b4c4bc5": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "fa4ca0c0fc50c14f": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "779fc37a974ef203": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "e2897d0cf4f4ecac": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:22:50.619Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "2eb4fcdb3f26ef39": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "7a0a6548b940885a": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "fd3002b309724739": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "0846529f3b54f8ef": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "34673ebbdf249039": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "fa8d7ea70c3c8e63": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "937ce36293a1ceec": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "3f1c7d7e333b4d21": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "183fc6b8a2e5561d": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 33。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "c74806af0aee1d95": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的博后机会，规则评分为 D 32。",
+    "tagsZh": [],
+    "positiveZh": [
+      "United Kingdom · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "2a59cad30e45078b": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的大厂研究岗机会，规则评分为 D 30。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Europe · 大厂研究岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "a0e3409b0ba91696": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的大厂研究岗机会，规则评分为 D 30。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Europe · 大厂研究岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "3e081ef8436ea43d": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的教学岗机会，规则评分为 D 30。",
+    "tagsZh": [
+      "statistics"
+    ],
+    "positiveZh": [
+      "United Kingdom · 教学岗 · statistics"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "a2bf782edad2991e": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的大厂研究岗机会，规则评分为 D 28。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Europe · 大厂研究岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "6a3ec270ae6c9539": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Hong Kong地区的Research Fellow机会，规则评分为 D 24。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Hong Kong · Research Fellow"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "f0a44ede88750326": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的大厂研究岗机会，规则评分为 D 22。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Europe · 大厂研究岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "6a127c8075d85ee1": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的教职机会，规则评分为 D 22。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Europe · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "e53373d952cd83e6": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的大厂研究岗机会，规则评分为 D 18。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Europe · 大厂研究岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "4ffc96df5bcbba71": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Europe地区的大厂研究岗机会，规则评分为 D 18。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Europe · 大厂研究岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "fdf6f44b79c6f2ae": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的博后机会，规则评分为 D 16。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Global · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "ff9dee9f57c55f14": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的博后机会，规则评分为 D 16。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Global · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "b8bb628d7042332a": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的教职机会，规则评分为 D 4。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Global · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "c357751e39d4a26e": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 0。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "4eb5cf5c128a1995": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 0。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "645ac6fd6468a256": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 0。",
+    "tagsZh": [
+      "machine learning"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · machine learning"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "e197ca536c2c57ce": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的研究工程岗机会，规则评分为 D 0。",
+    "tagsZh": [
+      "machine learning",
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 研究工程岗 · machine learning / AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "85942393255cfc50": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的研究工程岗机会，规则评分为 D 0。",
+    "tagsZh": [
+      "machine learning"
+    ],
+    "positiveZh": [
+      "Global · 研究工程岗 · machine learning"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "f0700e35f036892e": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 0。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "73b07e2e30c26963": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 0。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Global · 大厂研究岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "f9b1ce32fdab4221": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 0。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "79b51b19007f1748": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 0。",
+    "tagsZh": [
+      "AI"
+    ],
+    "positiveZh": [
+      "Global · 大厂研究岗 · AI"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "4196428ffaeef02e": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:27:49.287Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的大厂研究岗机会，规则评分为 D 0。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Global · 大厂研究岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "c4f0adb87a8dfd89": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:30:10.389Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Global地区的博后机会，规则评分为 A 100。",
+    "tagsZh": [
+      "complementarity",
+      "stochastic complementarity",
+      "variational inequality",
+      "variational inequalities"
+    ],
+    "positiveZh": [
+      "Global · 博后 · complementarity / stochastic complementarity"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
+    "depth": "deep"
+  },
+  "694d41b50f5fe7a5": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "aa6a5a9a16991f02": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "d13b9328cd8fdc10": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "f523dad482c0065e": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "177827cbef8366ef": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "f5c893c90f06304d": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "a4248b52fff83f08": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "c4fa192c16e172c3": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "1d59854e80160dbb": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "5dcf73ff76bf45ae": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "4bcf14e2e2a5e523": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "151bf9b1129e1205": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的博后机会，规则评分为 D 15。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 博后"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "571ed49d6efadf24": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的Research Fellow机会，规则评分为 D 12。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · Research Fellow"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "81788a84946021c2": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的Research Fellow机会，规则评分为 D 12。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · Research Fellow"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "101697f7a971e754": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的教职机会，规则评分为 D 5。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "ef10eacbf41ab77c": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的教职机会，规则评分为 D 5。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "5de2843e23669a6b": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的教职机会，规则评分为 D 5。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 教职"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "6186f518340d544f": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的教学岗机会，规则评分为 D 0。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 教学岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "2f5c33a29fa562c9": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的教学岗机会，规则评分为 D 0。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 教学岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "9d2c588659dfd897": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的教学岗机会，规则评分为 D 0。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 教学岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "ce07444639ff4096": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的教学岗机会，规则评分为 D 0。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 教学岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "661f218878316831": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的教学岗机会，规则评分为 D 0。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 教学岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "41191559c3c2d5e6": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的教学岗机会，规则评分为 D 0。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 教学岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "c7874278d90a14d1": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的教学岗机会，规则评分为 D 0。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 教学岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  },
+  "ad72c2a8a4090e18": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-09T14:41:58.584Z",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Mainland China地区的教学岗机会，规则评分为 D 0。",
+    "tagsZh": [],
+    "positiveZh": [
+      "Mainland China · 教学岗"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
+  }
+}

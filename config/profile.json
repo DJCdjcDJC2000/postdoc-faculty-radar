@@ -1,0 +1,25 @@
+{
+  "publicAudience": "应用数学、优化、数值分析、科学计算方向 PhD/Postdoc",
+  "careerPlan": {
+    "primary": "先博后 / Research Fellow，再教职或研究岗",
+    "priorityRegions": ["Europe", "Hong Kong", "Singapore"],
+    "secondaryRegions": ["Mainland China", "United Kingdom", "Japan", "Australia"],
+    "watchRegions": ["United States", "Canada"]
+  },
+  "researchProfile": {
+    "coreFields": [
+      "Applied Mathematics",
+      "Mathematical Optimization",
+      "Numerical Analysis",
+      "Scientific Computing",
+      "Stochastic Complementarity Problems",
+      "Variational Inequalities",
+      "Nonsmooth Optimization",
+      "Spectral Methods",
+      "Sample Average Approximation",
+      "Operations Research",
+      "Machine Learning Optimization"
+    ]
+  },
+  "publicSummaryZh": "本网站面向应用数学、优化与科学计算方向，追踪全球博后、教职、Fellowship 与研究岗机会，并用公开可验证信息整理职业路线和成功案例。"
+}

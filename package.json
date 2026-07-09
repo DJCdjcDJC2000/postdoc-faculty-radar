@@ -7,10 +7,21 @@
   "scripts": {
     "fetch": "node scripts/fetch-jobs.mjs",
     "fetch:offline": "node scripts/fetch-jobs.mjs --offline",
-    "notify": "node scripts/notify-feishu.mjs",
-    "dev": "node scripts/dev-server.mjs",
+    "analyze": "node scripts/analyze-deepseek.mjs --mode public",
+    "analyze:private": "node scripts/analyze-deepseek.mjs --mode private",
+    "build:public": "node scripts/build-site.mjs --mode public",
+    "build:private": "node scripts/build-site.mjs --mode private",
+    "update": "npm run fetch && npm run analyze && npm run build:public",
+    "update:offline": "npm run fetch:offline && npm run analyze && npm run build:public && npm run build:private",
+    "notify": "node scripts/notify-feishu.mjs --kind daily --mode public",
+    "notify:daily": "node scripts/notify-feishu.mjs --kind daily --mode public",
+    "notify:weekly": "node scripts/notify-feishu.mjs --kind weekly --mode public",
+    "notify:immediate": "node scripts/notify-feishu.mjs --kind immediate --mode private",
+    "dev": "node scripts/dev-server.mjs --dir public",
+    "dev:private": "node scripts/dev-server.mjs --dir private",
+    "validate": "node scripts/validate-build.mjs",
     "test": "node --test",
-    "check": "npm run test && npm run fetch:offline"
+    "check": "npm run test && npm run update:offline && npm run validate"
   },
   "dependencies": {
     "cheerio": "^1.0.0"

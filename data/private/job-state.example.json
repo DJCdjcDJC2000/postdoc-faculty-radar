@@ -1,0 +1,13 @@
+[
+  {
+    "jobId": "example-job-id",
+    "myStage": "收藏",
+    "myPriority": "P1",
+    "privateNotes": "这里写本地私人备注；不要提交真实文件。",
+    "contactRecords": [],
+    "materialStatus": "待整理",
+    "applicationSystemStatus": "无",
+    "reminderAt": "2028-06-01",
+    "archiveReason": ""
+  }
+]

@@ -1,1 +1,61 @@
-[]
+[
+  {
+    "id": "xiaojun-chen-polyu",
+    "name": "Xiaojun Chen",
+    "nameZh": "陈晓君",
+    "priority": "P4",
+    "currentPosition": "Chair Professor / Professor, Department of Applied Mathematics",
+    "currentInstitution": "The Hong Kong Polytechnic University",
+    "currentRoleType": "senior academic reference",
+    "fieldTags": [
+      "optimization",
+      "stochastic equilibrium",
+      "complementarity problems",
+      "nonsmooth optimization",
+      "applied mathematics"
+    ],
+    "phdInstitution": "",
+    "phdYear": "",
+    "advisor": "",
+    "postdocHistory": [],
+    "representativePapers": [],
+    "homepage": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm",
+    "googleScholar": "",
+    "orcid": "",
+    "dblp": "",
+    "openalex": "",
+    "semanticScholar": "",
+    "confidence": "A：官方院系主页",
+    "pathSummaryZh": "作为 PolyU 应用数学与优化方向的高级学术参考样本，用于标定 stochastic equilibrium、complementarity 和 nonsmooth optimization 方向的长期学术路线。",
+    "learningsZh": [
+      "方向标签需要稳定且可被国际同行识别。",
+      "优化、互补问题和随机模型可以形成长期研究主线。",
+      "个人主页应清晰呈现研究兴趣、论文和合作网络。"
+    ],
+    "risksZh": [
+      "这是高级教授样本，不能直接等同于 2029 年博士毕业后的短期路径。",
+      "职业阶段、资源和时代背景不同，只能作为方向与学术网络参考。"
+    ],
+    "evidence": [
+      {
+        "type": "official_homepage",
+        "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm",
+        "confidence": "A"
+      }
+    ],
+    "ai": {
+      "status": "manual",
+      "notice": "AI 辅助生成，需核验",
+      "careerPathZh": "作为 PolyU 应用数学与优化方向的高级学术参考样本，用于标定 stochastic equilibrium、complementarity 和 nonsmooth optimization 方向的长期学术路线。",
+      "learningsZh": [
+        "方向标签需要稳定且可被国际同行识别。",
+        "优化、互补问题和随机模型可以形成长期研究主线。",
+        "个人主页应清晰呈现研究兴趣、论文和合作网络。"
+      ],
+      "risksZh": [
+        "这是高级教授样本，不能直接等同于 2029 年博士毕业后的短期路径。",
+        "职业阶段、资源和时代背景不同，只能作为方向与学术网络参考。"
+      ]
+    }
+  }
+]

@@ -1,78 +1,101 @@
 # Postdoc Faculty Radar
 
-一个低成本、可静态部署的职业情报库 MVP，用于长期追踪与你方向相关的博后、Research Fellow、教职、fellowship、国内人才岗和大厂研究岗。
+一个默认中文、静态优先、可双链接部署的博后/教职/研究岗职业情报门户。项目面向应用数学、优化、数值分析和科学计算方向，先服务个人职业规划，未来可公开给同方向 PhD/Postdoc 作为只读情报站使用。
 
-## 当前目标
+## 产品形态
 
-- 个人优先使用，未来可公开给同方向 PhD/Postdoc。
-- 尽量 0 成本运行。
-- 数据源优先覆盖欧洲、香港、新加坡，同时保留国内、大厂、美国/加拿大高匹配机会。
-- 只收录公开可验证信息。
-- 用飞书 Webhook 推送高优先级机会。
-- 静态页面可部署到 EdgeOne Pages、GitHub Pages 或 Cloudflare Pages。
+- 首页：公开社区门户，显示本周情报摘要、高匹配机会、职业路线、成功案例和数据源状态。
+- 机会雷达：常驻筛选 + 高级筛选 + 高密度表格 + 岗位详情。
+- 职业路线：欧洲博后/Fellowship、港新 Research Fellow、国内博士后/青年教职、大厂研究岗、数学/应用数学教职。
+- 成功案例：人物卡片 + 背景表格 + 职业路径分析，只收公开可验证信息。
+- 申请日历：Fellowship 周期、岗位截止、个人行动。
+- 资源与方法：数据源、评分、隐私、AI 辅助和免责声明。
 
 ## 快速开始
 
 ```bash
 npm install
-npm run fetch:offline
+npm run update:offline
 npm run dev
 ```
 
-然后打开终端显示的本地地址。
+公开版本地预览：
 
-如果要抓取线上数据：
+```text
+http://localhost:5173
+```
+
+个人版本地预览：
 
 ```bash
-npm run fetch
+npm run dev:private
 ```
+
+## 常用命令
+
+```bash
+npm run fetch          # 抓取线上候选岗位
+npm run fetch:offline  # 只使用手工种子和 source 状态
+npm run analyze        # DeepSeek 分析；无 key 时生成 fallback 分析
+npm run build:public   # 生成公开版 public/
+npm run build:private  # 生成个人版 private/
+npm run update         # fetch + analyze + build:public
+npm run check          # 测试 + 离线更新 + public/private 构建
+```
+
+## 个人画像
+
+- `config/profile.json`：可提交的公开画像，只放方向、地区偏好和公开说明。
+- `config/profile.private.json`：本地私有画像，可放姓名、学历时间线、导师和当前论文关键词；已被 `.gitignore` 忽略。
+- `config/profile.private.example.json`：私有画像模板。
+
+私有版构建和 `analyze:private` 会自动合并公开画像与本地私有画像。公开版不会输出 `config/profile.private.json` 中的字段。
+
+## DeepSeek
+
+创建 `.env` 或在 GitHub/EdgeOne 中配置环境变量：
+
+```bash
+DEEPSEEK_API_KEY=...
+DEEPSEEK_MODEL=deepseek-chat
+DEEPSEEK_BASE_URL=https://api.deepseek.com
+```
+
+DeepSeek 用于：
+
+- 所有新增岗位轻量分类。
+- A/B 岗位深度摘要、加分/扣分、风险和下一步建议。
+- 成功案例路径分析。
+- 飞书每日/每周摘要。
+
+AI 内容始终标注：`AI 辅助生成，需核验`。
+
+公开分析写入 `data/ai/job-analysis.json`。私有分析写入已忽略的 `data/private/job-analysis.json`，避免个人差距分析进入公开仓库。
 
 ## 飞书提醒
 
-本地测试时设置环境变量：
-
-```powershell
-$env:FEISHU_WEBHOOK_URL="https://open.feishu.cn/open-apis/bot/v2/hook/..."
-npm run notify
+```bash
+FEISHU_WEBHOOK_URL=...
+npm run notify:daily
+npm run notify:weekly
+npm run notify:immediate
 ```
 
-GitHub Actions 中把同名变量放到 repository secret：`FEISHU_WEBHOOK_URL`。
+`notify:immediate` 默认读 private 构建，可包含个人关注项，但不会写入公开网页。
 
-## 项目结构
+## public/private 边界
 
-```text
-config/
-  keywords.json       关键词、地区、岗位类型和评分权重
-  sources.json        官方/高价值数据源清单
-data/manual/
-  jobs.json           手工维护的长期机会和 fellowship
-  people.json         成功入职者背景库的人工种子数据
-public/
-  index.html          静态看板
-  app.js              前端筛选和渲染
-  styles.css          看板样式
-  data/               抓取脚本生成的数据
-scripts/
-  fetch-jobs.mjs      抓取、去重、评分、生成数据
-  notify-feishu.mjs   飞书推送
-  dev-server.mjs      零依赖本地静态服务器
-  lib/                评分和归一化工具
-test/
-  score.test.mjs      核心评分/去重测试
-```
+- `public/`：公开部署目录，不包含私人备注、联系记录、申请状态、个人差距分析。
+- `private/`：本地/私有环境使用，可包含个人行动记录和长期准备计划。
+- `data/private/*.json` 和 `config/profile.private.json` 都是本地私有文件，不要提交。
 
-## 部署建议
+不要把 `private/` 部署到公开平台。
 
-第一阶段建议双镜像：
+## 部署
 
-- 主站：EdgeOne Pages，兼顾国内外访问。
-- 备份：GitHub Pages，方便与你的 GitHub 主页生态联动。
+详见 [docs/deployment.md](./docs/deployment.md)。
 
-页面不依赖外部 CDN、Google Fonts、GitHub raw 动态资源或登录态 API，核心数据全部由 GitHub Actions 生成到 `public/data/`。
+推荐双链接：
 
-## 下一步增强
-
-- 为每个高价值网站补专用 selector。
-- 加入 OpenAlex / ORCID / Semantic Scholar / DBLP 的人物背景补全。
-- 为 Workday/Taleo 类动态页面增加 Playwright 抓取模式。
-- 增加 private notes 与 public export 的字段隔离。
+- GitHub Pages：基础公开链接。
+- EdgeOne Pages：国内外更稳的主链接或镜像。

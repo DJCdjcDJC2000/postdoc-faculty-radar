@@ -1,0 +1,23 @@
+{
+  "name": "Your Name",
+  "displayNameZh": "你的中文名",
+  "currentAffiliation": "Current university or institute",
+  "degreeTimeline": {
+    "undergraduate": "Undergraduate institution",
+    "master": "Master institution",
+    "phd": "PhD institution",
+    "expectedGraduation": "YYYY-MM"
+  },
+  "researchProfile": {
+    "currentPaperKeywords": [
+      "current paper keyword",
+      "method keyword",
+      "application keyword"
+    ],
+    "advisor": {
+      "name": "Advisor Name",
+      "homepage": "https://example.edu/"
+    }
+  },
+  "privateSummaryZh": "个人版会结合你的毕业时间线、教育背景和当前论文方向进行差距分析。"
+}

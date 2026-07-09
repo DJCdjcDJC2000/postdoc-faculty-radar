@@ -1,0 +1,191 @@
+[
+  {
+    "id": "europe-postdoc-fellowship",
+    "titleZh": "欧洲博后 / Fellowship",
+    "order": 1,
+    "regions": [
+      "Europe",
+      "United Kingdom"
+    ],
+    "roleTypes": [
+      "postdoc",
+      "fellowship",
+      "research_fellow"
+    ],
+    "fitZh": "适合希望在 2029 年后进入欧洲优化、数值分析、科学计算课题组的人，重点关注 MSCA、Humboldt、ERC 项目组和大学 postdoc。",
+    "timelineZh": [
+      "2026：观察目标组和年度 call 周期，整理潜在 host。",
+      "2027：补论文、代码和主页，主动参加优化/数值分析会议。",
+      "2028：联系 host，准备 MSCA/Humboldt 申请材料。",
+      "2029：博后入职或根据 fellowship 结果调整地区。"
+    ],
+    "preparationZh": [
+      "论文主线清晰",
+      "英文 CV 和 research statement",
+      "可展示代码",
+      "潜在 host 列表",
+      "推荐人网络"
+    ],
+    "risksZh": [
+      "Fellowship 周期早",
+      "需要 host 支持",
+      "竞争高度国际化",
+      "部分岗位签证和起薪差异大"
+    ],
+    "nextActionsZh": [
+      "持续监控 EURAXESS、AcademicTransfer、Academic Positions",
+      "标记 MSCA/Humboldt 截止窗口",
+      "建立欧洲目标 PI 列表"
+    ]
+  },
+  {
+    "id": "hk-singapore-research-fellow",
+    "titleZh": "港新 Research Fellow / Postdoc",
+    "order": 2,
+    "regions": [
+      "Hong Kong",
+      "Singapore"
+    ],
+    "roleTypes": [
+      "postdoc",
+      "research_fellow",
+      "fellowship"
+    ],
+    "fitZh": "适合延续 PolyU/港新学术网络，并在应用数学、优化、AI/OR 交叉方向寻找项目制岗位。",
+    "timelineZh": [
+      "2026：关注 PolyU/HKU/HKUST/CUHK/CityU、NUS/NTU/A*STAR 岗位。",
+      "2027：建立本地合作与推荐网络。",
+      "2028：主动联系潜在 PI 和项目组。",
+      "2029：优先申请 Research Fellow/Postdoc 和 RGC JRFS。"
+    ],
+    "preparationZh": [
+      "导师推荐",
+      "港新高校主页和招聘页",
+      "项目匹配说明",
+      "可转向 AI/OR 的研究叙事"
+    ],
+    "risksZh": [
+      "岗位很多是 PI/project-driven",
+      "官方页面之外需追踪 PI 动态",
+      "Research Fellow 职级与薪资差异较大"
+    ],
+    "nextActionsZh": [
+      "维护港新目标组清单",
+      "跟踪 RGC JRFS 和 NUS/NTU 项目岗位",
+      "整理可给 PI 发送的短 research pitch"
+    ]
+  },
+  {
+    "id": "mainland-postdoc-young-faculty",
+    "titleZh": "国内博士后与青年教职",
+    "order": 3,
+    "regions": [
+      "Mainland China"
+    ],
+    "roleTypes": [
+      "postdoc",
+      "faculty",
+      "research_fellow"
+    ],
+    "fitZh": "适合把国内高校博士后、特任副研究员、青年教职作为回国路线和长期备选。",
+    "timelineZh": [
+      "2026：了解博士后站、人才计划和国内院校分层。",
+      "2027：关注国内优化/运筹/数据科学团队招聘规律。",
+      "2028：准备中文申请材料和代表作说明。",
+      "2029：根据论文和推荐网络选择博士后或青年教职。"
+    ],
+    "preparationZh": [
+      "中文简历",
+      "代表作摘要",
+      "国内合作和推荐",
+      "博士后基金/人才计划时间线"
+    ],
+    "risksZh": [
+      "聚合站噪音较高",
+      "不同高校待遇字段不统一",
+      "单位层级和平台资源差异大"
+    ],
+    "nextActionsZh": [
+      "监控中国博士后、高校人才网、青塔理聘",
+      "为国内岗位单独记录薪资/安家费/编制/考核"
+    ]
+  },
+  {
+    "id": "industry-research",
+    "titleZh": "大厂研究岗 / Research Scientist",
+    "order": 4,
+    "regions": [
+      "Global",
+      "Hong Kong",
+      "Singapore",
+      "Mainland China",
+      "Europe"
+    ],
+    "roleTypes": [
+      "industry_research",
+      "research_engineer"
+    ],
+    "fitZh": "适合把数学优化、科学计算和机器学习优化转化为研究科学家、应用科学家或研究工程师路线。",
+    "timelineZh": [
+      "2026：补工程化作品和可复现实验。",
+      "2027：把优化/数值方向包装成 ML optimization 或 decision intelligence。",
+      "2028：关注实习、研究岗和校招/社招窗口。",
+      "2029：与博后申请并行评估。"
+    ],
+    "preparationZh": [
+      "GitHub 项目",
+      "ML/优化交叉作品",
+      "英文面试材料",
+      "算法与系统实现能力"
+    ],
+    "risksZh": [
+      "岗位描述变化快",
+      "工程要求高于纯学术岗位",
+      "需要证明理论和落地的连接"
+    ],
+    "nextActionsZh": [
+      "监控 Microsoft Research、Google Research、DeepMind、Huawei Noah、ByteDance Seed",
+      "把代表性研究代码沉淀为公开作品集"
+    ]
+  },
+  {
+    "id": "math-applied-math-faculty",
+    "titleZh": "数学 / 应用数学教职",
+    "order": 5,
+    "regions": [
+      "Europe",
+      "Hong Kong",
+      "Singapore",
+      "Mainland China",
+      "Global"
+    ],
+    "roleTypes": [
+      "faculty",
+      "teaching"
+    ],
+    "fitZh": "中长期目标路线，适合在博后阶段积累独立论文、合作网络和教学材料后冲 assistant professor / lecturer / 青年教职。",
+    "timelineZh": [
+      "2026：建立方向标签和主页。",
+      "2027：争取投稿和会议报告。",
+      "2028：选择博后作为教职跳板。",
+      "2029 以后：根据博后成果冲教职。"
+    ],
+    "preparationZh": [
+      "独立研究计划",
+      "教学陈述",
+      "高质量论文组合",
+      "推荐信",
+      "国际会议曝光"
+    ],
+    "risksZh": [
+      "直接教职竞争强",
+      "teaching 要求可能与研究目标冲突",
+      "不同地区 tenure/contract 机制差异大"
+    ],
+    "nextActionsZh": [
+      "跟踪 MathJobs/AcademicJobsOnline",
+      "收集近年成功入职者履历",
+      "将教职作为博后后阶段重点"
+    ]
+  }
+]

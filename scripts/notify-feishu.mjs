@@ -1,27 +1,23 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadDotEnv } from "./lib/env.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+await loadDotEnv(projectRoot);
+
 const webhook = process.env.FEISHU_WEBHOOK_URL;
+const kind = readArg("kind") ?? "daily";
+const mode = readArg("mode") ?? "public";
+const siteDir = mode === "private" ? "private" : "public";
 
-const alerts = await readJson("public/data/alerts.json", []);
-const metadata = await readJson("public/data/metadata.json", {});
-const lines = [
-  `Postdoc Faculty Radar: ${alerts.length} high-priority items`,
-  `Generated at: ${metadata.generatedAt ?? "unknown"}`,
-  ""
-];
-
-for (const alert of alerts.slice(0, 10)) {
-  lines.push(`[${alert.priority}/${alert.matchScore}] ${alert.title}`);
-  lines.push(`${alert.institution} | ${alert.region} | ${alert.roleType}`);
-  lines.push(alert.reason);
-  lines.push(alert.sourceUrl);
-  lines.push("");
+const site = await readJson(`${siteDir}/data/site.json`, null);
+if (!site) {
+  throw new Error(`Missing built site data: ${siteDir}/data/site.json. Run npm run build:${mode} first.`);
 }
 
-const text = lines.join("\n").trim();
+const text = buildMessage(site, kind);
+
 
 if (!webhook) {
   console.log("FEISHU_WEBHOOK_URL is not set. Preview:");
@@ -54,4 +50,110 @@ async function readJson(relativePath, fallback) {
   } catch {
     return fallback;
   }
+}
+
+function buildMessage(site, kind) {
+  if (kind === "weekly") return weeklyMessage(site);
+  if (kind === "immediate") return immediateMessage(site);
+  return dailyMessage(site);
+}
+
+function dailyMessage(site) {
+  const lines = [
+    "Postdoc Faculty Radar 每日短报",
+    `构建时间：${site.metadata?.builtAt ?? site.metadata?.generatedAt ?? "unknown"}`,
+    `新增/候选：${site.metrics?.totalJobs ?? 0}；A/B 高匹配：${site.metrics?.highMatchJobs ?? 0}；30 天内截止：${site.metrics?.dueSoonJobs ?? 0}`,
+    ""
+  ];
+  lines.push(...alertLines(site.alerts ?? [], 8));
+  const failed = (site.sources ?? []).filter((source) => source.status === "error").slice(0, 5);
+  if (failed.length) {
+    lines.push("抓取失败源：");
+    for (const source of failed) {
+      lines.push(`- ${source.name}: ${source.message}`);
+    }
+  }
+  return lines.join("\n").trim();
+}
+
+function weeklyMessage(site) {
+  const byRegion = countBy(site.jobs ?? [], "region");
+  const byRole = countBy(site.jobs ?? [], "roleLabelZh");
+  const lines = [
+    "Postdoc Faculty Radar 每周周报",
+    `A/B 高匹配：${site.metrics?.highMatchJobs ?? 0}；活跃数据源：${site.metrics?.activeSources ?? 0}/${site.metrics?.totalSources ?? 0}`,
+    "",
+    `地区分布：${formatCounts(byRegion)}`,
+    `岗位类型：${formatCounts(byRole)}`,
+    "",
+    "重点机会："
+  ];
+  lines.push(...alertLines(site.alerts ?? [], 10));
+  if ((site.people ?? []).length) {
+    lines.push("");
+    lines.push("新增/可读成功案例：");
+    for (const person of (site.people ?? []).slice(0, 5)) {
+      lines.push(`- ${person.name}｜${person.currentPosition ?? ""}｜${person.currentInstitution ?? ""}`);
+    }
+  }
+  return lines.join("\n").trim();
+}
+
+function immediateMessage(site) {
+  const urgent = (site.jobs ?? [])
+    .filter((job) => job.recordType !== "watch_seed")
+    .filter((job) => {
+      const days = daysUntil(job.deadline);
+      return job.priority === "A" || (days >= 0 && days <= 30) || ["P0", "P1"].includes(job.private?.myPriority);
+    })
+    .slice(0, 10);
+  const lines = [
+    "Postdoc Faculty Radar 即时提醒",
+    `触发项：${urgent.length}`,
+    ""
+  ];
+  lines.push(...alertLines(urgent, 10));
+  return lines.join("\n").trim();
+}
+
+function alertLines(items, limit) {
+  if (!items.length) return ["暂无高优先级提醒。"];
+  const lines = [];
+  for (const item of items.slice(0, limit)) {
+    lines.push(`[${item.priority ?? "?"}/${item.matchScore ?? "?"}] ${item.title}`);
+    lines.push(`${item.institution ?? item.sourceName ?? ""} | ${item.region ?? ""} | ${item.roleLabelZh ?? item.roleType ?? ""}`);
+    if (item.aiSummaryZh || item.ai?.summaryZh || item.reason || item.simpleReason) {
+      lines.push(item.aiSummaryZh || item.ai?.summaryZh || item.reason || item.simpleReason);
+    }
+    if (item.sourceUrl) lines.push(item.sourceUrl);
+    lines.push("");
+  }
+  return lines;
+}
+
+function countBy(items, key) {
+  const result = new Map();
+  for (const item of items) {
+    const value = item[key] || "未知";
+    result.set(value, (result.get(value) ?? 0) + 1);
+  }
+  return [...result.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6);
+}
+
+function formatCounts(entries) {
+  return entries.map(([key, count]) => `${key} ${count}`).join("；") || "暂无";
+}
+
+function daysUntil(dateValue) {
+  if (!dateValue) return Number.POSITIVE_INFINITY;
+  const date = new Date(`${dateValue}T23:59:59Z`);
+  if (Number.isNaN(date.getTime())) return Number.POSITIVE_INFINITY;
+  return Math.ceil((date.getTime() - Date.now()) / 86400000);
+}
+
+function readArg(name) {
+  const eq = process.argv.find((arg) => arg.startsWith(`--${name}=`));
+  if (eq) return eq.split("=").slice(1).join("=");
+  const index = process.argv.indexOf(`--${name}`);
+  return index >= 0 ? process.argv[index + 1] : null;
 }

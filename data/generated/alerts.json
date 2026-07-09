@@ -10,8 +10,7 @@
     "matchScore": 71,
     "sourceName": "Humboldt Foundation",
     "sourceUrl": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
-    "reason": "Europe · Fellowship · scientific computing / applied mathematics",
-    "aiSummaryZh": "Europe地区的Fellowship机会，规则评分为 B 71。"
+    "reason": "Europe · Fellowship · scientific computing / applied mathematics"
   },
   {
     "id": "6b3b9b80b0551f74",
@@ -24,8 +23,7 @@
     "matchScore": 64,
     "sourceName": "EURAXESS Jobs",
     "sourceUrl": "https://euraxess.ec.europa.eu/jobs/451875",
-    "reason": "Europe · Research Fellow · AI",
-    "aiSummaryZh": "Europe地区的Research Fellow机会，规则评分为 B 64。"
+    "reason": "Europe · Research Fellow · AI"
   },
   {
     "id": "576a05e8b695f331",
@@ -38,8 +36,7 @@
     "matchScore": 64,
     "sourceName": "RGC JRFS",
     "sourceUrl": "https://awards.ugc.edu.hk/award/rgc-junior-research-fellow-scheme",
-    "reason": "Hong Kong · Fellowship",
-    "aiSummaryZh": "Hong Kong地区的Fellowship机会，规则评分为 B 64。"
+    "reason": "Hong Kong · Fellowship"
   },
   {
     "id": "bbac44b5da0bc36a",
@@ -52,8 +49,7 @@
     "matchScore": 64,
     "sourceName": "NRF Singapore",
     "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
-    "reason": "Singapore · Fellowship",
-    "aiSummaryZh": "Singapore地区的Fellowship机会，规则评分为 B 64。"
+    "reason": "Singapore · Fellowship"
   },
   {
     "id": "865c6a2df15a3668",
@@ -66,7 +62,6 @@
     "matchScore": 60,
     "sourceName": "HKUST Mathematics Employment",
     "sourceUrl": "https://www.math.hkust.edu.hk/employment/?menu=4",
-    "reason": "Hong Kong · 博后",
-    "aiSummaryZh": "Hong Kong地区的博后机会，规则评分为 B 60。"
+    "reason": "Hong Kong · 博后"
   }
 ]

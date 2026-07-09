@@ -1,7 +1,11 @@
 {
-  "generatedAt": "2026-07-09T13:04:55.544Z",
+  "generatedAt": "2026-07-09T14:41:37.689Z",
   "offline": false,
-  "jobCount": 140,
+  "jobCount": 142,
   "alertCount": 5,
-  "sourceCount": 20
+  "sourceCount": 20,
+  "builtAt": "2026-07-09T14:44:52.492Z",
+  "mode": "public",
+  "title": "博后教职职业情报门户",
+  "publicBuild": true
 }

@@ -64,19 +64,20 @@
     "evergreen": true
   },
   {
-    "title": "Targeted Postdoc Watch: Stochastic Complementarity and Variational Inequalities",
-    "institution": "Global Target Groups",
+    "title": "方向监控：Stochastic Complementarity and Variational Inequalities",
+    "institution": "定向研究方向",
     "department": "Applied Mathematics / Optimization / Scientific Computing",
     "region": "Global",
     "country": "Global",
     "roleType": "postdoc",
     "track": "academia",
-    "sourceName": "Manual Strategy Seed",
-    "sourceUrl": "https://djcdjcdjc2000.github.io/",
+    "recordType": "watch_seed",
+    "sourceName": "方向监控种子",
+    "sourceUrl": "",
     "description": "Use this standing record as a query seed for stochastic complementarity, variational inequalities, nonsmooth optimization, SAA, and spectral methods.",
     "keywords": ["stochastic complementarity", "variational inequality", "nonsmooth optimization", "SAA", "spectral methods", "scientific computing"],
     "status": "watchlist",
-    "trust": "manual",
+    "trust": "lead",
     "evergreen": true
   }
 ]

@@ -4,7 +4,8 @@ import http from "node:http";
 import { fileURLToPath } from "node:url";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const publicRoot = path.join(projectRoot, "public");
+const siteDir = readArg("dir") ?? process.env.SITE_DIR ?? "public";
+const publicRoot = path.join(projectRoot, siteDir);
 const requestedPort = Number(process.env.PORT || 5173);
 
 const mimeTypes = {
@@ -61,8 +62,15 @@ function listen(port) {
     throw error;
   });
   server.listen(port, () => {
-    console.log(`Postdoc Faculty Radar running at http://localhost:${port}`);
+    console.log(`Postdoc Faculty Radar (${siteDir}) running at http://localhost:${port}`);
   });
 }
 
 listen(requestedPort);
+
+function readArg(name) {
+  const eq = process.argv.find((arg) => arg.startsWith(`--${name}=`));
+  if (eq) return eq.split("=").slice(1).join("=");
+  const index = process.argv.indexOf(`--${name}`);
+  return index >= 0 ? process.argv[index + 1] : null;
+}
