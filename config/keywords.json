@@ -1,0 +1,157 @@
+{
+  "regions": {
+    "Hong Kong": 25,
+    "Singapore": 25,
+    "Europe": 20,
+    "United Kingdom": 15,
+    "Mainland China": 12,
+    "Japan": 10,
+    "Australia": 10,
+    "Canada": 5,
+    "United States": 5,
+    "Global": 8
+  },
+  "roleTypes": {
+    "postdoc": 25,
+    "research_fellow": 22,
+    "fellowship": 20,
+    "faculty": 15,
+    "industry_research": 15,
+    "research_engineer": 12,
+    "teaching": 3,
+    "unknown": 0
+  },
+  "sourceTrust": {
+    "official": 10,
+    "academic_board": 8,
+    "aggregator": 3,
+    "company": 6,
+    "manual": 8
+  },
+  "terms": {
+    "strong": [
+      "complementarity",
+      "linear complementarity",
+      "stochastic complementarity",
+      "variational inequality",
+      "variational inequalities",
+      "nonsmooth optimization",
+      "nonconvex optimization",
+      "stochastic programming",
+      "sample average approximation",
+      "SAA",
+      "quasi-Monte Carlo",
+      "QMC",
+      "spectral method",
+      "spectral methods",
+      "ultraspherical",
+      "scientific computing",
+      "numerical analysis",
+      "computational mathematics",
+      "operations research",
+      "optimal control",
+      "dynamic stochastic",
+      "mathematical optimization",
+      "应用数学",
+      "计算数学",
+      "数值分析",
+      "科学计算",
+      "优化",
+      "运筹",
+      "变分不等式",
+      "互补问题",
+      "随机规划"
+    ],
+    "medium": [
+      "machine learning",
+      "ML optimization",
+      "reinforcement learning",
+      "data science",
+      "applied mathematics",
+      "statistics",
+      "PDE",
+      "ODE",
+      "simulation",
+      "transportation",
+      "logistics",
+      "inventory",
+      "supply chain",
+      "urban computing",
+      "algorithm",
+      "algorithms",
+      "AI",
+      "人工智能",
+      "机器学习",
+      "数据科学",
+      "交通",
+      "物流",
+      "供应链"
+    ],
+    "negative": [
+      "wet lab",
+      "clinical",
+      "biology",
+      "chemistry-only",
+      "teaching only",
+      "adjunct",
+      "纯教学",
+      "实验动物",
+      "临床"
+    ]
+  },
+  "roleHints": {
+    "postdoc": [
+      "postdoc",
+      "postdoctoral",
+      "post-doctoral",
+      "博士后"
+    ],
+    "research_fellow": [
+      "research fellow",
+      "research associate",
+      "research assistant professor",
+      "副研究员",
+      "特任副研究员",
+      "研究助理教授"
+    ],
+    "fellowship": [
+      "fellowship",
+      "humboldt",
+      "marie sklodowska",
+      "msca",
+      "junior research fellow",
+      "人才计划",
+      "基金"
+    ],
+    "faculty": [
+      "assistant professor",
+      "associate professor",
+      "tenure",
+      "lecturer",
+      "faculty",
+      "教职",
+      "助理教授",
+      "副教授",
+      "讲师"
+    ],
+    "industry_research": [
+      "research scientist",
+      "applied scientist",
+      "scientist",
+      "researcher",
+      "研究科学家",
+      "算法研究员"
+    ],
+    "research_engineer": [
+      "research engineer",
+      "software engineer",
+      "machine learning engineer",
+      "算法工程师"
+    ],
+    "teaching": [
+      "teaching fellow",
+      "teaching track",
+      "教学"
+    ]
+  }
+}

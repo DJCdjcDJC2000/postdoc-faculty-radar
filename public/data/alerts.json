@@ -1,0 +1,62 @@
+[
+  {
+    "id": "7b364ef161065e69",
+    "title": "Targeted Postdoc Watch: Stochastic Complementarity and Variational Inequalities",
+    "institution": "Global Target Groups",
+    "region": "Global",
+    "roleType": "postdoc",
+    "priority": "A",
+    "matchScore": 100,
+    "sourceName": "Manual Strategy Seed",
+    "sourceUrl": "https://djcdjcdjc2000.github.io/",
+    "reason": "Global | postdoc | complementarity, stochastic complementarity, variational inequality, variational inequalities"
+  },
+  {
+    "id": "1411a9a5c5c5768d",
+    "title": "Humboldt Research Fellowship for Postdoctoral Researchers",
+    "institution": "Alexander von Humboldt Foundation",
+    "region": "Europe",
+    "roleType": "fellowship",
+    "priority": "B",
+    "matchScore": 71,
+    "sourceName": "Humboldt Foundation",
+    "sourceUrl": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+    "reason": "Europe | fellowship | scientific computing, applied mathematics"
+  },
+  {
+    "id": "576a05e8b695f331",
+    "title": "RGC Junior Research Fellow Scheme",
+    "institution": "University Grants Committee / Research Grants Council",
+    "region": "Hong Kong",
+    "roleType": "fellowship",
+    "priority": "B",
+    "matchScore": 64,
+    "sourceName": "RGC JRFS",
+    "sourceUrl": "https://awards.ugc.edu.hk/award/rgc-junior-research-fellow-scheme",
+    "reason": "Hong Kong | fellowship"
+  },
+  {
+    "id": "bbac44b5da0bc36a",
+    "title": "Singapore NRF Fellowship",
+    "institution": "National Research Foundation Singapore",
+    "region": "Singapore",
+    "roleType": "fellowship",
+    "priority": "B",
+    "matchScore": 64,
+    "sourceName": "NRF Singapore",
+    "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
+    "reason": "Singapore | fellowship"
+  },
+  {
+    "id": "865c6a2df15a3668",
+    "title": "Postdoctoral Fellows",
+    "institution": "HKUST Mathematics Employment",
+    "region": "Hong Kong",
+    "roleType": "postdoc",
+    "priority": "B",
+    "matchScore": 60,
+    "sourceName": "HKUST Mathematics Employment",
+    "sourceUrl": "https://www.math.hkust.edu.hk/employment/?menu=4",
+    "reason": "Hong Kong | postdoc"
+  }
+]

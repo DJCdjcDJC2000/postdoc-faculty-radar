@@ -1,0 +1,21 @@
+{
+  "name": "postdoc-faculty-radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A low-cost career intelligence radar for postdoc, faculty, fellowship, and research roles.",
+  "scripts": {
+    "fetch": "node scripts/fetch-jobs.mjs",
+    "fetch:offline": "node scripts/fetch-jobs.mjs --offline",
+    "notify": "node scripts/notify-feishu.mjs",
+    "dev": "node scripts/dev-server.mjs",
+    "test": "node --test",
+    "check": "npm run test && npm run fetch:offline"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Postdoc Faculty Radar</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Postdoc Faculty Radar</p>
+        <h1>Career Intelligence Desk</h1>
+      </div>
+      <div class="meta" id="metadata">Loading data</div>
+    </header>
+
+    <main class="shell">
+      <section class="metrics" aria-label="metrics">
+        <div class="metric">
+          <span class="metric-label">A/B Alerts</span>
+          <strong id="metric-alerts">0</strong>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Jobs</span>
+          <strong id="metric-jobs">0</strong>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Sources</span>
+          <strong id="metric-sources">0</strong>
+        </div>
+        <div class="metric">
+          <span class="metric-label">People</span>
+          <strong id="metric-people">0</strong>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="toolbar">
+          <label>
+            Search
+            <input id="search-input" type="search" placeholder="optimization, Hong Kong, postdoc">
+          </label>
+          <label>
+            Region
+            <select id="region-filter">
+              <option value="">All</option>
+            </select>
+          </label>
+          <label>
+            Role
+            <select id="role-filter">
+              <option value="">All</option>
+            </select>
+          </label>
+          <label>
+            Priority
+            <select id="priority-filter">
+              <option value="">All</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+            </select>
+          </label>
+        </div>
+
+        <nav class="tabs" aria-label="views">
+          <button class="tab active" data-view="jobs">Jobs</button>
+          <button class="tab" data-view="people">People</button>
+          <button class="tab" data-view="sources">Sources</button>
+          <button class="tab" data-view="calendar">Calendar</button>
+        </nav>
+
+        <section class="view active" id="view-jobs">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Priority</th>
+                  <th>Opportunity</th>
+                  <th>Region</th>
+                  <th>Role</th>
+                  <th>Deadline</th>
+                  <th>Keywords</th>
+                </tr>
+              </thead>
+              <tbody id="jobs-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="view" id="view-people">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Current Position</th>
+                  <th>PhD</th>
+                  <th>Fields</th>
+                  <th>Evidence</th>
+                </tr>
+              </thead>
+              <tbody id="people-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="view" id="view-sources">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Status</th>
+                  <th>Source</th>
+                  <th>Region</th>
+                  <th>Trust</th>
+                  <th>Items</th>
+                  <th>Checked</th>
+                </tr>
+              </thead>
+              <tbody id="sources-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="view" id="view-calendar">
+          <div id="calendar-list" class="calendar-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
