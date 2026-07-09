@@ -23,7 +23,7 @@
     "trust": "lead",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T14:41:37.689Z",
+    "createdAt": "2026-07-09T14:53:22.088Z",
     "id": "c4f0adb87a8dfd89",
     "matchScore": 100,
     "priority": "A",
@@ -43,7 +43,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "线索待核验",
     "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Humboldt Research Fellowship for Postdoctoral Researchers",
@@ -65,7 +65,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T14:41:37.689Z",
+    "createdAt": "2026-07-09T14:53:22.088Z",
     "id": "1411a9a5c5c5768d",
     "matchScore": 71,
     "priority": "B",
@@ -77,7 +77,7 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "PhD Research Fellow in computer science/AI for energy informatics (ref 305184)",
@@ -98,7 +98,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "6b3b9b80b0551f74",
     "matchScore": 64,
     "priority": "B",
@@ -109,7 +109,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · Research Fellow · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "RGC Junior Research Fellow Scheme",
@@ -131,7 +131,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T14:41:37.689Z",
+    "createdAt": "2026-07-09T14:53:22.088Z",
     "id": "576a05e8b695f331",
     "matchScore": 64,
     "priority": "B",
@@ -140,7 +140,7 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Fellowship",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Singapore NRF Fellowship",
@@ -162,7 +162,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T14:41:37.689Z",
+    "createdAt": "2026-07-09T14:53:22.088Z",
     "id": "bbac44b5da0bc36a",
     "matchScore": 64,
     "priority": "B",
@@ -171,7 +171,7 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Singapore · Fellowship",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Postdoctoral Fellows",
@@ -190,7 +190,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "official",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "865c6a2df15a3668",
     "matchScore": 60,
     "priority": "B",
@@ -199,7 +199,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "MSCA Postdoctoral Fellowships",
@@ -221,7 +221,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T14:41:37.689Z",
+    "createdAt": "2026-07-09T14:53:22.088Z",
     "id": "e1e5047f5f87635e",
     "matchScore": 59,
     "priority": "C",
@@ -230,7 +230,7 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Research Assistant Professor",
@@ -249,7 +249,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "official",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "8f0378d469afbb63",
     "matchScore": 57,
     "priority": "C",
@@ -258,7 +258,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Research Fellow",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "POSTDOC3",
@@ -277,7 +277,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "947a41e9411a0d70",
     "matchScore": 53,
     "priority": "C",
@@ -286,7 +286,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Global · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "POSTDOC7",
@@ -305,7 +305,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "bc0bb5114d5de285",
     "matchScore": 53,
     "priority": "C",
@@ -314,7 +314,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Global · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Date Placed",
@@ -335,7 +335,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "3192660094504ba1",
     "matchScore": 52,
     "priority": "C",
@@ -346,7 +346,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后 · statistics",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Closing Date",
@@ -367,7 +367,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "2b8bbb02556cfe0f",
     "matchScore": 52,
     "priority": "C",
@@ -378,7 +378,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后 · statistics",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Florence Nightingale Bicentenary Fellow in Statistics",
@@ -399,7 +399,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "f431feeb68b7db59",
     "matchScore": 52,
     "priority": "C",
@@ -410,7 +410,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后 · statistics",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "PhD Studentship: From Explanation to Experiment: Agentic AI for Interpreting Nucleotide Foundation Models",
@@ -431,7 +431,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "bff0041a6b1a19b1",
     "matchScore": 52,
     "priority": "C",
@@ -442,7 +442,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Faculty Profiles",
@@ -461,7 +461,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "official",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "84de6efa06c4a2e8",
     "matchScore": 50,
     "priority": "C",
@@ -470,7 +470,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Lecturer I/II",
@@ -489,7 +489,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "official",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "52b0d75c07a0100c",
     "matchScore": 50,
     "priority": "C",
@@ -498,7 +498,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Research Associate in Statistics",
@@ -519,7 +519,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "71c1dff17c63f29a",
     "matchScore": 49,
     "priority": "C",
@@ -530,7 +530,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · Research Fellow · statistics",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Postdoctoral Researcher in Immunology",
@@ -549,7 +549,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "22864598f89b5c4a",
     "matchScore": 48,
     "priority": "C",
@@ -558,7 +558,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Postdoctoral Research Associate in Stochastic Analysis",
@@ -577,7 +577,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "ad0598f43a3c9e24",
     "matchScore": 48,
     "priority": "C",
@@ -586,7 +586,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Postdoctoral Research Assistant",
@@ -605,7 +605,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "2e289867369c7dcc",
     "matchScore": 48,
     "priority": "C",
@@ -614,7 +614,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "上海交通大学医学院分子医学研究院 2026年招聘启事",
@@ -636,7 +636,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "10d60baaa87801a9",
     "matchScore": 48,
     "priority": "C",
@@ -648,7 +648,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 人工智能 / 交通",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "人工智能与数字经济广东省实验室（深圳） 多岗位启动招聘！2026年诚邀海内外人才加盟",
@@ -670,7 +670,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "c30314647b849205",
     "matchScore": 48,
     "priority": "C",
@@ -682,7 +682,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 人工智能 / 交通",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "中山大学生物安全学院 深圳985招聘博士后 | 2026年招聘博士后",
@@ -704,7 +704,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "247d9171e3e0459a",
     "matchScore": 48,
     "priority": "C",
@@ -716,7 +716,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 人工智能 / 交通",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "西湖大学免疫与基因编辑实验室 2026年招聘博士后和科研助理公告",
@@ -738,7 +738,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "396d8352b497c0b9",
     "matchScore": 48,
     "priority": "C",
@@ -750,7 +750,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 人工智能 / 交通",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "中山大学中山医学院 2026年博士后招聘公告",
@@ -772,7 +772,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "b68a8453da3b8d78",
     "matchScore": 48,
     "priority": "C",
@@ -784,7 +784,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 人工智能 / 交通",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Post-doctoral Fellow",
@@ -803,7 +803,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "official",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "02bf7cbca3b32e78",
     "matchScore": 47,
     "priority": "C",
@@ -812,7 +812,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Data Science",
@@ -833,7 +833,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "b12cad4f7e294e50",
     "matchScore": 45,
     "priority": "C",
@@ -844,7 +844,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Global · 博后 · data science",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "School of Computing and Data Sciences",
@@ -865,7 +865,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "51b7974d6e168655",
     "matchScore": 45,
     "priority": "C",
@@ -876,7 +876,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Global · 博后 · data science",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Intitute for Data Science and Artificial Intelligence",
@@ -897,7 +897,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "bf84797412bea179",
     "matchScore": 45,
     "priority": "C",
@@ -908,7 +908,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Global · 博后 · data science",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Senior Research Fellow in Public Health",
@@ -927,7 +927,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "1a6b446b9ed064f6",
     "matchScore": 45,
     "priority": "C",
@@ -936,7 +936,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · Research Fellow",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Research Fellow (Crowd Safety and Security Science)",
@@ -955,7 +955,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "6aa14dfbd2ecce20",
     "matchScore": 45,
     "priority": "C",
@@ -964,7 +964,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · Research Fellow",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Research Fellow",
@@ -983,7 +983,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "8a710c4f371eb76a",
     "matchScore": 45,
     "priority": "C",
@@ -992,7 +992,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · Research Fellow",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Research Associate in Learning to do Math with Vampires and Spiders",
@@ -1011,7 +1011,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "b35b4151670d63f8",
     "matchScore": 45,
     "priority": "C",
@@ -1020,7 +1020,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · Research Fellow",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Research Associate in Quantitative Plant Development",
@@ -1039,7 +1039,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "09af2861f59fd63d",
     "matchScore": 45,
     "priority": "C",
@@ -1048,7 +1048,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · Research Fellow",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "热招 前沿平台·广阔发展 | 首都医学科学创新中心2026年博士后研究人员招聘公告",
@@ -1069,7 +1069,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "efd9a2b1689ef99f",
     "matchScore": 44,
     "priority": "C",
@@ -1080,7 +1080,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "热招 浙商银行博士后工作站2026年招收简章",
@@ -1101,7 +1101,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "6b7d5a303dcb2ca8",
     "matchScore": 44,
     "priority": "C",
@@ -1112,7 +1112,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "热招 暨南大学经济与社会研究院2026年招聘经济学研究助理（量化与AI应用方向）公告",
@@ -1133,7 +1133,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "871150b3f22e005b",
     "matchScore": 44,
     "priority": "C",
@@ -1144,7 +1144,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "热招 北京大学医学部安浩然课题组最高年薪41w，2026年诚聘“感染免疫与微生物检验”博士后",
@@ -1165,7 +1165,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "117bfeadca872382",
     "matchScore": 44,
     "priority": "C",
@@ -1176,7 +1176,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "上海健康医学院2026年博士后招聘公告",
@@ -1197,7 +1197,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "ba33b59a41f9be75",
     "matchScore": 44,
     "priority": "C",
@@ -1208,7 +1208,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 人工智能",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "中国科学院声学研究所2026年特别研究助理（博士后）招聘启事",
@@ -1229,7 +1229,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "65c3d3573c76eeb6",
     "matchScore": 44,
     "priority": "C",
@@ -1240,7 +1240,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 人工智能",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "中国科学院金属研究所2026年公开招聘事业编制、特别研究助理岗位（博士后）",
@@ -1261,7 +1261,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "59b8dfe3bd8f5abe",
     "matchScore": 44,
     "priority": "C",
@@ -1272,7 +1272,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 人工智能",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "多岗位启动招聘！人工智能与数字经济广东省实验室（深圳）2026年诚邀海内外人才加盟",
@@ -1293,7 +1293,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "3f3f58b2480578f3",
     "matchScore": 44,
     "priority": "C",
@@ -1304,7 +1304,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 人工智能",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "深圳985招聘博士后 | 中山大学生物安全学院2026年招聘博士后",
@@ -1325,7 +1325,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "eacdcbdb2b08b4c9",
     "matchScore": 44,
     "priority": "C",
@@ -1336,7 +1336,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 人工智能",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "四川交通职业技术学院 2026年博士人才引进公告",
@@ -1357,7 +1357,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "1cb2da2003d1b6e2",
     "matchScore": 44,
     "priority": "C",
@@ -1368,7 +1368,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 交通",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "FACULTY6",
@@ -1387,7 +1387,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "d5cdfa7b2aae407c",
     "matchScore": 43,
     "priority": "C",
@@ -1396,7 +1396,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Global · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Professor/Associate/Assistant Professor in Applied Mathematics",
@@ -1417,7 +1417,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "f63bcce9a06b4f8e",
     "matchScore": 42,
     "priority": "C",
@@ -1428,7 +1428,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 教职 · applied mathematics",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Postdoctoral Researcher – Microbiology, 1 FTE, School of Biological and Chemical Sciences, 011833",
@@ -1447,7 +1447,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "5aecb2bf9a984a3b",
     "matchScore": 40,
     "priority": "C",
@@ -1456,7 +1456,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Postdoctoral position in health and quality of life at work",
@@ -1475,7 +1475,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "2662917ef7a401f5",
     "matchScore": 38,
     "priority": "D",
@@ -1484,7 +1484,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Lecturer",
@@ -1503,7 +1503,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "f090d3a389b584e5",
     "matchScore": 38,
     "priority": "D",
@@ -1512,7 +1512,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Dean of Faculty of Science",
@@ -1531,7 +1531,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "dc860d298eabc6f0",
     "matchScore": 38,
     "priority": "D",
@@ -1540,7 +1540,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Data Scientist",
@@ -1559,7 +1559,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "3f3176a617ce6871",
     "matchScore": 38,
     "priority": "D",
@@ -1568,7 +1568,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 大厂研究岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Lecturer in Language and Academic Skills for Mathematics (Teaching & Scholarship)",
@@ -1587,7 +1587,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "658ad2a0ab3c83bc",
     "matchScore": 38,
     "priority": "D",
@@ -1596,7 +1596,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Fractional Lecturer in Experiential Learning in the Faculty of Social Sciences",
@@ -1615,7 +1615,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "official",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "ed27ad6f89258dc8",
     "matchScore": 37,
     "priority": "D",
@@ -1624,7 +1624,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Senior Research Fellow",
@@ -1643,7 +1643,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "9f01d9084813a45a",
     "matchScore": 37,
     "priority": "D",
@@ -1654,7 +1654,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · Research Fellow",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "WeatherNextFast and accurate AI weather forecasting",
@@ -1676,7 +1676,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "4782d61691e449e7",
     "matchScore": 37,
     "priority": "D",
@@ -1688,7 +1688,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · algorithms / AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "AlphaEvolveDesign advanced algorithms for math and applications in computing",
@@ -1710,7 +1710,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "cd2cd43425823f11",
     "matchScore": 37,
     "priority": "D",
@@ -1722,7 +1722,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · algorithms / AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Artificial intelligence",
@@ -1743,7 +1743,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "2da8403ea67f9dd0",
     "matchScore": 33,
     "priority": "D",
@@ -1754,7 +1754,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Algorithms",
@@ -1775,7 +1775,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "8507b27049602b20",
     "matchScore": 33,
     "priority": "D",
@@ -1786,7 +1786,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · algorithms",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "AI for Science",
@@ -1807,7 +1807,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "56fa4546a6d1ced0",
     "matchScore": 33,
     "priority": "D",
@@ -1818,7 +1818,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "AI Frontiers",
@@ -1839,7 +1839,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "beccf206204d2f33",
     "matchScore": 33,
     "priority": "D",
@@ -1850,7 +1850,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Mixed Reality & AI - Cambridge",
@@ -1871,7 +1871,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "670b8f5ec4213585",
     "matchScore": 33,
     "priority": "D",
@@ -1882,7 +1882,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Mixed Reality & AI - Zurich",
@@ -1903,7 +1903,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "76b27118b2023a4b",
     "matchScore": 33,
     "priority": "D",
@@ -1914,7 +1914,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Microsoft AI",
@@ -1935,7 +1935,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "92d5f1adebc7a5ad",
     "matchScore": 33,
     "priority": "D",
@@ -1946,7 +1946,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "AI for education",
@@ -1967,7 +1967,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "061636e7145481ba",
     "matchScore": 33,
     "priority": "D",
@@ -1978,7 +1978,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Microsoft AI",
@@ -1999,7 +1999,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "74bb1225a0ef89fe",
     "matchScore": 33,
     "priority": "D",
@@ -2010,7 +2010,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Support for AI marketplace apps",
@@ -2031,7 +2031,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "50007eb501c1aa9d",
     "matchScore": 33,
     "priority": "D",
@@ -2042,7 +2042,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Earth AI",
@@ -2063,7 +2063,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "2266070a3fba9095",
     "matchScore": 33,
     "priority": "D",
@@ -2074,7 +2074,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Health AI",
@@ -2095,7 +2095,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "e0e7a4724964e6eb",
     "matchScore": 33,
     "priority": "D",
@@ -2106,7 +2106,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Science AI",
@@ -2127,7 +2127,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "d11465eefc9dc4a0",
     "matchScore": 33,
     "priority": "D",
@@ -2138,7 +2138,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Algorithms & theory",
@@ -2159,7 +2159,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "97d09977368b4f2e",
     "matchScore": 33,
     "priority": "D",
@@ -2170,7 +2170,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · algorithms",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Quantum AI",
@@ -2191,7 +2191,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "e2813a0a07fdabcf",
     "matchScore": 33,
     "priority": "D",
@@ -2202,7 +2202,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Responsible AI",
@@ -2223,7 +2223,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "c835be9072742856",
     "matchScore": 33,
     "priority": "D",
@@ -2234,7 +2234,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Tools & services Explore our latest AI models and products.",
@@ -2255,7 +2255,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "4504d78378586f6e",
     "matchScore": 33,
     "priority": "D",
@@ -2266,7 +2266,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Teams Collaborative groups tackling the world's most challenging AI problems.",
@@ -2287,7 +2287,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "fd54959ea2551ede",
     "matchScore": 33,
     "priority": "D",
@@ -2298,7 +2298,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Google AI Learn about all our AI",
@@ -2319,7 +2319,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "5be856e8ec17d1a5",
     "matchScore": 33,
     "priority": "D",
@@ -2330,7 +2330,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Google DeepMind Explore the frontier of AI",
@@ -2351,7 +2351,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "d6aa580183d42d17",
     "matchScore": 33,
     "priority": "D",
@@ -2362,7 +2362,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Google Labs Try our AI experiments",
@@ -2383,7 +2383,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "8d186c9c6ba5e142",
     "matchScore": 33,
     "priority": "D",
@@ -2394,7 +2394,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Tokyo We are interested in advancing the state of the art and applications in areas like machine learning, speech, and natural language processing. Learn more",
@@ -2415,7 +2415,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "492d5cb1fd5a5ae0",
     "matchScore": 33,
     "priority": "D",
@@ -2426,7 +2426,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · machine learning",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "MLCommons Association Measuring and improving the accuracy, safety, speed, and efficiency of AI technologies. Learn more",
@@ -2447,7 +2447,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "1ab4ae4e60a4e3e8",
     "matchScore": 33,
     "priority": "D",
@@ -2458,7 +2458,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "US Forest Service Working to advance fire modeling tools and fire spread prediction algorithms. Learn more",
@@ -2479,7 +2479,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "3e1c2b1ba457abf7",
     "matchScore": 33,
     "priority": "D",
@@ -2490,7 +2490,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · algorithms",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Products",
@@ -2511,7 +2511,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "787cb317be1ed326",
     "matchScore": 33,
     "priority": "D",
@@ -2522,7 +2522,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Research",
@@ -2543,7 +2543,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "94c34fae1b4c4bc5",
     "matchScore": 33,
     "priority": "D",
@@ -2554,7 +2554,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Responsibility",
@@ -2575,7 +2575,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "fa4ca0c0fc50c14f",
     "matchScore": 33,
     "priority": "D",
@@ -2586,7 +2586,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Societal Impact",
@@ -2607,7 +2607,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "779fc37a974ef203",
     "matchScore": 33,
     "priority": "D",
@@ -2618,7 +2618,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "GemmaBuild responsible AI applications at scale",
@@ -2639,7 +2639,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "e2897d0cf4f4ecac",
     "matchScore": 33,
     "priority": "D",
@@ -2650,7 +2650,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Gemini for Science",
@@ -2671,7 +2671,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "2eb4fcdb3f26ef39",
     "matchScore": 33,
     "priority": "D",
@@ -2682,7 +2682,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "ResponsibilityEnsuring AI safety through proactive security, even against evolving threats",
@@ -2703,7 +2703,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "7a0a6548b940885a",
     "matchScore": 33,
     "priority": "D",
@@ -2714,7 +2714,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "NewsDiscover our latest AI breakthroughs, projects, and updates",
@@ -2735,7 +2735,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "fd3002b309724739",
     "matchScore": 33,
     "priority": "D",
@@ -2746,7 +2746,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Our National Partnerships for AI",
@@ -2767,7 +2767,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "0846529f3b54f8ef",
     "matchScore": 33,
     "priority": "D",
@@ -2778,7 +2778,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Google AI Studio Build with our next-gen AI models",
@@ -2799,7 +2799,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "34673ebbdf249039",
     "matchScore": 33,
     "priority": "D",
@@ -2810,7 +2810,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "AlphaGenome",
@@ -2831,7 +2831,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "fa8d7ea70c3c8e63",
     "matchScore": 33,
     "priority": "D",
@@ -2842,7 +2842,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Google AI Studio",
@@ -2863,7 +2863,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "937ce36293a1ceec",
     "matchScore": 33,
     "priority": "D",
@@ -2874,7 +2874,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "AI for Science",
@@ -2895,7 +2895,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "3f1c7d7e333b4d21",
     "matchScore": 33,
     "priority": "D",
@@ -2906,7 +2906,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Responsible AI",
@@ -2927,7 +2927,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "183fc6b8a2e5561d",
     "matchScore": 33,
     "priority": "D",
@@ -2938,7 +2938,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Postdoctoral Research Scientist in Computational Biology",
@@ -2957,7 +2957,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "c74806af0aee1d95",
     "matchScore": 32,
     "priority": "D",
@@ -2969,7 +2969,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "First Stage Researcher (R1)",
@@ -2988,7 +2988,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "2a59cad30e45078b",
     "matchScore": 30,
     "priority": "D",
@@ -2997,7 +2997,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · 大厂研究岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Established Researcher (R3)",
@@ -3016,7 +3016,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "a0e3409b0ba91696",
     "matchScore": 30,
     "priority": "D",
@@ -3025,7 +3025,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · 大厂研究岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Statistics Lead and Teaching Fellow (MASH)",
@@ -3046,7 +3046,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "3e081ef8436ea43d",
     "matchScore": 30,
     "priority": "D",
@@ -3057,7 +3057,7 @@
     "roleLabelZh": "教学岗",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 教学岗 · statistics",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Recognised Researcher (R2)",
@@ -3076,7 +3076,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "a2bf782edad2991e",
     "matchScore": 28,
     "priority": "D",
@@ -3085,7 +3085,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · 大厂研究岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Research Assistant Professor Posts",
@@ -3104,7 +3104,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "official",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "6a3ec270ae6c9539",
     "matchScore": 24,
     "priority": "D",
@@ -3115,7 +3115,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Research Fellow",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Researcher position in Computational Biology & Gene Regulation (ref 305180)",
@@ -3134,7 +3134,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "f0a44ede88750326",
     "matchScore": 22,
     "priority": "D",
@@ -3145,7 +3145,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · 大厂研究岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Assistant Professor (research and teaching post) in the discipline of of Biological Sciences",
@@ -3164,7 +3164,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "6a127c8075d85ee1",
     "matchScore": 22,
     "priority": "D",
@@ -3175,7 +3175,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "For Researchers",
@@ -3194,7 +3194,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "e53373d952cd83e6",
     "matchScore": 18,
     "priority": "D",
@@ -3203,7 +3203,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · 大厂研究岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "ResearchComp",
@@ -3222,7 +3222,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "4ffc96df5bcbba71",
     "matchScore": 18,
     "priority": "D",
@@ -3231,7 +3231,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · 大厂研究岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "POSTDOCNEMT",
@@ -3250,7 +3250,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "fdf6f44b79c6f2ae",
     "matchScore": 16,
     "priority": "D",
@@ -3259,7 +3259,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Global · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "POSTDOCS",
@@ -3278,7 +3278,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "ff9dee9f57c55f14",
     "matchScore": 16,
     "priority": "D",
@@ -3287,7 +3287,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Global · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "医疗单位博士后招收",
@@ -3306,7 +3306,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "694d41b50f5fe7a5",
     "matchScore": 15,
     "priority": "D",
@@ -3315,7 +3315,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "2026年上半年在站/出站博士后与归国博士（北京）峰会",
@@ -3334,7 +3334,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "aa6a5a9a16991f02",
     "matchScore": 15,
     "priority": "D",
@@ -3343,7 +3343,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "最高年薪可达68万 | 上海中医药大学国海东课题组2026年博士后招聘公告",
@@ -3362,7 +3362,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "d13b9328cd8fdc10",
     "matchScore": 15,
     "priority": "D",
@@ -3371,7 +3371,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "2026年博士后招聘公告详情",
@@ -3390,7 +3390,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "f523dad482c0065e",
     "matchScore": 15,
     "priority": "D",
@@ -3399,7 +3399,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "头条！ 与科创同行！浙大杭州国际科创中心2026年“奔竞博士后”项目招募公告",
@@ -3418,7 +3418,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "177827cbef8366ef",
     "matchScore": 15,
     "priority": "D",
@@ -3427,7 +3427,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "博士后岗位JD里的潜台词：从14个高频热词，看当下博士后的供需图景",
@@ -3446,7 +3446,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "f5c893c90f06304d",
     "matchScore": 15,
     "priority": "D",
@@ -3455,7 +3455,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "博士后双城记：深圳的高薪与成都的宜居，谁更能留住你？",
@@ -3474,7 +3474,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "a4248b52fff83f08",
     "matchScore": 15,
     "priority": "D",
@@ -3483,7 +3483,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "谁在“卷”博士后？杭州VS深圳，2900条真实岗位数据告诉你答案",
@@ -3502,7 +3502,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "c4fa192c16e172c3",
     "matchScore": 15,
     "priority": "D",
@@ -3511,7 +3511,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "中国的博士后可申请的基金项目攻略（含政策变化与申报时间）",
@@ -3530,7 +3530,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "1d59854e80160dbb",
     "matchScore": 15,
     "priority": "D",
@@ -3539,7 +3539,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "博士去大专，被要求“先做博士后”",
@@ -3558,7 +3558,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "5dcf73ff76bf45ae",
     "matchScore": 15,
     "priority": "D",
@@ -3567,7 +3567,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "中国科协创新战略研究院 2026年博士后招聘公告",
@@ -3586,7 +3586,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "4bcf14e2e2a5e523",
     "matchScore": 15,
     "priority": "D",
@@ -3595,7 +3595,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "深圳市人民医院 2026年度博士后招聘简章",
@@ -3614,7 +3614,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "151bf9b1129e1205",
     "matchScore": 15,
     "priority": "D",
@@ -3623,7 +3623,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "高级研究人员（正/副研究员）",
@@ -3642,7 +3642,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "571ed49d6efadf24",
     "matchScore": 12,
     "priority": "D",
@@ -3651,7 +3651,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · Research Fellow",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "高级研究人员（正/副研究员）",
@@ -3670,7 +3670,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "81788a84946021c2",
     "matchScore": 12,
     "priority": "D",
@@ -3679,7 +3679,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · Research Fellow",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Vol.207 异地校区教职offer接不接？",
@@ -3698,7 +3698,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "101697f7a971e754",
     "matchScore": 5,
     "priority": "D",
@@ -3707,7 +3707,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "这个博士生24岁创业，57岁教授辞了终身教职来加入",
@@ -3726,7 +3726,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "ef10eacbf41ab77c",
     "matchScore": 5,
     "priority": "D",
@@ -3735,7 +3735,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "无编教职工转正新趋势？高校试水“积分入编”",
@@ -3754,7 +3754,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "5de2843e23669a6b",
     "matchScore": 5,
     "priority": "D",
@@ -3763,7 +3763,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Faculty programs Participating in the academic research community through meaningful engagement with university faculty.",
@@ -3782,7 +3782,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "b8bb628d7042332a",
     "matchScore": 4,
     "priority": "D",
@@ -3791,7 +3791,7 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 教职",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Senior Data Scientist – Worldwide Incentive Readiness & Rewards",
@@ -3812,7 +3812,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "c357751e39d4a26e",
     "matchScore": 0,
     "priority": "D",
@@ -3823,7 +3823,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Principal Applied Scientist – AI Web Data team",
@@ -3844,7 +3844,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "4eb5cf5c128a1995",
     "matchScore": 0,
     "priority": "D",
@@ -3855,7 +3855,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Researcher – Microsoft Research",
@@ -3876,7 +3876,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "645ac6fd6468a256",
     "matchScore": 0,
     "priority": "D",
@@ -3887,7 +3887,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · machine learning",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Senior Systems Research Engineer – Research Engineering – MSR Cambridge",
@@ -3909,7 +3909,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "e197ca536c2c57ce",
     "matchScore": 0,
     "priority": "D",
@@ -3921,7 +3921,7 @@
     "roleLabelZh": "研究工程岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 研究工程岗 · machine learning / AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Senior Machine Learning Research Engineer – Research Engineering – MSR Cambridge",
@@ -3942,7 +3942,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "85942393255cfc50",
     "matchScore": 0,
     "priority": "D",
@@ -3953,7 +3953,7 @@
     "roleLabelZh": "研究工程岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 研究工程岗 · machine learning",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Senior Applied Scientist – Frontier Tuning",
@@ -3974,7 +3974,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "f0700e35f036892e",
     "matchScore": 0,
     "priority": "D",
@@ -3985,7 +3985,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Senior Data Scientist – Worldwide Incentive Compensation",
@@ -4004,7 +4004,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "73b07e2e30c26963",
     "matchScore": 0,
     "priority": "D",
@@ -4013,7 +4013,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Senior Data Scientist – Industry Solutions Engineering",
@@ -4034,7 +4034,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "f9b1ce32fdab4221",
     "matchScore": 0,
     "priority": "D",
@@ -4045,7 +4045,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Principal Applied Scientist – CoreAI",
@@ -4066,7 +4066,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "79b51b19007f1748",
     "matchScore": 0,
     "priority": "D",
@@ -4077,7 +4077,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗 · AI",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "Principal Data Scientist – Industry Solutions Engineering",
@@ -4096,7 +4096,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "company",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "4196428ffaeef02e",
     "matchScore": 0,
     "priority": "D",
@@ -4105,7 +4105,7 @@
     "roleLabelZh": "大厂研究岗",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Global · 大厂研究岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "教学科研人才招聘",
@@ -4124,7 +4124,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "6186f518340d544f",
     "matchScore": 0,
     "priority": "D",
@@ -4133,7 +4133,7 @@
     "roleLabelZh": "教学岗",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 教学岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "专职教师/教学科研岗",
@@ -4152,7 +4152,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "2f5c33a29fa562c9",
     "matchScore": 0,
     "priority": "D",
@@ -4161,7 +4161,7 @@
     "roleLabelZh": "教学岗",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 教学岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "医学教学/科研人才",
@@ -4180,7 +4180,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "9d2c588659dfd897",
     "matchScore": 0,
     "priority": "D",
@@ -4189,7 +4189,7 @@
     "roleLabelZh": "教学岗",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 教学岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "其他教学/行政支撑岗",
@@ -4208,7 +4208,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "ce07444639ff4096",
     "matchScore": 0,
     "priority": "D",
@@ -4217,7 +4217,7 @@
     "roleLabelZh": "教学岗",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 教学岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "招揽全球英才，智造时代未来！沈阳农业大学信息与电气工程学院2026年教学科研人员招聘公告",
@@ -4236,7 +4236,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "661f218878316831",
     "matchScore": 0,
     "priority": "D",
@@ -4245,7 +4245,7 @@
     "roleLabelZh": "教学岗",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 教学岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "中国农业大学萨里大学联合学院2026年教学管理人员岗位招聘公告（非事业编）",
@@ -4264,7 +4264,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "41191559c3c2d5e6",
     "matchScore": 0,
     "priority": "D",
@@ -4273,7 +4273,7 @@
     "roleLabelZh": "教学岗",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 教学岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "醉心教学的老师也能做好科研",
@@ -4292,7 +4292,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "c7874278d90a14d1",
     "matchScore": 0,
     "priority": "D",
@@ -4301,7 +4301,7 @@
     "roleLabelZh": "教学岗",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 教学岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   },
   {
     "title": "陕西师范大学国际商学院 2026年教学科研人员招聘公告",
@@ -4320,7 +4320,7 @@
     "fieldRelevantSource": false,
     "status": "new",
     "trust": "aggregator",
-    "fetchedAt": "2026-07-09T14:41:37.689Z",
+    "fetchedAt": "2026-07-09T14:53:22.088Z",
     "id": "ad72c2a8a4090e18",
     "matchScore": 0,
     "priority": "D",
@@ -4329,6 +4329,6 @@
     "roleLabelZh": "教学岗",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 教学岗",
-    "updatedAt": "2026-07-09T14:41:37.689Z"
+    "updatedAt": "2026-07-09T14:53:22.088Z"
   }
 ]

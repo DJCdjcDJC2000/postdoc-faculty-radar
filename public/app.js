@@ -359,6 +359,7 @@ function showJobDetail(jobId) {
         ["起始时间", job.startDate ?? "待核验"]
       ]))}
       ${state.data.mode === "private" ? detailSection("行动记录", renderPrivateJobState(job)) : ""}
+      ${detailSection("关联人物和路径样本", renderRelatedPeople(job))}
       ${detailSection("AI 分析", `
         <p class="ai-notice">${escapeHtml(job.ai?.notice ?? "AI 辅助生成，需核验")}</p>
         <p>${escapeHtml(job.ai?.riskZh ?? "")}</p>
@@ -386,6 +387,7 @@ function showPersonDetail(personId) {
       <h2>${escapeHtml(person.name)}</h2>
       <p class="muted">${escapeHtml(person.currentPosition || "")} · ${escapeHtml(person.currentInstitution || "")}</p>
       ${detailSection("职业路径摘要", `<p>${escapeHtml(person.ai?.careerPathZh ?? person.pathSummaryZh ?? "")}</p>`)}
+      ${detailSection("职业路线图", renderPersonTimeline(person))}
       ${detailSection("背景表格", infoList([
         ["PhD 机构", person.phdInstitution],
         ["PhD 年份", person.phdYear],
@@ -507,6 +509,8 @@ function routeCard(route) {
 }
 
 function routeDetailCard(route) {
+  const jobs = routeJobs(route, 4);
+  const people = routePeople(route, 3);
   return `
     <article class="route-detail">
       <div class="route-index">${String(route.order).padStart(2, "0")}</div>
@@ -517,6 +521,10 @@ function routeDetailCard(route) {
         ${routeColumn("准备清单", route.preparationZh)}
         ${routeColumn("风险提醒", route.risksZh)}
         ${routeColumn("下一步行动", route.nextActionsZh)}
+      </div>
+      <div class="route-linked">
+        ${linkedJobList("代表机会", jobs)}
+        ${linkedPersonList("相关案例", people)}
       </div>
     </article>
   `;
@@ -639,6 +647,129 @@ function reasonList(title, values = []) {
 
 function routeColumn(title, values = []) {
   return `<div>${reasonList(title, values)}</div>`;
+}
+
+function routeJobs(route, limit = 4) {
+  const regions = new Set(route.regions ?? []);
+  const roleTypes = new Set(route.roleTypes ?? []);
+  return [...(state.data.jobs ?? [])]
+    .filter((job) => job.recordType !== "watch_seed")
+    .filter((job) => (!regions.size || regions.has(job.region)) && (!roleTypes.size || roleTypes.has(job.roleType)))
+    .sort(compareJobs)
+    .slice(0, limit);
+}
+
+function routePeople(route, limit = 3) {
+  return sortedPeople()
+    .filter((person) => personMatchesRoute(person, route))
+    .slice(0, limit);
+}
+
+function personMatchesRoute(person, route) {
+  const personHaystack = [
+    person.currentRoleType,
+    person.currentPosition,
+    person.currentInstitution,
+    ...(person.fieldTags ?? [])
+  ].join(" ").toLowerCase();
+  if ((route.regions ?? []).some((region) => personHaystack.includes(String(region).toLowerCase()))) return true;
+  return (person.fieldTags ?? []).some((tag) => routeText(route).includes(String(tag).toLowerCase()));
+}
+
+function routeText(route) {
+  return [
+    route.titleZh,
+    route.fitZh,
+    ...(route.timelineZh ?? []),
+    ...(route.preparationZh ?? []),
+    ...(route.risksZh ?? []),
+    ...(route.nextActionsZh ?? [])
+  ].join(" ").toLowerCase();
+}
+
+function linkedJobList(title, jobs) {
+  return `
+    <div class="linked-block">
+      <strong>${escapeHtml(title)}</strong>
+      ${jobs.length ? `<div class="linked-list">${jobs.map((job) => `
+        <button class="linked-row" data-job-id="${escapeAttr(job.id)}">
+          ${scoreBadge(job)}
+          <span>
+            <b>${escapeHtml(job.title)}</b>
+            <small>${escapeHtml([job.institution || job.sourceName, job.region, job.roleLabelZh].filter(Boolean).join(" · "))}</small>
+          </span>
+        </button>
+      `).join("")}</div>` : `<p class="muted">暂无匹配代表机会。</p>`}
+    </div>
+  `;
+}
+
+function linkedPersonList(title, people) {
+  return `
+    <div class="linked-block">
+      <strong>${escapeHtml(title)}</strong>
+      ${people.length ? `<div class="linked-list">${people.map((person) => `
+        <button class="linked-row" data-person-id="${escapeAttr(person.id)}">
+          <span class="trust-label">${escapeHtml(person.priority ?? "P?")}</span>
+          <span>
+            <b>${escapeHtml(person.name)}</b>
+            <small>${escapeHtml([person.currentPosition, person.currentInstitution].filter(Boolean).join(" · "))}</small>
+          </span>
+        </button>
+      `).join("")}</div>` : `<p class="muted">案例库仍在补充。</p>`}
+    </div>
+  `;
+}
+
+function renderRelatedPeople(job) {
+  const people = relatedPeopleForJob(job);
+  if (!people.length) {
+    return `<p class="muted">暂无直接关联人物。后续会从 PI、课题组和公开入职路径中补充。</p>`;
+  }
+  return linkedPersonList("可参考人物", people);
+}
+
+function relatedPeopleForJob(job) {
+  const jobTerms = new Set([
+    job.region,
+    job.country,
+    job.roleType,
+    job.roleLabelZh,
+    ...(job.matchedKeywords ?? []),
+    ...(job.keywords ?? [])
+  ].filter(Boolean).map((item) => String(item).toLowerCase()));
+  return sortedPeople()
+    .map((person) => {
+      const personTerms = [
+        person.currentRoleType,
+        person.currentPosition,
+        person.currentInstitution,
+        ...(person.fieldTags ?? [])
+      ].filter(Boolean).map((item) => String(item).toLowerCase());
+      const overlap = personTerms.filter((term) => [...jobTerms].some((jobTerm) => jobTerm.includes(term) || term.includes(jobTerm))).length;
+      return { person, overlap };
+    })
+    .filter((item) => item.overlap > 0)
+    .sort((a, b) => b.overlap - a.overlap)
+    .slice(0, 4)
+    .map((item) => item.person);
+}
+
+function renderPersonTimeline(person) {
+  const steps = [
+    ["PhD", [person.phdInstitution, person.phdYear].filter(Boolean).join(" · ")],
+    ["Postdoc / Research Fellow", (person.postdocHistory ?? []).map((item) => `${item.institution} ${item.years ?? ""}`).join("；")],
+    ["当前岗位", [person.currentPosition, person.currentInstitution].filter(Boolean).join(" · ")],
+    ["公开证据", evidenceSummary(person)]
+  ].filter(([, value]) => value);
+  if (!steps.length) return `<p class="muted">公开路线信息待补充。</p>`;
+  return `<ol class="path-timeline">${steps.map(([label, value]) => `<li><span>${escapeHtml(label)}</span><p>${escapeHtml(value)}</p></li>`).join("")}</ol>`;
+}
+
+function evidenceSummary(person) {
+  const evidence = person.evidence ?? [];
+  if (!evidence.length) return "";
+  return evidence.map((item) => `${item.type ?? "source"} · ${item.confidence ?? "待核验"}`).join("；");
 }
 
 function renderPrivateJobState(job) {
