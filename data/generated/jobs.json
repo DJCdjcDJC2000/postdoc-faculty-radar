@@ -23,7 +23,7 @@
     "trust": "lead",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T15:51:02.293Z",
+    "createdAt": "2026-07-09T16:37:03.501Z",
     "id": "c4f0adb87a8dfd89",
     "matchScore": 100,
     "priority": "A",
@@ -44,7 +44,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "线索待核验",
     "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-    "updatedAt": "2026-07-09T15:51:02.293Z"
+    "updatedAt": "2026-07-09T16:37:03.501Z"
   },
   {
     "title": "Humboldt Research Fellowship for Postdoctoral Researchers",
@@ -66,7 +66,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T15:51:02.293Z",
+    "createdAt": "2026-07-09T16:37:03.501Z",
     "id": "1411a9a5c5c5768d",
     "matchScore": 74,
     "priority": "B",
@@ -79,7 +79,7 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-    "updatedAt": "2026-07-09T15:51:02.293Z"
+    "updatedAt": "2026-07-09T16:37:03.501Z"
   },
   {
     "title": "RGC Junior Research Fellow Scheme",
@@ -101,7 +101,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T15:51:02.293Z",
+    "createdAt": "2026-07-09T16:37:03.501Z",
     "id": "576a05e8b695f331",
     "matchScore": 64,
     "priority": "B",
@@ -111,7 +111,7 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Fellowship",
-    "updatedAt": "2026-07-09T15:51:02.293Z"
+    "updatedAt": "2026-07-09T16:37:03.501Z"
   },
   {
     "title": "Singapore NRF Fellowship",
@@ -133,7 +133,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T15:51:02.293Z",
+    "createdAt": "2026-07-09T16:37:03.501Z",
     "id": "bbac44b5da0bc36a",
     "matchScore": 64,
     "priority": "B",
@@ -143,7 +143,7 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Singapore · Fellowship",
-    "updatedAt": "2026-07-09T15:51:02.293Z"
+    "updatedAt": "2026-07-09T16:37:03.501Z"
   },
   {
     "title": "MSCA Postdoctoral Fellowships",
@@ -165,7 +165,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T15:51:02.293Z",
+    "createdAt": "2026-07-09T16:37:03.501Z",
     "id": "e1e5047f5f87635e",
     "matchScore": 59,
     "priority": "C",
@@ -175,7 +175,7 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship",
-    "updatedAt": "2026-07-09T15:51:02.293Z"
+    "updatedAt": "2026-07-09T16:37:03.501Z"
   },
   {
     "title": "Postdoctoral Research Associate in Stochastic Analysis",
@@ -196,7 +196,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T15:51:02.293Z",
+    "fetchedAt": "2026-07-09T16:37:03.501Z",
     "id": "ad0598f43a3c9e24",
     "matchScore": 53,
     "priority": "C",
@@ -208,7 +208,7 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后 · stochastic analysis",
-    "updatedAt": "2026-07-09T15:51:02.293Z"
+    "updatedAt": "2026-07-09T16:37:03.501Z"
   },
   {
     "title": "Research Assistant Professor",
@@ -227,7 +227,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "official",
-    "fetchedAt": "2026-07-09T15:51:02.293Z",
+    "fetchedAt": "2026-07-09T16:37:03.501Z",
     "id": "8f0378d469afbb63",
     "matchScore": 45,
     "priority": "C",
@@ -239,7 +239,7 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Research Fellow",
-    "updatedAt": "2026-07-09T15:51:02.293Z"
+    "updatedAt": "2026-07-09T16:37:03.501Z"
   },
   {
     "title": "Professor/Associate/Assistant Professor in Applied Mathematics",
@@ -260,7 +260,7 @@
     "fieldRelevantSource": true,
     "status": "new",
     "trust": "academic_board",
-    "fetchedAt": "2026-07-09T15:51:02.293Z",
+    "fetchedAt": "2026-07-09T16:37:03.501Z",
     "id": "f63bcce9a06b4f8e",
     "matchScore": 43,
     "priority": "C",
@@ -272,6 +272,6 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 教职 · applied mathematics",
-    "updatedAt": "2026-07-09T15:51:02.293Z"
+    "updatedAt": "2026-07-09T16:37:03.501Z"
   }
 ]

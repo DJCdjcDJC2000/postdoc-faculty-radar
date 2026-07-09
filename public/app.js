@@ -452,6 +452,7 @@ function showLabDetail(labId) {
       ${detailSection("基本信息", infoList([
         ["学校/院系", [lab.institution, lab.department].filter(Boolean).join(" / ")],
         ["QS 范围", [lab.schoolScope, lab.qsRankDisplay].filter(Boolean).join(" · ")],
+        ["权威等级", lab.authorityLevel],
         ["地区", [lab.country, lab.region].filter(Boolean).join(" / ")],
         ["课题组", lab.groupName],
         ["导师主页", link(lab.homepage, "打开导师主页")],
@@ -486,6 +487,7 @@ function showPersonDetail(personId) {
         ["导师", person.advisor],
         ["Postdoc 经历", (person.postdocHistory ?? []).map((item) => `${item.institution} ${item.years ?? ""}`).join("；")],
         ["当前岗位类型", person.currentRoleType],
+        ["权威/阶段", person.authorityLevel],
         ["可信度", person.confidence],
         ["公开主页", link(person.homepage, "打开主页")],
         ["Google Scholar", link(person.googleScholar, "打开 Scholar")]

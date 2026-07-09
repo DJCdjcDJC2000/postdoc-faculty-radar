@@ -8,7 +8,8 @@ const projectRoot = path.resolve(import.meta.dirname, "..");
 test("target labs are QS-scoped and evidence-backed", () => {
   const labs = readJson("data/manual/labs.json");
 
-  assert.ok(labs.length >= 10);
+  assert.ok(labs.length >= 20);
+  assert.ok(labs.filter((lab) => lab.authorityLevel).length >= 10);
   assert.ok(labs.some((lab) => String(lab.recruitmentStatus).includes("active")));
   assert.ok(labs.some((lab) => lab.region === "Hong Kong"));
   assert.ok(labs.some((lab) => lab.region === "Singapore"));
@@ -28,7 +29,9 @@ test("young scholar cases include background, works, and evidence", () => {
   const people = readJson("data/manual/people.json");
   const youngCases = people.filter((person) => String(person.kind).includes("young"));
 
-  assert.ok(youngCases.length >= 5);
+  assert.ok(people.length >= 12);
+  assert.ok(youngCases.length >= 10);
+  assert.ok(people.filter((person) => person.authorityLevel).length >= 7);
   for (const person of people) {
     assert.ok(person.homepage);
     assert.ok(person.currentPosition);

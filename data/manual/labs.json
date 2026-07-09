@@ -784,5 +784,600 @@
         "confidence": "A"
       }
     ]
+  },
+  {
+    "id": "stanford-boyd-convex-optimization",
+    "leadName": "Stephen Boyd",
+    "leadNameZh": "",
+    "institution": "Stanford University",
+    "department": "Department of Electrical Engineering",
+    "country": "United States",
+    "region": "United States",
+    "qsRank2027": 3,
+    "qsRankDisplay": "#=3",
+    "schoolScope": "QS 2027 Top 50",
+    "authorityLevel": "国际顶级：凸优化领域标杆，学术影响力高于普通教授样本",
+    "groupName": "Convex Optimization and Applications",
+    "homepage": "https://stanford.edu/~boyd/",
+    "groupHomepage": "https://web.stanford.edu/~boyd/cvxbook/",
+    "openingsUrl": "",
+    "recruitmentStatus": "elite_watch",
+    "recruitmentSignalZh": "未见常驻 postdoc openings；作为凸优化标杆组和课程/教材资源长期跟踪。",
+    "matchLevel": "A",
+    "matchScore": 99,
+    "fieldTags": [
+      "convex optimization",
+      "numerical optimization",
+      "optimization modeling",
+      "control",
+      "signal processing"
+    ],
+    "fitZh": "Boyd 是凸优化方向全球标杆；虽然不一定适合作为直接 postdoc host，但其课程、教材、软件和论文是优化方向职业定位的最高参照之一。",
+    "whyTrackZh": "如果你的研究计划需要把随机互补/变分不等式与凸优化、建模语言或工程系统连接，这个组的学术表达方式非常值得学习。",
+    "potentialRoutes": [
+      "elite benchmark for research positioning",
+      "Stanford MS&E/ICME/EE related postdoc watch",
+      "collaboration network watch"
+    ],
+    "representativeWorks": [
+      {
+        "title": "Convex Optimization",
+        "year": "2004",
+        "url": "https://web.stanford.edu/~boyd/cvxbook/"
+      },
+      {
+        "title": "CVX: Matlab Software for Disciplined Convex Programming",
+        "year": "",
+        "url": "https://cvxr.com/cvx/"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "qs_ranking",
+        "url": "https://www.topuniversities.com/universities/stanford-university",
+        "confidence": "A"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://stanford.edu/~boyd/",
+        "confidence": "A"
+      },
+      {
+        "type": "official_book",
+        "url": "https://web.stanford.edu/~boyd/cvxbook/",
+        "confidence": "A"
+      }
+    ]
+  },
+  {
+    "id": "stanford-yinyu-ye-optimization",
+    "leadName": "Yinyu Ye",
+    "leadNameZh": "叶荫宇",
+    "institution": "Stanford University",
+    "department": "Department of Management Science and Engineering",
+    "country": "United States",
+    "region": "United States",
+    "qsRank2027": 3,
+    "qsRankDisplay": "#=3",
+    "schoolScope": "QS 2027 Top 50",
+    "authorityLevel": "国际顶级：内点法、线性/锥优化、算法理论标杆",
+    "groupName": "Optimization, Data Science, and Algorithmic Decision Making",
+    "homepage": "https://web.stanford.edu/~yyye/",
+    "groupHomepage": "https://msande.stanford.edu/",
+    "openingsUrl": "",
+    "recruitmentStatus": "elite_watch",
+    "recruitmentSignalZh": "未见常驻 openings；作为优化算法理论和 Stanford MS&E 网络重点跟踪。",
+    "matchLevel": "A",
+    "matchScore": 97,
+    "fieldTags": [
+      "interior point methods",
+      "linear programming",
+      "semidefinite programming",
+      "convex optimization",
+      "online optimization"
+    ],
+    "fitZh": "叶荫宇是优化算法理论的世界级学者；与半定规划、内点法、锥优化和数值优化高度相关。",
+    "whyTrackZh": "适合作为高水平理论优化路线参照，也可用于判断你的研究计划是否具备国际优化社区可识别的理论贡献。",
+    "potentialRoutes": [
+      "elite benchmark",
+      "Stanford MS&E related postdoc watch",
+      "seminar/network watch"
+    ],
+    "representativeWorks": [
+      {
+        "title": "Interior Point Algorithms: Theory and Analysis",
+        "year": "1997",
+        "url": "https://web.stanford.edu/~yyye/"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "qs_ranking",
+        "url": "https://www.topuniversities.com/universities/stanford-university",
+        "confidence": "A"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://web.stanford.edu/~yyye/",
+        "confidence": "A"
+      }
+    ]
+  },
+  {
+    "id": "mit-bertsimas-analytics-optimization",
+    "leadName": "Dimitris Bertsimas",
+    "leadNameZh": "",
+    "institution": "Massachusetts Institute of Technology",
+    "department": "MIT Sloan School of Management / Operations Research Center",
+    "country": "United States",
+    "region": "United States",
+    "qsRank2027": 1,
+    "qsRankDisplay": "#1",
+    "schoolScope": "QS 2027 Top 50",
+    "authorityLevel": "国际顶级：运筹优化、robust optimization、analytics 领域标杆",
+    "groupName": "Operations Research, Robust Optimization and Analytics",
+    "homepage": "https://www.mit.edu/~dbertsim/",
+    "groupHomepage": "https://orc.mit.edu/",
+    "openingsUrl": "https://orc.mit.edu/",
+    "recruitmentStatus": "elite_watch_department",
+    "recruitmentSignalZh": "MIT ORC 是长期 postdoc/PhD/visitor 网络入口；具体 postdoc 需按 MIT/ORC 项目逐次核验。",
+    "matchLevel": "A",
+    "matchScore": 98,
+    "fieldTags": [
+      "robust optimization",
+      "stochastic optimization",
+      "operations research",
+      "analytics",
+      "integer optimization"
+    ],
+    "fitZh": "Bertsimas 是 robust optimization 和 analytics 方向国际顶级学者；与随机优化、鲁棒优化和应用运筹高度相关。",
+    "whyTrackZh": "MIT QS 第 1，组和 ORC 的职业网络极强，但竞争极高，适合标为长期顶级 watch。",
+    "potentialRoutes": [
+      "MIT ORC postdoc/project watch",
+      "collaboration-first contact",
+      "elite benchmark for robust optimization"
+    ],
+    "representativeWorks": [
+      {
+        "title": "The Price of Robustness",
+        "year": "2004",
+        "url": "https://www.mit.edu/~dbertsim/"
+      },
+      {
+        "title": "Data, Models, and Decisions",
+        "year": "",
+        "url": "https://www.mit.edu/~dbertsim/"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "qs_ranking",
+        "url": "https://www.topuniversities.com/universities/massachusetts-institute-technology-mit",
+        "confidence": "A"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.mit.edu/~dbertsim/",
+        "confidence": "A"
+      },
+      {
+        "type": "official_department",
+        "url": "https://orc.mit.edu/",
+        "confidence": "A"
+      }
+    ]
+  },
+  {
+    "id": "cornell-adrian-lewis-nonsmooth",
+    "leadName": "Adrian S. Lewis",
+    "leadNameZh": "",
+    "institution": "Cornell University",
+    "department": "School of Operations Research and Information Engineering",
+    "country": "United States",
+    "region": "United States",
+    "qsRank2027": 16,
+    "qsRankDisplay": "#=16",
+    "schoolScope": "QS 2027 Top 50",
+    "authorityLevel": "国际顶级：非光滑优化、变分分析、优化理论标杆",
+    "groupName": "Nonsmooth and Variational Optimization",
+    "homepage": "https://people.orie.cornell.edu/aslewis/",
+    "groupHomepage": "https://www.orie.cornell.edu/",
+    "openingsUrl": "https://www.orie.cornell.edu/orie/about/careers",
+    "recruitmentStatus": "elite_watch_department",
+    "recruitmentSignalZh": "未见个人常驻 postdoc openings；Cornell ORIE career 页面和项目 postdoc 需要定期监控。",
+    "matchLevel": "A",
+    "matchScore": 96,
+    "fieldTags": [
+      "nonsmooth optimization",
+      "variational analysis",
+      "matrix optimization",
+      "convex analysis",
+      "optimization theory"
+    ],
+    "fitZh": "非光滑优化与 Chen 老师方向中的 nonsmooth/complementarity 理论语言非常接近，是北美顶级理论优化参照。",
+    "whyTrackZh": "Cornell ORIE 是优化理论强系；即使不直接招聘，也值得用于构建非光滑优化学术谱系。",
+    "potentialRoutes": [
+      "Cornell ORIE postdoc watch",
+      "elite benchmark",
+      "seminar/network watch"
+    ],
+    "representativeWorks": [
+      {
+        "title": "Nonsmooth Analysis and Optimization",
+        "year": "",
+        "url": "https://people.orie.cornell.edu/aslewis/"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "qs_ranking",
+        "url": "https://www.topuniversities.com/universities/cornell-university",
+        "confidence": "A"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://people.orie.cornell.edu/aslewis/",
+        "confidence": "A"
+      },
+      {
+        "type": "official_department",
+        "url": "https://www.orie.cornell.edu/",
+        "confidence": "A"
+      }
+    ]
+  },
+  {
+    "id": "princeton-amir-ali-ahmadi",
+    "leadName": "Amir Ali Ahmadi",
+    "leadNameZh": "",
+    "institution": "Princeton University",
+    "department": "Department of Operations Research and Financial Engineering",
+    "country": "United States",
+    "region": "United States",
+    "qsRank2027": 27,
+    "qsRankDisplay": "#27",
+    "schoolScope": "QS 2027 Top 50",
+    "authorityLevel": "国际顶级/中生代强 PI：非凸优化、多项式优化、动力系统与控制",
+    "groupName": "Optimization and Dynamical Systems",
+    "homepage": "https://aaa.princeton.edu/",
+    "groupHomepage": "https://orfe.princeton.edu/",
+    "openingsUrl": "",
+    "recruitmentStatus": "elite_watch",
+    "recruitmentSignalZh": "未见常驻 openings；适合观察 Princeton ORFE/控制/优化方向项目型 postdoc。",
+    "matchLevel": "A",
+    "matchScore": 93,
+    "fieldTags": [
+      "nonconvex optimization",
+      "polynomial optimization",
+      "semidefinite programming",
+      "dynamical systems",
+      "control"
+    ],
+    "fitZh": "与半定规划、非凸优化、理论算法高度相关；方向不完全等同互补问题，但数学优化深度很强。",
+    "whyTrackZh": "Princeton ORFE 是顶级运筹/金融工程平台，适合长期观察强理论优化组。",
+    "potentialRoutes": [
+      "Princeton ORFE postdoc watch",
+      "elite benchmark",
+      "fellowship host watch"
+    ],
+    "representativeWorks": [
+      {
+        "title": "Sum of Squares Optimization and Applications",
+        "year": "",
+        "url": "https://aaa.princeton.edu/"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "qs_ranking",
+        "url": "https://www.topuniversities.com/universities/princeton-university",
+        "confidence": "A"
+      },
+      {
+        "type": "personal_homepage",
+        "url": "https://aaa.princeton.edu/",
+        "confidence": "A"
+      },
+      {
+        "type": "official_department",
+        "url": "https://orfe.princeton.edu/",
+        "confidence": "A"
+      }
+    ]
+  },
+  {
+    "id": "eth-weismantel-discrete-optimization",
+    "leadName": "Robert Weismantel",
+    "leadNameZh": "",
+    "institution": "ETH Zurich",
+    "department": "Department of Mathematics",
+    "country": "Switzerland",
+    "region": "Europe",
+    "qsRank2027": 8,
+    "qsRankDisplay": "#=8",
+    "schoolScope": "QS 2027 Top 50",
+    "authorityLevel": "国际顶级：整数/离散优化与算法理论标杆",
+    "groupName": "Discrete Optimization",
+    "homepage": "https://math.ethz.ch/people/person-detail.MTQwNjg2.TGlzdC8zMjcsLTYxODI3OTU4.html",
+    "groupHomepage": "https://math.ethz.ch/",
+    "openingsUrl": "https://math.ethz.ch/news-and-events/jobs.html",
+    "recruitmentStatus": "elite_watch_department",
+    "recruitmentSignalZh": "ETH Math jobs 页面作为官方机会入口；个人组是否招 postdoc 需逐次核验。",
+    "matchLevel": "A",
+    "matchScore": 92,
+    "fieldTags": [
+      "discrete optimization",
+      "integer programming",
+      "optimization algorithms",
+      "operations research",
+      "complexity"
+    ],
+    "fitZh": "偏整数/离散优化，但数学优化层级极高；适合做欧洲顶级优化学术网络观察点。",
+    "whyTrackZh": "ETH QS 前 10，数学系机会质量高；与连续/随机互补方向有一定距离，所以标为高权威 watch。",
+    "potentialRoutes": [
+      "ETH Math postdoc watch",
+      "SNSF postdoc route",
+      "MSCA host watch"
+    ],
+    "representativeWorks": [
+      {
+        "title": "Discrete Optimization and Integer Programming",
+        "year": "",
+        "url": "https://math.ethz.ch/people/person-detail.MTQwNjg2.TGlzdC8zMjcsLTYxODI3OTU4.html"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "qs_ranking",
+        "url": "https://www.topuniversities.com/universities/eth-zurich",
+        "confidence": "A"
+      },
+      {
+        "type": "official_profile",
+        "url": "https://math.ethz.ch/people/person-detail.MTQwNjg2.TGlzdC8zMjcsLTYxODI3OTU4.html",
+        "confidence": "B"
+      },
+      {
+        "type": "official_jobs",
+        "url": "https://math.ethz.ch/news-and-events/jobs.html",
+        "confidence": "A"
+      }
+    ]
+  },
+  {
+    "id": "epfl-lions-volkan-cevher",
+    "leadName": "Volkan Cevher",
+    "leadNameZh": "",
+    "institution": "EPFL",
+    "department": "School of Computer and Communication Sciences",
+    "country": "Switzerland",
+    "region": "Europe",
+    "qsRank2027": 22,
+    "qsRankDisplay": "#=22",
+    "schoolScope": "QS 2027 Top 50",
+    "authorityLevel": "国际顶级/强 PI：优化、统计学习、信号处理与大规模算法",
+    "groupName": "Laboratory for Information and Inference Systems",
+    "homepage": "https://www.epfl.ch/labs/lions/",
+    "groupHomepage": "https://www.epfl.ch/labs/lions/",
+    "openingsUrl": "https://www.epfl.ch/labs/lions/lions-opening/",
+    "recruitmentStatus": "active_group_openings",
+    "recruitmentSignalZh": "LIONS 有官方 openings 页面，是 EPFL 可直接监控的高质量机会源。",
+    "matchLevel": "A",
+    "matchScore": 90,
+    "fieldTags": [
+      "convex optimization",
+      "nonconvex optimization",
+      "statistical learning",
+      "signal processing",
+      "large-scale optimization"
+    ],
+    "fitZh": "更偏优化与机器学习/信号处理交叉，但数学优化和大规模算法基础强，且有较明确 openings 入口。",
+    "whyTrackZh": "EPFL QS Top 50，LIONS 组机会信号明确，适合后续自动监控。",
+    "potentialRoutes": [
+      "direct postdoc if opening matches",
+      "MSCA Postdoctoral Fellowship host",
+      "EPFL project postdoc"
+    ],
+    "representativeWorks": [
+      {
+        "title": "Optimization and Learning at LIONS",
+        "year": "",
+        "url": "https://www.epfl.ch/labs/lions/research/"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "qs_ranking",
+        "url": "https://www.topuniversities.com/universities/epfl-ecole-polytechnique-federale-de-lausanne",
+        "confidence": "A"
+      },
+      {
+        "type": "official_lab",
+        "url": "https://www.epfl.ch/labs/lions/",
+        "confidence": "A"
+      },
+      {
+        "type": "official_openings",
+        "url": "https://www.epfl.ch/labs/lions/lions-opening/",
+        "confidence": "A"
+      }
+    ]
+  },
+  {
+    "id": "berkeley-lavaei-optimization-control",
+    "leadName": "Javad Lavaei",
+    "leadNameZh": "",
+    "institution": "University of California, Berkeley",
+    "department": "Department of Industrial Engineering and Operations Research",
+    "country": "United States",
+    "region": "United States",
+    "qsRank2027": 20,
+    "qsRankDisplay": "#20",
+    "schoolScope": "QS 2027 Top 50",
+    "authorityLevel": "国际顶级/强 PI：优化、控制、能源系统与非凸问题",
+    "groupName": "Optimization, Control and Power Systems",
+    "homepage": "https://lavaei.ieor.berkeley.edu/",
+    "groupHomepage": "https://ieor.berkeley.edu/",
+    "openingsUrl": "",
+    "recruitmentStatus": "elite_watch",
+    "recruitmentSignalZh": "未见常驻 openings；适合监控 Berkeley IEOR/EECS 项目 postdoc 与能源优化方向。",
+    "matchLevel": "B",
+    "matchScore": 86,
+    "fieldTags": [
+      "nonconvex optimization",
+      "semidefinite programming",
+      "control",
+      "power systems",
+      "operations research"
+    ],
+    "fitZh": "非凸优化、SDP relaxation 和工程系统优化相关；与互补问题不是同一主线，但数学优化深度和应用价值高。",
+    "whyTrackZh": "UC Berkeley QS Top 50，IEOR/EECS 平台强，可作为北美 watch。",
+    "potentialRoutes": [
+      "Berkeley IEOR postdoc watch",
+      "energy systems optimization project watch",
+      "collaboration-first contact"
+    ],
+    "representativeWorks": [
+      {
+        "title": "Zero duality gap in optimal power flow problem",
+        "year": "",
+        "url": "https://lavaei.ieor.berkeley.edu/"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "qs_ranking",
+        "url": "https://www.topuniversities.com/universities/university-california-berkeley-ucb",
+        "confidence": "A"
+      },
+      {
+        "type": "personal_homepage",
+        "url": "https://lavaei.ieor.berkeley.edu/",
+        "confidence": "A"
+      },
+      {
+        "type": "official_department",
+        "url": "https://ieor.berkeley.edu/",
+        "confidence": "A"
+      }
+    ]
+  },
+  {
+    "id": "cuhk-seem-huifu-xu",
+    "leadName": "Huifu Xu",
+    "leadNameZh": "徐慧福",
+    "institution": "The Chinese University of Hong Kong",
+    "department": "Department of Systems Engineering and Engineering Management",
+    "country": "Hong Kong",
+    "region": "Hong Kong",
+    "qsRank2027": 18,
+    "qsRankDisplay": "#18",
+    "schoolScope": "QS 2027 Top 50",
+    "authorityLevel": "顶级相关：随机规划、鲁棒优化、风险分析方向资深教授",
+    "groupName": "Stochastic Programming and Robust Optimization",
+    "homepage": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/",
+    "groupHomepage": "https://www1.se.cuhk.edu.hk/~hfxu/",
+    "openingsUrl": "",
+    "recruitmentStatus": "elite_watch",
+    "recruitmentSignalZh": "未见常驻 openings；方向与随机优化/风险分析高度相关，适合重点人工监控。",
+    "matchLevel": "A",
+    "matchScore": 87,
+    "fieldTags": [
+      "stochastic programming",
+      "robust optimization",
+      "risk analytics",
+      "data-driven optimization",
+      "optimization in finance"
+    ],
+    "fitZh": "与随机优化、鲁棒优化、风险分析高度贴近，是港校方向相关度很高的资深导师。",
+    "whyTrackZh": "CUHK QS Top 50，SEEM 与你的港新优先策略吻合；适合监控 RA/postdoc/RGC 机会。",
+    "potentialRoutes": [
+      "CUHK SEEM postdoc watch",
+      "Hong Kong RGC Junior Research Fellow route",
+      "collaboration-first contact"
+    ],
+    "representativeWorks": [
+      {
+        "title": "Optimal decision making under uncertainty",
+        "year": "",
+        "url": "https://www1.se.cuhk.edu.hk/~hfxu/research.html"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "qs_ranking",
+        "url": "https://www.topuniversities.com/universities/chinese-university-hong-kong-cuhk",
+        "confidence": "A"
+      },
+      {
+        "type": "official_profile",
+        "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/",
+        "confidence": "A"
+      },
+      {
+        "type": "personal_homepage",
+        "url": "https://www1.se.cuhk.edu.hk/~hfxu/",
+        "confidence": "A"
+      }
+    ]
+  },
+  {
+    "id": "nus-jie-sun-optimization-benchmark",
+    "leadName": "Jie Sun",
+    "leadNameZh": "孙捷",
+    "institution": "National University of Singapore",
+    "department": "NUS Business School / Analytics and Operations",
+    "country": "Singapore",
+    "region": "Singapore",
+    "qsRank2027": 10,
+    "qsRankDisplay": "#10",
+    "schoolScope": "QS 2027 Top 50",
+    "authorityLevel": "资深标杆：半光滑 Newton、内点法、随机变分不等式",
+    "groupName": "Optimization Theory and Methods",
+    "homepage": "https://discovery.nus.edu.sg/471-jie-sun",
+    "groupHomepage": "https://discovery.nus.edu.sg/471-jie-sun/research",
+    "openingsUrl": "",
+    "recruitmentStatus": "senior_benchmark_watch",
+    "recruitmentSignalZh": "NUS Discovery 显示为 emeritus professor；更适合作为方向谱系和 NUS 网络参考，不作为直接招聘目标。",
+    "matchLevel": "A",
+    "matchScore": 90,
+    "fieldTags": [
+      "semismooth Newton methods",
+      "interior point methods",
+      "stochastic variational inequalities",
+      "semidefinite optimization",
+      "nonsmooth optimization"
+    ],
+    "fitZh": "研究兴趣与 semismooth Newton、随机变分不等式、半定优化高度贴近 Chen 老师方向谱系。",
+    "whyTrackZh": "虽然不是直接招聘目标，但其 NUS 网络和研究主题对你的新加坡方向判断很有价值。",
+    "potentialRoutes": [
+      "field benchmark",
+      "NUS optimization network watch",
+      "read related papers before contacting NUS groups"
+    ],
+    "representativeWorks": [
+      {
+        "title": "Semismooth Matrix-Valued Functions",
+        "year": "2002",
+        "url": "https://pubsonline.informs.org/doi/10.1287/moor.27.1.150.342"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "qs_ranking",
+        "url": "https://www.topuniversities.com/universities/national-university-singapore-nus",
+        "confidence": "A"
+      },
+      {
+        "type": "official_profile",
+        "url": "https://discovery.nus.edu.sg/471-jie-sun",
+        "confidence": "A"
+      },
+      {
+        "type": "official_research",
+        "url": "https://discovery.nus.edu.sg/471-jie-sun/research",
+        "confidence": "A"
+      }
+    ]
   }
 ]

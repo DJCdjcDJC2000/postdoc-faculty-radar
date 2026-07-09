@@ -59,3 +59,35 @@ QS / 学校排名：
 - 第四批：为每个目标 PI 增加“联系准备状态”：读过论文、可连接的研究问题、潜在邮件主题、是否需要 host。
 - 第五批：建立自动更新脚本，定期检查 openings 页面和个人主页更新时间，但 active opening 仍需人工最终核验。
 
+## 2026-07-10 顶级导师扩展
+
+本轮按“接近或高于 Chen Xiaojun 老师学术层级”的标准扩充，不追求数量，而追求权威性、QS Top 50 当前机构和方向相关度。
+
+新增顶级/强导师与课题组：
+
+- [Stephen Boyd, Stanford](https://stanford.edu/~boyd/)：凸优化领域标杆，用于最高层级学术表达参照。
+- [Yinyu Ye, Stanford](https://web.stanford.edu/~yyye/)：内点法、线性/锥优化、算法理论标杆。
+- [Dimitris Bertsimas, MIT](https://www.mit.edu/~dbertsim/)：robust optimization、OR analytics 国际顶级导师。
+- [Adrian Lewis, Cornell](https://people.orie.cornell.edu/aslewis/)：非光滑优化、变分分析、优化理论顶级参照。
+- [Amir Ali Ahmadi, Princeton](https://aaa.princeton.edu/)：非凸/多项式/半定优化强 PI。
+- [Robert Weismantel, ETH Zurich](https://math.ethz.ch/people/person-detail.MTQwNjg2.TGlzdC8zMjcsLTYxODI3OTU4.html)：离散优化、整数规划强参照。
+- [Volkan Cevher, EPFL LIONS](https://www.epfl.ch/labs/lions/)：优化、统计学习、信号处理交叉强组，且有 [openings](https://www.epfl.ch/labs/lions/lions-opening/) 页面。
+- [Javad Lavaei, UC Berkeley](https://lavaei.ieor.berkeley.edu/)：非凸优化、SDP relaxation、控制和能源系统。
+- [Huifu Xu, CUHK](https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/)：随机规划、robust optimization、risk analytics，与港校优先策略高度相关。
+- [Jie Sun, NUS](https://discovery.nus.edu.sg/471-jie-sun)：半光滑 Newton、随机变分不等式、半定优化方向谱系参照。
+
+新增青年/中生代强学者：
+
+- [Haihao Lu, MIT Sloan](https://mitsloan.mit.edu/faculty/directory/haihao-lu)：大规模优化、一阶方法、LP/QP/SDP 求解器，2026 Sloan Fellow。
+- [Shaoning Han, NUS](https://sites.google.com/view/shaoninghan/home)：随机优化、变分不等式、DRO，Pang 学术谱系。
+- [Rahul Mazumder, MIT Sloan](https://mitsloan.mit.edu/faculty/directory/rahul-mazumder)：统计机器学习、大规模优化、数学规划，多个早期/青年奖项。
+- [Madeleine Udell, Stanford](https://web.stanford.edu/~udell/)：优化建模、随机化数值线性代数、科学计算，主页显示 2026 年活跃项目。
+- [John Duchi, Stanford](https://web.stanford.edu/~jduchi/)：随机优化、统计学习、大规模优化，SIAM Early Career Prize in Optimization。
+- [Damek Davis, Wharton](https://www.damekdavis.com/)：非光滑/随机优化、弱凸优化，Sloan、NSF CAREER、SIAG/OPT Best Paper。
+- [Mengdi Wang, Princeton](https://mwang.princeton.edu/)：随机优化、强化学习、AI for science 与算法决策。
+
+后续复核重点：
+
+- 对 `elite_watch` 条目，不默认认为当前招 postdoc；只作为顶级网络和学术定位参照。
+- 对 `active_group_openings` 条目，仍需在每次申请前回到官方 openings 页面人工核验。
+- 对青年学者条目，优先补官方院系主页、Google Scholar、代表作 DOI 和基金页面。
