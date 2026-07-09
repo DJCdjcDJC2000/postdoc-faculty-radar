@@ -19,7 +19,7 @@
       },
       {
         "id": "cases",
-        "label": "成功案例"
+        "label": "导师与学者"
       },
       {
         "id": "calendar",
@@ -38,12 +38,12 @@
     }
   },
   "metadata": {
-    "generatedAt": "2026-07-09T15:19:21.720Z",
+    "generatedAt": "2026-07-09T15:51:02.293Z",
     "offline": false,
     "jobCount": 8,
     "alertCount": 3,
     "sourceCount": 20,
-    "builtAt": "2026-07-09T15:20:17.789Z",
+    "builtAt": "2026-07-09T15:53:25.117Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -72,7 +72,9 @@
     "dueSoonJobs": 0,
     "activeSources": 3,
     "totalSources": 20,
-    "peopleCount": 1
+    "peopleCount": 7,
+    "targetLabs": 13,
+    "activeLabSignals": 2
   },
   "jobs": [
     {
@@ -99,7 +101,7 @@
       "trust": "lead",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-09T15:19:21.720Z",
+      "createdAt": "2026-07-09T15:51:02.293Z",
       "id": "c4f0adb87a8dfd89",
       "matchScore": 100,
       "priority": "A",
@@ -120,7 +122,7 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "线索待核验",
       "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-      "updatedAt": "2026-07-09T15:19:21.720Z",
+      "updatedAt": "2026-07-09T15:51:02.293Z",
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -162,7 +164,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-09T15:19:21.720Z",
+      "createdAt": "2026-07-09T15:51:02.293Z",
       "id": "1411a9a5c5c5768d",
       "matchScore": 74,
       "priority": "B",
@@ -175,7 +177,7 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-      "updatedAt": "2026-07-09T15:19:21.720Z",
+      "updatedAt": "2026-07-09T15:51:02.293Z",
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -215,7 +217,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-09T15:19:21.720Z",
+      "createdAt": "2026-07-09T15:51:02.293Z",
       "id": "576a05e8b695f331",
       "matchScore": 64,
       "priority": "B",
@@ -225,7 +227,7 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Fellowship",
-      "updatedAt": "2026-07-09T15:19:21.720Z",
+      "updatedAt": "2026-07-09T15:51:02.293Z",
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -262,7 +264,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-09T15:19:21.720Z",
+      "createdAt": "2026-07-09T15:51:02.293Z",
       "id": "bbac44b5da0bc36a",
       "matchScore": 64,
       "priority": "B",
@@ -272,7 +274,7 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Singapore · Fellowship",
-      "updatedAt": "2026-07-09T15:19:21.720Z",
+      "updatedAt": "2026-07-09T15:51:02.293Z",
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -309,7 +311,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-09T15:19:21.720Z",
+      "createdAt": "2026-07-09T15:51:02.293Z",
       "id": "e1e5047f5f87635e",
       "matchScore": 59,
       "priority": "C",
@@ -319,7 +321,7 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship",
-      "updatedAt": "2026-07-09T15:19:21.720Z",
+      "updatedAt": "2026-07-09T15:51:02.293Z",
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -355,7 +357,7 @@
       "fieldRelevantSource": true,
       "status": "new",
       "trust": "academic_board",
-      "fetchedAt": "2026-07-09T15:19:21.720Z",
+      "fetchedAt": "2026-07-09T15:51:02.293Z",
       "id": "ad0598f43a3c9e24",
       "matchScore": 53,
       "priority": "C",
@@ -367,7 +369,7 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "United Kingdom · 博后 · stochastic analysis",
-      "updatedAt": "2026-07-09T15:19:21.720Z",
+      "updatedAt": "2026-07-09T15:51:02.293Z",
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -403,7 +405,7 @@
       "fieldRelevantSource": true,
       "status": "new",
       "trust": "official",
-      "fetchedAt": "2026-07-09T15:19:21.720Z",
+      "fetchedAt": "2026-07-09T15:51:02.293Z",
       "id": "8f0378d469afbb63",
       "matchScore": 45,
       "priority": "C",
@@ -415,7 +417,7 @@
       "roleLabelZh": "Research Fellow",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Research Fellow",
-      "updatedAt": "2026-07-09T15:19:21.720Z",
+      "updatedAt": "2026-07-09T15:51:02.293Z",
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -451,7 +453,7 @@
       "fieldRelevantSource": true,
       "status": "new",
       "trust": "academic_board",
-      "fetchedAt": "2026-07-09T15:19:21.720Z",
+      "fetchedAt": "2026-07-09T15:51:02.293Z",
       "id": "f63bcce9a06b4f8e",
       "matchScore": 43,
       "priority": "C",
@@ -463,7 +465,7 @@
       "roleLabelZh": "教职",
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "United Kingdom · 教职 · applied mathematics",
-      "updatedAt": "2026-07-09T15:19:21.720Z",
+      "updatedAt": "2026-07-09T15:51:02.293Z",
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -530,12 +532,14 @@
   "people": [
     {
       "id": "xiaojun-chen-polyu",
+      "kind": "senior_reference",
       "name": "Xiaojun Chen",
       "nameZh": "陈晓君",
       "priority": "P4",
       "currentPosition": "Chair Professor / Professor, Department of Applied Mathematics",
       "currentInstitution": "The Hong Kong Polytechnic University",
       "currentRoleType": "senior academic reference",
+      "currentStatusZh": "香港应用数学与优化方向高级学术参照。",
       "fieldTags": [
         "optimization",
         "stochastic equilibrium",
@@ -547,7 +551,14 @@
       "phdYear": "",
       "advisor": "",
       "postdocHistory": [],
-      "representativePapers": [],
+      "grantsAwards": [],
+      "representativePapers": [
+        {
+          "title": "Papers and research areas listed on official homepage",
+          "year": "",
+          "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+        }
+      ],
       "homepage": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm",
       "googleScholar": "",
       "orcid": "",
@@ -555,7 +566,7 @@
       "openalex": "",
       "semanticScholar": "",
       "confidence": "A：官方院系主页",
-      "pathSummaryZh": "作为 PolyU 应用数学与优化方向的高级学术参考样本，用于标定 stochastic equilibrium、complementarity 和 nonsmooth optimization 方向的长期学术路线。",
+      "pathSummaryZh": "作为 PolyU 应用数学与优化方向的高级学术参照，用于标定 stochastic equilibrium、complementarity 和 nonsmooth optimization 方向的长期学术路线。",
       "learningsZh": [
         "方向标签需要稳定且可被国际同行识别。",
         "优化、互补问题和随机模型可以形成长期研究主线。",
@@ -575,7 +586,7 @@
       "ai": {
         "status": "manual",
         "notice": "AI 辅助生成，需核验",
-        "careerPathZh": "作为 PolyU 应用数学与优化方向的高级学术参考样本，用于标定 stochastic equilibrium、complementarity 和 nonsmooth optimization 方向的长期学术路线。",
+        "careerPathZh": "作为 PolyU 应用数学与优化方向的高级学术参照，用于标定 stochastic equilibrium、complementarity 和 nonsmooth optimization 方向的长期学术路线。",
         "learningsZh": [
           "方向标签需要稳定且可被国际同行识别。",
           "优化、互补问题和随机模型可以形成长期研究主线。",
@@ -586,6 +597,1308 @@
           "职业阶段、资源和时代背景不同，只能作为方向与学术网络参考。"
         ]
       }
+    },
+    {
+      "id": "luze-xu-hkust",
+      "kind": "young_faculty_case",
+      "name": "Luze Xu",
+      "nameZh": "徐芦泽",
+      "priority": "P1",
+      "currentPosition": "Assistant Professor, Department of Mathematics",
+      "currentInstitution": "The Hong Kong University of Science and Technology",
+      "currentRoleType": "assistant professor",
+      "currentStatusZh": "HKUST 数学系助理教授，研究混合整数规划、全局优化与连续-离散优化。",
+      "fieldTags": [
+        "mixed integer programming",
+        "global optimization",
+        "continuous-discrete optimization",
+        "operations research",
+        "optimization theory"
+      ],
+      "phdInstitution": "University of Michigan",
+      "phdYear": "2022",
+      "advisor": "",
+      "postdocHistory": [
+        {
+          "institution": "University of California, Davis",
+          "role": "Krener Assistant Professor",
+          "years": "2022-2025"
+        },
+        {
+          "institution": "University of Wisconsin-Madison",
+          "role": "Postdoctoral Researcher",
+          "years": "2025"
+        }
+      ],
+      "grantsAwards": [],
+      "representativePapers": [
+        {
+          "title": "On proximity for k-regular mixed-integer linear optimization",
+          "year": "2019",
+          "url": "https://scholar.google.com/citations?hl=en&user=C3bhbaMAAAAJ"
+        }
+      ],
+      "homepage": "https://www.math.hkust.edu.hk/people/faculty/profile/xuluze/",
+      "googleScholar": "https://scholar.google.com/citations?hl=en&user=C3bhbaMAAAAJ",
+      "orcid": "",
+      "dblp": "",
+      "openalex": "",
+      "semanticScholar": "",
+      "confidence": "A：HKUST 官方主页 + HKUST Research Portal",
+      "pathSummaryZh": "PhD 后先做美国高校 postdoc/assistant professor 型岗位，再进入香港 QS Top 50 高校数学系助理教授；这是“博士后/过渡岗位到港校教职”的高价值样本。",
+      "learningsZh": [
+        "青年教职案例通常需要 PhD 后 2-4 年高质量 postdoc 或 visiting assistant professor 经历。",
+        "优化方向如果能形成清晰的问题族和代表作，在数学系与工学院之间都有入口。",
+        "香港教职竞争强，个人主页和 Google Scholar 论文线索需要很早准备。"
+      ],
+      "risksZh": [
+        "该方向偏混合整数/全局优化，与随机互补问题不是完全同一子领域。",
+        "美国 postdoc 路径对你未必是首选，但其成果节奏可作为参照。"
+      ],
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://www.math.hkust.edu.hk/people/faculty/profile/xuluze/",
+          "confidence": "A"
+        },
+        {
+          "type": "official_research_portal",
+          "url": "https://researchportal.hkust.edu.hk/en/persons/luze-xu/",
+          "confidence": "A"
+        },
+        {
+          "type": "google_scholar",
+          "url": "https://scholar.google.com/citations?hl=en&user=C3bhbaMAAAAJ",
+          "confidence": "B"
+        }
+      ],
+      "ai": {
+        "status": "manual",
+        "notice": "AI 辅助生成，需核验",
+        "careerPathZh": "PhD 后先做美国高校 postdoc/assistant professor 型岗位，再进入香港 QS Top 50 高校数学系助理教授；这是“博士后/过渡岗位到港校教职”的高价值样本。",
+        "learningsZh": [
+          "青年教职案例通常需要 PhD 后 2-4 年高质量 postdoc 或 visiting assistant professor 经历。",
+          "优化方向如果能形成清晰的问题族和代表作，在数学系与工学院之间都有入口。",
+          "香港教职竞争强，个人主页和 Google Scholar 论文线索需要很早准备。"
+        ],
+        "risksZh": [
+          "该方向偏混合整数/全局优化，与随机互补问题不是完全同一子领域。",
+          "美国 postdoc 路径对你未必是首选，但其成果节奏可作为参照。"
+        ]
+      }
+    },
+    {
+      "id": "sanyou-mei-hkust",
+      "kind": "young_faculty_case",
+      "name": "Sanyou Mei",
+      "nameZh": "梅三友",
+      "priority": "P1",
+      "currentPosition": "Assistant Professor, Department of Industrial Engineering and Decision Analytics",
+      "currentInstitution": "The Hong Kong University of Science and Technology",
+      "currentRoleType": "assistant professor",
+      "currentStatusZh": "2025 年加入 HKUST IEDA，研究随机、双层、minimax、分布式和在线优化。",
+      "fieldTags": [
+        "stochastic optimization",
+        "bilevel optimization",
+        "minimax optimization",
+        "distributed optimization",
+        "online optimization"
+      ],
+      "phdInstitution": "University of Minnesota, Twin Cities",
+      "phdYear": "2025",
+      "advisor": "",
+      "postdocHistory": [],
+      "grantsAwards": [
+        "INFORMS Optimization Society 2024 Student Paper Prize Honorable Mention",
+        "INFORMS Computing Society 2024 Student Paper Award Finalist",
+        "NeurIPS 2022 Outstanding Paper Award"
+      ],
+      "representativePapers": [
+        {
+          "title": "Accelerated first-order methods for convex optimization with locally Lipschitz continuous gradient",
+          "year": "2024",
+          "url": "https://sanyoumei.github.io/"
+        },
+        {
+          "title": "Variance-reduced First-order Methods for Deterministically Constrained Stochastic Nonconvex Optimization with Strong Convergence Guarantees",
+          "year": "2024",
+          "url": "https://www.ieda.ust.hk/eng/faculty-staff.php?catid=0&id=52&sid=0"
+        }
+      ],
+      "homepage": "https://sanyoumei.github.io/",
+      "googleScholar": "https://scholar.google.com/citations?user=w4-8DmAAAAAJ&hl=en",
+      "orcid": "",
+      "dblp": "",
+      "openalex": "",
+      "semanticScholar": "",
+      "confidence": "A：HKUST 官方主页 + 个人主页",
+      "pathSummaryZh": "本科 USTC、博士 Minnesota，毕业当年进入 HKUST IEDA 助理教授；这是“高强度论文/奖项直接冲港校青年教职”的样本。",
+      "learningsZh": [
+        "优化方向青年教职通常需要一个非常聚焦且可扩展的研究标签。",
+        "INFORMS/NeurIPS 等奖项和强会议论文能显著提高早期教职竞争力。",
+        "工业工程/决策分析院系对随机优化、minimax 和在线优化有直接需求。"
+      ],
+      "risksZh": [
+        "这是强成果直聘教职样本，不应作为最低门槛理解。",
+        "方向更偏现代非凸/随机优化，与你当前互补问题主线需要寻找交叉点。"
+      ],
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://www.ieda.ust.hk/eng/faculty-staff.php?catid=0&id=52&sid=0",
+          "confidence": "A"
+        },
+        {
+          "type": "personal_homepage",
+          "url": "https://sanyoumei.github.io/",
+          "confidence": "A"
+        },
+        {
+          "type": "google_scholar",
+          "url": "https://scholar.google.com/citations?user=w4-8DmAAAAAJ&hl=en",
+          "confidence": "B"
+        }
+      ],
+      "ai": {
+        "status": "manual",
+        "notice": "AI 辅助生成，需核验",
+        "careerPathZh": "本科 USTC、博士 Minnesota，毕业当年进入 HKUST IEDA 助理教授；这是“高强度论文/奖项直接冲港校青年教职”的样本。",
+        "learningsZh": [
+          "优化方向青年教职通常需要一个非常聚焦且可扩展的研究标签。",
+          "INFORMS/NeurIPS 等奖项和强会议论文能显著提高早期教职竞争力。",
+          "工业工程/决策分析院系对随机优化、minimax 和在线优化有直接需求。"
+        ],
+        "risksZh": [
+          "这是强成果直聘教职样本，不应作为最低门槛理解。",
+          "方向更偏现代非凸/随机优化，与你当前互补问题主线需要寻找交叉点。"
+        ]
+      }
+    },
+    {
+      "id": "liu-yang-nus",
+      "kind": "young_faculty_case",
+      "name": "Liu Yang",
+      "nameZh": "刘洋",
+      "priority": "P2",
+      "currentPosition": "Assistant Professor / Presidential Young Professor, Department of Mathematics",
+      "currentInstitution": "National University of Singapore",
+      "currentRoleType": "assistant professor",
+      "currentStatusZh": "NUS 数学系 Presidential Young Professor，研究 Scientific Machine Learning、PDE、optimal transport 和生成模型。",
+      "fieldTags": [
+        "scientific machine learning",
+        "PDE",
+        "optimal transport",
+        "numerical analysis",
+        "applied mathematics"
+      ],
+      "phdInstitution": "Brown University",
+      "phdYear": "2021",
+      "advisor": "Stanley Osher",
+      "postdocHistory": [
+        {
+          "institution": "University of California, Los Angeles",
+          "role": "Assistant Adjunct Professor",
+          "years": "2022-2024"
+        }
+      ],
+      "grantsAwards": [
+        "NUS Presidential Young Professorship"
+      ],
+      "representativePapers": [
+        {
+          "title": "In-context operator learning with data prompts for differential equation problems",
+          "year": "2023",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2310142120"
+        },
+        {
+          "title": "Deep Generative Learning via Euler Particle Transport",
+          "year": "2022",
+          "url": "https://liuyangresearch.com/research"
+        }
+      ],
+      "homepage": "https://liuyangresearch.com/",
+      "googleScholar": "https://scholar.google.com/citations?user=ZjcZdoEAAAAJ&hl=en",
+      "orcid": "",
+      "dblp": "",
+      "openalex": "",
+      "semanticScholar": "",
+      "confidence": "A：NUS 官方主页 + 个人主页",
+      "pathSummaryZh": "Brown PhD 后经历 UCLA 过渡岗位，再以 Presidential Young Professor 加入 NUS 数学系；这是新加坡顶校青年教职路径样本。",
+      "learningsZh": [
+        "应用数学青年教职可以通过 PDE/数值分析/科学机器学习形成跨学科标签。",
+        "个人主页如果把 research、teaching、CV 和 publications 组织清楚，对申请者非常有参考价值。",
+        "新加坡顶校重视国际化履历和可扩展研究计划。"
+      ],
+      "risksZh": [
+        "该案例偏 scientific ML 和 PDE，不是互补问题核心方向。",
+        "NUS PYP 竞争非常强，不能把它当成普通 postdoc 后自然路径。"
+      ],
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://www.math.nus.edu.sg/people/liu-yang/",
+          "confidence": "A"
+        },
+        {
+          "type": "personal_homepage",
+          "url": "https://liuyangresearch.com/",
+          "confidence": "A"
+        },
+        {
+          "type": "google_scholar",
+          "url": "https://scholar.google.com/citations?user=ZjcZdoEAAAAJ&hl=en",
+          "confidence": "B"
+        }
+      ],
+      "ai": {
+        "status": "manual",
+        "notice": "AI 辅助生成，需核验",
+        "careerPathZh": "Brown PhD 后经历 UCLA 过渡岗位，再以 Presidential Young Professor 加入 NUS 数学系；这是新加坡顶校青年教职路径样本。",
+        "learningsZh": [
+          "应用数学青年教职可以通过 PDE/数值分析/科学机器学习形成跨学科标签。",
+          "个人主页如果把 research、teaching、CV 和 publications 组织清楚，对申请者非常有参考价值。",
+          "新加坡顶校重视国际化履历和可扩展研究计划。"
+        ],
+        "risksZh": [
+          "该案例偏 scientific ML 和 PDE，不是互补问题核心方向。",
+          "NUS PYP 竞争非常强，不能把它当成普通 postdoc 后自然路径。"
+        ]
+      }
+    },
+    {
+      "id": "viet-anh-nguyen-cuhk",
+      "kind": "young_faculty_case",
+      "name": "Viet Anh Nguyen",
+      "nameZh": "阮越英",
+      "priority": "P1",
+      "currentPosition": "Assistant Professor, Department of Systems Engineering and Engineering Management",
+      "currentInstitution": "The Chinese University of Hong Kong",
+      "currentRoleType": "assistant professor",
+      "currentStatusZh": "CUHK SEEM 助理教授，研究负责的机器学习、分布鲁棒优化和不确定性下决策。",
+      "fieldTags": [
+        "distributionally robust optimization",
+        "statistical optimization",
+        "decision making under uncertainty",
+        "machine learning",
+        "operations research"
+      ],
+      "phdInstitution": "EPFL",
+      "phdYear": "2019",
+      "advisor": "Daniel Kuhn",
+      "postdocHistory": [
+        {
+          "institution": "Stanford University",
+          "role": "Postdoctoral Scholar",
+          "years": "2019-2021"
+        }
+      ],
+      "grantsAwards": [],
+      "representativePapers": [
+        {
+          "title": "Wasserstein Distributionally Robust Optimization: Theory and Applications in Machine Learning",
+          "year": "2019",
+          "url": "https://arxiv.org/abs/1908.08729"
+        },
+        {
+          "title": "Distributionally Robust Optimization: Theory and Applications in Machine Learning",
+          "year": "",
+          "url": "https://vietanhnguyen.net/"
+        }
+      ],
+      "homepage": "https://vietanhnguyen.net/",
+      "googleScholar": "https://scholar.google.com/citations?user=pnIWLBkAAAAJ&hl=en",
+      "orcid": "",
+      "dblp": "",
+      "openalex": "",
+      "semanticScholar": "",
+      "confidence": "A：CUHK 官方主页 + 个人主页",
+      "pathSummaryZh": "EPFL 博士、Stanford 博士后、随后进入 CUHK 助理教授；这是“欧洲强组博士 + 北美 postdoc + 香港教职”的高相关案例。",
+      "learningsZh": [
+        "DRO/数据驱动优化方向能连接运筹、机器学习和决策科学。",
+        "强导师网络与高质量 postdoc 平台会显著影响早期教职。",
+        "港校工学院/SEEM 类院系适合优化与不确定性决策方向。"
+      ],
+      "risksZh": [
+        "DRO 和互补问题不是同一细分方向，需要在研究计划中明确共同语言。",
+        "Stanford postdoc 路径对你是否可行要结合签证和机会成本评估。"
+      ],
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-viet-anh-nguyen/",
+          "confidence": "A"
+        },
+        {
+          "type": "personal_homepage",
+          "url": "https://vietanhnguyen.net/",
+          "confidence": "A"
+        },
+        {
+          "type": "google_scholar",
+          "url": "https://scholar.google.com/citations?user=pnIWLBkAAAAJ&hl=en",
+          "confidence": "B"
+        }
+      ],
+      "ai": {
+        "status": "manual",
+        "notice": "AI 辅助生成，需核验",
+        "careerPathZh": "EPFL 博士、Stanford 博士后、随后进入 CUHK 助理教授；这是“欧洲强组博士 + 北美 postdoc + 香港教职”的高相关案例。",
+        "learningsZh": [
+          "DRO/数据驱动优化方向能连接运筹、机器学习和决策科学。",
+          "强导师网络与高质量 postdoc 平台会显著影响早期教职。",
+          "港校工学院/SEEM 类院系适合优化与不确定性决策方向。"
+        ],
+        "risksZh": [
+          "DRO 和互补问题不是同一细分方向，需要在研究计划中明确共同语言。",
+          "Stanford postdoc 路径对你是否可行要结合签证和机会成本评估。"
+        ]
+      }
+    },
+    {
+      "id": "napat-rujeerapaiboon-nus",
+      "kind": "young_faculty_case",
+      "name": "Napat Rujeerapaiboon",
+      "nameZh": "",
+      "priority": "P2",
+      "currentPosition": "Assistant Professor, Department of Industrial Systems Engineering and Management",
+      "currentInstitution": "National University of Singapore",
+      "currentRoleType": "assistant professor",
+      "currentStatusZh": "NUS ISEM 助理教授，研究 robust optimization、DRO、risk analytics 与 machine learning。",
+      "fieldTags": [
+        "robust optimization",
+        "distributionally robust optimization",
+        "risk analytics",
+        "data-driven optimization",
+        "operations research"
+      ],
+      "phdInstitution": "EPFL",
+      "phdYear": "2018",
+      "advisor": "Daniel Kuhn",
+      "postdocHistory": [],
+      "grantsAwards": [],
+      "representativePapers": [
+        {
+          "title": "Distributionally robust optimization research focus at NUS IORA",
+          "year": "",
+          "url": "https://iora.nus.edu.sg/research_focus/distributionally-robust-optimization/"
+        }
+      ],
+      "homepage": "https://sites.google.com/view/napatrujeerapaiboon/home",
+      "googleScholar": "https://scholar.google.com/citations?user=EqJZHaMAAAAJ&hl=en",
+      "orcid": "",
+      "dblp": "",
+      "openalex": "",
+      "semanticScholar": "",
+      "confidence": "A：NUS 官方主页 + 个人主页",
+      "pathSummaryZh": "EPFL RAO 博士后进入 NUS ISEM，形成 robust/DRO/risk analytics 方向青年 PI 路线。",
+      "learningsZh": [
+        "欧洲优化强组到新加坡顶校是可观察路径。",
+        "研究主题如果能落到 risk analytics、finance、supply chain 等应用，会增加工学院/OR 院系匹配度。",
+        "个人主页中的 students、publications、software 是判断组活跃度的重要信号。"
+      ],
+      "risksZh": [
+        "该案例更偏 DRO/robust optimization，需要和随机互补问题建立明确交叉。",
+        "当前是否招 postdoc 需要逐次核验。"
+      ],
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://cde.nus.edu.sg/isem/staff/napat-rujeerapaiboon/",
+          "confidence": "A"
+        },
+        {
+          "type": "personal_homepage",
+          "url": "https://sites.google.com/view/napatrujeerapaiboon/home",
+          "confidence": "A"
+        },
+        {
+          "type": "google_scholar",
+          "url": "https://scholar.google.com/citations?user=EqJZHaMAAAAJ&hl=en",
+          "confidence": "B"
+        }
+      ],
+      "ai": {
+        "status": "manual",
+        "notice": "AI 辅助生成，需核验",
+        "careerPathZh": "EPFL RAO 博士后进入 NUS ISEM，形成 robust/DRO/risk analytics 方向青年 PI 路线。",
+        "learningsZh": [
+          "欧洲优化强组到新加坡顶校是可观察路径。",
+          "研究主题如果能落到 risk analytics、finance、supply chain 等应用，会增加工学院/OR 院系匹配度。",
+          "个人主页中的 students、publications、software 是判断组活跃度的重要信号。"
+        ],
+        "risksZh": [
+          "该案例更偏 DRO/robust optimization，需要和随机互补问题建立明确交叉。",
+          "当前是否招 postdoc 需要逐次核验。"
+        ]
+      }
+    },
+    {
+      "id": "niao-he-eth",
+      "kind": "target_pi_case",
+      "name": "Niao He",
+      "nameZh": "何鸟",
+      "priority": "P2",
+      "currentPosition": "Associate Professor, ETH Zurich",
+      "currentInstitution": "ETH Zurich",
+      "currentRoleType": "associate professor / postdoc host",
+      "currentStatusZh": "ETH 优化与决策智能组 PI，官网列出 postdoc openings。",
+      "fieldTags": [
+        "optimization",
+        "optimization under uncertainty",
+        "reinforcement learning",
+        "machine learning optimization",
+        "decision intelligence"
+      ],
+      "phdInstitution": "Georgia Institute of Technology",
+      "phdYear": "2015",
+      "advisor": "",
+      "postdocHistory": [],
+      "grantsAwards": [
+        "NSF CAREER Award"
+      ],
+      "representativePapers": [
+        {
+          "title": "SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation",
+          "year": "2017",
+          "url": "https://arxiv.org/abs/1712.10285"
+        },
+        {
+          "title": "Optimization for Reinforcement Learning: From Single Agent to Cooperative Agents",
+          "year": "2019",
+          "url": "https://arxiv.org/abs/1912.00498"
+        }
+      ],
+      "homepage": "https://odi.inf.ethz.ch/niaohe",
+      "googleScholar": "",
+      "orcid": "",
+      "dblp": "",
+      "openalex": "",
+      "semanticScholar": "",
+      "confidence": "A：ETH 官方主页 + 课题组 openings",
+      "pathSummaryZh": "Georgia Tech 博士后在 UIUC 建组，再到 ETH；她的组是欧洲优化/决策智能方向可直接关注 postdoc 的重点对象。",
+      "learningsZh": [
+        "数学优化背景可以转向数据驱动决策与强化学习。",
+        "顶校组的 openings 页面是比聚合招聘站更高质量的信号源。",
+        "联系 PI 前需要准备方向贴合的 1 页 research fit note。"
+      ],
+      "risksZh": [
+        "方向包含 RL/ML，必须避免被泛 AI 牵偏。",
+        "ETH 竞争强，需有非常清楚的数学贡献定位。"
+      ],
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://odi.inf.ethz.ch/niaohe",
+          "confidence": "A"
+        },
+        {
+          "type": "official_openings",
+          "url": "https://odi.inf.ethz.ch/openings",
+          "confidence": "A"
+        }
+      ],
+      "ai": {
+        "status": "manual",
+        "notice": "AI 辅助生成，需核验",
+        "careerPathZh": "Georgia Tech 博士后在 UIUC 建组，再到 ETH；她的组是欧洲优化/决策智能方向可直接关注 postdoc 的重点对象。",
+        "learningsZh": [
+          "数学优化背景可以转向数据驱动决策与强化学习。",
+          "顶校组的 openings 页面是比聚合招聘站更高质量的信号源。",
+          "联系 PI 前需要准备方向贴合的 1 页 research fit note。"
+        ],
+        "risksZh": [
+          "方向包含 RL/ML，必须避免被泛 AI 牵偏。",
+          "ETH 竞争强，需有非常清楚的数学贡献定位。"
+        ]
+      }
+    }
+  ],
+  "labs": [
+    {
+      "id": "eth-odi-niao-he",
+      "leadName": "Niao He",
+      "leadNameZh": "何鸟",
+      "institution": "ETH Zurich",
+      "department": "Department of Computer Science / Institute of Machine Learning",
+      "country": "Switzerland",
+      "region": "Europe",
+      "qsRank2027": 8,
+      "qsRankDisplay": "#=8",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Optimization & Decision Intelligence Group",
+      "homepage": "https://odi.inf.ethz.ch/niaohe",
+      "groupHomepage": "https://odi.inf.ethz.ch/",
+      "openingsUrl": "https://odi.inf.ethz.ch/openings",
+      "recruitmentStatus": "active_openings",
+      "recruitmentSignalZh": "课题组官网长期列出 Postdoc Positions，并给出申请方式。",
+      "matchLevel": "A",
+      "matchScore": 95,
+      "fieldTags": [
+        "optimization",
+        "optimization under uncertainty",
+        "machine learning optimization",
+        "reinforcement learning",
+        "data-driven decision making"
+      ],
+      "fitZh": "与优化、随机/不确定性决策、机器学习优化高度相关；如果你未来希望把互补/变分不等式与数据驱动决策或 RL 连接，这是欧洲顶校强候选。",
+      "whyTrackZh": "ETH QS 前 10，组内明确欢迎数学背景强的 postdoc；需要持续观察具体题目是否偏理论优化而不是纯 AI 工程。",
+      "potentialRoutes": [
+        "direct postdoc",
+        "SNSF / ETH postdoc route",
+        "Marie Skłodowska-Curie Postdoctoral Fellowship host"
+      ],
+      "representativeWorks": [
+        {
+          "title": "SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation",
+          "year": "2017",
+          "url": "https://arxiv.org/abs/1712.10285"
+        },
+        {
+          "title": "Optimization for Reinforcement Learning: From Single Agent to Cooperative Agents",
+          "year": "2019",
+          "url": "https://arxiv.org/abs/1912.00498"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/eth-zurich",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://odi.inf.ethz.ch/niaohe",
+          "confidence": "A"
+        },
+        {
+          "type": "official_openings",
+          "url": "https://odi.inf.ethz.ch/openings",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "nus-math-kim-chuan-toh",
+      "leadName": "Kim-Chuan Toh",
+      "leadNameZh": "杜锦泉",
+      "institution": "National University of Singapore",
+      "department": "Department of Mathematics / Institute of Operations Research and Analytics",
+      "country": "Singapore",
+      "region": "Singapore",
+      "qsRank2027": 10,
+      "qsRankDisplay": "#10",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "NUS Applied & Computational Mathematics / Optimization",
+      "homepage": "https://blog.nus.edu.sg/mattohkc/",
+      "groupHomepage": "https://www.math.nus.edu.sg/research/research-overview/research-in-applied-computational-mathematics/",
+      "openingsUrl": "https://www.math.nus.edu.sg/jobs/",
+      "recruitmentStatus": "active_department_postdoc",
+      "recruitmentSignalZh": "NUS Math jobs 页面列出 2027 年 Departmental Postdocs 与 Peng Tsu Ann Assistant Professorship。",
+      "matchLevel": "A",
+      "matchScore": 92,
+      "fieldTags": [
+        "semidefinite programming",
+        "conic optimization",
+        "nonsmooth Newton methods",
+        "scientific computing",
+        "numerical optimization"
+      ],
+      "fitZh": "与数值优化、半定规划、非光滑 Newton、科学计算非常接近，是新加坡方向的核心学术网络。",
+      "whyTrackZh": "NUS QS 前 10，数学系有明确 postdoc/青年助理教授招聘通道；适合作为 2028-2029 年重点投递目标。",
+      "potentialRoutes": [
+        "NUS departmental postdoc",
+        "Peng Tsu Ann Assistant Professorship",
+        "Singapore NRF Fellowship host"
+      ],
+      "representativeWorks": [
+        {
+          "title": "SDPNAL+: A Matlab software for semidefinite programming with bound constraints",
+          "year": "2020",
+          "url": "https://blog.nus.edu.sg/mattohkc/papers/"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/national-university-singapore-nus",
+          "confidence": "A"
+        },
+        {
+          "type": "official_homepage",
+          "url": "https://blog.nus.edu.sg/mattohkc/",
+          "confidence": "A"
+        },
+        {
+          "type": "official_jobs",
+          "url": "https://www.math.nus.edu.sg/jobs/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "nus-isem-napat",
+      "leadName": "Napat Rujeerapaiboon",
+      "leadNameZh": "",
+      "institution": "National University of Singapore",
+      "department": "Department of Industrial Systems Engineering and Management",
+      "country": "Singapore",
+      "region": "Singapore",
+      "qsRank2027": 10,
+      "qsRankDisplay": "#10",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Robust and Distributionally Robust Optimization",
+      "homepage": "https://sites.google.com/view/napatrujeerapaiboon/home",
+      "groupHomepage": "https://iora.nus.edu.sg/research_focus/distributionally-robust-optimization/",
+      "openingsUrl": "",
+      "recruitmentStatus": "watch_historical_postdoc",
+      "recruitmentSignalZh": "个人与院系页面显示方向高度匹配；历史上公开招过 robust optimization research fellows，当前需人工复核是否有新 opening。",
+      "matchLevel": "A",
+      "matchScore": 90,
+      "fieldTags": [
+        "distributionally robust optimization",
+        "robust optimization",
+        "data-driven optimization",
+        "risk analytics",
+        "operations research"
+      ],
+      "fitZh": "DRO/robust optimization 与随机优化、SAA、数据驱动优化主线接近，适合作为新加坡学术路径样本和潜在 host。",
+      "whyTrackZh": "从 EPFL RAO 到 NUS assistant professor 的路径对你很有参考价值，也能反推 postdoc 到教职的成果组合。",
+      "potentialRoutes": [
+        "direct research fellow if advertised",
+        "NUS departmental postdoc",
+        "Singapore NRF Fellowship host"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Distributionally Robust Optimization research focus at NUS IORA",
+          "year": "",
+          "url": "https://iora.nus.edu.sg/research_focus/distributionally-robust-optimization/"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/national-university-singapore-nus",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://cde.nus.edu.sg/isem/staff/napat-rujeerapaiboon/",
+          "confidence": "A"
+        },
+        {
+          "type": "personal_homepage",
+          "url": "https://sites.google.com/view/napatrujeerapaiboon/home",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "cuhk-seem-anthony-so",
+      "leadName": "Anthony Man-Cho So",
+      "leadNameZh": "苏文藻",
+      "institution": "The Chinese University of Hong Kong",
+      "department": "Department of Systems Engineering and Engineering Management",
+      "country": "Hong Kong",
+      "region": "Hong Kong",
+      "qsRank2027": 18,
+      "qsRankDisplay": "#18",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Optimization Theory and Applications",
+      "homepage": "https://www1.se.cuhk.edu.hk/~manchoso/",
+      "groupHomepage": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-so-man-cho-anthony/",
+      "openingsUrl": "",
+      "recruitmentStatus": "watch_profile",
+      "recruitmentSignalZh": "无持续 openings 页面；作为香港 QS Top 20 中优化方向核心导师，适合人工监控学生/博士后/RA 招聘。",
+      "matchLevel": "A",
+      "matchScore": 88,
+      "fieldTags": [
+        "optimization theory",
+        "nonconvex optimization",
+        "machine learning optimization",
+        "signal processing",
+        "statistics"
+      ],
+      "fitZh": "理论优化、非凸优化与机器学习优化交叉明显；港校位置优先级高。",
+      "whyTrackZh": "CUHK QS 2027 第 18，SEEM 方向和应用数学/运筹交叉强，适合关注博士后、RAP 与合作机会。",
+      "potentialRoutes": [
+        "direct RA/postdoc if advertised",
+        "Hong Kong RGC Junior Research Fellow route",
+        "Research Assistant Professor route"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Testing Approximate Stationarity Concepts for Piecewise Affine Functions",
+          "year": "2025",
+          "url": "https://www1.se.cuhk.edu.hk/~manchoso/"
+        },
+        {
+          "title": "Computing D-Stationary Points of rho-Margin Loss SVM",
+          "year": "2022",
+          "url": "https://www1.se.cuhk.edu.hk/~manchoso/"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/chinese-university-hong-kong-cuhk",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-so-man-cho-anthony/",
+          "confidence": "A"
+        },
+        {
+          "type": "personal_homepage",
+          "url": "https://www1.se.cuhk.edu.hk/~manchoso/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "cuhk-seem-viet-anh-nguyen",
+      "leadName": "Viet Anh Nguyen",
+      "leadNameZh": "阮越英",
+      "institution": "The Chinese University of Hong Kong",
+      "department": "Department of Systems Engineering and Engineering Management",
+      "country": "Hong Kong",
+      "region": "Hong Kong",
+      "qsRank2027": 18,
+      "qsRankDisplay": "#18",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Responsible Decision Making under Uncertainty",
+      "homepage": "https://vietanhnguyen.net/",
+      "groupHomepage": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-viet-anh-nguyen/",
+      "openingsUrl": "",
+      "recruitmentStatus": "watch_young_group",
+      "recruitmentSignalZh": "青年 PI，方向与 DRO/统计优化高度相关；当前未见常驻 openings 页面，适合定期监控主页、CUHK SEEM jobs 与 RGC 资助机会。",
+      "matchLevel": "A",
+      "matchScore": 91,
+      "fieldTags": [
+        "distributionally robust optimization",
+        "statistical optimization",
+        "machine learning",
+        "decision making under uncertainty",
+        "operations research"
+      ],
+      "fitZh": "DRO 与数据驱动随机优化非常贴近；其 Stanford postdoc 到 CUHK AP 的路径对青年学者案例也很重要。",
+      "whyTrackZh": "港校优先级高，研究方向与 stochastic/data-driven optimization 主线接近。",
+      "potentialRoutes": [
+        "direct postdoc if advertised",
+        "Hong Kong RGC Junior Research Fellow route",
+        "collaboration-first contact"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Wasserstein Distributionally Robust Optimization: Theory and Applications in Machine Learning",
+          "year": "2019",
+          "url": "https://arxiv.org/abs/1908.08729"
+        },
+        {
+          "title": "Distributionally Robust Optimization: Theory and Applications in Machine Learning",
+          "year": "",
+          "url": "https://vietanhnguyen.net/"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/chinese-university-hong-kong-cuhk",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-viet-anh-nguyen/",
+          "confidence": "A"
+        },
+        {
+          "type": "personal_homepage",
+          "url": "https://vietanhnguyen.net/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "hkust-math-luze-xu",
+      "leadName": "Luze Xu",
+      "leadNameZh": "徐芦泽",
+      "institution": "The Hong Kong University of Science and Technology",
+      "department": "Department of Mathematics",
+      "country": "Hong Kong",
+      "region": "Hong Kong",
+      "qsRank2027": 33,
+      "qsRankDisplay": "#33",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Mixed Integer Programming and Global Optimization",
+      "homepage": "https://www.math.hkust.edu.hk/people/faculty/profile/xuluze/",
+      "groupHomepage": "https://researchportal.hkust.edu.hk/en/persons/luze-xu/",
+      "openingsUrl": "https://www.math.hkust.edu.hk/",
+      "recruitmentStatus": "watch_young_group",
+      "recruitmentSignalZh": "青年 AP，方向与整数规划/全局优化强相关；需监控 HKUST Math、个人主页和 Research Portal。",
+      "matchLevel": "B",
+      "matchScore": 82,
+      "fieldTags": [
+        "mixed integer programming",
+        "global optimization",
+        "continuous-discrete optimization",
+        "operations research"
+      ],
+      "fitZh": "更偏整数规划/全局优化，但对优化理论、算法与香港青年教职路径参考价值高。",
+      "whyTrackZh": "HKUST QS 2027 第 33，且该案例有清晰的 PhD-postdoc-assistant professor 路径。",
+      "potentialRoutes": [
+        "direct RA/postdoc if advertised",
+        "HKUST Research Assistant Professor route",
+        "Hong Kong RGC Junior Research Fellow route"
+      ],
+      "representativeWorks": [
+        {
+          "title": "On proximity for k-regular mixed-integer linear optimization",
+          "year": "2019",
+          "url": "https://scholar.google.com/citations?hl=en&user=C3bhbaMAAAAJ"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/hong-kong-university-science-technology",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://www.math.hkust.edu.hk/people/faculty/profile/xuluze/",
+          "confidence": "A"
+        },
+        {
+          "type": "official_research_portal",
+          "url": "https://researchportal.hkust.edu.hk/en/persons/luze-xu/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "hkust-ieda-sanyou-mei",
+      "leadName": "Sanyou Mei",
+      "leadNameZh": "梅三友",
+      "institution": "The Hong Kong University of Science and Technology",
+      "department": "Department of Industrial Engineering and Decision Analytics",
+      "country": "Hong Kong",
+      "region": "Hong Kong",
+      "qsRank2027": 33,
+      "qsRankDisplay": "#33",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Bilevel, Minimax, Stochastic and Distributed Optimization",
+      "homepage": "https://sanyoumei.github.io/",
+      "groupHomepage": "https://www.ieda.ust.hk/eng/faculty-staff.php?catid=0&id=52&sid=0",
+      "openingsUrl": "",
+      "recruitmentStatus": "watch_young_group",
+      "recruitmentSignalZh": "2025 年加入 HKUST IEDA 的青年 AP；当前未见固定 openings 页面，适合监控个人主页、HKUST IEDA 与基金动态。",
+      "matchLevel": "A",
+      "matchScore": 88,
+      "fieldTags": [
+        "stochastic optimization",
+        "bilevel optimization",
+        "minimax optimization",
+        "distributed optimization",
+        "online optimization"
+      ],
+      "fitZh": "随机非凸、双层、minimax、分布式优化与当前方向相邻，对 2029 后港校青年组机会很有参考价值。",
+      "whyTrackZh": "主页与 HKUST 官方页给出清晰青年学者路径和奖项信息，是“青年学者案例库”的优先样本。",
+      "potentialRoutes": [
+        "direct RA/postdoc if advertised",
+        "HKUST Research Assistant Professor route",
+        "Hong Kong RGC Junior Research Fellow route"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Accelerated first-order methods for convex optimization with locally Lipschitz continuous gradient",
+          "year": "2024",
+          "url": "https://sanyoumei.github.io/"
+        },
+        {
+          "title": "Variance-reduced First-order Methods for Deterministically Constrained Stochastic Nonconvex Optimization with Strong Convergence Guarantees",
+          "year": "2024",
+          "url": "https://www.ieda.ust.hk/eng/faculty-staff.php?catid=0&id=52&sid=0"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/hong-kong-university-science-technology",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://www.ieda.ust.hk/eng/faculty-staff.php?catid=0&id=52&sid=0",
+          "confidence": "A"
+        },
+        {
+          "type": "personal_homepage",
+          "url": "https://sanyoumei.github.io/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "hku-ids-yue-xie",
+      "leadName": "Yue Xie",
+      "leadNameZh": "谢岳",
+      "institution": "The University of Hong Kong",
+      "department": "Musketeers Foundation Institute of Data Science",
+      "country": "Hong Kong",
+      "region": "Hong Kong",
+      "qsRank2027": 11,
+      "qsRankDisplay": "#11",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Nonconvex and Stochastic Optimization",
+      "homepage": "https://datascience.hku.hk/people/yue-xie/",
+      "groupHomepage": "https://datascience.hku.hk/",
+      "openingsUrl": "",
+      "recruitmentStatus": "watch_profile",
+      "recruitmentSignalZh": "HKU 数据科学平台人物页显示非凸/随机优化方向；当前需人工复核是否有 postdoc 或 RA opening。",
+      "matchLevel": "B",
+      "matchScore": 80,
+      "fieldTags": [
+        "nonconvex optimization",
+        "stochastic optimization",
+        "machine learning",
+        "data science"
+      ],
+      "fitZh": "方向与随机/非凸优化相关，学校和地区优先级高；需要后续补齐个人主页、论文列表和招聘状态。",
+      "whyTrackZh": "HKU QS 2027 第 11，是香港首要目标学校之一；适合作为数据科学交叉方向观察点。",
+      "potentialRoutes": [
+        "direct RA/postdoc if advertised",
+        "HKU research fellow route",
+        "Hong Kong RGC Junior Research Fellow route"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Nonconvex and stochastic optimization profile",
+          "year": "",
+          "url": "https://datascience.hku.hk/people/yue-xie/"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/university-hong-kong",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://datascience.hku.hk/people/yue-xie/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "epfl-rao-daniel-kuhn",
+      "leadName": "Daniel Kuhn",
+      "leadNameZh": "",
+      "institution": "EPFL",
+      "department": "College of Management of Technology",
+      "country": "Switzerland",
+      "region": "Europe",
+      "qsRank2027": 22,
+      "qsRankDisplay": "#=22",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Risk Analytics and Optimization Chair",
+      "homepage": "https://people.epfl.ch/daniel.kuhn?lang=en",
+      "groupHomepage": "https://www.epfl.ch/labs/rao/",
+      "openingsUrl": "",
+      "recruitmentStatus": "watch_historical_postdoc",
+      "recruitmentSignalZh": "RAO 曾公开发布 mathematical optimization postdoc；当前需监控 RAO、EPFL jobs 和 OR 社群公告。",
+      "matchLevel": "A",
+      "matchScore": 94,
+      "fieldTags": [
+        "stochastic programming",
+        "robust optimization",
+        "distributionally robust optimization",
+        "data-driven optimization",
+        "operations research"
+      ],
+      "fitZh": "随机规划、DRO、robust optimization 与你的 SAA/随机互补方向高度相邻，是欧洲核心目标组。",
+      "whyTrackZh": "EPFL QS Top 50；组内研究从理论、算法到能源/交通/供应链都有连接，未来可作为 MSCA host 观察。",
+      "potentialRoutes": [
+        "direct postdoc if advertised",
+        "MSCA Postdoctoral Fellowship host",
+        "Swiss/EPFL postdoc route"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Distributionally Robust Optimization",
+          "year": "2024",
+          "url": "https://arxiv.org/abs/2411.02549"
+        },
+        {
+          "title": "Wasserstein Distributionally Robust Optimization: Theory and Applications in Machine Learning",
+          "year": "2019",
+          "url": "https://arxiv.org/abs/1908.08729"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/epfl-ecole-polytechnique-federale-de-lausanne",
+          "confidence": "A"
+        },
+        {
+          "type": "official_lab",
+          "url": "https://www.epfl.ch/labs/rao/",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://people.epfl.ch/daniel.kuhn?lang=en",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "epfl-optim-nicolas-boumal",
+      "leadName": "Nicolas Boumal",
+      "leadNameZh": "",
+      "institution": "EPFL",
+      "department": "Institute of Mathematics",
+      "country": "Switzerland",
+      "region": "Europe",
+      "qsRank2027": 22,
+      "qsRankDisplay": "#=22",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Chair of Continuous Optimization",
+      "homepage": "https://www.nicolasboumal.net/",
+      "groupHomepage": "https://people.epfl.ch/nicolas.boumal?lang=en",
+      "openingsUrl": "",
+      "recruitmentStatus": "watch_profile",
+      "recruitmentSignalZh": "无当前公开 openings 页面；作为连续优化/流形优化青年强组，适合长期监控。",
+      "matchLevel": "B",
+      "matchScore": 83,
+      "fieldTags": [
+        "continuous optimization",
+        "nonconvex optimization",
+        "optimization on manifolds",
+        "numerical optimization",
+        "statistical estimation"
+      ],
+      "fitZh": "更偏连续/非凸/流形优化，与数值优化和算法分析接近；可作为欧洲理论优化强组观察。",
+      "whyTrackZh": "EPFL QS Top 50；年轻强组，适合看博士后到独立 PI 的学术路线。",
+      "potentialRoutes": [
+        "direct postdoc if advertised",
+        "MSCA Postdoctoral Fellowship host"
+      ],
+      "representativeWorks": [
+        {
+          "title": "An introduction to Optimization on Smooth Manifolds",
+          "year": "2023",
+          "url": "https://www.nicolasboumal.net/book/"
+        },
+        {
+          "title": "Global rates of convergence for nonconvex optimization on manifolds",
+          "year": "2016",
+          "url": "https://arxiv.org/abs/1605.08101"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/epfl-ecole-polytechnique-federale-de-lausanne",
+          "confidence": "A"
+        },
+        {
+          "type": "personal_homepage",
+          "url": "https://www.nicolasboumal.net/",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://people.epfl.ch/nicolas.boumal?lang=en",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "imperial-wolfram-wiesemann",
+      "leadName": "Wolfram Wiesemann",
+      "leadNameZh": "",
+      "institution": "Imperial College London",
+      "department": "Imperial College Business School",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "qsRank2027": 2,
+      "qsRankDisplay": "#=2",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Models and Algorithms for Decision-Making under Uncertainty",
+      "homepage": "https://wp.doc.ic.ac.uk/wwiesema/",
+      "groupHomepage": "https://profiles.imperial.ac.uk/ww",
+      "openingsUrl": "",
+      "recruitmentStatus": "watch_historical_postdoc",
+      "recruitmentSignalZh": "历史上公开发布过 decision-making under uncertainty postdoc；当前需监控 Imperial jobs、个人主页和 INFORMS/OR 社群。",
+      "matchLevel": "A",
+      "matchScore": 89,
+      "fieldTags": [
+        "stochastic programming",
+        "robust optimization",
+        "distributionally robust optimization",
+        "decision making under uncertainty",
+        "operations research"
+      ],
+      "fitZh": "不确定性优化与 DRO 方向高度相关；Imperial QS 顶尖，但英国签证和长期教职竞争需单独评估。",
+      "whyTrackZh": "与 EPFL RAO 网络强关联，是欧洲/英国 robust-stochastic optimization 重点人脉节点。",
+      "potentialRoutes": [
+        "direct postdoc if advertised",
+        "MSCA Postdoctoral Fellowship host",
+        "UKRI/EPSRC project postdoc"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Distributionally Robust Optimization",
+          "year": "2024",
+          "url": "https://arxiv.org/abs/2411.02549"
+        },
+        {
+          "title": "A Note on Piecewise Affine Decision Rules for Robust, Stochastic, and Data-Driven Optimization",
+          "year": "2024",
+          "url": "https://arxiv.org/abs/2409.10295"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/imperial-college-london",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://profiles.imperial.ac.uk/ww",
+          "confidence": "A"
+        },
+        {
+          "type": "personal_homepage",
+          "url": "https://wp.doc.ic.ac.uk/wwiesema/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "oxford-coralia-cartis",
+      "leadName": "Coralia Cartis",
+      "leadNameZh": "",
+      "institution": "University of Oxford",
+      "department": "Mathematical Institute",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "qsRank2027": 4,
+      "qsRankDisplay": "#4",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Numerical Optimization",
+      "homepage": "https://www.maths.ox.ac.uk/people/coralia.cartis",
+      "groupHomepage": "https://people.maths.ox.ac.uk/cartis/",
+      "openingsUrl": "https://www.maths.ox.ac.uk/vacancies",
+      "recruitmentStatus": "department_openings_watch",
+      "recruitmentSignalZh": "Oxford Mathematical Institute 有集中 vacancies 页面；当前需按题目过滤 numerical optimization / data science / stochastic analysis。",
+      "matchLevel": "B",
+      "matchScore": 82,
+      "fieldTags": [
+        "numerical optimization",
+        "nonconvex optimization",
+        "complexity analysis",
+        "derivative-free optimization",
+        "compressed sensing"
+      ],
+      "fitZh": "数值优化、非凸优化复杂性、算法分析接近；更偏优化算法本身，适合欧洲顶校观察。",
+      "whyTrackZh": "Oxford QS Top 5；vacancies 页面稳定，是未来自动筛选 Oxford postdoc 的官方入口。",
+      "potentialRoutes": [
+        "Oxford Mathematical Institute postdoc",
+        "MSCA Postdoctoral Fellowship host",
+        "Turing / data science fellowship route"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Evaluation Complexity of Algorithms for Nonconvex Optimization",
+          "year": "2022",
+          "url": "https://www.maths.ox.ac.uk/people/coralia.cartis"
+        },
+        {
+          "title": "Strong Evaluation Complexity Bounds for Arbitrary-Order Optimization of Nonconvex Nonsmooth Composite Functions",
+          "year": "2020",
+          "url": "https://arxiv.org/abs/2001.10802"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/university-oxford",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://www.maths.ox.ac.uk/people/coralia.cartis",
+          "confidence": "A"
+        },
+        {
+          "type": "official_vacancies",
+          "url": "https://www.maths.ox.ac.uk/vacancies",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "tum-math-michael-ulbrich",
+      "leadName": "Michael Ulbrich",
+      "leadNameZh": "",
+      "institution": "Technical University of Munich",
+      "department": "Department of Mathematics",
+      "country": "Germany",
+      "region": "Europe",
+      "qsRank2027": 25,
+      "qsRankDisplay": "#25",
+      "schoolScope": "QS 2027 Top 50",
+      "groupName": "Mathematical Optimization",
+      "homepage": "https://www.math.cit.tum.de/en/math/people/professors/ulbrich-michael/",
+      "groupHomepage": "https://www.professoren.tum.de/en/ulbrich-michael",
+      "openingsUrl": "https://www.tum.de/en/about-tum/careers-and-jobs/postdocs/tum-global-postdoc-fellowship",
+      "recruitmentStatus": "fellowship_host_watch",
+      "recruitmentSignalZh": "TUM 有 Global Postdoc Fellowship 与数学/OR 多个招聘入口；需按 optimization/numerical analysis 定期过滤。",
+      "matchLevel": "B",
+      "matchScore": 81,
+      "fieldTags": [
+        "optimization theory",
+        "optimal control",
+        "numerical analysis",
+        "nonsmooth analysis",
+        "scientific computing"
+      ],
+      "fitZh": "非线性优化、最优控制、数值分析与科学计算相关；德国路线可叠加 Humboldt/MSCA/TUM Global。",
+      "whyTrackZh": "TUM QS Top 50，德国对非欧申请者相对友好，适合长期低成本关注。",
+      "potentialRoutes": [
+        "TUM Global Postdoc Fellowship",
+        "Humboldt Research Fellowship host",
+        "MSCA Postdoctoral Fellowship host"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Research areas: optimization theory and methods, optimal control, numerical analysis",
+          "year": "",
+          "url": "https://www.math.cit.tum.de/en/math/people/professors/ulbrich-michael/"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "qs_ranking",
+          "url": "https://www.topuniversities.com/universities/technical-university-munich",
+          "confidence": "A"
+        },
+        {
+          "type": "official_profile",
+          "url": "https://www.math.cit.tum.de/en/math/people/professors/ulbrich-michael/",
+          "confidence": "A"
+        },
+        {
+          "type": "official_fellowship",
+          "url": "https://www.tum.de/en/about-tum/careers-and-jobs/postdocs/tum-global-postdoc-fellowship",
+          "confidence": "A"
+        }
+      ]
     }
   ],
   "routes": [
@@ -790,8 +2103,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 949
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 979
     },
     {
       "id": "academic-positions",
@@ -803,8 +2116,8 @@
       "status": "error",
       "message": "HTTP 403",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 145
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 151
     },
     {
       "id": "academic-transfer",
@@ -813,11 +2126,11 @@
       "url": "https://www.academictransfer.com/en/jobs/",
       "trust": "academic_board",
       "sourceType": "academic_board",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "error",
+      "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 1491
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 365
     },
     {
       "id": "mathjobs",
@@ -829,8 +2142,8 @@
       "status": "ok",
       "message": "3 candidates",
       "count": 3,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 1229
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 1405
     },
     {
       "id": "academic-jobs-online",
@@ -842,8 +2155,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 1314
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 1400
     },
     {
       "id": "jobs-ac-uk",
@@ -855,8 +2168,8 @@
       "status": "ok",
       "message": "17 candidates",
       "count": 17,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 2555
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 4115
     },
     {
       "id": "polyu",
@@ -868,8 +2181,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 276
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 221
     },
     {
       "id": "hku",
@@ -881,8 +2194,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 1797
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 985
     },
     {
       "id": "hkust-math",
@@ -894,8 +2207,8 @@
       "status": "ok",
       "message": "3 candidates",
       "count": 3,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 56
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 73
     },
     {
       "id": "cuhk-math",
@@ -907,8 +2220,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 47
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 34
     },
     {
       "id": "nus",
@@ -917,11 +2230,11 @@
       "url": "https://careers.nus.edu.sg/NUS/go/Academic-and-Research-Positions/545744/",
       "trust": "official",
       "sourceType": "university",
-      "status": "error",
-      "message": "The operation was aborted due to timeout",
+      "status": "no_candidates",
+      "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 15013
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 271
     },
     {
       "id": "ntu",
@@ -933,8 +2246,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 1027
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 1016
     },
     {
       "id": "astar",
@@ -946,8 +2259,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 302
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 278
     },
     {
       "id": "chinapostdoctor",
@@ -959,8 +2272,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 1271
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 1136
     },
     {
       "id": "gaoxiaojob",
@@ -972,8 +2285,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 1858
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 1685
     },
     {
       "id": "microsoft-research",
@@ -985,8 +2298,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 2172
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 2095
     },
     {
       "id": "google-research",
@@ -998,8 +2311,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 382
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 341
     },
     {
       "id": "deepmind",
@@ -1011,8 +2324,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 1401
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 881
     },
     {
       "id": "huawei-noah",
@@ -1024,8 +2337,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 43
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 45
     },
     {
       "id": "bytedance-seed",
@@ -1037,8 +2350,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-09T15:19:21.720Z",
-      "latencyMs": 298
+      "checkedAt": "2026-07-09T15:51:02.293Z",
+      "latencyMs": 781
     }
   ],
   "calendar": {
@@ -1063,7 +2376,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-09T15:19:21.720Z",
+        "createdAt": "2026-07-09T15:51:02.293Z",
         "id": "1411a9a5c5c5768d",
         "matchScore": 74,
         "priority": "B",
@@ -1076,7 +2389,7 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-        "updatedAt": "2026-07-09T15:19:21.720Z",
+        "updatedAt": "2026-07-09T15:51:02.293Z",
         "ai": {
           "status": "skipped_no_key",
           "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -1116,7 +2429,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-09T15:19:21.720Z",
+        "createdAt": "2026-07-09T15:51:02.293Z",
         "id": "576a05e8b695f331",
         "matchScore": 64,
         "priority": "B",
@@ -1126,7 +2439,7 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Hong Kong · Fellowship",
-        "updatedAt": "2026-07-09T15:19:21.720Z",
+        "updatedAt": "2026-07-09T15:51:02.293Z",
         "ai": {
           "status": "skipped_no_key",
           "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -1163,7 +2476,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-09T15:19:21.720Z",
+        "createdAt": "2026-07-09T15:51:02.293Z",
         "id": "bbac44b5da0bc36a",
         "matchScore": 64,
         "priority": "B",
@@ -1173,7 +2486,7 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Singapore · Fellowship",
-        "updatedAt": "2026-07-09T15:19:21.720Z",
+        "updatedAt": "2026-07-09T15:51:02.293Z",
         "ai": {
           "status": "skipped_no_key",
           "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -1210,7 +2523,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-09T15:19:21.720Z",
+        "createdAt": "2026-07-09T15:51:02.293Z",
         "id": "e1e5047f5f87635e",
         "matchScore": 59,
         "priority": "C",
@@ -1220,7 +2533,7 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship",
-        "updatedAt": "2026-07-09T15:19:21.720Z",
+        "updatedAt": "2026-07-09T15:51:02.293Z",
         "ai": {
           "status": "skipped_no_key",
           "generatedAt": "2026-07-09T15:12:16.657Z",

@@ -22,7 +22,7 @@ check("private build is private mode", privateSite.mode === "private");
 check("public build has no private fields", () => assertNoPrivateFields(publicSite));
 check("default language is Chinese", html.includes('lang="zh-CN"'));
 check("core pages are present", ["page-home", "page-radar", "page-routes", "page-cases", "page-calendar", "page-methods"].every((id) => html.includes(id)));
-check("navigation matches PRD", ["首页", "机会雷达", "职业路线", "成功案例", "申请日历", "资源与方法"].every((label) => JSON.stringify(publicSite.copy.navigation).includes(label)));
+check("navigation matches PRD", ["首页", "机会雷达", "职业路线", "导师与学者", "申请日历", "资源与方法"].every((label) => JSON.stringify(publicSite.copy.navigation).includes(label)));
 check("home metrics are populated", ["totalJobs", "highMatchJobs", "dueSoonJobs", "activeSources", "totalSources"].every((key) => Number.isFinite(Number(publicSite.metrics[key]))));
 check("opportunity radar permanent filters exist", ["search", "region", "roleType", "topic", "priority", "deadline", "stage"].every(hasFilter));
 check("opportunity radar advanced filters exist", ["country", "sourceTrust", "timeline2029", "hostRequired", "funding", "visa", "teaching", "orientation"].every(hasFilter));
@@ -33,6 +33,8 @@ check("career routes link jobs and cases in UI", ["代表机会", "相关案例"
 check("calendar has fellowship and deadline data", Array.isArray(publicSite.calendar.fellowships) && publicSite.calendar.fellowships.length > 0 && Array.isArray(publicSite.calendar.deadlines));
 check("private calendar has preparation plan", Boolean(privateSite.calendar?.preparationPlan));
 check("people database has public evidence", (publicSite.people ?? []).every((person) => Array.isArray(person.evidence) && person.evidence.length > 0));
+check("target labs have QS scope and public evidence", (publicSite.labs ?? []).length >= 10 && (publicSite.labs ?? []).every((lab) => lab.schoolScope?.includes("QS") && lab.homepage && Array.isArray(lab.evidence) && lab.evidence.length > 0));
+check("target labs track recruitment signals", (publicSite.labs ?? []).some((lab) => String(lab.recruitmentStatus ?? "").includes("active")) && (publicSite.labs ?? []).every((lab) => lab.recruitmentSignalZh));
 check("resource methodology is public", ["sourcePrinciple", "privacy", "aiNotice", "disclaimer"].every((key) => publicSite.copy.methodology?.[key]));
 check("jobs have required public fields", (publicSite.jobs ?? []).every((job) => job.title && job.institution && job.region && job.roleType && job.sourceTrustLabelZh && (job.recordType === "watch_seed" || job.sourceUrl)));
 check("A/B opportunities have reasons", (publicSite.jobs ?? []).filter((job) => ["A", "B"].includes(job.priority)).every((job) => job.simpleReason || job.ai?.summaryZh));

@@ -20,6 +20,7 @@ const [
   sourceStatuses,
   generatedMetadata,
   manualPeople,
+  manualLabs,
   routes,
   publicProfileConfig,
   privateProfileConfig,
@@ -34,6 +35,7 @@ const [
   readJson(projectRoot, "data/generated/sources.json", []),
   readJson(projectRoot, "data/generated/metadata.json", {}),
   readJson(projectRoot, "data/manual/people.json", []),
+  readJson(projectRoot, "data/manual/labs.json", []),
   readJson(projectRoot, "config/career-routes.json", []),
   readJson(projectRoot, "config/profile.json", {}),
   mode === "private" ? readJson(projectRoot, "config/profile.private.json", null) : null,
@@ -64,6 +66,14 @@ const people = manualPeople.map((person) => ({
   }
 }));
 
+const labs = manualLabs.map((lab) => ({
+  ...lab,
+  evidence: lab.evidence ?? [],
+  fieldTags: lab.fieldTags ?? [],
+  potentialRoutes: lab.potentialRoutes ?? [],
+  representativeWorks: lab.representativeWorks ?? []
+}));
+
 const metadata = {
   ...generatedMetadata,
   builtAt: new Date().toISOString(),
@@ -77,10 +87,11 @@ const siteData = {
   copy: siteCopy,
   metadata,
   profile: mode === "public" ? publicProfile(profile) : profile,
-  metrics: buildMetrics(jobs, sourceStatuses, people),
+  metrics: buildMetrics(jobs, sourceStatuses, people, labs),
   jobs,
   alerts: jobs.length ? buildAlerts(jobs) : generatedAlerts,
   people,
+  labs,
   routes: routes.sort((a, b) => (a.order ?? 99) - (b.order ?? 99)),
   sources: sourceStatuses,
   calendar: buildCalendar(
@@ -104,13 +115,14 @@ await writeJson(outputDir, "data/site.json", outputData);
 await writeJson(outputDir, "data/jobs.json", outputData.jobs);
 await writeJson(outputDir, "data/alerts.json", outputData.alerts);
 await writeJson(outputDir, "data/people.json", outputData.people);
+await writeJson(outputDir, "data/labs.json", outputData.labs);
 await writeJson(outputDir, "data/routes.json", outputData.routes);
 await writeJson(outputDir, "data/sources.json", outputData.sources);
 await writeJson(outputDir, "data/metadata.json", outputData.metadata);
 await fs.writeFile(path.join(outputDir, ".nojekyll"), "", "utf8");
 
 console.log(`Built ${mode} site at ${outputDir}`);
-console.log(`${outputData.jobs.length} jobs, ${outputData.alerts.length} alerts, ${outputData.people.length} people.`);
+console.log(`${outputData.jobs.length} jobs, ${outputData.alerts.length} alerts, ${outputData.people.length} people, ${outputData.labs.length} labs.`);
 
 function readArg(name) {
   const eq = process.argv.find((arg) => arg.startsWith(`--${name}=`));
@@ -119,7 +131,7 @@ function readArg(name) {
   return index >= 0 ? process.argv[index + 1] : null;
 }
 
-function buildMetrics(jobs, sources, people) {
+function buildMetrics(jobs, sources, people, labs) {
   const abJobs = jobs.filter((job) => ["A", "B"].includes(job.priority) && job.recordType !== "watch_seed");
   const dueSoon = jobs.filter((job) => {
     const days = daysUntil(job.deadline);
@@ -132,7 +144,9 @@ function buildMetrics(jobs, sources, people) {
     dueSoonJobs: dueSoon.length,
     activeSources: activeSources.length,
     totalSources: sources.length,
-    peopleCount: people.length
+    peopleCount: people.length,
+    targetLabs: labs.length,
+    activeLabSignals: labs.filter((lab) => String(lab.recruitmentStatus ?? "").includes("active")).length
   };
 }
 

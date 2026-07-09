@@ -180,6 +180,7 @@ a {
 .briefing-strip,
 .opportunity-grid,
 .route-grid,
+.lab-grid,
 .person-grid,
 .method-grid {
   display: grid;
@@ -195,6 +196,7 @@ a {
 .opportunity-card,
 .route-card,
 .route-detail,
+.lab-card,
 .person-card,
 .method-card,
 .private-band {
@@ -247,6 +249,7 @@ a {
 .route-detail h2,
 .method-card h3,
 .opportunity-card h3,
+.lab-card h3,
 .person-card h3,
 .route-card h3 {
   margin: 0;
@@ -296,6 +299,7 @@ a {
 }
 
 .opportunity-card,
+.lab-card,
 .person-card,
 .route-card,
 .method-card {
@@ -303,6 +307,7 @@ a {
 }
 
 .opportunity-card p,
+.lab-card p,
 .person-card p,
 .route-card p,
 .method-card p,
@@ -475,6 +480,21 @@ a {
   width: min(1440px, calc(100% - 32px));
   margin: 0 auto 40px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.lab-grid {
+  width: min(1440px, calc(100% - 32px));
+  margin: 0 auto 24px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.lab-grid.compact {
+  width: 100%;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.case-filter-band {
+  grid-template-columns: minmax(260px, 1fr) repeat(4, minmax(140px, 180px));
 }
 
 .source-row {
@@ -785,6 +805,8 @@ th {
   .briefing-strip,
   .opportunity-grid,
   .route-grid.compact,
+  .lab-grid,
+  .lab-grid.compact,
   .person-grid,
   .method-grid,
   .advanced-grid {
@@ -796,6 +818,8 @@ th {
   .briefing-strip,
   .opportunity-grid,
   .route-grid.compact,
+  .lab-grid,
+  .lab-grid.compact,
   .person-grid,
   .method-grid,
   .advanced-grid,

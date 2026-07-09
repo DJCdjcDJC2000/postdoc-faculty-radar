@@ -20,6 +20,14 @@ const state = {
   },
   selectedJobId: null,
   selectedPersonId: null,
+  selectedLabId: null,
+  caseFilters: {
+    search: "",
+    region: "",
+    type: "",
+    topic: "",
+    recruitment: ""
+  },
   calendarTab: "fellowships"
 };
 
@@ -79,6 +87,11 @@ function bindGlobalEvents() {
       showPersonDetail(personButton.dataset.personId);
       return;
     }
+    const labButton = event.target.closest("[data-lab-id]");
+    if (labButton) {
+      showLabDetail(labButton.dataset.labId);
+      return;
+    }
     if (event.target.closest("[data-close-drawer]")) {
       closeDrawer();
     }
@@ -110,6 +123,7 @@ function renderHome() {
   const { data } = state;
   const metrics = data.metrics ?? {};
   const featuredJobs = highMatchJobs().slice(0, 6);
+  const featuredLabs = sortedLabs().slice(0, 4);
   const featuredPeople = sortedPeople().slice(0, 3);
   const activeSources = (data.sources ?? []).filter((source) => source.status === "ok").slice(0, 6);
 
@@ -123,7 +137,7 @@ function renderHome() {
       <div class="briefing-strip" aria-label="本周情报摘要">
         ${metricCard("新增机会", metrics.totalJobs ?? 0, "全站候选")}
         ${metricCard("A/B 高匹配", metrics.highMatchJobs ?? 0, "优先查看")}
-        ${metricCard("30天内截止", metrics.dueSoonJobs ?? 0, "注意行动")}
+        ${metricCard("目标课题组", metrics.targetLabs ?? 0, "导师/PI 雷达")}
         ${metricCard("活跃数据源", `${metrics.activeSources ?? 0}/${metrics.totalSources ?? 0}`, "最近抓取")}
       </div>
     </section>
@@ -153,6 +167,19 @@ function renderHome() {
       </div>
       <div class="route-grid compact">
         ${(data.routes ?? []).map(routeCard).join("")}
+      </div>
+    </section>
+
+    <section class="section-band">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">PI Radar</p>
+          <h2>QS Top 50 目标导师/课题组</h2>
+        </div>
+        <a href="#cases" class="text-link">进入导师与学者库</a>
+      </div>
+      <div class="lab-grid compact">
+        ${featuredLabs.length ? featuredLabs.map(labCard).join("") : emptyBlock("目标导师库待补充")}
       </div>
     </section>
 
@@ -263,17 +290,52 @@ function renderRoutes() {
 }
 
 function renderCases() {
-  const people = sortedPeople();
+  const labs = filteredLabs();
+  const people = filteredPeople();
   els.pages.cases.innerHTML = `
     <section class="page-heading">
-      <p class="eyebrow">Career Cases</p>
-      <h1>成功案例</h1>
-      <p>只收录公开可验证信息。默认按方向相近度、目标地区相关度、背景路径相近度、岗位代表性和资料可信度排序。</p>
+      <p class="eyebrow">PI & Scholar Intelligence</p>
+      <h1>导师与学者</h1>
+      <p>统一追踪 QS Top 50 重点课题组、潜在 postdoc host、青年学者路径、基金/奖项和代表作。所有条目只使用公开可验证来源，申请前必须回到原始链接核验。</p>
     </section>
+    <section class="filter-band case-filter-band">
+      ${caseFilterInput("search", "搜索", "ETH, stochastic, HKUST, DRO")}
+      ${caseFilterSelect("region", "地区", caseRegionOptions())}
+      ${caseFilterSelect("type", "类型", [["labs", "目标导师/课题组"], ["people", "青年学者案例"]])}
+      ${caseFilterSelect("topic", "方向", caseTopicOptions())}
+      ${caseFilterSelect("recruitment", "招聘信号", [["active", "明确 openings"], ["watch", "长期观察"], ["fellowship", "Fellowship host"]])}
+    </section>
+    <section class="section-band">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Target Groups</p>
+          <h2>QS Top 50 目标导师/课题组</h2>
+        </div>
+        <span class="muted">${labs.length} 个匹配条目</span>
+      </div>
+      <div class="lab-grid">
+        ${labs.length ? labs.map(labCard).join("") : emptyBlock("当前筛选下没有匹配课题组")}
+      </div>
+    </section>
+    <section class="section-band">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Young Scholars</p>
+          <h2>青年学者路径样本</h2>
+        </div>
+        <span class="muted">${people.length} 个匹配条目</span>
+      </div>
     <section class="person-grid">
-      ${people.length ? people.map(personCard).join("") : emptyBlock("案例库待补充公开可验证样本")}
+        ${people.length ? people.map(personCard).join("") : emptyBlock("当前筛选下没有匹配人物")}
+    </section>
     </section>
   `;
+  els.pages.cases.querySelectorAll("[data-case-filter]").forEach((control) => {
+    control.addEventListener("input", (event) => {
+      state.caseFilters[event.target.dataset.caseFilter] = event.target.value;
+      renderCases();
+    });
+  });
 }
 
 function renderCalendar() {
@@ -376,16 +438,46 @@ function showJobDetail(jobId) {
   `;
 }
 
+function showLabDetail(labId) {
+  const lab = (state.data.labs ?? []).find((item) => item.id === labId);
+  if (!lab) return;
+  els.drawer.classList.add("open");
+  els.drawer.innerHTML = `
+    <button class="drawer-close" data-close-drawer aria-label="关闭">×</button>
+    <div class="drawer-body">
+      <p class="eyebrow">目标导师/课题组</p>
+      <h2>${escapeHtml(lab.leadNameZh ? `${lab.leadName} / ${lab.leadNameZh}` : lab.leadName)}</h2>
+      <p class="muted">${escapeHtml([lab.groupName, lab.institution, lab.department].filter(Boolean).join(" · "))}</p>
+      <div class="score-line">${labBadge(lab)} <span>${escapeHtml(lab.recruitmentSignalZh || "")}</span></div>
+      ${detailSection("基本信息", infoList([
+        ["学校/院系", [lab.institution, lab.department].filter(Boolean).join(" / ")],
+        ["QS 范围", [lab.schoolScope, lab.qsRankDisplay].filter(Boolean).join(" · ")],
+        ["地区", [lab.country, lab.region].filter(Boolean).join(" / ")],
+        ["课题组", lab.groupName],
+        ["导师主页", link(lab.homepage, "打开导师主页")],
+        ["课题组主页", link(lab.groupHomepage, "打开课题组主页")],
+        ["招聘入口", link(lab.openingsUrl, "打开 openings")]
+      ]))}
+      ${detailSection("为什么关注", `<p>${escapeHtml(lab.fitZh || "")}</p><p>${escapeHtml(lab.whyTrackZh || "")}</p>`)}
+      ${detailSection("研究方向", tagList(lab.fieldTags ?? []))}
+      ${detailSection("可能路线", reasonList("路线", lab.potentialRoutes ?? []))}
+      ${detailSection("代表作/方向证据", renderWorks(lab.representativeWorks ?? []))}
+      ${detailSection("公开证据", renderEvidence(lab.evidence ?? []))}
+    </div>
+  `;
+}
+
 function showPersonDetail(personId) {
-  const person = state.data.people.find((item) => item.id === personId);
+  const person = (state.data.people ?? []).find((item) => item.id === personId);
   if (!person) return;
   els.drawer.classList.add("open");
   els.drawer.innerHTML = `
     <button class="drawer-close" data-close-drawer aria-label="关闭">×</button>
     <div class="drawer-body">
-      <p class="eyebrow">成功案例</p>
+      <p class="eyebrow">青年学者/路径案例</p>
       <h2>${escapeHtml(person.name)}</h2>
       <p class="muted">${escapeHtml(person.currentPosition || "")} · ${escapeHtml(person.currentInstitution || "")}</p>
+      ${person.currentStatusZh ? `<p>${escapeHtml(person.currentStatusZh)}</p>` : ""}
       ${detailSection("职业路径摘要", `<p>${escapeHtml(person.ai?.careerPathZh ?? person.pathSummaryZh ?? "")}</p>`)}
       ${detailSection("职业路线图", renderPersonTimeline(person))}
       ${detailSection("背景表格", infoList([
@@ -395,11 +487,15 @@ function showPersonDetail(personId) {
         ["Postdoc 经历", (person.postdocHistory ?? []).map((item) => `${item.institution} ${item.years ?? ""}`).join("；")],
         ["当前岗位类型", person.currentRoleType],
         ["可信度", person.confidence],
-        ["公开主页", link(person.homepage, "打开主页")]
+        ["公开主页", link(person.homepage, "打开主页")],
+        ["Google Scholar", link(person.googleScholar, "打开 Scholar")]
       ]))}
       ${detailSection("研究方向", tagList(person.fieldTags ?? []))}
+      ${detailSection("基金/奖项", reasonList("公开奖项", person.grantsAwards ?? []))}
+      ${detailSection("代表作", renderWorks(person.representativePapers ?? []))}
       ${detailSection("可学习点", reasonList("可学习点", person.ai?.learningsZh ?? person.learningsZh ?? []))}
       ${detailSection("风险提醒", reasonList("不可简单复制", person.ai?.risksZh ?? person.risksZh ?? []))}
+      ${detailSection("公开证据", renderEvidence(person.evidence ?? []))}
     </div>
   `;
 }
@@ -462,6 +558,64 @@ function compareJobs(a, b) {
 
 function sortedPeople() {
   return [...(state.data.people ?? [])].sort((a, b) => (a.priority ?? "P9").localeCompare(b.priority ?? "P9"));
+}
+
+function sortedLabs() {
+  const levelOrder = { A: 0, B: 1, C: 2, D: 3 };
+  return [...(state.data.labs ?? [])].sort((a, b) => {
+    const levelDelta = (levelOrder[a.matchLevel] ?? 9) - (levelOrder[b.matchLevel] ?? 9);
+    if (levelDelta) return levelDelta;
+    return (b.matchScore ?? 0) - (a.matchScore ?? 0);
+  });
+}
+
+function filteredLabs() {
+  const filters = state.caseFilters;
+  if (filters.type === "people") return [];
+  return sortedLabs().filter((lab) => caseItemMatches(lab, filters, "labs"));
+}
+
+function filteredPeople() {
+  const filters = state.caseFilters;
+  if (filters.type === "labs") return [];
+  return sortedPeople().filter((person) => caseItemMatches(person, filters, "people"));
+}
+
+function caseItemMatches(item, filters, kind) {
+  const searchText = [
+    kind,
+    item.name,
+    item.nameZh,
+    item.leadName,
+    item.leadNameZh,
+    item.groupName,
+    item.institution,
+    item.currentInstitution,
+    item.department,
+    item.country,
+    item.region,
+    item.currentPosition,
+    item.currentStatusZh,
+    item.recruitmentStatus,
+    item.recruitmentSignalZh,
+    item.fitZh,
+    item.pathSummaryZh,
+    ...(item.fieldTags ?? []),
+    ...(item.potentialRoutes ?? []),
+    ...(item.grantsAwards ?? [])
+  ].filter(Boolean).join(" ").toLowerCase();
+  return (!filters.search || searchText.includes(filters.search.toLowerCase()))
+    && (!filters.region || item.region === filters.region || searchText.includes(filters.region.toLowerCase()))
+    && (!filters.topic || searchText.includes(filters.topic.toLowerCase()))
+    && (!filters.recruitment || caseRecruitmentMatches(item, filters.recruitment, searchText));
+}
+
+function caseRecruitmentMatches(item, filter, searchText) {
+  const status = String(item.recruitmentStatus ?? "").toLowerCase();
+  if (filter === "active") return status.includes("active");
+  if (filter === "watch") return status.includes("watch") || !status;
+  if (filter === "fellowship") return searchText.includes("fellowship") || searchText.includes("msca") || searchText.includes("humboldt");
+  return true;
 }
 
 function metricCard(label, value, caption) {
@@ -530,6 +684,23 @@ function routeDetailCard(route) {
   `;
 }
 
+function labCard(lab) {
+  return `
+    <article class="lab-card">
+      <div class="person-top">
+        ${labBadge(lab)}
+        <span>${escapeHtml([lab.schoolScope, lab.qsRankDisplay].filter(Boolean).join(" · "))}</span>
+      </div>
+      <h3>${escapeHtml(lab.leadNameZh ? `${lab.leadName} / ${lab.leadNameZh}` : lab.leadName)}</h3>
+      <p>${escapeHtml(lab.groupName || "")}</p>
+      <p class="muted">${escapeHtml([lab.institution, lab.department].filter(Boolean).join(" · "))}</p>
+      <div class="tag-list">${tagList(lab.fieldTags ?? [])}</div>
+      <p class="reason">${escapeHtml(lab.fitZh || lab.recruitmentSignalZh || "")}</p>
+      <button class="inline-button" data-lab-id="${escapeAttr(lab.id)}">查看导师/课题组</button>
+    </article>
+  `;
+}
+
 function personCard(person) {
   return `
     <article class="person-card">
@@ -538,7 +709,7 @@ function personCard(person) {
       <p>${escapeHtml(person.currentPosition || "")}</p>
       <p class="muted">${escapeHtml(person.currentInstitution || "")}</p>
       <div class="tag-list">${tagList(person.fieldTags ?? [])}</div>
-      <button class="inline-button" data-person-id="${escapeAttr(person.id)}">查看路径</button>
+      <button class="inline-button" data-person-id="${escapeAttr(person.id)}">查看背景与代表作</button>
     </article>
   `;
 }
@@ -605,8 +776,31 @@ function filterSelect(name, label, options) {
   return `<label class="filter-control"><span>${escapeHtml(label)}</span><select data-filter="${escapeAttr(name)}"><option value="">全部</option>${options.map(([value, text]) => `<option value="${escapeAttr(value)}" ${state.radarFilters[name] === value ? "selected" : ""}>${escapeHtml(text)}</option>`).join("")}</select></label>`;
 }
 
+function caseFilterInput(name, label, placeholder) {
+  return `<label class="filter-control"><span>${escapeHtml(label)}</span><input data-case-filter="${escapeAttr(name)}" value="${escapeAttr(state.caseFilters[name])}" placeholder="${escapeAttr(placeholder)}"></label>`;
+}
+
+function caseFilterSelect(name, label, options) {
+  return `<label class="filter-control"><span>${escapeHtml(label)}</span><select data-case-filter="${escapeAttr(name)}"><option value="">全部</option>${options.map(([value, text]) => `<option value="${escapeAttr(value)}" ${state.caseFilters[name] === value ? "selected" : ""}>${escapeHtml(text)}</option>`).join("")}</select></label>`;
+}
+
 function optionsFrom(items, key, labelKey = key) {
   return [...new Map((items ?? []).filter((item) => item[key]).map((item) => [item[key], item[labelKey] ?? item[key]]))].sort((a, b) => String(a[1]).localeCompare(String(b[1]), "zh-CN"));
+}
+
+function caseRegionOptions() {
+  const items = [...(state.data.labs ?? []), ...(state.data.people ?? [])];
+  return [...new Set(items.flatMap((item) => [item.region, item.country, item.currentInstitution?.includes("Hong Kong") ? "Hong Kong" : ""]).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, "zh-CN"))
+    .map((value) => [value, value]);
+}
+
+function caseTopicOptions() {
+  const topics = new Set();
+  for (const item of [...(state.data.labs ?? []), ...(state.data.people ?? [])]) {
+    for (const tag of item.fieldTags ?? []) topics.add(tag);
+  }
+  return [...topics].sort().slice(0, 80).map((topic) => [topic, topic]);
 }
 
 function keywordOptions() {
@@ -790,6 +984,38 @@ function scoreBadge(job) {
   return `<span class="score-badge grade-${escapeAttr((job.priority || "d").toLowerCase())}">${escapeHtml(job.priority || "D")} ${Number(job.matchScore ?? 0)}</span>`;
 }
 
+function labBadge(lab) {
+  return `<span class="score-badge grade-${escapeAttr(String(lab.matchLevel || "c").toLowerCase())}">${escapeHtml(lab.matchLevel || "C")} ${Number(lab.matchScore ?? 0)}</span>`;
+}
+
+function renderWorks(works = []) {
+  const list = works.filter((work) => work?.title);
+  if (!list.length) return `<p class="muted">代表作待补充。</p>`;
+  return `<div class="linked-list">${list.map((work) => `
+    <a class="linked-row" href="${escapeAttr(work.url || "#")}" target="_blank" rel="noreferrer">
+      <span class="trust-label">${escapeHtml(work.year || "work")}</span>
+      <span>
+        <b>${escapeHtml(work.title)}</b>
+        <small>${escapeHtml(work.venue || work.note || "")}</small>
+      </span>
+    </a>
+  `).join("")}</div>`;
+}
+
+function renderEvidence(evidence = []) {
+  const list = evidence.filter((item) => item?.url);
+  if (!list.length) return `<p class="muted">公开证据待补充。</p>`;
+  return `<div class="linked-list">${list.map((item) => `
+    <a class="linked-row" href="${escapeAttr(item.url)}" target="_blank" rel="noreferrer">
+      <span class="trust-label">${escapeHtml(item.confidence || "source")}</span>
+      <span>
+        <b>${escapeHtml(item.type || "source")}</b>
+        <small>${escapeHtml(item.url)}</small>
+      </span>
+    </a>
+  `).join("")}</div>`;
+}
+
 function tagList(values = []) {
   const unique = [...new Set(values.filter(Boolean))].slice(0, 6);
   return unique.length ? unique.map((value) => `<span class="tag">${escapeHtml(value)}</span>`).join("") : `<span class="muted">待提取</span>`;
@@ -864,6 +1090,7 @@ function fallbackData() {
     jobs: [],
     alerts: [],
     people: [],
+    labs: [],
     routes: [],
     sources: [],
     calendar: {}

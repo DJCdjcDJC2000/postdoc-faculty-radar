@@ -6,7 +6,7 @@
     {"id": "home", "label": "首页"},
     {"id": "radar", "label": "机会雷达"},
     {"id": "routes", "label": "职业路线"},
-    {"id": "cases", "label": "成功案例"},
+    {"id": "cases", "label": "导师与学者"},
     {"id": "calendar", "label": "申请日历"},
     {"id": "methods", "label": "资源与方法"}
   ],
