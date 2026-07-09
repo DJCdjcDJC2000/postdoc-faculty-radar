@@ -41,6 +41,7 @@ npm run build:public   # 生成公开版 public/
 npm run build:private  # 生成个人版 private/
 npm run update         # fetch + analyze + build:public
 npm run check          # 测试 + 离线更新 + public/private 构建
+npm run verify:acceptance # PRD 验收检查
 ```
 
 ## 个人画像
@@ -94,6 +95,8 @@ npm run notify:immediate
 ## 部署
 
 详见 [docs/deployment.md](./docs/deployment.md)。
+
+验收状态详见 [docs/acceptance-audit.md](./docs/acceptance-audit.md)。
 
 推荐双链接：
 

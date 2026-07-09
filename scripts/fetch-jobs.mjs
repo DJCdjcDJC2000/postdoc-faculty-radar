@@ -41,6 +41,7 @@ const scoredJobs = dedupeJobs([...manualNormalized, ...liveJobs])
       updatedAt: generatedAt
     };
   })
+  .filter(shouldKeepJob)
   .sort(compareByPriorityThenDate);
 
 const alerts = buildAlerts(scoredJobs);
@@ -154,10 +155,24 @@ function looksRelevant(text, source) {
   const roleHints = Object.values(keywords.roleHints ?? {}).flat().map((item) => String(item).toLowerCase());
   const hasRole = roleHints.some((term) => haystack.includes(term));
   const hits = findKeywordHits(text, keywords);
-  const hasFieldHit = hits.strong.length + hits.medium.length > 0;
+  const hasCoreFieldHit = hits.strong.length + hits.medium.length > 0;
   const isJobPath = /job|career|position|opening|vacanc|recruit|employment|postdoc|faculty|fellow/i.test(text);
   const companySource = source.sourceType === "company";
-  return (hasRole && isJobPath) || (hasFieldHit && (isJobPath || companySource));
+  if (source.fieldRelevant) return (hasRole && isJobPath) || hasCoreFieldHit;
+  return (hasRole && hasCoreFieldHit && isJobPath) || (companySource && hasCoreFieldHit);
+}
+
+function shouldKeepJob(job) {
+  if (job.recordType === "watch_seed") return true;
+  if (job.priority === "D") return false;
+  if (job.relevance === "core") return true;
+  if (["A", "B"].includes(job.priority)) return true;
+  if (job.roleType === "fellowship" || job.track === "fellowship") return true;
+  return Boolean(job.fieldRelevantSource && titleHasSpecificMathSignal(job.title));
+}
+
+function titleHasSpecificMathSignal(title) {
+  return /applied mathematics|mathematical|optimization|optimisation|numerical|scientific computing|stochastic|variational|complementarity|operations research|research assistant professor|assistant professor|associate professor/i.test(title);
 }
 
 function isNavigationNoise(title, url) {
@@ -173,6 +188,13 @@ function isNavigationNoise(title, url) {
     "skip to main content",
     "start main content",
     "skip to content",
+    "date placed",
+    "closing date",
+    "faculty profiles",
+    "more about",
+    "view details",
+    "read more",
+    "learn more",
     "中文",
     "english"
   ]);

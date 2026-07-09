@@ -25,7 +25,7 @@ const [jobs, publicProfileConfig, privateProfileConfig, publicExisting, privateE
 const profile = mergeProfile(publicProfileConfig, mode === "private" ? privateProfileConfig : null);
 const existing = mode === "private" ? { ...publicExisting, ...privateExisting } : publicExisting;
 const candidates = jobs
-  .filter((job) => !existing[job.id] || existing[job.id].status === "error")
+  .filter((job) => !existing[job.id] || existing[job.id].status === "error" || existing[job.id].jobFingerprint !== analysisFingerprint(job))
   .sort((a, b) => (b.matchScore ?? 0) - (a.matchScore ?? 0))
   .slice(0, maxItems);
 
@@ -117,6 +117,7 @@ function normalizeAnalysis(value, job, status) {
   return {
     status,
     generatedAt,
+    jobFingerprint: analysisFingerprint(job),
     notice: "AI 辅助生成，需核验",
     summaryZh: stringOr(value.summaryZh, fallback.summaryZh),
     tagsZh: arrayOr(value.tagsZh, fallback.tagsZh).slice(0, 6),
@@ -137,6 +138,7 @@ function fallbackAnalysis(job, status) {
   return {
     status,
     generatedAt,
+    jobFingerprint: analysisFingerprint(job),
     notice: "AI 辅助生成，需核验",
     summaryZh: `${region}的${role}机会，规则评分为 ${job.priority ?? "D"} ${job.matchScore ?? 0}。`,
     tagsZh: tags,
@@ -156,6 +158,16 @@ function arrayOr(value, fallback) {
 
 function stringOr(value, fallback) {
   return typeof value === "string" && value.trim() ? value.trim() : fallback;
+}
+
+function analysisFingerprint(job) {
+  return [
+    job.priority,
+    job.matchScore,
+    job.simpleReason,
+    job.relevance,
+    ...(job.matchedKeywords ?? [])
+  ].join("|");
 }
 
 function mergeProfile(publicProfileConfig, privateProfileConfig) {

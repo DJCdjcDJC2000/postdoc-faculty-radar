@@ -20,8 +20,9 @@
     "dev": "node scripts/dev-server.mjs --dir public",
     "dev:private": "node scripts/dev-server.mjs --dir private",
     "validate": "node scripts/validate-build.mjs",
+    "verify:acceptance": "node scripts/verify-acceptance.mjs",
     "test": "node --test",
-    "check": "npm run test && npm run update:offline && npm run validate"
+    "check": "npm run test && npm run update:offline && npm run validate && npm run verify:acceptance"
   },
   "dependencies": {
     "cheerio": "^1.0.0"

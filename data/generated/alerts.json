@@ -7,23 +7,10 @@
     "roleType": "fellowship",
     "roleLabelZh": "Fellowship",
     "priority": "B",
-    "matchScore": 71,
+    "matchScore": 74,
     "sourceName": "Humboldt Foundation",
     "sourceUrl": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
     "reason": "Europe · Fellowship · scientific computing / applied mathematics"
-  },
-  {
-    "id": "6b3b9b80b0551f74",
-    "title": "PhD Research Fellow in computer science/AI for energy informatics (ref 305184)",
-    "institution": "EURAXESS Jobs",
-    "region": "Europe",
-    "roleType": "research_fellow",
-    "roleLabelZh": "Research Fellow",
-    "priority": "B",
-    "matchScore": 64,
-    "sourceName": "EURAXESS Jobs",
-    "sourceUrl": "https://euraxess.ec.europa.eu/jobs/451875",
-    "reason": "Europe · Research Fellow · AI"
   },
   {
     "id": "576a05e8b695f331",
@@ -50,18 +37,5 @@
     "sourceName": "NRF Singapore",
     "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
     "reason": "Singapore · Fellowship"
-  },
-  {
-    "id": "865c6a2df15a3668",
-    "title": "Postdoctoral Fellows",
-    "institution": "HKUST Mathematics Employment",
-    "region": "Hong Kong",
-    "roleType": "postdoc",
-    "roleLabelZh": "博后",
-    "priority": "B",
-    "matchScore": 60,
-    "sourceName": "HKUST Mathematics Employment",
-    "sourceUrl": "https://www.math.hkust.edu.hk/employment/?menu=4",
-    "reason": "Hong Kong · 博后"
   }
 ]

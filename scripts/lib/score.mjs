@@ -10,6 +10,7 @@ export function findKeywordHits(text, config) {
   return {
     strong: hitGroup("strong"),
     medium: hitGroup("medium"),
+    broad: hitGroup("broad"),
     negative: hitGroup("negative")
   };
 }
@@ -53,17 +54,21 @@ export function scoreJob(job, config, now = new Date()) {
   const regionScore = config.regions?.[job.region] ?? 0;
   const roleScore = config.roleTypes?.[job.roleType] ?? 0;
   const trustScore = config.sourceTrust?.[job.trust] ?? config.sourceTrust?.[job.sourceTrust] ?? 0;
-  const keywordScore = hits.strong.length * 8 + hits.medium.length * 4 - hits.negative.length * 8;
+  const keywordScore = hits.strong.length * 10 + hits.medium.length * 5 + hits.broad.length - hits.negative.length * 12;
   const timingScore = getTimingScore(job, now);
   const evergreenScore = job.evergreen ? 5 : 0;
-  const hasFieldSignal = hits.strong.length + hits.medium.length > 0 || job.fieldRelevantSource || job.evergreen;
-  const genericPenalty = hasFieldSignal ? 0 : -25;
+  const hasKeywordCoreSignal = hits.strong.length + hits.medium.length > 0;
+  const hasSourceFieldSignal = job.fieldRelevantSource || job.evergreen;
+  const hasCoreFieldSignal = hasKeywordCoreSignal || hasSourceFieldSignal;
+  const hasOnlyBroadSignal = hits.broad.length > 0 && hits.strong.length + hits.medium.length === 0;
+  const genericPenalty = hasCoreFieldSignal ? 0 : (hasOnlyBroadSignal ? -45 : -50);
   const score = Math.max(0, regionScore + roleScore + trustScore + keywordScore + timingScore + evergreenScore + genericPenalty);
   return {
     matchScore: Math.min(100, score),
     priority: priorityFromScore(score),
-    matchedKeywords: [...new Set([...hits.strong, ...hits.medium])],
-    negativeKeywords: hits.negative
+    matchedKeywords: [...new Set([...hits.strong, ...hits.medium, ...hits.broad])],
+    negativeKeywords: hits.negative,
+    relevance: hasKeywordCoreSignal ? "core" : hasSourceFieldSignal ? "field_source" : hasOnlyBroadSignal ? "broad" : "low"
   };
 }
 
