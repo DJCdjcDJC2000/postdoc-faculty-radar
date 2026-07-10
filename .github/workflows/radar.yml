@@ -27,6 +27,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     env:
       FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+      FEISHU_BOT_APP_ID: ${{ secrets.FEISHU_BOT_APP_ID }}
+      FEISHU_BOT_APP_SECRET: ${{ secrets.FEISHU_BOT_APP_SECRET }}
+      FEISHU_BOT_RECEIVE_ID: ${{ secrets.FEISHU_BOT_RECEIVE_ID }}
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
       DEEPSEEK_MAX_ITEMS: ${{ vars.DEEPSEEK_MAX_ITEMS || '12' }}
@@ -68,7 +71,7 @@ jobs:
       - run: npm run validate
       - run: npm run verify:acceptance
       - name: Notify weekly Feishu report
-        if: ${{ env.FULL_UPDATE == 'true' && env.FEISHU_WEBHOOK_URL != '' }}
+        if: ${{ env.FULL_UPDATE == 'true' && (env.FEISHU_WEBHOOK_URL != '' || (env.FEISHU_BOT_APP_ID != '' && env.FEISHU_BOT_APP_SECRET != '' && env.FEISHU_BOT_RECEIVE_ID != '')) }}
         run: npm run notify:weekly
       - name: Create or update weekly GitHub report
         if: ${{ env.FULL_UPDATE == 'true' }}
@@ -107,7 +110,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/generated data/ai data/research/academic-candidates.json data/research/academic-enrichment.json data/research/orcid-academic-enrichment.json data/research/industry-people-curated.json public
+          git add data/generated data/ai data/research/academic-candidates.json data/research/academic-enrichment.json data/research/academic-identifier-discoveries.json data/research/academic-orcid-search-discoveries.json data/research/academic-orcid-crosscheck-discoveries.json data/research/orcid-academic-enrichment.json data/research/industry-people-curated.json public
           git diff --cached --quiet || git commit -m "chore: update radar data"
           git push
       - uses: actions/configure-pages@v5

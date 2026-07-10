@@ -2,11 +2,11 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadDotEnv } from "./lib/env.mjs";
+import { sendFeishuNotification } from "./lib/feishu-notification.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 await loadDotEnv(projectRoot);
 
-const webhook = process.env.FEISHU_WEBHOOK_URL;
 const kind = readArg("kind") ?? "daily";
 const mode = readArg("mode") ?? "public";
 const siteDir = mode === "private" ? "private" : "public";
@@ -19,30 +19,13 @@ if (!site) {
 const text = buildMessage(site, kind);
 
 
-if (!webhook) {
-  console.log("FEISHU_WEBHOOK_URL is not set. Preview:");
+const delivery = await sendFeishuNotification({ text });
+if (delivery === "preview") {
+  console.log("Feishu delivery is not configured. Preview:");
   console.log(text);
   process.exit(0);
 }
-
-const response = await fetch(webhook, {
-  method: "POST",
-  headers: {
-    "content-type": "application/json"
-  },
-  body: JSON.stringify({
-    msg_type: "text",
-    content: {
-      text
-    }
-  })
-});
-
-if (!response.ok) {
-  throw new Error(`Feishu webhook failed: HTTP ${response.status} ${await response.text()}`);
-}
-
-console.log("Feishu notification sent.");
+console.log(`Feishu notification sent via ${delivery}.`);
 
 async function readJson(relativePath, fallback) {
   try {
