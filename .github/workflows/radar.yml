@@ -50,6 +50,8 @@ jobs:
       - name: Daily lightweight update
         if: ${{ env.FULL_UPDATE != 'true' }}
         run: npm run update:light
+      - name: Build isolated private fixture for validation
+        run: npm run build:private
       - run: npm run validate
       - run: npm run verify:acceptance
       - name: Notify weekly Feishu report
