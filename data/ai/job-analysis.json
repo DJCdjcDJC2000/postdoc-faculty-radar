@@ -2249,5 +2249,27 @@
     "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
     "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
     "depth": "light"
+  },
+  "7c0599826d9b8f14": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-10T14:17:29.227Z",
+    "jobFingerprint": "C|54|United Kingdom · 博后 · applied mathematics / statistics|core|applied mathematics|statistics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "英国伦敦帝国理工学院数学系招聘应用数学与数学物理、统计学、数学金融或纯数学方向的助理/副教授/正教授，薪资范围£70,718-£94,829，发布日期2024年7月10日。",
+    "tagsZh": [
+      "应用数学",
+      "数学物理",
+      "统计学",
+      "数学金融",
+      "纯数学",
+      "教授"
+    ],
+    "positiveZh": [
+      "United Kingdom · 博后 · applied mathematics / statistics"
+    ],
+    "negativeZh": [],
+    "riskZh": "竞争激烈，需提前准备完整申请材料；薪资为英镑，需考虑英国生活成本。",
+    "nextStepZh": "访问原始链接获取完整职位描述和申请要求；准备简历、研究陈述和推荐信。",
+    "depth": 1
   }
 }

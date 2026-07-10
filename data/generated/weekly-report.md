@@ -2,7 +2,7 @@
 
 - 本周新增：7
 - 本周更新：19
-- 本周失效：0
+- 本周失效：1
 - A/B 高匹配：3
 - 30 天内截止：0
 - 学术候选池：132
@@ -11,6 +11,8 @@
 
 ## 本周变化
 
+- **本周新增** [Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics](https://www.jobs.ac.uk/job/DSE536/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 54
+- **已失效/已截止** [Postdoctoral Research Associate in Stochastic Analysis](https://www.jobs.ac.uk/job/DSE306/postdoctoral-research-associate-in-stochastic-analysis) · jobs.ac.uk Mathematics · United Kingdom · C 53
 - **本周更新** [物流与库存优化岗位入口](https://zhaopin.jd.com/) · 京东 · Mainland China
 - **本周更新** [供应链与决策优化岗位入口](https://talent.alibaba.com/) · 阿里巴巴 · Mainland China
 - **本周更新** [调度、路径与供需算法岗位入口](https://zhaopin.meituan.com/) · 美团 · Mainland China
@@ -29,7 +31,6 @@
 - **本周新增** [RGC Junior Research Fellow Scheme](https://awards.ugc.edu.hk/award/rgc-junior-research-fellow-scheme) · University Grants Committee / Research Grants Council · Hong Kong · B 64
 - **本周新增** [Singapore NRF Fellowship](https://www.nrf.gov.sg/grants/nrff/) · National Research Foundation Singapore · Singapore · B 64
 - **本周新增** [MSCA Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) · European Commission · Europe · C 59
-- **本周新增** [Postdoctoral Research Associate in Stochastic Analysis](https://www.jobs.ac.uk/job/DSE306/postdoctoral-research-associate-in-stochastic-analysis) · jobs.ac.uk Mathematics · United Kingdom · C 53
 - **本周新增** [Research Assistant Professor](https://www.math.hkust.edu.hk/employment/?menu=2) · HKUST Mathematics Employment · Hong Kong · C 45
 - **本周新增** [Professor/Associate/Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSD058/professor-associate-assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
 - **本周更新** [SCOT 应用科学家 / 数据科学家](https://www.amazon.science/scot) · Amazon SCOT · Europe
@@ -59,8 +60,9 @@
 
 ## 数据源状态
 
-- 正常或有结果：3/20
+- 正常或有结果：2/20
 - 抓取失败：Academic Positions · HTTP 403
+- 抓取失败：HKUST Mathematics Employment · fetch failed
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed
 

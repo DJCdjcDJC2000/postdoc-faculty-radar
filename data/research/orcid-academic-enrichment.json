@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "provider": "ORCID",
-  "generatedAt": "2026-07-10T12:22:38.190Z",
+  "generatedAt": "2026-07-10T14:16:56.104Z",
   "fetchedAt": "2026-07-10T11:20:58.677Z",
   "scopeNoteZh": "成果由作者 ORCID 公开记录与 Crossref 中带同一 ORCID 的 DOI 元数据合并，通常仍是论文量下界，不等同于完整论文总数。",
   "profiles": [
