@@ -60,10 +60,10 @@
 
 ## 数据源状态
 
-- 正常或有结果：2/20
+- 正常或有结果：3/20
 - 抓取失败：Academic Positions · HTTP 403
-- 抓取失败：HKUST Mathematics Employment · fetch failed
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
+- 抓取失败：高校人才网 · HTTP 403
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed
 
 ## 查看网站

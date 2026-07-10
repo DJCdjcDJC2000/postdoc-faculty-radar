@@ -24614,7 +24614,7 @@
         "crossSourceCounts": {
           "orcidRecordCount": 98,
           "crossrefOrcidWorksCount": 21,
-          "checkedAt": "2026-07-10T14:16:56.512Z"
+          "checkedAt": "2026-07-10T14:23:06.340Z"
         },
         "updatedAt": "2026-07-10T08:29:24.830Z"
       },
@@ -25077,7 +25077,7 @@
         {
           "type": "orcid_record",
           "url": "https://orcid.org/0000-0003-0481-272X",
-          "checkedAt": "2026-07-10T14:16:56.512Z",
+          "checkedAt": "2026-07-10T14:23:06.340Z",
           "confidence": "A",
           "supportsClaims": [
             "bibliographic_identity",
@@ -26437,7 +26437,7 @@
         "crossSourceCounts": {
           "orcidRecordCount": 488,
           "crossrefOrcidWorksCount": 155,
-          "checkedAt": "2026-07-10T14:16:56.856Z"
+          "checkedAt": "2026-07-10T14:23:06.855Z"
         },
         "updatedAt": "2026-07-10T08:29:30.945Z"
       },
@@ -26877,7 +26877,7 @@
         {
           "type": "orcid_record",
           "url": "https://orcid.org/0000-0001-6833-5227",
-          "checkedAt": "2026-07-10T14:16:56.856Z",
+          "checkedAt": "2026-07-10T14:23:06.855Z",
           "confidence": "A",
           "supportsClaims": [
             "bibliographic_identity",
@@ -28152,7 +28152,7 @@
         "crossSourceCounts": {
           "orcidRecordCount": 66,
           "crossrefOrcidWorksCount": 21,
-          "checkedAt": "2026-07-10T14:16:57.012Z"
+          "checkedAt": "2026-07-10T14:23:06.989Z"
         },
         "updatedAt": "2026-07-10T08:29:33.059Z"
       },
@@ -28609,7 +28609,7 @@
         {
           "type": "orcid_record",
           "url": "https://orcid.org/0000-0001-9798-2482",
-          "checkedAt": "2026-07-10T14:16:57.012Z",
+          "checkedAt": "2026-07-10T14:23:06.989Z",
           "confidence": "A",
           "supportsClaims": [
             "bibliographic_identity",
