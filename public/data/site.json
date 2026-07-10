@@ -51,7 +51,7 @@
     "jobCount": 9,
     "alertCount": 3,
     "sourceCount": 20,
-    "builtAt": "2026-07-10T16:45:12.840Z",
+    "builtAt": "2026-07-10T17:05:06.706Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -84273,7 +84273,7 @@
   ],
   "updates": {
     "windowDays": 7,
-    "generatedAt": "2026-07-10T16:45:12.840Z",
+    "generatedAt": "2026-07-10T17:05:06.706Z",
     "newCount": 7,
     "updatedCount": 19,
     "expiredCount": 1,

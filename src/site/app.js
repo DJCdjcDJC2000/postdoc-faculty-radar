@@ -1375,11 +1375,20 @@ function renderAcademicWorks(works, targetCount) {
 
 function academicWorkSelectionReason(work = {}) {
   const reason = work.selectionReasonZh || work.selectionReason;
-  return ({
+  const explicit = ({
     recent: "近五年公开成果",
     recent_crossref_orcid: "由 ORCID 与 Crossref 交叉核验的近五年成果",
     highly_cited: "公开书目数据中的高引用成果"
   })[reason] || (typeof reason === "string" && !reason.includes("_") ? reason : "");
+  if (explicit) return explicit;
+  const year = Number(work.year ?? work.publicationYear);
+  if (Number.isFinite(year) && year >= new Date().getFullYear() - 5) {
+    return "近五年且可回溯，用于观察近期研究主线";
+  }
+  if (work.venue) {
+    return `来自已核验公开成果清单，用于观察 ${work.venue} 发表赛道`;
+  }
+  return "来自已核验公开成果清单，用于核对研究主题与职业阶段";
 }
 
 function renderAcademicTimeline(items = []) {

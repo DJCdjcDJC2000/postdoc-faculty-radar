@@ -73,6 +73,8 @@ test("profile page covers research, publication, group and evidence records", ()
   for (const label of ["研究方法", "应用方向", "入选理由", "JSON", "Markdown", "CSV", "BibTeX", "PNG"]) {
     assert.ok(app.includes(label), `missing profile intelligence or export label: ${label}`);
   }
+  assert.match(app, /近五年且可回溯，用于观察近期研究主线/);
+  assert.match(app, /来自已核验公开成果清单，用于核对研究主题与职业阶段/);
   assert.match(app, /exportAcademicComparison/);
   assert.match(app, /exportAcademicNetwork/);
 });
