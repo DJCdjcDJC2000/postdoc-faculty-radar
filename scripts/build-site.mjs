@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { readJson, writeJson, copyFileEnsuringDir } from "./lib/read-write.mjs";
 import { assertNoPrivateFields, stripPrivateFields } from "./lib/privacy.mjs";
+import { sanitizeIntelligenceForBuild } from "./lib/public-intelligence.mjs";
 import { buildAlerts, buildCalendar, enrichJobForSite } from "./lib/site-data.mjs";
 import { freshnessFor } from "./lib/job-history.mjs";
 
@@ -162,7 +163,8 @@ const siteData = {
   )
 };
 
-const outputData = mode === "public" ? stripPrivateFields(siteData) : siteData;
+const intelligenceSafeData = sanitizeIntelligenceForBuild(siteData, mode);
+const outputData = mode === "public" ? stripPrivateFields(intelligenceSafeData) : intelligenceSafeData;
 if (mode === "public") {
   assertNoPrivateFields(outputData);
 }
