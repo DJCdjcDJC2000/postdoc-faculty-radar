@@ -26,6 +26,8 @@ test("people UI reads schema 2 academic profiles and supports restorable profile
   assert.match(app, /href="#people\/\$\{encodeURIComponent\(profile\.id\)\}"/);
   assert.match(app, /safeView === "profile"/);
   assert.match(app, /renderAcademicProfile\(\)/);
+  assert.match(app, /behavior: "instant"/);
+  assert.match(app, /requestAnimationFrame\(scrollToTop\)/);
 });
 
 test("people workspace exposes all six views and requested filters", () => {
@@ -58,6 +60,15 @@ test("profile page covers research, publication, group and evidence records", ()
   assert.match(app, /window\.print\(\)/);
   assert.match(app, /new Blob\(\[JSON\.stringify/);
   assert.match(app, /academic-profile-\$\{safeFileName/);
+  assert.match(app, /isTopicMetric/);
+  assert.match(app, /近 5 年 \$\{worksCount\} 篇相关公开记录/);
+});
+
+test("academic comparison suppresses zero-count venues and localizes taxonomy labels", () => {
+  assert.match(app, /\.filter\(\(item\) => Number\(item\?\.count \?\? 0\) > 0\)/);
+  assert.match(app, /VENUE_TIER_ORDER/);
+  assert.match(app, /venueTierLabel\(item\.tier\)/);
+  assert.match(app, /venueTaxonomy\?\.tracks/);
 });
 
 test("all seven recruitment signals are present and visually distinct", () => {

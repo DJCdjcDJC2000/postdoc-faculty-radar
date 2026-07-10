@@ -23,6 +23,15 @@ const RECRUITMENT_SIGNAL_PRESENTATION = {
   closed_or_expired: { label: "已截止或明确不招", note: "历史信号，不应视为开放", mark: "止", className: "signal-closed" }
 };
 
+const VENUE_TIER_ORDER = {
+  top_core: 0,
+  core: 0,
+  important_mainstream: 1,
+  selective: 1,
+  related_reference: 2,
+  supporting: 2
+};
+
 const state = {
   data: null,
   view: "home",
@@ -275,7 +284,13 @@ function setView(view) {
   Object.entries(els.pages).forEach(([id, node]) => node.classList.toggle("active", id === safeView));
   document.querySelectorAll(".nav-link").forEach((link) => link.classList.toggle("active", link.dataset.view === (safeView === "profile" ? "people" : safeView)));
   closeDrawer();
-  window.scrollTo({ top: 0, behavior: "auto" });
+  resetViewScroll();
+}
+
+function resetViewScroll() {
+  const scrollToTop = () => window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  scrollToTop();
+  requestAnimationFrame(scrollToTop);
 }
 
 function parseSiteRoute(value) {
@@ -824,7 +839,13 @@ function renderAcademicComparison() {
 
 function compareAcademicProfile(profile) {
   const metrics = profile.publicationMetrics ?? {};
-  const topVenues = (profile.venueBreakdown ?? []).slice(0, 4);
+  const topVenues = (profile.venueBreakdown ?? [])
+    .filter((item) => Number(item?.count ?? 0) > 0)
+    .sort((left, right) => (
+      (VENUE_TIER_ORDER[left.tier] ?? 9) - (VENUE_TIER_ORDER[right.tier] ?? 9)
+      || Number(right.count ?? 0) - Number(left.count ?? 0)
+    ))
+    .slice(0, 4);
   return `<article class="academic-compare-column">
     <button class="compare-remove" data-remove-academic-compare="${escapeAttr(profile.id)}" aria-label="从对比中移除 ${escapeAttr(profileDisplayName(profile))}">移除</button>
     <h3><a href="#people/${encodeURIComponent(profile.id)}">${escapeHtml(profileDisplayName(profile))}</a></h3>
@@ -840,7 +861,7 @@ function compareAcademicProfile(profile) {
       <div><dt>质量</dt><dd>${escapeHtml(profile.quality?.status === "ready" ? "资料完整" : `待完善 ${profile.quality?.score ?? 0}%`)}</dd></div>
     </dl>
     <div class="compare-research"><strong>研究方向</strong><div class="academic-tag-list">${academicTags(profile.research?.tags)}</div></div>
-    <div class="compare-venues"><strong>Venue 赛道</strong>${topVenues.length ? topVenues.map((item) => `<span>${escapeHtml(venueLabel(item))} · ${Number(item.count ?? 0)}</span>`).join("") : `<span>待补充</span>`}</div>
+    <div class="compare-venues"><strong>Venue 赛道</strong>${topVenues.length ? topVenues.map((item) => `<span>${escapeHtml(venueLabel(item))} · ${escapeHtml(item.tierLabelZh || venueTierLabel(item.tier))} · ${Number(item.count ?? 0)}</span>`).join("") : `<span>待补充</span>`}</div>
     <div class="compare-signals"><strong>招聘信号</strong>${(profile.recruitmentSignals ?? []).map((signal) => renderRecruitmentSignal(signal, true)).join("") || `<span class="muted">待补充</span>`}</div>
   </article>`;
 }
@@ -1104,13 +1125,45 @@ function renderPublicationMetrics(metrics) {
 
 function renderResearchEvolution(items = []) {
   if (!items.length) return professionalEmpty("近 5 年研究变化尚待整理", "需基于论文主题、项目与公开研究陈述形成可回溯记录。", "研究变化");
-  return `<ol class="research-evolution-list">${items.slice(0, 12).map((item, index) => {
+  const narratives = items.filter((item) => typeof item === "string").length;
+  let narrativeIndex = 0;
+  let topicIndex = 0;
+  return `<ol class="research-evolution-list">${items.slice(0, 12).map((item) => {
     const value = typeof item === "string" ? { summaryZh: item } : item;
-    const period = value.period || value.years || value.year || value.fromYear && value.toYear && `${value.fromYear}-${value.toYear}` || `阶段 ${index + 1}`;
+    const isTopicMetric = typeof item !== "string" && Boolean(value.topic) && (
+      value.worksCount !== undefined || value.shareOfWorks !== undefined || Array.isArray(value.yearly)
+    );
+    const fallbackPeriod = isTopicMetric
+      ? `主题 ${++topicIndex}`
+      : narratives === 1 ? "综合脉络" : `阶段 ${++narrativeIndex}`;
+    const period = value.period || value.years || value.year || value.fromYear && value.toYear && `${value.fromYear}-${value.toYear}` || fallbackPeriod;
     const title = value.titleZh || value.title || value.topic || value.summaryZh || value.summary || "研究方向变化";
-    const detail = value.summaryZh && value.summaryZh !== title ? value.summaryZh : value.summary && value.summary !== title ? value.summary : [value.from, value.to].filter(Boolean).join(" → ");
+    const detail = isTopicMetric
+      ? researchTopicMetricSummary(value)
+      : value.summaryZh && value.summaryZh !== title ? value.summaryZh : value.summary && value.summary !== title ? value.summary : [value.from, value.to].filter(Boolean).join(" → ");
     return `<li><span>${escapeHtml(period)}</span><div><h3>${escapeHtml(title)}</h3>${detail ? `<p>${escapeHtml(detail)}</p>` : ""}</div></li>`;
   }).join("")}</ol>`;
+}
+
+function researchTopicMetricSummary(value = {}) {
+  const details = [];
+  const worksCount = Number(value.worksCount);
+  if (Number.isFinite(worksCount)) details.push(`近 5 年 ${worksCount} 篇相关公开记录`);
+  const share = Number(value.shareOfWorks);
+  if (Number.isFinite(share) && share > 0) details.push(`占收录成果 ${new Intl.NumberFormat("zh-CN", { style: "percent", maximumFractionDigits: 1 }).format(share)}`);
+  const activeYears = (value.yearly ?? [])
+    .filter((item) => Number(item?.worksCount ?? 0) > 0 && item?.year)
+    .map((item) => Number(item.year))
+    .filter(Number.isFinite)
+    .sort((left, right) => left - right);
+  if (activeYears.length) details.push(`活跃年份 ${[...new Set(activeYears)].join("、")}`);
+  const trend = ({
+    rising_or_active: "近期活跃或上升",
+    stable_or_low: "相对稳定或样本较少",
+    declining: "近期公开记录减少"
+  })[value.trend];
+  if (trend) details.push(trend);
+  return details.join(" · ");
 }
 
 function renderVenueBreakdown(items = []) {
@@ -1582,7 +1635,12 @@ function profileUpdatedAt(profile) {
 }
 
 function venueLabel(item = {}) {
-  return item.trackLabelZh || item.trackLabel || item.track || item.venue || "未分类赛道";
+  const track = academicData()?.venueTaxonomy?.tracks?.find((candidate) => candidate.id === item.track);
+  return item.trackLabelZh || track?.nameZh || item.trackLabel || track?.name || item.venue || humanizeVenueTrack(item.track) || "未分类赛道";
+}
+
+function humanizeVenueTrack(value) {
+  return String(value || "").replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
 function venueTierLabel(tier) {
