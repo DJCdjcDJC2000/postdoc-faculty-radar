@@ -5,6 +5,7 @@ node_modules/
 coverage/
 tmp/
 .radar-cache/
+.vercel/
 /output/
 /private/
 config/profile.private.json
