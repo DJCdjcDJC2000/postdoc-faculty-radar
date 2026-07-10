@@ -3,7 +3,7 @@ name: Career Radar
 on:
   schedule:
     - cron: "7 1 * * 1"
-    - cron: "17 1 * * 2-7"
+    - cron: "17 1 * * 0,2-6"
   workflow_dispatch:
 
 permissions:

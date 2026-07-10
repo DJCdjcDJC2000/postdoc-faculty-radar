@@ -12,3 +12,4 @@ config/profile.private.json
 data/private/*.json
 !data/private/
 !data/private/*.example.json
+.env.local
