@@ -2,6 +2,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadDotEnv } from "./lib/env.mjs";
 import { readJson, writeJson } from "./lib/read-write.mjs";
+import { analysisFingerprint, shouldAnalyzeJob } from "./lib/deepseek-analysis.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 await loadDotEnv(projectRoot);
@@ -25,7 +26,7 @@ const [jobs, publicProfileConfig, privateProfileConfig, publicExisting, privateE
 const profile = mergeProfile(publicProfileConfig, mode === "private" ? privateProfileConfig : null);
 const existing = mode === "private" ? { ...publicExisting, ...privateExisting } : publicExisting;
 const candidates = jobs
-  .filter((job) => !existing[job.id] || existing[job.id].status === "error" || existing[job.id].jobFingerprint !== analysisFingerprint(job))
+  .filter((job) => shouldAnalyzeJob(job, existing))
   .sort((a, b) => (b.matchScore ?? 0) - (a.matchScore ?? 0))
   .slice(0, maxItems);
 
@@ -158,16 +159,6 @@ function arrayOr(value, fallback) {
 
 function stringOr(value, fallback) {
   return typeof value === "string" && value.trim() ? value.trim() : fallback;
-}
-
-function analysisFingerprint(job) {
-  return [
-    job.priority,
-    job.matchScore,
-    job.simpleReason,
-    job.relevance,
-    ...(job.matchedKeywords ?? [])
-  ].join("|");
 }
 
 function mergeProfile(publicProfileConfig, privateProfileConfig) {
