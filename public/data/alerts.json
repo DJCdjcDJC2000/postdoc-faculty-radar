@@ -11,7 +11,7 @@
     "sourceName": "Humboldt Foundation",
     "sourceUrl": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
     "reason": "Europe · Fellowship · scientific computing / applied mathematics",
-    "aiSummaryZh": "Europe地区的Fellowship机会，规则评分为 B 74。"
+    "aiSummaryZh": "德国洪堡基金会为博士后研究人员提供研究奖学金，支持在德国进行科研，适用于优化、应用数学和科学计算领域。"
   },
   {
     "id": "576a05e8b695f331",
@@ -25,7 +25,7 @@
     "sourceName": "RGC JRFS",
     "sourceUrl": "https://awards.ugc.edu.hk/award/rgc-junior-research-fellow-scheme",
     "reason": "Hong Kong · Fellowship",
-    "aiSummaryZh": "Hong Kong地区的Fellowship机会，规则评分为 B 64。"
+    "aiSummaryZh": "香港研究资助局初级研究员计划，面向香港UGC资助大学的博士后，适合PolyU/HKUST/CUHK/HKU等目标群体。"
   },
   {
     "id": "bbac44b5da0bc36a",
@@ -39,6 +39,6 @@
     "sourceName": "NRF Singapore",
     "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
     "reason": "Singapore · Fellowship",
-    "aiSummaryZh": "Singapore地区的Fellowship机会，规则评分为 B 64。"
+    "aiSummaryZh": "新加坡国家研究基金会（NRF）提供早期独立研究职位，适合博士后向独立研究员过渡。"
   }
 ]

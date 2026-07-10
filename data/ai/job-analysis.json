@@ -19,67 +19,96 @@
     "depth": "deep"
   },
   "1411a9a5c5c5768d": {
-    "status": "skipped_no_key",
-    "generatedAt": "2026-07-09T15:12:16.657Z",
+    "status": "deepseek",
+    "generatedAt": "2026-07-10T05:26:07.363Z",
     "jobFingerprint": "B|74|Europe · Fellowship · scientific computing / applied mathematics|core|scientific computing|applied mathematics",
     "notice": "AI 辅助生成，需核验",
-    "summaryZh": "Europe地区的Fellowship机会，规则评分为 B 74。",
+    "summaryZh": "德国洪堡基金会为博士后研究人员提供研究奖学金，支持在德国进行科研，适用于优化、应用数学和科学计算领域。",
     "tagsZh": [
-      "scientific computing",
-      "applied mathematics"
+      "博士后",
+      "奖学金",
+      "德国",
+      "应用数学",
+      "科学计算"
     ],
     "positiveZh": [
       "Europe · Fellowship · scientific computing / applied mathematics"
     ],
     "negativeZh": [],
-    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
-    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
-    "depth": "deep"
+    "riskZh": "依赖德国导师支持，若未找到合适导师则无法申请；资助仅限在德国使用。",
+    "nextStepZh": "1. 确认研究方向与德国导师匹配；2. 准备研究计划、推荐信等材料；3. 通过洪堡基金会在线系统提交申请。",
+    "depth": "medium"
   },
   "576a05e8b695f331": {
-    "status": "skipped_no_key",
-    "generatedAt": "2026-07-09T15:12:16.657Z",
+    "status": "deepseek",
+    "generatedAt": "2026-07-10T05:26:07.363Z",
     "jobFingerprint": "B|64|Hong Kong · Fellowship|field_source",
     "notice": "AI 辅助生成，需核验",
-    "summaryZh": "Hong Kong地区的Fellowship机会，规则评分为 B 64。",
-    "tagsZh": [],
+    "summaryZh": "香港研究资助局初级研究员计划，面向香港UGC资助大学的博士后，适合PolyU/HKUST/CUHK/HKU等目标群体。",
+    "tagsZh": [
+      "博士后",
+      "香港",
+      "研究资助局",
+      "初级研究员",
+      "大学教育资助委员会"
+    ],
     "positiveZh": [
       "Hong Kong · Fellowship"
     ],
     "negativeZh": [],
-    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
-    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
-    "depth": "deep"
+    "riskZh": "申请周期长，名额有限，需提前与导师对接。",
+    "nextStepZh": "查阅RGC官网申请要求，联系目标院校导师确认支持。",
+    "depth": 1
   },
   "bbac44b5da0bc36a": {
-    "status": "skipped_no_key",
-    "generatedAt": "2026-07-09T15:12:16.657Z",
+    "status": "deepseek",
+    "generatedAt": "2026-07-10T05:26:07.363Z",
     "jobFingerprint": "B|64|Singapore · Fellowship|field_source",
     "notice": "AI 辅助生成，需核验",
-    "summaryZh": "Singapore地区的Fellowship机会，规则评分为 B 64。",
-    "tagsZh": [],
+    "summaryZh": "新加坡国家研究基金会（NRF）提供早期独立研究职位，适合博士后向独立研究员过渡。",
+    "tagsZh": [
+      "新加坡",
+      "独立研究",
+      "博士后",
+      "学术职业"
+    ],
     "positiveZh": [
       "Singapore · Fellowship"
     ],
     "negativeZh": [],
-    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
-    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
-    "depth": "deep"
+    "riskZh": "资助周期有限，需在期限内产出成果以续聘或转正；新加坡生活成本较高。",
+    "nextStepZh": "关注申请截止日期，准备研究计划；联系潜在合作机构或导师。",
+    "depth": 1
   },
   "e1e5047f5f87635e": {
-    "status": "skipped_no_key",
-    "generatedAt": "2026-07-09T15:12:16.657Z",
+    "status": "deepseek",
+    "generatedAt": "2026-07-10T05:26:07.363Z",
     "jobFingerprint": "C|59|Europe · Fellowship|field_source",
     "notice": "AI 辅助生成，需核验",
-    "summaryZh": "Europe地区的Fellowship机会，规则评分为 C 59。",
-    "tagsZh": [],
-    "positiveZh": [
-      "Europe · Fellowship"
+    "summaryZh": "欧盟委员会Horizon Europe框架下的MSCA博士后奖学金，每年开放申请，需确认当年具体通知和接收机构。",
+    "tagsZh": [
+      "博士后",
+      "奖学金",
+      "欧盟",
+      "欧洲",
+      "MSCA",
+      "Horizon Europe"
     ],
-    "negativeZh": [],
+    "positiveZh": [
+      "资助力度大",
+      "国际认可度高",
+      "覆盖学科广",
+      "可自由选择接收机构"
+    ],
+    "negativeZh": [
+      "竞争激烈",
+      "申请流程复杂",
+      "需自行联系接收机构",
+      "每年政策可能调整"
+    ],
     "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
-    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
-    "depth": "light"
+    "nextStepZh": "访问MSCA官网确认当前开放通知，寻找合适的接收机构并联系导师。",
+    "depth": 1
   },
   "6b3b9b80b0551f74": {
     "status": "skipped_no_key",
@@ -112,19 +141,29 @@
     "depth": "deep"
   },
   "8f0378d469afbb63": {
-    "status": "skipped_no_key",
-    "generatedAt": "2026-07-09T15:12:16.657Z",
+    "status": "deepseek",
+    "generatedAt": "2026-07-10T05:26:07.363Z",
     "jobFingerprint": "C|45|Hong Kong · Research Fellow|field_source",
     "notice": "AI 辅助生成，需核验",
-    "summaryZh": "Hong Kong地区的Research Fellow机会，规则评分为 C 45。",
-    "tagsZh": [],
-    "positiveZh": [
-      "Hong Kong · Research Fellow"
+    "summaryZh": "香港科技大学数学系招聘研究助理教授，岗位为研究型教职，无明确截止日期。",
+    "tagsZh": [
+      "香港",
+      "研究助理教授",
+      "数学",
+      "教职",
+      "研究型"
     ],
-    "negativeZh": [],
+    "positiveZh": [
+      "知名高校平台",
+      "研究型岗位，适合学术发展"
+    ],
+    "negativeZh": [
+      "信息不完整，无具体研究方向或要求",
+      "无明确薪资待遇"
+    ],
     "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
-    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
-    "depth": "light"
+    "nextStepZh": "访问官网左侧菜单查看详细招聘信息并准备申请材料。",
+    "depth": "shallow"
   },
   "947a41e9411a0d70": {
     "status": "skipped_no_key",
@@ -277,21 +316,25 @@
     "depth": "light"
   },
   "ad0598f43a3c9e24": {
-    "status": "skipped_no_key",
-    "generatedAt": "2026-07-09T15:12:16.657Z",
+    "status": "deepseek",
+    "generatedAt": "2026-07-10T05:26:07.363Z",
     "jobFingerprint": "C|53|United Kingdom · 博后 · stochastic analysis|core|stochastic analysis",
     "notice": "AI 辅助生成，需核验",
-    "summaryZh": "United Kingdom地区的博后机会，规则评分为 C 53。",
+    "summaryZh": "牛津大学数学研究所招聘随机分析方向博士后研究员，年薪£41,636-£47,779，工作地点在英国牛津。",
     "tagsZh": [
-      "stochastic analysis"
+      "随机分析",
+      "博士后",
+      "牛津大学",
+      "英国",
+      "数学"
     ],
     "positiveZh": [
       "United Kingdom · 博后 · stochastic analysis"
     ],
     "negativeZh": [],
-    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
-    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
-    "depth": "light"
+    "riskZh": "竞争可能激烈，需关注后续详细申请要求。",
+    "nextStepZh": "访问原始链接获取完整申请细节，准备研究陈述和推荐信。",
+    "depth": 1
   },
   "2e289867369c7dcc": {
     "status": "skipped_no_key",
@@ -699,21 +742,29 @@
     "depth": "light"
   },
   "f63bcce9a06b4f8e": {
-    "status": "skipped_no_key",
-    "generatedAt": "2026-07-09T15:12:16.657Z",
+    "status": "deepseek",
+    "generatedAt": "2026-07-10T05:26:07.363Z",
     "jobFingerprint": "C|43|United Kingdom · 教职 · applied mathematics|core|applied mathematics",
     "notice": "AI 辅助生成，需核验",
-    "summaryZh": "United Kingdom地区的教职机会，规则评分为 C 43。",
+    "summaryZh": "北京师范大学-香港浸会大学联合国际学院在广东省招聘应用数学方向教授/副教授/助理教授，薪资与经验匹配。",
     "tagsZh": [
-      "applied mathematics"
+      "应用数学",
+      "教授",
+      "广东",
+      "联合大学"
     ],
     "positiveZh": [
-      "United Kingdom · 教职 · applied mathematics"
+      "位于粤港澳大湾区，地理位置优越",
+      "联合国际学院，国际化环境",
+      "岗位级别灵活，适合不同资历"
     ],
-    "negativeZh": [],
+    "negativeZh": [
+      "未明确截止日期",
+      "薪资细节未公开"
+    ],
     "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
-    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
-    "depth": "light"
+    "nextStepZh": "访问链接查看完整职位描述并准备申请材料。",
+    "depth": "public"
   },
   "5aecb2bf9a984a3b": {
     "status": "skipped_no_key",
@@ -1811,24 +1862,26 @@
     "depth": "light"
   },
   "c4f0adb87a8dfd89": {
-    "status": "skipped_no_key",
-    "generatedAt": "2026-07-09T15:12:16.657Z",
+    "status": "deepseek",
+    "generatedAt": "2026-07-10T05:26:07.363Z",
     "jobFingerprint": "A|100|Global · 博后 · complementarity / stochastic complementarity|core|complementarity|stochastic complementarity|variational inequality|variational inequalities|nonsmooth optimization|SAA|spectral method|spectral methods|scientific computing|applied mathematics",
     "notice": "AI 辅助生成，需核验",
-    "summaryZh": "Global地区的博后机会，规则评分为 A 100。",
+    "summaryZh": "该岗位为博士后研究方向，聚焦随机互补性、变分不等式、非光滑优化、样本均值逼近（SAA）和谱方法，属于应用数学/优化/科学计算领域，全球范围。",
     "tagsZh": [
-      "complementarity",
-      "stochastic complementarity",
-      "variational inequality",
-      "variational inequalities"
+      "随机互补性",
+      "变分不等式",
+      "非光滑优化",
+      "样本均值逼近",
+      "谱方法",
+      "应用数学"
     ],
     "positiveZh": [
       "Global · 博后 · complementarity / stochastic complementarity"
     ],
     "negativeZh": [],
-    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
-    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
-    "depth": "deep"
+    "riskZh": "信息不完整，可能仅为研究兴趣登记而非正式招聘；需进一步核实具体职位细节。",
+    "nextStepZh": "建议搜索具体招聘机构（如大学或研究所）的正式博士后公告，或联系相关领域学者获取更多信息。",
+    "depth": "medium"
   },
   "694d41b50f5fe7a5": {
     "status": "skipped_no_key",
