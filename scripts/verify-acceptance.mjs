@@ -12,6 +12,7 @@ const app = await readText("public/app.js");
 const styles = await readText("public/styles.css");
 const packageJson = await readJson("package.json");
 const radarWorkflow = await readText(".github/workflows/radar.yml");
+const vercelProxy = await readText("vercel-proxy/vercel.json");
 const deploymentDoc = await readText("docs/deployment.md");
 
 const checks = [];
@@ -50,6 +51,7 @@ check("Feishu notification templates are wired", ["notify:daily", "notify:weekly
 check("weekly change feed is present", publicSite.updates?.windowDays === 7 && ["newCount", "updatedCount", "expiredCount"].every((key) => Number.isFinite(Number(publicSite.updates[key]))));
 check("GitHub Pages workflow is configured", radarWorkflow.includes("deploy-pages") && radarWorkflow.includes("npm run update:light") && radarWorkflow.includes("npm run update:weekly"));
 check("weekly Feishu and GitHub reports are configured", radarWorkflow.includes("notify:weekly") && radarWorkflow.includes("actions/github-script"));
+check("Vercel production proxy follows GitHub Pages", vercelProxy.includes("djcdjcdjc2000.github.io/postdoc-faculty-radar") && vercelProxy.includes("max-age=300"));
 check("EdgeOne deployment instructions exist", deploymentDoc.includes("EdgeOne Pages") && deploymentDoc.includes("public"));
 check("core resources avoid external CDN/runtime dependencies", !externalRuntimePattern().test([html, app, styles].join("\n")));
 

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "echo proxy-install-skip",
+  "buildCommand": "echo proxy-ready",
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "https://djcdjcdjc2000.github.io/postdoc-faculty-radar/"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://djcdjcdjc2000.github.io/postdoc-faculty-radar/:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "x-vercel-enable-rewrite-caching",
+          "value": "1"
+        },
+        {
+          "key": "CDN-Cache-Control",
+          "value": "max-age=300"
+        }
+      ]
+    }
+  ]
+}

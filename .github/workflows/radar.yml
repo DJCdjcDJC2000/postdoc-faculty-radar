@@ -27,7 +27,6 @@ jobs:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-chat' }}
       DEEPSEEK_MAX_ITEMS: ${{ vars.DEEPSEEK_MAX_ITEMS || '12' }}
-      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -96,9 +95,6 @@ jobs:
           git add data/generated data/ai public
           git diff --cached --quiet || git commit -m "chore: update radar data"
           git push
-      - name: Deploy production to Vercel
-        if: ${{ env.VERCEL_TOKEN != '' }}
-        run: npx --yes vercel deploy public --prod --yes --token="$VERCEL_TOKEN"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
