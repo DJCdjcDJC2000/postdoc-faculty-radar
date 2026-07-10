@@ -14,17 +14,30 @@ const lines = [
   `- 本周失效：${updates.expiredCount ?? 0}`,
   `- A/B 高匹配：${site.metrics?.highMatchJobs ?? 0}`,
   `- 30 天内截止：${site.metrics?.dueSoonJobs ?? 0}`,
+  `- 学术候选池：${site.academic?.overview?.totalProfiles ?? 0}`,
+  `- 完整公开档案：${site.academic?.qualityGate?.publishedProfiles ?? 0}`,
+  `- 导师组 / 青年学者：${academicTypeCount(site, "mentor_group")} / ${academicTypeCount(site, "young_scholar")}`,
   "",
   "## 本周变化",
   ""
 ];
 
 for (const item of (updates.items ?? []).slice(0, 30)) {
-  const score = item.priority ? `${item.priority} ${item.score ?? ""}` : item.score ?? "";
-  lines.push(`- **${item.labelZh}** [${item.title}](${item.sourceUrl || "https://public-omega-seven-25.vercel.app/"}) · ${item.organization || ""} · ${item.region || ""} · ${score}`);
+  const score = item.priority ? `${item.priority} ${item.score ?? ""}`.trim() : item.score;
+  const details = [item.organization, item.region, score].filter((value) => value !== undefined && value !== null && value !== "").join(" · ");
+  lines.push(`- **${item.labelZh}** [${item.title}](${item.sourceUrl || "https://public-omega-seven-25.vercel.app/"})${details ? ` · ${details}` : ""}`);
 }
 
 if (!(updates.items ?? []).length) lines.push("- 本周没有检测到可确认的变化。");
+
+lines.push("", "## 学术人物建设", "");
+lines.push(`- 官方明确招聘：${site.academic?.overview?.officialOpenings ?? 0}`);
+lines.push(`- 基金或项目扩组信号：${site.academic?.overview?.expansionSignals ?? 0}（不等于招聘）`);
+lines.push(`- 长期接受申请：${site.academic?.overview?.acceptingApplications ?? 0}`);
+lines.push(`- Fellowship host：${site.academic?.overview?.fellowshipHosts ?? 0}`);
+for (const profile of (site.academic?.profiles ?? []).slice(0, 12)) {
+  lines.push(`- [${profile.nameZh ? `${profile.nameZh} / ` : ""}${profile.name}](https://public-omega-seven-25.vercel.app/#people/${profile.id}) · ${profile.institution ?? "机构待补充"} · ${profile.publicationMetrics?.provider ?? "书目待补充"}`);
+}
 
 const failedSources = (site.sources ?? []).filter((source) => source.status === "error");
 lines.push("", "## 数据源状态", "");
@@ -46,3 +59,7 @@ const outputPath = path.join(projectRoot, "data/generated/weekly-report.md");
 await fs.mkdir(path.dirname(outputPath), { recursive: true });
 await fs.writeFile(outputPath, `${lines.join("\n")}\n`, "utf8");
 console.log(`Weekly report written to ${path.relative(projectRoot, outputPath)}.`);
+
+function academicTypeCount(site, type) {
+  return site.academic?.overview?.byType?.find((item) => item.value === type)?.count ?? 0;
+}

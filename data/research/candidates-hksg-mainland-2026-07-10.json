@@ -1,0 +1,1564 @@
+{
+  "metadata": {
+    "schemaVersion": "candidate-research.v1",
+    "title": "Postdoc Faculty Radar 香港、新加坡和中国大陆候选扩展研究",
+    "verifiedAt": "2026-07-10",
+    "scope": {
+      "regions": [
+        "Hong Kong",
+        "Singapore",
+        "Mainland China"
+      ],
+      "researchAreas": [
+        "applied mathematics",
+        "mathematical optimization",
+        "operations research",
+        "numerical analysis",
+        "scientific computing",
+        "stochastic complementarity and variational inequalities",
+        "nonsmooth optimization",
+        "machine learning optimization"
+      ],
+      "priority": "Hong Kong and Singapore first, with supplementary Mainland China candidates",
+      "youngScholarDefinition": "PhD awarded from 2016 through 2026 inclusive"
+    },
+    "counts": {
+      "labs": 13,
+      "youngScholars": 27
+    },
+    "deduplication": {
+      "excludedFiles": [
+        "data/manual/labs.json",
+        "data/manual/people.json"
+      ],
+      "duplicatesWithExisting": 0,
+      "internalDuplicates": 0
+    },
+    "recruitmentSignalTypes": {
+      "official_postdoc_opening": "官方页面明确列出当前博后岗位",
+      "official_research_staff_opening": "官方页面明确列出研究人员岗位",
+      "long_term_accepting_postdocs": "主页长期欢迎博后联系，但不代表固定名额",
+      "department_fellowship_host": "院系或研究中心存在 Fellowship/博后通道，但未确认由该导师担任合作导师",
+      "funded_may_expand": "存在近期基金或项目，可能扩组；不得解释为正在招聘",
+      "phd_only": "当前只发现博士招生信息",
+      "none_public": "未发现公开招聘证据"
+    },
+    "publicationPolicy": "学校排名不作为单独入选依据；低相关通用 AI 人物不进入核心名单。",
+    "dataPolicy": "保留所有已核验 URL 和无法可靠消歧的 null，不猜测补齐学术身份 ID。"
+  },
+  "labs": [
+    {
+      "id": "polyu-defeng-sun",
+      "kind": "lab",
+      "name": "Defeng Sun",
+      "institution": "Hong Kong Polytechnic University",
+      "region": "Hong Kong",
+      "positionStage": "Head and Chair Professor",
+      "homepage": "https://www.polyu.edu.hk/ama/profile/dfsun/",
+      "groupOrOpenings": "https://www.polyu.edu.hk/ama/profile/dfsun/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5029911976",
+        "orcid": "0000-0003-0481-272X"
+      },
+      "researchTags": [
+        "conic optimization",
+        "matrix optimization",
+        "semismooth Newton",
+        "variational analysis",
+        "optimization software"
+      ],
+      "selectionEvidence": "AMS/SIAM/CSIAM/ORSC Fellow；Beale–Orchard-Hays Prize；RGC Senior Research Fellow",
+      "fundingProjects": [
+        "RGC Senior Research Fellowship 2023-2027",
+        "GRF nonlinear conic/nonsmooth optimization",
+        "Huawei optimization solver projects"
+      ],
+      "recruitmentSignal": {
+        "type": "official_postdoc_opening",
+        "evidence": "https://www.polyu.edu.hk/ama/profile/dfsun/"
+      },
+      "sources": [
+        "https://www.polyu.edu.hk/ama/People/Academic-Staff/Prof-Sun-Defeng",
+        "https://research.polyu.edu.hk/en/persons/defeng-sun/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "具体岗位名额和截止时间需申请前复核"
+      ]
+    },
+    {
+      "id": "hku-xiaoming-yuan",
+      "kind": "lab",
+      "name": "Xiaoming Yuan",
+      "institution": "University of Hong Kong",
+      "region": "Hong Kong",
+      "positionStage": "Professor",
+      "homepage": "https://hkumath.hku.hk/~xmyuan/",
+      "groupOrOpenings": "https://hkumath.hku.hk/web/research/oor.php",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "optimization algorithms",
+        "ADMM",
+        "optimal control",
+        "scientific machine learning",
+        "applied mathematics"
+      ],
+      "selectionEvidence": "HKU Optimization and OR 核心成员；长期从事计算优化和算法设计",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://hkumath.hku.hk/~xmyuan/",
+        "https://hkumath.hku.hk/web/research/oor.php"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "OpenAlex需人工消歧",
+        "未发现导师本人当前招聘声明"
+      ]
+    },
+    {
+      "id": "hkbu-michael-ng",
+      "kind": "lab",
+      "name": "Michael Kwok-Po Ng",
+      "institution": "Hong Kong Baptist University",
+      "region": "Hong Kong",
+      "positionStage": "Dean of Science / Chair Professor",
+      "homepage": "https://www.math.hkbu.edu.hk/~mng/",
+      "groupOrOpenings": "https://www.math.hkbu.edu.hk/~mng/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5010561682",
+        "orcid": null
+      },
+      "researchTags": [
+        "numerical linear algebra",
+        "tensor computation",
+        "scientific computing",
+        "optimization",
+        "data science"
+      ],
+      "selectionEvidence": "AMS Fellow；高影响数值线性代数、张量与计算成像研究",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://www.math.hkbu.edu.hk/~mng/",
+        "https://www.sciencedirect.com/author/34571761900/michael-kwok-po-ng"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "行政职责可能影响亲自指导强度"
+      ]
+    },
+    {
+      "id": "hkust-jiheng-zhang",
+      "kind": "lab",
+      "name": "Jiheng Zhang",
+      "institution": "Hong Kong University of Science and Technology",
+      "region": "Hong Kong",
+      "positionStage": "Department Head and Professor",
+      "homepage": "https://ieda.ust.hk/eng/faculty-staff.php?catid=3&id=16&sid=15",
+      "groupOrOpenings": "https://ieda.ust.hk/eng/faculty-staff.php",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "stochastic optimization",
+        "applied probability",
+        "queueing",
+        "numerical methods",
+        "operations research"
+      ],
+      "selectionEvidence": "HKUST IEDA 系主任；持续发表于 OR、MOR、Management Science",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=3&id=16&sid=15",
+        "https://researchportal.hkust.edu.hk/en/organisations/department-of-industrial-engineering-and-decision-analytics/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "未发现个人博后招聘页"
+      ]
+    },
+    {
+      "id": "nus-melvyn-sim",
+      "kind": "lab",
+      "name": "Melvyn Sim",
+      "institution": "National University of Singapore",
+      "region": "Singapore",
+      "positionStage": "Professor and Provost's Chair",
+      "homepage": "https://iora.nus.edu.sg/people-p/melvyn-sim/",
+      "groupOrOpenings": "https://iora.nus.edu.sg/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5086975125",
+        "orcid": null
+      },
+      "researchTags": [
+        "robust optimization",
+        "optimization under uncertainty",
+        "prescriptive analytics",
+        "healthcare optimization",
+        "supply chain"
+      ],
+      "selectionEvidence": "鲁棒优化领域代表性学者；NUS Provost's Chair；MOE Tier-3 PI",
+      "fundingProjects": [
+        "Singapore MOE Tier-3 project"
+      ],
+      "recruitmentSignal": {
+        "type": "funded_may_expand",
+        "evidence": "https://iora.nus.edu.sg/people-p/melvyn-sim/"
+      },
+      "sources": [
+        "https://iora.nus.edu.sg/people-p/melvyn-sim/",
+        "https://iora.nus.edu.sg/wp-content/uploads/2020/12/v2TuZ1603591956.pdf"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "项目存在不等于当前招聘"
+      ]
+    },
+    {
+      "id": "nus-weizhu-bao",
+      "kind": "lab",
+      "name": "Weizhu Bao",
+      "institution": "National University of Singapore",
+      "region": "Singapore",
+      "positionStage": "Provost's Chair Professor",
+      "homepage": "https://blog.nus.edu.sg/matbwz/",
+      "groupOrOpenings": "https://www.math.nus.edu.sg/jobs/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "numerical PDE",
+        "scientific computing",
+        "multiscale methods",
+        "computational physics",
+        "numerical analysis"
+      ],
+      "selectionEvidence": "SIAM Fellow、AMS Fellow、Feng Kang Prize；科学计算软件与数值方法影响突出",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://www.science.nus.edu.sg/blog/2022/04/society-for-industrial-and-applied-mathematics-siam-fellowship-2022/",
+        "https://www.math.nus.edu.sg/2026/06/30/chair-professorship-awardees-2026/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "NUS Math 院系岗位不能自动等同于由其担任导师"
+      ]
+    },
+    {
+      "id": "nus-chung-piaw-teo",
+      "kind": "lab",
+      "name": "Chung Piaw Teo",
+      "institution": "National University of Singapore",
+      "region": "Singapore",
+      "positionStage": "IORA Executive Director / Stephen Riady Professor",
+      "homepage": "https://iora.nus.edu.sg/people-p/teo-chung-piaw/",
+      "groupOrOpenings": "https://iora.nus.edu.sg/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "optimization under uncertainty",
+        "combinatorial optimization",
+        "inventory theory",
+        "supply networks",
+        "operations research"
+      ],
+      "selectionEvidence": "IORA 执行主任；IFORS Distinguished Lecturer；顶级 OR 期刊编辑经历",
+      "fundingProjects": [
+        "MOE Tier-3 Supply Network Modelling and Optimization"
+      ],
+      "recruitmentSignal": {
+        "type": "funded_may_expand",
+        "evidence": "https://iora.nus.edu.sg/people-p/teo-chung-piaw/"
+      },
+      "sources": [
+        "https://iora.nus.edu.sg/people-p/teo-chung-piaw/",
+        "https://cde.nus.edu.sg/isem/staff/teo-chung-piaw/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "未发现明确博后岗位"
+      ]
+    },
+    {
+      "id": "sutd-karthik-natarajan",
+      "kind": "lab",
+      "name": "Karthik Natarajan",
+      "institution": "Singapore University of Technology and Design",
+      "region": "Singapore",
+      "positionStage": "Professor",
+      "homepage": "https://www.sutd.edu.sg/profile/karthik-natarajan",
+      "groupOrOpenings": "https://www.sutd.edu.sg/esd/research/operations-management/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "distributionally robust optimization",
+        "moment problems",
+        "optimization under uncertainty",
+        "operations research",
+        "machine learning"
+      ],
+      "selectionEvidence": "DRO、广义矩问题与不确定优化代表性学者；Math Programming、OR、Management Science 编委",
+      "fundingProjects": [
+        "MOE research on network robustness"
+      ],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://www.sutd.edu.sg/profile/karthik-natarajan",
+        "https://people.sutd.edu.sg/~natarajan_karthik/wp-content/uploads/2021/12/KARTHIKCV.pdf"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "现有公开项目未证明仍在招聘"
+      ]
+    },
+    {
+      "id": "amss-yuhong-dai",
+      "kind": "lab",
+      "name": "Yu-Hong Dai",
+      "institution": "Academy of Mathematics and Systems Science, CAS",
+      "region": "Mainland China",
+      "positionStage": "CAS Academician / Professor",
+      "homepage": "https://lsec.cc.ac.cn/~dyh/",
+      "groupOrOpenings": "https://lsec.cc.ac.cn/~optim/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5109187979",
+        "orcid": null
+      },
+      "researchTags": [
+        "continuous optimization",
+        "integer programming",
+        "numerical optimization",
+        "numerical analysis",
+        "optimization software"
+      ],
+      "selectionEvidence": "中国科学院院士；CMIP 约20人团队；国际运筹学会与中国运筹学会领导职务",
+      "fundingProjects": [
+        "CMIP optimization group projects"
+      ],
+      "recruitmentSignal": {
+        "type": "long_term_accepting_postdocs",
+        "evidence": "https://lsec.cc.ac.cn/~dyh/"
+      },
+      "sources": [
+        "https://lsec.cc.ac.cn/~dyh/",
+        "https://lsec.cc.ac.cn/~optim/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "需邮件确认具体博后课题与待遇"
+      ]
+    },
+    {
+      "id": "amss-xin-liu",
+      "kind": "lab",
+      "name": "Xin Liu",
+      "institution": "Academy of Mathematics and Systems Science, CAS",
+      "region": "Mainland China",
+      "positionStage": "Professor / Research Center Director",
+      "homepage": "https://lsec.cc.ac.cn/~liuxin/",
+      "groupOrOpenings": "https://lsec.cc.ac.cn/~liuxin/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "nonsmooth optimization",
+        "manifold optimization",
+        "matrix optimization",
+        "distributed optimization",
+        "scientific computing"
+      ],
+      "selectionEvidence": "国家杰青、国家优青；优化与非线性优化研究中心负责人；MPC 长期编委",
+      "fundingProjects": [
+        "National Science Fund for Distinguished Young Scholars",
+        "Excellent Young Scientists Fund"
+      ],
+      "recruitmentSignal": {
+        "type": "funded_may_expand",
+        "evidence": "https://lsec.cc.ac.cn/~liuxin/bio.html"
+      },
+      "sources": [
+        "https://lsec.cc.ac.cn/~liuxin/",
+        "https://lsec.cc.ac.cn/~liuxin/paper.html"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "基金存在但未找到公开岗位"
+      ]
+    },
+    {
+      "id": "pku-zaiwen-wen",
+      "kind": "lab",
+      "name": "Zaiwen Wen",
+      "institution": "Peking University",
+      "region": "Mainland China",
+      "positionStage": "Professor / BICMR Researcher",
+      "homepage": "https://bicmr.pku.edu.cn/~wenzw/",
+      "groupOrOpenings": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "large-scale optimization",
+        "matrix optimization",
+        "manifold optimization",
+        "scientific computing",
+        "optimization for ML"
+      ],
+      "selectionEvidence": "国家优青、青年拔尖、中国青年科技奖；多项优化软件与顶刊成果",
+      "fundingProjects": [
+        "NSFC Excellent Young Scientists Fund"
+      ],
+      "recruitmentSignal": {
+        "type": "department_fellowship_host",
+        "evidence": "https://bicmr.pku.edu.cn/content/show/31-18.html"
+      },
+      "sources": [
+        "https://www.math.pku.edu.cn/amel/sysjj/dsgrjs/91971.htm",
+        "https://bicmr.pku.edu.cn/content/category/31.html"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "BICMR 全年博后通道不保证由其担任合作导师"
+      ]
+    },
+    {
+      "id": "sustech-tao-tang",
+      "kind": "lab",
+      "name": "Tao Tang",
+      "institution": "Southern University of Science and Technology",
+      "region": "Mainland China",
+      "positionStage": "Chair Professor",
+      "homepage": "https://faculty.sustech.edu.cn/tangt/en/",
+      "groupOrOpenings": "https://math.sustech.edu.cn/user/show/50.html?lang=en",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "numerical PDE",
+        "spectral methods",
+        "adaptive methods",
+        "scientific computing",
+        "computational mathematics"
+      ],
+      "selectionEvidence": "SIAM Fellow、Feng Kang Prize、国家杰青、国家自然科学二等奖",
+      "fundingProjects": [
+        "NSFC key projects in adaptive scientific computing"
+      ],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://math.sustech.edu.cn/user/show/50.html?lang=en",
+        "https://faculty.sustech.edu.cn/tangt/en/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "未见当前个人招聘页"
+      ]
+    },
+    {
+      "id": "pku-pingwen-zhang",
+      "kind": "lab",
+      "name": "Pingwen Zhang",
+      "institution": "Wuhan University / Peking University",
+      "region": "Mainland China",
+      "positionStage": "CAS Academician / Professor / University President",
+      "homepage": "https://www.math.pku.edu.cn/pzhang/en/",
+      "groupOrOpenings": "https://www.math.pku.edu.cn/pzhang/en/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5112856088",
+        "orcid": null
+      },
+      "researchTags": [
+        "numerical analysis",
+        "scientific computing",
+        "soft matter modeling",
+        "multiscale computation",
+        "data science"
+      ],
+      "selectionEvidence": "中国科学院院士、SIAM Fellow、国家创新研究群体负责人",
+      "fundingProjects": [
+        "NSFC Science Fund for Creative Research Groups"
+      ],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://www.math.pku.edu.cn/pzhang/en/",
+        "https://openalex.org/A5112856088"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "行政职责重，宜作为学术参照而非默认申请目标"
+      ]
+    }
+  ],
+  "youngScholars": [
+    {
+      "id": "polyu-man-chung-yue",
+      "kind": "youngScholar",
+      "name": "Man-Chung Yue",
+      "institution": "Hong Kong Polytechnic University",
+      "region": "Hong Kong",
+      "positionStage": "Associate Professor; PhD 2017",
+      "homepage": "https://manchungyue.com/",
+      "groupOrOpenings": "https://jobs.polyu.edu.hk/job_detail.php?job=260309008",
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5041884309",
+        "orcid": "0000-0002-7992-9490"
+      },
+      "researchTags": [
+        "continuous optimization",
+        "DRO",
+        "nonconvex optimization",
+        "manifold optimization",
+        "signal processing"
+      ],
+      "selectionEvidence": "RGC Early Career Award；Math Programming、OR、NeurIPS 等成果",
+      "fundingProjects": [
+        "Data-driven decision making using parametric DRO"
+      ],
+      "recruitmentSignal": {
+        "type": "official_research_staff_opening",
+        "evidence": "https://jobs.polyu.edu.hk/job_detail.php?job=260309008"
+      },
+      "sources": [
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yue-man-chung/",
+        "https://manchungyue.com/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "当前公告岗位聘期较短，需核对是否适合长期博后"
+      ]
+    },
+    {
+      "id": "cityu-hongyi-jiang",
+      "kind": "youngScholar",
+      "name": "Hongyi Jiang",
+      "institution": "City University of Hong Kong",
+      "region": "Hong Kong",
+      "positionStage": "Assistant Professor; PhD 2021",
+      "homepage": "https://www.cityu.edu.hk/stfprofile/cityujhy.htm",
+      "groupOrOpenings": "https://www.cityu.edu.hk/stfprofile/cityujhy.htm",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "mixed-integer programming",
+        "discrete optimization",
+        "cutting planes",
+        "optimization for ML"
+      ],
+      "selectionEvidence": "JHU 优化博士、Cornell 博后；NSFC/UGC 支持；MIP 理论与算法高度相关",
+      "fundingProjects": [
+        "NSFC and Hong Kong UGC projects"
+      ],
+      "recruitmentSignal": {
+        "type": "phd_only",
+        "evidence": "https://www.cityu.edu.hk/stfprofile/cityujhy.htm"
+      },
+      "sources": [
+        "https://www.cityu.edu.hk/stfprofile/cityujhy.htm",
+        "https://engineering.jhu.edu/ams/academics/graduate-studies/doctoral-program/dissertations/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "当前只明确招博士，未见博后公告"
+      ]
+    },
+    {
+      "id": "cityu-jiaman-wu",
+      "kind": "youngScholar",
+      "name": "Jiaman Wu",
+      "institution": "City University of Hong Kong",
+      "region": "Hong Kong",
+      "positionStage": "Assistant Professor; PhD 2025",
+      "homepage": "https://charmainewu.github.io/",
+      "groupOrOpenings": "https://charmainewu.github.io/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5057767892",
+        "orcid": null
+      },
+      "researchTags": [
+        "data-driven optimization",
+        "mechanism design",
+        "energy systems",
+        "transportation optimization",
+        "network science"
+      ],
+      "selectionEvidence": "UC Berkeley Systems PhD；能源交通系统优化；已有独立课题组",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "official_postdoc_opening",
+        "evidence": "https://charmainewu.github.io/"
+      },
+      "sources": [
+        "https://www.cityu.edu.hk/stfprofile/jm.wu.htm",
+        "https://charmainewu.github.io/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "偏系统应用，数学优化理论深度需按具体项目判断"
+      ]
+    },
+    {
+      "id": "cityu-menglong-li",
+      "kind": "youngScholar",
+      "name": "Menglong Li",
+      "institution": "City University of Hong Kong",
+      "region": "Hong Kong",
+      "positionStage": "Assistant Professor; PhD 2020",
+      "homepage": "https://menglongmath.github.io/",
+      "groupOrOpenings": "https://menglongmath.github.io/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "discrete convex analysis",
+        "combinatorial optimization",
+        "inventory",
+        "revenue management",
+        "data-driven decisions"
+      ],
+      "selectionEvidence": "MIT IDSS 博后；Operations Research、Management Science 连续成果",
+      "fundingProjects": [
+        "RGC GRF S-Convexity and Market Equilibrium 2024-2026"
+      ],
+      "recruitmentSignal": {
+        "type": "phd_only",
+        "evidence": "https://menglongmath.github.io/"
+      },
+      "sources": [
+        "https://www.cb.cityu.edu.hk/staff/mengloli/",
+        "https://menglongmath.github.io/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "未见博后招聘"
+      ]
+    },
+    {
+      "id": "hkust-yiding-feng",
+      "kind": "youngScholar",
+      "name": "Yiding Feng",
+      "institution": "Hong Kong University of Science and Technology",
+      "region": "Hong Kong",
+      "positionStage": "Assistant Professor; PhD 2021",
+      "homepage": "https://ieda.ust.hk/eng/faculty-staff.php?catid=0&id=48&sid=0",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5041757714",
+        "orcid": "0000-0002-8258-6994"
+      },
+      "researchTags": [
+        "online optimization",
+        "mechanism design",
+        "stochastic matching",
+        "online learning",
+        "operations research"
+      ],
+      "selectionEvidence": "Chicago Booth/MSR 博后；OR、Management Science 代表作",
+      "fundingProjects": [
+        "RGC Early Career Scheme: Combinatorial Contextual Dynamic Pricing, 2026-2028"
+      ],
+      "recruitmentSignal": {
+        "type": "funded_may_expand",
+        "evidence": "https://researchportal.hkust.edu.hk/en/persons/yiding-feng/"
+      },
+      "sources": [
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=0&id=48&sid=0",
+        "https://researchportal.hkust.edu.hk/en/persons/yiding-feng/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "有新项目但无公开博后岗位"
+      ]
+    },
+    {
+      "id": "hkust-nian-si",
+      "kind": "youngScholar",
+      "name": "Nian Si",
+      "institution": "Hong Kong University of Science and Technology",
+      "region": "Hong Kong",
+      "positionStage": "Assistant Professor; PhD 2023",
+      "homepage": "http://niansi.me",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": "https://scholar.google.com/citations?user=jEWU3-AAAAAJ",
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "distributionally robust optimization",
+        "stochastic control",
+        "applied probability",
+        "robust RL",
+        "simulation"
+      ],
+      "selectionEvidence": "Stanford OR PhD；DRO、连续状态控制与随机网络成果",
+      "fundingProjects": [
+        "RGC ECS 2026-2028",
+        "NSFC 2026-2028",
+        "ANR/RGC Joint Project 2026-2028"
+      ],
+      "recruitmentSignal": {
+        "type": "funded_may_expand",
+        "evidence": "https://researchportal.hkust.edu.hk/en/persons/nian-si/"
+      },
+      "sources": [
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=11&id=46&sid=15",
+        "https://researchportal.hkust.edu.hk/en/persons/nian-si/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "三个新项目说明扩组可能性较高，但仍非招聘公告"
+      ]
+    },
+    {
+      "id": "hkust-jiashuo-jiang",
+      "kind": "youngScholar",
+      "name": "Jiashuo Jiang",
+      "institution": "Hong Kong University of Science and Technology",
+      "region": "Hong Kong",
+      "positionStage": "Assistant Professor; PhD 2022",
+      "homepage": "http://jiashuo3.github.io/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5004523527",
+        "orcid": "0000-0001-5230-4231"
+      },
+      "researchTags": [
+        "stochastic optimization",
+        "online optimization",
+        "revenue management",
+        "inventory",
+        "mechanism design"
+      ],
+      "selectionEvidence": "NYU Stern PhD；OR、在线决策和随机优化成果",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=3&id=43&sid=15",
+        "https://researchportal.hkust.edu.hk/en/persons/jiashuo-jiang/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "未发现招聘声明"
+      ]
+    },
+    {
+      "id": "hkust-wei-you",
+      "kind": "youngScholar",
+      "name": "Wei You",
+      "institution": "Hong Kong University of Science and Technology",
+      "region": "Hong Kong",
+      "positionStage": "Assistant Professor; PhD 2019",
+      "homepage": "https://cnyouwei.github.io/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": "0000-0003-0844-4194"
+      },
+      "researchTags": [
+        "robust queueing",
+        "applied probability",
+        "stochastic optimization",
+        "sequential analysis",
+        "service systems"
+      ],
+      "selectionEvidence": "Columbia OR PhD；Operations Research 与鲁棒排队成果",
+      "fundingProjects": [
+        "RGC GRF Robust Queueing 2024-2026"
+      ],
+      "recruitmentSignal": {
+        "type": "funded_may_expand",
+        "evidence": "https://researchportal.hkust.edu.hk/en/persons/wei-you/"
+      },
+      "sources": [
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&id=34&sid=0",
+        "https://researchportal.hkust.edu.hk/en/persons/wei-you/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "项目将于2026年底结束，需及时复核后续资助"
+      ]
+    },
+    {
+      "id": "cuhk-changhong-zhao",
+      "kind": "youngScholar",
+      "name": "Changhong Zhao",
+      "institution": "Chinese University of Hong Kong",
+      "region": "Hong Kong",
+      "positionStage": "Associate Professor; PhD 2016",
+      "homepage": "https://www.ie.cuhk.edu.hk/faculty/zhao-changhong/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5015970180",
+        "orcid": "0000-0003-0539-8591"
+      },
+      "researchTags": [
+        "large-scale optimization",
+        "nonlinear power flow",
+        "control",
+        "network optimization",
+        "ML for power systems"
+      ],
+      "selectionEvidence": "Caltech PhD；RGC Early Career Award；优化与电力系统交叉",
+      "fundingProjects": [
+        "RGC Early Career Award project"
+      ],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://www.ie.cuhk.edu.hk/faculty/zhao-changhong/",
+        "https://research.cuhk.edu.hk/en/persons/changhong-zhao/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "偏电力应用，需按你的方法主线筛选论文"
+      ]
+    },
+    {
+      "id": "hkbu-xindong-tang",
+      "kind": "youngScholar",
+      "name": "Xindong Tang",
+      "institution": "Hong Kong Baptist University",
+      "region": "Hong Kong",
+      "positionStage": "Assistant Professor; PhD 2021",
+      "homepage": "https://www.math.hkbu.edu.hk/~xdtang/",
+      "groupOrOpenings": "https://www.math.hkbu.edu.hk/~xdtang/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "polynomial optimization",
+        "generalized Nash equilibrium",
+        "tensor computation",
+        "optimal control",
+        "global optimization"
+      ],
+      "selectionEvidence": "UCSD/Jiawang Nie 谱系；多项式优化与广义 Nash 均衡直接相关",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "official_research_staff_opening",
+        "evidence": "https://www.math.hkbu.edu.hk/~xdtang/"
+      },
+      "sources": [
+        "https://www.math.hkbu.edu.hk/~xdtang/",
+        "https://www.math.hkbu.edu.hk/~xdtang/cv.pdf"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "主页写长期/短期研究岗位，但没有统一截止日期"
+      ]
+    },
+    {
+      "id": "cuhk-liu-liu",
+      "kind": "youngScholar",
+      "name": "Liu Liu",
+      "institution": "Chinese University of Hong Kong",
+      "region": "Hong Kong",
+      "positionStage": "Assistant Professor; PhD 2017",
+      "homepage": "https://www.math.cuhk.edu.hk/~lliu/",
+      "groupOrOpenings": "https://www.math.cuhk.edu.hk/~lliu/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": "0000-0002-6255-2818"
+      },
+      "researchTags": [
+        "numerical analysis",
+        "scientific computing",
+        "uncertainty quantification",
+        "multiscale PDE",
+        "scientific ML"
+      ],
+      "selectionEvidence": "UW-Madison PhD、UT Austin Oden 博后；连续获得 RGC 项目",
+      "fundingProjects": [
+        "RGC GRF 2022",
+        "RGC GRF 2023",
+        "RGC GRF 2025"
+      ],
+      "recruitmentSignal": {
+        "type": "long_term_accepting_postdocs",
+        "evidence": "https://www.math.cuhk.edu.hk/~lliu/"
+      },
+      "sources": [
+        "https://www.math.cuhk.edu.hk/~lliu/",
+        "https://research.cuhk.edu.hk/en/persons/liu-liu/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "主页欢迎联系但未给出固定名额"
+      ]
+    },
+    {
+      "id": "nus-qianxiao-li",
+      "kind": "youngScholar",
+      "name": "Qianxiao Li",
+      "institution": "National University of Singapore",
+      "region": "Singapore",
+      "positionStage": "Assistant Professor / NRF Fellow; PhD 2016",
+      "homepage": "https://ifim.nus.edu.sg/people/li-qianxiao/",
+      "groupOrOpenings": "https://ifim.nus.edu.sg/people/li-qianxiao/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5069654038",
+        "orcid": null
+      },
+      "researchTags": [
+        "ML optimization",
+        "stochastic gradients",
+        "numerical analysis",
+        "scientific computing",
+        "dynamical systems"
+      ],
+      "selectionEvidence": "Princeton Applied Math PhD；NRF Fellowship 2021；优化、动力系统和 SciML 交叉",
+      "fundingProjects": [
+        "Singapore NRF Fellowship class of 2021"
+      ],
+      "recruitmentSignal": {
+        "type": "funded_may_expand",
+        "evidence": "https://ifim.nus.edu.sg/people/li-qianxiao/"
+      },
+      "sources": [
+        "https://ifim.nus.edu.sg/people/li-qianxiao/",
+        "https://openalex.org/A5069654038"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "Fellowship 当前剩余周期需核验"
+      ]
+    },
+    {
+      "id": "nus-bo-lin",
+      "kind": "youngScholar",
+      "name": "Bo Lin",
+      "institution": "National University of Singapore",
+      "region": "Singapore",
+      "positionStage": "Assistant Professor; PhD 2025",
+      "homepage": "https://cde.nus.edu.sg/isem/staff/lin-bo/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "stochastic optimization",
+        "robust optimization",
+        "inverse optimization",
+        "bilevel optimization",
+        "learning-augmented optimization"
+      ],
+      "selectionEvidence": "2025 INFORMS Dantzig Dissertation Award；OR forthcoming 与 M&SOM 成果",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://cde.nus.edu.sg/isem/staff/lin-bo/",
+        "https://chan.mie.utoronto.ca/students/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "新入职，基金与招聘页尚未完整"
+      ]
+    },
+    {
+      "id": "nus-guanyi-wang",
+      "kind": "youngScholar",
+      "name": "Guanyi Wang",
+      "institution": "National University of Singapore",
+      "region": "Singapore",
+      "positionStage": "Assistant Professor; PhD 2022",
+      "homepage": "https://cde.nus.edu.sg/isem/staff/wang-guanyi/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "mixed-integer programming",
+        "nonlinear optimization",
+        "sparse PCA",
+        "statistical learning"
+      ],
+      "selectionEvidence": "Georgia Tech/Santanu Dey 谱系；Mathematical Programming、OR 成果",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://cde.nus.edu.sg/isem/staff/wang-guanyi/",
+        "https://engineering.jhu.edu/ams/research/operations-research-and-optimization/people-operations-research-and-optimization/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "OpenAlex同名消歧未完成"
+      ]
+    },
+    {
+      "id": "nus-junyu-zhang",
+      "kind": "youngScholar",
+      "name": "Junyu Zhang",
+      "institution": "National University of Singapore",
+      "region": "Singapore",
+      "positionStage": "Assistant Professor; PhD 2020",
+      "homepage": "https://cde.nus.edu.sg/isem/staff/zhang-junyu/",
+      "groupOrOpenings": "https://iora.nus.edu.sg/people-p/zhang-junyu/",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "saddle-point optimization",
+        "stochastic composite optimization",
+        "Riemannian optimization",
+        "RL optimization",
+        "complexity lower bounds"
+      ],
+      "selectionEvidence": "Minnesota/Shuzhong Zhang 谱系；Math Programming、SIOPT、JMLR 成果",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://cde.nus.edu.sg/isem/staff/zhang-junyu/",
+        "https://conservancy.umn.edu/bitstreams/043e6726-76c7-4faf-9783-b621c87d833e/download"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "个人主页及外部学术ID待补"
+      ]
+    },
+    {
+      "id": "nus-hanzhang-qin",
+      "kind": "youngScholar",
+      "name": "Hanzhang Qin",
+      "institution": "National University of Singapore",
+      "region": "Singapore",
+      "positionStage": "Assistant Professor; PhD 2022",
+      "homepage": "https://cde.nus.edu.sg/isem/staff/qin-hanzhang/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "stochastic control",
+        "statistical learning",
+        "supply-chain optimization",
+        "revenue management",
+        "transportation"
+      ],
+      "selectionEvidence": "MIT CSE PhD、Amazon Supply Chain Optimization 博后；OR/Management Science 成果",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://cde.nus.edu.sg/isem/staff/qin-hanzhang/",
+        "https://cde.nus.edu.sg/deans-message-082023-faculty-staff-news/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "偏应用 OR，需按论文方法匹配"
+      ]
+    },
+    {
+      "id": "sutd-niangjun-chen",
+      "kind": "youngScholar",
+      "name": "Niangjun Chen",
+      "institution": "Singapore University of Technology and Design",
+      "region": "Singapore",
+      "positionStage": "Assistant Professor; PhD 2017",
+      "homepage": "https://niangjunchen.github.io/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5050993305",
+        "orcid": null
+      },
+      "researchTags": [
+        "online convex optimization",
+        "algorithms with predictions",
+        "mechanism design",
+        "energy optimization",
+        "large-scale systems"
+      ],
+      "selectionEvidence": "Caltech PhD；在线优化与预测辅助决策具有明确理论主线",
+      "fundingProjects": [
+        "Joint appointment with A*STAR IHPC"
+      ],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://niangjunchen.github.io/",
+        "https://www.math.nus.edu.sg/cdsml/cdsml-ss1/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "SUTD 官方个人页和独立基金信息待补"
+      ]
+    },
+    {
+      "id": "nus-zaile-li",
+      "kind": "youngScholar",
+      "name": "Zaile Li",
+      "institution": "National University of Singapore",
+      "region": "Singapore",
+      "positionStage": "Assistant Professor; PhD 2024",
+      "homepage": "https://cde.nus.edu.sg/isem/staff/li-zaile/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5022108137",
+        "orcid": null
+      },
+      "researchTags": [
+        "simulation optimization",
+        "ranking and selection",
+        "Bayesian learning",
+        "healthcare operations",
+        "sequential decisions"
+      ],
+      "selectionEvidence": "Fudan PhD、INSEAD 博后；Nicholson finalist；大规模选择程序研究",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://cde.nus.edu.sg/isem/staff/li-zaile/",
+        "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=319073"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "OpenAlex仍显示INSEAD，可能存在机构更新延迟"
+      ]
+    },
+    {
+      "id": "sjtu-jingwei-liang",
+      "kind": "youngScholar",
+      "name": "Jingwei Liang",
+      "institution": "Shanghai Jiao Tong University",
+      "region": "Mainland China",
+      "positionStage": "Tenure-track Associate Professor; PhD 2017",
+      "homepage": "https://ins.sjtu.edu.cn/people/jwliang/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "nonsmooth optimization",
+        "proximal algorithms",
+        "ADMM",
+        "stochastic optimization",
+        "mathematical imaging"
+      ],
+      "selectionEvidence": "Cambridge 博后；ICML Outstanding Paper；SIOPT、Math Programming、JMLR 成果",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://ins.sjtu.edu.cn/people/jwliang/",
+        "https://ins.sjtu.edu.cn/articles/305"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "基金与招聘信息待补"
+      ]
+    },
+    {
+      "id": "sustech-shangzhi-zeng",
+      "kind": "youngScholar",
+      "name": "Shangzhi Zeng",
+      "institution": "Southern University of Science and Technology",
+      "region": "Mainland China",
+      "positionStage": "Associate Professor; PhD 2021",
+      "homepage": "https://math.sustech.edu.cn/e/zengshangzhi",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5014555178",
+        "orcid": null
+      },
+      "researchTags": [
+        "bilevel optimization",
+        "variational analysis",
+        "nonsmooth optimization",
+        "ML optimization",
+        "first-order methods"
+      ],
+      "selectionEvidence": "HKU PhD、Victoria 博后；Math Programming、SINUM、ICML/NeurIPS/ICLR 系列成果",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://math.sustech.edu.cn/e/zengshangzhi",
+        "https://openalex.org/A5014555178"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "未见个人招聘页"
+      ]
+    },
+    {
+      "id": "pku-kun-yuan",
+      "kind": "youngScholar",
+      "name": "Kun Yuan",
+      "institution": "Peking University",
+      "region": "Mainland China",
+      "positionStage": "Assistant Professor; PhD 2019",
+      "homepage": "https://kunyuan827.github.io/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "distributed optimization",
+        "stochastic optimization",
+        "federated learning",
+        "large-scale optimization",
+        "signal processing"
+      ],
+      "selectionEvidence": "UCLA PhD、Alibaba Decision Intelligence 经历；IEEE SPS Young Author Best Paper",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://www.aais.pku.edu.cn/info/1698/3791.htm",
+        "https://kunyuan827.github.io/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "需区分优化理论成果与一般联邦学习应用"
+      ]
+    },
+    {
+      "id": "tsinghua-junyi-liu",
+      "kind": "youngScholar",
+      "name": "Junyi Liu",
+      "institution": "Tsinghua University",
+      "region": "Mainland China",
+      "positionStage": "Associate Professor; PhD 2019",
+      "homepage": "https://www.ie.tsinghua.edu.cn/eng/info/1051/1035.htm",
+      "groupOrOpenings": "https://www.ie.tsinghua.edu.cn/info/1051/2328.htm",
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "stochastic programming",
+        "nonconvex nonsmooth optimization",
+        "risk measures",
+        "chance constraints",
+        "decision under uncertainty"
+      ],
+      "selectionEvidence": "USC/Pang-Sen 谱系；MOR、OR、SIOPT；随机规划学生论文奖 finalist",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "phd_only",
+        "evidence": "https://www.ie.tsinghua.edu.cn/info/1051/2328.htm"
+      },
+      "sources": [
+        "https://www.ie.tsinghua.edu.cn/eng/info/1051/1035.htm",
+        "https://www.ie.tsinghua.edu.cn/info/1051/2328.htm"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "当前明确的是博士招生，博后需单独询问"
+      ]
+    },
+    {
+      "id": "cuhksz-xiao-li",
+      "kind": "youngScholar",
+      "name": "Xiao Li",
+      "institution": "Chinese University of Hong Kong, Shenzhen",
+      "region": "Mainland China",
+      "positionStage": "Associate Professor; PhD 2020",
+      "homepage": "https://xiao-li.org",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "stochastic optimization",
+        "nonsmooth nonconvex optimization",
+        "Riemannian optimization",
+        "random reshuffling",
+        "LLM optimization"
+      ],
+      "selectionEvidence": "CUHK/Anthony So 谱系；SIOPT、NeurIPS 等直接优化成果",
+      "fundingProjects": [
+        "NSFC project on nonsmooth nonconvex stochastic optimization"
+      ],
+      "recruitmentSignal": {
+        "type": "funded_may_expand",
+        "evidence": "https://sds.cuhk.edu.cn/en/article/693"
+      },
+      "sources": [
+        "https://sds.cuhk.edu.cn/en/teacher/378",
+        "https://xiao-li.org"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "后续研究正向LLM训练延伸，需保持数学优化主线筛选"
+      ]
+    },
+    {
+      "id": "cuhksz-rui-chen",
+      "kind": "youngScholar",
+      "name": "Rui Chen",
+      "institution": "Chinese University of Hong Kong, Shenzhen",
+      "region": "Mainland China",
+      "positionStage": "Assistant Professor; PhD 2021",
+      "homepage": "https://sites.google.com/view/rchen/home",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "integer programming",
+        "stochastic integer programming",
+        "cutting planes",
+        "optimization under uncertainty",
+        "combinatorial optimization"
+      ],
+      "selectionEvidence": "Wisconsin PhD、Cornell Tech 博后；OR、Math Programming、IPCO 成果",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://sds.cuhk.edu.cn/en/teacher/1629",
+        "https://sites.google.com/view/rchen/home"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "基金和招聘页待补"
+      ]
+    },
+    {
+      "id": "pku-cong-fang",
+      "kind": "youngScholar",
+      "name": "Cong Fang",
+      "institution": "Peking University",
+      "region": "Mainland China",
+      "positionStage": "Assistant Professor; PhD 2019",
+      "homepage": "https://congfang-ml.github.io/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "optimization for ML",
+        "statistical optimization",
+        "learning theory",
+        "nonconvex optimization"
+      ],
+      "selectionEvidence": "PKU PhD、Princeton/UPenn 博后；研究明确位于优化、统计和学习理论交叉",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://www.ai.pku.edu.cn/en/info/1409/1827.htm",
+        "https://congfang-ml.github.io/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "需用代表作进一步验证与非光滑/随机优化的直接重合度"
+      ]
+    },
+    {
+      "id": "sustech-kailiang-wu",
+      "kind": "youngScholar",
+      "name": "Kailiang Wu",
+      "institution": "Southern University of Science and Technology",
+      "region": "Mainland China",
+      "positionStage": "Professor; PhD 2016",
+      "homepage": "https://faculty.sustech.edu.cn/wukl/en/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": "https://openalex.org/A5051361544",
+        "orcid": null
+      },
+      "researchTags": [
+        "numerical PDE",
+        "scientific computing",
+        "high-order methods",
+        "uncertainty quantification",
+        "data-driven modeling"
+      ],
+      "selectionEvidence": "北大 PhD、Utah/Ohio State 博后；2026晋升教授；高阶数值方法成果突出",
+      "fundingProjects": [
+        "Shenzhen Distinguished Young Scholar project 2023",
+        "SUSTech research awards"
+      ],
+      "recruitmentSignal": {
+        "type": "funded_may_expand",
+        "evidence": "https://math.sustech.edu.cn/c/wukailiang?lang=en"
+      },
+      "sources": [
+        "https://math.sustech.edu.cn/c/wukailiang?lang=en",
+        "https://faculty.sustech.edu.cn/wukl/en/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "偏数值PDE而非数学规划，应进入科学计算赛道"
+      ]
+    },
+    {
+      "id": "cuhksz-shi-pu",
+      "kind": "youngScholar",
+      "name": "Shi Pu",
+      "institution": "Chinese University of Hong Kong, Shenzhen",
+      "region": "Mainland China",
+      "positionStage": "Associate Professor / Presidential Young Fellow; PhD 2016",
+      "homepage": "https://pu-shi.github.io/",
+      "groupOrOpenings": null,
+      "ids": {
+        "googleScholar": null,
+        "openalex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "distributed optimization",
+        "stochastic optimization",
+        "gradient tracking",
+        "large-scale optimization",
+        "multi-agent networks"
+      ],
+      "selectionEvidence": "Operations Research、Mathematical Programming、IEEE TAC/TSP 连续成果；总统青年学者",
+      "fundingProjects": [],
+      "recruitmentSignal": {
+        "type": "none_public",
+        "evidence": null
+      },
+      "sources": [
+        "https://sds.cuhk.edu.cn/en/teacher/67",
+        "https://pu-shi.github.io/"
+      ],
+      "verifiedAt": "2026-07-10",
+      "uncertainties": [
+        "博士年份处于10年边界，后续按滚动年份重新分类"
+      ]
+    }
+  ],
+  "sources": {
+    "sourcePolicy": "官方身份页、个人或课题组主页、官方基金和招聘页面优先；OpenAlex、ORCID、Google Scholar、大学研究门户用于书目和身份辅助核验。",
+    "keySources": [
+      "https://www.polyu.edu.hk/ama/profile/dfsun/",
+      "https://bicmr.pku.edu.cn/content/show/31-18.html",
+      "https://researchportal.hkust.edu.hk/en/persons/nian-si/",
+      "https://researchportal.hkust.edu.hk/en/persons/yiding-feng/",
+      "https://jobs.polyu.edu.hk/job_detail.php?job=260309008",
+      "https://www.cityu.edu.hk/stfprofile/jm.wu.htm",
+      "https://www.math.hkbu.edu.hk/~xdtang/",
+      "https://www.math.cuhk.edu.hk/~lliu/",
+      "https://lsec.cc.ac.cn/~dyh/"
+    ],
+    "recordLevelSources": "每条记录的 sources 数组保存该对象的至少两条官方或书目来源；招聘证据另存于 recruitmentSignal.evidence。"
+  },
+  "uncertainties": [
+    "OpenAlex 自动查询达到当日免费额度；无法可靠消歧的 OpenAlex、ORCID 和 Google Scholar 字段保持 null。",
+    "funded_may_expand 是基于近期基金或项目作出的扩组可能性标记，不是公开招聘结论。",
+    "department_fellowship_host 只证明院系或研究中心存在 Fellowship/博后通道，不保证候选导师愿意或能够担任合作导师。",
+    "long_term_accepting_postdocs 表示主页长期欢迎联系，实际名额、经费、截止日期和签证条件仍需申请前复核。",
+    "所有职位、基金、机构和招聘状态均以 2026-07-10 的公开页面为准，之后可能变化。",
+    "青年学者以博士毕业年份 2016-2026 为本轮十年窗口；边界年份应在后续更新中滚动重分类。"
+  ]
+}

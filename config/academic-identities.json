@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-10",
+  "canonicalPeople": [
+    {
+      "id": "person-niao-he",
+      "name": "Niao He",
+      "aliases": {
+        "labs": ["eth-odi-niao-he"],
+        "people": ["niao-he-eth"]
+      },
+      "evidence": [
+        {
+          "type": "same_official_homepage",
+          "url": "https://odi.inf.ethz.ch/niaohe",
+          "checkedAt": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "id": "person-napat-rujeerapaiboon",
+      "name": "Napat Rujeerapaiboon",
+      "aliases": {
+        "labs": ["nus-isem-napat"],
+        "people": ["napat-rujeerapaiboon-nus"]
+      },
+      "evidence": [
+        {
+          "type": "same_official_homepage",
+          "url": "https://sites.google.com/view/napatrujeerapaiboon/home",
+          "checkedAt": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "id": "person-viet-anh-nguyen",
+      "name": "Viet Anh Nguyen",
+      "aliases": {
+        "labs": ["cuhk-seem-viet-anh-nguyen"],
+        "people": ["viet-anh-nguyen-cuhk"]
+      },
+      "evidence": [
+        {
+          "type": "same_official_homepage",
+          "url": "https://vietanhnguyen.net/",
+          "checkedAt": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "id": "person-luze-xu",
+      "name": "Luze Xu",
+      "aliases": {
+        "labs": ["hkust-math-luze-xu"],
+        "people": ["luze-xu-hkust"]
+      },
+      "evidence": [
+        {
+          "type": "same_official_homepage",
+          "url": "https://www.math.hkust.edu.hk/people/faculty/profile/xuluze/",
+          "checkedAt": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "id": "person-sanyou-mei",
+      "name": "Sanyou Mei",
+      "aliases": {
+        "labs": ["hkust-ieda-sanyou-mei"],
+        "people": ["sanyou-mei-hkust"]
+      },
+      "evidence": [
+        {
+          "type": "same_official_homepage",
+          "url": "https://sanyoumei.github.io/",
+          "checkedAt": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "id": "person-xiaojun-chen",
+      "name": "Xiaojun Chen",
+      "aliases": {
+        "labs": ["polyu-xiaojun-chen"],
+        "people": ["xiaojun-chen-polyu"]
+      },
+      "evidence": [
+        {
+          "type": "same_official_homepage",
+          "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm",
+          "checkedAt": "2026-07-10"
+        }
+      ]
+    }
+  ]
+}

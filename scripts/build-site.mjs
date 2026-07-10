@@ -6,6 +6,7 @@ import { assertNoPrivateFields, stripPrivateFields } from "./lib/privacy.mjs";
 import { sanitizeIntelligenceForBuild } from "./lib/public-intelligence.mjs";
 import { buildAlerts, buildCalendar, enrichJobForSite } from "./lib/site-data.mjs";
 import { freshnessFor } from "./lib/job-history.mjs";
+import { buildAcademicOverview, buildAcademicProfiles } from "./lib/academic-intelligence.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const mode = readArg("mode") ?? "public";
@@ -32,9 +33,16 @@ const [
   privateAiIndex,
   privateStates,
   preparationPlan,
+  peopleIntelligenceConfig,
+  academicIdentityMap,
+  venueTaxonomy,
+  academicEnrichment,
+  orcidAcademicEnrichment,
+  academicCandidates,
   industryCompaniesRaw,
   industryOpportunitiesRaw,
   industryPeopleRaw,
+  industryPeopleCurated,
   industryInsights,
   industryPrivatePlan
 ] = await Promise.all([
@@ -52,9 +60,16 @@ const [
   mode === "private" ? readJson(projectRoot, "data/private/job-analysis.json", {}) : {},
   readPrivateJson("data/private/job-state.json", "data/private/job-state.example.json", []),
   readPrivateJson("data/private/preparation-plan.json", "data/private/preparation-plan.example.json", null),
+  readJson(projectRoot, "config/people-intelligence.json", {}),
+  readJson(projectRoot, "config/academic-identities.json", {}),
+  readJson(projectRoot, "config/venue-taxonomy.json", {}),
+  readJson(projectRoot, "data/research/academic-enrichment.json", { provider: "OpenAlex", profiles: [] }),
+  readJson(projectRoot, "data/research/orcid-academic-enrichment.json", { provider: "ORCID", profiles: [] }),
+  readJson(projectRoot, "data/research/academic-candidates.json", { labs: [], people: [] }),
   readJson(projectRoot, "data/manual/industry-companies.json", []),
   readJson(projectRoot, "data/manual/industry-opportunities.json", []),
   readJson(projectRoot, "data/manual/industry-people.json", []),
+  readJson(projectRoot, "data/research/industry-people-curated.json", null),
   readJson(projectRoot, "data/manual/industry-insights.json", {}),
   mode === "private"
     ? readPrivateJson("data/private/industry-plan.json", "data/private/industry-plan.example.json", null)
@@ -92,7 +107,44 @@ const labs = manualLabs.map((lab) => ({
   representativeWorks: lab.representativeWorks ?? []
 }));
 
-const industryCompanies = industryCompaniesRaw
+const academicPeople = [...people, ...(academicCandidates.people ?? [])];
+const academicLabs = [...labs, ...(academicCandidates.labs ?? [])];
+const allAcademicProfiles = buildAcademicProfiles(
+  academicLabs,
+  academicPeople,
+  peopleIntelligenceConfig,
+  academicIdentityMap,
+  [academicEnrichment, orcidAcademicEnrichment],
+  venueTaxonomy
+);
+const publishIncompleteProfiles = mode !== "public"
+  || peopleIntelligenceConfig.minimumProfile?.incompleteProfilesArePublic === true;
+const academicProfiles = publishIncompleteProfiles
+  ? allAcademicProfiles
+  : allAcademicProfiles.filter((profile) => profile.quality?.isPublicReady);
+const academicOverview = buildAcademicOverview(allAcademicProfiles);
+const academic = {
+  schemaVersion: 2,
+  target: peopleIntelligenceConfig.scope ?? {},
+  qualityGate: {
+    enforced: true,
+    migrationMode: false,
+    publishedProfiles: academicProfiles.length,
+    trackedProfiles: allAcademicProfiles.length,
+    minimumProfile: peopleIntelligenceConfig.minimumProfile ?? {}
+  },
+  recruitmentSignalTypes: peopleIntelligenceConfig.recruitmentSignals ?? [],
+  publicationPolicy: peopleIntelligenceConfig.publicationPolicy ?? {},
+  venueTaxonomy,
+  profiles: academicProfiles,
+  overview: academicOverview
+};
+
+const industryCompanies = [
+  ...industryCompaniesRaw,
+  ...(industryPeopleCurated?.companies ?? [])
+]
+  .filter((company, index, values) => values.findIndex((item) => item.id === company.id) === index)
   .map((company) => ({
     ...company,
     overallScore: industryCompanyScore(company)
@@ -113,7 +165,7 @@ const industryOpportunities = industryOpportunitiesRaw
     }, buildDate)
   }))
   .sort((a, b) => b.overallScore - a.overallScore);
-const industryPeople = industryPeopleRaw
+const industryPeople = (industryPeopleCurated?.people?.length ? industryPeopleCurated.people : industryPeopleRaw)
   .map((person) => ({
     ...person,
     companyNameZh: industryCompanyById.get(person.companyId)?.nameZh ?? person.companyId,
@@ -152,6 +204,7 @@ const siteData = {
   alerts: jobs.length ? buildAlerts(jobs) : generatedAlerts,
   people,
   labs,
+  academic,
   industry,
   routes: routes.sort((a, b) => (a.order ?? 99) - (b.order ?? 99)),
   sources: sourceStatuses,
@@ -179,6 +232,7 @@ await writeJson(outputDir, "data/jobs.json", outputData.jobs);
 await writeJson(outputDir, "data/alerts.json", outputData.alerts);
 await writeJson(outputDir, "data/people.json", outputData.people);
 await writeJson(outputDir, "data/labs.json", outputData.labs);
+await writeJson(outputDir, "data/academic.json", outputData.academic);
 await writeJson(outputDir, "data/industry.json", outputData.industry);
 await writeJson(outputDir, "data/routes.json", outputData.routes);
 await writeJson(outputDir, "data/sources.json", outputData.sources);
@@ -186,7 +240,12 @@ await writeJson(outputDir, "data/metadata.json", outputData.metadata);
 await fs.writeFile(path.join(outputDir, ".nojekyll"), "", "utf8");
 
 console.log(`Built ${mode} site at ${outputDir}`);
-console.log(`${outputData.jobs.length} jobs, ${outputData.alerts.length} alerts, ${outputData.people.length} academic people, ${outputData.labs.length} labs, ${outputData.industry.companies.length} companies, ${outputData.industry.people.length} industry people.`);
+console.log(
+  `${outputData.jobs.length} jobs, ${outputData.alerts.length} alerts, ` +
+    `${outputData.academic.overview.totalProfiles} tracked academic profiles, ` +
+    `${outputData.academic.qualityGate.publishedProfiles} public-ready academic profiles, ` +
+    `${outputData.industry.companies.length} companies, ${outputData.industry.people.length} industry people.`
+);
 
 function readArg(name) {
   const eq = process.argv.find((arg) => arg.startsWith(`--${name}=`));

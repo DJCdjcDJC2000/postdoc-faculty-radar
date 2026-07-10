@@ -4,7 +4,6 @@
     "kind": "senior_reference",
     "name": "Xiaojun Chen",
     "nameZh": "陈晓君",
-    "priority": "P4",
     "currentPosition": "Chair Professor / Professor, Department of Applied Mathematics",
     "currentInstitution": "The Hong Kong Polytechnic University",
     "currentRoleType": "senior academic reference",
@@ -36,15 +35,6 @@
     "semanticScholar": "",
     "confidence": "A：官方院系主页",
     "pathSummaryZh": "作为 PolyU 应用数学与优化方向的高级学术参照，用于标定 stochastic equilibrium、complementarity 和 nonsmooth optimization 方向的长期学术路线。",
-    "learningsZh": [
-      "方向标签需要稳定且可被国际同行识别。",
-      "优化、互补问题和随机模型可以形成长期研究主线。",
-      "个人主页应清晰呈现研究兴趣、论文和合作网络。"
-    ],
-    "risksZh": [
-      "这是高级教授样本，不能直接等同于 2029 年博士毕业后的短期路径。",
-      "职业阶段、资源和时代背景不同，只能作为方向与学术网络参考。"
-    ],
     "evidence": [
       {
         "type": "official_homepage",
@@ -55,16 +45,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "作为 PolyU 应用数学与优化方向的高级学术参照，用于标定 stochastic equilibrium、complementarity 和 nonsmooth optimization 方向的长期学术路线。",
-      "learningsZh": [
-        "方向标签需要稳定且可被国际同行识别。",
-        "优化、互补问题和随机模型可以形成长期研究主线。",
-        "个人主页应清晰呈现研究兴趣、论文和合作网络。"
-      ],
-      "risksZh": [
-        "这是高级教授样本，不能直接等同于 2029 年博士毕业后的短期路径。",
-        "职业阶段、资源和时代背景不同，只能作为方向与学术网络参考。"
-      ]
+      "careerPathZh": "作为 PolyU 应用数学与优化方向的高级学术参照，用于标定 stochastic equilibrium、complementarity 和 nonsmooth optimization 方向的长期学术路线。"
     }
   },
   {
@@ -72,7 +53,6 @@
     "kind": "young_faculty_case",
     "name": "Luze Xu",
     "nameZh": "徐芦泽",
-    "priority": "P1",
     "currentPosition": "Assistant Professor, Department of Mathematics",
     "currentInstitution": "The Hong Kong University of Science and Technology",
     "currentRoleType": "assistant professor",
@@ -115,15 +95,6 @@
     "semanticScholar": "",
     "confidence": "A：HKUST 官方主页 + HKUST Research Portal",
     "pathSummaryZh": "PhD 后先做美国高校 postdoc/assistant professor 型岗位，再进入香港 QS Top 50 高校数学系助理教授；这是“博士后/过渡岗位到港校教职”的高价值样本。",
-    "learningsZh": [
-      "青年教职案例通常需要 PhD 后 2-4 年高质量 postdoc 或 visiting assistant professor 经历。",
-      "优化方向如果能形成清晰的问题族和代表作，在数学系与工学院之间都有入口。",
-      "香港教职竞争强，个人主页和 Google Scholar 论文线索需要很早准备。"
-    ],
-    "risksZh": [
-      "该方向偏混合整数/全局优化，与随机互补问题不是完全同一子领域。",
-      "美国 postdoc 路径对你未必是首选，但其成果节奏可作为参照。"
-    ],
     "evidence": [
       {
         "type": "official_profile",
@@ -144,16 +115,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "PhD 后先做美国高校 postdoc/assistant professor 型岗位，再进入香港 QS Top 50 高校数学系助理教授；这是“博士后/过渡岗位到港校教职”的高价值样本。",
-      "learningsZh": [
-        "青年教职案例通常需要 PhD 后 2-4 年高质量 postdoc 或 visiting assistant professor 经历。",
-        "优化方向如果能形成清晰的问题族和代表作，在数学系与工学院之间都有入口。",
-        "香港教职竞争强，个人主页和 Google Scholar 论文线索需要很早准备。"
-      ],
-      "risksZh": [
-        "该方向偏混合整数/全局优化，与随机互补问题不是完全同一子领域。",
-        "美国 postdoc 路径对你未必是首选，但其成果节奏可作为参照。"
-      ]
+      "careerPathZh": "PhD 后先做美国高校 postdoc/assistant professor 型岗位，再进入香港 QS Top 50 高校数学系助理教授；这是“博士后/过渡岗位到港校教职”的高价值样本。"
     }
   },
   {
@@ -161,7 +123,6 @@
     "kind": "young_faculty_case",
     "name": "Sanyou Mei",
     "nameZh": "梅三友",
-    "priority": "P1",
     "currentPosition": "Assistant Professor, Department of Industrial Engineering and Decision Analytics",
     "currentInstitution": "The Hong Kong University of Science and Technology",
     "currentRoleType": "assistant professor",
@@ -202,15 +163,6 @@
     "semanticScholar": "",
     "confidence": "A：HKUST 官方主页 + 个人主页",
     "pathSummaryZh": "本科 USTC、博士 Minnesota，毕业当年进入 HKUST IEDA 助理教授；这是“高强度论文/奖项直接冲港校青年教职”的样本。",
-    "learningsZh": [
-      "优化方向青年教职通常需要一个非常聚焦且可扩展的研究标签。",
-      "INFORMS/NeurIPS 等奖项和强会议论文能显著提高早期教职竞争力。",
-      "工业工程/决策分析院系对随机优化、minimax 和在线优化有直接需求。"
-    ],
-    "risksZh": [
-      "这是强成果直聘教职样本，不应作为最低门槛理解。",
-      "方向更偏现代非凸/随机优化，与你当前互补问题主线需要寻找交叉点。"
-    ],
     "evidence": [
       {
         "type": "official_profile",
@@ -231,16 +183,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "本科 USTC、博士 Minnesota，毕业当年进入 HKUST IEDA 助理教授；这是“高强度论文/奖项直接冲港校青年教职”的样本。",
-      "learningsZh": [
-        "优化方向青年教职通常需要一个非常聚焦且可扩展的研究标签。",
-        "INFORMS/NeurIPS 等奖项和强会议论文能显著提高早期教职竞争力。",
-        "工业工程/决策分析院系对随机优化、minimax 和在线优化有直接需求。"
-      ],
-      "risksZh": [
-        "这是强成果直聘教职样本，不应作为最低门槛理解。",
-        "方向更偏现代非凸/随机优化，与你当前互补问题主线需要寻找交叉点。"
-      ]
+      "careerPathZh": "本科 USTC、博士 Minnesota，毕业当年进入 HKUST IEDA 助理教授；这是“高强度论文/奖项直接冲港校青年教职”的样本。"
     }
   },
   {
@@ -248,7 +191,6 @@
     "kind": "young_faculty_case",
     "name": "Liu Yang",
     "nameZh": "刘洋",
-    "priority": "P2",
     "currentPosition": "Assistant Professor / Presidential Young Professor, Department of Mathematics",
     "currentInstitution": "National University of Singapore",
     "currentRoleType": "assistant professor",
@@ -293,15 +235,6 @@
     "semanticScholar": "",
     "confidence": "A：NUS 官方主页 + 个人主页",
     "pathSummaryZh": "Brown PhD 后经历 UCLA 过渡岗位，再以 Presidential Young Professor 加入 NUS 数学系；这是新加坡顶校青年教职路径样本。",
-    "learningsZh": [
-      "应用数学青年教职可以通过 PDE/数值分析/科学机器学习形成跨学科标签。",
-      "个人主页如果把 research、teaching、CV 和 publications 组织清楚，对申请者非常有参考价值。",
-      "新加坡顶校重视国际化履历和可扩展研究计划。"
-    ],
-    "risksZh": [
-      "该案例偏 scientific ML 和 PDE，不是互补问题核心方向。",
-      "NUS PYP 竞争非常强，不能把它当成普通 postdoc 后自然路径。"
-    ],
     "evidence": [
       {
         "type": "official_profile",
@@ -322,16 +255,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "Brown PhD 后经历 UCLA 过渡岗位，再以 Presidential Young Professor 加入 NUS 数学系；这是新加坡顶校青年教职路径样本。",
-      "learningsZh": [
-        "应用数学青年教职可以通过 PDE/数值分析/科学机器学习形成跨学科标签。",
-        "个人主页如果把 research、teaching、CV 和 publications 组织清楚，对申请者非常有参考价值。",
-        "新加坡顶校重视国际化履历和可扩展研究计划。"
-      ],
-      "risksZh": [
-        "该案例偏 scientific ML 和 PDE，不是互补问题核心方向。",
-        "NUS PYP 竞争非常强，不能把它当成普通 postdoc 后自然路径。"
-      ]
+      "careerPathZh": "Brown PhD 后经历 UCLA 过渡岗位，再以 Presidential Young Professor 加入 NUS 数学系；这是新加坡顶校青年教职路径样本。"
     }
   },
   {
@@ -339,7 +263,6 @@
     "kind": "young_faculty_case",
     "name": "Viet Anh Nguyen",
     "nameZh": "阮越英",
-    "priority": "P1",
     "currentPosition": "Assistant Professor, Department of Systems Engineering and Engineering Management",
     "currentInstitution": "The Chinese University of Hong Kong",
     "currentRoleType": "assistant professor",
@@ -382,15 +305,6 @@
     "semanticScholar": "",
     "confidence": "A：CUHK 官方主页 + 个人主页",
     "pathSummaryZh": "EPFL 博士、Stanford 博士后、随后进入 CUHK 助理教授；这是“欧洲强组博士 + 北美 postdoc + 香港教职”的高相关案例。",
-    "learningsZh": [
-      "DRO/数据驱动优化方向能连接运筹、机器学习和决策科学。",
-      "强导师网络与高质量 postdoc 平台会显著影响早期教职。",
-      "港校工学院/SEEM 类院系适合优化与不确定性决策方向。"
-    ],
-    "risksZh": [
-      "DRO 和互补问题不是同一细分方向，需要在研究计划中明确共同语言。",
-      "Stanford postdoc 路径对你是否可行要结合签证和机会成本评估。"
-    ],
     "evidence": [
       {
         "type": "official_profile",
@@ -411,16 +325,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "EPFL 博士、Stanford 博士后、随后进入 CUHK 助理教授；这是“欧洲强组博士 + 北美 postdoc + 香港教职”的高相关案例。",
-      "learningsZh": [
-        "DRO/数据驱动优化方向能连接运筹、机器学习和决策科学。",
-        "强导师网络与高质量 postdoc 平台会显著影响早期教职。",
-        "港校工学院/SEEM 类院系适合优化与不确定性决策方向。"
-      ],
-      "risksZh": [
-        "DRO 和互补问题不是同一细分方向，需要在研究计划中明确共同语言。",
-        "Stanford postdoc 路径对你是否可行要结合签证和机会成本评估。"
-      ]
+      "careerPathZh": "EPFL 博士、Stanford 博士后、随后进入 CUHK 助理教授；这是“欧洲强组博士 + 北美 postdoc + 香港教职”的高相关案例。"
     }
   },
   {
@@ -428,7 +333,6 @@
     "kind": "young_faculty_case",
     "name": "Napat Rujeerapaiboon",
     "nameZh": "",
-    "priority": "P2",
     "currentPosition": "Assistant Professor, Department of Industrial Systems Engineering and Management",
     "currentInstitution": "National University of Singapore",
     "currentRoleType": "assistant professor",
@@ -460,15 +364,6 @@
     "semanticScholar": "",
     "confidence": "A：NUS 官方主页 + 个人主页",
     "pathSummaryZh": "EPFL RAO 博士后进入 NUS ISEM，形成 robust/DRO/risk analytics 方向青年 PI 路线。",
-    "learningsZh": [
-      "欧洲优化强组到新加坡顶校是可观察路径。",
-      "研究主题如果能落到 risk analytics、finance、supply chain 等应用，会增加工学院/OR 院系匹配度。",
-      "个人主页中的 students、publications、software 是判断组活跃度的重要信号。"
-    ],
-    "risksZh": [
-      "该案例更偏 DRO/robust optimization，需要和随机互补问题建立明确交叉。",
-      "当前是否招 postdoc 需要逐次核验。"
-    ],
     "evidence": [
       {
         "type": "official_profile",
@@ -489,16 +384,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "EPFL RAO 博士后进入 NUS ISEM，形成 robust/DRO/risk analytics 方向青年 PI 路线。",
-      "learningsZh": [
-        "欧洲优化强组到新加坡顶校是可观察路径。",
-        "研究主题如果能落到 risk analytics、finance、supply chain 等应用，会增加工学院/OR 院系匹配度。",
-        "个人主页中的 students、publications、software 是判断组活跃度的重要信号。"
-      ],
-      "risksZh": [
-        "该案例更偏 DRO/robust optimization，需要和随机互补问题建立明确交叉。",
-        "当前是否招 postdoc 需要逐次核验。"
-      ]
+      "careerPathZh": "EPFL RAO 博士后进入 NUS ISEM，形成 robust/DRO/risk analytics 方向青年 PI 路线。"
     }
   },
   {
@@ -506,7 +392,6 @@
     "kind": "target_pi_case",
     "name": "Niao He",
     "nameZh": "何鸟",
-    "priority": "P2",
     "currentPosition": "Associate Professor, ETH Zurich",
     "currentInstitution": "ETH Zurich",
     "currentRoleType": "associate professor / postdoc host",
@@ -545,15 +430,6 @@
     "semanticScholar": "",
     "confidence": "A：ETH 官方主页 + 课题组 openings",
     "pathSummaryZh": "Georgia Tech 博士后在 UIUC 建组，再到 ETH；她的组是欧洲优化/决策智能方向可直接关注 postdoc 的重点对象。",
-    "learningsZh": [
-      "数学优化背景可以转向数据驱动决策与强化学习。",
-      "顶校组的 openings 页面是比聚合招聘站更高质量的信号源。",
-      "联系 PI 前需要准备方向贴合的 1 页 research fit note。"
-    ],
-    "risksZh": [
-      "方向包含 RL/ML，必须避免被泛 AI 牵偏。",
-      "ETH 竞争强，需有非常清楚的数学贡献定位。"
-    ],
     "evidence": [
       {
         "type": "official_profile",
@@ -569,16 +445,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "Georgia Tech 博士后在 UIUC 建组，再到 ETH；她的组是欧洲优化/决策智能方向可直接关注 postdoc 的重点对象。",
-      "learningsZh": [
-        "数学优化背景可以转向数据驱动决策与强化学习。",
-        "顶校组的 openings 页面是比聚合招聘站更高质量的信号源。",
-        "联系 PI 前需要准备方向贴合的 1 页 research fit note。"
-      ],
-      "risksZh": [
-        "方向包含 RL/ML，必须避免被泛 AI 牵偏。",
-        "ETH 竞争强，需有非常清楚的数学贡献定位。"
-      ]
+      "careerPathZh": "Georgia Tech 博士后在 UIUC 建组，再到 ETH；她的组是欧洲优化/决策智能方向可直接关注 postdoc 的重点对象。"
     }
   },
   {
@@ -586,7 +453,6 @@
     "kind": "young_faculty_case",
     "name": "Haihao Lu",
     "nameZh": "陆海浩",
-    "priority": "P1",
     "currentPosition": "Cecil and Ida Green Career Development Assistant Professor / Assistant Professor of Operations Research and Statistics",
     "currentInstitution": "MIT Sloan School of Management",
     "currentRoleType": "assistant professor",
@@ -640,15 +506,6 @@
     "semanticScholar": "",
     "confidence": "A：MIT Sloan 官方主页",
     "pathSummaryZh": "MIT 博士后进入 Chicago Booth，再到 MIT Sloan；以大规模优化算法和工业级优化软件形成青年顶级路径。",
-    "learningsZh": [
-      "优化方向青年学者如果能做出可用软件和算法系统，职业竞争力会显著增强。",
-      "数学规划、GPU/分布式计算和产业求解器连接，是应用数学转顶级 OR/统计院系的重要路径。",
-      "奖项、软件影响力和真实部署可以成为教职申请中的强证据。"
-    ],
-    "risksZh": [
-      "该路径偏大规模 LP/QP/SDP 和求解器系统，与随机互补问题需要主动找连接。",
-      "MIT 级别竞争极高，不应直接当成普通 postdoc 目标。"
-    ],
     "evidence": [
       {
         "type": "official_profile",
@@ -659,16 +516,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "MIT 博士后进入 Chicago Booth，再到 MIT Sloan；以大规模优化算法和工业级优化软件形成青年顶级路径。",
-      "learningsZh": [
-        "优化方向青年学者如果能做出可用软件和算法系统，职业竞争力会显著增强。",
-        "数学规划、GPU/分布式计算和产业求解器连接，是应用数学转顶级 OR/统计院系的重要路径。",
-        "奖项、软件影响力和真实部署可以成为教职申请中的强证据。"
-      ],
-      "risksZh": [
-        "该路径偏大规模 LP/QP/SDP 和求解器系统，与随机互补问题需要主动找连接。",
-        "MIT 级别竞争极高，不应直接当成普通 postdoc 目标。"
-      ]
+      "careerPathZh": "MIT 博士后进入 Chicago Booth，再到 MIT Sloan；以大规模优化算法和工业级优化软件形成青年顶级路径。"
     }
   },
   {
@@ -676,7 +524,6 @@
     "kind": "young_faculty_case",
     "name": "Shaoning Han",
     "nameZh": "韩少宁",
-    "priority": "P1",
     "currentPosition": "Presidential Young Professor / Assistant Professor",
     "currentInstitution": "National University of Singapore",
     "currentRoleType": "assistant professor",
@@ -711,15 +558,6 @@
     "semanticScholar": "",
     "confidence": "B：个人主页 + NUS/PYP 公开检索线索，后续需补官方院系页",
     "pathSummaryZh": "Pang 学术谱系下的随机优化/变分不等式青年学者，对你当前随机互补与变分不等式方向有直接参考价值。",
-    "learningsZh": [
-      "若要走港新青年教职/研究员路线，随机优化和变分不等式可以形成清晰方向标签。",
-      "导师谱系、博士论文主题和顶级学校青年计划会显著影响入职路径。",
-      "NUS PYP 一类岗位可作为高目标，但需要强论文线和明确研究计划。"
-    ],
-    "risksZh": [
-      "当前条目需要后续补齐 NUS 官方个人页或院系页。",
-      "青年计划竞争强，不能等同于普通 postdoc 后的自然路径。"
-    ],
     "evidence": [
       {
         "type": "personal_homepage",
@@ -735,16 +573,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "Pang 学术谱系下的随机优化/变分不等式青年学者，对你当前随机互补与变分不等式方向有直接参考价值。",
-      "learningsZh": [
-        "若要走港新青年教职/研究员路线，随机优化和变分不等式可以形成清晰方向标签。",
-        "导师谱系、博士论文主题和顶级学校青年计划会显著影响入职路径。",
-        "NUS PYP 一类岗位可作为高目标，但需要强论文线和明确研究计划。"
-      ],
-      "risksZh": [
-        "当前条目需要后续补齐 NUS 官方个人页或院系页。",
-        "青年计划竞争强，不能等同于普通 postdoc 后的自然路径。"
-      ]
+      "careerPathZh": "Pang 学术谱系下的随机优化/变分不等式青年学者，对你当前随机互补与变分不等式方向有直接参考价值。"
     }
   },
   {
@@ -752,7 +581,6 @@
     "kind": "young_faculty_case",
     "name": "Rahul Mazumder",
     "nameZh": "",
-    "priority": "P2",
     "currentPosition": "Professor of Operations Research and Statistics",
     "currentInstitution": "MIT Sloan School of Management",
     "currentRoleType": "professor / active PI",
@@ -802,15 +630,6 @@
     "semanticScholar": "",
     "confidence": "A：MIT Sloan 官方主页",
     "pathSummaryZh": "Stanford PhD、MIT postdoc、Columbia AP、MIT professor；展示了统计/机器学习/优化交叉方向从 postdoc 到顶校 PI 的路径。",
-    "learningsZh": [
-      "优化与统计机器学习交叉可以进入 Sloan/OR/Statistics 这类高竞争院系。",
-      "早期奖项、软件和高影响论文是青年 PI 路径的关键。",
-      "如果你要考虑大厂/学术双线，数学规划和高维统计的交叉表达值得借鉴。"
-    ],
-    "risksZh": [
-      "方向偏统计学习和稀疏建模，与互补问题需要主动构造交叉点。",
-      "这是中生代顶级样本，不是普通青年学者门槛。"
-    ],
     "evidence": [
       {
         "type": "official_profile",
@@ -826,16 +645,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "Stanford PhD、MIT postdoc、Columbia AP、MIT professor；展示了统计/机器学习/优化交叉方向从 postdoc 到顶校 PI 的路径。",
-      "learningsZh": [
-        "优化与统计机器学习交叉可以进入 Sloan/OR/Statistics 这类高竞争院系。",
-        "早期奖项、软件和高影响论文是青年 PI 路径的关键。",
-        "如果你要考虑大厂/学术双线，数学规划和高维统计的交叉表达值得借鉴。"
-      ],
-      "risksZh": [
-        "方向偏统计学习和稀疏建模，与互补问题需要主动构造交叉点。",
-        "这是中生代顶级样本，不是普通青年学者门槛。"
-      ]
+      "careerPathZh": "Stanford PhD、MIT postdoc、Columbia AP、MIT professor；展示了统计/机器学习/优化交叉方向从 postdoc 到顶校 PI 的路径。"
     }
   },
   {
@@ -843,7 +653,6 @@
     "kind": "young_faculty_case",
     "name": "Madeleine Udell",
     "nameZh": "",
-    "priority": "P2",
     "currentPosition": "Professor / Active PI in Operations Research, Optimization and Data Science",
     "currentInstitution": "Stanford University",
     "currentRoleType": "professor / active PI",
@@ -883,15 +692,6 @@
     "semanticScholar": "",
     "confidence": "A：Stanford 个人主页",
     "pathSummaryZh": "Stanford 优化/数据科学活跃 PI，主页公开显示 2026 年仍有学生、项目和 grant 动态；适合作为可持续关注的中生代样本。",
-    "learningsZh": [
-      "个人主页的 news 可以作为判断组活跃度的重要信号。",
-      "优化、数值线性代数、预条件和科学计算可以组合成非常清楚的研究画像。",
-      "研究若能同时产出理论、软件和 benchmark，会更容易跨学术/工业传播。"
-    ],
-    "risksZh": [
-      "方向更偏计算和建模，与随机互补问题不是完全同一条线。",
-      "需要区分可学习的学术表达和可直接申请的 opening。"
-    ],
     "evidence": [
       {
         "type": "personal_homepage",
@@ -907,16 +707,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "Stanford 优化/数据科学活跃 PI，主页公开显示 2026 年仍有学生、项目和 grant 动态；适合作为可持续关注的中生代样本。",
-      "learningsZh": [
-        "个人主页的 news 可以作为判断组活跃度的重要信号。",
-        "优化、数值线性代数、预条件和科学计算可以组合成非常清楚的研究画像。",
-        "研究若能同时产出理论、软件和 benchmark，会更容易跨学术/工业传播。"
-      ],
-      "risksZh": [
-        "方向更偏计算和建模，与随机互补问题不是完全同一条线。",
-        "需要区分可学习的学术表达和可直接申请的 opening。"
-      ]
+      "careerPathZh": "Stanford 优化/数据科学活跃 PI，主页公开显示 2026 年仍有学生、项目和 grant 动态；适合作为可持续关注的中生代样本。"
     }
   },
   {
@@ -924,7 +715,6 @@
     "kind": "young_faculty_case",
     "name": "John Duchi",
     "nameZh": "",
-    "priority": "P2",
     "currentPosition": "Associate Professor of Statistics and Electrical Engineering",
     "currentInstitution": "Stanford University",
     "currentRoleType": "associate professor / active PI",
@@ -967,15 +757,6 @@
     "semanticScholar": "",
     "confidence": "A：Stanford 个人主页",
     "pathSummaryZh": "统计学习与随机优化交叉的顶级中生代 PI；其学生去向和奖项密集度可作为顶级组培养路径参照。",
-    "learningsZh": [
-      "随机优化可以与统计效率、隐私、分布式计算组合成强研究画像。",
-      "顶级青年/中生代 PI 的主页通常会清楚展示研究目标、学生去向和奖项。",
-      "如果未来考虑机器学习优化方向，需要把数学贡献表述得足够清楚。"
-    ],
-    "risksZh": [
-      "方向偏统计学习和计算，不应被泛 AI 牵走。",
-      "直接联系前需要找到与随机互补或变分不等式的明确连接。"
-    ],
     "evidence": [
       {
         "type": "personal_homepage",
@@ -991,16 +772,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "统计学习与随机优化交叉的顶级中生代 PI；其学生去向和奖项密集度可作为顶级组培养路径参照。",
-      "learningsZh": [
-        "随机优化可以与统计效率、隐私、分布式计算组合成强研究画像。",
-        "顶级青年/中生代 PI 的主页通常会清楚展示研究目标、学生去向和奖项。",
-        "如果未来考虑机器学习优化方向，需要把数学贡献表述得足够清楚。"
-      ],
-      "risksZh": [
-        "方向偏统计学习和计算，不应被泛 AI 牵走。",
-        "直接联系前需要找到与随机互补或变分不等式的明确连接。"
-      ]
+      "careerPathZh": "统计学习与随机优化交叉的顶级中生代 PI；其学生去向和奖项密集度可作为顶级组培养路径参照。"
     }
   },
   {
@@ -1008,7 +780,6 @@
     "kind": "young_faculty_case",
     "name": "Damek Davis",
     "nameZh": "",
-    "priority": "P2",
     "currentPosition": "Associate Professor, Department of Statistics and Data Science",
     "currentInstitution": "University of Pennsylvania, Wharton",
     "currentRoleType": "associate professor",
@@ -1061,15 +832,6 @@
     "semanticScholar": "",
     "confidence": "A：个人主页直接列出当前岗位、奖项、研究方向和路径",
     "pathSummaryZh": "UCLA 博士、NSF postdoc、Cornell ORIE、Wharton；这是非光滑/随机优化青年路径的高相关样本。",
-    "learningsZh": [
-      "非光滑优化和弱凸随机优化可以进入顶级 OR/Stats 院系。",
-      "主页中清晰列出研究兴趣、奖项、学生和论文，是职业画像建设模板。",
-      "从 Cornell ORIE 到 Wharton 的路径说明优化理论可跨 OR、统计和 ML。"
-    ],
-    "risksZh": [
-      "当前方向包含 AI for math 和 ML，需要避免与泛 AI 混淆。",
-      "该样本成果强度很高，只能作为上限参照。"
-    ],
     "evidence": [
       {
         "type": "personal_homepage",
@@ -1085,16 +847,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "UCLA 博士、NSF postdoc、Cornell ORIE、Wharton；这是非光滑/随机优化青年路径的高相关样本。",
-      "learningsZh": [
-        "非光滑优化和弱凸随机优化可以进入顶级 OR/Stats 院系。",
-        "主页中清晰列出研究兴趣、奖项、学生和论文，是职业画像建设模板。",
-        "从 Cornell ORIE 到 Wharton 的路径说明优化理论可跨 OR、统计和 ML。"
-      ],
-      "risksZh": [
-        "当前方向包含 AI for math 和 ML，需要避免与泛 AI 混淆。",
-        "该样本成果强度很高，只能作为上限参照。"
-      ]
+      "careerPathZh": "UCLA 博士、NSF postdoc、Cornell ORIE、Wharton；这是非光滑/随机优化青年路径的高相关样本。"
     }
   },
   {
@@ -1102,7 +855,6 @@
     "kind": "young_faculty_case",
     "name": "Mengdi Wang",
     "nameZh": "王梦迪",
-    "priority": "P2",
     "currentPosition": "Professor / Active PI, Princeton AI and ORFE-related research",
     "currentInstitution": "Princeton University",
     "currentRoleType": "professor / active PI",
@@ -1135,15 +887,6 @@
     "semanticScholar": "",
     "confidence": "A：Princeton Wang Lab 主页",
     "pathSummaryZh": "Princeton 活跃组，方向从随机优化/RL 延伸到 AI for science；适合观察数学优化如何进入科学智能和 agentic systems。",
-    "learningsZh": [
-      "随机优化可以连接强化学习、自动实验和 AI for science。",
-      "如果未来转向大厂/科研平台，算法决策和科学智能是潜在高价值交叉点。",
-      "需要保持数学优化主线，避免只追热点。"
-    ],
-    "risksZh": [
-      "方向比当前互补问题更偏 RL/AI，需要谨慎筛选具体 opening。",
-      "主页有较多 AI project 信息，申请前必须回到论文和数学贡献本身。"
-    ],
     "evidence": [
       {
         "type": "lab_homepage",
@@ -1159,16 +902,7 @@
     "ai": {
       "status": "manual",
       "notice": "AI 辅助生成，需核验",
-      "careerPathZh": "Princeton 活跃组，方向从随机优化/RL 延伸到 AI for science；适合观察数学优化如何进入科学智能和 agentic systems。",
-      "learningsZh": [
-        "随机优化可以连接强化学习、自动实验和 AI for science。",
-        "如果未来转向大厂/科研平台，算法决策和科学智能是潜在高价值交叉点。",
-        "需要保持数学优化主线，避免只追热点。"
-      ],
-      "risksZh": [
-        "方向比当前互补问题更偏 RL/AI，需要谨慎筛选具体 opening。",
-        "主页有较多 AI project 信息，申请前必须回到论文和数学贡献本身。"
-      ]
+      "careerPathZh": "Princeton 活跃组，方向从随机优化/RL 延伸到 AI for science；适合观察数学优化如何进入科学智能和 agentic systems。"
     }
   }
 ]

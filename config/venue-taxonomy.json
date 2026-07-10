@@ -1,0 +1,951 @@
+{
+  "schemaVersion": 1,
+  "taxonomyVersion": "2026.07.1",
+  "curatedAt": "2026-07-10",
+  "curationNote": "Tiers are a local radar taxonomy, not rankings issued by the linked publishers or conference organizers. Official URLs support venue identity, scope, and publication form.",
+  "tierIds": [
+    "top_core",
+    "important_mainstream",
+    "related_reference"
+  ],
+  "publicationPolicy": {
+    "countedClass": "archival_publication",
+    "excludedClasses": [
+      "preprint",
+      "nonarchival_event"
+    ],
+    "preprintsCount": false,
+    "nonarchivalEventsCount": false,
+    "deduplicateBy": "work_family",
+    "multiTrackGlobalCount": "once"
+  },
+  "tracks": [
+    {
+      "id": "optimization_operations_research",
+      "name": "Optimization and operations research",
+      "nameZh": "数学优化与运筹学",
+      "tiers": {
+        "top_core": [
+          "mathematical_programming",
+          "siam_journal_on_optimization",
+          "mathematics_of_operations_research",
+          "operations_research"
+        ],
+        "important_mainstream": [
+          "management_science",
+          "mathematical_programming_computation",
+          "ipco"
+        ],
+        "related_reference": [
+          "journal_of_optimization_theory_and_applications",
+          "computational_optimization_and_applications",
+          "siam_journal_on_control_and_optimization"
+        ]
+      }
+    },
+    {
+      "id": "numerical_analysis_scientific_computing",
+      "name": "Numerical analysis and scientific computing",
+      "nameZh": "数值分析与科学计算",
+      "tiers": {
+        "top_core": [
+          "siam_journal_on_numerical_analysis",
+          "siam_journal_on_scientific_computing",
+          "numerische_mathematik",
+          "mathematics_of_computation",
+          "acta_numerica"
+        ],
+        "important_mainstream": [
+          "ima_journal_of_numerical_analysis",
+          "acm_transactions_on_mathematical_software",
+          "journal_of_computational_physics"
+        ],
+        "related_reference": [
+          "m2an",
+          "siam_journal_on_mathematics_of_data_science"
+        ]
+      }
+    },
+    {
+      "id": "complementarity_vi_nonsmooth",
+      "name": "Complementarity, variational inequalities, and nonsmooth analysis",
+      "nameZh": "互补问题、变分不等式与非光滑优化",
+      "tiers": {
+        "top_core": [
+          "mathematical_programming",
+          "siam_journal_on_optimization"
+        ],
+        "important_mainstream": [
+          "set_valued_and_variational_analysis",
+          "journal_of_optimization_theory_and_applications",
+          "computational_optimization_and_applications"
+        ],
+        "related_reference": [
+          "siam_journal_on_control_and_optimization",
+          "mathematical_programming_computation"
+        ]
+      }
+    },
+    {
+      "id": "machine_learning_optimization",
+      "name": "Machine learning and optimization",
+      "nameZh": "机器学习优化与算法",
+      "tiers": {
+        "top_core": [
+          "neurips",
+          "icml",
+          "iclr",
+          "colt",
+          "jmlr"
+        ],
+        "important_mainstream": [
+          "aistats",
+          "tmlr"
+        ],
+        "related_reference": [
+          "siam_journal_on_mathematics_of_data_science",
+          "uai",
+          "mlsys"
+        ]
+      }
+    },
+    {
+      "id": "interdisciplinary_applications",
+      "name": "Interdisciplinary applications",
+      "nameZh": "交叉应用方向",
+      "tiers": {
+        "top_core": [
+          "management_science",
+          "operations_research",
+          "journal_of_computational_physics"
+        ],
+        "important_mainstream": [
+          "acm_transactions_on_mathematical_software",
+          "siam_journal_on_mathematics_of_data_science",
+          "mlsys",
+          "uai"
+        ],
+        "related_reference": [
+          "m2an",
+          "siam_journal_on_scientific_computing",
+          "tmlr"
+        ]
+      }
+    }
+  ],
+  "venues": [
+    {
+      "id": "mathematical_programming",
+      "name": "Mathematical Programming",
+      "acronym": "MP",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Math. Program.",
+        "Math Programming"
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1007/s10107-"
+        ],
+        "issnL": "0025-5610",
+        "issns": [
+          "0025-5610",
+          "1436-4646"
+        ],
+        "venueIds": [
+          "springer:10107",
+          "openalex:S193920097",
+          "https://openalex.org/S193920097"
+        ]
+      },
+      "sourceUrls": [
+        "https://link.springer.com/journal/10107"
+      ]
+    },
+    {
+      "id": "siam_journal_on_optimization",
+      "name": "SIAM Journal on Optimization",
+      "acronym": "SIOPT",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "SIAM J. Optim.",
+        "SIAM J Optim"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": "1052-6234",
+        "issns": [
+          "1052-6234",
+          "1095-7189"
+        ],
+        "venueIds": [
+          "siam:siopt",
+          "openalex:S928796702",
+          "https://openalex.org/S928796702"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.siam.org/publications/siam-journals/siam-journal-on-optimization/"
+      ]
+    },
+    {
+      "id": "mathematics_of_operations_research",
+      "name": "Mathematics of Operations Research",
+      "acronym": "MOR",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Math. Oper. Res.",
+        "Math Oper Res"
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1287/moor."
+        ],
+        "issnL": "0364-765X",
+        "issns": [
+          "0364-765X",
+          "1526-5471"
+        ],
+        "venueIds": [
+          "informs:moor",
+          "openalex:S55826652",
+          "https://openalex.org/S55826652"
+        ]
+      },
+      "sourceUrls": [
+        "https://pubsonline.informs.org/journal/moor"
+      ]
+    },
+    {
+      "id": "operations_research",
+      "name": "Operations Research",
+      "acronym": "OR",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Operations Res.",
+        "Oper. Res."
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1287/opre."
+        ],
+        "issnL": "0030-364X",
+        "issns": [
+          "0030-364X",
+          "1526-5463"
+        ],
+        "venueIds": [
+          "informs:opre",
+          "openalex:S125775545",
+          "https://openalex.org/S125775545"
+        ]
+      },
+      "sourceUrls": [
+        "https://pubsonline.informs.org/journal/opre"
+      ]
+    },
+    {
+      "id": "management_science",
+      "name": "Management Science",
+      "acronym": "MS",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Manage. Sci."
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1287/mnsc."
+        ],
+        "issnL": "0025-1909",
+        "issns": [
+          "0025-1909",
+          "1526-5501"
+        ],
+        "venueIds": [
+          "informs:mnsc",
+          "openalex:S33323087",
+          "https://openalex.org/S33323087"
+        ]
+      },
+      "sourceUrls": [
+        "https://pubsonline.informs.org/journal/mnsc"
+      ]
+    },
+    {
+      "id": "mathematical_programming_computation",
+      "name": "Mathematical Programming Computation",
+      "acronym": "MPC",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Math. Program. Comput.",
+        "Math Programming Computation"
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1007/s12532-"
+        ],
+        "issnL": "1867-2949",
+        "issns": [
+          "1867-2949",
+          "1867-2957"
+        ],
+        "venueIds": [
+          "springer:12532",
+          "openalex:S173077093",
+          "https://openalex.org/S173077093"
+        ]
+      },
+      "sourceUrls": [
+        "https://link.springer.com/journal/12532"
+      ]
+    },
+    {
+      "id": "ipco",
+      "name": "Integer Programming and Combinatorial Optimization",
+      "acronym": "IPCO",
+      "venueType": "conference_proceedings",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "International Conference on Integer Programming and Combinatorial Optimization",
+        "IPCO Conference"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": [
+          "dblp:conf/ipco",
+          "openalex:S4306418923",
+          "https://openalex.org/S4306418923"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.mathopt.org/?nav=ipco"
+      ]
+    },
+    {
+      "id": "siam_journal_on_numerical_analysis",
+      "name": "SIAM Journal on Numerical Analysis",
+      "acronym": "SINUM",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "SIAM J. Numer. Anal.",
+        "SIAM J Numerical Analysis"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": "0036-1429",
+        "issns": [
+          "0036-1429",
+          "1095-7170"
+        ],
+        "venueIds": [
+          "siam:sinum",
+          "openalex:S203348814",
+          "https://openalex.org/S203348814"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.siam.org/publications/siam-journals/siam-journal-on-numerical-analysis/"
+      ]
+    },
+    {
+      "id": "siam_journal_on_scientific_computing",
+      "name": "SIAM Journal on Scientific Computing",
+      "acronym": "SISC",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "SIAM J. Sci. Comput.",
+        "SIAM J Scientific Computing"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": "1064-8275",
+        "issns": [
+          "1064-8275",
+          "1095-7197"
+        ],
+        "venueIds": [
+          "siam:sisc",
+          "openalex:S165512578",
+          "https://openalex.org/S165512578"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.siam.org/publications/siam-journals/siam-journal-on-scientific-computing/"
+      ]
+    },
+    {
+      "id": "numerische_mathematik",
+      "name": "Numerische Mathematik",
+      "acronym": null,
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Numer. Math."
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1007/s00211-"
+        ],
+        "issnL": "0029-599X",
+        "issns": [
+          "0029-599X",
+          "0945-3245"
+        ],
+        "venueIds": [
+          "springer:211",
+          "openalex:S4210205683",
+          "https://openalex.org/S4210205683"
+        ]
+      },
+      "sourceUrls": [
+        "https://link.springer.com/journal/211"
+      ]
+    },
+    {
+      "id": "mathematics_of_computation",
+      "name": "Mathematics of Computation",
+      "acronym": "Math. Comp.",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Math Comp"
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1090/mcom/",
+          "10.1090/s0025-5718-"
+        ],
+        "issnL": "0025-5718",
+        "issns": [
+          "0025-5718",
+          "1088-6842"
+        ],
+        "venueIds": [
+          "ams:mcom",
+          "openalex:S102439543",
+          "https://openalex.org/S102439543"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.ams.org/publications/journals/journalsframework/mcom"
+      ]
+    },
+    {
+      "id": "acta_numerica",
+      "name": "Acta Numerica",
+      "acronym": null,
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1017/s09624929"
+        ],
+        "issnL": "0962-4929",
+        "issns": [
+          "0962-4929",
+          "1474-0508"
+        ],
+        "venueIds": [
+          "cambridge:acta-numerica",
+          "openalex:S124973578",
+          "https://openalex.org/S124973578"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.cambridge.org/core/journals/acta-numerica/information/about-this-journal"
+      ]
+    },
+    {
+      "id": "ima_journal_of_numerical_analysis",
+      "name": "IMA Journal of Numerical Analysis",
+      "acronym": "IMA JNA",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "IMA J. Numer. Anal."
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1093/imanum/"
+        ],
+        "issnL": "0272-4979",
+        "issns": [
+          "0272-4979",
+          "1464-3642"
+        ],
+        "venueIds": [
+          "oup:imajna",
+          "openalex:S201897549",
+          "https://openalex.org/S201897549"
+        ]
+      },
+      "sourceUrls": [
+        "https://academic.oup.com/imajna"
+      ]
+    },
+    {
+      "id": "acm_transactions_on_mathematical_software",
+      "name": "ACM Transactions on Mathematical Software",
+      "acronym": "ACM TOMS",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Transactions on Mathematical Software",
+        "ACM Trans. Math. Softw.",
+        "TOMS"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": "0098-3500",
+        "issns": [
+          "0098-3500",
+          "1557-7295"
+        ],
+        "venueIds": [
+          "acm:toms",
+          "openalex:S163326656",
+          "https://openalex.org/S163326656"
+        ]
+      },
+      "sourceUrls": [
+        "https://dl.acm.org/journal/toms"
+      ]
+    },
+    {
+      "id": "journal_of_computational_physics",
+      "name": "Journal of Computational Physics",
+      "acronym": "JCP",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "J. Comput. Phys."
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1016/j.jcp."
+        ],
+        "issnL": "0021-9991",
+        "issns": [
+          "0021-9991",
+          "1090-2716"
+        ],
+        "venueIds": [
+          "elsevier:jcp",
+          "openalex:S148709879",
+          "https://openalex.org/S148709879"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.sciencedirect.com/journal/journal-of-computational-physics"
+      ]
+    },
+    {
+      "id": "m2an",
+      "name": "ESAIM: Mathematical Modelling and Numerical Analysis",
+      "acronym": "M2AN",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "ESAIM Mathematical Modelling and Numerical Analysis",
+        "RAIRO Modelisation Mathematique et Analyse Numerique",
+        "RAIRO Mathematical Modelling and Numerical Analysis"
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1051/m2an/"
+        ],
+        "issnL": "0764-583X",
+        "issns": [
+          "0764-583X",
+          "1290-3841",
+          "2804-7214",
+          "2822-7840"
+        ],
+        "venueIds": [
+          "edp:m2an",
+          "openalex:S108887460",
+          "https://openalex.org/S108887460"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.esaim-m2an.org/"
+      ]
+    },
+    {
+      "id": "set_valued_and_variational_analysis",
+      "name": "Set-Valued and Variational Analysis",
+      "acronym": "SVVA",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Set Valued and Variational Analysis"
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1007/s11228-"
+        ],
+        "issnL": "1877-0533",
+        "issns": [
+          "1877-0533",
+          "1877-0541"
+        ],
+        "venueIds": [
+          "springer:11228",
+          "openalex:S114338317",
+          "https://openalex.org/S114338317"
+        ]
+      },
+      "sourceUrls": [
+        "https://link.springer.com/journal/11228"
+      ]
+    },
+    {
+      "id": "journal_of_optimization_theory_and_applications",
+      "name": "Journal of Optimization Theory and Applications",
+      "acronym": "JOTA",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "J. Optim. Theory Appl."
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1007/s10957-"
+        ],
+        "issnL": "0022-3239",
+        "issns": [
+          "0022-3239",
+          "1573-2878"
+        ],
+        "venueIds": [
+          "springer:10957",
+          "openalex:S52430896",
+          "https://openalex.org/S52430896"
+        ]
+      },
+      "sourceUrls": [
+        "https://link.springer.com/journal/10957"
+      ]
+    },
+    {
+      "id": "computational_optimization_and_applications",
+      "name": "Computational Optimization and Applications",
+      "acronym": "COAP",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Comput. Optim. Appl."
+      ],
+      "identifiers": {
+        "doiPrefixes": [
+          "10.1007/s10589-"
+        ],
+        "issnL": "0926-6003",
+        "issns": [
+          "0926-6003",
+          "1573-2894"
+        ],
+        "venueIds": [
+          "springer:10589",
+          "openalex:S39243548",
+          "https://openalex.org/S39243548"
+        ]
+      },
+      "sourceUrls": [
+        "https://link.springer.com/journal/10589"
+      ]
+    },
+    {
+      "id": "siam_journal_on_control_and_optimization",
+      "name": "SIAM Journal on Control and Optimization",
+      "acronym": "SICON",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "SIAM J. Control Optim.",
+        "SIAM J Control Optimization"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": "0363-0129",
+        "issns": [
+          "0363-0129",
+          "1095-7138"
+        ],
+        "venueIds": [
+          "siam:sicon",
+          "openalex:S897311980",
+          "https://openalex.org/S897311980"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.siam.org/publications/siam-journals/siam-journal-on-control-and-optimization/"
+      ]
+    },
+    {
+      "id": "neurips",
+      "name": "Conference on Neural Information Processing Systems",
+      "acronym": "NeurIPS",
+      "venueType": "conference_proceedings",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Neural Information Processing Systems",
+        "NIPS",
+        "Advances in Neural Information Processing Systems"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": "1049-5258",
+        "issns": [
+          "1049-5258"
+        ],
+        "venueIds": [
+          "dblp:conf/nips",
+          "openalex:S4306420609",
+          "https://openalex.org/S4306420609",
+          "openalex:S4393916742",
+          "https://openalex.org/S4393916742"
+        ]
+      },
+      "sourceUrls": [
+        "https://proceedings.neurips.cc/"
+      ]
+    },
+    {
+      "id": "icml",
+      "name": "International Conference on Machine Learning",
+      "acronym": "ICML",
+      "venueType": "conference_proceedings",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Proceedings of the International Conference on Machine Learning"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": [
+          "dblp:conf/icml",
+          "openalex:S4306419644",
+          "https://openalex.org/S4306419644"
+        ]
+      },
+      "sourceUrls": [
+        "https://icml.cc/",
+        "https://proceedings.mlr.press/"
+      ]
+    },
+    {
+      "id": "iclr",
+      "name": "International Conference on Learning Representations",
+      "acronym": "ICLR",
+      "venueType": "conference_proceedings",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Proceedings of the International Conference on Learning Representations"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": [
+          "dblp:conf/iclr",
+          "openalex:S4306419637",
+          "https://openalex.org/S4306419637"
+        ]
+      },
+      "sourceUrls": [
+        "https://iclr.cc/",
+        "https://openreview.net/group?id=ICLR.cc"
+      ]
+    },
+    {
+      "id": "colt",
+      "name": "Conference on Learning Theory",
+      "acronym": "COLT",
+      "venueType": "conference_proceedings",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Annual Conference on Learning Theory"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": [
+          "dblp:conf/colt",
+          "openalex:S4306418075",
+          "https://openalex.org/S4306418075"
+        ]
+      },
+      "sourceUrls": [
+        "https://learningtheory.org/",
+        "https://proceedings.mlr.press/"
+      ]
+    },
+    {
+      "id": "jmlr",
+      "name": "Journal of Machine Learning Research",
+      "acronym": "JMLR",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "J. Mach. Learn. Res."
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": "1532-4435",
+        "issns": [
+          "1532-4435",
+          "1533-7928"
+        ],
+        "venueIds": [
+          "jmlr:jmlr",
+          "openalex:S118988714",
+          "https://openalex.org/S118988714"
+        ]
+      },
+      "sourceUrls": [
+        "https://jmlr.org/"
+      ]
+    },
+    {
+      "id": "aistats",
+      "name": "International Conference on Artificial Intelligence and Statistics",
+      "acronym": "AISTATS",
+      "venueType": "conference_proceedings",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Artificial Intelligence and Statistics"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": [
+          "dblp:conf/aistats",
+          "openalex:S4306419146",
+          "https://openalex.org/S4306419146"
+        ]
+      },
+      "sourceUrls": [
+        "https://aistats.org/",
+        "https://proceedings.mlr.press/"
+      ]
+    },
+    {
+      "id": "tmlr",
+      "name": "Transactions on Machine Learning Research",
+      "acronym": "TMLR",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Trans. Mach. Learn. Res."
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": "2835-8856",
+        "issns": [
+          "2835-8856"
+        ],
+        "venueIds": [
+          "jmlr:tmlr",
+          "openalex:S4393919742",
+          "https://openalex.org/S4393919742"
+        ]
+      },
+      "sourceUrls": [
+        "https://jmlr.org/tmlr/"
+      ]
+    },
+    {
+      "id": "siam_journal_on_mathematics_of_data_science",
+      "name": "SIAM Journal on Mathematics of Data Science",
+      "acronym": "SIMODS",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "SIAM J. Math. Data Sci."
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": "2577-0187",
+        "issns": [
+          "2577-0187"
+        ],
+        "venueIds": [
+          "siam:simods",
+          "openalex:S4210229561",
+          "https://openalex.org/S4210229561"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.siam.org/publications/siam-journals/siam-journal-on-mathematics-of-data-science/"
+      ]
+    },
+    {
+      "id": "uai",
+      "name": "Conference on Uncertainty in Artificial Intelligence",
+      "acronym": "UAI",
+      "venueType": "conference_proceedings",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Uncertainty in Artificial Intelligence"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": "1525-3384",
+        "issns": [
+          "1525-3384"
+        ],
+        "venueIds": [
+          "dblp:conf/uai",
+          "openalex:S4306421103",
+          "https://openalex.org/S4306421103",
+          "openalex:S4393917451",
+          "https://openalex.org/S4393917451"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.auai.org/",
+        "https://proceedings.mlr.press/"
+      ]
+    },
+    {
+      "id": "mlsys",
+      "name": "Conference on Machine Learning and Systems",
+      "acronym": "MLSys",
+      "venueType": "conference_proceedings",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Machine Learning and Systems",
+        "Proceedings of Machine Learning and Systems"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": [
+          "dblp:conf/mlsys",
+          "openalex:S4306523471",
+          "https://openalex.org/S4306523471"
+        ]
+      },
+      "sourceUrls": [
+        "https://mlsys.org/",
+        "https://proceedings.mlsys.org/"
+      ]
+    }
+  ]
+}

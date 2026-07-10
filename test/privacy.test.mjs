@@ -42,6 +42,21 @@ test("detects private field leaks in public structures", () => {
   );
 });
 
+test("blocks the expanded private person overlay contract", () => {
+  const privateOverlay = {
+    applicationProbability: 0.7,
+    matching: { researchProblem: 90 },
+    actionCard: { nextAction: "Contact later" },
+    contactHistory: [{ at: "2026-07-10" }],
+    emailDrafts: ["Private draft"],
+    ownerProfile: { ownerId: "private-owner" },
+    quarterlyPlan: [{ quarter: "2026-Q3" }]
+  };
+  const stripped = stripPrivateFields({ id: "person-1", ...privateOverlay });
+  assert.deepEqual(stripped, { id: "person-1" });
+  assert.throws(() => assertNoPrivateFields(privateOverlay), /Private field leaked/);
+});
+
 test("public lab data omits personal matching while retaining public evidence", () => {
   const lab = {
     id: "lab-1",

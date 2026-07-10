@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "confirmedAt": "2026-07-10",
+  "scope": {
+    "targetLabs": 50,
+    "youngScholars": 80,
+    "industryPeopleMinimum": 50,
+    "regionWeights": {
+      "Europe": 0.4,
+      "Hong Kong and Singapore": 0.3,
+      "Mainland China": 0.15,
+      "Reference regions": 0.15
+    }
+  },
+  "minimumProfile": {
+    "officialIdentitySources": 1,
+    "bibliographicSources": 1,
+    "mentorRepresentativeWorks": 8,
+    "youngScholarRepresentativeWorks": 5,
+    "requiresResearchEvolution": true,
+    "requiresPublicationMetrics": true,
+    "requiresVenueBreakdown": true,
+    "requiresEvidenceForKeyClaims": true,
+    "incompleteProfilesArePublic": false
+  },
+  "matchingWeights": {
+    "researchProblem": 30,
+    "methodology": 25,
+    "publicationNetwork": 15,
+    "careerPath": 10,
+    "regionalFeasibility": 10,
+    "recruitmentAndCollaboration": 10
+  },
+  "venueTracks": [
+    "optimization_operations_research",
+    "numerical_analysis_scientific_computing",
+    "complementarity_vi_nonsmooth",
+    "machine_learning_optimization",
+    "interdisciplinary_applications"
+  ],
+  "venueTiers": [
+    "top_core",
+    "important_mainstream",
+    "related_reference"
+  ],
+  "recruitmentSignals": [
+    {
+      "id": "official_opening",
+      "labelZh": "官方明确招聘",
+      "countsAsOpen": true
+    },
+    {
+      "id": "funded_expansion_signal",
+      "labelZh": "近期有基金或项目，可能扩组",
+      "countsAsOpen": false
+    },
+    {
+      "id": "accepts_applications",
+      "labelZh": "长期接受申请",
+      "countsAsOpen": false
+    },
+    {
+      "id": "fellowship_host",
+      "labelZh": "Fellowship host 路线",
+      "countsAsOpen": false
+    },
+    {
+      "id": "department_opening",
+      "labelZh": "院系层面招聘通道",
+      "countsAsOpen": false
+    },
+    {
+      "id": "no_public_signal",
+      "labelZh": "暂无公开招聘证据",
+      "countsAsOpen": false
+    },
+    {
+      "id": "closed_or_expired",
+      "labelZh": "已截止或明确不招",
+      "countsAsOpen": false
+    }
+  ],
+  "updateCadence": {
+    "recruitmentPositionsAndGrants": "weekly",
+    "homepagesGroupsAndResearch": "monthly",
+    "publicationMetrics": "quarterly"
+  },
+  "publicationPolicy": {
+    "recentWindowYears": 5,
+    "preprintsCountTowardVenueTotals": false,
+    "deduplicateVersions": true,
+    "separateSoftwareBooksAndChapters": true,
+    "normalizeByCareerStage": true
+  },
+  "privacy": {
+    "personalFitIsPublic": false,
+    "personalGapIsPublic": false,
+    "applicationProbabilityIsPublic": false,
+    "privateNotesArePublic": false,
+    "privateDataRepository": "separate_private_repository",
+    "privateSiteAccess": "single_owner_feishu_oauth"
+  },
+  "visual": {
+    "defaultLanguage": "zh-CN",
+    "publicEnglishToggle": true,
+    "chineseReportFont": "KaiTi",
+    "latinReportFont": "Times New Roman",
+    "listModes": [
+      "table",
+      "cards"
+    ],
+    "comparisonSelectionLimit": 5
+  }
+}

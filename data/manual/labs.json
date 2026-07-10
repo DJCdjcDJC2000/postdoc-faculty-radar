@@ -1379,5 +1379,153 @@
         "confidence": "A"
       }
     ]
+  },
+  {
+    "id": "polyu-xiaojun-chen",
+    "canonicalPersonId": "person-xiaojun-chen",
+    "leadName": "Xiaojun Chen",
+    "leadNameZh": "陈晓君",
+    "institution": "The Hong Kong Polytechnic University",
+    "department": "Department of Applied Mathematics",
+    "country": "Hong Kong SAR, China",
+    "region": "Hong Kong",
+    "qsRank2027": 50,
+    "qsRankDisplay": "#50",
+    "schoolScope": "QS 2027 Top 50",
+    "currentPosition": "Chair Professor of Applied Mathematics",
+    "authorityLevel": "国际顶级参照：随机均衡、互补问题、非光滑优化与随机变分不等式",
+    "groupName": "Stochastic Equilibrium and Nonsmooth Optimization",
+    "homepage": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm",
+    "groupHomepage": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm",
+    "openingsUrl": null,
+    "openalex": "https://openalex.org/A5100369445",
+    "orcid": "https://orcid.org/0000-0002-6627-2637",
+    "fieldTags": [
+      "stochastic equilibrium",
+      "complementarity problems",
+      "stochastic variational inequalities",
+      "nonsmooth equations",
+      "nonsmooth nonconvex optimization",
+      "distributionally robust optimization"
+    ],
+    "researchSummaryZh": "长期围绕随机均衡、互补问题、非光滑方程与优化建立理论、算法和应用体系，并持续拓展到动态随机变分不等式与分布鲁棒模型。",
+    "researchEvolution": [
+      "早期形成半光滑 Newton、非光滑方程和互补问题的核心方法线。",
+      "随后系统推进两阶段随机变分不等式、随机广义方程及 SAA 收敛理论。",
+      "近年进一步关注动态随机变分不等式、分布鲁棒模型和非光滑非凸优化。"
+    ],
+    "methods": [
+      "semismooth Newton methods",
+      "sample average approximation",
+      "regularization and smoothing",
+      "projection methods",
+      "distributionally robust optimization"
+    ],
+    "applications": [
+      "stochastic equilibrium",
+      "two-stage decision systems",
+      "dynamic complementarity systems"
+    ],
+    "grantsAwards": [
+      {
+        "summary": "RGC-funded project listed for 2026-2029 on the official homepage",
+        "sourceUrl": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      },
+      {
+        "summary": "RGC-funded project listed for 2025-2028 on the official homepage",
+        "sourceUrl": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      }
+    ],
+    "recruitmentSignals": [
+      {
+        "type": "funded_expansion_signal",
+        "summaryZh": "官方主页列有 2025-2028 与 2026-2029 的在研基金，说明研究活动和经费持续；这只是可能扩组信号，不等于公开招聘。",
+        "sourceUrl": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm",
+        "sourceType": "official_profile_and_grants",
+        "confidence": "A",
+        "observedAt": "2026-07-10"
+      },
+      {
+        "type": "no_public_signal",
+        "summaryZh": "截至核验日，未在官方主页发现明确的当前博后岗位、名额或截止日期。",
+        "sourceUrl": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm",
+        "sourceType": "official_profile",
+        "confidence": "A",
+        "observedAt": "2026-07-10"
+      }
+    ],
+    "representativeWorks": [
+      {
+        "title": "Differential Stochastic Variational Inequalities and Optimization",
+        "year": "2026",
+        "venue": "International Congress of Mathematicians 2026",
+        "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      },
+      {
+        "title": "Dynamic systems coupled with solutions of stochastic nonsmooth convex optimization problems",
+        "year": "2025",
+        "venue": "SIAM Journal on Control and Optimization",
+        "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      },
+      {
+        "title": "Distributionally robust stochastic variational inequalities",
+        "year": "2023",
+        "venue": "Mathematical Programming",
+        "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      },
+      {
+        "title": "Solving two-stage stochastic variational inequalities by a hybrid projection semismooth Newton algorithm",
+        "year": "2023",
+        "venue": "SIAM Journal on Scientific Computing",
+        "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      },
+      {
+        "title": "Dynamic stochastic variational inequalities and convergence of discrete approximation",
+        "year": "2022",
+        "venue": "SIAM Journal on Optimization",
+        "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      },
+      {
+        "title": "A Gauss-Seidel type method for dynamic nonlinear complementarity problems",
+        "year": "2020",
+        "venue": "SIAM Journal on Control and Optimization",
+        "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      },
+      {
+        "title": "Discrete approximation of two-stage stochastic and distributionally robust linear complementarity problems",
+        "year": "2019",
+        "venue": "Mathematical Programming",
+        "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      },
+      {
+        "title": "Sample average approximation convergence for two-stage stochastic generalized equations",
+        "year": "2019",
+        "venue": "SIAM Journal on Optimization",
+        "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      },
+      {
+        "title": "Two-stage stochastic variational inequalities: an expected residual minimization formulation",
+        "year": "2017",
+        "venue": "Mathematical Programming",
+        "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "official_homepage",
+        "url": "https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm",
+        "confidence": "A",
+        "checkedAt": "2026-07-10",
+        "supportsClaims": ["identity", "position", "research", "publications", "grants"]
+      },
+      {
+        "type": "qs_ranking",
+        "url": "https://www.topuniversities.com/universities/hong-kong-polytechnic-university",
+        "confidence": "A",
+        "checkedAt": "2026-07-10",
+        "supportsClaims": ["institution_rank"]
+      }
+    ],
+    "lastVerifiedAt": "2026-07-10"
   }
 ]

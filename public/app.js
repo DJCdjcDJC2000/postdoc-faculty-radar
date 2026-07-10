@@ -1,3 +1,28 @@
+const PEOPLE_TABS = [
+  ["overview", "总览"],
+  ["mentors", "导师课题组"],
+  ["young", "青年学者"],
+  ["industry", "产业人物入口"],
+  ["compare", "横向对比"],
+  ["network", "关系网络"]
+];
+
+const ACADEMIC_PROFILE_TYPES = {
+  mentor_group: "导师课题组",
+  young_scholar: "青年学者",
+  academic_reference: "学术参照"
+};
+
+const RECRUITMENT_SIGNAL_PRESENTATION = {
+  official_opening: { label: "官方明确招聘", note: "可视为公开开放岗位", mark: "招", className: "signal-official" },
+  funded_expansion_signal: { label: "基金或项目扩组", note: "扩组线索，不等于公开招聘", mark: "项", className: "signal-funded" },
+  accepts_applications: { label: "长期接受申请", note: "长期申请通道，不等于公开招聘", mark: "长", className: "signal-accepts" },
+  fellowship_host: { label: "Fellowship host", note: "需经 Fellowship 项目申请", mark: "F", className: "signal-fellowship" },
+  department_opening: { label: "院系招聘通道", note: "院系层面机会，需核对具体导师", mark: "院", className: "signal-department" },
+  no_public_signal: { label: "暂无公开招聘证据", note: "仅表示未发现公开信号", mark: "无", className: "signal-none" },
+  closed_or_expired: { label: "已截止或明确不招", note: "历史信号，不应视为开放", mark: "止", className: "signal-closed" }
+};
+
 const state = {
   data: null,
   view: "home",
@@ -48,7 +73,20 @@ const state = {
     topic: "",
     recruitment: ""
   },
-  calendarTab: "fellowships"
+  calendarTab: "fellowships",
+  peopleTab: "overview",
+  peopleView: "table",
+  peopleFilters: {
+    search: "",
+    type: "",
+    region: "",
+    research: "",
+    recruitment: "",
+    quality: ""
+  },
+  peopleCompare: new Set(),
+  peopleMessage: "",
+  selectedAcademicProfileId: null
 };
 
 const els = {
@@ -60,6 +98,8 @@ const els = {
     radar: document.querySelector("#page-radar"),
     industry: document.querySelector("#page-industry"),
     routes: document.querySelector("#page-routes"),
+    people: document.querySelector("#page-people"),
+    profile: document.querySelector("#page-profile"),
     cases: document.querySelector("#page-cases"),
     calendar: document.querySelector("#page-calendar"),
     methods: document.querySelector("#page-methods")
@@ -70,11 +110,10 @@ await init();
 
 async function init() {
   state.data = await fetchJson("./data/site.json", fallbackData());
-  state.view = location.hash?.replace("#", "") || "home";
   renderShell();
   renderAll();
   bindGlobalEvents();
-  setView(state.view);
+  setView(location.hash?.replace("#", "") || "home");
 }
 
 async function fetchJson(url, fallback) {
@@ -98,6 +137,53 @@ function renderShell() {
 function bindGlobalEvents() {
   window.addEventListener("hashchange", () => setView(location.hash.replace("#", "") || "home"));
   document.addEventListener("click", (event) => {
+    const peopleTab = event.target.closest("[data-people-tab]");
+    if (peopleTab) {
+      state.peopleTab = peopleTab.dataset.peopleTab;
+      if (state.peopleTab === "mentors") state.peopleFilters.type = "mentor_group";
+      if (state.peopleTab === "young") state.peopleFilters.type = "young_scholar";
+      if (["overview", "industry", "compare", "network"].includes(state.peopleTab)) state.peopleFilters.type = "";
+      renderPeople();
+      return;
+    }
+    const peopleView = event.target.closest("[data-people-view]");
+    if (peopleView) {
+      state.peopleView = peopleView.dataset.peopleView;
+      renderPeopleContent();
+      return;
+    }
+    const academicCompare = event.target.closest("[data-academic-compare-id]");
+    if (academicCompare) {
+      toggleAcademicComparison(academicCompare.dataset.academicCompareId);
+      renderPeopleContent();
+      return;
+    }
+    const removeAcademicCompare = event.target.closest("[data-remove-academic-compare]");
+    if (removeAcademicCompare) {
+      state.peopleCompare.delete(removeAcademicCompare.dataset.removeAcademicCompare);
+      renderPeopleContent();
+      return;
+    }
+    if (event.target.closest("[data-clear-people-compare]")) {
+      state.peopleCompare.clear();
+      state.peopleMessage = "";
+      renderPeopleContent();
+      return;
+    }
+    if (event.target.closest("[data-clear-people-filters]")) {
+      Object.keys(state.peopleFilters).forEach((key) => { state.peopleFilters[key] = ""; });
+      state.peopleTab = "overview";
+      renderPeople();
+      return;
+    }
+    if (event.target.closest("[data-print-profile]")) {
+      window.print();
+      return;
+    }
+    if (event.target.closest("[data-export-profile]")) {
+      exportAcademicProfile();
+      return;
+    }
     const jobButton = event.target.closest("[data-job-id]");
     if (jobButton) {
       showJobDetail(jobButton.dataset.jobId);
@@ -164,6 +250,9 @@ function bindGlobalEvents() {
       renderCalendar();
     }
   });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeDrawer();
+  });
 }
 
 function renderAll() {
@@ -171,16 +260,33 @@ function renderAll() {
   renderRadar();
   renderIndustry();
   renderRoutes();
+  renderPeople();
   renderCases();
   renderCalendar();
   renderMethods();
 }
 
 function setView(view) {
-  const safeView = els.pages[view] ? view : "home";
+  const route = parseSiteRoute(view);
+  const safeView = route.profileId ? "profile" : (els.pages[route.view] ? route.view : "home");
+  state.selectedAcademicProfileId = route.profileId;
   state.view = safeView;
+  if (safeView === "profile") renderAcademicProfile();
   Object.entries(els.pages).forEach(([id, node]) => node.classList.toggle("active", id === safeView));
-  document.querySelectorAll(".nav-link").forEach((link) => link.classList.toggle("active", link.dataset.view === safeView));
+  document.querySelectorAll(".nav-link").forEach((link) => link.classList.toggle("active", link.dataset.view === (safeView === "profile" ? "people" : safeView)));
+  closeDrawer();
+  window.scrollTo({ top: 0, behavior: "auto" });
+}
+
+function parseSiteRoute(value) {
+  const normalized = String(value || "home").replace(/^#/, "");
+  const [view, ...rest] = normalized.split("/");
+  if (view !== "people" || !rest.length) return { view };
+  try {
+    return { view: "people", profileId: decodeURIComponent(rest.join("/")) };
+  } catch {
+    return { view: "people", profileId: rest.join("/") };
+  }
 }
 
 function renderHome() {
@@ -523,14 +629,282 @@ function renderRoutes() {
   `;
 }
 
+function renderPeople() {
+  const academic = academicData();
+  const overview = academic.overview ?? {};
+  els.pages.people.innerHTML = `
+    <section class="page-heading people-heading">
+      <p class="eyebrow">Academic People Intelligence</p>
+      <h1>学术人物</h1>
+      <p>以公开身份、书目数据和原始证据为边界，统一呈现导师课题组、青年学者与学术参照。招聘信号按证据强度分型，不把基金扩组、长期申请或 Fellowship host 误写成公开岗位。</p>
+      <div class="people-update-line">
+        <span>Schema ${Number(academic.schemaVersion ?? 0) || "待生成"}</span>
+        <span>指标更新 ${escapeHtml(formatShortDate(overview.metricsUpdatedAt) || "待补充")}</span>
+        <span>公开证据优先</span>
+      </div>
+    </section>
+
+    <section class="people-overview-strip" aria-label="学术人物总览">
+      ${peopleMetric("人物档案", overview.totalProfiles ?? academic.profiles.length, "当前收录")}
+      ${peopleMetric("资料完整", overview.readyProfiles ?? 0, "通过质量门槛")}
+      ${peopleMetric("资料待完善", overview.incompleteProfiles ?? 0, "缺项有标记")}
+      ${peopleMetric("官方招聘", overview.officialOpenings ?? 0, "公开开放岗位")}
+      ${peopleMetric("基金扩组", overview.expansionSignals ?? 0, "不等于招聘")}
+      ${peopleMetric("Fellowship host", overview.fellowshipHosts ?? 0, "项目申请路线")}
+    </section>
+
+    <nav class="people-tabs" aria-label="学术人物视图">
+      ${PEOPLE_TABS.map(([id, label]) => `<button class="people-tab ${state.peopleTab === id ? "active" : ""}" data-people-tab="${escapeAttr(id)}" aria-pressed="${state.peopleTab === id}">${escapeHtml(label)}</button>`).join("")}
+    </nav>
+
+    <section class="people-filter-shell" aria-label="学术人物筛选">
+      <div class="people-filter-grid">
+        ${peopleFilterInput("search", "搜索", "姓名、机构、课题组、研究方向")}
+        ${peopleFilterSelect("type", "类型", academicTypeOptions())}
+        ${peopleFilterSelect("region", "地区", academicRegionOptions())}
+        ${peopleFilterSelect("research", "研究方向", academicResearchOptions())}
+        ${peopleFilterSelect("recruitment", "招聘信号", academicRecruitmentOptions())}
+        ${peopleFilterSelect("quality", "质量状态", [["ready", "资料完整"], ["incomplete", "资料待完善"]])}
+      </div>
+      <div class="people-toolbar">
+        <div class="people-result-meta">
+          <strong id="people-results-count">0 人</strong>
+          <span id="people-compare-count">已选 ${state.peopleCompare.size}/5</span>
+          <span class="people-feedback" id="people-feedback" role="status" aria-live="polite"></span>
+        </div>
+        <div class="people-toolbar-actions">
+          <button class="tiny-button" data-clear-people-filters>清除筛选</button>
+          <div class="view-segmented" aria-label="列表布局">
+            <button class="view-option ${state.peopleView === "table" ? "active" : ""}" data-people-view="table" aria-pressed="${state.peopleView === "table"}">表格</button>
+            <button class="view-option ${state.peopleView === "cards" ? "active" : ""}" data-people-view="cards" aria-pressed="${state.peopleView === "cards"}">卡片</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="people-content" id="people-content"></section>
+  `;
+
+  els.pages.people.querySelectorAll("[data-people-filter]").forEach((control) => {
+    control.addEventListener("input", (event) => {
+      state.peopleFilters[event.target.dataset.peopleFilter] = event.target.value;
+      if (event.target.dataset.peopleFilter === "type") {
+        state.peopleTab = event.target.value === "mentor_group" ? "mentors" : event.target.value === "young_scholar" ? "young" : "overview";
+        els.pages.people.querySelectorAll("[data-people-tab]").forEach((tab) => {
+          tab.classList.toggle("active", tab.dataset.peopleTab === state.peopleTab);
+          tab.setAttribute("aria-pressed", String(tab.dataset.peopleTab === state.peopleTab));
+        });
+      }
+      renderPeopleContent();
+    });
+  });
+  renderPeopleContent();
+}
+
+function renderPeopleContent() {
+  const container = document.querySelector("#people-content");
+  if (!container) return;
+  const academic = academicData();
+  const profiles = filteredAcademicProfiles();
+  const count = document.querySelector("#people-results-count");
+  const compareCount = document.querySelector("#people-compare-count");
+  const feedback = document.querySelector("#people-feedback");
+  if (count) count.textContent = `${profiles.length} 人`;
+  if (compareCount) compareCount.textContent = `已选 ${state.peopleCompare.size}/5`;
+  if (feedback) feedback.textContent = state.peopleMessage;
+
+  if (Number(academic.schemaVersion) !== 2) {
+    container.innerHTML = professionalEmpty("学术人物数据尚未生成", "请在 schemaVersion 2 数据完成构建后重新查看。", "数据状态");
+    return;
+  }
+  if (state.peopleTab === "industry") {
+    container.innerHTML = renderIndustryPeopleEntry();
+    return;
+  }
+  if (state.peopleTab === "compare") {
+    container.innerHTML = renderAcademicComparison();
+    return;
+  }
+  if (state.peopleTab === "network") {
+    container.innerHTML = renderAcademicNetwork(profiles);
+    return;
+  }
+
+  const overview = state.peopleTab === "overview" ? renderAcademicOverviewPanels(academic) : "";
+  container.innerHTML = `${overview}${renderAcademicPeopleList(profiles)}`;
+}
+
+function renderAcademicOverviewPanels(academic) {
+  const overview = academic.overview ?? {};
+  const tags = overview.topResearchTags ?? [];
+  const maxTagCount = Math.max(...tags.map((item) => Number(item.count ?? 0)), 1);
+  return `
+    <div class="academic-overview-ledger">
+      <section class="overview-ledger-section">
+        <div class="ledger-heading"><div><p class="eyebrow">Research Map</p><h2>高频研究方向</h2></div><span>按档案标签计数</span></div>
+        ${tags.length ? `<div class="research-frequency-list">${tags.slice(0, 10).map((item) => `
+          <div class="research-frequency-row"><span>${escapeHtml(item.value)}</span><i><b style="width:${Math.max(4, Number(item.count ?? 0) / maxTagCount * 100)}%"></b></i><strong>${Number(item.count ?? 0)}</strong></div>
+        `).join("")}</div>` : professionalEmpty("研究方向尚待汇总", "档案补充研究标签后将在这里形成分布。", "研究数据")}
+      </section>
+      <section class="overview-ledger-section signal-ledger-section">
+        <div class="ledger-heading"><div><p class="eyebrow">Signal Taxonomy</p><h2>招聘信号口径</h2></div><span>七类证据严格分开</span></div>
+        <div class="signal-ledger">${academicRecruitmentTypes().map((type) => renderRecruitmentSignal({ type: type.id, labelZh: type.labelZh }, true)).join("")}</div>
+      </section>
+    </div>
+  `;
+}
+
+function renderAcademicPeopleList(profiles) {
+  if (!profiles.length) {
+    return professionalEmpty("没有符合当前条件的人物档案", "可调整类型、地区、方向、招聘信号或质量状态后重新查看。", "筛选结果");
+  }
+  const cards = `<div class="academic-card-grid ${state.peopleView === "table" ? "people-mobile-list" : ""}">${profiles.map(academicProfileCard).join("")}</div>`;
+  if (state.peopleView === "cards") return cards;
+  return `
+    <div class="people-table-wrap">
+      <table class="people-table">
+        <thead><tr><th>人物 / 机构</th><th>类型</th><th>地区</th><th>研究方向</th><th>论文指标</th><th>招聘信号</th><th>质量</th><th>更新</th><th>对比</th></tr></thead>
+        <tbody>${profiles.map(academicProfileRow).join("")}</tbody>
+      </table>
+    </div>
+    ${cards}
+  `;
+}
+
+function academicProfileRow(profile) {
+  const selected = state.peopleCompare.has(profile.id);
+  const metrics = profile.publicationMetrics ?? {};
+  return `<tr>
+    <td><a class="academic-name-link" href="#people/${encodeURIComponent(profile.id)}">${escapeHtml(profileDisplayName(profile))}</a><small>${escapeHtml([profile.currentPosition, profile.institution, profile.department].filter(Boolean).join(" · "))}</small></td>
+    <td>${profileTypeBadge(profile.profileType)}</td>
+    <td>${escapeHtml([profile.region, profile.country].filter(Boolean).join(" / ") || "待补充")}</td>
+    <td><div class="academic-tag-list">${academicTags(profile.research?.tags)}</div></td>
+    <td><span class="metric-pair"><b>${formatMetric(metrics.worksCount)}</b> 收录成果</span><span class="metric-pair"><b>${formatMetric(metrics.recentWorksCount)}</b> 近 5 年</span></td>
+    <td><div class="table-signal-list">${(profile.recruitmentSignals ?? []).slice(0, 2).map((signal) => renderRecruitmentSignal(signal, true)).join("") || `<span class="muted">待补充</span>`}</div></td>
+    <td>${qualityBadge(profile.quality)}</td>
+    <td>${escapeHtml(profileUpdatedAt(profile) || "待补充")}</td>
+    <td>${academicCompareControl(profile, selected)}</td>
+  </tr>`;
+}
+
+function academicProfileCard(profile) {
+  const selected = state.peopleCompare.has(profile.id);
+  const metrics = profile.publicationMetrics ?? {};
+  return `<article class="academic-profile-card">
+    <div class="academic-card-top">${profileTypeBadge(profile.profileType)}${qualityBadge(profile.quality)}</div>
+    <h3><a href="#people/${encodeURIComponent(profile.id)}">${escapeHtml(profileDisplayName(profile))}</a></h3>
+    <p class="academic-role">${escapeHtml(profile.currentPosition || "职务待补充")}</p>
+    <p class="academic-affiliation">${escapeHtml([profile.institution, profile.department].filter(Boolean).join(" · ") || "机构待补充")}</p>
+    <div class="academic-tag-list">${academicTags(profile.research?.tags)}</div>
+    <div class="academic-card-metrics"><span><b>${formatMetric(metrics.worksCount)}</b> 收录成果</span><span><b>${formatMetric(metrics.recentWorksCount)}</b> 近 5 年</span><span><b>${profile.representativeWorks?.length ?? 0}</b> 代表作</span></div>
+    <div class="academic-card-signals">${(profile.recruitmentSignals ?? []).slice(0, 2).map((signal) => renderRecruitmentSignal(signal, true)).join("") || `<span class="muted">招聘信号待补充</span>`}</div>
+    <div class="academic-card-footer"><a class="inline-button" href="#people/${encodeURIComponent(profile.id)}">查看完整档案</a>${academicCompareControl(profile, selected)}</div>
+  </article>`;
+}
+
+function academicCompareControl(profile, selected) {
+  const disabled = !selected && state.peopleCompare.size >= 5;
+  return `<label class="compare-check ${disabled ? "is-disabled" : ""}"><input type="checkbox" data-academic-compare-id="${escapeAttr(profile.id)}" ${selected ? "checked" : ""} ${disabled ? "disabled" : ""}><span>对比</span></label>`;
+}
+
+function renderAcademicComparison() {
+  const profiles = [...state.peopleCompare]
+    .map((id) => academicProfiles().find((profile) => profile.id === id))
+    .filter(Boolean);
+  if (!profiles.length) {
+    return professionalEmpty("尚未选择对比人物", "可在总览、导师课题组或青年学者列表中选择最多 5 人。", "横向对比");
+  }
+  return `
+    <section class="academic-comparison">
+      <div class="comparison-heading"><div><p class="eyebrow">Side-by-side</p><h2>横向对比</h2><p>同口径比较公开学术事实；缺失数据统一显示为“待补充”。</p></div><button class="tiny-button" data-clear-people-compare>清空对比</button></div>
+      <div class="academic-compare-grid" style="--people-compare-count:${profiles.length}">${profiles.map(compareAcademicProfile).join("")}</div>
+    </section>
+  `;
+}
+
+function compareAcademicProfile(profile) {
+  const metrics = profile.publicationMetrics ?? {};
+  const topVenues = (profile.venueBreakdown ?? []).slice(0, 4);
+  return `<article class="academic-compare-column">
+    <button class="compare-remove" data-remove-academic-compare="${escapeAttr(profile.id)}" aria-label="从对比中移除 ${escapeAttr(profileDisplayName(profile))}">移除</button>
+    <h3><a href="#people/${encodeURIComponent(profile.id)}">${escapeHtml(profileDisplayName(profile))}</a></h3>
+    <p>${escapeHtml([profile.currentPosition, profile.institution].filter(Boolean).join(" · ") || "任职信息待补充")}</p>
+    <dl>
+      <div><dt>类型</dt><dd>${escapeHtml(academicProfileTypeLabel(profile.profileType))}</dd></div>
+      <div><dt>地区</dt><dd>${escapeHtml([profile.region, profile.country].filter(Boolean).join(" / ") || "待补充")}</dd></div>
+      <div><dt>收录成果</dt><dd>${formatMetric(metrics.worksCount)}</dd></div>
+      <div><dt>近 5 年论文</dt><dd>${formatMetric(metrics.recentWorksCount)}</dd></div>
+      <div><dt>总引用</dt><dd>${formatMetric(metrics.citedByCount ?? metrics.citationCount)}</dd></div>
+      <div><dt>h-index</dt><dd>${formatMetric(metrics.hIndex)}</dd></div>
+      <div><dt>代表作</dt><dd>${profile.representativeWorks?.length ?? 0}</dd></div>
+      <div><dt>质量</dt><dd>${escapeHtml(profile.quality?.status === "ready" ? "资料完整" : `待完善 ${profile.quality?.score ?? 0}%`)}</dd></div>
+    </dl>
+    <div class="compare-research"><strong>研究方向</strong><div class="academic-tag-list">${academicTags(profile.research?.tags)}</div></div>
+    <div class="compare-venues"><strong>Venue 赛道</strong>${topVenues.length ? topVenues.map((item) => `<span>${escapeHtml(venueLabel(item))} · ${Number(item.count ?? 0)}</span>`).join("") : `<span>待补充</span>`}</div>
+    <div class="compare-signals"><strong>招聘信号</strong>${(profile.recruitmentSignals ?? []).map((signal) => renderRecruitmentSignal(signal, true)).join("") || `<span class="muted">待补充</span>`}</div>
+  </article>`;
+}
+
+function renderIndustryPeopleEntry() {
+  const industry = state.data.industry ?? fallbackIndustry();
+  const companies = new Set((industry.people ?? []).map((person) => person.companyId).filter(Boolean));
+  return `<section class="industry-people-entry">
+    <div class="industry-entry-copy"><p class="eyebrow">Industry People</p><h2>产业研究人物使用独立证据口径</h2><p>产业人物按公司、团队、公开职业路径与代表成果整理，不与学术论文档案混排。</p><a class="primary-link-button" href="#industry">进入产业人物库</a></div>
+    <dl class="industry-entry-metrics"><div><dt>产业人物</dt><dd>${industry.people?.length ?? 0}</dd></div><div><dt>覆盖公司</dt><dd>${companies.size}</dd></div><div><dt>资料更新</dt><dd>${escapeHtml(formatShortDate(industry.updatedAt) || "待补充")}</dd></div></dl>
+  </section>`;
+}
+
+function renderAcademicNetwork(profiles) {
+  if (!profiles.length) {
+    return professionalEmpty("当前筛选下没有可构建的关系网络", "调整筛选条件后可查看人物、机构与研究方向之间的公开关联。", "关系网络");
+  }
+  const selected = profiles.slice(0, 6);
+  const institutions = [...new Set(selected.map((profile) => profile.institution).filter(Boolean))].slice(0, 5);
+  const tagCounts = new Map();
+  selected.forEach((profile) => (profile.research?.tags ?? []).slice(0, 4).forEach((tag) => tagCounts.set(tag, (tagCounts.get(tag) ?? 0) + 1)));
+  const tags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 6).map(([tag]) => tag);
+  const personY = distributeNetworkNodes(selected.length);
+  const institutionY = distributeNetworkNodes(institutions.length);
+  const tagY = distributeNetworkNodes(tags.length);
+  const edges = [];
+  selected.forEach((profile, index) => {
+    const institutionIndex = institutions.indexOf(profile.institution);
+    if (institutionIndex >= 0) edges.push(`<line class="network-edge institution-edge" x1="210" y1="${personY[index]}" x2="500" y2="${institutionY[institutionIndex]}"></line>`);
+    (profile.research?.tags ?? []).filter((tag) => tags.includes(tag)).slice(0, 2).forEach((tag) => {
+      edges.push(`<line class="network-edge research-edge" x1="210" y1="${personY[index]}" x2="830" y2="${tagY[tags.indexOf(tag)]}"></line>`);
+    });
+  });
+  return `<section class="academic-network-section">
+    <div class="network-heading"><div><p class="eyebrow">Relationship Network</p><h2>人物 · 机构 · 研究方向</h2></div><span>当前筛选前 ${selected.length} 人</span></div>
+    <div class="academic-network-wrap">
+      <svg class="academic-network" viewBox="0 0 1040 600" role="img" aria-labelledby="network-title network-desc">
+        <title id="network-title">学术人物关系网络</title><desc id="network-desc">连接人物、任职机构和高频研究方向的公开关系图。</desc>
+        <text class="network-column-label" x="130" y="28">人物</text><text class="network-column-label" x="500" y="28">机构</text><text class="network-column-label" x="900" y="28">研究方向</text>
+        ${edges.join("")}
+        ${selected.map((profile, index) => `<a href="#people/${encodeURIComponent(profile.id)}" class="network-person-node"><circle cx="130" cy="${personY[index]}" r="46"></circle><text x="130" y="${personY[index] - 3}">${escapeHtml(truncateText(profile.nameZh || profile.name, 11))}</text><text class="network-node-sub" x="130" y="${personY[index] + 16}">${escapeHtml(academicProfileTypeLabel(profile.profileType))}</text></a>`).join("")}
+        ${institutions.map((institution, index) => `<g class="network-institution-node"><rect x="395" y="${institutionY[index] - 28}" width="210" height="56" rx="5"></rect><text x="500" y="${institutionY[index] + 4}">${escapeHtml(truncateText(institution, 24))}</text></g>`).join("")}
+        ${tags.map((tag, index) => `<g class="network-tag-node"><rect x="810" y="${tagY[index] - 24}" width="190" height="48" rx="24"></rect><text x="905" y="${tagY[index] + 4}">${escapeHtml(truncateText(tag, 24))}</text></g>`).join("")}
+      </svg>
+    </div>
+    <div class="network-legend"><span><i class="legend-institution"></i>任职关系</span><span><i class="legend-research"></i>研究方向关联</span></div>
+  </section>`;
+}
+
+function distributeNetworkNodes(count) {
+  if (count <= 1) return [300];
+  const start = 80;
+  const end = 540;
+  return Array.from({ length: count }, (_, index) => Math.round(start + index * (end - start) / (count - 1)));
+}
+
 function renderCases() {
   const labs = filteredLabs();
   const people = filteredPeople();
   els.pages.cases.innerHTML = `
     <section class="page-heading">
-      <p class="eyebrow">PI & Scholar Intelligence</p>
-      <h1>导师与学者</h1>
-      <p>统一追踪 QS Top 50 重点课题组、潜在 postdoc host、青年学者路径、基金/奖项和代表作。所有条目只使用公开可验证来源，申请前必须回到原始链接核验。</p>
+      <p class="eyebrow">Success Cases</p>
+      <h1>成功案例</h1>
+      <p>保留原有目标课题组与青年学者路径样本。所有条目只使用公开可验证来源，申请前必须回到原始链接核验。</p>
     </section>
     <section class="filter-band case-filter-band">
       ${caseFilterInput("search", "搜索", "ETH, stochastic, HKUST, DRO")}
@@ -620,6 +994,196 @@ function renderMethods() {
       </div>
     </section>
   `;
+}
+
+function renderAcademicProfile() {
+  const profile = academicProfiles().find((item) => item.id === state.selectedAcademicProfileId);
+  if (!profile) {
+    els.pages.profile.innerHTML = `<section class="profile-not-found"><p class="eyebrow">Academic Profile</p><h1>未找到这份人物档案</h1><p>该档案可能尚未进入公开数据，或链接中的人物 ID 已变更。</p><a class="primary-link-button" href="#people">返回学术人物</a></section>`;
+    return;
+  }
+  const metrics = profile.publicationMetrics;
+  const workLimit = profile.profileType === "mentor_group" ? 8 : 5;
+  const works = (profile.representativeWorks ?? []).slice(0, workLimit);
+  const links = Object.entries(profile.links ?? {}).filter(([, url]) => isExternalUrl(url));
+  const evidence = (profile.evidence ?? []).filter((item) => isExternalUrl(item?.url));
+  const updatedAt = profileUpdatedAt(profile);
+
+  els.pages.profile.innerHTML = `
+    <article class="profile-document">
+      <header class="profile-masthead">
+        <div class="profile-breadcrumb"><a href="#people">学术人物</a><span>/</span><span>${escapeHtml(profileDisplayName(profile))}</span></div>
+        <div class="profile-title-row">
+          <div>
+            <p class="eyebrow">${escapeHtml(academicProfileTypeLabel(profile.profileType))}</p>
+            <h1>${escapeHtml(profileDisplayName(profile))}</h1>
+            <p class="profile-role">${escapeHtml(profile.currentPosition || "职务待补充")}</p>
+            <p class="profile-affiliation">${escapeHtml([profile.institution, profile.department].filter(Boolean).join(" · ") || "机构信息待补充")}</p>
+          </div>
+          <div class="profile-actions" aria-label="档案操作">
+            <button class="tiny-button" data-print-profile>打印</button>
+            <button class="tiny-button primary" data-export-profile>导出 JSON</button>
+          </div>
+        </div>
+        <div class="profile-status-row">
+          ${qualityBadge(profile.quality)}
+          ${profile.region || profile.country ? `<span class="profile-fact-chip">${escapeHtml([profile.region, profile.country].filter(Boolean).join(" / "))}</span>` : ""}
+          ${profile.qsRankDisplay || profile.schoolScope ? `<span class="profile-fact-chip">${escapeHtml([profile.schoolScope, profile.qsRankDisplay].filter(Boolean).join(" · "))}</span>` : ""}
+          <span class="profile-fact-chip">核验 ${escapeHtml(updatedAt || "待补充")}</span>
+        </div>
+        <div class="profile-research-summary">
+          <div><h2>研究概况</h2><p>${escapeHtml(profile.research?.summaryZh || "公开研究概况待补充。")}</p></div>
+          <div class="profile-research-tags">${academicTags(profile.research?.tags, 12)}</div>
+        </div>
+        ${links.length ? `<nav class="profile-source-nav" aria-label="人物主页与书目入口">${links.map(([key, url]) => `<a href="${escapeAttr(url)}" target="_blank" rel="noreferrer">${escapeHtml(profileLinkLabel(key))}</a>`).join("")}</nav>` : ""}
+      </header>
+
+      <section class="profile-section profile-publications">
+        <div class="profile-section-heading"><div><p class="eyebrow">Publication Record</p><h2>论文指标</h2></div><span>${escapeHtml(formatShortDate(metrics?.updatedAt) || "指标更新时间待补充")}</span></div>
+        ${metrics ? renderPublicationMetrics(metrics) : professionalEmpty("论文指标尚待补充", "书目身份完成核验后，将展示总论文、近 5 年论文、引用与 h-index。", "书目数据")}
+      </section>
+
+      <section class="profile-section">
+        <div class="profile-section-heading"><div><p class="eyebrow">Five-year Shift</p><h2>近 5 年研究变化</h2></div><span>${profile.research?.recentEvolution?.length ?? 0} 条公开记录</span></div>
+        ${renderResearchEvolution(profile.research?.recentEvolution)}
+      </section>
+
+      <section class="profile-section">
+        <div class="profile-section-heading"><div><p class="eyebrow">Venue Breakdown</p><h2>分赛道 Venue 分布</h2></div><span>预印本不计入 venue 总量</span></div>
+        ${renderVenueBreakdown(profile.venueBreakdown)}
+      </section>
+
+      <section class="profile-section">
+        <div class="profile-section-heading"><div><p class="eyebrow">Selected Works</p><h2>代表作</h2></div><span>${works.length} / ${workLimit} 篇</span></div>
+        ${renderAcademicWorks(works, workLimit)}
+      </section>
+
+      <section class="profile-section profile-two-column">
+        <div class="profile-column-section"><div class="profile-section-heading"><div><p class="eyebrow">Career</p><h2>学术时间线</h2></div></div>${renderAcademicTimeline(profile.timeline)}</div>
+        <div class="profile-column-section"><div class="profile-section-heading"><div><p class="eyebrow">Recognition</p><h2>基金与奖项</h2></div></div>${renderGrantsAwards(profile.grantsAwards)}</div>
+      </section>
+
+      <section class="profile-section">
+        <div class="profile-section-heading"><div><p class="eyebrow">Research Group</p><h2>课题组</h2></div><span>${profile.group?.name ? "公开课题组资料" : "暂无独立课题组记录"}</span></div>
+        ${renderAcademicGroup(profile.group)}
+      </section>
+
+      <section class="profile-section profile-recruitment-section">
+        <div class="profile-section-heading"><div><p class="eyebrow">Recruitment Evidence</p><h2>招聘与扩组信号</h2></div><span>七类信号不合并推断</span></div>
+        <div class="profile-signal-list">${(profile.recruitmentSignals ?? []).map((signal) => renderRecruitmentSignal(signal)).join("") || professionalEmpty("招聘信号尚待补充", "未发现公开信号时，不据此推断是否接受申请。", "招聘证据")}</div>
+      </section>
+
+      <section class="profile-section">
+        <div class="profile-section-heading"><div><p class="eyebrow">Evidence Ledger</p><h2>证据与更新时间</h2></div><span>${evidence.length} 条可回溯来源</span></div>
+        ${renderAcademicEvidence(evidence)}
+        <dl class="profile-update-ledger"><div><dt>档案核验</dt><dd>${escapeHtml(updatedAt || "待补充")}</dd></div><div><dt>指标更新</dt><dd>${escapeHtml(formatShortDate(metrics?.updatedAt) || "待补充")}</dd></div><div><dt>质量状态</dt><dd>${escapeHtml(profile.quality?.status === "ready" ? "资料完整" : "资料待完善")}</dd></div><div><dt>数据来源</dt><dd>${escapeHtml(profile.sourceKind || "公开资料")}</dd></div></dl>
+      </section>
+
+      <footer class="profile-footer"><p>档案仅陈列公开可验证事实；招聘状态与论文数据请以原始来源为准。</p><a href="#people">返回学术人物总览</a></footer>
+    </article>
+  `;
+}
+
+function renderPublicationMetrics(metrics) {
+  const rows = [
+    [metrics.countLabelZh || "数据库收录成果", metrics.worksCount],
+    ["近 5 年论文", metrics.recentWorksCount],
+    ["总引用", metrics.citedByCount ?? metrics.citationCount],
+    ["近 5 年引用", metrics.recentCitedByCount ?? metrics.recentCitationCount],
+    ["h-index", metrics.hIndex],
+    ["i10-index", metrics.i10Index]
+  ];
+  const crossSource = metrics.crossSourceCounts;
+  const crossSourceRows = crossSource ? `
+    <div class="publication-cross-checks">
+      <span><b>${formatMetric(crossSource.orcidRecordCount)}</b> ORCID 自关联记录</span>
+      <span><b>${formatMetric(crossSource.crossrefOrcidWorksCount)}</b> Crossref ORCID 记录</span>
+    </div>` : "";
+  return `<dl class="publication-metric-grid">${rows.map(([label, value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${formatMetric(value)}</dd></div>`).join("")}</dl>${crossSourceRows}<p class="metric-caveat">${escapeHtml(metrics.countCaveatZh || "不同书目数据库口径不同，数量仅作公开数据参考。")}</p>`;
+}
+
+function renderResearchEvolution(items = []) {
+  if (!items.length) return professionalEmpty("近 5 年研究变化尚待整理", "需基于论文主题、项目与公开研究陈述形成可回溯记录。", "研究变化");
+  return `<ol class="research-evolution-list">${items.slice(0, 12).map((item, index) => {
+    const value = typeof item === "string" ? { summaryZh: item } : item;
+    const period = value.period || value.years || value.year || value.fromYear && value.toYear && `${value.fromYear}-${value.toYear}` || `阶段 ${index + 1}`;
+    const title = value.titleZh || value.title || value.topic || value.summaryZh || value.summary || "研究方向变化";
+    const detail = value.summaryZh && value.summaryZh !== title ? value.summaryZh : value.summary && value.summary !== title ? value.summary : [value.from, value.to].filter(Boolean).join(" → ");
+    return `<li><span>${escapeHtml(period)}</span><div><h3>${escapeHtml(title)}</h3>${detail ? `<p>${escapeHtml(detail)}</p>` : ""}</div></li>`;
+  }).join("")}</ol>`;
+}
+
+function renderVenueBreakdown(items = []) {
+  const rows = items.filter((item) => Number(item?.count ?? 0) > 0);
+  if (!rows.length) return professionalEmpty("Venue 分赛道数据尚待补充", "完成论文去重与 venue 分类后，将按赛道和层级展示。", "Venue 数据");
+  const max = Math.max(...rows.map((item) => Number(item.count ?? 0)), 1);
+  return `<div class="venue-breakdown-list">${rows.map((item) => `<div class="venue-breakdown-row"><div><strong>${escapeHtml(venueLabel(item))}</strong><span>${escapeHtml(item.tierLabelZh || venueTierLabel(item.tier))}</span></div><i><b style="width:${Math.max(5, Number(item.count ?? 0) / max * 100)}%"></b></i><span>${Number(item.count ?? 0)}</span></div>`).join("")}</div>`;
+}
+
+function renderAcademicWorks(works, targetCount) {
+  if (!works.length) return professionalEmpty("代表作尚待补充", `该类型档案计划收录 ${targetCount} 篇可回溯代表作。`, "代表作");
+  return `<ol class="academic-work-list">${works.map((work, index) => `<li><span class="work-index">${String(index + 1).padStart(2, "0")}</span><div><h3>${isExternalUrl(work.url) ? `<a href="${escapeAttr(work.url)}" target="_blank" rel="noreferrer">${escapeHtml(work.title)}</a>` : escapeHtml(work.title)}</h3><p>${escapeHtml([work.authors, work.venue, work.note].flat().filter(Boolean).join(" · ") || "出版信息待补充")}</p></div><span class="work-year">${escapeHtml(work.year || "待补")}</span></li>`).join("")}</ol>`;
+}
+
+function renderAcademicTimeline(items = []) {
+  if (!items.length) return professionalEmpty("学术时间线尚待补充", "教育、博后与任职经历需由公开主页或机构资料核验。", "时间线");
+  return `<ol class="academic-timeline">${items.map((item, index) => {
+    const value = typeof item === "string" ? { summary: item } : item;
+    const type = timelineTypeLabel(value.type);
+    const title = value.role || value.title || value.degree || value.position || type;
+    const detail = [value.institution, value.department, value.advisor && `导师 ${value.advisor}`, value.summaryZh || value.summary].filter(Boolean).join(" · ");
+    const period = value.years || value.period || value.year || [value.startYear, value.endYear].filter(Boolean).join("-") || String(index + 1).padStart(2, "0");
+    return `<li><span>${escapeHtml(period)}</span><div><strong>${escapeHtml(title)}</strong><p>${escapeHtml(detail || "公开经历细节待补充")}</p></div></li>`;
+  }).join("")}</ol>`;
+}
+
+function renderGrantsAwards(items = []) {
+  if (!items.length) return professionalEmpty("基金与奖项尚待补充", "仅收录可由基金机构、学校或项目主页核验的记录。", "基金奖项");
+  return `<div class="grant-award-list">${items.map((item) => {
+    const value = typeof item === "string" ? { title: item } : item;
+    const title = value.titleZh || value.title || value.name || value.award || value.grant || "基金或奖项";
+    const detail = [value.funder || value.organization, value.role, value.amount, value.summaryZh || value.summary].filter(Boolean).join(" · ");
+    return `<div><span>${escapeHtml(value.year || value.period || "")}</span><strong>${isExternalUrl(value.url) ? `<a href="${escapeAttr(value.url)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a>` : escapeHtml(title)}</strong>${detail ? `<p>${escapeHtml(detail)}</p>` : ""}</div>`;
+  }).join("")}</div>`;
+}
+
+function renderAcademicGroup(group) {
+  if (!group || !group.name) return professionalEmpty("课题组资料尚待补充", "人物主页未提供可核验的独立课题组名称与成员信息。", "课题组");
+  const members = (group.members ?? []).slice(0, 20);
+  const alumni = (group.alumni ?? []).slice(0, 12);
+  return `<div class="academic-group-layout"><div class="group-identity"><h3>${isExternalUrl(group.homepage) ? `<a href="${escapeAttr(group.homepage)}" target="_blank" rel="noreferrer">${escapeHtml(group.name)}</a>` : escapeHtml(group.name)}</h3><p>${escapeHtml(group.collaborationStyleZh || "公开合作方式待补充。")}</p></div><div class="group-roster"><div><strong>当前成员</strong>${members.length ? `<ul>${members.map((item) => `<li>${escapeHtml(personLikeLabel(item))}</li>`).join("")}</ul>` : `<p>待补充</p>`}</div><div><strong>校友</strong>${alumni.length ? `<ul>${alumni.map((item) => `<li>${escapeHtml(personLikeLabel(item))}</li>`).join("")}</ul>` : `<p>待补充</p>`}</div></div></div>`;
+}
+
+function renderAcademicEvidence(evidence) {
+  if (!evidence.length) return professionalEmpty("公开证据尚待补充", "身份、论文、招聘和项目记录需要保留可访问的原始链接。", "证据台账");
+  return `<div class="academic-evidence-list">${evidence.map((item, index) => `<a href="${escapeAttr(item.url)}" target="_blank" rel="noreferrer"><span>${String(index + 1).padStart(2, "0")}</span><div><strong>${escapeHtml(evidenceTypeLabel(item.type))}</strong><small>${escapeHtml(item.url)}</small></div><b>${escapeHtml(item.confidence || "待核验")}</b></a>`).join("")}</div>`;
+}
+
+function renderRecruitmentSignal(signal = {}, compact = false) {
+  const presentation = RECRUITMENT_SIGNAL_PRESENTATION[signal.type] ?? { label: signal.labelZh || signal.type || "未分类信号", note: "证据类型待核对", mark: "?", className: "signal-unknown" };
+  const label = signal.labelZh || presentation.label;
+  const summary = signal.summaryZh || presentation.note;
+  const source = isExternalUrl(signal.sourceUrl) ? `<a href="${escapeAttr(signal.sourceUrl)}" target="_blank" rel="noreferrer">查看证据</a>` : `<span>来源待补充</span>`;
+  return `<div class="recruitment-signal ${escapeAttr(presentation.className)} ${compact ? "is-compact" : ""}"><span class="signal-mark" aria-hidden="true">${escapeHtml(presentation.mark)}</span><div><strong>${escapeHtml(label)}</strong>${compact ? "" : `<p>${escapeHtml(summary)}</p><small>${escapeHtml([signal.observedAt && `观察 ${formatShortDate(signal.observedAt)}`, signal.expiresAt && `截止 ${formatShortDate(signal.expiresAt)}`, signal.confidence && `可信度 ${signal.confidence}`].filter(Boolean).join(" · ") || presentation.note)}</small>`}</div>${compact ? "" : source}</div>`;
+}
+
+function exportAcademicProfile() {
+  const profile = academicProfiles().find((item) => item.id === state.selectedAcademicProfileId);
+  if (!profile) return;
+  const payload = {
+    schemaVersion: academicData().schemaVersion,
+    exportedAt: new Date().toISOString(),
+    profile
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = `academic-profile-${safeFileName(profile.id)}.json`;
+  document.body.append(anchor);
+  anchor.click();
+  anchor.remove();
+  URL.revokeObjectURL(url);
 }
 
 function showIndustryOpportunityDetail(opportunityId) {
@@ -854,6 +1418,216 @@ function showPersonDetail(personId) {
 function closeDrawer() {
   els.drawer.classList.remove("open");
   els.drawer.innerHTML = "";
+}
+
+function academicData() {
+  if (!state.data) return fallbackAcademic();
+  const academic = state.data.academic;
+  if (!academic || typeof academic !== "object") return fallbackAcademic();
+  return {
+    ...fallbackAcademic(),
+    ...academic,
+    profiles: Array.isArray(academic.profiles) ? academic.profiles : [],
+    recruitmentSignalTypes: Array.isArray(academic.recruitmentSignalTypes) ? academic.recruitmentSignalTypes : []
+  };
+}
+
+function academicProfiles() {
+  return academicData().profiles;
+}
+
+function filteredAcademicProfiles() {
+  const filters = state.peopleFilters;
+  return academicProfiles()
+    .filter((profile) => {
+      const searchText = academicSearchText(profile);
+      const signals = profile.recruitmentSignals ?? [];
+      const qualityStatus = profile.quality?.status || "incomplete";
+      return (!filters.search || searchText.includes(filters.search.toLowerCase()))
+        && (!filters.type || profile.profileType === filters.type)
+        && (!filters.region || profile.region === filters.region || profile.country === filters.region)
+        && (!filters.research || (profile.research?.tags ?? []).includes(filters.research))
+        && (!filters.recruitment || signals.some((signal) => signal.type === filters.recruitment))
+        && (!filters.quality || qualityStatus === filters.quality);
+    })
+    .sort((a, b) => {
+      const typeOrder = { mentor_group: 0, young_scholar: 1, academic_reference: 2 };
+      return (typeOrder[a.profileType] ?? 9) - (typeOrder[b.profileType] ?? 9)
+        || Number(b.quality?.score ?? 0) - Number(a.quality?.score ?? 0)
+        || profileDisplayName(a).localeCompare(profileDisplayName(b), "zh-CN");
+    });
+}
+
+function academicSearchText(profile) {
+  return [
+    profile.name,
+    profile.nameZh,
+    profile.currentPosition,
+    profile.institution,
+    profile.department,
+    profile.country,
+    profile.region,
+    profile.group?.name,
+    profile.research?.summaryZh,
+    ...(profile.research?.tags ?? []),
+    ...(profile.research?.methods ?? []),
+    ...(profile.research?.applications ?? [])
+  ].filter(Boolean).join(" ").toLowerCase();
+}
+
+function toggleAcademicComparison(id) {
+  if (state.peopleCompare.has(id)) {
+    state.peopleCompare.delete(id);
+    state.peopleMessage = "";
+    return;
+  }
+  if (state.peopleCompare.size >= 5) {
+    state.peopleMessage = "横向对比最多选择 5 人。";
+    return;
+  }
+  state.peopleCompare.add(id);
+  state.peopleMessage = `已加入对比：${state.peopleCompare.size}/5。`;
+}
+
+function academicTypeOptions() {
+  return Object.entries(ACADEMIC_PROFILE_TYPES).map(([value, label]) => [value, label]);
+}
+
+function academicRegionOptions() {
+  return [...new Set(academicProfiles().flatMap((profile) => [profile.region, profile.country]).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, "zh-CN"))
+    .map((value) => [value, value]);
+}
+
+function academicResearchOptions() {
+  return [...new Set(academicProfiles().flatMap((profile) => profile.research?.tags ?? []).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, "en"))
+    .map((value) => [value, value]);
+}
+
+function academicRecruitmentTypes() {
+  const configured = new Map(academicData().recruitmentSignalTypes.map((item) => [item.id, item]));
+  return Object.keys(RECRUITMENT_SIGNAL_PRESENTATION).map((id) => ({ id, ...(configured.get(id) ?? {}) }));
+}
+
+function academicRecruitmentOptions() {
+  return academicRecruitmentTypes().map((item) => [item.id, item.labelZh || RECRUITMENT_SIGNAL_PRESENTATION[item.id]?.label || item.id]);
+}
+
+function peopleFilterInput(name, label, placeholder) {
+  return `<label class="filter-control people-search-control"><span>${escapeHtml(label)}</span><input data-people-filter="${escapeAttr(name)}" value="${escapeAttr(state.peopleFilters[name])}" placeholder="${escapeAttr(placeholder)}"></label>`;
+}
+
+function peopleFilterSelect(name, label, options) {
+  return `<label class="filter-control"><span>${escapeHtml(label)}</span><select data-people-filter="${escapeAttr(name)}"><option value="">全部</option>${options.map(([value, text]) => `<option value="${escapeAttr(value)}" ${state.peopleFilters[name] === value ? "selected" : ""}>${escapeHtml(text)}</option>`).join("")}</select></label>`;
+}
+
+function peopleMetric(label, value, caption) {
+  return `<div class="people-metric"><span>${escapeHtml(label)}</span><strong>${formatMetric(value)}</strong><small>${escapeHtml(caption)}</small></div>`;
+}
+
+function academicProfileTypeLabel(type) {
+  return ACADEMIC_PROFILE_TYPES[type] || type || "未分类";
+}
+
+function profileTypeBadge(type) {
+  return `<span class="profile-type-badge type-${escapeAttr(type || "unknown")}">${escapeHtml(academicProfileTypeLabel(type))}</span>`;
+}
+
+function qualityBadge(quality = {}) {
+  const ready = quality.status === "ready" || quality.isPublicReady === true;
+  const missing = (quality.missing ?? []).map(qualityFieldLabel).join("、");
+  const title = ready ? "资料字段达到当前质量门槛" : `待补：${missing || "公开字段"}`;
+  return `<span class="quality-badge ${ready ? "quality-ready" : "quality-incomplete"}" title="${escapeAttr(title)}">${ready ? "资料完整" : `待完善 ${Number(quality.score ?? 0)}%`}</span>`;
+}
+
+function qualityFieldLabel(value) {
+  return ({
+    officialIdentity: "官方身份",
+    bibliographicIdentity: "书目身份",
+    researchEvolution: "研究变化",
+    publicationMetrics: "论文指标",
+    venueBreakdown: "Venue 分布",
+    representativeWorks: "代表作",
+    careerOrGroup: "经历或课题组",
+    evidenceCoverage: "证据覆盖",
+    freshness: "更新时间"
+  })[value] || value;
+}
+
+function profileDisplayName(profile) {
+  if (profile.nameZh && profile.name && profile.nameZh !== profile.name) return `${profile.nameZh} / ${profile.name}`;
+  return profile.nameZh || profile.name || "姓名待补充";
+}
+
+function academicTags(values = [], limit = 5) {
+  const tags = [...new Set(values.filter(Boolean))].slice(0, limit);
+  return tags.length ? tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join("") : `<span class="is-empty">研究方向待补充</span>`;
+}
+
+function formatMetric(value) {
+  if (value === null || value === undefined || value === "" || Number.isNaN(Number(value))) return "—";
+  return new Intl.NumberFormat("zh-CN", { maximumFractionDigits: 1 }).format(Number(value));
+}
+
+function formatShortDate(value) {
+  if (!value) return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return String(value);
+  return new Intl.DateTimeFormat("zh-CN", { year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
+}
+
+function profileUpdatedAt(profile) {
+  return formatShortDate(profile.lastVerifiedAt || profile.publicationMetrics?.updatedAt);
+}
+
+function venueLabel(item = {}) {
+  return item.trackLabelZh || item.trackLabel || item.track || item.venue || "未分类赛道";
+}
+
+function venueTierLabel(tier) {
+  return ({
+    top_core: "核心顶级",
+    important_mainstream: "重要主流",
+    related_reference: "相关参考",
+    core: "核心",
+    selective: "精选",
+    supporting: "补充"
+  })[tier] || tier || "层级待补充";
+}
+
+function profileLinkLabel(key) {
+  return ({ homepage: "个人主页", groupHomepage: "课题组主页", openings: "招聘页面", googleScholar: "Google Scholar", openalex: "OpenAlex", orcid: "ORCID", semanticScholar: "Semantic Scholar", dblp: "DBLP" })[key] || key;
+}
+
+function timelineTypeLabel(type) {
+  return ({ phd: "博士", postdoc: "博士后", current_position: "当前任职", education: "教育经历", position: "任职经历" })[type] || "学术经历";
+}
+
+function personLikeLabel(item) {
+  if (typeof item === "string") return item;
+  return [item.nameZh || item.name, item.role || item.position, item.institution].filter(Boolean).join(" · ") || "成员信息待补充";
+}
+
+function evidenceTypeLabel(type) {
+  return ({ official_profile: "官方人物主页", official_homepage: "官方主页", official_openings: "官方招聘页面", openalex_author: "OpenAlex 作者记录", google_scholar: "Google Scholar", qs_ranking: "QS 排名来源", institution_profile: "机构人物主页", publication: "出版记录", grant: "基金项目来源" })[type] || String(type || "公开来源").replaceAll("_", " ");
+}
+
+function professionalEmpty(title, body, label = "数据状态") {
+  return `<div class="professional-empty"><span>${escapeHtml(label)}</span><strong>${escapeHtml(title)}</strong><p>${escapeHtml(body)}</p></div>`;
+}
+
+function truncateText(value, limit) {
+  const text = String(value || "");
+  return text.length > limit ? `${text.slice(0, Math.max(1, limit - 1))}…` : text;
+}
+
+function isExternalUrl(value) {
+  return /^https?:\/\//i.test(String(value || ""));
+}
+
+function safeFileName(value) {
+  return String(value || "profile").replace(/[^a-z0-9._-]+/gi, "-").replace(/^-+|-+$/g, "") || "profile";
 }
 
 function highMatchJobs() {
@@ -1868,10 +2642,21 @@ function fallbackData() {
     alerts: [],
     people: [],
     labs: [],
+    academic: fallbackAcademic(),
     industry: fallbackIndustry(),
     routes: [],
     sources: [],
     calendar: {}
+  };
+}
+
+function fallbackAcademic() {
+  return {
+    schemaVersion: 0,
+    profiles: [],
+    overview: {},
+    recruitmentSignalTypes: [],
+    publicationPolicy: {}
   };
 }
 

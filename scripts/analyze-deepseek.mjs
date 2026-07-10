@@ -11,7 +11,7 @@ const mode = readArg("mode") ?? "public";
 const maxItems = Number(process.env.DEEPSEEK_MAX_ITEMS ?? 12);
 const apiKey = process.env.DEEPSEEK_API_KEY;
 const baseUrl = process.env.DEEPSEEK_BASE_URL ?? "https://api.deepseek.com";
-const model = process.env.DEEPSEEK_MODEL ?? "deepseek-chat";
+const model = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-flash";
 const generatedAt = new Date().toISOString();
 const outputPath = mode === "private" ? "data/private/job-analysis.json" : "data/ai/job-analysis.json";
 
@@ -84,33 +84,47 @@ async function analyzeJob(job, profile, mode) {
     "notice 固定为：AI 辅助生成，需核验。"
   ].join("\n");
 
-  const response = await fetch(`${baseUrl.replace(/\/$/, "")}/chat/completions`, {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      authorization: `Bearer ${apiKey}`
-    },
-    body: JSON.stringify({
-      model,
-      temperature: 0.2,
-      response_format: { type: "json_object" },
-      messages: [
-        { role: "system", content: prompt },
-        { role: "user", content: JSON.stringify({ job: publicPayload, profile: privateProfile }, null, 2) }
-      ]
-    })
-  });
+  const requestBody = {
+    model,
+    temperature: 0.2,
+    thinking: { type: "disabled" },
+    max_tokens: 2000,
+    response_format: { type: "json_object" },
+    messages: [
+      { role: "system", content: prompt },
+      { role: "user", content: JSON.stringify({ job: publicPayload, profile: privateProfile }, null, 2) }
+    ]
+  };
 
-  if (!response.ok) {
-    throw new Error(`DeepSeek HTTP ${response.status}: ${await response.text()}`);
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    const response = await fetch(`${baseUrl.replace(/\/$/, "")}/chat/completions`, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        authorization: `Bearer ${apiKey}`
+      },
+      body: JSON.stringify(requestBody)
+    });
+
+    if (!response.ok) {
+      const body = await response.text();
+      if (attempt === 0 && (response.status === 408 || response.status === 429 || response.status >= 500)) {
+        await delay(600);
+        continue;
+      }
+      throw new Error(`DeepSeek HTTP ${response.status}: ${body}`);
+    }
+    const data = await response.json();
+    const content = data.choices?.[0]?.message?.content;
+    if (content) {
+      return normalizeAnalysis(JSON.parse(content), job, "deepseek");
+    }
+    if (attempt === 0) {
+      await delay(600);
+      continue;
+    }
   }
-  const data = await response.json();
-  const content = data.choices?.[0]?.message?.content;
-  if (!content) {
-    throw new Error("DeepSeek response missing message content");
-  }
-  const parsed = JSON.parse(content);
-  return normalizeAnalysis(parsed, job, "deepseek");
+  throw new Error("DeepSeek response missing message content after retry");
 }
 
 function normalizeAnalysis(value, job, status) {
@@ -181,4 +195,8 @@ function readArg(name) {
   if (eq) return eq.split("=").slice(1).join("=");
   const index = process.argv.indexOf(`--${name}`);
   return index >= 0 ? process.argv[index + 1] : null;
+}
+
+function delay(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
 }

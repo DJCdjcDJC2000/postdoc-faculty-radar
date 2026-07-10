@@ -19,7 +19,7 @@ test("target labs are QS-scoped and evidence-backed", () => {
     assert.ok(lab.schoolScope.includes("QS"));
     assert.ok(Number.isFinite(Number(lab.qsRank2027)));
     assert.ok(lab.homepage);
-    assert.ok(lab.recruitmentSignalZh);
+    assert.ok(lab.recruitmentSignalZh || (Array.isArray(lab.recruitmentSignals) && lab.recruitmentSignals.length > 0));
     assert.ok(Array.isArray(lab.fieldTags) && lab.fieldTags.length > 0);
     assert.ok(Array.isArray(lab.evidence) && lab.evidence.length > 0);
   }

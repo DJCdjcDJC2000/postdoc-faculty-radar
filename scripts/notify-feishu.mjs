@@ -63,6 +63,7 @@ function dailyMessage(site) {
     "Postdoc Faculty Radar 每日短报",
     `构建时间：${site.metadata?.builtAt ?? site.metadata?.generatedAt ?? "unknown"}`,
     `本周新增：${site.updates?.newCount ?? 0}；更新：${site.updates?.updatedCount ?? 0}；失效：${site.updates?.expiredCount ?? 0}`,
+    `学术候选池：${site.academic?.overview?.totalProfiles ?? 0}；完整档案：${site.academic?.qualityGate?.publishedProfiles ?? 0}`,
     `当前机会：${site.metrics?.totalJobs ?? 0}；A/B 高匹配：${site.metrics?.highMatchJobs ?? 0}；30 天内截止：${site.metrics?.dueSoonJobs ?? 0}`,
     ""
   ];
@@ -84,6 +85,8 @@ function weeklyMessage(site) {
     "Postdoc Faculty Radar 每周周报",
     `A/B 高匹配：${site.metrics?.highMatchJobs ?? 0}；活跃数据源：${site.metrics?.activeSources ?? 0}/${site.metrics?.totalSources ?? 0}`,
     `本周新增：${site.updates?.newCount ?? 0}；更新：${site.updates?.updatedCount ?? 0}；失效：${site.updates?.expiredCount ?? 0}`,
+    `学术候选池：${site.academic?.overview?.totalProfiles ?? 0}；导师组：${academicTypeCount(site, "mentor_group")}；青年学者：${academicTypeCount(site, "young_scholar")}；完整档案：${site.academic?.qualityGate?.publishedProfiles ?? 0}`,
+    `招聘信号：官方 ${site.academic?.overview?.officialOpenings ?? 0}；基金扩组 ${site.academic?.overview?.expansionSignals ?? 0}；长期申请 ${site.academic?.overview?.acceptingApplications ?? 0}；Fellowship host ${site.academic?.overview?.fellowshipHosts ?? 0}`,
     "",
     `地区分布：${formatCounts(byRegion)}`,
     `岗位类型：${formatCounts(byRole)}`,
@@ -165,6 +168,10 @@ function countBy(items, key) {
 
 function formatCounts(entries) {
   return entries.map(([key, count]) => `${key} ${count}`).join("；") || "暂无";
+}
+
+function academicTypeCount(site, type) {
+  return site.academic?.overview?.byType?.find((item) => item.value === type)?.count ?? 0;
 }
 
 function daysUntil(dateValue) {

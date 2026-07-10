@@ -15,7 +15,22 @@ const PRIVATE_KEYS = new Set([
   "gapAnalysisZh",
   "privateAi",
   "preparationPlan",
-  "privateSummaryZh"
+  "privateSummaryZh",
+  "applicationProbability",
+  "fitAnalysis",
+  "matching",
+  "actionCard",
+  "readingOrder",
+  "tracking",
+  "contactHistory",
+  "contactStatus",
+  "emailDrafts",
+  "outreachDrafts",
+  "privateQueries",
+  "ownerProfile",
+  "quarterlyPlan",
+  "strengths",
+  "gaps"
 ]);
 
 export function stripPrivateFields(value) {

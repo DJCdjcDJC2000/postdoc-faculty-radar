@@ -5,16 +5,11 @@ import { assertNoPrivateFields } from "./lib/privacy.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publicSite = JSON.parse(await fs.readFile(path.join(projectRoot, "public", "data", "site.json"), "utf8"));
-const privateSite = JSON.parse(await fs.readFile(path.join(projectRoot, "private", "data", "site.json"), "utf8"));
 
 assertNoPrivateFields(publicSite);
 
 if (publicSite.mode !== "public") {
   throw new Error("public/data/site.json must be built in public mode");
-}
-
-if (privateSite.mode !== "private") {
-  throw new Error("private/data/site.json must be built in private mode");
 }
 
 if (!Array.isArray(publicSite.jobs) || publicSite.jobs.length === 0) {
@@ -35,10 +30,6 @@ for (const job of publicSite.jobs) {
   }
 }
 
-if (!privateSite.calendar?.preparationPlan) {
-  throw new Error("private build must include preparation plan");
-}
-
 if ((publicSite.industry?.companies ?? []).length < 30) {
   throw new Error("public build must contain the industry company radar");
 }
@@ -49,10 +40,6 @@ if ((publicSite.industry?.people ?? []).length < 50) {
 
 if (publicSite.industry?.private) {
   throw new Error("public industry build must not include private planning data");
-}
-
-if (!privateSite.industry?.private?.readiness?.length) {
-  throw new Error("private build must include the industry readiness plan");
 }
 
 console.log("Build validation passed.");

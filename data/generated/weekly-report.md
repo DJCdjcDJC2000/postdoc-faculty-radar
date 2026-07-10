@@ -5,23 +5,26 @@
 - 本周失效：0
 - A/B 高匹配：3
 - 30 天内截止：0
+- 学术候选池：132
+- 完整公开档案：11
+- 导师组 / 青年学者：52 / 84
 
 ## 本周变化
 
-- **本周更新** [物流与库存优化岗位入口](https://zhaopin.jd.com/) · 京东 · Mainland China · 88
-- **本周更新** [供应链与决策优化岗位入口](https://talent.alibaba.com/) · 阿里巴巴 · Mainland China · 87
-- **本周更新** [调度、路径与供需算法岗位入口](https://zhaopin.meituan.com/) · 美团 · Mainland China · 87
-- **本周更新** [研究科学家与 Research Fellow](https://careers.a-star.edu.sg/) · A*STAR · Singapore · 81
-- **本周更新** [供应链算法与 AI 应用专家](https://career.huawei.com/reccampportal/portal5/social-recruitment-ai.html) · 华为 · Mainland China · 79
-- **本周更新** [Seed 研究员与研究工程师](https://seed.bytedance.com/en/career) · 字节跳动 · Mainland China · 78
-- **本周更新** [量化研究与交易实习入口](https://optiver.com/working-at-optiver/career-opportunities/) · Optiver · Singapore · 76
-- **本周更新** [市场、出行与数据科学岗位入口](https://www.grab.careers/) · Grab · Singapore · 76
-- **本周更新** [研究员、Research SDE 与实习入口](https://www.microsoft.com/en-us/research/careers/open-positions/) · Microsoft Research · Global · 73
-- **本周更新** [优化科学家与实习岗位](https://www.hexaly.com/join-us) · Hexaly · Europe · 67
-- **本周更新** [优化与机器学习研究岗位](https://www.ibm.com/careers/search) · IBM Research · Europe · 66
-- **本周更新** [算法与优化研究岗位入口](https://research.google/teams/algorithms-optimization/) · Google Research · Europe · 64
-- **本周更新** [优化工程师与求解器研发](https://www.gurobi.com/company/careers/) · Gurobi · Global · 63
-- **本周更新** [锥优化求解器人才监控入口](https://www.mosek.com/about/contact-information/) · MOSEK · Europe · 57
+- **本周更新** [物流与库存优化岗位入口](https://zhaopin.jd.com/) · 京东 · Mainland China
+- **本周更新** [供应链与决策优化岗位入口](https://talent.alibaba.com/) · 阿里巴巴 · Mainland China
+- **本周更新** [调度、路径与供需算法岗位入口](https://zhaopin.meituan.com/) · 美团 · Mainland China
+- **本周更新** [研究科学家与 Research Fellow](https://careers.a-star.edu.sg/) · A*STAR · Singapore
+- **本周更新** [供应链算法与 AI 应用专家](https://career.huawei.com/reccampportal/portal5/social-recruitment-ai.html) · 华为 · Mainland China
+- **本周更新** [Seed 研究员与研究工程师](https://seed.bytedance.com/en/career) · 字节跳动 · Mainland China
+- **本周更新** [量化研究与交易实习入口](https://optiver.com/working-at-optiver/career-opportunities/) · Optiver · Singapore
+- **本周更新** [市场、出行与数据科学岗位入口](https://www.grab.careers/) · Grab · Singapore
+- **本周更新** [研究员、Research SDE 与实习入口](https://www.microsoft.com/en-us/research/careers/open-positions/) · Microsoft Research · Global
+- **本周更新** [优化科学家与实习岗位](https://www.hexaly.com/join-us) · Hexaly · Europe
+- **本周更新** [优化与机器学习研究岗位](https://www.ibm.com/careers/search) · IBM Research · Europe
+- **本周更新** [算法与优化研究岗位入口](https://research.google/teams/algorithms-optimization/) · Google Research · Europe
+- **本周更新** [优化工程师与求解器研发](https://www.gurobi.com/company/careers/) · Gurobi · Global
+- **本周更新** [锥优化求解器人才监控入口](https://www.mosek.com/about/contact-information/) · MOSEK · Europe
 - **本周新增** [Humboldt Research Fellowship for Postdoctoral Researchers](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship) · Alexander von Humboldt Foundation · Europe · B 74
 - **本周新增** [RGC Junior Research Fellow Scheme](https://awards.ugc.edu.hk/award/rgc-junior-research-fellow-scheme) · University Grants Committee / Research Grants Council · Hong Kong · B 64
 - **本周新增** [Singapore NRF Fellowship](https://www.nrf.gov.sg/grants/nrff/) · National Research Foundation Singapore · Singapore · B 64
@@ -29,11 +32,29 @@
 - **本周新增** [Postdoctoral Research Associate in Stochastic Analysis](https://www.jobs.ac.uk/job/DSE306/postdoctoral-research-associate-in-stochastic-analysis) · jobs.ac.uk Mathematics · United Kingdom · C 53
 - **本周新增** [Research Assistant Professor](https://www.math.hkust.edu.hk/employment/?menu=2) · HKUST Mathematics Employment · Hong Kong · C 45
 - **本周新增** [Professor/Associate/Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSD058/professor-associate-assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
-- **本周更新** [SCOT 应用科学家 / 数据科学家](https://www.amazon.science/scot) · Amazon SCOT · Europe · 80
-- **本周更新** [量化研究员](https://www.janestreet.com/join-jane-street/position/8071941002/) · Jane Street · Hong Kong · 73
-- **本周更新** [量化研究岗位入口](https://www.twosigma.com/careers/) · Two Sigma · United States · 61
-- **本周更新** [量化研究员博士实习生（亚洲）](https://www.citadel.com/careers/details/quantitative-researcher-phd-intern-asia/) · Citadel · Hong Kong · 77
-- **本周更新** [AI Infra 实验室技术负责人](https://career.huawei.com/reccampportal/euportal/portal/social-recruitment-detail.html?dataSource=1&jobId=23981) · 华为 · Europe · 61
+- **本周更新** [SCOT 应用科学家 / 数据科学家](https://www.amazon.science/scot) · Amazon SCOT · Europe
+- **本周更新** [量化研究员](https://www.janestreet.com/join-jane-street/position/8071941002/) · Jane Street · Hong Kong
+- **本周更新** [量化研究岗位入口](https://www.twosigma.com/careers/) · Two Sigma · United States
+- **本周更新** [量化研究员博士实习生（亚洲）](https://www.citadel.com/careers/details/quantitative-researcher-phd-intern-asia/) · Citadel · Hong Kong
+- **本周更新** [AI Infra 实验室技术负责人](https://career.huawei.com/reccampportal/euportal/portal/social-recruitment-detail.html?dataSource=1&jobId=23981) · 华为 · Europe
+
+## 学术人物建设
+
+- 官方明确招聘：15
+- 基金或项目扩组信号：20（不等于招聘）
+- 长期接受申请：5
+- Fellowship host：4
+- [陈晓君 / Xiaojun Chen](https://public-omega-seven-25.vercel.app/#people/person-xiaojun-chen) · The Hong Kong Polytechnic University · ORCID
+- [Jacek Gondzio](https://public-omega-seven-25.vercel.app/#people/uk-edinburgh-gondzio-optimization) · University of Edinburgh · ORCID
+- [Defeng Sun](https://public-omega-seven-25.vercel.app/#people/polyu-defeng-sun) · Hong Kong Polytechnic University · OpenAlex
+- [Michael Kwok-Po Ng](https://public-omega-seven-25.vercel.app/#people/hkbu-michael-ng) · Hong Kong Baptist University · OpenAlex
+- [Melvyn Sim](https://public-omega-seven-25.vercel.app/#people/nus-melvyn-sim) · National University of Singapore · OpenAlex
+- [Jan Kronqvist](https://public-omega-seven-25.vercel.app/#people/se-kth-jan-kronqvist) · KTH Royal Institute of Technology · ORCID
+- [Felix Dietrich](https://public-omega-seven-25.vercel.app/#people/de-tum-felix-dietrich) · Technical University of Munich · ORCID
+- [Davide Palitta](https://public-omega-seven-25.vercel.app/#people/it-bologna-davide-palitta) · University of Bologna · ORCID
+- [Alberto De Marchi](https://public-omega-seven-25.vercel.app/#people/de-unibw-alberto-de-marchi) · University of the Bundeswehr Munich · ORCID
+- [Yiding Feng](https://public-omega-seven-25.vercel.app/#people/hkust-yiding-feng) · Hong Kong University of Science and Technology · ORCID
+- [Jiashuo Jiang](https://public-omega-seven-25.vercel.app/#people/hkust-jiashuo-jiang) · Hong Kong University of Science and Technology · ORCID
 
 ## 数据源状态
 

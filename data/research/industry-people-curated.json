@@ -1,0 +1,2947 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-10T08:24:01.478Z",
+  "audit": {
+    "sourceFile": "data/manual/industry-people.json",
+    "verifiedAt": "2026-07-10",
+    "summaryZh": "现有产业人物库包含51条记录，但只有19个唯一证据URL。大量条目把共享团队页同时当作个人身份、职业经历和代表作证据，无法满足个人级职业证据与独立书目、专利或开源证据相互分离的上线标准。建议立即替换12条低相关或无法独立核验的记录，将4位已经转入高校的相关人物迁入青年学者或产业转型案例，并为其余35条高相关记录补齐个人成果入口、核验日期和字段级证据。",
+    "counts": {
+      "existingRecords": 51,
+      "uniqueEvidenceUrls": 19,
+      "replace": 12,
+      "moveToAcademic": 4,
+      "retainButBackfill": 35,
+      "newCandidates": 18,
+      "newCandidatesMainlandOrHongKong": 9
+    },
+    "qualityFindings": [
+      "Google Algorithms & Optimization的15条记录共用一个团队页，不能证明每个人的具体论文和项目贡献。",
+      "Microsoft Research机器学习团队的5条记录共用一个人员列表，其中多条没有个人主页或代表作。",
+      "Amazon SCOT相关记录大量共用研究领域页或综合报道，且部分对象已回到高校任职。",
+      "Gurobi工程师和创始人记录主要依赖团队页或公司历史页，缺少个人论文、软件提交或专利入口。",
+      "产业人物库混入了当前高校教授、前产业博后和偏计算机视觉、系统、量化管理的低相关对象。",
+      "现有representativeWorks多次复用身份来源，尚未形成身份事实、成果事实和分析判断相互独立的证据结构。",
+      "部分学术数据库存在同名作者错误合并风险，尤其是Yutong Pan；后续应按DOI、ORCID、机构和时间线联合消歧。"
+    ],
+    "evidenceReuse": [
+      {
+        "url": "https://research.google/teams/algorithms-optimization/",
+        "recordCount": 15,
+        "ids": [
+          "vahab-mirrokni-google",
+          "mohammad-mahdian-google",
+          "david-applegate-google",
+          "gagan-aggarwal-google",
+          "aaron-archer-google",
+          "ashwinkumar-badanidiyuru-google",
+          "mohammadhossein-bateni-google",
+          "kshipra-bhawalkar-google",
+          "edith-cohen-google",
+          "alessandro-epasto-google",
+          "silvio-lattanzi-google",
+          "renato-paes-leme-google",
+          "morteza-zadimoghaddam-google",
+          "aranyak-mehta-google",
+          "kostas-kollias-google"
+        ],
+        "action": "保留高相关对象，但逐人补充Google个人页、独立论文、ORCID/OpenAlex或代码提交；Edith Cohen与Silvio Lattanzi按本项目窄口径替换。"
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/people/",
+        "recordCount": 5,
+        "ids": [
+          "zhong-li-msr",
+          "weiqing-liu-msr",
+          "chang-xu-msr",
+          "xianliang-yang-msr",
+          "li-zhao-msr"
+        ],
+        "action": "全部替换为拥有个人MSR主页和独立优化成果的MLO研究人员。"
+      },
+      {
+        "url": "https://www.amazon.science/scot",
+        "recordCount": 5,
+        "ids": [
+          "mahdieh-allahviranloo-amazon",
+          "hana-ku-amazon",
+          "georgios-paschos-amazon",
+          "ruth-misener-amazon-collab",
+          "dirk-bergemann-amazon-collab"
+        ],
+        "action": "为当前Amazon人员补充个人作者页与论文；将两位当前高校合作者迁入学术人物库。"
+      },
+      {
+        "url": "https://www.gurobi.com/company/our-people",
+        "recordCount": 5,
+        "ids": [
+          "ahmed-azab-gurobi",
+          "abigail-freeman-gurobi",
+          "marika-karbstein-gurobi",
+          "david-torres-sanchez-gurobi",
+          "robert-luce-gurobi"
+        ],
+        "action": "保留，但补充个人会议简介、论文、技术文章、软件贡献或专利。"
+      },
+      {
+        "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems",
+        "recordCount": 4,
+        "ids": [
+          "salal-humair-amazon",
+          "garrett-van-ryzin-amazon",
+          "chamsi-hssaine-amazon-postdoc",
+          "hanzhang-qin-amazon-postdoc"
+        ],
+        "action": "保留两位Amazon领导者并补证；将两位前Amazon博后迁入青年学者或产业转型案例。"
+      },
+      {
+        "url": "https://www.gurobi.com/company/origin-story/",
+        "recordCount": 3,
+        "ids": [
+          "robert-bixby-gurobi",
+          "edward-rothberg-gurobi",
+          "zonghao-gu-gurobi"
+        ],
+        "action": "保留为求解器产业上限样本，但补充个人论文、专利和独立职业履历。"
+      },
+      {
+        "url": "https://www.amazon.science/research-areas/operations-research-and-optimization",
+        "recordCount": 2,
+        "ids": [
+          "jinxiang-gu-amazon",
+          "yunan-liu-amazon"
+        ],
+        "action": "保留，并补充Amazon个人作者页和独立论文入口。"
+      }
+    ],
+    "replaceReasons": {
+      "yannis-belkhiter-ibm": "当前条目为时间序列和模型选择方向的博士前研究者，未提供数学优化或工业OR独立成果。",
+      "lidong-zhou-msr": "核心方向是分布式系统与AI基础设施管理，不属于本次限定的数学优化、供应链、求解器或科学计算主线。",
+      "zhong-li-msr": "仅有通用机器学习团队页，没有个人主页和独立优化成果。",
+      "weiqing-liu-msr": "条目以研究管理和工业AI为主，只有共享团队页且没有个人优化成果。",
+      "chang-xu-msr": "条目只有通用机器学习和算法标签，缺少个人级身份与优化成果证据。",
+      "xianliang-yang-msr": "通用Research SDE记录，只有共享团队页，未证明与限定研究方向的直接联系。",
+      "li-zhao-msr": "通用机器学习记录，缺少个人主页、论文入口及数学优化匹配证据。",
+      "tian-qi-huawei": "主要方向是计算机视觉和研究管理，与本次限定方向不匹配。",
+      "yaron-minsky-jane-street": "主要贡献是函数式编程、OCaml和分布式系统，属于产业转型参照但非数学优化核心人物。",
+      "peng-zhao-citadel": "现有证据只支持公司领导职位，未提供个人数学优化、OR论文、专利或开源成果。",
+      "edith-cohen-google": "研究重点为sketching、数据挖掘和算法估计，在本项目窄口径下属于相邻方向而非核心优化样本。",
+      "silvio-lattanzi-google": "研究重点为分布式图算法和并行计算，在本项目窄口径下缺少数学规划、OR或求解器主线。"
+    },
+    "moveReasons": {
+      "chamsi-hssaine-amazon-postdoc": "当前为高校Assistant Professor，适合归入青年学者和Amazon博后转教职路径。",
+      "hanzhang-qin-amazon-postdoc": "当前为NUS Assistant Professor，适合归入青年学者和产业博后转教职路径。",
+      "ruth-misener-amazon-collab": "当前主体身份是高校教授和Amazon合作学者，不应计作当前产业员工。",
+      "dirk-bergemann-amazon-collab": "当前主体身份是高校教授和Amazon合作学者，不应计作当前产业员工。"
+    },
+    "retainButBackfillIds": [
+      "vahab-mirrokni-google",
+      "mohammad-mahdian-google",
+      "david-applegate-google",
+      "gagan-aggarwal-google",
+      "aaron-archer-google",
+      "ashwinkumar-badanidiyuru-google",
+      "mohammadhossein-bateni-google",
+      "kshipra-bhawalkar-google",
+      "alessandro-epasto-google",
+      "renato-paes-leme-google",
+      "morteza-zadimoghaddam-google",
+      "aranyak-mehta-google",
+      "kostas-kollias-google",
+      "lam-nguyen-ibm",
+      "rahul-nair-ibm",
+      "parikshit-ram-ibm",
+      "dennis-wei-ibm",
+      "wei-chen-msr",
+      "salal-humair-amazon",
+      "garrett-van-ryzin-amazon",
+      "mahdieh-allahviranloo-amazon",
+      "hana-ku-amazon",
+      "georgios-paschos-amazon",
+      "jinxiang-gu-amazon",
+      "yunan-liu-amazon",
+      "ahmed-azab-gurobi",
+      "abigail-freeman-gurobi",
+      "marika-karbstein-gurobi",
+      "david-torres-sanchez-gurobi",
+      "robert-luce-gurobi",
+      "robert-bixby-gurobi",
+      "edward-rothberg-gurobi",
+      "zonghao-gu-gurobi",
+      "erling-andersen-mosek",
+      "fred-gardi-hexaly"
+    ],
+    "publicationRule": "候选进入正式产业人物主库前，至少需要一条个人级官方或权威职业证据，以及一条独立论文、专利或开源项目证据。共享团队页只能作为辅助证据，不能同时承担身份与成果证明。",
+    "privacyRule": "不采集薪资猜测、私人联系方式、家庭信息或非职业社交资料。"
+  },
+  "counts": {
+    "original": 51,
+    "removed": 16,
+    "retained": 35,
+    "inserted": 15,
+    "final": 50,
+    "review": 3
+  },
+  "companies": [
+    {
+      "id": "cardinal-operations",
+      "name": "Cardinal Operations",
+      "nameZh": "杉数科技",
+      "category": "优化求解器公司",
+      "regions": [
+        "Mainland China",
+        "International"
+      ],
+      "locations": [
+        "北京",
+        "上海",
+        "深圳"
+      ],
+      "teams": [
+        "COPT Solver",
+        "Supply Chain Optimization",
+        "Decision Intelligence"
+      ],
+      "roleFamilies": [
+        "Solver Developer",
+        "Optimization Engineer",
+        "Operations Research Scientist"
+      ],
+      "careerUrl": "https://www.shanshu.ai/",
+      "homepage": "https://www.shanshu.ai/",
+      "sourceConfidence": "A · 官方网站"
+    },
+    {
+      "id": "argonne-national-laboratory",
+      "name": "Argonne National Laboratory",
+      "nameZh": "阿贡国家实验室",
+      "category": "国家实验室研究岗",
+      "regions": [
+        "United States"
+      ],
+      "locations": [
+        "Lemont, Illinois"
+      ],
+      "teams": [
+        "Mathematics and Computer Science"
+      ],
+      "roleFamilies": [
+        "Computational Mathematician",
+        "Postdoctoral Appointee",
+        "Research Scientist"
+      ],
+      "careerUrl": "https://www.anl.gov/hr/careers",
+      "homepage": "https://www.anl.gov/mcs",
+      "sourceConfidence": "A · 官方网站"
+    }
+  ],
+  "people": [
+    {
+      "id": "vahab-mirrokni-google",
+      "name": "Vahab S. Mirrokni",
+      "companyId": "google-research",
+      "currentPosition": "Google Fellow and VP, Google Research",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "顶级产业研究者",
+      "careerStage": "leader",
+      "fieldTags": [
+        "large-scale optimization",
+        "market algorithms",
+        "distributed algorithms",
+        "machine learning"
+      ],
+      "educationSummaryZh": "Sharif University of Technology 本科，MIT 博士（2005）；曾在 Microsoft Research、MIT 和 Amazon 任研究职位，2008 年加入 Google。",
+      "pathSummaryZh": "长期在算法、市场机制与大规模优化交叉方向形成产业研究影响力。",
+      "representativeWorks": [
+        {
+          "title": "Google Algorithms & Optimization research portfolio",
+          "note": "团队方向入口，个人代表作需在主页核验",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/mirrokni/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 42,
+      "replicabilityZh": "顶级上限样本；需要强理论论文、国际可见度和大规模落地记录。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "mohammad-mahdian-google",
+      "name": "Mohammad Mahdian",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "顶级产业研究者",
+      "careerStage": "senior",
+      "fieldTags": [
+        "algorithms",
+        "economics",
+        "market design",
+        "data mining"
+      ],
+      "educationSummaryZh": "官方团队页确认研究方向与当前归属；教育细节待个人页核验。",
+      "pathSummaryZh": "以算法博弈、市场设计和产业平台问题建立长期研究路线。",
+      "representativeWorks": [
+        {
+          "title": "Algorithms, markets and optimization at Google",
+          "note": "团队方向证据",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/mohammad-mahdian/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 45,
+      "replicabilityZh": "理论与产业问题结合的上限样本，可借鉴选题方式，不能简单复制履历。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "david-applegate-google",
+      "name": "David Applegate",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "顶级产业研究者",
+      "careerStage": "senior",
+      "fieldTags": [
+        "combinatorial optimization",
+        "algorithms",
+        "large-scale optimization"
+      ],
+      "educationSummaryZh": "官方团队页确认当前归属；其组合优化代表作和经历需回到个人页面核验。",
+      "pathSummaryZh": "经典组合优化能力进入大规模工业算法研究的代表路线。",
+      "representativeWorks": [
+        {
+          "title": "Google large-scale optimization team",
+          "note": "团队方向证据",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/david-applegate/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 40,
+      "replicabilityZh": "适合观察组合优化深度要求，属于难以直接复制的资深路线。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "gagan-aggarwal-google",
+      "name": "Gagan Aggarwal",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "产业研究者",
+      "careerStage": "senior",
+      "fieldTags": [
+        "algorithms",
+        "data mining",
+        "economics",
+        "electronic commerce"
+      ],
+      "educationSummaryZh": "官方团队页确认当前研究领域，完整教育路径待补。",
+      "pathSummaryZh": "算法、数据与平台经济交叉的产业研究路线。",
+      "representativeWorks": [
+        {
+          "title": "Google Algorithms & Optimization team profile",
+          "note": "团队方向入口",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/gagan-aggarwal/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 48,
+      "replicabilityZh": "可借鉴从算法理论扩展到平台经济问题的方向组合。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "aaron-archer-google",
+      "name": "Aaron Archer",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "产业研究者",
+      "careerStage": "senior",
+      "fieldTags": [
+        "algorithms",
+        "distributed systems",
+        "parallel computing",
+        "optimization"
+      ],
+      "educationSummaryZh": "官方团队页确认当前归属，个人教育背景待补。",
+      "pathSummaryZh": "算法研究延伸到分布式与并行系统优化。",
+      "representativeWorks": [
+        {
+          "title": "Large-scale optimization at Google",
+          "note": "团队方向入口",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/aaron-archer/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 52,
+      "replicabilityZh": "对数学优化转 AI Infra 和系统优化有参考价值。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "ashwinkumar-badanidiyuru-google",
+      "name": "Ashwinkumar Badanidiyuru Varadaraja",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "青年/中生代产业研究者",
+      "careerStage": "mid-career",
+      "fieldTags": [
+        "algorithms",
+        "economics",
+        "machine intelligence",
+        "online decision-making"
+      ],
+      "educationSummaryZh": "官方团队页确认当前研究领域；详细履历待补。",
+      "pathSummaryZh": "在线算法和市场问题进入机器智能应用的路线。",
+      "representativeWorks": [
+        {
+          "title": "Market algorithms at Google",
+          "note": "团队方向证据",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/teams/algorithms-optimization/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 55,
+      "replicabilityZh": "可借鉴在线决策与机器学习的交叉定位。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "mohammadhossein-bateni-google",
+      "name": "Mohammadhossein Bateni",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "产业研究者",
+      "careerStage": "mid-career",
+      "fieldTags": [
+        "algorithms",
+        "data mining",
+        "distributed systems",
+        "optimization"
+      ],
+      "educationSummaryZh": "官方团队页确认当前归属；个人教育背景待补。",
+      "pathSummaryZh": "算法研究与数据挖掘、分布式系统交叉。",
+      "representativeWorks": [
+        {
+          "title": "Google algorithms and graph optimization portfolio",
+          "note": "团队方向入口",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/mohammadhossein-bateni/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 53,
+      "replicabilityZh": "适合观察算法论文如何转化为大规模产品能力。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "kshipra-bhawalkar-google",
+      "name": "Kshipra Bhawalkar",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "青年/中生代产业研究者",
+      "careerStage": "mid-career",
+      "fieldTags": [
+        "algorithms",
+        "economics",
+        "market design",
+        "online optimization"
+      ],
+      "educationSummaryZh": "官方团队页确认当前归属；个人履历待补。",
+      "pathSummaryZh": "理论算法与电子市场应用结合的产业研究路线。",
+      "representativeWorks": [
+        {
+          "title": "Google market algorithms portfolio",
+          "note": "团队方向入口",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/kshipra-bhawalkar/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 55,
+      "replicabilityZh": "可借鉴市场设计与在线优化的交叉研究画像。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "alessandro-epasto-google",
+      "name": "Alessandro Epasto",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "Europe / United States",
+      "category": "青年/中生代产业研究者",
+      "careerStage": "mid-career",
+      "fieldTags": [
+        "algorithms",
+        "data mining",
+        "machine intelligence",
+        "graph optimization"
+      ],
+      "educationSummaryZh": "官方团队页确认当前归属；详细教育路径待补。",
+      "pathSummaryZh": "图算法、数据挖掘和机器智能结合的产业研究路线。",
+      "representativeWorks": [
+        {
+          "title": "Google graph mining research",
+          "note": "团队方向入口",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/alessandro-epasto/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 58,
+      "replicabilityZh": "中生代产业研究路径，对算法到产品的连接具有参考性。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "renato-paes-leme-google",
+      "name": "Renato Paes Leme",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "青年/中生代产业研究者",
+      "careerStage": "mid-career",
+      "fieldTags": [
+        "algorithms",
+        "economics",
+        "market design",
+        "optimization"
+      ],
+      "educationSummaryZh": "官方团队页确认当前研究领域；个人教育背景待补。",
+      "pathSummaryZh": "市场机制和算法研究进入平台型公司核心业务。",
+      "representativeWorks": [
+        {
+          "title": "Market Algorithms research at Google",
+          "note": "团队方向入口",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/renato-paes-leme/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 52,
+      "replicabilityZh": "适合观察理论经济学、算法和业务问题的结合。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "morteza-zadimoghaddam-google",
+      "name": "Morteza Zadimoghaddam",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "青年/中生代产业研究者",
+      "careerStage": "mid-career",
+      "fieldTags": [
+        "algorithms",
+        "distributed systems",
+        "economics",
+        "optimization"
+      ],
+      "educationSummaryZh": "官方团队页确认当前归属；完整履历待补。",
+      "pathSummaryZh": "组合算法与分布式、经济应用交叉。",
+      "representativeWorks": [
+        {
+          "title": "Google Algorithms & Optimization portfolio",
+          "note": "团队方向入口",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/morteza-zadimoghaddam/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 55,
+      "replicabilityZh": "可以借鉴问题选择和理论到应用的转化方式。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "aranyak-mehta-google",
+      "name": "Aranyak Mehta",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "产业研究者",
+      "careerStage": "senior",
+      "fieldTags": [
+        "online algorithms",
+        "economics",
+        "ad allocation",
+        "market algorithms"
+      ],
+      "educationSummaryZh": "官方团队页确认当前研究领域；详细履历待补。",
+      "pathSummaryZh": "在线算法与广告分配、市场机制结合的典型产业路径。",
+      "representativeWorks": [
+        {
+          "title": "Market Algorithms at Google",
+          "note": "团队方向证据",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/aranyak-mehta/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 48,
+      "replicabilityZh": "可借鉴在线优化与平台业务的连接，但竞争门槛很高。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "kostas-kollias-google",
+      "name": "Kostas Kollias",
+      "companyId": "google-research",
+      "currentPosition": "Researcher",
+      "team": "Google Algorithms & Optimization",
+      "region": "United States",
+      "category": "青年/中生代产业研究者",
+      "careerStage": "mid-career",
+      "fieldTags": [
+        "algorithms",
+        "economics",
+        "optimization",
+        "machine learning"
+      ],
+      "educationSummaryZh": "官方团队页确认当前归属；完整教育背景待补。",
+      "pathSummaryZh": "算法、优化与平台经济问题交叉。",
+      "representativeWorks": [
+        {
+          "title": "Google Algorithms & Optimization portfolio",
+          "note": "团队方向入口",
+          "url": "https://research.google/teams/algorithms-optimization/"
+        }
+      ],
+      "homepage": "https://research.google/people/kostas-kollias/",
+      "confidence": "A · Google Research",
+      "replicabilityScore": 55,
+      "replicabilityZh": "适合观察工业研究岗位需要的算法宽度。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://research.google/teams/algorithms-optimization/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "lam-nguyen-ibm",
+      "name": "Lam M. Nguyen",
+      "companyId": "ibm-research",
+      "currentPosition": "Staff Research Scientist; Master Inventor",
+      "team": "IBM Research",
+      "region": "United States",
+      "category": "青年/中生代产业研究者",
+      "careerStage": "mid-career",
+      "fieldTags": [
+        "stochastic optimization",
+        "optimization for machine learning",
+        "federated learning",
+        "nonconvex optimization"
+      ],
+      "educationSummaryZh": "莫斯科国立大学应用数学与计算机本科，Lehigh University 工业与系统工程博士（2018）。",
+      "pathSummaryZh": "应用数学本科到工业与系统工程博士，再进入 IBM 做随机优化与机器学习研究；与你的背景可比性很强。",
+      "representativeWorks": [
+        {
+          "title": "A Hybrid Stochastic Optimization Framework for Composite Nonconvex Optimization",
+          "note": "IBM Pat Goldberg Memorial Best Paper",
+          "url": "https://research.ibm.com/people/lam-nguyen"
+        }
+      ],
+      "homepage": "https://research.ibm.com/people/lam-nguyen",
+      "confidence": "A · IBM Research",
+      "replicabilityScore": 88,
+      "replicabilityZh": "高度可参考：应用数学、优化论文、工业系统问题和顶级 ML 发表形成闭环。",
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://research.ibm.com/people/lam-nguyen",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "rahul-nair-ibm",
+      "name": "Rahul Nair",
+      "companyId": "ibm-research",
+      "currentPosition": "Senior Research Scientist",
+      "team": "IBM Research Europe – Ireland",
+      "region": "Europe",
+      "category": "产业研究者",
+      "careerStage": "senior",
+      "fieldTags": [
+        "optimization",
+        "machine learning",
+        "transportation",
+        "trusted AI"
+      ],
+      "educationSummaryZh": "University of Maryland College Park 博士。",
+      "pathSummaryZh": "优化与机器学习能力跨交通、医疗和企业计算场景，再扩展到可信 AI。",
+      "representativeWorks": [
+        {
+          "title": "IBM Research profile and publications",
+          "note": "官方研究档案",
+          "url": "https://research.ibm.com/people/rahul-nair"
+        }
+      ],
+      "homepage": "https://research.ibm.com/people/rahul-nair",
+      "confidence": "A · IBM Research",
+      "replicabilityScore": 76,
+      "replicabilityZh": "可借鉴优化方法跨行业应用和研究主题迭代。",
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://research.ibm.com/people/rahul-nair",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "parikshit-ram-ibm",
+      "name": "Parikshit Ram",
+      "companyId": "ibm-research",
+      "currentPosition": "Principal Research Staff Member",
+      "team": "IBM Research",
+      "region": "United States",
+      "category": "产业研究者",
+      "careerStage": "senior",
+      "fieldTags": [
+        "optimization",
+        "computational geometry",
+        "AutoML",
+        "large-scale algorithms"
+      ],
+      "educationSummaryZh": "官方档案披露其在高性能机器学习公司 Skytree 工作后进入 IBM；完整学位信息待补。",
+      "pathSummaryZh": "创业公司高性能 ML 经验与基础数学、优化研究结合。",
+      "representativeWorks": [
+        {
+          "title": "IBM Research profile and publication list",
+          "note": "官方研究档案",
+          "url": "https://research.ibm.com/people/parikshit-ram"
+        }
+      ],
+      "homepage": "https://research.ibm.com/people/parikshit-ram",
+      "confidence": "A · IBM Research",
+      "replicabilityScore": 67,
+      "replicabilityZh": "适合参考数学算法、创业公司和大型研究院之间的迁移。",
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://research.ibm.com/people/parikshit-ram",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "dennis-wei-ibm",
+      "name": "Dennis Wei",
+      "companyId": "ibm-research",
+      "currentPosition": "Senior Research Scientist",
+      "team": "Trustworthy AI, IBM Research",
+      "region": "United States",
+      "category": "产业研究者",
+      "careerStage": "senior",
+      "fieldTags": [
+        "optimization",
+        "statistics",
+        "signal processing",
+        "trustworthy machine learning"
+      ],
+      "educationSummaryZh": "MIT 电子工程与物理本科、电子工程硕士和博士。",
+      "pathSummaryZh": "扎实的数学、统计和信号处理基础，逐步转向可信机器学习产品与开源工具。",
+      "representativeWorks": [
+        {
+          "title": "AI Explainability 360 / ICX360",
+          "note": "开源工具与研究路线",
+          "url": "https://research.ibm.com/people/dennis-wei"
+        }
+      ],
+      "homepage": "https://research.ibm.com/people/dennis-wei",
+      "confidence": "A · IBM Research",
+      "replicabilityScore": 68,
+      "replicabilityZh": "可借鉴从数学方法到开源工具和业务研究的迁移。",
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://research.ibm.com/people/dennis-wei",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "wei-chen-msr",
+      "name": "Wei Chen",
+      "nameZh": "陈卫",
+      "companyId": "microsoft-research",
+      "currentPosition": "Principal Researcher; Chair of MSR Asia Theory Center",
+      "team": "Microsoft Research Asia",
+      "region": "Mainland China",
+      "category": "顶级产业研究者",
+      "careerStage": "senior",
+      "fieldTags": [
+        "online learning",
+        "combinatorial optimization",
+        "algorithmic game theory",
+        "social networks"
+      ],
+      "educationSummaryZh": "官方主页完整履历可核验；当前为 MSRA Principal Researcher 与 Theory Center 主席。",
+      "pathSummaryZh": "长期用数学和算法工具连接真实网络、市场和学习问题。",
+      "representativeWorks": [
+        {
+          "title": "Influence Maximization: Integrating Classical Algorithms",
+          "note": "组合优化与在线学习路线",
+          "url": "https://www.microsoft.com/en-us/research/people/weic/"
+        }
+      ],
+      "homepage": "https://www.microsoft.com/en-us/research/people/weic/",
+      "confidence": "A · Microsoft Research",
+      "replicabilityScore": 48,
+      "replicabilityZh": "可学习理论问题与真实应用的长期结合，属于高门槛资深路线。",
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://www.microsoft.com/en-us/research/people/weic/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "salal-humair-amazon",
+      "name": "Salal Humair",
+      "companyId": "amazon-scot",
+      "currentPosition": "Vice President and Distinguished Scientist",
+      "team": "Amazon SCOT",
+      "region": "United States",
+      "category": "顶级产业研究负责人",
+      "careerStage": "leader",
+      "fieldTags": [
+        "operations research",
+        "supply chain",
+        "inventory optimization",
+        "research leadership"
+      ],
+      "educationSummaryZh": "Amazon Science 公开其作为 SCOT 产业博士后项目管理者和 Distinguished Scientist 的角色。",
+      "pathSummaryZh": "在超大规模供应链优化团队中连接学术合作、博士后培养和工业系统。",
+      "representativeWorks": [
+        {
+          "title": "Amazon postdoctoral scientists apply operations research",
+          "note": "产业博士后培养与 SCOT 路线",
+          "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems"
+        }
+      ],
+      "homepage": "https://www.amazon.science/scot",
+      "confidence": "A · Amazon Science",
+      "replicabilityScore": 35,
+      "replicabilityZh": "领导者上限样本，重点学习问题判断与人才培养体系。",
+      "evidence": [
+        {
+          "type": "official_article",
+          "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "garrett-van-ryzin-amazon",
+      "name": "Garrett van Ryzin",
+      "companyId": "amazon-scot",
+      "currentPosition": "Distinguished Scientist",
+      "team": "Amazon SCOT",
+      "region": "United States",
+      "category": "顶级产业研究者",
+      "careerStage": "leader",
+      "fieldTags": [
+        "revenue management",
+        "operations research",
+        "supply chain",
+        "pricing"
+      ],
+      "educationSummaryZh": "Amazon Science 官方文章确认其 Distinguished Scientist 和博士后导师角色；学术履历需从个人页继续核验。",
+      "pathSummaryZh": "顶级 OR 学术能力进入 Amazon 供应链与收入管理研究。",
+      "representativeWorks": [
+        {
+          "title": "Amazon postdoctoral scientists apply operations research",
+          "note": "SCOT 导师角色",
+          "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems"
+        }
+      ],
+      "homepage": "https://www.amazon.science/scot",
+      "confidence": "A · Amazon Science",
+      "replicabilityScore": 34,
+      "replicabilityZh": "学术到产业领导的上限样本，不能按早期职业路径直接比较。",
+      "evidence": [
+        {
+          "type": "official_article",
+          "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "mahdieh-allahviranloo-amazon",
+      "name": "Mahdieh Allahviranloo",
+      "companyId": "amazon-scot",
+      "currentPosition": "Amazon scientist",
+      "team": "Last-mile delivery / SCOT-related science",
+      "region": "United States",
+      "category": "产业研究者",
+      "careerStage": "mid-career",
+      "fieldTags": [
+        "transportation",
+        "mobility",
+        "human behavior",
+        "last-mile delivery"
+      ],
+      "educationSummaryZh": "Amazon Science 公开其将交通工程与人类行为研究用于最后一公里配送；详细学位信息待补。",
+      "pathSummaryZh": "交通工程研究转入 Amazon 最后一公里运营问题。",
+      "representativeWorks": [
+        {
+          "title": "Where machine learning models meet mobility and human behavior",
+          "note": "Amazon Science",
+          "url": "https://www.amazon.science/scot"
+        }
+      ],
+      "homepage": "https://www.amazon.science/scot",
+      "confidence": "A/B · Amazon Science",
+      "replicabilityScore": 70,
+      "replicabilityZh": "可借鉴领域问题与数据科学、运营决策结合的路线。",
+      "evidence": [
+        {
+          "type": "official_research_story",
+          "url": "https://www.amazon.science/scot",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "hana-ku-amazon",
+      "name": "Hana Ku",
+      "companyId": "amazon-scot",
+      "currentPosition": "Amazon scientist / engineer",
+      "team": "Middle-mile network optimization",
+      "region": "United States / Global",
+      "category": "青年产业研究者",
+      "careerStage": "researcher",
+      "fieldTags": [
+        "network optimization",
+        "uncertainty",
+        "middle-mile logistics",
+        "operations research"
+      ],
+      "educationSummaryZh": "Amazon 2026 官方研究文章确认其参与不确定性下中段物流网络优化；完整教育背景待补。",
+      "pathSummaryZh": "围绕真实物流网络不确定性开展算法与工程协作。",
+      "representativeWorks": [
+        {
+          "title": "Navigating uncertainty in Amazon's middle-mile network",
+          "note": "Amazon Science, 2026",
+          "url": "https://www.amazon.science/scot"
+        }
+      ],
+      "homepage": "https://www.amazon.science/scot",
+      "confidence": "A/B · Amazon Science",
+      "replicabilityScore": 74,
+      "replicabilityZh": "研究主题高度相关，履历证据补全后可成为重要青年样本。",
+      "evidence": [
+        {
+          "type": "official_research_story",
+          "url": "https://www.amazon.science/scot",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "georgios-paschos-amazon",
+      "name": "Georgios Paschos",
+      "companyId": "amazon-scot",
+      "currentPosition": "Amazon scientist / research contributor",
+      "team": "Middle-mile network optimization",
+      "region": "Europe / Global",
+      "category": "产业研究者",
+      "careerStage": "senior",
+      "fieldTags": [
+        "network optimization",
+        "stochastic systems",
+        "logistics",
+        "algorithms"
+      ],
+      "educationSummaryZh": "Amazon 2026 官方研究文章确认其参与中段物流网络优化；当前职位和教育细节需继续核验。",
+      "pathSummaryZh": "随机网络与算法能力进入物流网络优化。",
+      "representativeWorks": [
+        {
+          "title": "Navigating uncertainty in Amazon's middle-mile network",
+          "note": "Amazon Science, 2026",
+          "url": "https://www.amazon.science/scot"
+        }
+      ],
+      "homepage": "https://www.amazon.science/scot",
+      "confidence": "B · 官方研究文章，履历待补",
+      "replicabilityScore": 62,
+      "replicabilityZh": "方向可参考，人物当前归属需进一步交叉验证。",
+      "evidence": [
+        {
+          "type": "official_research_story",
+          "url": "https://www.amazon.science/scot",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "jinxiang-gu-amazon",
+      "name": "Jinxiang Gu",
+      "companyId": "amazon-scot",
+      "currentPosition": "Senior Manager, Research Science",
+      "team": "Amazon SCOT",
+      "region": "United States / Global",
+      "category": "产业研究管理者",
+      "careerStage": "manager",
+      "fieldTags": [
+        "supply chain optimization",
+        "simulation",
+        "fulfillment",
+        "research management"
+      ],
+      "educationSummaryZh": "Amazon Science 论文作者简介确认其 SCOT Senior Manager, Research Science 职位。",
+      "pathSummaryZh": "从供应链科学研究成长到研究管理岗位。",
+      "representativeWorks": [
+        {
+          "title": "Revolutionizing order fulfillment",
+          "note": "Winter Simulation Conference 2025 / Amazon Science",
+          "url": "https://www.amazon.science/research-areas/operations-research-and-optimization"
+        }
+      ],
+      "homepage": "https://www.amazon.science/research-areas/operations-research-and-optimization",
+      "confidence": "A/B · Amazon Science author bio",
+      "replicabilityScore": 58,
+      "replicabilityZh": "可观察工业科学家到研究管理的晋升路线。",
+      "evidence": [
+        {
+          "type": "official_publication_bio",
+          "url": "https://www.amazon.science/research-areas/operations-research-and-optimization",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "yunan-liu-amazon",
+      "name": "Yunan Liu",
+      "companyId": "amazon-scot",
+      "currentPosition": "Principal Research Scientist",
+      "team": "Amazon SCOT",
+      "region": "United States / Global",
+      "category": "产业研究者",
+      "careerStage": "principal",
+      "fieldTags": [
+        "supply chain optimization",
+        "simulation",
+        "fulfillment",
+        "operations research"
+      ],
+      "educationSummaryZh": "Amazon Science 论文作者简介确认其 Principal Research Scientist 职位；教育细节待补。",
+      "pathSummaryZh": "长期供应链优化研究成长到 Principal 级别。",
+      "representativeWorks": [
+        {
+          "title": "SCOT fulfillment optimization research",
+          "note": "Amazon Science",
+          "url": "https://www.amazon.science/research-areas/operations-research-and-optimization"
+        }
+      ],
+      "homepage": "https://www.amazon.science/research-areas/operations-research-and-optimization",
+      "confidence": "A/B · Amazon Science author bio",
+      "replicabilityScore": 52,
+      "replicabilityZh": "可学习长期工业 OR 研究与职级晋升，早期经历仍需补证。",
+      "evidence": [
+        {
+          "type": "official_publication_bio",
+          "url": "https://www.amazon.science/research-areas/operations-research-and-optimization",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "ahmed-azab-gurobi",
+      "name": "Ahmed Azab",
+      "companyId": "gurobi",
+      "currentPosition": "Optimization Engineer",
+      "team": "Gurobi Optimization Engineering",
+      "region": "Asia / Global",
+      "category": "青年可复制路径",
+      "careerStage": "engineer",
+      "fieldTags": [
+        "mathematical optimization",
+        "container logistics",
+        "manufacturing",
+        "energy"
+      ],
+      "educationSummaryZh": "Osaka University 系统工程博士，研究方向为应用数学、建模与集装箱物流优化。",
+      "pathSummaryZh": "系统工程/应用数学博士 → 日本优化咨询公司 → Gurobi Optimization Engineer。",
+      "representativeWorks": [
+        {
+          "title": "Gurobi official team profile",
+          "note": "教育与职业路径",
+          "url": "https://www.gurobi.com/company/our-people"
+        }
+      ],
+      "homepage": "https://www.gurobi.com/company/our-people",
+      "confidence": "A · Gurobi official profile",
+      "replicabilityScore": 93,
+      "replicabilityZh": "极高参考价值：应用数学博士、物流优化、咨询项目和求解器公司路径。",
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://www.gurobi.com/company/our-people",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "abigail-freeman-gurobi",
+      "name": "Abigail Freeman",
+      "companyId": "gurobi",
+      "currentPosition": "Technical Account Manager",
+      "team": "Gurobi Technical Account Management",
+      "region": "United States",
+      "category": "可复制工程路径",
+      "careerStage": "mid-career",
+      "fieldTags": [
+        "operations research",
+        "supply chain",
+        "optimization applications",
+        "client engineering"
+      ],
+      "educationSummaryZh": "MIT Operations Research Center 商业分析硕士，数学与计算机双背景。",
+      "pathSummaryZh": "数学/计算机 → MIT OR → Pfizer 供应链优化与数据产品 → 医疗数据科学 → Gurobi。",
+      "representativeWorks": [
+        {
+          "title": "Gurobi official team profile",
+          "note": "教育与跨行业路径",
+          "url": "https://www.gurobi.com/company/our-people"
+        }
+      ],
+      "homepage": "https://www.gurobi.com/company/our-people",
+      "confidence": "A · Gurobi official profile",
+      "replicabilityScore": 86,
+      "replicabilityZh": "可借鉴优化能力跨制药、医疗和求解器客户成功的迁移。",
+      "evidence": [
+        {
+          "type": "official_profile",
+          "url": "https://www.gurobi.com/company/our-people",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "marika-karbstein-gurobi",
+      "name": "Marika Karbstein",
+      "companyId": "gurobi",
+      "currentPosition": "Senior Optimization Engineer",
+      "team": "Gurobi Optimization Engineering",
+      "region": "Europe",
+      "category": "青年/中生代工程路径",
+      "careerStage": "senior engineer",
+      "fieldTags": [
+        "mathematical optimization",
+        "optimization engineering",
+        "solver applications"
+      ],
+      "educationSummaryZh": "Gurobi 官方团队页确认 Senior Optimization Engineer；详细博士与项目经历待补。",
+      "pathSummaryZh": "数学优化专业能力成长为高级优化工程师。",
+      "representativeWorks": [
+        {
+          "title": "Gurobi Team Spotlight",
+          "note": "官方职位证据",
+          "url": "https://www.gurobi.com/company/our-people"
+        }
+      ],
+      "homepage": "https://www.gurobi.com/company/our-people",
+      "confidence": "A/B · Gurobi official team",
+      "replicabilityScore": 78,
+      "replicabilityZh": "岗位类型高度相关，待补教育和代表项目后可严格比较。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://www.gurobi.com/company/our-people",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "david-torres-sanchez-gurobi",
+      "name": "David Torres Sanchez",
+      "companyId": "gurobi",
+      "currentPosition": "Mathematical Optimization QA Engineer",
+      "team": "Gurobi Development / QA",
+      "region": "Europe / Global",
+      "category": "青年工程路径",
+      "careerStage": "engineer",
+      "fieldTags": [
+        "mathematical optimization",
+        "solver quality",
+        "testing",
+        "engineering"
+      ],
+      "educationSummaryZh": "官方团队页标注博士和 Mathematical Optimization QA Engineer；教育细节待补。",
+      "pathSummaryZh": "数学优化博士进入求解器质量与工程体系，说明非开发核心岗位也需要深厚优化知识。",
+      "representativeWorks": [
+        {
+          "title": "Gurobi Team Spotlight",
+          "note": "官方职位证据",
+          "url": "https://www.gurobi.com/company/our-people"
+        }
+      ],
+      "homepage": "https://www.gurobi.com/company/our-people",
+      "confidence": "A/B · Gurobi official team",
+      "replicabilityScore": 82,
+      "replicabilityZh": "可作为求解器测试、数值稳定性和工程质量路线样本。",
+      "evidence": [
+        {
+          "type": "official_team",
+          "url": "https://www.gurobi.com/company/our-people",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "robert-luce-gurobi",
+      "name": "Robert Luce",
+      "companyId": "gurobi",
+      "currentPosition": "Senior Director of Optimization",
+      "team": "Gurobi Optimization",
+      "region": "Europe",
+      "category": "优化行业负责人",
+      "careerStage": "leader",
+      "fieldTags": [
+        "optimization",
+        "energy",
+        "industry applications",
+        "leadership"
+      ],
+      "educationSummaryZh": "Gurobi 官方活动资料确认 Senior Director of Optimization 职位；完整履历待补。",
+      "pathSummaryZh": "优化专家成长到行业解决方案与技术领导岗位。",
+      "representativeWorks": [
+        {
+          "title": "Gurobi Energy Innovation Summit profile",
+          "note": "官方活动资料",
+          "url": "https://www.gurobi.com/company/our-people"
+        }
+      ],
+      "homepage": "https://www.gurobi.com/company/our-people",
+      "confidence": "B · 官方活动/团队资料",
+      "replicabilityScore": 50,
+      "replicabilityZh": "可学习优化技术与行业领导力结合，早期路径待补。",
+      "evidence": [
+        {
+          "type": "official_company",
+          "url": "https://www.gurobi.com/company/our-people",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "robert-bixby-gurobi",
+      "name": "Robert Bixby",
+      "companyId": "gurobi",
+      "currentPosition": "Co-founder / optimization pioneer",
+      "team": "Gurobi",
+      "region": "United States",
+      "category": "优化产业奠基者",
+      "careerStage": "founder",
+      "fieldTags": [
+        "mixed-integer programming",
+        "solver development",
+        "entrepreneurship"
+      ],
+      "educationSummaryZh": "学术优化研究者与求解器创业者；具体当前头衔以 Gurobi 官方资料为准。",
+      "pathSummaryZh": "长期学术优化与商业求解器研发结合，参与创建 Gurobi。",
+      "representativeWorks": [
+        {
+          "title": "Gurobi origin and solver development",
+          "note": "公司历史入口",
+          "url": "https://www.gurobi.com/company/origin-story/"
+        }
+      ],
+      "homepage": "https://www.gurobi.com/company/origin-story/",
+      "confidence": "A/B · Gurobi official history",
+      "replicabilityScore": 24,
+      "replicabilityZh": "产业奠基者上限样本，只适合观察长期技术积累与创业机会。",
+      "evidence": [
+        {
+          "type": "official_company_history",
+          "url": "https://www.gurobi.com/company/origin-story/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "edward-rothberg-gurobi",
+      "name": "Edward Rothberg",
+      "companyId": "gurobi",
+      "currentPosition": "Co-founder / CEO",
+      "team": "Gurobi",
+      "region": "United States",
+      "category": "优化产业负责人",
+      "careerStage": "founder",
+      "fieldTags": [
+        "solver development",
+        "mixed-integer programming",
+        "optimization software"
+      ],
+      "educationSummaryZh": "Gurobi 官方历史确认共同创办求解器公司；详细学术履历从官方资料继续核验。",
+      "pathSummaryZh": "求解器核心技术研发到商业公司领导。",
+      "representativeWorks": [
+        {
+          "title": "Gurobi origin story",
+          "note": "公司历史",
+          "url": "https://www.gurobi.com/company/origin-story/"
+        }
+      ],
+      "homepage": "https://www.gurobi.com/company/origin-story/",
+      "confidence": "A/B · Gurobi official history",
+      "replicabilityScore": 25,
+      "replicabilityZh": "创业和技术领导上限样本，不是普通博士入职模板。",
+      "evidence": [
+        {
+          "type": "official_company_history",
+          "url": "https://www.gurobi.com/company/origin-story/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "zonghao-gu-gurobi",
+      "name": "Zonghao Gu",
+      "companyId": "gurobi",
+      "currentPosition": "Co-founder / optimization executive",
+      "team": "Gurobi",
+      "region": "United States",
+      "category": "优化产业负责人",
+      "careerStage": "founder",
+      "fieldTags": [
+        "optimization software",
+        "solver development",
+        "commercialization"
+      ],
+      "educationSummaryZh": "Gurobi 官方历史确认共同创办公司；详细履历待补。",
+      "pathSummaryZh": "优化求解器技术积累转化为商业产品与公司。",
+      "representativeWorks": [
+        {
+          "title": "Gurobi origin story",
+          "note": "公司历史",
+          "url": "https://www.gurobi.com/company/origin-story/"
+        }
+      ],
+      "homepage": "https://www.gurobi.com/company/origin-story/",
+      "confidence": "A/B · Gurobi official history",
+      "replicabilityScore": 25,
+      "replicabilityZh": "产业创业上限样本，适合观察技术产品化。",
+      "evidence": [
+        {
+          "type": "official_company_history",
+          "url": "https://www.gurobi.com/company/origin-story/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "erling-andersen-mosek",
+      "name": "Erling D. Andersen",
+      "companyId": "mosek",
+      "currentPosition": "Founder / CEO",
+      "team": "MOSEK",
+      "region": "Europe",
+      "category": "优化产业负责人",
+      "careerStage": "founder",
+      "fieldTags": [
+        "conic optimization",
+        "interior-point methods",
+        "solver development",
+        "numerical optimization"
+      ],
+      "educationSummaryZh": "MOSEK 创始人与核心求解器研发者；具体学位和当前头衔需以公司资料核验。",
+      "pathSummaryZh": "数值优化与锥规划研究长期沉淀为商业求解器。",
+      "representativeWorks": [
+        {
+          "title": "MOSEK Optimization Suite",
+          "note": "求解器产品与数值优化路线",
+          "url": "https://www.mosek.com/"
+        }
+      ],
+      "homepage": "https://www.mosek.com/",
+      "confidence": "A/B · company materials",
+      "replicabilityScore": 28,
+      "replicabilityZh": "数值优化创业上限样本，重点学习技术深度与长期产品化。",
+      "evidence": [
+        {
+          "type": "official_company",
+          "url": "https://www.mosek.com/",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "fred-gardi-hexaly",
+      "name": "Fred Gardi",
+      "companyId": "hexaly",
+      "currentPosition": "Founder & CEO",
+      "team": "Hexaly",
+      "region": "Europe",
+      "category": "优化产业负责人",
+      "careerStage": "founder",
+      "fieldTags": [
+        "mathematical optimization",
+        "local search",
+        "solver commercialization",
+        "entrepreneurship"
+      ],
+      "educationSummaryZh": "Hexaly 官方招聘页公开 Founder & CEO 联系入口；完整教育背景待补。",
+      "pathSummaryZh": "优化研发与商业求解器创业结合，并通过实习、工业博士培养优化科学家。",
+      "representativeWorks": [
+        {
+          "title": "Hexaly Join Us and Optimizer R&D path",
+          "note": "官方团队与人才路径",
+          "url": "https://www.hexaly.com/join-us"
+        }
+      ],
+      "homepage": "https://www.hexaly.com/join-us",
+      "confidence": "A/B · Hexaly official",
+      "replicabilityScore": 38,
+      "replicabilityZh": "创业路线难复制，但其团队培养路径对 2028 实习很有价值。",
+      "evidence": [
+        {
+          "type": "official_company",
+          "url": "https://www.hexaly.com/join-us",
+          "confidence": "A"
+        }
+      ]
+    },
+    {
+      "id": "yongzhi-qi-jd",
+      "name": "Yongzhi Qi",
+      "nameZh": "戚永志",
+      "companyId": "jd",
+      "currentPosition": "供应链算法团队技术总监；香港大学客座教授",
+      "team": "JD.com Supply Chain Tech Team",
+      "region": "Mainland China",
+      "category": "产业研究与工程样本",
+      "careerStage": "leader",
+      "fieldTags": [
+        "supply chain optimization",
+        "inventory allocation",
+        "assortment planning",
+        "pricing",
+        "fulfillment",
+        "OR and AI"
+      ],
+      "educationSummaryZh": "已确认博士身份，但学位授予院校尚未从权威公开页面核实。现负责选品、定价、库存、履约等供应链全链路算法优化，并带领团队获得INFORMS Prize与Daniel H. Wagner Prize等产业OR荣誉。",
+      "pathSummaryZh": "已确认博士身份，但学位授予院校尚未从权威公开页面核实。现负责选品、定价、库存、履约等供应链全链路算法优化，并带领团队获得INFORMS Prize与Daniel H. Wagner Prize等产业OR荣誉。",
+      "representativeWorks": [
+        {
+          "type": "paper",
+          "title": "JD.com Improves Fulfillment Efficiency with Data-Driven Integrated Assortment Planning and Inventory Allocation",
+          "url": "https://pubsonline.informs.org/doi/10.1287/inte.2025.0245"
+        }
+      ],
+      "homepage": "https://developer.jdcloud.com/article/4340",
+      "profiles": {
+        "officialProfile": "https://developer.jdcloud.com/article/4340",
+        "conferenceBio": "https://gs.caai.cn/uploads/files/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B%E6%80%BB%E5%86%B3%E8%B5%9B%E6%9A%A82025%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E4%BC%9A%E7%A8%8B%E5%BA%8F%E5%86%8C%281%29.pdf",
+        "orcid": "https://orcid.org/0009-0004-1434-379X",
+        "scholar": null,
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "大陆供应链算法负责人的顶级标杆，兼具优化建模、机器学习、大规模部署和国际产业OR奖项，对进入京东、美团、阿里等供应链算法团队有直接参考价值。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "official_company_profile",
+          "url": "https://developer.jdcloud.com/article/4340",
+          "confidence": "A",
+          "supports": [
+            "current company and team",
+            "technical director role",
+            "supply chain research scope"
+          ],
+          "supportsClaims": [
+            "current company and team",
+            "technical director role",
+            "supply chain research scope"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "peer_reviewed_publication",
+          "url": "https://pubsonline.informs.org/doi/10.1287/inte.2025.0245",
+          "confidence": "A",
+          "supports": [
+            "JD.com affiliation",
+            "inventory and assortment optimization contribution",
+            "ORCID"
+          ],
+          "supportsClaims": [
+            "JD.com affiliation",
+            "inventory and assortment optimization contribution",
+            "ORCID"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "professional_society_award",
+          "url": "https://isre.informs.org/News-Room/INFORMS-Releases/Awards-Releases/2024-Daniel-H.-Wagner-Prize-Awarded-to-JD.com-for-Work-Enhancing-E-Commerce-Optimization-Technology",
+          "confidence": "A",
+          "supports": [
+            "JD.com team membership",
+            "Wagner Prize recognition"
+          ],
+          "supportsClaims": [
+            "JD.com team membership",
+            "Wagner Prize recognition"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [
+        "博士学位授予院校尚未从权威公开页面确认",
+        "香港大学客座教授身份仍应补充香港大学个人页进行独立核验"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "yutong-pan-jd",
+      "name": "Yutong Pan",
+      "nameZh": "潘宇通",
+      "companyId": "jd",
+      "currentPosition": "供应链算法开发",
+      "team": "JD Retail Supply Chain Product R&D",
+      "region": "Mainland China",
+      "category": "产业研究与工程样本",
+      "careerStage": "early-mid-career",
+      "fieldTags": [
+        "network planning",
+        "inventory layout",
+        "supply chain simulation",
+        "MIQCQP",
+        "exact algorithms",
+        "solver engineering"
+      ],
+      "educationSummaryZh": "同济大学管理科学与工程博士，博士研究聚焦混合整数二次规划、非凸投资组合问题与精确算法；进入京东后转向仓网规划、库存布局、供应链仿真和大规模NP-Hard问题的自研求解算法。",
+      "pathSummaryZh": "同济大学管理科学与工程博士，博士研究聚焦混合整数二次规划、非凸投资组合问题与精确算法；进入京东后转向仓网规划、库存布局、供应链仿真和大规模NP-Hard问题的自研求解算法。",
+      "representativeWorks": [
+        {
+          "type": "paper",
+          "title": "Perspective Reformulations of Semicontinuous Quadratically Constrained Quadratic Programs",
+          "url": "https://doi.org/10.1287/ijoc.2019.0925"
+        },
+        {
+          "type": "doctoral_thesis",
+          "title": "基于不同风险约束的投资组合问题精确算法研究",
+          "url": "https://gs.tongji.edu.cn/info/1069/2478.htm"
+        },
+        {
+          "type": "industrial_project",
+          "title": "智能规划算法赋能供应链降本增效",
+          "url": "https://developer.jdcloud.com/article/4274"
+        }
+      ],
+      "homepage": "https://developer.jdcloud.com/article/4274",
+      "profiles": {
+        "officialProfile": "https://developer.jdcloud.com/article/4274",
+        "conferenceBio": null,
+        "orcid": null,
+        "scholar": null,
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "这是数学优化博士进入大陆大厂供应链算法岗最接近用户目标的成长路径之一，能够直接观察理论优化、精确算法如何迁移到仓网、库存和仿真系统。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "official_company_profile",
+          "url": "https://developer.jdcloud.com/article/4274",
+          "confidence": "A",
+          "supports": [
+            "JD.com role",
+            "Tongji education",
+            "supply chain projects",
+            "three authorized patents claim"
+          ],
+          "supportsClaims": [
+            "JD.com role",
+            "Tongji education",
+            "supply chain projects",
+            "three authorized patents claim"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_university_record",
+          "url": "https://gs.tongji.edu.cn/info/1069/2478.htm",
+          "confidence": "A",
+          "supports": [
+            "doctoral thesis",
+            "management science and engineering discipline"
+          ],
+          "supportsClaims": [
+            "doctoral thesis",
+            "management science and engineering discipline"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "peer_reviewed_publication",
+          "url": "https://doi.org/10.1287/ijoc.2019.0925",
+          "confidence": "A",
+          "supports": [
+            "mathematical optimization publication",
+            "exact reformulation research"
+          ],
+          "supportsClaims": [
+            "mathematical optimization publication",
+            "exact reformulation research"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_university_bibliography",
+          "url": "https://sem.tongji.edu.cn/semen/12387.html",
+          "confidence": "A",
+          "supports": [
+            "publication authorship"
+          ],
+          "supportsClaims": [
+            "publication authorship"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [
+        "京东文章提到三项授权专利，但尚未逐项定位公开专利号",
+        "DBLP的Yutong Pan页面疑似混入同名医学影像作者，后续不得直接据此统计论文"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "yile-liang-meituan",
+      "name": "Yile Liang",
+      "nameZh": "梁毅",
+      "companyId": "meituan",
+      "currentPosition": "智能配送与调度研究人员",
+      "team": "Meituan Intelligent Dispatch",
+      "region": "Mainland China",
+      "category": "产业研究与工程样本",
+      "careerStage": "industrial-researcher",
+      "fieldTags": [
+        "real-time dispatch",
+        "order assignment",
+        "vehicle routing",
+        "graph representation learning",
+        "combinatorial optimization"
+      ],
+      "educationSummaryZh": "教育背景尚未从可靠个人来源核实。2024年作为通信作者发表美团实时智能调度系统论文，2025年仍以美团身份参与INFORMS TSL数据挑战资料，说明其持续从事实时配送与工业运筹研究。",
+      "pathSummaryZh": "教育背景尚未从可靠个人来源核实。2024年作为通信作者发表美团实时智能调度系统论文，2025年仍以美团身份参与INFORMS TSL数据挑战资料，说明其持续从事实时配送与工业运筹研究。",
+      "representativeWorks": [
+        {
+          "type": "paper",
+          "title": "Meituan's Real-Time Intelligent Dispatching Algorithms Build the World's Largest Minute-Level Delivery Network",
+          "url": "https://pubsonline.informs.org/doi/10.1287/inte.2023.0084"
+        },
+        {
+          "type": "paper",
+          "title": "Harvesting Efficient On-Demand Order Pooling from Skilled Couriers",
+          "url": "https://arxiv.org/abs/2406.14635"
+        },
+        {
+          "type": "dataset_project",
+          "title": "TSL-Meituan Data-Driven Research Challenge",
+          "url": "https://connect.informs.org/tsl/tslresources/datachallenge"
+        }
+      ],
+      "homepage": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5696423",
+      "profiles": {
+        "officialProfile": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5696423",
+        "conferenceBio": "https://connect.informs.org/tsl/tslresources/datachallenge",
+        "orcid": "https://orcid.org/0009-0005-0141-9369",
+        "scholar": null,
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "实时调度、路径规划、订单分配和图学习与美团即时配送运筹岗位直接重合，是大陆平台工业OR的核心样本。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "peer_reviewed_publication",
+          "url": "https://pubsonline.informs.org/doi/10.1287/inte.2023.0084",
+          "confidence": "A",
+          "supports": [
+            "Meituan affiliation",
+            "corresponding author role",
+            "dispatch optimization contribution",
+            "ORCID"
+          ],
+          "supportsClaims": [
+            "Meituan affiliation",
+            "corresponding author role",
+            "dispatch optimization contribution",
+            "ORCID"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "professional_society_project",
+          "url": "https://connect.informs.org/tsl/tslresources/datachallenge",
+          "confidence": "A",
+          "supports": [
+            "Meituan committee membership",
+            "continuing involvement in industrial logistics research"
+          ],
+          "supportsClaims": [
+            "Meituan committee membership",
+            "continuing involvement in industrial logistics research"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "research_preprint",
+          "url": "https://arxiv.org/abs/2406.14635",
+          "confidence": "B",
+          "supports": [
+            "order pooling research",
+            "deployed Meituan dispatch system"
+          ],
+          "supportsClaims": [
+            "order pooling research",
+            "deployed Meituan dispatch system"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [
+        "教育经历尚未核实",
+        "美团内部正式职级未公开"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "mengchang-wang-alibaba",
+      "name": "Mengchang Wang",
+      "nameZh": "王孟昌",
+      "companyId": "alibaba",
+      "currentPosition": "决策智能实验室研究员；MindOpt技术报告人",
+      "team": "Alibaba DAMO Academy MindOpt",
+      "region": "Mainland China",
+      "category": "产业研究与工程样本",
+      "careerStage": "senior-researcher",
+      "fieldTags": [
+        "mathematical programming",
+        "solver development",
+        "manufacturing scheduling",
+        "parameter tuning",
+        "scientific computing"
+      ],
+      "educationSummaryZh": "从制造调度、半导体排程和数学规划研究转入阿里巴巴达摩院商业优化求解器、云端数值软件自动调参与求解器性能工程。",
+      "pathSummaryZh": "从制造调度、半导体排程和数学规划研究转入阿里巴巴达摩院商业优化求解器、云端数值软件自动调参与求解器性能工程。",
+      "representativeWorks": [
+        {
+          "type": "paper",
+          "title": "MindOpt Tuner: Boost the Performance of Numerical Software by Automatic Parameter Tuning",
+          "url": "https://arxiv.org/abs/2307.08085"
+        },
+        {
+          "type": "paper",
+          "title": "MindOpt Adapter for CPLEX Benchmarking Performance Analysis",
+          "url": "https://arxiv.org/abs/2312.13527"
+        },
+        {
+          "type": "patent",
+          "title": "阿里巴巴达摩院优化相关专利公开文本",
+          "url": "https://qxb-img-osscache.qixin.com/patents_pdf_new/6f3117e0d5edc5a0a429866b15ed7813.pdf"
+        }
+      ],
+      "homepage": "https://conf.orsc.org.cn/storage/files/20250514/4Zkvysgt59ZC6F6C848O7DEYnHSAjAcsml2lICYW.pdf",
+      "profiles": {
+        "officialProfile": "https://conf.orsc.org.cn/storage/files/20250514/4Zkvysgt59ZC6F6C848O7DEYnHSAjAcsml2lICYW.pdf",
+        "conferenceBio": "https://www.csiam.org.cn/upload/shuxue/Uploads/Editor/2022-11-16/6374db8b4dad4.pdf",
+        "orcid": null,
+        "scholar": null,
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "国内商用求解器、数值软件和云端算法工程的直接职业样本，对数学优化转求解器研发非常有价值。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "professional_society_conference",
+          "url": "https://conf.orsc.org.cn/storage/files/20250514/4Zkvysgt59ZC6F6C848O7DEYnHSAjAcsml2lICYW.pdf",
+          "confidence": "A",
+          "supports": [
+            "Alibaba DAMO affiliation",
+            "MindOpt technical leadership and speaking role"
+          ],
+          "supportsClaims": [
+            "Alibaba DAMO affiliation",
+            "MindOpt technical leadership and speaking role"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "research_preprint",
+          "url": "https://arxiv.org/abs/2307.08085",
+          "confidence": "B",
+          "supports": [
+            "MindOpt Tuner authorship",
+            "numerical software optimization"
+          ],
+          "supportsClaims": [
+            "MindOpt Tuner authorship",
+            "numerical software optimization"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "patent_document",
+          "url": "https://qxb-img-osscache.qixin.com/patents_pdf_new/6f3117e0d5edc5a0a429866b15ed7813.pdf",
+          "confidence": "B",
+          "supports": [
+            "Alibaba DAMO patent inventorship"
+          ],
+          "supportsClaims": [
+            "Alibaba DAMO patent inventorship"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [
+        "学位院校尚未从权威个人履历确认",
+        "MindOpt当前正式内部职级未公开"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "qi-huangfu-cardinal",
+      "name": "Qi Huangfu",
+      "nameZh": "皇甫琦",
+      "companyId": "cardinal-operations",
+      "currentPosition": "COPT核心研发者；杉数科技报告人",
+      "team": "Cardinal Operations COPT",
+      "region": "Mainland China",
+      "category": "产业研究与工程样本",
+      "careerStage": "senior-expert",
+      "fieldTags": [
+        "MIP solver",
+        "linear programming",
+        "interior point methods",
+        "solver engineering",
+        "numerical optimization"
+      ],
+      "educationSummaryZh": "公开二级资料显示其为爱丁堡大学优化方向博士，长期参与LEAVES与COPT数学规划求解器研发。2025年中国运筹学会数学规划会议仍以杉数科技身份介绍COPT最新研发进展。",
+      "pathSummaryZh": "公开二级资料显示其为爱丁堡大学优化方向博士，长期参与LEAVES与COPT数学规划求解器研发。2025年中国运筹学会数学规划会议仍以杉数科技身份介绍COPT最新研发进展。",
+      "representativeWorks": [
+        {
+          "type": "software_manual",
+          "title": "Cardinal Optimizer COPT User Guide",
+          "url": "https://arxiv.org/abs/2208.14314"
+        },
+        {
+          "type": "software_manual",
+          "title": "杉数求解器用户手册 7.2.9",
+          "url": "https://pub.shanshu.ai/cardinalsite_v2/video/20250623/copt-userguide_cn.pdf"
+        }
+      ],
+      "homepage": "https://conf.orsc.org.cn/storage/files/20250514/4Zkvysgt59ZC6F6C848O7DEYnHSAjAcsml2lICYW.pdf",
+      "profiles": {
+        "officialProfile": "https://conf.orsc.org.cn/storage/files/20250514/4Zkvysgt59ZC6F6C848O7DEYnHSAjAcsml2lICYW.pdf",
+        "conferenceBio": "https://www.sohu.com/a/345585860_260616",
+        "orcid": null,
+        "scholar": null,
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "中国商业数学规划求解器核心研发路径，与整数规划、数值算法和优化软件工程高度相关。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "professional_society_conference",
+          "url": "https://conf.orsc.org.cn/storage/files/20250514/4Zkvysgt59ZC6F6C848O7DEYnHSAjAcsml2lICYW.pdf",
+          "confidence": "A",
+          "supports": [
+            "Cardinal Operations affiliation",
+            "COPT research role"
+          ],
+          "supportsClaims": [
+            "Cardinal Operations affiliation",
+            "COPT research role"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "software_publication",
+          "url": "https://arxiv.org/abs/2208.14314",
+          "confidence": "B",
+          "supports": [
+            "COPT authorship",
+            "solver development contribution"
+          ],
+          "supportsClaims": [
+            "COPT authorship",
+            "solver development contribution"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_software_manual",
+          "url": "https://pub.shanshu.ai/cardinalsite_v2/video/20250623/copt-userguide_cn.pdf",
+          "confidence": "A",
+          "supports": [
+            "continued COPT authorship in 2025"
+          ],
+          "supportsClaims": [
+            "continued COPT authorship in 2025"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [
+        "2026年正式管理头衔尚无个人官方页",
+        "爱丁堡大学博士经历来自二级报道，仍需官方履历确认"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "mingxuan-yuan-huawei",
+      "name": "Mingxuan Yuan",
+      "nameZh": "袁明轩",
+      "companyId": "huawei",
+      "currentPosition": "Principal Researcher",
+      "team": "Huawei Noah's Ark Lab",
+      "region": "Hong Kong / Mainland China",
+      "category": "产业研究与工程样本",
+      "careerStage": "principal-researcher",
+      "fieldTags": [
+        "learning to optimize",
+        "SAT",
+        "MIP",
+        "AI4EDA",
+        "vehicle routing",
+        "bin packing"
+      ],
+      "educationSummaryZh": "香港科技大学计算机博士，长期在华为从电信数据管理研究扩展到数据驱动优化、SAT/MIP求解、AI4EDA、装箱和物流路径优化。",
+      "pathSummaryZh": "香港科技大学计算机博士，长期在华为从电信数据管理研究扩展到数据驱动优化、SAT/MIP求解、AI4EDA、装箱和物流路径优化。",
+      "representativeWorks": [
+        {
+          "type": "paper",
+          "title": "A Data-Driven Three-Layer Algorithm for Split Delivery Vehicle Routing Problem with 3D Container Loading Constraint",
+          "url": "https://doi.org/10.1145/3219819.3219872"
+        },
+        {
+          "type": "paper",
+          "title": "Machine Learning Insides OptVerse AI Solver",
+          "url": "https://arxiv.org/abs/2401.05960"
+        }
+      ],
+      "homepage": "https://orcid.org/0000-0002-2236-8784",
+      "profiles": {
+        "officialProfile": "https://orcid.org/0000-0002-2236-8784",
+        "conferenceBio": "https://www.eda2.com/iseda2024/tutorials.html",
+        "orcid": "https://orcid.org/0000-0002-2236-8784",
+        "scholar": null,
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "兼具数学求解器、供应链物流落地和香港产业研究路径，是港新优先策略下的重要工业研究样本。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "persistent_researcher_identifier",
+          "url": "https://orcid.org/0000-0002-2236-8784",
+          "confidence": "A",
+          "supports": [
+            "Huawei Noah's Ark Lab employment",
+            "verified Huawei email domain"
+          ],
+          "supportsClaims": [
+            "Huawei Noah's Ark Lab employment",
+            "verified Huawei email domain"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "authoritative_conference_bio",
+          "url": "https://www.eda2.com/iseda2024/tutorials.html",
+          "confidence": "A",
+          "supports": [
+            "principal researcher role",
+            "HKUST PhD",
+            "research directions"
+          ],
+          "supportsClaims": [
+            "principal researcher role",
+            "HKUST PhD",
+            "research directions"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "peer_reviewed_publication",
+          "url": "https://doi.org/10.1145/3219819.3219872",
+          "confidence": "A",
+          "supports": [
+            "industrial vehicle routing and container loading research"
+          ],
+          "supportsClaims": [
+            "industrial vehicle routing and container loading research"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [
+        "公开资料对博士毕业年份存在2011与2012两种记载"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "huiling-zhen-huawei",
+      "name": "Hui-Ling Zhen",
+      "nameZh": "甄慧玲",
+      "companyId": "huawei",
+      "currentPosition": "Principal Researcher",
+      "team": "Huawei Noah's Ark Lab",
+      "region": "Hong Kong",
+      "category": "产业研究与工程样本",
+      "careerStage": "principal-researcher",
+      "fieldTags": [
+        "mathematical programming",
+        "AI solver",
+        "EDA",
+        "formal verification",
+        "LLM reasoning"
+      ],
+      "educationSummaryZh": "应用数学博士，在香港城市大学完成博后后进入华为，参与数学规划求解器、自动测试向量生成、逻辑等价验证、EDA与LLM推理研究。",
+      "pathSummaryZh": "应用数学博士，在香港城市大学完成博后后进入华为，参与数学规划求解器、自动测试向量生成、逻辑等价验证、EDA与LLM推理研究。",
+      "representativeWorks": [
+        {
+          "type": "paper",
+          "title": "Machine Learning Insides OptVerse AI Solver",
+          "url": "https://arxiv.org/abs/2401.05960"
+        },
+        {
+          "type": "bibliography",
+          "title": "Hui-Ling Zhen OpenReview profile",
+          "url": "https://openreview.net/profile?id=~Hui-Ling_Zhen1"
+        }
+      ],
+      "homepage": "https://openreview.net/profile?id=~Hui-Ling_Zhen1",
+      "profiles": {
+        "officialProfile": "https://openreview.net/profile?id=~Hui-Ling_Zhen1",
+        "conferenceBio": "https://www.eda2.com/iseda2024/tutorials.html",
+        "orcid": null,
+        "scholar": "https://scholar.google.com.hk/citations?user=gq29DtwAAAAJ&hl=zh-CN",
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "应用数学博士和博后进入香港华为Principal Researcher的路径具有高度参考价值，方向也连接求解器、优化与工业AI。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "verified_academic_profile",
+          "url": "https://openreview.net/profile?id=~Hui-Ling_Zhen1",
+          "confidence": "A",
+          "supports": [
+            "principal researcher role",
+            "verified Huawei email",
+            "postdoctoral career history",
+            "publications"
+          ],
+          "supportsClaims": [
+            "principal researcher role",
+            "verified Huawei email",
+            "postdoctoral career history",
+            "publications"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "authoritative_conference_bio",
+          "url": "https://www.eda2.com/iseda2024/tutorials.html",
+          "confidence": "A",
+          "supports": [
+            "Huawei Noah's Ark Lab role",
+            "applied mathematics PhD",
+            "solver and EDA work"
+          ],
+          "supportsClaims": [
+            "Huawei Noah's Ark Lab role",
+            "applied mathematics PhD",
+            "solver and EDA work"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "research_preprint",
+          "url": "https://arxiv.org/abs/2401.05960",
+          "confidence": "B",
+          "supports": [
+            "OptVerse AI Solver authorship"
+          ],
+          "supportsClaims": [
+            "OptVerse AI Solver authorship"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [
+        "部分会议页面将Principal误拼为Principle，统一采用OpenReview的Principal Researcher"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "laurent-perron-google",
+      "name": "Laurent Perron",
+      "nameZh": null,
+      "companyId": "google-research",
+      "currentPosition": "Operations Research researcher；OR-Tools creator and lead contributor",
+      "team": "Google Operations Research / OR-Tools",
+      "region": "Europe",
+      "category": "产业研究与工程样本",
+      "careerStage": "technical-leader",
+      "fieldTags": [
+        "constraint programming",
+        "CP-SAT",
+        "vehicle routing",
+        "solver development",
+        "open source"
+      ],
+      "educationSummaryZh": "法国高等师范学院计算机博士，在ILOG从求解器开发者成长为团队负责人和架构师，2008年加入Google并创建、长期维护OR-Tools与CP-SAT。",
+      "pathSummaryZh": "法国高等师范学院计算机博士，在ILOG从求解器开发者成长为团队负责人和架构师，2008年加入Google并创建、长期维护OR-Tools与CP-SAT。",
+      "representativeWorks": [
+        {
+          "type": "open_source",
+          "title": "Google OR-Tools",
+          "url": "https://github.com/google/or-tools"
+        },
+        {
+          "type": "software_citation",
+          "title": "How to cite OR-Tools and its solvers",
+          "url": "https://developers.google.com/optimization/support/cite"
+        }
+      ],
+      "homepage": "https://research.google/people/105821/",
+      "profiles": {
+        "officialProfile": "https://research.google/people/105821/",
+        "conferenceBio": "https://cpaior2020.dbai.tuwien.ac.at/masterclass/",
+        "orcid": null,
+        "scholar": null,
+        "openAlex": null,
+        "github": "https://github.com/google/or-tools"
+      },
+      "relevanceZh": "商业求解器研发转全球开源OR工具链的标杆路径，是约束规划、路由与求解器工程的上限样本。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "official_company_profile",
+          "url": "https://research.google/people/105821/",
+          "confidence": "A",
+          "supports": [
+            "Google Operations Research role",
+            "authored publications"
+          ],
+          "supportsClaims": [
+            "Google Operations Research role",
+            "authored publications"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_open_source_project",
+          "url": "https://github.com/google/or-tools",
+          "confidence": "A",
+          "supports": [
+            "OR-Tools implementation and project activity"
+          ],
+          "supportsClaims": [
+            "OR-Tools implementation and project activity"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "authoritative_conference_bio",
+          "url": "https://cpaior2020.dbai.tuwien.ac.at/masterclass/",
+          "confidence": "A",
+          "supports": [
+            "education",
+            "ILOG career",
+            "Google OR team role",
+            "OR-Tools creator status"
+          ],
+          "supportsClaims": [
+            "education",
+            "ILOG career",
+            "Google OR team role",
+            "OR-Tools creator status"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [
+        "Google当前内部职级未在个人页公开"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "tobias-achterberg-gurobi",
+      "name": "Tobias Achterberg",
+      "nameZh": null,
+      "companyId": "gurobi",
+      "currentPosition": "Vice President of R&D",
+      "team": "Gurobi Research and Development",
+      "region": "Europe / United States",
+      "category": "产业研究与工程样本",
+      "careerStage": "executive-technical",
+      "fieldTags": [
+        "mixed integer programming",
+        "SCIP",
+        "branch and cut",
+        "conflict analysis",
+        "solver R&D"
+      ],
+      "educationSummaryZh": "柏林工业大学优化博士，以SCIP、冲突分析、分支定界和MIPLIB研究进入商业求解器行业，2014年加入Gurobi，2020年获晋升为研发副总裁。",
+      "pathSummaryZh": "柏林工业大学优化博士，以SCIP、冲突分析、分支定界和MIPLIB研究进入商业求解器行业，2014年加入Gurobi，2020年获晋升为研发副总裁。",
+      "representativeWorks": [
+        {
+          "type": "paper",
+          "title": "SCIP: Solving Constraint Integer Programs",
+          "url": "https://doi.org/10.1007/s12532-008-0001-1"
+        },
+        {
+          "type": "bibliography",
+          "title": "Tobias Achterberg DBLP bibliography",
+          "url": "https://dblp.org/pid/71/6632"
+        }
+      ],
+      "homepage": "https://www.gurobi.com/news/gurobi-optimization-announces-promotion-of-dr-tobias-achterberg-to-vice-president-of-rd/",
+      "profiles": {
+        "officialProfile": "https://www.gurobi.com/news/gurobi-optimization-announces-promotion-of-dr-tobias-achterberg-to-vice-president-of-rd/",
+        "conferenceBio": null,
+        "orcid": null,
+        "scholar": null,
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "整数规划博士进入顶级商业求解器核心研发与管理层的最高价值样本。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "official_company_profile",
+          "url": "https://www.gurobi.com/news/gurobi-optimization-announces-promotion-of-dr-tobias-achterberg-to-vice-president-of-rd/",
+          "confidence": "A",
+          "supports": [
+            "Gurobi career",
+            "VP of R&D promotion",
+            "solver industry timeline"
+          ],
+          "supportsClaims": [
+            "Gurobi career",
+            "VP of R&D promotion",
+            "solver industry timeline"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "peer_reviewed_publication",
+          "url": "https://doi.org/10.1007/s12532-008-0001-1",
+          "confidence": "A",
+          "supports": [
+            "SCIP authorship",
+            "constraint integer programming contribution"
+          ],
+          "supportsClaims": [
+            "SCIP authorship",
+            "constraint integer programming contribution"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "bibliographic_database",
+          "url": "https://dblp.org/pid/71/6632",
+          "confidence": "A",
+          "supports": [
+            "publication history",
+            "doctoral thesis"
+          ],
+          "supportsClaims": [
+            "publication history",
+            "doctoral thesis"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [
+        "VP头衔来源为2020年官方公告，仍需补充2026年个人团队页确认是否保持不变"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "matthias-miltenberger-gurobi",
+      "name": "Matthias Miltenberger",
+      "nameZh": null,
+      "companyId": "gurobi",
+      "currentPosition": "Manager of Optimization Support",
+      "team": "Gurobi Optimization Support",
+      "region": "Europe",
+      "category": "产业研究与工程样本",
+      "careerStage": "senior-manager",
+      "fieldTags": [
+        "linear programming",
+        "mixed integer programming",
+        "SCIP",
+        "SoPlex",
+        "solver support",
+        "numerical stability"
+      ],
+      "educationSummaryZh": "柏林工业大学博士，在Zuse Institute Berlin长期开发、维护和支持SCIP与SoPlex，研究MILP中的线性规划和数值问题，2019年加入Gurobi。",
+      "pathSummaryZh": "柏林工业大学博士，在Zuse Institute Berlin长期开发、维护和支持SCIP与SoPlex，研究MILP中的线性规划和数值问题，2019年加入Gurobi。",
+      "representativeWorks": [
+        {
+          "type": "doctoral_thesis",
+          "title": "Linear Programming in MILP Solving - A Computational Perspective",
+          "url": "https://www.zib.de/members/miltenberger"
+        },
+        {
+          "type": "paper",
+          "title": "Exploring the Numerics of Branch-and-Cut for Mixed Integer Linear Optimization",
+          "url": "https://arxiv.org/abs/1803.03455"
+        },
+        {
+          "type": "open_source",
+          "title": "Matthias Miltenberger GitHub",
+          "url": "https://github.com/mattmilten"
+        }
+      ],
+      "homepage": "https://support.gurobi.com/hc/en-us/profiles/388129208911-Matthias-Miltenberger",
+      "profiles": {
+        "officialProfile": "https://support.gurobi.com/hc/en-us/profiles/388129208911-Matthias-Miltenberger",
+        "conferenceBio": "https://www.gurobi.com/microsite/gurobi-summit-emea-2025/speakers",
+        "orcid": null,
+        "scholar": null,
+        "openAlex": null,
+        "github": "https://github.com/mattmilten"
+      },
+      "relevanceZh": "优化软件开发、数值稳定性、客户问题求解与技术支持结合的可复制路径。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "official_company_profile",
+          "url": "https://support.gurobi.com/hc/en-us/profiles/388129208911-Matthias-Miltenberger",
+          "confidence": "A",
+          "supports": [
+            "current Gurobi role",
+            "2026 support activity"
+          ],
+          "supportsClaims": [
+            "current Gurobi role",
+            "2026 support activity"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_company_conference_bio",
+          "url": "https://www.gurobi.com/microsite/gurobi-summit-emea-2025/speakers",
+          "confidence": "A",
+          "supports": [
+            "education",
+            "ZIB career",
+            "Gurobi joining date"
+          ],
+          "supportsClaims": [
+            "education",
+            "ZIB career",
+            "Gurobi joining date"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_research_institute_bibliography",
+          "url": "https://www.zib.de/members/miltenberger",
+          "confidence": "A",
+          "supports": [
+            "doctoral thesis",
+            "SCIP and LP publications"
+          ],
+          "supportsClaims": [
+            "doctoral thesis",
+            "SCIP and LP publications"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "ishai-menache-microsoft",
+      "name": "Ishai Menache",
+      "nameZh": null,
+      "companyId": "microsoft-research",
+      "currentPosition": "Partner Research Manager；MLO group lead",
+      "team": "Microsoft Research Machine Learning and Optimization",
+      "region": "United States",
+      "category": "产业研究与工程样本",
+      "careerStage": "leader",
+      "fieldTags": [
+        "large scale optimization",
+        "cloud supply chain",
+        "resource allocation",
+        "pricing",
+        "OptiGuide"
+      ],
+      "educationSummaryZh": "Technion博士、MIT博后，研究从强化学习、分布式优化和博弈论扩展到云资源定价与配置；2011年进入Microsoft Research，2019年建立连接算法与云基础设施的优化团队。",
+      "pathSummaryZh": "Technion博士、MIT博后，研究从强化学习、分布式优化和博弈论扩展到云资源定价与配置；2011年进入Microsoft Research，2019年建立连接算法与云基础设施的优化团队。",
+      "representativeWorks": [
+        {
+          "type": "project",
+          "title": "OptiGuide: GenAI for Supply Chain Optimization",
+          "url": "https://www.microsoft.com/en-us/research/publication/large-language-models-for-supply-chain-optimization/"
+        },
+        {
+          "type": "bibliography",
+          "title": "Ishai Menache Microsoft Research publications",
+          "url": "https://www.microsoft.com/en-us/research/people/ishai/publications/"
+        }
+      ],
+      "homepage": "https://www.microsoft.com/en-us/research/people/ishai",
+      "profiles": {
+        "officialProfile": "https://www.microsoft.com/en-us/research/people/ishai",
+        "conferenceBio": null,
+        "orcid": null,
+        "scholar": null,
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "优化理论、云基础设施和供应链决策智能结合的团队负责人样本，适合作为工业研究路线的上限参照。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "official_company_profile",
+          "url": "https://www.microsoft.com/en-us/research/people/ishai",
+          "confidence": "A",
+          "supports": [
+            "current role",
+            "group leadership",
+            "PhD and postdoc history",
+            "research interests"
+          ],
+          "supportsClaims": [
+            "current role",
+            "group leadership",
+            "PhD and postdoc history",
+            "research interests"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_company_bibliography",
+          "url": "https://www.microsoft.com/en-us/research/people/ishai/publications/",
+          "confidence": "A",
+          "supports": [
+            "optimization and supply chain publications"
+          ],
+          "supportsClaims": [
+            "optimization and supply chain publications"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_company_interview",
+          "url": "https://www.microsoft.com/en-us/research/podcast/can-we-ai-our-way-to-a-more-sustainable-world/",
+          "confidence": "A",
+          "supports": [
+            "career transition story",
+            "Microsoft joining year",
+            "cloud optimization motivation"
+          ],
+          "supportsClaims": [
+            "career transition story",
+            "Microsoft joining year",
+            "cloud optimization motivation"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "konstantina-mellou-microsoft",
+      "name": "Konstantina Mellou",
+      "nameZh": null,
+      "companyId": "microsoft-research",
+      "currentPosition": "Principal Researcher",
+      "team": "Microsoft Research Machine Learning and Optimization",
+      "region": "United States",
+      "category": "产业研究与工程样本",
+      "careerStage": "principal-researcher",
+      "fieldTags": [
+        "cloud supply chain",
+        "VM allocation",
+        "transportation",
+        "logistics",
+        "GenAI for optimization"
+      ],
+      "educationSummaryZh": "雅典国立理工大学电气与计算机工程背景，MIT运筹学博士，进入MSR后聚焦云供应链优化、数据中心管理、VM分配、交通物流和OptiGuide。",
+      "pathSummaryZh": "雅典国立理工大学电气与计算机工程背景，MIT运筹学博士，进入MSR后聚焦云供应链优化、数据中心管理、VM分配、交通物流和OptiGuide。",
+      "representativeWorks": [
+        {
+          "type": "paper",
+          "title": "Large Language Models for Supply Chain Decisions",
+          "url": "https://www.microsoft.com/en-us/research/publication/large-language-models-for-supply-chain-decisions/"
+        },
+        {
+          "type": "bibliography",
+          "title": "Konstantina Mellou Microsoft Research publications",
+          "url": "https://www.microsoft.com/en-us/research/people/kmellou/publications/"
+        }
+      ],
+      "homepage": "https://www.microsoft.com/en-us/research/people/kmellou/",
+      "profiles": {
+        "officialProfile": "https://www.microsoft.com/en-us/research/people/kmellou/",
+        "conferenceBio": null,
+        "orcid": null,
+        "scholar": null,
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "运筹学博士进入顶级工业研究院并持续做云供应链和决策智能的清晰样本。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "official_company_profile",
+          "url": "https://www.microsoft.com/en-us/research/people/kmellou/",
+          "confidence": "A",
+          "supports": [
+            "current role",
+            "MIT PhD",
+            "education",
+            "research interests"
+          ],
+          "supportsClaims": [
+            "current role",
+            "MIT PhD",
+            "education",
+            "research interests"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_company_bibliography",
+          "url": "https://www.microsoft.com/en-us/research/people/kmellou/publications/",
+          "confidence": "A",
+          "supports": [
+            "cloud optimization and supply chain publications"
+          ],
+          "supportsClaims": [
+            "cloud optimization and supply chain publications"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_company_project",
+          "url": "https://www.microsoft.com/en-us/research/people/kmellou/projects/",
+          "confidence": "A",
+          "supports": [
+            "OptiGuide production use",
+            "cloud efficiency optimization project"
+          ],
+          "supportsClaims": [
+            "OptiGuide production use",
+            "cloud efficiency optimization project"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "luke-marshall-microsoft",
+      "name": "Luke Marshall",
+      "nameZh": null,
+      "companyId": "microsoft-research",
+      "currentPosition": "Principal Researcher",
+      "team": "Microsoft Research MLO / CORE",
+      "region": "United States",
+      "category": "产业研究与工程样本",
+      "careerStage": "principal-researcher",
+      "fieldTags": [
+        "discrete optimization",
+        "mathematical programming",
+        "time-expanded networks",
+        "supply chain",
+        "logistics"
+      ],
+      "educationSummaryZh": "昆士兰大学数学统计本科、Georgia Tech运筹学博士并辅修机器学习，同时具有十年以上商业软件开发经验；在MSR从事云系统、供应链和物流的大规模离散优化。",
+      "pathSummaryZh": "昆士兰大学数学统计本科、Georgia Tech运筹学博士并辅修机器学习，同时具有十年以上商业软件开发经验；在MSR从事云系统、供应链和物流的大规模离散优化。",
+      "representativeWorks": [
+        {
+          "type": "paper",
+          "title": "Multi-Itinerary Optimization as Cloud Service",
+          "url": "https://www.microsoft.com/en-us/research/uploads/prod/2019/10/MIO_Bing-11.pdf"
+        },
+        {
+          "type": "bibliography",
+          "title": "Luke Marshall Microsoft Research publications",
+          "url": "https://www.microsoft.com/en-us/research/people/lumarsha/publications/"
+        }
+      ],
+      "homepage": "https://www.microsoft.com/en-us/research/people/lumarsha/",
+      "profiles": {
+        "officialProfile": "https://www.microsoft.com/en-us/research/people/lumarsha/",
+        "conferenceBio": null,
+        "orcid": null,
+        "scholar": null,
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "数学、运筹与商业软件开发三种能力结合的高可复制工业研究路径。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "official_company_profile",
+          "url": "https://www.microsoft.com/en-us/research/people/lumarsha/",
+          "confidence": "A",
+          "supports": [
+            "current role",
+            "education",
+            "commercial software experience",
+            "research interests"
+          ],
+          "supportsClaims": [
+            "current role",
+            "education",
+            "commercial software experience",
+            "research interests"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_company_bibliography",
+          "url": "https://www.microsoft.com/en-us/research/people/lumarsha/publications/",
+          "confidence": "A",
+          "supports": [
+            "optimization and logistics publications"
+          ],
+          "supportsClaims": [
+            "optimization and logistics publications"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "industrial_research_paper",
+          "url": "https://www.microsoft.com/en-us/research/uploads/prod/2019/10/MIO_Bing-11.pdf",
+          "confidence": "A",
+          "supports": [
+            "cloud optimization application"
+          ],
+          "supportsClaims": [
+            "cloud optimization application"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "sirui-li-microsoft",
+      "name": "Sirui Li",
+      "nameZh": "李思睿",
+      "companyId": "microsoft-research",
+      "currentPosition": "Senior Researcher",
+      "team": "Microsoft Research Machine Learning and Optimization",
+      "region": "United States",
+      "category": "产业研究与工程样本",
+      "careerStage": "early-career",
+      "fieldTags": [
+        "learning-guided optimization",
+        "MILP foundation models",
+        "vehicle routing",
+        "job shop scheduling",
+        "traffic optimization"
+      ],
+      "educationSummaryZh": "Washington University in St. Louis计算机与数学双本科、MIT Social and Engineering Systems与统计博士，博士期间曾在Microsoft Research、AWS和MathWorks实习，随后加入MSR。",
+      "pathSummaryZh": "Washington University in St. Louis计算机与数学双本科、MIT Social and Engineering Systems与统计博士，博士期间曾在Microsoft Research、AWS和MathWorks实习，随后加入MSR。",
+      "representativeWorks": [
+        {
+          "type": "paper",
+          "title": "Towards Foundation Models for Mixed Integer Linear Programming",
+          "url": "https://arxiv.org/abs/2410.08288"
+        },
+        {
+          "type": "paper",
+          "title": "Learning-Guided Rolling Horizon Optimization for Flexible Job Shop Scheduling",
+          "url": "https://siruil.github.io/"
+        },
+        {
+          "type": "paper",
+          "title": "Learning to Segment for Vehicle Routing Problems",
+          "url": "https://siruil.github.io/"
+        }
+      ],
+      "homepage": "https://www.microsoft.com/en-us/research/people/siruili/",
+      "profiles": {
+        "officialProfile": "https://www.microsoft.com/en-us/research/people/siruili/",
+        "conferenceBio": null,
+        "orcid": null,
+        "scholar": null,
+        "openAlex": null,
+        "github": "https://github.com/siruil"
+      },
+      "relevanceZh": "职业阶段最接近用户未来申请时点的年轻工业研究员样本，覆盖MILP、调度、路由和机器学习优化。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "official_company_profile",
+          "url": "https://www.microsoft.com/en-us/research/people/siruili/",
+          "confidence": "A",
+          "supports": [
+            "current Senior Researcher role",
+            "MLO group membership"
+          ],
+          "supportsClaims": [
+            "current Senior Researcher role",
+            "MLO group membership"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "personal_research_profile",
+          "url": "https://siruil.github.io/",
+          "confidence": "B",
+          "supports": [
+            "education",
+            "internship path",
+            "publications",
+            "research directions"
+          ],
+          "supportsClaims": [
+            "education",
+            "internship path",
+            "publications",
+            "research directions"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "peer_reviewed_publication",
+          "url": "https://openreview.net/pdf?id=6yENDA7J4G",
+          "confidence": "A",
+          "supports": [
+            "MILP foundation model research"
+          ],
+          "supportsClaims": [
+            "MILP foundation model research"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    },
+    {
+      "id": "marco-molinaro-microsoft",
+      "name": "Marco Molinaro",
+      "nameZh": null,
+      "companyId": "microsoft-research",
+      "currentPosition": "Principal Researcher",
+      "team": "Microsoft Research Machine Learning and Optimization",
+      "region": "United States",
+      "category": "产业研究与工程样本",
+      "careerStage": "principal-researcher",
+      "fieldTags": [
+        "integer programming",
+        "online optimization",
+        "cutting planes",
+        "stochastic integer programming",
+        "cloud allocation"
+      ],
+      "educationSummaryZh": "2013年获得Carnegie Mellon University Algorithms, Combinatorics and Optimization博士，之后先后在PUC-Rio、TU Delft和Georgia Tech任教，再转入Microsoft Research。",
+      "pathSummaryZh": "2013年获得Carnegie Mellon University Algorithms, Combinatorics and Optimization博士，之后先后在PUC-Rio、TU Delft和Georgia Tech任教，再转入Microsoft Research。",
+      "representativeWorks": [
+        {
+          "type": "technical_report",
+          "title": "MSR CORE's Optimization Toolkit",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2023/02/CORE-Toolkit_external.pdf"
+        },
+        {
+          "type": "bibliography",
+          "title": "Marco Molinaro Microsoft Research publications",
+          "url": "https://www.microsoft.com/en-us/research/people/mmolinaro/publications/"
+        }
+      ],
+      "homepage": "https://www.microsoft.com/en-us/research/people/mmolinaro/",
+      "profiles": {
+        "officialProfile": "https://www.microsoft.com/en-us/research/people/mmolinaro/",
+        "conferenceBio": null,
+        "orcid": null,
+        "scholar": null,
+        "openAlex": null,
+        "github": null
+      },
+      "relevanceZh": "从顶级优化理论教职转入工业研究并参与云资源优化的参照样本，适合比较学术与产业研究的能力迁移。",
+      "confidence": "A/B · 个人职业证据与独立成果交叉核验",
+      "evidence": [
+        {
+          "type": "official_company_profile",
+          "url": "https://www.microsoft.com/en-us/research/people/mmolinaro/",
+          "confidence": "A",
+          "supports": [
+            "current role",
+            "PhD",
+            "academic career",
+            "research directions"
+          ],
+          "supportsClaims": [
+            "current role",
+            "PhD",
+            "academic career",
+            "research directions"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_company_bibliography",
+          "url": "https://www.microsoft.com/en-us/research/people/mmolinaro/publications/",
+          "confidence": "A",
+          "supports": [
+            "integer programming and online optimization publications"
+          ],
+          "supportsClaims": [
+            "integer programming and online optimization publications"
+          ],
+          "checkedAt": "2026-07-10"
+        },
+        {
+          "type": "official_technical_report",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2023/02/CORE-Toolkit_external.pdf",
+          "confidence": "A",
+          "supports": [
+            "industrial optimization toolkit contribution"
+          ],
+          "supportsClaims": [
+            "industrial optimization toolkit contribution"
+          ],
+          "checkedAt": "2026-07-10"
+        }
+      ],
+      "uncertainties": [],
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_industry_candidate"
+    }
+  ],
+  "review": [
+    {
+      "id": "dongdong-ge-cardinal",
+      "name": "Dongdong Ge",
+      "reason": "insufficient_independent_evidence"
+    },
+    {
+      "id": "han-wu-huawei",
+      "name": "Han Wu",
+      "reason": "insufficient_independent_evidence"
+    },
+    {
+      "id": "sven-leyffer-argonne",
+      "name": "Sven Leyffer",
+      "reason": "insufficient_independent_evidence"
+    }
+  ]
+}

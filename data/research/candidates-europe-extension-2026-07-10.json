@@ -1,0 +1,720 @@
+{
+  "meta": {
+    "schemaVersion": "candidate-research.v1",
+    "title": "Postdoc Faculty Radar 欧洲青年学者扩展候选",
+    "verifiedAt": "2026-07-10",
+    "region": "Europe",
+    "youngScholarCount": 15,
+    "phdYearRange": [
+      2016,
+      2026
+    ],
+    "researchAreas": [
+      "mathematical optimization",
+      "variational inequalities and nonsmooth optimization",
+      "numerical analysis and scientific computing",
+      "numerical linear algebra",
+      "machine learning optimization"
+    ],
+    "sourcePolicy": "优先使用大学、研究机构、国家论文库、官方基金与招聘页面，以及本人维护的学术主页或CV；每条至少两条权威来源。",
+    "deduplication": {
+      "comparedFiles": [
+        "data/manual/people.json",
+        "data/manual/labs.json",
+        "data/research/candidates-europe-2026-07-10.json",
+        "data/research/candidates-hksg-mainland-2026-07-10.json"
+      ],
+      "matchingKeys": [
+        "normalized name",
+        "stable id",
+        "normalized homepage URL"
+      ],
+      "duplicatesFound": 0
+    },
+    "recruitmentTypes": [
+      "official_opening",
+      "funding_expansion",
+      "rolling_application_or_fellowship_host",
+      "no_public_signal",
+      "expired"
+    ],
+    "openAlexPolicy": "OpenAlex IDs are null unless independently verified; no ID is inferred or guessed."
+  },
+  "youngScholars": [
+    {
+      "id": "de-tu-darmstadt-constantin-christof",
+      "name": "Constantin Christof",
+      "institution": "Technical University of Darmstadt",
+      "country": "Germany",
+      "region": "Europe",
+      "positionStage": "Full Professor of Continuous Optimization",
+      "phdYear": 2018,
+      "phdEvidence": {
+        "degree": "Dr. rer. nat.",
+        "institution": "TU Dortmund",
+        "sourceUrl": "https://eldorado.tu-dortmund.de/server/api/core/bitstreams/e4ef0223-ca9c-40b2-8e1f-57f015f653cb/content",
+        "note": "博士论文扉页注明2018年5月提交。"
+      },
+      "homepage": "https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/personen_1/personendetails/christof__constantin.de.jsp",
+      "groupOrOpeningsUrl": "https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/index.de.jsp",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "infinite-dimensional optimization",
+        "variational inequalities",
+        "nonsmooth optimization",
+        "PDE-constrained optimization",
+        "semismooth Newton methods"
+      ],
+      "selectionEvidence": "博士毕业七年后获连续优化正教授职位；工作直接覆盖VI灵敏度分析、非光滑信赖域、半光滑Newton和PDE约束优化，并持续发表于COAP、ESAIM COCV、Numerische Mathematik等平台。",
+      "careerPath": "TU Dortmund PhD (2018) -> TU Munich postdoc -> University of Duisburg-Essen / Augsburg positions -> TU Darmstadt full professor (2025).",
+      "recruitmentSignal": {
+        "type": "no_public_signal",
+        "scope": "postdoc or research staff",
+        "evidenceUrl": "https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/index.de.jsp",
+        "note": "核验时未发现其课题组当前明确的博士后公告。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/personen_1/personendetails/christof__constantin.de.jsp",
+        "https://eldorado.tu-dortmund.de/server/api/core/bitstreams/e4ef0223-ca9c-40b2-8e1f-57f015f653cb/content",
+        "https://indico.math.cnrs.fr/event/16238/page/1097-participants"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "at-klagenfurt-caroline-geiersbach",
+      "name": "Caroline Geiersbach",
+      "institution": "University of Klagenfurt",
+      "country": "Austria",
+      "region": "Europe",
+      "positionStage": "Professor of Stochastic Optimization",
+      "phdYear": 2020,
+      "phdEvidence": {
+        "degree": "PhD",
+        "institution": "University of Vienna",
+        "sourceUrl": "https://www.wias-berlin.de/annual_report/2020/arr20.pdf",
+        "note": "WIAS 2020年度报告记录其于2020年5月20日完成博士答辩。"
+      },
+      "homepage": "https://www.aau.at/mathematik/team/",
+      "groupOrOpeningsUrl": "https://www.aau.at/doktorat/doktoratsprogramme/modeling-analysis-optimization/",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "stochastic optimization",
+        "PDE-constrained optimization",
+        "optimization under uncertainty",
+        "stochastic variational inequalities",
+        "shape optimization"
+      ],
+      "selectionEvidence": "从WIAS非光滑变分问题组副组长成长为Klagenfurt随机优化教授；在SIAM Journal on Optimization、Mathematics of Operations Research等发表随机PDE约束与随机近端方法成果。",
+      "careerPath": "University of Vienna PhD (2020) -> WIAS Berlin researcher and deputy group lead -> University of Klagenfurt professor.",
+      "recruitmentSignal": {
+        "type": "no_public_signal",
+        "scope": "postdoc",
+        "evidenceUrl": "https://www.aau.at/mathematik/team/",
+        "note": "官方页面确认其新教授职位和博士项目参与，但未发现当前明确博士后岗位。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://www.aau.at/mathematik/team/",
+        "https://www.wias-berlin.de/annual_report/2020/arr20.pdf",
+        "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "it-pisa-cecilia-pagliantini",
+      "name": "Cecilia Pagliantini",
+      "institution": "University of Pisa",
+      "country": "Italy",
+      "region": "Europe",
+      "positionStage": "Fixed-term Researcher in Numerical Analysis",
+      "phdYear": 2016,
+      "phdEvidence": {
+        "degree": "PhD",
+        "institution": "ETH Zurich",
+        "sourceUrl": "https://research.tue.nl/en/publications/computational-magnetohydrodynamics-with-discrete-differential-for/",
+        "note": "TU/e权威书目记录将该论文标为ETH Zurich 2016年博士论文。"
+      },
+      "homepage": "https://www.unipi.it/ateneo/organizzazione/persone/cecilia-pagliantini-183262/",
+      "groupOrOpeningsUrl": "https://numpi.dm.unipi.it/people/cecilia-pagliantini/",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "structure-preserving numerical methods",
+        "model order reduction",
+        "Hamiltonian systems",
+        "finite element exterior calculus",
+        "scientific computing"
+      ],
+      "selectionEvidence": "ETH博士后在EPFL Hesthaven组和TU/e形成结构保持模型降阶主线，现任Pisa数值分析研究员；成果覆盖Numerische Mathematik、Vlasov-Maxwell与Hamiltonian系统。",
+      "careerPath": "ETH Zurich PhD (2016) -> EPFL and European scientific-computing research positions -> TU/e researcher and supervisor -> University of Pisa researcher.",
+      "recruitmentSignal": {
+        "type": "no_public_signal",
+        "scope": "postdoc",
+        "evidenceUrl": "https://numpi.dm.unipi.it/people/cecilia-pagliantini/",
+        "note": "未发现其本人当前公开博士后岗位。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://www.unipi.it/ateneo/organizzazione/persone/cecilia-pagliantini-183262/",
+        "https://research.tue.nl/en/publications/computational-magnetohydrodynamics-with-discrete-differential-for/",
+        "https://numpi.dm.unipi.it/people/cecilia-pagliantini/"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "it-pisa-stefano-massei",
+      "name": "Stefano Massei",
+      "institution": "University of Pisa",
+      "country": "Italy",
+      "region": "Europe",
+      "positionStage": "Associate Professor of Numerical Analysis",
+      "phdYear": 2017,
+      "phdEvidence": {
+        "degree": "PhD",
+        "institution": "Scuola Normale Superiore",
+        "sourceUrl": "https://tesidottorato.depositolegale.it/handle/20.500.14242/65839",
+        "note": "意大利法定博士论文库记录出版年份为2017。"
+      },
+      "homepage": "https://www.unipi.it/ateneo/organizzazione/persone/stefano-massei-177216/",
+      "groupOrOpeningsUrl": "https://numpi.dm.unipi.it/research/numerical-linear-algebra/",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "numerical linear algebra",
+        "matrix functions",
+        "low-rank approximation",
+        "matrix equations",
+        "mixed-precision optimization"
+      ],
+      "selectionEvidence": "2020 Householder Prize共同获奖者，博士毕业八年内晋升副教授；在低秩矩阵函数、Sylvester/Lyapunov方程及低精度梯度法上持续发表。",
+      "careerPath": "Scuola Normale Superiore PhD (2017) -> EPFL / TU Eindhoven research positions -> University of Pisa faculty -> associate professor.",
+      "recruitmentSignal": {
+        "type": "no_public_signal",
+        "scope": "postdoc",
+        "evidenceUrl": "https://numpi.dm.unipi.it/people/",
+        "note": "Pisa数值分析组有统一人员页面，但未发现由其本人发布的当前博士后公告。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://www.unipi.it/ateneo/organizzazione/persone/stefano-massei-177216/",
+        "https://tesidottorato.depositolegale.it/handle/20.500.14242/65839",
+        "https://householder-symposium.github.io/prize/"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "it-bologna-davide-palitta",
+      "name": "Davide Palitta",
+      "institution": "University of Bologna",
+      "country": "Italy",
+      "region": "Europe",
+      "positionStage": "Senior Fixed-term Researcher (RTD-B), Numerical Analysis",
+      "phdYear": 2018,
+      "phdEvidence": {
+        "degree": "PhD in Mathematics",
+        "institution": "University of Bologna",
+        "sourceUrl": "https://www.unibo.it/sitoweb/davide.palitta/download/CV_short_ita.pdf",
+        "note": "官方CV记录博士阶段为2014-10至2018-04，并于2018年4月取得学位。"
+      },
+      "homepage": "https://www.unibo.it/sitoweb/davide.palitta",
+      "groupOrOpeningsUrl": "https://sites.google.com/site/palittadavide/",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": "https://orcid.org/0000-0002-6987-4430"
+      },
+      "researchTags": [
+        "numerical linear algebra",
+        "large-scale matrix equations",
+        "Krylov methods",
+        "randomized linear algebra",
+        "parallel-in-time methods"
+      ],
+      "selectionEvidence": "从Bologna博士到Max Planck Magdeburg三年博后，再回Bologna进入tenure-track；研究聚焦大规模矩阵方程、随机Krylov方法和数据同化中的数值线性代数。",
+      "careerPath": "University of Bologna PhD (2018) -> Max Planck Institute Magdeburg postdoc (2018-2021) -> University of Bologna RTD-A -> senior RTD-B.",
+      "recruitmentSignal": {
+        "type": "no_public_signal",
+        "scope": "postdoc",
+        "evidenceUrl": "https://sites.google.com/site/palittadavide/",
+        "note": "主页列出研究活动但未列出当前招聘。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://www.unibo.it/sitoweb/davide.palitta",
+        "https://www.unibo.it/sitoweb/davide.palitta/download/CV_short_ita.pdf",
+        "https://sites.google.com/site/palittadavide/"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "at-innsbruck-gianluca-ceruti",
+      "name": "Gianluca Ceruti",
+      "institution": "University of Innsbruck",
+      "country": "Austria",
+      "region": "Europe",
+      "positionStage": "Privatdozent / Scientific Staff in Numerical Analysis",
+      "phdYear": 2021,
+      "phdEvidence": {
+        "degree": "PhD in Mathematics",
+        "institution": "University of Tübingen",
+        "sourceUrl": "https://doi.org/10.15496/publikation-60054",
+        "note": "博士论文元数据记录年份为2021。"
+      },
+      "homepage": "https://www.uibk.ac.at/de/mathematik/team/gianluca-ceruti/",
+      "groupOrOpeningsUrl": "https://www.uibk.ac.at/mathematik/personal/",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "dynamical low-rank approximation",
+        "tensor methods",
+        "matrix differential equations",
+        "structure-preserving integration",
+        "scientific computing"
+      ],
+      "selectionEvidence": "博士工作与Christian Lubich合作发展鲁棒、秩自适应的动力低秩积分器；2026年取得数学Habilitation，形成矩阵/张量微分方程的独立数值分析路线。",
+      "careerPath": "University of Tübingen PhD (2021) -> numerical-analysis researcher at University of Innsbruck -> Habilitation in Mathematics (2026).",
+      "recruitmentSignal": {
+        "type": "no_public_signal",
+        "scope": "postdoc",
+        "evidenceUrl": "https://www.uibk.ac.at/de/mathematik/team/gianluca-ceruti/",
+        "note": "未发现其本人当前公开岗位。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://www.uibk.ac.at/de/mathematik/team/gianluca-ceruti/",
+        "https://doi.org/10.15496/publikation-60054",
+        "https://www.uibk.ac.at/de/fakultaeten-servicestelle/standorte/technikerstrasse/abgeschlossene-habilitationsverfahren-standort-technik/"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "fr-sorbonne-theo-mary",
+      "name": "Théo Mary",
+      "institution": "CNRS / Sorbonne Université, LIP6",
+      "country": "France",
+      "region": "Europe",
+      "positionStage": "CNRS Research Scientist",
+      "phdYear": 2017,
+      "phdEvidence": {
+        "degree": "PhD",
+        "institution": "University of Toulouse",
+        "sourceUrl": "https://tmary.perso.lip6.fr/publications.php",
+        "note": "个人学术出版页明确列出2017年博士论文。"
+      },
+      "homepage": "https://perso.lip6.fr/Theo.Mary/index.php",
+      "groupOrOpeningsUrl": "https://perso.lip6.fr/Theo.Mary/doc/positions_Sorbonne.pdf",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "numerical linear algebra",
+        "mixed precision",
+        "low-rank compression",
+        "sparse direct solvers",
+        "high-performance scientific computing"
+      ],
+      "selectionEvidence": "CNRS 2024铜牌、SIAG/LA Early Career Prize、Householder荣誉提名和MUMPS贡献者；是混合精度、稀疏求解和近似计算方向的高水平青年研究员。",
+      "careerPath": "University of Toulouse PhD (2017) -> University of Manchester postdoc -> CNRS researcher at Sorbonne LIP6 -> CNRS Bronze Medal (2024).",
+      "recruitmentSignal": {
+        "type": "official_opening",
+        "scope": "PhD and postdoctoral positions in HPC and numerical linear algebra",
+        "evidenceUrl": "https://perso.lip6.fr/Theo.Mary/doc/positions_Sorbonne.pdf",
+        "note": "个人主页及岗位PDF明确写明有多个博士与博士后名额，起始时间可协商。申请前仍需复核具体剩余名额。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://www.ins2i.cnrs.fr/fr/cnrsinfo/medaille-de-bronze-theo-mary-recompense-pour-ses-approximations",
+        "https://perso.lip6.fr/Theo.Mary/index.php",
+        "https://tmary.perso.lip6.fr/publications.php",
+        "https://perso.lip6.fr/Theo.Mary/doc/positions_Sorbonne.pdf"
+      ],
+      "uncertainties": [
+        "岗位PDF写明2025年3月或之后灵活入职，但没有逐个名额的关闭状态；申请前需邮件确认。"
+      ]
+    },
+    {
+      "id": "uk-leeds-massimiliano-fasi",
+      "name": "Massimiliano Fasi",
+      "institution": "University of Leeds",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "positionStage": "Lecturer in Software Engineering",
+      "phdYear": 2019,
+      "phdEvidence": {
+        "degree": "PhD in Applied Mathematics",
+        "institution": "University of Manchester",
+        "sourceUrl": "https://eps.leeds.ac.uk/computing/staff/14034/massimiliano-fasi",
+        "note": "Leeds官方档案明确注明2019年取得Manchester应用数学博士。"
+      },
+      "homepage": "https://eps.leeds.ac.uk/computing/staff/14034/massimiliano-fasi",
+      "groupOrOpeningsUrl": "https://phd.leeds.ac.uk/project/2310-mixed-precision-methods-for-numerical-",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "numerical linear algebra",
+        "mixed precision",
+        "rounding error analysis",
+        "mathematical software",
+        "exascale computing"
+      ],
+      "selectionEvidence": "Manchester博士后经Örebro Wenner-Gren Fellowship、Durham科学计算教职进入Leeds；研究连接数值线性代数、计算机算术和可扩展数学软件。",
+      "careerPath": "University of Manchester PhD (2019) -> Manchester and Örebro postdocs/fellowship -> Durham Assistant Professor -> University of Leeds Lecturer.",
+      "recruitmentSignal": {
+        "type": "official_opening",
+        "scope": "funded PhD project in mixed-precision numerical linear algebra",
+        "evidenceUrl": "https://phd.leeds.ac.uk/project/2310-mixed-precision-methods-for-numerical-",
+        "note": "Leeds官方项目页列出2026-09-30截止、2027-02-01开始；这是博士项目，不是博士后岗位。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://eps.leeds.ac.uk/computing/staff/14034/massimiliano-fasi",
+        "https://phd.leeds.ac.uk/project/2310-mixed-precision-methods-for-numerical-",
+        "https://www.maths.manchester.ac.uk/research/expertise/numerical-linear-algebra/"
+      ],
+      "uncertainties": [
+        "官方项目URL结尾由站点路由截断显示，但核验时页面可访问且项目编号为PGR-P-2310。"
+      ]
+    },
+    {
+      "id": "de-mainz-hendrik-ranocha",
+      "name": "Hendrik Ranocha",
+      "institution": "Johannes Gutenberg University Mainz",
+      "country": "Germany",
+      "region": "Europe",
+      "positionStage": "Professor of Numerical Mathematics",
+      "phdYear": 2018,
+      "phdEvidence": {
+        "degree": "PhD in Mathematics",
+        "institution": "TU Braunschweig",
+        "sourceUrl": "https://ranocha.de/people",
+        "note": "个人学术主页CV列明博士阶段为2016-04至2018-02。"
+      },
+      "homepage": "https://ranocha.de/home",
+      "groupOrOpeningsUrl": "https://ranocha.de/people",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "structure-preserving numerics",
+        "hyperbolic PDEs",
+        "Runge-Kutta methods",
+        "entropy-stable discretization",
+        "Julia scientific computing"
+      ],
+      "selectionEvidence": "博士毕业四年即获Hamburg W1、随后任Mainz教授；Trixi.jl核心贡献者，在高阶守恒律、熵稳定离散和时间积分方面兼具理论、软件与HPC影响。",
+      "careerPath": "TU Braunschweig PhD (2018) -> KAUST and Münster postdocs -> Hamburg W1 Assistant Professor -> Mainz Professor (2023).",
+      "recruitmentSignal": {
+        "type": "no_public_signal",
+        "scope": "postdoc",
+        "evidenceUrl": "https://ranocha.de/people",
+        "note": "组页列出成员和既往博后去向，但核验时没有当前博士后招聘公告。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://ranocha.de/people",
+        "https://www.nummath.math.uni-mainz.de/",
+        "https://ranocha.de/home"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "de-bremen-sebastian-banert",
+      "name": "Sebastian Banert",
+      "institution": "University of Bremen",
+      "country": "Germany",
+      "region": "Europe",
+      "positionStage": "Postdoctoral Research Assistant",
+      "phdYear": 2017,
+      "phdEvidence": {
+        "degree": "PhD in Mathematics",
+        "institution": "University of Vienna",
+        "sourceUrl": "https://utheses.univie.ac.at/detail/41885",
+        "note": "University of Vienna论文库记录出版年为2017，导师为Radu Ioan Boţ。"
+      },
+      "homepage": "https://www.math.uni-bremen.de/zetem/SebastianBanert/en",
+      "groupOrOpeningsUrl": "https://www.math.uni-bremen.de/zetem/SebastianBanert/en",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": "https://orcid.org/0000-0001-8110-6007"
+      },
+      "researchTags": [
+        "convex optimization",
+        "monotone inclusions",
+        "proximal splitting",
+        "nonsmooth optimization",
+        "inverse problems"
+      ],
+      "selectionEvidence": "博士论文直接研究Hilbert空间分裂算法；此后在KTH、Lund和Bremen持续发表Chambolle-Pock、forward-backward及自动Lyapunov分析成果，包括Mathematical Programming和SIAM Journal on Optimization。",
+      "careerPath": "University of Vienna PhD (2017) -> KTH postdoc -> Lund Automatic Control researcher -> University of Bremen postdoc.",
+      "recruitmentSignal": {
+        "type": "no_public_signal",
+        "scope": "postdoc or independent group opening",
+        "evidenceUrl": "https://www.math.uni-bremen.de/zetem/SebastianBanert/en",
+        "note": "本人当前为博后，未发现其独立招聘信息。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://www.math.uni-bremen.de/zetem/SebastianBanert/en",
+        "https://utheses.univie.ac.at/detail/41885",
+        "https://lup.lub.lu.se/search/person/1033faf6-5d33-4585-95b5-e895c9d5ecd4"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "de-unibw-alberto-de-marchi",
+      "name": "Alberto De Marchi",
+      "institution": "University of the Bundeswehr Munich",
+      "country": "Germany",
+      "region": "Europe",
+      "positionStage": "Postdoctoral Research Associate",
+      "phdYear": 2021,
+      "phdEvidence": {
+        "degree": "Dr. rer. nat.",
+        "institution": "University of the Bundeswehr Munich",
+        "sourceUrl": "https://doi.org/10.5281/zenodo.4972535",
+        "note": "论文记录及个人主页确认2021年取得博士学位。"
+      },
+      "homepage": "https://aldma.github.io/index.html",
+      "groupOrOpeningsUrl": "https://www.unibw.de/ingmathe/members/alberto-de-marchi-m-sc",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": "https://orcid.org/0000-0002-3545-6898"
+      },
+      "researchTags": [
+        "nonsmooth nonconvex optimization",
+        "proximal algorithms",
+        "augmented Lagrangian methods",
+        "mixed-integer optimization",
+        "optimal control"
+      ],
+      "selectionEvidence": "博士论文发展约束结构优化的增广Lagrangian与近端方法，并获2022 COAP Best Paper Prize；近期覆盖非光滑非凸、混合整数和互补约束算法。",
+      "careerPath": "University of the Bundeswehr Munich PhD (2021) -> postdoctoral researcher at the same institute with visits to Curtin and Kyushu.",
+      "recruitmentSignal": {
+        "type": "no_public_signal",
+        "scope": "independent postdoc opening",
+        "evidenceUrl": "https://aldma.github.io/index.html",
+        "note": "本人为博士后研究员，未发现其独立招聘公告。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://aldma.github.io/index.html",
+        "https://doi.org/10.5281/zenodo.4972535",
+        "https://eventi.unitn.it/en/part-3-proximal-gradient-methods"
+      ],
+      "uncertainties": [
+        "UniBw个人页部分履历文字更新滞后；当前博士后身份由2026年UniTrento官方讲座简介和个人主页交叉确认。"
+      ]
+    },
+    {
+      "id": "fr-ens-lyon-elisa-riccietti",
+      "name": "Elisa Riccietti",
+      "institution": "École Normale Supérieure de Lyon / Inria OCKHAM",
+      "country": "France",
+      "region": "Europe",
+      "positionStage": "Associate Professor",
+      "phdYear": 2018,
+      "phdEvidence": {
+        "degree": "PhD",
+        "institution": "University of Florence",
+        "sourceUrl": "https://perso.ens-lyon.fr/elisa.riccietti/doc/cv_riccietti.pdf",
+        "note": "个人学术CV明确列出2018年博士论文。"
+      },
+      "homepage": "https://perso.ens-lyon.fr/elisa.riccietti/",
+      "groupOrOpeningsUrl": "https://perso.ens-lyon.fr/elisa.riccietti/doc/sujet_postdoc.pdf",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "large-scale optimization",
+        "multilevel optimization",
+        "nonlinear least squares",
+        "inverse problems",
+        "scientific machine learning"
+      ],
+      "selectionEvidence": "ENS Lyon/Inria OCKHAM永久成员并主持ANR MEPHISTO；研究从Levenberg-Marquardt扩展到多层级、稀疏和物理信息训练，2026年将进行HDR答辩。",
+      "careerPath": "University of Florence PhD (2018) -> European optimization research positions -> ENS Lyon Associate Professor and Inria OCKHAM permanent member -> ANR PI.",
+      "recruitmentSignal": {
+        "type": "official_opening",
+        "scope": "18-month postdoctoral position in multilevel optimization and physics-informed ocean-flow reconstruction",
+        "evidenceUrl": "https://perso.ens-lyon.fr/elisa.riccietti/doc/sujet_postdoc.pdf",
+        "note": "官方学术主页托管的岗位PDF明确说明ANR MEPHISTO资助、研究主题、期限和联系导师。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://www.ens-lyon.fr/actualite/recherche/lancement-de-la-nouvelle-equipe-projet-inria-ockham",
+        "https://perso.ens-lyon.fr/elisa.riccietti/doc/cv_riccietti.pdf",
+        "https://anr.fr/Projet-ANR-24-CE23-7039",
+        "https://perso.ens-lyon.fr/elisa.riccietti/doc/sujet_postdoc.pdf"
+      ],
+      "uncertainties": [
+        "岗位PDF未显示明确截止日期；需联系导师确认是否仍接受申请。"
+      ]
+    },
+    {
+      "id": "fr-inria-frederik-kunstner",
+      "name": "Frederik Kunstner",
+      "institution": "Inria Paris / École Normale Supérieure, SIERRA",
+      "country": "France",
+      "region": "Europe",
+      "positionStage": "Marie Skłodowska-Curie Postdoctoral Fellow",
+      "phdYear": 2024,
+      "phdEvidence": {
+        "degree": "PhD in Computer Science",
+        "institution": "University of British Columbia",
+        "sourceUrl": "https://www.cs.ubc.ca/event/2024/08/phd-defence-frederik-dieter-kunstner",
+        "note": "UBC官方页面记录2024年8月26日博士答辩。"
+      },
+      "homepage": "https://sierra-mlopt.github.io/team/",
+      "groupOrOpeningsUrl": "https://sierra-mlopt.github.io/team/",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "optimization for machine learning",
+        "adaptive methods",
+        "mirror descent",
+        "preconditioning",
+        "optimization theory"
+      ],
+      "selectionEvidence": "博士论文获2025 CAIAC最佳博士论文奖及AAAI/ACM SIGAI荣誉提名，AISTATS 2021 Best Paper；现以MSCA Fellowship在Francis Bach团队研究ML优化。",
+      "careerPath": "EPFL BSc/MSc -> UBC PhD (2024) with Mark Schmidt -> MSCA Postdoctoral Fellow at Inria SIERRA with Francis Bach.",
+      "recruitmentSignal": {
+        "type": "no_public_signal",
+        "scope": "not an independent PI",
+        "evidenceUrl": "https://sierra-mlopt.github.io/team/",
+        "note": "当前为MSCA博士后，未发现由其本人发布的招聘信息。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://www.cs.ubc.ca/event/2024/08/phd-defence-frederik-dieter-kunstner",
+        "https://www.cs.ubc.ca/news/2025/06/frederik-kunstner-wins-dissertation-award",
+        "https://sierra-mlopt.github.io/team/",
+        "https://elliit.se/frederik-kunstner/"
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "fr-inria-sorbonne-raphael-berthier",
+      "name": "Raphaël Berthier",
+      "institution": "Inria Sorbonne Université",
+      "country": "France",
+      "region": "Europe",
+      "positionStage": "Tenure-track Researcher (Chaire de professeur junior)",
+      "phdYear": 2021,
+      "phdEvidence": {
+        "degree": "PhD in Mathematics",
+        "institution": "Université Paris Sciences et Lettres",
+        "sourceUrl": "https://theses.fr/2021UPSLE048",
+        "note": "法国国家博士论文库记录答辩日期为2021年9月13日。"
+      },
+      "homepage": "https://raphael-berthier.github.io/",
+      "groupOrOpeningsUrl": "https://raphael-berthier.github.io/proposal.pdf",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "convex optimization",
+        "gradient methods",
+        "gossip algorithms",
+        "nonconvex ML optimization",
+        "optimization dynamics"
+      ],
+      "selectionEvidence": "Francis Bach指导的优化博士，后在EPFL与Emmanuel Abbe、Andrea Montanari开展非凸优化和神经网络理论研究，2024获Inria Sorbonne CPJ独立职位。",
+      "careerPath": "Inria/ENS PhD (2021) -> EPFL postdoc (2021-2024) -> Inria Sorbonne tenure-track researcher (2024-).",
+      "recruitmentSignal": {
+        "type": "official_opening",
+        "scope": "theory-oriented PhD project on two-scale dynamics of neural networks",
+        "evidenceUrl": "https://raphael-berthier.github.io/proposal.pdf",
+        "note": "个人学术主页发布的项目说明计划2026年秋季开始博士；这是博士岗位，不是博士后。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://raphael-berthier.github.io/",
+        "https://theses.fr/2021UPSLE048",
+        "https://raphael-berthier.github.io/cv_english.pdf",
+        "https://raphael-berthier.github.io/proposal.pdf"
+      ],
+      "uncertainties": [
+        "项目说明以联系导师为申请方式，未给出固定截止日期。"
+      ]
+    },
+    {
+      "id": "fr-inria-manu-upadhyaya",
+      "name": "Manu Upadhyaya",
+      "institution": "Inria Paris / École Normale Supérieure, SIERRA",
+      "country": "France",
+      "region": "Europe",
+      "positionStage": "Postdoctoral Researcher",
+      "phdYear": 2025,
+      "phdEvidence": {
+        "degree": "PhD in Mathematical Optimization",
+        "institution": "Lund University",
+        "sourceUrl": "https://lup.lub.lu.se/search/search/person/7cf3e7a2-9c0d-4672-9b74-d2f58396720b?limit=5&sort=year.desc&start=",
+        "note": "Lund官方研究门户记录2025年博士论文。"
+      },
+      "homepage": "https://manuupadhyaya.github.io/",
+      "groupOrOpeningsUrl": "https://sierra-mlopt.github.io/team/",
+      "ids": {
+        "googleScholar": null,
+        "openAlex": null,
+        "orcid": null
+      },
+      "researchTags": [
+        "first-order optimization",
+        "monotone inclusions",
+        "performance estimation",
+        "Lyapunov analysis",
+        "computer-assisted optimization proofs"
+      ],
+      "selectionEvidence": "博士阶段已在Mathematical Programming发表自动Lyapunov分析并开发AutoLyap；毕业后由Adrien Taylor与Aymeric Dieuleveut联合指导，路径与一阶优化、PEP和分裂算法高度相关。",
+      "careerPath": "Lund University PhD (2025) with Pontus Giselsson and Sebastian Banert -> Inria SIERRA / École Polytechnique SIMPAS postdoc (2026-).",
+      "recruitmentSignal": {
+        "type": "no_public_signal",
+        "scope": "not an independent PI",
+        "evidenceUrl": "https://sierra-mlopt.github.io/team/",
+        "note": "当前为博后，未发现其本人独立招聘信息。",
+        "verifiedAt": "2026-07-10"
+      },
+      "sources": [
+        "https://manuupadhyaya.github.io/share/CV.pdf",
+        "https://lup.lub.lu.se/search/search/person/7cf3e7a2-9c0d-4672-9b74-d2f58396720b?limit=5&sort=year.desc&start=",
+        "https://sierra-mlopt.github.io/team/",
+        "https://radar.inria.fr/report/2024/sierra/index.html"
+      ],
+      "uncertainties": []
+    }
+  ]
+}

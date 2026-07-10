@@ -7,7 +7,8 @@
     {"id": "radar", "label": "机会雷达"},
     {"id": "industry", "label": "产业雷达"},
     {"id": "routes", "label": "职业路线"},
-    {"id": "cases", "label": "导师与学者"},
+    {"id": "people", "label": "学术人物"},
+    {"id": "cases", "label": "成功案例"},
     {"id": "calendar", "label": "申请日历"},
     {"id": "methods", "label": "资源与方法"}
   ],

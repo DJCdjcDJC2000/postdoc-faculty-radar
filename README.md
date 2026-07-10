@@ -64,7 +64,7 @@ npm run verify:acceptance # PRD 验收检查
 
 ```bash
 DEEPSEEK_API_KEY=...
-DEEPSEEK_MODEL=deepseek-chat
+DEEPSEEK_MODEL=deepseek-v4-flash
 DEEPSEEK_BASE_URL=https://api.deepseek.com
 ```
 

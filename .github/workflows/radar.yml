@@ -25,8 +25,10 @@ jobs:
     env:
       FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-      DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-chat' }}
+      DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
       DEEPSEEK_MAX_ITEMS: ${{ vars.DEEPSEEK_MAX_ITEMS || '12' }}
+      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+      OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -46,11 +48,17 @@ jobs:
       - name: Weekly full update
         if: ${{ env.FULL_UPDATE == 'true' }}
         run: npm run update:weekly
+      - name: Refresh OpenAlex profiles when a free API key is configured
+        if: ${{ env.FULL_UPDATE == 'true' && env.OPENALEX_API_KEY != '' }}
+        run: |
+          node scripts/enrich-academic-openalex.mjs --explicit-only --output output/research/openalex-explicit-academic.json
+          npm run materialize:academic:openalex
+          npm run verify:academic:authors
+          npm run build:public
+          npm run report:weekly
       - name: Daily lightweight update
         if: ${{ env.FULL_UPDATE != 'true' }}
         run: npm run update:light
-      - name: Build isolated private fixture for validation
-        run: npm run build:private
       - run: npm run validate
       - run: npm run verify:acceptance
       - name: Notify weekly Feishu report
@@ -92,7 +100,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/generated data/ai public
+          git add data/generated data/ai data/research/academic-candidates.json data/research/academic-enrichment.json data/research/orcid-academic-enrichment.json data/research/industry-people-curated.json public
           git diff --cached --quiet || git commit -m "chore: update radar data"
           git push
       - uses: actions/configure-pages@v5
