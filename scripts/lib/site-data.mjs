@@ -59,7 +59,9 @@ export function enrichJobForSite(job, aiAnalysis = null, privateState = null) {
 
 export function buildAlerts(jobs, limit = 30) {
   return jobs
-    .filter((job) => ["A", "B"].includes(job.priority) && job.recordType !== "watch_seed")
+    .filter((job) => ["A", "B"].includes(job.priority)
+      && job.recordType !== "watch_seed"
+      && job.lifecycleStatus !== "expired")
     .sort(compareByPriorityThenDate)
     .slice(0, limit)
     .map((job) => ({
@@ -80,10 +82,11 @@ export function buildAlerts(jobs, limit = 30) {
 
 export function buildCalendar(jobs, privateActions = [], preparationPlan = null) {
   const fellowships = jobs
+    .filter((job) => job.lifecycleStatus !== "expired")
     .filter((job) => job.roleType === "fellowship" || job.track === "fellowship")
     .slice(0, 20);
   const deadlines = jobs
-    .filter((job) => job.deadline)
+    .filter((job) => job.deadline && job.lifecycleStatus !== "expired")
     .sort((a, b) => String(a.deadline).localeCompare(String(b.deadline)))
     .slice(0, 80);
   return {

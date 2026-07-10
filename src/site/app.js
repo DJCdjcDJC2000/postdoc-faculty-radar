@@ -7,6 +7,7 @@ const state = {
     roleType: "",
     topic: "",
     priority: "",
+    freshness: "",
     deadline: "",
     stage: "",
     country: "",
@@ -200,12 +201,14 @@ function renderHome() {
         <p class="lead">${escapeHtml(data.copy?.subtitle ?? "")}</p>
       </div>
       <div class="briefing-strip" aria-label="本周情报摘要">
-        ${metricCard("新增机会", metrics.totalJobs ?? 0, "全站候选")}
+        ${metricCard("本周新增", data.updates?.newCount ?? metrics.newJobs ?? 0, `更新 ${data.updates?.updatedCount ?? metrics.updatedJobs ?? 0}`)}
         ${metricCard("A/B 高匹配", metrics.highMatchJobs ?? 0, "优先查看")}
         ${metricCard("目标课题组", metrics.targetLabs ?? 0, "导师/PI 雷达")}
         ${metricCard("活跃数据源", `${metrics.activeSources ?? 0}/${metrics.totalSources ?? 0}`, "最近抓取")}
       </div>
     </section>
+
+    ${renderWeeklyUpdates(data.updates)}
 
     ${state.data.mode === "private" ? renderPrivatePlanSummary() : ""}
 
@@ -304,6 +307,7 @@ function renderRadar() {
       ${filterSelect("roleType", "岗位类型", optionsFrom(state.data.jobs, "roleType", "roleLabelZh"))}
       ${filterSelect("topic", "研究方向", keywordOptions())}
       ${filterSelect("priority", "匹配度", ["A", "B", "C", "D"].map((v) => [v, v]))}
+      ${filterSelect("freshness", "更新状态", [["new", "本周新增"], ["updated", "本周更新"], ["active", "当前有效"], ["expired", "已失效/已截止"]])}
       ${filterSelect("deadline", "截止日期", [["30", "30 天内"], ["90", "90 天内"], ["none", "长期/未知"]])}
       ${filterSelect("stage", "申请阶段", stageOptions())}
       <details class="advanced-filters">
@@ -332,6 +336,7 @@ function renderRadar() {
               <th>类型</th>
               <th>研究方向</th>
               <th>截止日期</th>
+              <th>状态</th>
               <th>申请阶段</th>
               <th>来源可信度</th>
               <th>操作</th>
@@ -356,7 +361,7 @@ function renderRadarTable() {
   const body = document.querySelector("#jobs-table-body");
   if (!body) return;
   const jobs = filteredJobs();
-  body.innerHTML = jobs.length ? jobs.map(jobRow).join("") : `<tr><td colspan="10">${emptyBlock("没有匹配当前筛选的机会")}</td></tr>`;
+  body.innerHTML = jobs.length ? jobs.map(jobRow).join("") : `<tr><td colspan="11">${emptyBlock("没有匹配当前筛选的机会")}</td></tr>`;
 }
 
 function renderIndustry() {
@@ -745,6 +750,9 @@ function showJobDetail(jobId) {
         ["岗位类型", job.roleLabelZh],
         ["发布日期", job.publishedAt],
         ["截止日期", job.deadline || (job.evergreen ? "长期关注" : "未知")],
+        ["当前状态", job.lifecycleLabelZh || job.freshness?.labelZh || "待核验"],
+        ["首次发现", formatDateTime(job.firstSeenAt)],
+        ["最近变化", formatDateTime(job.lastChangedAt)],
         ["来源可信度", job.sourceTrustLabelZh],
         ["原始链接", link(job.sourceUrl, "打开来源")]
       ]))}
@@ -850,7 +858,9 @@ function closeDrawer() {
 
 function highMatchJobs() {
   return [...(state.data.jobs ?? [])]
-    .filter((job) => ["A", "B"].includes(job.priority) && job.recordType !== "watch_seed")
+    .filter((job) => ["A", "B"].includes(job.priority)
+      && job.recordType !== "watch_seed"
+      && job.lifecycleStatus !== "expired")
     .sort(compareJobs);
 }
 
@@ -875,6 +885,7 @@ function filteredJobs() {
       && (!filters.roleType || job.roleType === filters.roleType)
       && (!filters.topic || searchText.includes(filters.topic.toLowerCase()))
       && (!filters.priority || job.priority === filters.priority)
+      && (!filters.freshness || freshnessMatches(job, filters.freshness))
       && (!filters.deadline || deadlineMatches(filters.deadline, days, job))
       && (!filters.stage || (job.private?.myStage ?? "") === filters.stage)
       && (!filters.country || searchText.includes(filters.country.toLowerCase()))
@@ -888,6 +899,8 @@ function filteredJobs() {
 }
 
 function compareJobs(a, b) {
+  const lifecycleDelta = (a.lifecycleStatus === "expired" ? 1 : 0) - (b.lifecycleStatus === "expired" ? 1 : 0);
+  if (lifecycleDelta) return lifecycleDelta;
   const gradeOrder = { A: 0, B: 1, C: 2, D: 3 };
   const gradeDelta = (gradeOrder[a.priority] ?? 9) - (gradeOrder[b.priority] ?? 9);
   if (gradeDelta) return gradeDelta;
@@ -1116,13 +1129,52 @@ function metricCard(label, value, caption) {
   return `<div class="metric"><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong><small>${escapeHtml(caption)}</small></div>`;
 }
 
+function renderWeeklyUpdates(updates = {}) {
+  const allItems = updates.items ?? [];
+  const items = [
+    ...allItems.filter((item) => item.type === "new"),
+    ...allItems.filter((item) => item.type === "expired"),
+    ...allItems.filter((item) => item.type === "updated")
+  ].slice(0, 8);
+  if (!items.length) return "";
+  return `
+    <section class="weekly-update-band">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Weekly Changes</p>
+          <h2>本周新增与变化</h2>
+        </div>
+        <div class="weekly-update-counts">
+          <span class="freshness-badge freshness-new">新增 ${Number(updates.newCount ?? 0)}</span>
+          <span class="freshness-badge freshness-updated">更新 ${Number(updates.updatedCount ?? 0)}</span>
+          <span class="freshness-badge freshness-expired">失效 ${Number(updates.expiredCount ?? 0)}</span>
+        </div>
+      </div>
+      <div class="weekly-update-list">${items.map(weeklyUpdateRow).join("")}</div>
+    </section>
+  `;
+}
+
+function weeklyUpdateRow(item) {
+  const detailAttr = item.kind === "industry"
+    ? `data-industry-opportunity-id="${escapeAttr(item.id)}"`
+    : `data-job-id="${escapeAttr(item.id)}"`;
+  return `<article class="weekly-update-row">
+    ${freshnessBadge({ freshness: { type: item.type, labelZh: item.labelZh, highlighted: true } })}
+    <button class="row-title" ${detailAttr}>${escapeHtml(item.title || "")}</button>
+    <span>${escapeHtml(item.organization || "")}</span>
+    <span>${escapeHtml(item.region || "")}</span>
+    <strong>${item.priority ? `${escapeHtml(item.priority)} ${Number(item.score ?? 0)}` : Number(item.score ?? 0)}</strong>
+  </article>`;
+}
+
 function industryOpportunityRow(opportunity) {
   const selected = state.opportunityCompare.has(opportunity.id);
   return `
     <article class="industry-opportunity-row">
       <div class="industry-score-cell">${industryScoreBadge(opportunity)}</div>
       <div class="industry-opportunity-main">
-        <button class="row-title" data-industry-opportunity-id="${escapeAttr(opportunity.id)}">${escapeHtml(opportunity.titleZh || opportunity.title)}</button>
+        <div class="title-with-status">${freshnessBadge(opportunity)}<button class="row-title" data-industry-opportunity-id="${escapeAttr(opportunity.id)}">${escapeHtml(opportunity.titleZh || opportunity.title)}</button></div>
         <small>${escapeHtml([opportunity.title, opportunity.company, opportunity.team].filter(Boolean).join(" · "))}</small>
         <p>${escapeHtml(opportunity.summaryZh || "")}</p>
       </div>
@@ -1273,7 +1325,7 @@ function renderPublicGapNotice() {
 function jobCard(job) {
   return `
     <article class="opportunity-card">
-      <div class="card-top">${scoreBadge(job)} <span class="trust">${escapeHtml(job.sourceTrustLabelZh || "")}</span></div>
+      <div class="card-top"><span>${scoreBadge(job)} ${freshnessBadge(job)}</span><span class="trust">${escapeHtml(job.sourceTrustLabelZh || "")}</span></div>
       <h3>${escapeHtml(job.title)}</h3>
       <p>${escapeHtml(job.institution || job.sourceName || "")}</p>
       <div class="meta-row"><span>${escapeHtml(job.region || "")}</span><span>${escapeHtml(job.roleLabelZh || "")}</span><span>${escapeHtml(job.deadline || "长期/未知")}</span></div>
@@ -1288,12 +1340,13 @@ function jobRow(job) {
   return `
     <tr>
       <td>${scoreBadge(job)}</td>
-      <td><button class="row-title" data-job-id="${escapeAttr(job.id)}">${escapeHtml(job.title)}</button><div class="table-note">${escapeHtml(job.ai?.summaryZh || job.simpleReason || "")}</div></td>
+      <td><div class="title-with-status">${freshnessBadge(job)}<button class="row-title" data-job-id="${escapeAttr(job.id)}">${escapeHtml(job.title)}</button></div><div class="table-note">${escapeHtml(job.ai?.summaryZh || job.simpleReason || "")}</div></td>
       <td>${escapeHtml(job.institution || job.sourceName || "")}</td>
       <td>${escapeHtml(job.region || "")}</td>
       <td>${escapeHtml(job.roleLabelZh || "")}</td>
       <td>${tagList(job.matchedKeywords ?? job.keywords ?? [])}</td>
       <td>${escapeHtml(job.deadline || (job.evergreen ? "长期关注" : "未知"))}</td>
+      <td>${lifecycleBadge(job)}</td>
       <td>${escapeHtml(job.private?.myStage ?? (state.data.mode === "private" ? "未看" : "公开版不显示"))}</td>
       <td><span class="trust-label">${escapeHtml(job.sourceTrustLabelZh || "")}</span></td>
       <td><button class="tiny-button" data-job-id="${escapeAttr(job.id)}">详情</button></td>
@@ -1684,6 +1737,23 @@ function scoreBadge(job) {
   return `<span class="score-badge grade-${escapeAttr((job.priority || "d").toLowerCase())}">${escapeHtml(job.priority || "D")} ${Number(job.matchScore ?? 0)}</span>`;
 }
 
+function freshnessBadge(record) {
+  const freshness = record?.freshness;
+  if (!freshness) return "";
+  const muted = freshness.type === "expired" && !freshness.highlighted ? " is-muted" : "";
+  return `<span class="freshness-badge freshness-${escapeAttr(freshness.type)}${muted}">${escapeHtml(freshness.labelZh || "")}</span>`;
+}
+
+function lifecycleBadge(job) {
+  const status = job.lifecycleStatus || "active";
+  const labels = {
+    active: "当前有效",
+    watchlist: "长期关注",
+    expired: "已失效/已截止"
+  };
+  return `<span class="lifecycle-badge lifecycle-${escapeAttr(status)}">${escapeHtml(job.lifecycleLabelZh || labels[status] || "待核验")}</span>`;
+}
+
 function labBadge(lab) {
   return `<span class="score-badge grade-${escapeAttr(String(lab.matchLevel || "c").toLowerCase())}">${escapeHtml(lab.matchLevel || "C")} ${Number(lab.matchScore ?? 0)}</span>`;
 }
@@ -1740,6 +1810,13 @@ function deadlineMatches(filter, days, job) {
   if (filter === "30") return days <= 30 && days >= 0;
   if (filter === "90") return days <= 90 && days >= 0;
   if (filter === "none") return !job.deadline || job.evergreen;
+  return true;
+}
+
+function freshnessMatches(job, filter) {
+  if (filter === "new" || filter === "updated") return job.freshness?.type === filter;
+  if (filter === "expired") return job.lifecycleStatus === "expired";
+  if (filter === "active") return job.lifecycleStatus !== "expired";
   return true;
 }
 

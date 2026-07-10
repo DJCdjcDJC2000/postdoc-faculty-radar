@@ -62,7 +62,8 @@ function dailyMessage(site) {
   const lines = [
     "Postdoc Faculty Radar 每日短报",
     `构建时间：${site.metadata?.builtAt ?? site.metadata?.generatedAt ?? "unknown"}`,
-    `新增/候选：${site.metrics?.totalJobs ?? 0}；A/B 高匹配：${site.metrics?.highMatchJobs ?? 0}；30 天内截止：${site.metrics?.dueSoonJobs ?? 0}`,
+    `本周新增：${site.updates?.newCount ?? 0}；更新：${site.updates?.updatedCount ?? 0}；失效：${site.updates?.expiredCount ?? 0}`,
+    `当前机会：${site.metrics?.totalJobs ?? 0}；A/B 高匹配：${site.metrics?.highMatchJobs ?? 0}；30 天内截止：${site.metrics?.dueSoonJobs ?? 0}`,
     ""
   ];
   lines.push(...alertLines(site.alerts ?? [], 8));
@@ -82,6 +83,7 @@ function weeklyMessage(site) {
   const lines = [
     "Postdoc Faculty Radar 每周周报",
     `A/B 高匹配：${site.metrics?.highMatchJobs ?? 0}；活跃数据源：${site.metrics?.activeSources ?? 0}/${site.metrics?.totalSources ?? 0}`,
+    `本周新增：${site.updates?.newCount ?? 0}；更新：${site.updates?.updatedCount ?? 0}；失效：${site.updates?.expiredCount ?? 0}`,
     "",
     `地区分布：${formatCounts(byRegion)}`,
     `岗位类型：${formatCounts(byRole)}`,
@@ -106,6 +108,7 @@ function weeklyMessage(site) {
 function immediateMessage(site) {
   const urgent = (site.jobs ?? [])
     .filter((job) => job.recordType !== "watch_seed")
+    .filter((job) => job.lifecycleStatus !== "expired")
     .filter((job) => {
       const days = daysUntil(job.deadline);
       return job.priority === "A" || (days >= 0 && days <= 30) || ["P0", "P1"].includes(job.private?.myPriority);

@@ -23,7 +23,7 @@
     "trust": "lead",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T16:37:03.501Z",
+    "createdAt": "2026-07-10T03:56:03.291Z",
     "id": "c4f0adb87a8dfd89",
     "matchScore": 100,
     "priority": "A",
@@ -44,7 +44,14 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "线索待核验",
     "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-    "updatedAt": "2026-07-09T16:37:03.501Z",
+    "updatedAt": "2026-07-10T03:56:03.291Z",
+    "lifecycleStatus": "watchlist",
+    "lifecycleLabelZh": "长期关注",
+    "firstSeenAt": "2026-07-09T16:37:03.501Z",
+    "lastSeenAt": "2026-07-10T03:56:03.291Z",
+    "lastChangedAt": "2026-07-09T16:37:03.501Z",
+    "archivedAt": null,
+    "stale": false,
     "ai": {
       "status": "skipped_no_key",
       "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -64,6 +71,11 @@
       "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
       "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
       "depth": "deep"
+    },
+    "freshness": {
+      "type": "new",
+      "labelZh": "本周新增",
+      "highlighted": true
     }
   },
   {
@@ -86,7 +98,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T16:37:03.501Z",
+    "createdAt": "2026-07-10T03:56:03.291Z",
     "id": "1411a9a5c5c5768d",
     "matchScore": 74,
     "priority": "B",
@@ -99,7 +111,14 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-    "updatedAt": "2026-07-09T16:37:03.501Z",
+    "updatedAt": "2026-07-10T03:56:03.291Z",
+    "lifecycleStatus": "watchlist",
+    "lifecycleLabelZh": "长期关注",
+    "firstSeenAt": "2026-07-09T16:37:03.501Z",
+    "lastSeenAt": "2026-07-10T03:56:03.291Z",
+    "lastChangedAt": "2026-07-09T16:37:03.501Z",
+    "archivedAt": null,
+    "stale": false,
     "ai": {
       "status": "skipped_no_key",
       "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -117,6 +136,11 @@
       "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
       "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
       "depth": "deep"
+    },
+    "freshness": {
+      "type": "new",
+      "labelZh": "本周新增",
+      "highlighted": true
     }
   },
   {
@@ -139,7 +163,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T16:37:03.501Z",
+    "createdAt": "2026-07-10T03:56:03.291Z",
     "id": "576a05e8b695f331",
     "matchScore": 64,
     "priority": "B",
@@ -149,7 +173,14 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Fellowship",
-    "updatedAt": "2026-07-09T16:37:03.501Z",
+    "updatedAt": "2026-07-10T03:56:03.291Z",
+    "lifecycleStatus": "watchlist",
+    "lifecycleLabelZh": "长期关注",
+    "firstSeenAt": "2026-07-09T16:37:03.501Z",
+    "lastSeenAt": "2026-07-10T03:56:03.291Z",
+    "lastChangedAt": "2026-07-09T16:37:03.501Z",
+    "archivedAt": null,
+    "stale": false,
     "ai": {
       "status": "skipped_no_key",
       "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -164,6 +195,11 @@
       "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
       "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
       "depth": "deep"
+    },
+    "freshness": {
+      "type": "new",
+      "labelZh": "本周新增",
+      "highlighted": true
     }
   },
   {
@@ -186,7 +222,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T16:37:03.501Z",
+    "createdAt": "2026-07-10T03:56:03.291Z",
     "id": "bbac44b5da0bc36a",
     "matchScore": 64,
     "priority": "B",
@@ -196,7 +232,14 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Singapore · Fellowship",
-    "updatedAt": "2026-07-09T16:37:03.501Z",
+    "updatedAt": "2026-07-10T03:56:03.291Z",
+    "lifecycleStatus": "watchlist",
+    "lifecycleLabelZh": "长期关注",
+    "firstSeenAt": "2026-07-09T16:37:03.501Z",
+    "lastSeenAt": "2026-07-10T03:56:03.291Z",
+    "lastChangedAt": "2026-07-09T16:37:03.501Z",
+    "archivedAt": null,
+    "stale": false,
     "ai": {
       "status": "skipped_no_key",
       "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -211,6 +254,11 @@
       "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
       "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
       "depth": "deep"
+    },
+    "freshness": {
+      "type": "new",
+      "labelZh": "本周新增",
+      "highlighted": true
     }
   },
   {
@@ -233,7 +281,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-09T16:37:03.501Z",
+    "createdAt": "2026-07-10T03:56:03.291Z",
     "id": "e1e5047f5f87635e",
     "matchScore": 59,
     "priority": "C",
@@ -243,7 +291,14 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship",
-    "updatedAt": "2026-07-09T16:37:03.501Z",
+    "updatedAt": "2026-07-10T03:56:03.291Z",
+    "lifecycleStatus": "watchlist",
+    "lifecycleLabelZh": "长期关注",
+    "firstSeenAt": "2026-07-09T16:37:03.501Z",
+    "lastSeenAt": "2026-07-10T03:56:03.291Z",
+    "lastChangedAt": "2026-07-09T16:37:03.501Z",
+    "archivedAt": null,
+    "stale": false,
     "ai": {
       "status": "skipped_no_key",
       "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -258,6 +313,11 @@
       "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
       "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
       "depth": "light"
+    },
+    "freshness": {
+      "type": "new",
+      "labelZh": "本周新增",
+      "highlighted": true
     }
   },
   {
@@ -292,6 +352,8 @@
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后 · stochastic analysis",
     "updatedAt": "2026-07-09T16:37:03.501Z",
+    "stale": true,
+    "changeType": null,
     "ai": {
       "status": "skipped_no_key",
       "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -308,7 +370,8 @@
       "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
       "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
       "depth": "light"
-    }
+    },
+    "freshness": null
   },
   {
     "title": "Research Assistant Professor",
@@ -340,6 +403,8 @@
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Research Fellow",
     "updatedAt": "2026-07-09T16:37:03.501Z",
+    "stale": true,
+    "changeType": null,
     "ai": {
       "status": "skipped_no_key",
       "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -354,7 +419,8 @@
       "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
       "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
       "depth": "light"
-    }
+    },
+    "freshness": null
   },
   {
     "title": "Professor/Associate/Assistant Professor in Applied Mathematics",
@@ -388,6 +454,8 @@
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 教职 · applied mathematics",
     "updatedAt": "2026-07-09T16:37:03.501Z",
+    "stale": true,
+    "changeType": null,
     "ai": {
       "status": "skipped_no_key",
       "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -404,6 +472,7 @@
       "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
       "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
       "depth": "light"
-    }
+    },
+    "freshness": null
   }
 ]

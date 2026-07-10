@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { readJson, writeJson, copyFileEnsuringDir } from "./lib/read-write.mjs";
 import { assertNoPrivateFields, stripPrivateFields } from "./lib/privacy.mjs";
 import { buildAlerts, buildCalendar, enrichJobForSite } from "./lib/site-data.mjs";
+import { freshnessFor } from "./lib/job-history.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const mode = readArg("mode") ?? "public";
@@ -13,6 +14,7 @@ if (!["public", "private"].includes(mode)) {
 
 const outputDir = path.join(projectRoot, mode === "public" ? "public" : "private");
 const siteSource = path.join(projectRoot, "src", "site");
+const buildDate = new Date();
 
 const [
   jobsRaw,
@@ -61,11 +63,14 @@ const [
 const profile = mergeProfile(publicProfileConfig, mode === "private" ? privateProfileConfig : null);
 const aiIndex = mode === "private" ? { ...publicAiIndex, ...privateAiIndex } : publicAiIndex;
 const privateByJobId = new Map(privateStates.map((item) => [item.jobId, item]));
-const jobs = jobsRaw.map((job) => enrichJobForSite(
-  job,
-  aiIndex[job.id] ?? null,
-  mode === "private" ? privateByJobId.get(job.id) ?? null : null
-));
+const jobs = jobsRaw.map((job) => ({
+  ...enrichJobForSite(
+    job,
+    aiIndex[job.id] ?? null,
+    mode === "private" ? privateByJobId.get(job.id) ?? null : null
+  ),
+  freshness: freshnessFor(job, buildDate)
+}));
 
 const people = manualPeople.map((person) => ({
   ...person,
@@ -97,7 +102,14 @@ const industryOpportunities = industryOpportunitiesRaw
   .map((opportunity) => ({
     ...opportunity,
     companyProfile: publicCompanyReference(industryCompanyById.get(opportunity.companyId)),
-    overallScore: industryOpportunityScore(opportunity)
+    overallScore: industryOpportunityScore(opportunity),
+    lifecycleStatus: opportunity.status === "historical" ? "expired" : opportunity.status === "active" ? "active" : "watchlist",
+    freshness: freshnessFor({
+      ...opportunity,
+      lifecycleStatus: opportunity.status === "historical" ? "expired" : opportunity.status === "active" ? "active" : "watchlist",
+      changeType: opportunity.firstSeenAt ? "new" : opportunity.sourceUpdatedAt ? "updated" : null,
+      lastChangedAt: opportunity.lastChangedAt ?? opportunity.sourceUpdatedAt
+    }, buildDate)
   }))
   .sort((a, b) => b.overallScore - a.overallScore);
 const industryPeople = industryPeopleRaw
@@ -123,7 +135,7 @@ const industry = {
 
 const metadata = {
   ...generatedMetadata,
-  builtAt: new Date().toISOString(),
+  builtAt: buildDate.toISOString(),
   mode,
   title: siteCopy.title,
   publicBuild: mode === "public"
@@ -142,6 +154,7 @@ const siteData = {
   industry,
   routes: routes.sort((a, b) => (a.order ?? 99) - (b.order ?? 99)),
   sources: sourceStatuses,
+  updates: buildUpdates(jobs, industryOpportunities, buildDate),
   calendar: buildCalendar(
     jobs,
     mode === "private" ? privateStates : [],
@@ -181,14 +194,19 @@ function readArg(name) {
 }
 
 function buildMetrics(jobs, sources, people, labs, industry) {
-  const abJobs = jobs.filter((job) => ["A", "B"].includes(job.priority) && job.recordType !== "watch_seed");
+  const currentJobs = jobs.filter((job) => job.lifecycleStatus !== "expired");
+  const abJobs = currentJobs.filter((job) => ["A", "B"].includes(job.priority) && job.recordType !== "watch_seed");
   const dueSoon = jobs.filter((job) => {
     const days = daysUntil(job.deadline);
     return days <= 30 && days >= 0;
   });
   const activeSources = sources.filter((source) => source.status === "ok");
   return {
-    totalJobs: jobs.length,
+    totalJobs: currentJobs.length,
+    archivedJobs: jobs.length - currentJobs.length,
+    newJobs: jobs.filter((job) => job.freshness?.type === "new").length,
+    updatedJobs: jobs.filter((job) => job.freshness?.type === "updated").length,
+    expiredJobs: jobs.filter((job) => job.freshness?.type === "expired" && job.freshness?.highlighted).length,
     highMatchJobs: abJobs.length,
     dueSoonJobs: dueSoon.length,
     activeSources: activeSources.length,
@@ -201,6 +219,49 @@ function buildMetrics(jobs, sources, people, labs, industry) {
     industryOpportunities: industry.opportunities.length,
     activeIndustryOpportunities: industry.opportunities.filter((item) => item.status === "active").length,
     industryInternships: industry.opportunities.filter((item) => String(item.track).includes("internship")).length
+  };
+}
+
+function buildUpdates(jobs, industryOpportunities, now) {
+  const academic = jobs
+    .filter((job) => job.freshness?.highlighted)
+    .filter((job) => job.recordType !== "watch_seed")
+    .map((job) => ({
+      id: job.id,
+      kind: "job",
+      type: job.freshness.type,
+      labelZh: job.freshness.labelZh,
+      title: job.title,
+      organization: job.institution || job.sourceName,
+      region: job.region,
+      priority: job.priority,
+      score: job.matchScore,
+      sourceUrl: job.sourceUrl,
+      changedAt: job.lastChangedAt || job.firstSeenAt
+    }));
+  const industry = industryOpportunities
+    .filter((item) => item.freshness?.highlighted)
+    .map((item) => ({
+      id: item.id,
+      kind: "industry",
+      type: item.freshness.type,
+      labelZh: item.freshness.labelZh,
+      title: item.titleZh || item.title,
+      organization: item.company,
+      region: item.region,
+      score: item.overallScore,
+      sourceUrl: item.sourceUrl,
+      changedAt: item.lastChangedAt || item.sourceUpdatedAt
+    }));
+  const items = [...academic, ...industry]
+    .sort((a, b) => String(b.changedAt ?? "").localeCompare(String(a.changedAt ?? "")));
+  return {
+    windowDays: 7,
+    generatedAt: now.toISOString(),
+    newCount: items.filter((item) => item.type === "new").length,
+    updatedCount: items.filter((item) => item.type === "updated").length,
+    expiredCount: items.filter((item) => item.type === "expired").length,
+    items
   };
 }
 

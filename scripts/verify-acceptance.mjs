@@ -12,7 +12,6 @@ const app = await readText("public/app.js");
 const styles = await readText("public/styles.css");
 const packageJson = await readJson("package.json");
 const radarWorkflow = await readText(".github/workflows/radar.yml");
-const weeklyWorkflow = await readText(".github/workflows/weekly-report.yml");
 const deploymentDoc = await readText("docs/deployment.md");
 
 const checks = [];
@@ -24,7 +23,7 @@ check("default language is Chinese", html.includes('lang="zh-CN"'));
 check("core pages are present", ["page-home", "page-radar", "page-industry", "page-routes", "page-cases", "page-calendar", "page-methods"].every((id) => html.includes(id)));
 check("navigation matches PRD", ["首页", "机会雷达", "产业雷达", "职业路线", "导师与学者", "申请日历", "资源与方法"].every((label) => JSON.stringify(publicSite.copy.navigation).includes(label)));
 check("home metrics are populated", ["totalJobs", "highMatchJobs", "dueSoonJobs", "activeSources", "totalSources"].every((key) => Number.isFinite(Number(publicSite.metrics[key]))));
-check("opportunity radar permanent filters exist", ["search", "region", "roleType", "topic", "priority", "deadline", "stage"].every(hasFilter));
+check("opportunity radar permanent filters exist", ["search", "region", "roleType", "topic", "priority", "freshness", "deadline", "stage"].every(hasFilter));
 check("opportunity radar advanced filters exist", ["country", "sourceTrust", "timeline2029", "hostRequired", "funding", "visa", "teaching", "orientation"].every(hasFilter));
 check("job detail has required sections", ["基本信息", "匹配分析", "研究方向", "申请信息", "行动记录", "关联人物和路径样本", "AI 分析", "原始文本和抓取记录"].every((text) => app.includes(text)));
 check("case detail has background and route sections", ["职业路径摘要", "职业路线图", "背景表格", "可学习点", "风险提醒"].every((text) => app.includes(text)));
@@ -48,8 +47,9 @@ check("official and authoritative sources are represented", (publicSite.sources 
 check("AI notices are present", JSON.stringify(publicSite).includes("AI 辅助生成，需核验"));
 check("DeepSeek integration is wired", ["analyze", "analyze:private"].every((script) => packageJson.scripts?.[script]) && (await exists("scripts/analyze-deepseek.mjs")));
 check("Feishu notification templates are wired", ["notify:daily", "notify:weekly", "notify:immediate"].every((script) => packageJson.scripts?.[script]));
-check("GitHub Pages workflow is configured", radarWorkflow.includes("deploy-pages") && radarWorkflow.includes("npm run update"));
-check("weekly report workflow is configured", weeklyWorkflow.includes("notify:weekly"));
+check("weekly change feed is present", publicSite.updates?.windowDays === 7 && ["newCount", "updatedCount", "expiredCount"].every((key) => Number.isFinite(Number(publicSite.updates[key]))));
+check("GitHub Pages workflow is configured", radarWorkflow.includes("deploy-pages") && radarWorkflow.includes("npm run update:light") && radarWorkflow.includes("npm run update:weekly"));
+check("weekly Feishu and GitHub reports are configured", radarWorkflow.includes("notify:weekly") && radarWorkflow.includes("actions/github-script"));
 check("EdgeOne deployment instructions exist", deploymentDoc.includes("EdgeOne Pages") && deploymentDoc.includes("public"));
 check("core resources avoid external CDN/runtime dependencies", !externalRuntimePattern().test([html, app, styles].join("\n")));
 

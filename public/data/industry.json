@@ -1265,7 +1265,13 @@
         "category": "大陆科技大厂",
         "careerUrl": "https://zhaopin.jd.com/"
       },
-      "overallScore": 88
+      "overallScore": 88,
+      "lifecycleStatus": "active",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "alibaba-supply-chain-watch",
@@ -1305,7 +1311,13 @@
         "category": "大陆科技大厂",
         "careerUrl": "https://talent.alibaba.com/"
       },
-      "overallScore": 87
+      "overallScore": 87,
+      "lifecycleStatus": "watchlist",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "meituan-dispatch-watch",
@@ -1345,7 +1357,13 @@
         "category": "大陆科技大厂",
         "careerUrl": "https://zhaopin.meituan.com/"
       },
-      "overallScore": 87
+      "overallScore": 87,
+      "lifecycleStatus": "watchlist",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "huawei-2027-internship",
@@ -1384,7 +1402,9 @@
         "category": "大陆科技大厂",
         "careerUrl": "https://career.huawei.com/"
       },
-      "overallScore": 85
+      "overallScore": 85,
+      "lifecycleStatus": "active",
+      "freshness": null
     },
     {
       "id": "baidu-decision-agent-intern",
@@ -1424,7 +1444,9 @@
         "category": "大陆科技大厂",
         "careerUrl": "https://talent.baidu.com/"
       },
-      "overallScore": 82
+      "overallScore": 82,
+      "lifecycleStatus": "active",
+      "freshness": null
     },
     {
       "id": "astar-research-careers",
@@ -1463,7 +1485,13 @@
         "category": "港新产业研究",
         "careerUrl": "https://careers.a-star.edu.sg/"
       },
-      "overallScore": 81
+      "overallScore": 81,
+      "lifecycleStatus": "active",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "amazon-scot-science",
@@ -1503,7 +1531,13 @@
         "category": "全球产业研究",
         "careerUrl": "https://www.amazon.science/scot"
       },
-      "overallScore": 80
+      "overallScore": 80,
+      "lifecycleStatus": "active",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "huawei-supply-chain-ai-expert",
@@ -1542,7 +1576,13 @@
         "category": "大陆科技大厂",
         "careerUrl": "https://career.huawei.com/"
       },
-      "overallScore": 79
+      "overallScore": 79,
+      "lifecycleStatus": "active",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "bytedance-seed-careers",
@@ -1581,7 +1621,13 @@
         "category": "大陆科技大厂",
         "careerUrl": "https://jobs.bytedance.com/"
       },
-      "overallScore": 78
+      "overallScore": 78,
+      "lifecycleStatus": "active",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "citadel-phd-intern-asia",
@@ -1621,7 +1667,13 @@
         "category": "量化金融",
         "careerUrl": "https://www.citadel.com/careers/open-positions/"
       },
-      "overallScore": 77
+      "overallScore": 77,
+      "lifecycleStatus": "active",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "baidu-ai-compiler-graduate",
@@ -1661,7 +1713,9 @@
         "category": "大陆科技大厂",
         "careerUrl": "https://talent.baidu.com/"
       },
-      "overallScore": 76
+      "overallScore": 76,
+      "lifecycleStatus": "active",
+      "freshness": null
     },
     {
       "id": "optiver-quant-careers",
@@ -1700,7 +1754,13 @@
         "category": "量化金融",
         "careerUrl": "https://optiver.com/working-at-optiver/career-opportunities/"
       },
-      "overallScore": 76
+      "overallScore": 76,
+      "lifecycleStatus": "active",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "grab-marketplace-careers",
@@ -1740,7 +1800,13 @@
         "category": "港新科技公司",
         "careerUrl": "https://www.grab.careers/"
       },
-      "overallScore": 76
+      "overallScore": 76,
+      "lifecycleStatus": "watchlist",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "jane-street-quant-research-hk",
@@ -1780,7 +1846,13 @@
         "category": "量化金融",
         "careerUrl": "https://www.janestreet.com/join-jane-street/open-roles/"
       },
-      "overallScore": 73
+      "overallScore": 73,
+      "lifecycleStatus": "active",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "microsoft-research-careers",
@@ -1819,7 +1891,13 @@
         "category": "全球产业研究",
         "careerUrl": "https://www.microsoft.com/en-us/research/careers/open-positions/"
       },
-      "overallScore": 73
+      "overallScore": 73,
+      "lifecycleStatus": "watchlist",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "hexaly-optimization-scientist",
@@ -1859,7 +1937,13 @@
         "category": "优化求解器公司",
         "careerUrl": "https://www.hexaly.com/join-us"
       },
-      "overallScore": 67
+      "overallScore": 67,
+      "lifecycleStatus": "active",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "ibm-optimization-ml-careers",
@@ -1898,7 +1982,13 @@
         "category": "全球产业研究",
         "careerUrl": "https://www.ibm.com/careers/search"
       },
-      "overallScore": 66
+      "overallScore": 66,
+      "lifecycleStatus": "watchlist",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "comac-uq-historical",
@@ -1938,7 +2028,13 @@
         "category": "央国企研究院",
         "careerUrl": "https://zhaopin.comac.cc/"
       },
-      "overallScore": 65
+      "overallScore": 65,
+      "lifecycleStatus": "expired",
+      "freshness": {
+        "type": "expired",
+        "labelZh": "已失效/已截止",
+        "highlighted": false
+      }
     },
     {
       "id": "google-algorithms-optimization",
@@ -1978,7 +2074,13 @@
         "category": "全球产业研究",
         "careerUrl": "https://research.google/careers/"
       },
-      "overallScore": 64
+      "overallScore": 64,
+      "lifecycleStatus": "watchlist",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "amazon-postdoc-science-program",
@@ -2017,7 +2119,9 @@
         "category": "全球产业研究",
         "careerUrl": "https://www.amazon.science/scot"
       },
-      "overallScore": 63
+      "overallScore": 63,
+      "lifecycleStatus": "watchlist",
+      "freshness": null
     },
     {
       "id": "gurobi-optimization-careers",
@@ -2057,7 +2161,13 @@
         "category": "优化求解器公司",
         "careerUrl": "https://www.gurobi.com/company/careers/"
       },
-      "overallScore": 63
+      "overallScore": 63,
+      "lifecycleStatus": "watchlist",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "huawei-ai-infra-france-lead",
@@ -2096,7 +2206,13 @@
         "category": "大陆科技大厂",
         "careerUrl": "https://career.huawei.com/"
       },
-      "overallScore": 61
+      "overallScore": 61,
+      "lifecycleStatus": "active",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "two-sigma-quant-careers",
@@ -2135,7 +2251,13 @@
         "category": "量化金融",
         "careerUrl": "https://www.twosigma.com/careers/"
       },
-      "overallScore": 61
+      "overallScore": 61,
+      "lifecycleStatus": "active",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     },
     {
       "id": "mosek-careers",
@@ -2174,7 +2296,13 @@
         "category": "优化求解器公司",
         "careerUrl": "https://www.mosek.com/about/contact-information/"
       },
-      "overallScore": 57
+      "overallScore": 57,
+      "lifecycleStatus": "watchlist",
+      "freshness": {
+        "type": "updated",
+        "labelZh": "本周更新",
+        "highlighted": true
+      }
     }
   ],
   "people": [

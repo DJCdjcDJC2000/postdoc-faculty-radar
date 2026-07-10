@@ -5,6 +5,7 @@ import { compareByPriorityThenDate, dedupeJobs, extractDate, normalizeUrl, norma
 import { findKeywordHits, inferRoleType, scoreJob } from "./lib/score.mjs";
 import { readJson, writeJson } from "./lib/read-write.mjs";
 import { buildAlerts, buildSimpleReason, labelForRole, labelForTrust } from "./lib/site-data.mjs";
+import { reconcileJobHistory } from "./lib/job-history.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const offline = process.argv.includes("--offline");
@@ -13,6 +14,7 @@ const generatedAt = new Date().toISOString();
 const keywords = await readJson(projectRoot, "config/keywords.json", {});
 const sources = await readJson(projectRoot, "config/sources.json", []);
 const manualJobs = await readJson(projectRoot, "data/manual/jobs.json", []);
+const previousJobs = await readJson(projectRoot, "data/generated/jobs.json", []);
 
 const sourceStatuses = [];
 const liveJobs = [];
@@ -28,7 +30,7 @@ for (const source of sources.filter((item) => item.enabled !== false)) {
 }
 
 const manualNormalized = manualJobs.map((job) => normalizeManualJob(job));
-const scoredJobs = dedupeJobs([...manualNormalized, ...liveJobs])
+const currentJobs = dedupeJobs([...manualNormalized, ...liveJobs])
   .map((job) => {
     const score = scoreJob(job, keywords);
     return {
@@ -44,8 +46,6 @@ const scoredJobs = dedupeJobs([...manualNormalized, ...liveJobs])
   .filter(shouldKeepJob)
   .sort(compareByPriorityThenDate);
 
-const alerts = buildAlerts(scoredJobs);
-
 const sourceOutput = sources.map((source) => {
   const status = sourceStatuses.find((item) => item.id === source.id) ?? statusFor(source, "not_run", "Not run");
   return {
@@ -58,6 +58,15 @@ const sourceOutput = sources.map((source) => {
     ...status
   };
 });
+
+const scoredJobs = reconcileJobHistory({
+  currentJobs,
+  previousJobs,
+  sources: sourceOutput,
+  now: new Date(generatedAt),
+  offline
+}).sort(compareByPriorityThenDate);
+const alerts = buildAlerts(scoredJobs);
 
 await writeJson(projectRoot, "data/generated/jobs.json", scoredJobs);
 await writeJson(projectRoot, "data/generated/alerts.json", alerts);
@@ -131,13 +140,14 @@ function extractCandidatesFromHtml(source, html) {
       roleType,
       track: roleType === "industry_research" || roleType === "research_engineer" ? "industry" : "academia",
       sourceName: source.name,
+      sourceId: source.id,
       sourceUrl,
       originalSourceUrl: source.url,
       description: context.slice(0, 500),
       keywords: [...new Set([...hits.strong, ...hits.medium])],
       deadline,
       fieldRelevantSource: Boolean(source.fieldRelevant),
-      status: "new",
+      status: "active",
       trust: source.trust,
       fetchedAt: generatedAt
     };

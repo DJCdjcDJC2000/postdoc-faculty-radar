@@ -2,11 +2,13 @@ name: Career Radar
 
 on:
   schedule:
-    - cron: "17 1 * * *"
+    - cron: "7 1 * * 1"
+    - cron: "17 1 * * 2-7"
   workflow_dispatch:
 
 permissions:
   contents: write
+  issues: write
   pages: write
   id-token: write
 
@@ -24,6 +26,8 @@ jobs:
       FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-chat' }}
+      DEEPSEEK_MAX_ITEMS: ${{ vars.DEEPSEEK_MAX_ITEMS || '12' }}
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -32,10 +36,57 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run test
-      - run: npm run update
-      - name: Notify Feishu
-        if: ${{ env.FEISHU_WEBHOOK_URL != '' }}
-        run: npm run notify:daily
+      - name: Select update mode
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" || "${{ github.event.schedule }}" == "7 1 * * 1" ]]; then
+            echo "FULL_UPDATE=true" >> "$GITHUB_ENV"
+          else
+            echo "FULL_UPDATE=false" >> "$GITHUB_ENV"
+          fi
+      - name: Weekly full update
+        if: ${{ env.FULL_UPDATE == 'true' }}
+        run: npm run update:weekly
+      - name: Daily lightweight update
+        if: ${{ env.FULL_UPDATE != 'true' }}
+        run: npm run update:light
+      - run: npm run validate
+      - run: npm run verify:acceptance
+      - name: Notify weekly Feishu report
+        if: ${{ env.FULL_UPDATE == 'true' && env.FEISHU_WEBHOOK_URL != '' }}
+        run: npm run notify:weekly
+      - name: Create or update weekly GitHub report
+        if: ${{ env.FULL_UPDATE == 'true' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('data/generated/weekly-report.md', 'utf8');
+            const date = new Date().toISOString().slice(0, 10);
+            const title = `职业雷达周报 · ${date}`;
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'all',
+              per_page: 100
+            });
+            const existing = issues.find((issue) => !issue.pull_request && issue.title === title);
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body,
+                state: 'open'
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body
+              });
+            }
       - name: Commit generated data
         run: |
           git config user.name "github-actions[bot]"
@@ -43,6 +94,9 @@ jobs:
           git add data/generated data/ai public
           git diff --cached --quiet || git commit -m "chore: update radar data"
           git push
+      - name: Deploy production to Vercel
+        if: ${{ env.VERCEL_TOKEN != '' }}
+        run: npx --yes vercel deploy public --prod --yes --token="$VERCEL_TOKEN"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

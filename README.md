@@ -1,6 +1,9 @@
 # Postdoc Faculty Radar
 
-一个默认中文、静态优先、可双链接部署的博后/教职/研究岗职业情报门户。项目面向应用数学、优化、数值分析和科学计算方向，先服务个人职业规划，未来可公开给同方向 PhD/Postdoc 作为只读情报站使用。
+一个默认中文、静态优先、可多链接部署的博后/教职/研究岗职业情报门户。项目面向应用数学、优化、数值分析和科学计算方向，先服务个人职业规划，未来可公开给同方向 PhD/Postdoc 作为只读情报站使用。
+
+- 生产站：<https://public-omega-seven-25.vercel.app/>
+- GitHub：<https://github.com/DJCdjcDJC2000/postdoc-faculty-radar>
 
 ## 产品形态
 
@@ -41,6 +44,8 @@ npm run analyze        # DeepSeek 分析；无 key 时生成 fallback 分析
 npm run build:public   # 生成公开版 public/
 npm run build:private  # 生成个人版 private/
 npm run update         # fetch + analyze + build:public
+npm run update:light   # 每日轻量检查，不调用 DeepSeek
+npm run update:weekly  # 周更、增量分析、变化报告
 npm run check          # 测试 + 离线更新 + public/private 构建
 npm run verify:acceptance # PRD 验收检查
 ```
@@ -87,6 +92,8 @@ npm run notify:immediate
 
 `notify:immediate` 默认读 private 构建，可包含个人关注项，但不会写入公开网页。
 
+自动任务每周一 09:07（北京时间）执行完整更新，其余日期 09:17 只检查变化、截止日期和数据源健康。新增/更新高亮 7 天，失效信息归档但不删除。
+
 ## public/private 边界
 
 - `public/`：公开部署目录，不包含私人备注、联系记录、申请状态、个人差距分析。
@@ -102,7 +109,8 @@ npm run notify:immediate
 
 验收状态详见 [docs/acceptance-audit.md](./docs/acceptance-audit.md)。
 
-推荐双链接：
+推荐公开链接：
 
-- GitHub Pages：基础公开链接。
-- EdgeOne Pages：国内外更稳的主链接或镜像。
+- Vercel：当前生产主站。
+- GitHub Pages：公开源码对应的备用链接。
+- EdgeOne Pages：后续可选的大陆访问镜像。

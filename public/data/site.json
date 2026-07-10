@@ -42,12 +42,12 @@
     }
   },
   "metadata": {
-    "generatedAt": "2026-07-09T16:37:03.501Z",
-    "offline": false,
+    "generatedAt": "2026-07-10T03:56:03.291Z",
+    "offline": true,
     "jobCount": 8,
     "alertCount": 3,
     "sourceCount": 20,
-    "builtAt": "2026-07-10T02:14:31.169Z",
+    "builtAt": "2026-07-10T03:56:04.694Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -72,9 +72,13 @@
   },
   "metrics": {
     "totalJobs": 8,
+    "archivedJobs": 0,
+    "newJobs": 5,
+    "updatedJobs": 0,
+    "expiredJobs": 0,
     "highMatchJobs": 3,
     "dueSoonJobs": 0,
-    "activeSources": 3,
+    "activeSources": 0,
     "totalSources": 20,
     "peopleCount": 14,
     "targetLabs": 23,
@@ -110,7 +114,7 @@
       "trust": "lead",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-09T16:37:03.501Z",
+      "createdAt": "2026-07-10T03:56:03.291Z",
       "id": "c4f0adb87a8dfd89",
       "matchScore": 100,
       "priority": "A",
@@ -131,7 +135,14 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "线索待核验",
       "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-      "updatedAt": "2026-07-09T16:37:03.501Z",
+      "updatedAt": "2026-07-10T03:56:03.291Z",
+      "lifecycleStatus": "watchlist",
+      "lifecycleLabelZh": "长期关注",
+      "firstSeenAt": "2026-07-09T16:37:03.501Z",
+      "lastSeenAt": "2026-07-10T03:56:03.291Z",
+      "lastChangedAt": "2026-07-09T16:37:03.501Z",
+      "archivedAt": null,
+      "stale": false,
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -151,6 +162,11 @@
         "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
         "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
         "depth": "deep"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
       }
     },
     {
@@ -173,7 +189,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-09T16:37:03.501Z",
+      "createdAt": "2026-07-10T03:56:03.291Z",
       "id": "1411a9a5c5c5768d",
       "matchScore": 74,
       "priority": "B",
@@ -186,7 +202,14 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-      "updatedAt": "2026-07-09T16:37:03.501Z",
+      "updatedAt": "2026-07-10T03:56:03.291Z",
+      "lifecycleStatus": "watchlist",
+      "lifecycleLabelZh": "长期关注",
+      "firstSeenAt": "2026-07-09T16:37:03.501Z",
+      "lastSeenAt": "2026-07-10T03:56:03.291Z",
+      "lastChangedAt": "2026-07-09T16:37:03.501Z",
+      "archivedAt": null,
+      "stale": false,
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -204,6 +227,11 @@
         "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
         "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
         "depth": "deep"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
       }
     },
     {
@@ -226,7 +254,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-09T16:37:03.501Z",
+      "createdAt": "2026-07-10T03:56:03.291Z",
       "id": "576a05e8b695f331",
       "matchScore": 64,
       "priority": "B",
@@ -236,7 +264,14 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Fellowship",
-      "updatedAt": "2026-07-09T16:37:03.501Z",
+      "updatedAt": "2026-07-10T03:56:03.291Z",
+      "lifecycleStatus": "watchlist",
+      "lifecycleLabelZh": "长期关注",
+      "firstSeenAt": "2026-07-09T16:37:03.501Z",
+      "lastSeenAt": "2026-07-10T03:56:03.291Z",
+      "lastChangedAt": "2026-07-09T16:37:03.501Z",
+      "archivedAt": null,
+      "stale": false,
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -251,6 +286,11 @@
         "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
         "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
         "depth": "deep"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
       }
     },
     {
@@ -273,7 +313,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-09T16:37:03.501Z",
+      "createdAt": "2026-07-10T03:56:03.291Z",
       "id": "bbac44b5da0bc36a",
       "matchScore": 64,
       "priority": "B",
@@ -283,7 +323,14 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Singapore · Fellowship",
-      "updatedAt": "2026-07-09T16:37:03.501Z",
+      "updatedAt": "2026-07-10T03:56:03.291Z",
+      "lifecycleStatus": "watchlist",
+      "lifecycleLabelZh": "长期关注",
+      "firstSeenAt": "2026-07-09T16:37:03.501Z",
+      "lastSeenAt": "2026-07-10T03:56:03.291Z",
+      "lastChangedAt": "2026-07-09T16:37:03.501Z",
+      "archivedAt": null,
+      "stale": false,
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -298,6 +345,11 @@
         "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
         "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
         "depth": "deep"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
       }
     },
     {
@@ -320,7 +372,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-09T16:37:03.501Z",
+      "createdAt": "2026-07-10T03:56:03.291Z",
       "id": "e1e5047f5f87635e",
       "matchScore": 59,
       "priority": "C",
@@ -330,7 +382,14 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship",
-      "updatedAt": "2026-07-09T16:37:03.501Z",
+      "updatedAt": "2026-07-10T03:56:03.291Z",
+      "lifecycleStatus": "watchlist",
+      "lifecycleLabelZh": "长期关注",
+      "firstSeenAt": "2026-07-09T16:37:03.501Z",
+      "lastSeenAt": "2026-07-10T03:56:03.291Z",
+      "lastChangedAt": "2026-07-09T16:37:03.501Z",
+      "archivedAt": null,
+      "stale": false,
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -345,6 +404,11 @@
         "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
         "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
         "depth": "light"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
       }
     },
     {
@@ -379,6 +443,8 @@
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "United Kingdom · 博后 · stochastic analysis",
       "updatedAt": "2026-07-09T16:37:03.501Z",
+      "stale": true,
+      "changeType": null,
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -395,7 +461,8 @@
         "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
         "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
         "depth": "light"
-      }
+      },
+      "freshness": null
     },
     {
       "title": "Research Assistant Professor",
@@ -427,6 +494,8 @@
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Research Fellow",
       "updatedAt": "2026-07-09T16:37:03.501Z",
+      "stale": true,
+      "changeType": null,
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -441,7 +510,8 @@
         "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
         "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
         "depth": "light"
-      }
+      },
+      "freshness": null
     },
     {
       "title": "Professor/Associate/Assistant Professor in Applied Mathematics",
@@ -475,6 +545,8 @@
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "United Kingdom · 教职 · applied mathematics",
       "updatedAt": "2026-07-09T16:37:03.501Z",
+      "stale": true,
+      "changeType": null,
       "ai": {
         "status": "skipped_no_key",
         "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -491,7 +563,8 @@
         "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
         "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
         "depth": "light"
-      }
+      },
+      "freshness": null
     }
   ],
   "alerts": [
@@ -4362,7 +4435,13 @@
           "category": "大陆科技大厂",
           "careerUrl": "https://zhaopin.jd.com/"
         },
-        "overallScore": 88
+        "overallScore": 88,
+        "lifecycleStatus": "active",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "alibaba-supply-chain-watch",
@@ -4402,7 +4481,13 @@
           "category": "大陆科技大厂",
           "careerUrl": "https://talent.alibaba.com/"
         },
-        "overallScore": 87
+        "overallScore": 87,
+        "lifecycleStatus": "watchlist",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "meituan-dispatch-watch",
@@ -4442,7 +4527,13 @@
           "category": "大陆科技大厂",
           "careerUrl": "https://zhaopin.meituan.com/"
         },
-        "overallScore": 87
+        "overallScore": 87,
+        "lifecycleStatus": "watchlist",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "huawei-2027-internship",
@@ -4481,7 +4572,9 @@
           "category": "大陆科技大厂",
           "careerUrl": "https://career.huawei.com/"
         },
-        "overallScore": 85
+        "overallScore": 85,
+        "lifecycleStatus": "active",
+        "freshness": null
       },
       {
         "id": "baidu-decision-agent-intern",
@@ -4521,7 +4614,9 @@
           "category": "大陆科技大厂",
           "careerUrl": "https://talent.baidu.com/"
         },
-        "overallScore": 82
+        "overallScore": 82,
+        "lifecycleStatus": "active",
+        "freshness": null
       },
       {
         "id": "astar-research-careers",
@@ -4560,7 +4655,13 @@
           "category": "港新产业研究",
           "careerUrl": "https://careers.a-star.edu.sg/"
         },
-        "overallScore": 81
+        "overallScore": 81,
+        "lifecycleStatus": "active",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "amazon-scot-science",
@@ -4600,7 +4701,13 @@
           "category": "全球产业研究",
           "careerUrl": "https://www.amazon.science/scot"
         },
-        "overallScore": 80
+        "overallScore": 80,
+        "lifecycleStatus": "active",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "huawei-supply-chain-ai-expert",
@@ -4639,7 +4746,13 @@
           "category": "大陆科技大厂",
           "careerUrl": "https://career.huawei.com/"
         },
-        "overallScore": 79
+        "overallScore": 79,
+        "lifecycleStatus": "active",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "bytedance-seed-careers",
@@ -4678,7 +4791,13 @@
           "category": "大陆科技大厂",
           "careerUrl": "https://jobs.bytedance.com/"
         },
-        "overallScore": 78
+        "overallScore": 78,
+        "lifecycleStatus": "active",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "citadel-phd-intern-asia",
@@ -4718,7 +4837,13 @@
           "category": "量化金融",
           "careerUrl": "https://www.citadel.com/careers/open-positions/"
         },
-        "overallScore": 77
+        "overallScore": 77,
+        "lifecycleStatus": "active",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "baidu-ai-compiler-graduate",
@@ -4758,7 +4883,9 @@
           "category": "大陆科技大厂",
           "careerUrl": "https://talent.baidu.com/"
         },
-        "overallScore": 76
+        "overallScore": 76,
+        "lifecycleStatus": "active",
+        "freshness": null
       },
       {
         "id": "optiver-quant-careers",
@@ -4797,7 +4924,13 @@
           "category": "量化金融",
           "careerUrl": "https://optiver.com/working-at-optiver/career-opportunities/"
         },
-        "overallScore": 76
+        "overallScore": 76,
+        "lifecycleStatus": "active",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "grab-marketplace-careers",
@@ -4837,7 +4970,13 @@
           "category": "港新科技公司",
           "careerUrl": "https://www.grab.careers/"
         },
-        "overallScore": 76
+        "overallScore": 76,
+        "lifecycleStatus": "watchlist",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "jane-street-quant-research-hk",
@@ -4877,7 +5016,13 @@
           "category": "量化金融",
           "careerUrl": "https://www.janestreet.com/join-jane-street/open-roles/"
         },
-        "overallScore": 73
+        "overallScore": 73,
+        "lifecycleStatus": "active",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "microsoft-research-careers",
@@ -4916,7 +5061,13 @@
           "category": "全球产业研究",
           "careerUrl": "https://www.microsoft.com/en-us/research/careers/open-positions/"
         },
-        "overallScore": 73
+        "overallScore": 73,
+        "lifecycleStatus": "watchlist",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "hexaly-optimization-scientist",
@@ -4956,7 +5107,13 @@
           "category": "优化求解器公司",
           "careerUrl": "https://www.hexaly.com/join-us"
         },
-        "overallScore": 67
+        "overallScore": 67,
+        "lifecycleStatus": "active",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "ibm-optimization-ml-careers",
@@ -4995,7 +5152,13 @@
           "category": "全球产业研究",
           "careerUrl": "https://www.ibm.com/careers/search"
         },
-        "overallScore": 66
+        "overallScore": 66,
+        "lifecycleStatus": "watchlist",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "comac-uq-historical",
@@ -5035,7 +5198,13 @@
           "category": "央国企研究院",
           "careerUrl": "https://zhaopin.comac.cc/"
         },
-        "overallScore": 65
+        "overallScore": 65,
+        "lifecycleStatus": "expired",
+        "freshness": {
+          "type": "expired",
+          "labelZh": "已失效/已截止",
+          "highlighted": false
+        }
       },
       {
         "id": "google-algorithms-optimization",
@@ -5075,7 +5244,13 @@
           "category": "全球产业研究",
           "careerUrl": "https://research.google/careers/"
         },
-        "overallScore": 64
+        "overallScore": 64,
+        "lifecycleStatus": "watchlist",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "amazon-postdoc-science-program",
@@ -5114,7 +5289,9 @@
           "category": "全球产业研究",
           "careerUrl": "https://www.amazon.science/scot"
         },
-        "overallScore": 63
+        "overallScore": 63,
+        "lifecycleStatus": "watchlist",
+        "freshness": null
       },
       {
         "id": "gurobi-optimization-careers",
@@ -5154,7 +5331,13 @@
           "category": "优化求解器公司",
           "careerUrl": "https://www.gurobi.com/company/careers/"
         },
-        "overallScore": 63
+        "overallScore": 63,
+        "lifecycleStatus": "watchlist",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "huawei-ai-infra-france-lead",
@@ -5193,7 +5376,13 @@
           "category": "大陆科技大厂",
           "careerUrl": "https://career.huawei.com/"
         },
-        "overallScore": 61
+        "overallScore": 61,
+        "lifecycleStatus": "active",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "two-sigma-quant-careers",
@@ -5232,7 +5421,13 @@
           "category": "量化金融",
           "careerUrl": "https://www.twosigma.com/careers/"
         },
-        "overallScore": 61
+        "overallScore": 61,
+        "lifecycleStatus": "active",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       },
       {
         "id": "mosek-careers",
@@ -5271,7 +5466,13 @@
           "category": "优化求解器公司",
           "careerUrl": "https://www.mosek.com/about/contact-information/"
         },
-        "overallScore": 57
+        "overallScore": 57,
+        "lifecycleStatus": "watchlist",
+        "freshness": {
+          "type": "updated",
+          "labelZh": "本周更新",
+          "highlighted": true
+        }
       }
     ],
     "people": [
@@ -7766,11 +7967,11 @@
       "url": "https://euraxess.ec.europa.eu/jobs/search",
       "trust": "academic_board",
       "sourceType": "academic_board",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 787
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "academic-positions",
@@ -7779,11 +7980,11 @@
       "url": "https://academicpositions.com/find-jobs",
       "trust": "academic_board",
       "sourceType": "academic_board",
-      "status": "error",
-      "message": "HTTP 403",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 141
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "academic-transfer",
@@ -7792,11 +7993,11 @@
       "url": "https://www.academictransfer.com/en/jobs/",
       "trust": "academic_board",
       "sourceType": "academic_board",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 1429
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "mathjobs",
@@ -7805,11 +8006,11 @@
       "url": "https://www.mathjobs.org/jobs",
       "trust": "academic_board",
       "sourceType": "academic_board",
-      "status": "ok",
-      "message": "3 candidates",
-      "count": 3,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 1417
+      "status": "skipped",
+      "message": "Offline run",
+      "count": 0,
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "academic-jobs-online",
@@ -7818,11 +8019,11 @@
       "url": "https://academicjobsonline.org/ajo/jobs",
       "trust": "academic_board",
       "sourceType": "academic_board",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 1688
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "jobs-ac-uk",
@@ -7831,11 +8032,11 @@
       "url": "https://www.jobs.ac.uk/search/mathematics-and-statistics",
       "trust": "academic_board",
       "sourceType": "academic_board",
-      "status": "ok",
-      "message": "17 candidates",
-      "count": 17,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 3406
+      "status": "skipped",
+      "message": "Offline run",
+      "count": 0,
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "polyu",
@@ -7844,11 +8045,11 @@
       "url": "https://jobs.polyu.edu.hk/research.php",
       "trust": "official",
       "sourceType": "university",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 442
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "hku",
@@ -7857,11 +8058,11 @@
       "url": "https://jobs.hku.hk/",
       "trust": "official",
       "sourceType": "university",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 1018
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "hkust-math",
@@ -7870,11 +8071,11 @@
       "url": "https://www.math.hkust.edu.hk/employment/",
       "trust": "official",
       "sourceType": "university",
-      "status": "ok",
-      "message": "3 candidates",
-      "count": 3,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 1129
+      "status": "skipped",
+      "message": "Offline run",
+      "count": 0,
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "cuhk-math",
@@ -7883,11 +8084,11 @@
       "url": "https://www.math.cuhk.edu.hk/about-us/career-opportunities",
       "trust": "official",
       "sourceType": "university",
-      "status": "error",
-      "message": "fetch failed",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 33
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "nus",
@@ -7896,11 +8097,11 @@
       "url": "https://careers.nus.edu.sg/NUS/go/Academic-and-Research-Positions/545744/",
       "trust": "official",
       "sourceType": "university",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 539
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "ntu",
@@ -7909,11 +8110,11 @@
       "url": "https://ntu.wd3.myworkdayjobs.com/Careers",
       "trust": "official",
       "sourceType": "university",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 1048
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "astar",
@@ -7922,11 +8123,11 @@
       "url": "https://careers.a-star.edu.sg/",
       "trust": "official",
       "sourceType": "research_institute",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 294
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "chinapostdoctor",
@@ -7935,11 +8136,11 @@
       "url": "https://www.chinapostdoctor.org.cn/home",
       "trust": "official",
       "sourceType": "official",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 1265
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "gaoxiaojob",
@@ -7948,11 +8149,11 @@
       "url": "https://www.gaoxiaojob.com/",
       "trust": "aggregator",
       "sourceType": "aggregator",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 1921
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "microsoft-research",
@@ -7961,11 +8162,11 @@
       "url": "https://www.microsoft.com/en-us/research/careers/open-positions/",
       "trust": "company",
       "sourceType": "company",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 1936
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "google-research",
@@ -7974,11 +8175,11 @@
       "url": "https://research.google/careers/",
       "trust": "company",
       "sourceType": "company",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 311
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "deepmind",
@@ -7987,11 +8188,11 @@
       "url": "https://deepmind.google/careers/",
       "trust": "company",
       "sourceType": "company",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 838
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "huawei-noah",
@@ -8000,11 +8201,11 @@
       "url": "https://dev3.noahlab.com.hk/Recruitment-JD.html",
       "trust": "company",
       "sourceType": "company",
-      "status": "error",
-      "message": "fetch failed",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 49
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     },
     {
       "id": "bytedance-seed",
@@ -8013,13 +8214,302 @@
       "url": "https://seed.bytedance.com/en/career",
       "trust": "company",
       "sourceType": "company",
-      "status": "no_candidates",
-      "message": "0 candidates",
+      "status": "skipped",
+      "message": "Offline run",
       "count": 0,
-      "checkedAt": "2026-07-09T16:37:03.501Z",
-      "latencyMs": 686
+      "checkedAt": "2026-07-10T03:56:03.291Z",
+      "latencyMs": 0
     }
   ],
+  "updates": {
+    "windowDays": 7,
+    "generatedAt": "2026-07-10T03:56:04.694Z",
+    "newCount": 4,
+    "updatedCount": 19,
+    "expiredCount": 0,
+    "items": [
+      {
+        "id": "jd-logistics-watch",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "物流与库存优化岗位入口",
+        "organization": "京东",
+        "region": "Mainland China",
+        "score": 88,
+        "sourceUrl": "https://zhaopin.jd.com/",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "alibaba-supply-chain-watch",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "供应链与决策优化岗位入口",
+        "organization": "阿里巴巴",
+        "region": "Mainland China",
+        "score": 87,
+        "sourceUrl": "https://talent.alibaba.com/",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "meituan-dispatch-watch",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "调度、路径与供需算法岗位入口",
+        "organization": "美团",
+        "region": "Mainland China",
+        "score": 87,
+        "sourceUrl": "https://zhaopin.meituan.com/",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "astar-research-careers",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "研究科学家与 Research Fellow",
+        "organization": "A*STAR",
+        "region": "Singapore",
+        "score": 81,
+        "sourceUrl": "https://careers.a-star.edu.sg/",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "huawei-supply-chain-ai-expert",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "供应链算法与 AI 应用专家",
+        "organization": "华为",
+        "region": "Mainland China",
+        "score": 79,
+        "sourceUrl": "https://career.huawei.com/reccampportal/portal5/social-recruitment-ai.html",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "bytedance-seed-careers",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "Seed 研究员与研究工程师",
+        "organization": "字节跳动",
+        "region": "Mainland China",
+        "score": 78,
+        "sourceUrl": "https://seed.bytedance.com/en/career",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "optiver-quant-careers",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "量化研究与交易实习入口",
+        "organization": "Optiver",
+        "region": "Singapore",
+        "score": 76,
+        "sourceUrl": "https://optiver.com/working-at-optiver/career-opportunities/",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "grab-marketplace-careers",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "市场、出行与数据科学岗位入口",
+        "organization": "Grab",
+        "region": "Singapore",
+        "score": 76,
+        "sourceUrl": "https://www.grab.careers/",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "microsoft-research-careers",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "研究员、Research SDE 与实习入口",
+        "organization": "Microsoft Research",
+        "region": "Global",
+        "score": 73,
+        "sourceUrl": "https://www.microsoft.com/en-us/research/careers/open-positions/",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "hexaly-optimization-scientist",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "优化科学家与实习岗位",
+        "organization": "Hexaly",
+        "region": "Europe",
+        "score": 67,
+        "sourceUrl": "https://www.hexaly.com/join-us",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "ibm-optimization-ml-careers",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "优化与机器学习研究岗位",
+        "organization": "IBM Research",
+        "region": "Europe",
+        "score": 66,
+        "sourceUrl": "https://www.ibm.com/careers/search",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "google-algorithms-optimization",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "算法与优化研究岗位入口",
+        "organization": "Google Research",
+        "region": "Europe",
+        "score": 64,
+        "sourceUrl": "https://research.google/teams/algorithms-optimization/",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "gurobi-optimization-careers",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "优化工程师与求解器研发",
+        "organization": "Gurobi",
+        "region": "Global",
+        "score": 63,
+        "sourceUrl": "https://www.gurobi.com/company/careers/",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "mosek-careers",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "锥优化求解器人才监控入口",
+        "organization": "MOSEK",
+        "region": "Europe",
+        "score": 57,
+        "sourceUrl": "https://www.mosek.com/about/contact-information/",
+        "changedAt": "2026-07-10"
+      },
+      {
+        "id": "1411a9a5c5c5768d",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "Humboldt Research Fellowship for Postdoctoral Researchers",
+        "organization": "Alexander von Humboldt Foundation",
+        "region": "Europe",
+        "priority": "B",
+        "score": 74,
+        "sourceUrl": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+        "changedAt": "2026-07-09T16:37:03.501Z"
+      },
+      {
+        "id": "576a05e8b695f331",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "RGC Junior Research Fellow Scheme",
+        "organization": "University Grants Committee / Research Grants Council",
+        "region": "Hong Kong",
+        "priority": "B",
+        "score": 64,
+        "sourceUrl": "https://awards.ugc.edu.hk/award/rgc-junior-research-fellow-scheme",
+        "changedAt": "2026-07-09T16:37:03.501Z"
+      },
+      {
+        "id": "bbac44b5da0bc36a",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "Singapore NRF Fellowship",
+        "organization": "National Research Foundation Singapore",
+        "region": "Singapore",
+        "priority": "B",
+        "score": 64,
+        "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
+        "changedAt": "2026-07-09T16:37:03.501Z"
+      },
+      {
+        "id": "e1e5047f5f87635e",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "MSCA Postdoctoral Fellowships",
+        "organization": "European Commission",
+        "region": "Europe",
+        "priority": "C",
+        "score": 59,
+        "sourceUrl": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
+        "changedAt": "2026-07-09T16:37:03.501Z"
+      },
+      {
+        "id": "amazon-scot-science",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "SCOT 应用科学家 / 数据科学家",
+        "organization": "Amazon SCOT",
+        "region": "Europe",
+        "score": 80,
+        "sourceUrl": "https://www.amazon.science/scot",
+        "changedAt": "2026-07-09"
+      },
+      {
+        "id": "jane-street-quant-research-hk",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "量化研究员",
+        "organization": "Jane Street",
+        "region": "Hong Kong",
+        "score": 73,
+        "sourceUrl": "https://www.janestreet.com/join-jane-street/position/8071941002/",
+        "changedAt": "2026-07-09"
+      },
+      {
+        "id": "two-sigma-quant-careers",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "量化研究岗位入口",
+        "organization": "Two Sigma",
+        "region": "United States",
+        "score": 61,
+        "sourceUrl": "https://www.twosigma.com/careers/",
+        "changedAt": "2026-07-09"
+      },
+      {
+        "id": "citadel-phd-intern-asia",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "量化研究员博士实习生（亚洲）",
+        "organization": "Citadel",
+        "region": "Hong Kong",
+        "score": 77,
+        "sourceUrl": "https://www.citadel.com/careers/details/quantitative-researcher-phd-intern-asia/",
+        "changedAt": "2026-07-06"
+      },
+      {
+        "id": "huawei-ai-infra-france-lead",
+        "kind": "industry",
+        "type": "updated",
+        "labelZh": "本周更新",
+        "title": "AI Infra 实验室技术负责人",
+        "organization": "华为",
+        "region": "Europe",
+        "score": 61,
+        "sourceUrl": "https://career.huawei.com/reccampportal/euportal/portal/social-recruitment-detail.html?dataSource=1&jobId=23981",
+        "changedAt": "2026-07-06"
+      }
+    ]
+  },
   "calendar": {
     "fellowships": [
       {
@@ -8042,7 +8532,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-09T16:37:03.501Z",
+        "createdAt": "2026-07-10T03:56:03.291Z",
         "id": "1411a9a5c5c5768d",
         "matchScore": 74,
         "priority": "B",
@@ -8055,7 +8545,14 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-        "updatedAt": "2026-07-09T16:37:03.501Z",
+        "updatedAt": "2026-07-10T03:56:03.291Z",
+        "lifecycleStatus": "watchlist",
+        "lifecycleLabelZh": "长期关注",
+        "firstSeenAt": "2026-07-09T16:37:03.501Z",
+        "lastSeenAt": "2026-07-10T03:56:03.291Z",
+        "lastChangedAt": "2026-07-09T16:37:03.501Z",
+        "archivedAt": null,
+        "stale": false,
         "ai": {
           "status": "skipped_no_key",
           "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -8073,6 +8570,11 @@
           "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
           "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
           "depth": "deep"
+        },
+        "freshness": {
+          "type": "new",
+          "labelZh": "本周新增",
+          "highlighted": true
         }
       },
       {
@@ -8095,7 +8597,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-09T16:37:03.501Z",
+        "createdAt": "2026-07-10T03:56:03.291Z",
         "id": "576a05e8b695f331",
         "matchScore": 64,
         "priority": "B",
@@ -8105,7 +8607,14 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Hong Kong · Fellowship",
-        "updatedAt": "2026-07-09T16:37:03.501Z",
+        "updatedAt": "2026-07-10T03:56:03.291Z",
+        "lifecycleStatus": "watchlist",
+        "lifecycleLabelZh": "长期关注",
+        "firstSeenAt": "2026-07-09T16:37:03.501Z",
+        "lastSeenAt": "2026-07-10T03:56:03.291Z",
+        "lastChangedAt": "2026-07-09T16:37:03.501Z",
+        "archivedAt": null,
+        "stale": false,
         "ai": {
           "status": "skipped_no_key",
           "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -8120,6 +8629,11 @@
           "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
           "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
           "depth": "deep"
+        },
+        "freshness": {
+          "type": "new",
+          "labelZh": "本周新增",
+          "highlighted": true
         }
       },
       {
@@ -8142,7 +8656,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-09T16:37:03.501Z",
+        "createdAt": "2026-07-10T03:56:03.291Z",
         "id": "bbac44b5da0bc36a",
         "matchScore": 64,
         "priority": "B",
@@ -8152,7 +8666,14 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Singapore · Fellowship",
-        "updatedAt": "2026-07-09T16:37:03.501Z",
+        "updatedAt": "2026-07-10T03:56:03.291Z",
+        "lifecycleStatus": "watchlist",
+        "lifecycleLabelZh": "长期关注",
+        "firstSeenAt": "2026-07-09T16:37:03.501Z",
+        "lastSeenAt": "2026-07-10T03:56:03.291Z",
+        "lastChangedAt": "2026-07-09T16:37:03.501Z",
+        "archivedAt": null,
+        "stale": false,
         "ai": {
           "status": "skipped_no_key",
           "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -8167,6 +8688,11 @@
           "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
           "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
           "depth": "deep"
+        },
+        "freshness": {
+          "type": "new",
+          "labelZh": "本周新增",
+          "highlighted": true
         }
       },
       {
@@ -8189,7 +8715,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-09T16:37:03.501Z",
+        "createdAt": "2026-07-10T03:56:03.291Z",
         "id": "e1e5047f5f87635e",
         "matchScore": 59,
         "priority": "C",
@@ -8199,7 +8725,14 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship",
-        "updatedAt": "2026-07-09T16:37:03.501Z",
+        "updatedAt": "2026-07-10T03:56:03.291Z",
+        "lifecycleStatus": "watchlist",
+        "lifecycleLabelZh": "长期关注",
+        "firstSeenAt": "2026-07-09T16:37:03.501Z",
+        "lastSeenAt": "2026-07-10T03:56:03.291Z",
+        "lastChangedAt": "2026-07-09T16:37:03.501Z",
+        "archivedAt": null,
+        "stale": false,
         "ai": {
           "status": "skipped_no_key",
           "generatedAt": "2026-07-09T15:12:16.657Z",
@@ -8214,6 +8747,11 @@
           "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
           "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
           "depth": "light"
+        },
+        "freshness": {
+          "type": "new",
+          "labelZh": "本周新增",
+          "highlighted": true
         }
       }
     ],
