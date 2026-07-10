@@ -1,6 +1,9 @@
 name: Career Radar
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "7 1 * * 1"
     - cron: "17 1 * * 0,2-6"
@@ -57,8 +60,11 @@ jobs:
           npm run build:public
           npm run report:weekly
       - name: Daily lightweight update
-        if: ${{ env.FULL_UPDATE != 'true' }}
+        if: ${{ env.FULL_UPDATE != 'true' && github.event_name != 'push' }}
         run: npm run update:light
+      - name: Build pushed revision
+        if: ${{ github.event_name == 'push' }}
+        run: npm run build:public
       - run: npm run validate
       - run: npm run verify:acceptance
       - name: Notify weekly Feishu report
@@ -97,6 +103,7 @@ jobs:
               });
             }
       - name: Commit generated data
+        if: ${{ github.event_name != 'push' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

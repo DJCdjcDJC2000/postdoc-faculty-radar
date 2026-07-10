@@ -64,6 +64,13 @@ check("DeepSeek integration is wired", ["analyze", "analyze:private"].every((scr
 check("Feishu notification templates are wired", ["notify:daily", "notify:weekly", "notify:immediate"].every((script) => packageJson.scripts?.[script]));
 check("weekly change feed is present", publicSite.updates?.windowDays === 7 && ["newCount", "updatedCount", "expiredCount"].every((key) => Number.isFinite(Number(publicSite.updates[key]))));
 check("GitHub Pages workflow is configured", radarWorkflow.includes("deploy-pages") && radarWorkflow.includes("npm run update:light") && radarWorkflow.includes("npm run update:weekly"));
+check(
+  "main pushes deploy without recursive data updates",
+  radarWorkflow.includes("push:") &&
+    radarWorkflow.includes("branches:") &&
+    radarWorkflow.includes("github.event_name != 'push'") &&
+    radarWorkflow.includes("Build pushed revision")
+);
 check("weekly Feishu and GitHub reports are configured", radarWorkflow.includes("notify:weekly") && radarWorkflow.includes("actions/github-script"));
 check("Vercel production proxy follows GitHub Pages", vercelProxy.includes("djcdjcdjc2000.github.io/postdoc-faculty-radar") && vercelProxy.includes("max-age=300"));
 check("EdgeOne deployment instructions exist", deploymentDoc.includes("EdgeOne Pages") && deploymentDoc.includes("public"));
