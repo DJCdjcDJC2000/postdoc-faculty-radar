@@ -21,6 +21,25 @@ const state = {
   selectedJobId: null,
   selectedPersonId: null,
   selectedLabId: null,
+  selectedIndustryOpportunityId: null,
+  selectedIndustryCompanyId: null,
+  selectedIndustryPersonId: null,
+  industryFilters: {
+    search: "",
+    region: "",
+    category: "",
+    roleFamily: "",
+    timing: "",
+    status: ""
+  },
+  companyCompare: new Set(),
+  opportunityCompare: new Set(),
+  industryExpanded: {
+    opportunities: false,
+    companies: false,
+    people: false,
+    paths: false
+  },
   caseFilters: {
     search: "",
     region: "",
@@ -38,6 +57,7 @@ const els = {
   pages: {
     home: document.querySelector("#page-home"),
     radar: document.querySelector("#page-radar"),
+    industry: document.querySelector("#page-industry"),
     routes: document.querySelector("#page-routes"),
     cases: document.querySelector("#page-cases"),
     calendar: document.querySelector("#page-calendar"),
@@ -92,6 +112,48 @@ function bindGlobalEvents() {
       showLabDetail(labButton.dataset.labId);
       return;
     }
+    const industryOpportunityButton = event.target.closest("[data-industry-opportunity-id]");
+    if (industryOpportunityButton) {
+      showIndustryOpportunityDetail(industryOpportunityButton.dataset.industryOpportunityId);
+      return;
+    }
+    const industryCompanyButton = event.target.closest("[data-industry-company-id]");
+    if (industryCompanyButton) {
+      showIndustryCompanyDetail(industryCompanyButton.dataset.industryCompanyId);
+      return;
+    }
+    const industryPersonButton = event.target.closest("[data-industry-person-id]");
+    if (industryPersonButton) {
+      showIndustryPersonDetail(industryPersonButton.dataset.industryPersonId);
+      return;
+    }
+    const compareCompanyButton = event.target.closest("[data-compare-company-id]");
+    if (compareCompanyButton) {
+      toggleComparison(state.companyCompare, compareCompanyButton.dataset.compareCompanyId);
+      renderIndustry();
+      renderHome();
+      return;
+    }
+    const compareOpportunityButton = event.target.closest("[data-compare-opportunity-id]");
+    if (compareOpportunityButton) {
+      toggleComparison(state.opportunityCompare, compareOpportunityButton.dataset.compareOpportunityId);
+      renderIndustry();
+      renderHome();
+      return;
+    }
+    if (event.target.closest("[data-clear-industry-compare]")) {
+      state.companyCompare.clear();
+      state.opportunityCompare.clear();
+      renderIndustry();
+      return;
+    }
+    const expandIndustryButton = event.target.closest("[data-expand-industry]");
+    if (expandIndustryButton) {
+      const key = expandIndustryButton.dataset.expandIndustry;
+      state.industryExpanded[key] = !state.industryExpanded[key];
+      renderIndustry();
+      return;
+    }
     if (event.target.closest("[data-close-drawer]")) {
       closeDrawer();
     }
@@ -106,6 +168,7 @@ function bindGlobalEvents() {
 function renderAll() {
   renderHome();
   renderRadar();
+  renderIndustry();
   renderRoutes();
   renderCases();
   renderCalendar();
@@ -125,6 +188,8 @@ function renderHome() {
   const featuredJobs = highMatchJobs().slice(0, 6);
   const featuredLabs = sortedLabs().slice(0, 4);
   const featuredPeople = sortedPeople().slice(0, 3);
+  const featuredIndustryOpportunities = sortedIndustryOpportunities().slice(0, 3);
+  const featuredIndustryCompanies = sortedIndustryCompanies().slice(0, 3);
   const activeSources = (data.sources ?? []).filter((source) => source.status === "ok").slice(0, 6);
 
   els.pages.home.innerHTML = `
@@ -154,6 +219,24 @@ function renderHome() {
       </div>
       <div class="opportunity-grid">
         ${featuredJobs.length ? featuredJobs.map(jobCard).join("") : emptyBlock("暂无 A/B 高匹配机会")}
+      </div>
+    </section>
+
+    <section class="section-band industry-home-band">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Industry Radar</p>
+          <h2>大陆大厂优先的产业机会</h2>
+        </div>
+        <a href="#industry" class="text-link">进入产业雷达</a>
+      </div>
+      <div class="industry-home-grid">
+        <div class="industry-opportunity-list">
+          ${featuredIndustryOpportunities.map(industryOpportunityRow).join("") || emptyBlock("产业岗位待补充")}
+        </div>
+        <div class="company-rank-list">
+          ${featuredIndustryCompanies.map(industryCompanyRankRow).join("") || emptyBlock("重点公司待补充")}
+        </div>
       </div>
     </section>
 
@@ -276,6 +359,152 @@ function renderRadarTable() {
   body.innerHTML = jobs.length ? jobs.map(jobRow).join("") : `<tr><td colspan="10">${emptyBlock("没有匹配当前筛选的机会")}</td></tr>`;
 }
 
+function renderIndustry() {
+  const industry = state.data.industry ?? fallbackIndustry();
+  const opportunities = filteredIndustryOpportunities();
+  const companies = filteredIndustryCompanies();
+  const people = filteredIndustryPeople();
+  const paths = industry.anonymousPaths ?? [];
+  const visibleOpportunities = state.industryExpanded.opportunities ? opportunities : opportunities.slice(0, 12);
+  const visibleCompanies = state.industryExpanded.companies ? companies : companies.slice(0, 12);
+  const visiblePeople = state.industryExpanded.people ? people : people.slice(0, 12);
+  const visiblePaths = state.industryExpanded.paths ? paths : paths.slice(0, 8);
+  const activeCount = (industry.opportunities ?? []).filter((item) => item.status === "active").length;
+  const internshipCount = (industry.opportunities ?? []).filter((item) => String(item.track).includes("internship")).length;
+  const highFeasibilityCount = (industry.opportunities ?? []).filter((item) => Number(item.feasibilityScore ?? 0) >= 70).length;
+
+  els.pages.industry.innerHTML = `
+    <section class="page-heading industry-heading">
+      <p class="eyebrow">Industry Intelligence</p>
+      <h1>产业雷达</h1>
+      <p>大陆大厂工作优先，港新与欧洲产业研究并行；核心优化、邻近转型和量化备选分层展示。岗位是否开放、薪资和身份要求均以原始来源为准。</p>
+      <div class="industry-update-line">
+        <span>资料更新 ${escapeHtml(industry.updatedAt || "待补")}</span>
+        <span>官方优先</span>
+        <span>周更计划</span>
+      </div>
+    </section>
+
+    <section class="industry-metric-strip" aria-label="产业雷达摘要">
+      ${metricCard("当前招聘信号", activeCount, "含未来目标样本")}
+      ${metricCard("重点公司", industry.companies?.length ?? 0, "公司 → 团队 → 岗位")}
+      ${metricCard("产业人物", industry.people?.length ?? 0, "实名公开路径")}
+      ${metricCard("实习入口", internshipCount, "2028 暑期准备")}
+      ${metricCard("较高可行性", highFeasibilityCount, "可行性 ≥ 70")}
+    </section>
+
+    <section class="filter-band industry-filter-band">
+      ${industryFilterInput("search", "搜索", "供应链、量化、华为、C++")}
+      ${industryFilterSelect("region", "地区", industryRegionOptions())}
+      ${industryFilterSelect("category", "公司类型", industryCategoryOptions())}
+      ${industryFilterSelect("roleFamily", "岗位方向", industryRoleOptions())}
+      ${industryFilterSelect("timing", "时间适配", [["future_action", "未来可行动"], ["future_sample", "目标岗位样本"]])}
+      ${industryFilterSelect("status", "状态", [["active", "招聘信号活跃"], ["watch", "长期监控"], ["historical", "历史样本"]])}
+    </section>
+
+    ${renderIndustryComparePanel()}
+
+    <section class="section-band">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">01 · Opportunities</p>
+          <h2>当前招聘与未来目标岗位</h2>
+        </div>
+        <span class="muted">${opportunities.length} 条 · 研究相关性为准入门槛</span>
+      </div>
+      <div class="industry-opportunity-list full">
+        ${visibleOpportunities.length ? visibleOpportunities.map(industryOpportunityRow).join("") : emptyBlock("当前筛选下没有岗位")}
+      </div>
+      ${industryExpandButton("opportunities", visibleOpportunities.length, opportunities.length)}
+    </section>
+
+    <section class="section-band">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">02 · Company Ranking</p>
+          <h2>重点公司与团队</h2>
+        </div>
+        <span class="muted">供给 25% · 薪资 25% · 可行性 20% · 匹配 15%</span>
+      </div>
+      <div class="industry-company-grid">
+        ${visibleCompanies.length ? visibleCompanies.map(industryCompanyCard).join("") : emptyBlock("当前筛选下没有公司")}
+      </div>
+      ${industryExpandButton("companies", visibleCompanies.length, companies.length)}
+    </section>
+
+    <section class="section-band">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">03 · Compensation</p>
+          <h2>薪资与购买力参考</h2>
+        </div>
+        <span class="muted">非 Offer 预测 · 按年份与置信度核验</span>
+      </div>
+      <div class="salary-table-wrap">
+        <table class="salary-table">
+          <thead><tr><th>路线</th><th>原币种区间</th><th>人民币参考</th><th>购买力</th><th>证据</th></tr></thead>
+          <tbody>${(industry.salaryBenchmarks ?? []).map(salaryBenchmarkRow).join("")}</tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section-band">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">04 · People</p>
+          <h2>产业人物与成长路径</h2>
+        </div>
+        <span class="muted">优先展示可复制性较高的青年路径</span>
+      </div>
+      <div class="industry-person-grid">
+        ${visiblePeople.length ? visiblePeople.map(industryPersonCard).join("") : emptyBlock("当前筛选下没有人物")}
+      </div>
+      ${industryExpandButton("people", visiblePeople.length, people.length)}
+    </section>
+
+    <section class="section-band industry-skill-band">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">05 · Skill Demand</p>
+          <h2>岗位反复出现的能力</h2>
+        </div>
+        <span class="muted">基于首批岗位样本，后续周更</span>
+      </div>
+      <div class="skill-demand-list">
+        ${(industry.skillDemand ?? []).map(industrySkillRow).join("")}
+      </div>
+    </section>
+
+    ${state.data.mode === "private" ? renderIndustryPrivateGap(industry.private) : renderPublicGapNotice()}
+
+    <section class="section-band">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Path Samples</p>
+          <h2>匿名成长路径样本</h2>
+        </div>
+        <span class="muted">不与实名人物排名混排</span>
+      </div>
+      <div class="anonymous-path-grid">
+        ${visiblePaths.map(anonymousPathCard).join("")}
+      </div>
+      ${industryExpandButton("paths", visiblePaths.length, paths.length)}
+    </section>
+
+    <section class="method-note-band">
+      <strong>数据边界</strong>
+      <p>${escapeHtml(industry.sourcePolicyZh || "所有申请前必须回到官方原始链接核验。")}</p>
+    </section>
+  `;
+
+  els.pages.industry.querySelectorAll("[data-industry-filter]").forEach((control) => {
+    control.addEventListener("input", (event) => {
+      state.industryFilters[event.target.dataset.industryFilter] = event.target.value;
+      renderIndustry();
+    });
+  });
+}
+
 function renderRoutes() {
   els.pages.routes.innerHTML = `
     <section class="page-heading">
@@ -368,6 +597,7 @@ function renderMethods() {
     <section class="method-grid">
       ${methodCard("数据源原则", methodology.sourcePrinciple)}
       ${methodCard("匹配度评分", "综合岗位类型、地区优先级、研究方向关键词、截止紧急度和来源可信度；A/B 机会进入重点提醒。")}
+      ${methodCard("产业情报", state.data.industry?.sourcePolicyZh ?? "官方招聘与公司/团队主页优先，社区信息只作低权重参考。")}
       ${methodCard("隐私边界", methodology.privacy)}
       ${methodCard("AI 辅助", methodology.aiNotice)}
       ${methodCard("免责声明", methodology.disclaimer)}
@@ -385,6 +615,117 @@ function renderMethods() {
       </div>
     </section>
   `;
+}
+
+function showIndustryOpportunityDetail(opportunityId) {
+  const opportunity = (state.data.industry?.opportunities ?? []).find((item) => item.id === opportunityId);
+  if (!opportunity) return;
+  const company = (state.data.industry?.companies ?? []).find((item) => item.id === opportunity.companyId);
+  els.drawer.classList.add("open");
+  els.drawer.innerHTML = `
+    <button class="drawer-close" data-close-drawer aria-label="关闭">×</button>
+    <div class="drawer-body">
+      <p class="eyebrow">产业岗位详情</p>
+      <h2>${escapeHtml(opportunity.titleZh || opportunity.title)}</h2>
+      <p class="muted">${escapeHtml([opportunity.title, opportunity.company, opportunity.team].filter(Boolean).join(" · "))}</p>
+      <div class="score-line">${industryScoreBadge(opportunity)} <span>${escapeHtml(opportunity.availabilityZh || "")}</span></div>
+      ${Number(opportunity.identityRisk ?? 0) >= 40 ? `<p class="risk-banner">当前可行性较低：身份、地区或岗位资历要求需要单独确认。</p>` : ""}
+      ${detailSection("五维评分", renderIndustryScores(opportunity))}
+      ${detailSection("岗位信息", infoList([
+        ["公司/团队", [opportunity.company, opportunity.team].filter(Boolean).join(" / ")],
+        ["中文/英文职位", [opportunity.titleZh, opportunity.title].filter(Boolean).join(" / ")],
+        ["地区", [opportunity.city, opportunity.region].filter(Boolean).join(" / ")],
+        ["岗位方向", opportunity.roleFamily],
+        ["招聘状态", opportunity.availabilityZh],
+        ["与你的时间线", opportunity.timingFit === "future_action" ? "未来可行动" : "目标岗位样本"],
+        ["来源更新时间", opportunity.sourceUpdatedAt],
+        ["来源等级", `${opportunity.confidence ?? "待核验"} · ${opportunity.sourceType ?? ""}`],
+        ["原始链接", link(opportunity.sourceUrl, "打开官方来源")]
+      ]))}
+      ${detailSection("为什么关注", `<p>${escapeHtml(opportunity.summaryZh || "")}</p>`)}
+      ${detailSection("反复出现的技能", tagList(opportunity.skills ?? []))}
+      ${company ? detailSection("公司画像", `
+        <p>${escapeHtml(company.whyTrackZh || "")}</p>
+        <button class="inline-button" data-industry-company-id="${escapeAttr(company.id)}">查看公司与团队</button>
+      `) : ""}
+      ${state.data.mode === "private" ? detailSection("个人申请跟踪", renderIndustryLocalTracking("opportunity", opportunity.id)) : ""}
+      ${detailSection("核验提醒", `<p class="ai-notice">岗位状态、薪资、毕业时间和身份要求均以原始招聘页面为准；历史样本不可直接投递。</p>`)}
+    </div>
+  `;
+  bindLocalTrackingControls();
+}
+
+function showIndustryCompanyDetail(companyId) {
+  const company = (state.data.industry?.companies ?? []).find((item) => item.id === companyId);
+  if (!company) return;
+  const opportunities = (state.data.industry?.opportunities ?? []).filter((item) => item.companyId === companyId);
+  const people = (state.data.industry?.people ?? []).filter((item) => item.companyId === companyId).slice(0, 8);
+  els.drawer.classList.add("open");
+  els.drawer.innerHTML = `
+    <button class="drawer-close" data-close-drawer aria-label="关闭">×</button>
+    <div class="drawer-body">
+      <p class="eyebrow">重点公司与团队</p>
+      <h2>${escapeHtml(company.nameZh || company.name)}</h2>
+      <p class="muted">${escapeHtml(company.name)} · ${escapeHtml(company.category || "")}</p>
+      <div class="score-line">${industryScoreBadge(company)} <span>${escapeHtml(company.priority || "")}</span></div>
+      ${Number(company.identityRisk ?? 0) >= 40 ? `<p class="risk-banner">当前可行性较低：保留作为长期目标，优先核验身份与地点限制。</p>` : ""}
+      ${detailSection("五维评分", renderIndustryScores(company))}
+      ${detailSection("公司画像", `<p>${escapeHtml(company.whyTrackZh || "")}</p>`)}
+      ${detailSection("团队层级", reasonList("重点团队", company.teams ?? []))}
+      ${detailSection("岗位方向", tagList(company.roleFamilies ?? []))}
+      ${detailSection("工作地点", tagList([...(company.locations ?? []), ...(company.regions ?? [])]))}
+      ${detailSection("薪资与证据", infoList([
+        ["薪资参考", company.salaryBandZh],
+        ["证据等级", company.sourceConfidence],
+        ["官方招聘", link(company.careerUrl, "打开招聘页")],
+        ["公司/团队主页", link(company.homepage, "打开主页")]
+      ]))}
+      ${detailSection("关联岗位", opportunities.length ? `<div class="linked-list">${opportunities.map((item) => `
+        <button class="linked-row" data-industry-opportunity-id="${escapeAttr(item.id)}">
+          ${industryScoreBadge(item)}
+          <span><b>${escapeHtml(item.titleZh || item.title)}</b><small>${escapeHtml([item.city, item.availabilityZh].filter(Boolean).join(" · "))}</small></span>
+        </button>
+      `).join("")}</div>` : `<p class="muted">当前只有公司级监控入口。</p>`)}
+      ${detailSection("关联人物", people.length ? `<div class="linked-list">${people.map((person) => `
+        <button class="linked-row" data-industry-person-id="${escapeAttr(person.id)}">
+          <span class="trust-label">${Number(person.replicabilityScore ?? 0)}</span>
+          <span><b>${escapeHtml(person.name)}</b><small>${escapeHtml(person.currentPosition || "")}</small></span>
+        </button>
+      `).join("")}</div>` : `<p class="muted">人物档案待继续补充。</p>`)}
+      ${state.data.mode === "private" ? detailSection("关注与联系", renderIndustryLocalTracking("company", company.id)) : ""}
+    </div>
+  `;
+  bindLocalTrackingControls();
+}
+
+function showIndustryPersonDetail(personId) {
+  const person = (state.data.industry?.people ?? []).find((item) => item.id === personId);
+  if (!person) return;
+  els.drawer.classList.add("open");
+  els.drawer.innerHTML = `
+    <button class="drawer-close" data-close-drawer aria-label="关闭">×</button>
+    <div class="drawer-body">
+      <p class="eyebrow">产业人物与成长路径</p>
+      <h2>${escapeHtml(person.nameZh ? `${person.name} / ${person.nameZh}` : person.name)}</h2>
+      <p class="muted">${escapeHtml([person.currentPosition, person.companyNameZh, person.team].filter(Boolean).join(" · "))}</p>
+      <div class="score-line"><span class="replicability-badge">可复制性 ${Number(person.replicabilityScore ?? 0)}</span><span>${escapeHtml(person.confidence || "待核验")}</span></div>
+      ${detailSection("成长路径", `<p>${escapeHtml(person.pathSummaryZh || "")}</p>`)}
+      ${detailSection("教育与背景", `<p>${escapeHtml(person.educationSummaryZh || "公开信息待补充")}</p>`)}
+      ${detailSection("研究与技能", tagList(person.fieldTags ?? []))}
+      ${detailSection("代表作/项目", renderWorks(person.representativeWorks ?? []))}
+      ${detailSection("路径可复制性", `<p>${escapeHtml(person.replicabilityZh || "")}</p><p class="ai-notice">可复制性是基于公开路径的规则判断，不是事实陈述或录用概率预测。</p>`)}
+      ${detailSection("公开入口", infoList([
+        ["个人/官方主页", link(person.homepage, "打开主页")],
+        ["Google Scholar", link(person.googleScholar, "打开 Scholar")],
+        ["LinkedIn", link(person.linkedin, "打开 LinkedIn")],
+        ["公开邮箱", person.publicEmail],
+        ["证据等级", person.confidence]
+      ]))}
+      ${detailSection("公开证据", renderEvidence(person.evidence ?? []))}
+      ${state.data.mode === "private" ? detailSection("联系记录", renderIndustryLocalTracking("person", person.id)) : ""}
+    </div>
+  `;
+  bindLocalTrackingControls();
 }
 
 function showJobDetail(jobId) {
@@ -620,8 +961,313 @@ function caseRecruitmentMatches(item, filter, searchText) {
   return true;
 }
 
+function sortedIndustryCompanies() {
+  return [...(state.data.industry?.companies ?? [])].sort((a, b) => (b.overallScore ?? 0) - (a.overallScore ?? 0));
+}
+
+function sortedIndustryOpportunities() {
+  return [...(state.data.industry?.opportunities ?? [])].sort((a, b) => (b.overallScore ?? 0) - (a.overallScore ?? 0));
+}
+
+function filteredIndustryCompanies() {
+  const filters = state.industryFilters;
+  return sortedIndustryCompanies().filter((company) => {
+    const searchText = industrySearchText(company);
+    return (!filters.search || searchText.includes(filters.search.toLowerCase()))
+      && (!filters.region || (company.regions ?? []).includes(filters.region) || searchText.includes(filters.region.toLowerCase()))
+      && (!filters.category || company.category === filters.category)
+      && (!filters.roleFamily || searchText.includes(filters.roleFamily.toLowerCase()));
+  });
+}
+
+function filteredIndustryOpportunities() {
+  const filters = state.industryFilters;
+  return sortedIndustryOpportunities().filter((opportunity) => {
+    const company = (state.data.industry?.companies ?? []).find((item) => item.id === opportunity.companyId);
+    const searchText = industrySearchText({ ...opportunity, companyCategory: company?.category });
+    return (!filters.search || searchText.includes(filters.search.toLowerCase()))
+      && (!filters.region || opportunity.region === filters.region || searchText.includes(filters.region.toLowerCase()))
+      && (!filters.category || company?.category === filters.category)
+      && (!filters.roleFamily || opportunity.roleFamily === filters.roleFamily)
+      && (!filters.timing || opportunity.timingFit === filters.timing)
+      && (!filters.status || opportunity.status === filters.status);
+  });
+}
+
+function filteredIndustryPeople() {
+  const filters = state.industryFilters;
+  return [...(state.data.industry?.people ?? [])]
+    .filter((person) => {
+      const company = (state.data.industry?.companies ?? []).find((item) => item.id === person.companyId);
+      const searchText = industrySearchText({ ...person, companyCategory: company?.category });
+      return (!filters.search || searchText.includes(filters.search.toLowerCase()))
+        && (!filters.region || person.region === filters.region || searchText.includes(filters.region.toLowerCase()))
+        && (!filters.category || company?.category === filters.category)
+        && (!filters.roleFamily || searchText.includes(filters.roleFamily.toLowerCase()));
+    })
+    .sort((a, b) => (b.replicabilityScore ?? 0) - (a.replicabilityScore ?? 0));
+}
+
+function industrySearchText(item) {
+  return [
+    item.name,
+    item.nameZh,
+    item.title,
+    item.titleZh,
+    item.company,
+    item.companyNameZh,
+    item.companyCategory,
+    item.team,
+    item.category,
+    item.region,
+    item.city,
+    item.roleFamily,
+    item.currentPosition,
+    item.pathSummaryZh,
+    item.educationSummaryZh,
+    ...(item.teams ?? []),
+    ...(item.roleFamilies ?? []),
+    ...(item.fieldTags ?? []),
+    ...(item.skills ?? [])
+  ].filter(Boolean).join(" ").toLowerCase();
+}
+
+function industryRegionOptions() {
+  const values = new Set();
+  for (const company of state.data.industry?.companies ?? []) {
+    for (const region of company.regions ?? []) values.add(region);
+  }
+  for (const opportunity of state.data.industry?.opportunities ?? []) values.add(opportunity.region);
+  return [...values].filter(Boolean).sort((a, b) => a.localeCompare(b, "zh-CN")).map((value) => [value, value]);
+}
+
+function industryCategoryOptions() {
+  return [...new Set((state.data.industry?.companies ?? []).map((item) => item.category).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, "zh-CN"))
+    .map((value) => [value, value]);
+}
+
+function industryRoleOptions() {
+  return [...new Set((state.data.industry?.opportunities ?? []).map((item) => item.roleFamily).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, "zh-CN"))
+    .map((value) => [value, value]);
+}
+
+function toggleComparison(collection, id) {
+  if (collection.has(id)) {
+    collection.delete(id);
+    return;
+  }
+  if (collection.size >= 4) return;
+  collection.add(id);
+}
+
+function renderIndustryComparePanel() {
+  const companies = [...state.companyCompare]
+    .map((id) => (state.data.industry?.companies ?? []).find((item) => item.id === id))
+    .filter(Boolean);
+  const opportunities = [...state.opportunityCompare]
+    .map((id) => (state.data.industry?.opportunities ?? []).find((item) => item.id === id))
+    .filter(Boolean);
+  if (!companies.length && !opportunities.length) return "";
+  return `
+    <section class="industry-compare-band">
+      <div class="section-head">
+        <div><p class="eyebrow">Compare</p><h2>并排比较</h2></div>
+        <button class="tiny-button" data-clear-industry-compare>清空</button>
+      </div>
+      ${companies.length ? `<div class="compare-grid">${companies.map(compareCompanyColumn).join("")}</div>` : ""}
+      ${opportunities.length ? `<div class="compare-grid">${opportunities.map(compareOpportunityColumn).join("")}</div>` : ""}
+    </section>
+  `;
+}
+
+function industryExpandButton(key, visibleCount, totalCount) {
+  if (totalCount <= visibleCount && !state.industryExpanded[key]) return "";
+  const expanded = state.industryExpanded[key];
+  return `<div class="expand-row"><button class="tiny-button" data-expand-industry="${escapeAttr(key)}">${expanded ? "收起" : `显示全部 ${totalCount} 条`}</button></div>`;
+}
+
+function compareCompanyColumn(company) {
+  return `<div class="compare-column">
+    <strong>${escapeHtml(company.nameZh || company.name)}</strong>
+    <span>综合 ${Number(company.overallScore ?? 0)}</span>
+    <span>薪资 ${Number(company.salaryScore ?? 0)}</span>
+    <span>供给 ${Number(company.supplyScore ?? 0)}</span>
+    <span>可行 ${Number(company.feasibilityScore ?? 0)}</span>
+    <span>匹配 ${Number(company.fitScore ?? 0)}</span>
+    <span>风险 ${Number(company.identityRisk ?? 0)}</span>
+  </div>`;
+}
+
+function compareOpportunityColumn(opportunity) {
+  return `<div class="compare-column">
+    <strong>${escapeHtml(opportunity.titleZh || opportunity.title)}</strong>
+    <span>${escapeHtml(opportunity.company || "")}</span>
+    <span>综合 ${Number(opportunity.overallScore ?? 0)}</span>
+    <span>薪资 ${Number(opportunity.salaryScore ?? 0)}</span>
+    <span>可行 ${Number(opportunity.feasibilityScore ?? 0)}</span>
+    <span>匹配 ${Number(opportunity.fitScore ?? 0)}</span>
+    <span>风险 ${Number(opportunity.identityRisk ?? 0)}</span>
+  </div>`;
+}
+
 function metricCard(label, value, caption) {
   return `<div class="metric"><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong><small>${escapeHtml(caption)}</small></div>`;
+}
+
+function industryOpportunityRow(opportunity) {
+  const selected = state.opportunityCompare.has(opportunity.id);
+  return `
+    <article class="industry-opportunity-row">
+      <div class="industry-score-cell">${industryScoreBadge(opportunity)}</div>
+      <div class="industry-opportunity-main">
+        <button class="row-title" data-industry-opportunity-id="${escapeAttr(opportunity.id)}">${escapeHtml(opportunity.titleZh || opportunity.title)}</button>
+        <small>${escapeHtml([opportunity.title, opportunity.company, opportunity.team].filter(Boolean).join(" · "))}</small>
+        <p>${escapeHtml(opportunity.summaryZh || "")}</p>
+      </div>
+      <div class="industry-row-meta">
+        <span>${escapeHtml([opportunity.city, opportunity.region].filter(Boolean).join(" / "))}</span>
+        <span>${escapeHtml(opportunity.roleFamily || "")}</span>
+      </div>
+      <div class="industry-row-status">
+        <span class="status-chip status-${escapeAttr(opportunity.status || "watch")}">${escapeHtml(opportunity.availabilityZh || opportunity.status || "")}</span>
+        ${Number(opportunity.identityRisk ?? 0) >= 40 ? `<span class="risk-chip">当前可行性较低</span>` : ""}
+      </div>
+      <div class="industry-row-actions">
+        <button class="tiny-button" data-compare-opportunity-id="${escapeAttr(opportunity.id)}">${selected ? "移出对比" : "对比"}</button>
+        <button class="tiny-button primary" data-industry-opportunity-id="${escapeAttr(opportunity.id)}">详情</button>
+      </div>
+    </article>
+  `;
+}
+
+function industryCompanyRankRow(company) {
+  return `
+    <button class="company-rank-row" data-industry-company-id="${escapeAttr(company.id)}">
+      ${industryScoreBadge(company)}
+      <span><strong>${escapeHtml(company.nameZh || company.name)}</strong><small>${escapeHtml(company.category || "")}</small></span>
+      <b>${Number(company.overallScore ?? 0)}</b>
+    </button>
+  `;
+}
+
+function industryCompanyCard(company) {
+  const selected = state.companyCompare.has(company.id);
+  return `
+    <article class="industry-company-card">
+      <div class="company-card-heading">
+        <div>${industryScoreBadge(company)} <span class="trust-label">${escapeHtml(company.priority || "")}</span></div>
+        <span class="company-category">${escapeHtml(company.category || "")}</span>
+      </div>
+      <h3>${escapeHtml(company.nameZh || company.name)}</h3>
+      <p class="company-name-en">${escapeHtml(company.name || "")}</p>
+      <div class="company-score-grid">
+        ${compactIndustryScore("薪资", company.salaryScore)}
+        ${compactIndustryScore("供给", company.supplyScore)}
+        ${compactIndustryScore("可行", company.feasibilityScore)}
+        ${compactIndustryScore("匹配", company.fitScore)}
+      </div>
+      <p>${escapeHtml(company.whyTrackZh || "")}</p>
+      <div class="tag-list">${tagList(company.teams ?? [])}</div>
+      ${Number(company.identityRisk ?? 0) >= 40 ? `<span class="risk-chip block">当前可行性较低 · 风险 ${Number(company.identityRisk)}</span>` : ""}
+      <div class="card-actions">
+        <button class="tiny-button" data-compare-company-id="${escapeAttr(company.id)}">${selected ? "移出对比" : "加入对比"}</button>
+        <button class="inline-button" data-industry-company-id="${escapeAttr(company.id)}">公司与团队详情</button>
+      </div>
+    </article>
+  `;
+}
+
+function industryPersonCard(person) {
+  return `
+    <article class="industry-person-card">
+      <div class="person-top">
+        <span class="replicability-badge">可复制性 ${Number(person.replicabilityScore ?? 0)}</span>
+        <span>${escapeHtml(person.confidence || "待核验")}</span>
+      </div>
+      <h3>${escapeHtml(person.nameZh ? `${person.name} / ${person.nameZh}` : person.name)}</h3>
+      <p>${escapeHtml(person.currentPosition || "")}</p>
+      <p class="muted">${escapeHtml([person.companyNameZh, person.team].filter(Boolean).join(" · "))}</p>
+      <div class="tag-list">${tagList(person.fieldTags ?? [])}</div>
+      <p class="reason">${escapeHtml(person.pathSummaryZh || "")}</p>
+      <button class="inline-button" data-industry-person-id="${escapeAttr(person.id)}">查看背景、代表作与路径</button>
+    </article>
+  `;
+}
+
+function salaryBenchmarkRow(item) {
+  return `<tr>
+    <td><strong>${escapeHtml(item.labelZh || "")}</strong><div class="table-note">评分 ${Number(item.score ?? 0)}</div></td>
+    <td>${escapeHtml(item.originalRange || "")}</td>
+    <td>${escapeHtml(item.cnyRange || "")}</td>
+    <td>${escapeHtml(item.purchasingPowerZh || "")}</td>
+    <td><span class="trust-label">${escapeHtml(item.confidence || "待核验")}</span><div class="table-note">${escapeHtml(item.noteZh || "")}</div></td>
+  </tr>`;
+}
+
+function industrySkillRow(skill) {
+  const max = Math.max(...(state.data.industry?.skillDemand ?? []).map((item) => Number(item.count ?? 0)), 1);
+  const width = Math.round(Number(skill.count ?? 0) / max * 100);
+  return `<div class="skill-demand-row">
+    <div><strong>${escapeHtml(skill.name || "")}</strong><small>${escapeHtml(skill.category || "")}</small></div>
+    <div class="skill-bar" aria-label="${escapeAttr(skill.name)} ${Number(skill.count ?? 0)} 个样本"><span style="width:${width}%"></span></div>
+    <b>${Number(skill.count ?? 0)}</b>
+    <p>${escapeHtml(skill.whyZh || "")}</p>
+  </div>`;
+}
+
+function anonymousPathCard(path) {
+  return `<article class="anonymous-path-card">
+    <div class="person-top"><span>${escapeHtml(path.region || "")}</span><span>${escapeHtml(path.evidenceLevel || "")}</span></div>
+    <h3>${escapeHtml(path.titleZh || "")}</h3>
+    <ol>${(path.steps ?? []).map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol>
+    <p>${escapeHtml(path.lessonZh || "")}</p>
+  </article>`;
+}
+
+function compactIndustryScore(label, value) {
+  return `<div><span>${escapeHtml(label)}</span><strong>${Number(value ?? 0)}</strong></div>`;
+}
+
+function industryScoreBadge(item) {
+  const score = Number(item.overallScore ?? 0);
+  const grade = score >= 85 ? "a" : score >= 75 ? "b" : score >= 60 ? "c" : "d";
+  return `<span class="score-badge grade-${grade}">${score}</span>`;
+}
+
+function renderIndustryScores(item) {
+  return `<div class="detail-score-grid">
+    ${detailScore("研究匹配", item.fitScore)}
+    ${detailScore("薪资吸引力", item.salaryScore)}
+    ${detailScore("岗位供给", item.supplyScore)}
+    ${detailScore("入职可行性", item.feasibilityScore)}
+    ${detailScore("身份/语言风险", item.identityRisk, true)}
+  </div>`;
+}
+
+function detailScore(label, value, inverse = false) {
+  const score = Number(value ?? 0);
+  return `<div><span>${escapeHtml(label)}</span><strong>${score}</strong><div class="mini-bar ${inverse ? "risk" : ""}"><i style="width:${Math.max(0, Math.min(100, score))}%"></i></div></div>`;
+}
+
+function renderIndustryPrivateGap(privatePlan) {
+  if (!privatePlan) return "";
+  return `<section class="private-gap-band">
+    <div class="section-head"><div><p class="eyebrow">Private · Personal Gap</p><h2>个人差距与行动路线</h2></div><span class="trust-label">仅私有版</span></div>
+    <p>${escapeHtml(privatePlan.summaryZh || "")}</p>
+    <div class="readiness-grid">${(privatePlan.readiness ?? []).map((item) => `
+      <div class="readiness-row"><span>${escapeHtml(item.name || "")}</span><strong>${Number(item.score ?? 0)}</strong><div class="mini-bar"><i style="width:${Number(item.score ?? 0)}%"></i></div><small>${escapeHtml(item.statusZh || "")}</small></div>
+    `).join("")}</div>
+    <div class="private-timeline">${(privatePlan.timeline ?? []).map((item) => `<div><strong>${escapeHtml(item.period || "")}</strong><span>${escapeHtml(item.focusZh || "")}</span></div>`).join("")}</div>
+  </section>`;
+}
+
+function renderPublicGapNotice() {
+  return `<section class="public-gap-notice">
+    <div><p class="eyebrow">05 · Personal Gap</p><h2>个人差距保留在私有版</h2></div>
+    <p>公开版只展示通用技能需求，不包含论文进度、GitHub 差距、联系记录或申请状态。</p>
+  </section>`;
 }
 
 function jobCard(job) {
@@ -776,6 +1422,14 @@ function filterInput(name, label, placeholder) {
 
 function filterSelect(name, label, options) {
   return `<label class="filter-control"><span>${escapeHtml(label)}</span><select data-filter="${escapeAttr(name)}"><option value="">全部</option>${options.map(([value, text]) => `<option value="${escapeAttr(value)}" ${state.radarFilters[name] === value ? "selected" : ""}>${escapeHtml(text)}</option>`).join("")}</select></label>`;
+}
+
+function industryFilterInput(name, label, placeholder) {
+  return `<label class="filter-control"><span>${escapeHtml(label)}</span><input data-industry-filter="${escapeAttr(name)}" value="${escapeAttr(state.industryFilters[name])}" placeholder="${escapeAttr(placeholder)}"></label>`;
+}
+
+function industryFilterSelect(name, label, options) {
+  return `<label class="filter-control"><span>${escapeHtml(label)}</span><select data-industry-filter="${escapeAttr(name)}"><option value="">全部</option>${options.map(([value, text]) => `<option value="${escapeAttr(value)}" ${state.industryFilters[name] === value ? "selected" : ""}>${escapeHtml(text)}</option>`).join("")}</select></label>`;
 }
 
 function caseFilterInput(name, label, placeholder) {
@@ -982,6 +1636,50 @@ function renderPrivateJobState(job) {
   ]);
 }
 
+function renderIndustryLocalTracking(kind, id) {
+  const key = `${kind}:${id}`;
+  const record = readIndustryTracking()[key] ?? {};
+  const stages = ["待研究", "准备中", "已收藏", "已联系", "已投递", "面试", "Offer", "拒绝", "暂停"];
+  return `<div class="local-tracking" data-local-tracking-key="${escapeAttr(key)}">
+    <label><span>状态</span><select data-local-stage>${stages.map((stage) => `<option value="${escapeAttr(stage)}" ${record.stage === stage ? "selected" : ""}>${escapeHtml(stage)}</option>`).join("")}</select></label>
+    <label><span>提醒日期</span><input type="date" data-local-reminder value="${escapeAttr(record.reminder || "")}"></label>
+    <label class="wide"><span>私人备注</span><textarea data-local-notes rows="3">${escapeHtml(record.notes || "")}</textarea></label>
+    <button class="tiny-button primary" data-save-local-tracking>保存到本机</button>
+    <small data-local-save-status>只保存在当前浏览器。</small>
+  </div>`;
+}
+
+function bindLocalTrackingControls() {
+  const container = els.drawer.querySelector("[data-local-tracking-key]");
+  const button = container?.querySelector("[data-save-local-tracking]");
+  if (!container || !button) return;
+  button.addEventListener("click", () => {
+    const all = readIndustryTracking();
+    all[container.dataset.localTrackingKey] = {
+      stage: container.querySelector("[data-local-stage]")?.value || "待研究",
+      reminder: container.querySelector("[data-local-reminder]")?.value || "",
+      notes: container.querySelector("[data-local-notes]")?.value || "",
+      updatedAt: new Date().toISOString()
+    };
+    try {
+      localStorage.setItem("industry-tracking-v1", JSON.stringify(all));
+      const status = container.querySelector("[data-local-save-status]");
+      if (status) status.textContent = "已保存到本机。";
+    } catch {
+      const status = container.querySelector("[data-local-save-status]");
+      if (status) status.textContent = "浏览器未允许保存。";
+    }
+  });
+}
+
+function readIndustryTracking() {
+  try {
+    return JSON.parse(localStorage.getItem("industry-tracking-v1") || "{}");
+  } catch {
+    return {};
+  }
+}
+
 function scoreBadge(job) {
   return `<span class="score-badge grade-${escapeAttr((job.priority || "d").toLowerCase())}">${escapeHtml(job.priority || "D")} ${Number(job.matchScore ?? 0)}</span>`;
 }
@@ -1093,8 +1791,22 @@ function fallbackData() {
     alerts: [],
     people: [],
     labs: [],
+    industry: fallbackIndustry(),
     routes: [],
     sources: [],
     calendar: {}
+  };
+}
+
+function fallbackIndustry() {
+  return {
+    updatedAt: "",
+    sourcePolicyZh: "所有申请前必须回到官方原始链接核验。",
+    companies: [],
+    opportunities: [],
+    people: [],
+    salaryBenchmarks: [],
+    skillDemand: [],
+    anonymousPaths: []
   };
 }

@@ -1,0 +1,150 @@
+{
+  "updatedAt": "2026-07-10",
+  "sourcePolicyZh": "官方招聘和公司/研究团队主页优先；社区信息只补充薪资、面试与匿名路径，并单独标注低可信度。所有岗位在投递前必须回到原始链接核验。",
+  "rankingWeights": {
+    "supply": 25,
+    "salary": 25,
+    "feasibility": 20,
+    "fit": 15,
+    "growth": 10,
+    "locationRisk": 5
+  },
+  "salaryBenchmarks": [
+    {
+      "id": "hk-quant",
+      "labelZh": "香港顶级量化研究/交易",
+      "originalRange": "HKD 1.1m–3.3m+ / 年总包",
+      "cnyRange": "约 100–300 万元人民币以上",
+      "purchasingPowerZh": "高，但奖金波动和淘汰风险显著",
+      "score": 100,
+      "confidence": "C · 社区与公开职位综合估算",
+      "noteZh": "不同公司、年份和奖金差异极大，不用于预测个人 Offer。"
+    },
+    {
+      "id": "sg-quant",
+      "labelZh": "新加坡量化研究/交易",
+      "originalRange": "SGD 180k–450k+ / 年总包",
+      "cnyRange": "约 95–240 万元人民币以上",
+      "purchasingPowerZh": "高，住房成本较高",
+      "score": 98,
+      "confidence": "C · 社区与公开职位综合估算",
+      "noteZh": "实习转正和团队奖金对总包影响很大。"
+    },
+    {
+      "id": "us-global-research",
+      "labelZh": "美国全球科技公司研究岗",
+      "originalRange": "USD 180k–350k+ / 年总包",
+      "cnyRange": "约 130–250 万元人民币以上",
+      "purchasingPowerZh": "高，税和城市成本高",
+      "score": 96,
+      "confidence": "B/C · 公开职位与社区样本",
+      "noteZh": "身份可行性较低，保留用于能力和薪资上限观察。"
+    },
+    {
+      "id": "mainland-top-tech",
+      "labelZh": "大陆头部大厂博士算法/研究岗",
+      "originalRange": "RMB 450k–1.0m / 年总包",
+      "cnyRange": "45–100 万元人民币",
+      "purchasingPowerZh": "较高，城市和工作强度差异大",
+      "score": 88,
+      "confidence": "C · 招聘与社区样本",
+      "noteZh": "职级、股票和特殊人才项目会显著改变区间。"
+    },
+    {
+      "id": "hk-sg-applied-science",
+      "labelZh": "香港/新加坡应用科学家与算法岗",
+      "originalRange": "HKD 650k–1.4m / SGD 110k–220k",
+      "cnyRange": "约 60–125 万元人民币",
+      "purchasingPowerZh": "中高，住房成本较高",
+      "score": 84,
+      "confidence": "C · 社区与公开岗位估算",
+      "noteZh": "外企、平台公司和研究机构差异很大。"
+    },
+    {
+      "id": "europe-industrial-research",
+      "labelZh": "欧洲科技公司产业研究岗",
+      "originalRange": "EUR 65k–130k / 年总包",
+      "cnyRange": "约 55–110 万元人民币",
+      "purchasingPowerZh": "中高，税率较高但福利较完整",
+      "score": 82,
+      "confidence": "B/C · 公开职位与社区样本",
+      "noteZh": "伦敦、苏黎世、巴黎、柏林不可直接横向比较。"
+    },
+    {
+      "id": "europe-solver",
+      "labelZh": "欧洲优化求解器研发",
+      "originalRange": "EUR 45k–100k / 年总包",
+      "cnyRange": "约 38–85 万元人民币",
+      "purchasingPowerZh": "中等到中高",
+      "score": 74,
+      "confidence": "C · 小样本估算",
+      "noteZh": "岗位供给少，研究匹配度远高于薪资样本可信度。"
+    },
+    {
+      "id": "singapore-research-institute",
+      "labelZh": "新加坡 Research Fellow / Scientist",
+      "originalRange": "SGD 60k–120k / 年",
+      "cnyRange": "约 32–64 万元人民币",
+      "purchasingPowerZh": "中等，住房成本需单独估算",
+      "score": 68,
+      "confidence": "B/C · 公开与社区样本",
+      "noteZh": "适合博后到产业研究的桥梁，不能与量化总包比较。"
+    },
+    {
+      "id": "mainland-industrial-leader",
+      "labelZh": "大陆工业龙头算法/研发岗",
+      "originalRange": "RMB 280k–650k / 年总包",
+      "cnyRange": "28–65 万元人民币",
+      "purchasingPowerZh": "中等到中高，二线城市可能更有优势",
+      "score": 64,
+      "confidence": "C · 社区样本",
+      "noteZh": "宁德时代、比亚迪和制造类团队差异很大。"
+    },
+    {
+      "id": "mainland-state-owned-research",
+      "labelZh": "央国企研究院与数字化研发",
+      "originalRange": "RMB 200k–480k / 年总包",
+      "cnyRange": "20–48 万元人民币",
+      "purchasingPowerZh": "中等，稳定性和隐性福利较强",
+      "score": 52,
+      "confidence": "C · 社区样本与岗位信息",
+      "noteZh": "编制、户口、住房和保密要求需逐单位核验。"
+    }
+  ],
+  "skillDemand": [
+    {"name": "Python", "count": 22, "category": "工程基础", "whyZh": "数据处理、建模、实验和算法原型的共同语言。"},
+    {"name": "英语研究沟通", "count": 21, "category": "通用能力", "whyZh": "论文、跨国团队、技术报告和面试都需要。"},
+    {"name": "概率统计", "count": 19, "category": "数学基础", "whyZh": "随机优化、预测、量化和实验设计的共同底座。"},
+    {"name": "C++", "count": 17, "category": "工程基础", "whyZh": "求解器、AI Infra、量化和高性能算法岗位的重要门槛。"},
+    {"name": "优化建模", "count": 16, "category": "核心方向", "whyZh": "需要把业务约束转成可计算目标、变量和约束。"},
+    {"name": "机器学习 / PyTorch", "count": 15, "category": "邻近转型", "whyZh": "提升大厂岗位数量，并支持预测加优化和决策智能。"},
+    {"name": "运筹与组合优化", "count": 14, "category": "核心方向", "whyZh": "供应链、路径、调度和资源配置岗位的直接要求。"},
+    {"name": "数据结构与算法", "count": 14, "category": "面试基础", "whyZh": "大陆大厂、量化和研究工程岗都会考察。"},
+    {"name": "SQL 与数据管道", "count": 11, "category": "工程基础", "whyZh": "工业算法需要从真实数据到上线评估的完整闭环。"},
+    {"name": "分布式与高性能计算", "count": 10, "category": "高价值扩展", "whyZh": "连接科学计算、AI Infra 和大规模优化。"},
+    {"name": "Gurobi / MOSEK / OR-Tools", "count": 9, "category": "核心工具", "whyZh": "证明你能把优化模型落到可复现工程项目。"},
+    {"name": "强化学习与序贯决策", "count": 8, "category": "高价值扩展", "whyZh": "连接动态调度、决策 Agent 和量化策略。"}
+  ],
+  "anonymousPaths": [
+    {"id": "anon-01", "titleZh": "应用数学博士 → 大厂供应链算法", "region": "Mainland China", "steps": ["应用数学/优化博士", "补 Python、SQL 和求解器项目", "供应链算法实习", "库存/调度算法岗"], "evidenceLevel": "C · 社区归纳", "lessonZh": "论文之外必须展示业务建模和上线指标。"},
+    {"id": "anon-02", "titleZh": "随机优化博士 → 决策智能研究工程师", "region": "Mainland China", "steps": ["随机优化论文", "强化学习与 Agent 项目", "预测+优化案例", "决策智能团队"], "evidenceLevel": "C · 岗位要求归纳", "lessonZh": "保持优化主线，同时补足 ML 工程。"},
+    {"id": "anon-03", "titleZh": "OR 博士 → Amazon 产业博士后 → 教职", "region": "Global", "steps": ["OR 博士", "博士期间 Amazon 实习", "SCOT 产业博士后", "NUS/USC 教职"], "evidenceLevel": "A · Amazon Science", "lessonZh": "产业博士后可以增强教职路线而非中断它。"},
+    {"id": "anon-04", "titleZh": "应用数学博士 → 求解器优化工程师", "region": "Europe", "steps": ["应用数学/系统工程博士", "物流或制造优化项目", "优化咨询", "求解器公司"], "evidenceLevel": "A/B · Gurobi 路径", "lessonZh": "模型表达、求解性能和客户问题翻译同样重要。"},
+    {"id": "anon-05", "titleZh": "数学博士 → 香港量化研究实习 → 转正", "region": "Hong Kong", "steps": ["概率与优化训练", "时间序列和数据研究", "11 周量化实习", "Quant Researcher"], "evidenceLevel": "B/C · 官方岗位+社区", "lessonZh": "金融知识可后补，概率、编程和研究迭代更关键。"},
+    {"id": "anon-06", "titleZh": "数学博士 → 新加坡量化交易", "region": "Singapore", "steps": ["概率与快速推理", "C++/Python", "交易实习", "Quant Trader/Researcher"], "evidenceLevel": "C · 社区归纳", "lessonZh": "面试风格与学术研究差异大，需要单独准备。"},
+    {"id": "anon-07", "titleZh": "优化博士 → 美团配送调度", "region": "Mainland China", "steps": ["组合/随机优化", "路径与匹配项目", "大规模数据工程", "配送调度算法"], "evidenceLevel": "B/C · 岗位归纳", "lessonZh": "研究价值要翻译成成本、履约和效率指标。"},
+    {"id": "anon-08", "titleZh": "优化博士 → 京东物流/零售供应链", "region": "Mainland China", "steps": ["库存与随机优化", "预测+优化项目", "供应链实习", "物流算法"], "evidenceLevel": "B/C · 岗位归纳", "lessonZh": "库存、网络和需求不确定性是最直接的迁移场景。"},
+    {"id": "anon-09", "titleZh": "科学计算博士 → AI Infra", "region": "Mainland China", "steps": ["数值线性代数", "C++ 与并行计算", "编译器/算子项目", "AI Infra 工程"], "evidenceLevel": "B · 官方岗位归纳", "lessonZh": "需要把算法复杂度落实到性能分析和系统代码。"},
+    {"id": "anon-10", "titleZh": "优化博士 → 电网调度研究院", "region": "Mainland China", "steps": ["随机/鲁棒优化", "电力系统基础", "调度或负荷预测项目", "电科院/数研院"], "evidenceLevel": "B/C · 官方研究+社区", "lessonZh": "专业目录、笔试和单位层级决定进入概率。"},
+    {"id": "anon-11", "titleZh": "数学博士 → 商飞不确定性量化", "region": "Mainland China", "steps": ["随机模拟与 SAA", "参数估计", "可靠性分析", "智能设计研究岗"], "evidenceLevel": "A · 商飞历史岗位", "lessonZh": "你的论文语言与航空 UQ 岗位有直接映射。"},
+    {"id": "anon-12", "titleZh": "船海背景 + 优化博士 → 船舶系统工程", "region": "Mainland China", "steps": ["船海本科背景", "优化与数值博士", "系统建模项目", "船舶研究院"], "evidenceLevel": "B/C · 官方单位资料", "lessonZh": "本科行业背景可成为差异化，但需注意保密和地域限制。"},
+    {"id": "anon-13", "titleZh": "数学博士 → A*STAR Research Fellow → Scientist", "region": "Singapore", "steps": ["优化/科学计算博士", "Research Fellow", "产业联合项目", "Research Scientist"], "evidenceLevel": "B · 官方岗位结构", "lessonZh": "是博后与工业研究之间较平滑的桥梁。"},
+    {"id": "anon-14", "titleZh": "优化博士 → Grab 市场算法", "region": "Singapore", "steps": ["动态优化", "因果与 ML", "供需/定价项目", "Marketplace Scientist"], "evidenceLevel": "C · 岗位归纳", "lessonZh": "需要补因果、SQL 和线上实验能力。"},
+    {"id": "anon-15", "titleZh": "优化博士 → 推荐广告算法", "region": "Mainland China", "steps": ["数学优化", "深度学习", "召回排序项目", "推荐/广告算法"], "evidenceLevel": "C · 岗位归纳", "lessonZh": "岗位多但方向偏移大，应作为邻近转型而非核心路线。"},
+    {"id": "anon-16", "titleZh": "博士后 → 大厂 Research Scientist", "region": "Europe", "steps": ["优化博士", "欧洲顶级博后", "与产业合作论文", "Research Scientist"], "evidenceLevel": "C · 公开履历归纳", "lessonZh": "博后阶段要积累国际合作和可运行代码，不只是增加论文数量。"},
+    {"id": "anon-17", "titleZh": "博士 → Research SDE → Researcher", "region": "Mainland China", "steps": ["数学/计算博士", "Research SDE", "研究工程成果", "Researcher"], "evidenceLevel": "B · MSR 职位结构", "lessonZh": "研究工程岗可能比直接申请 Researcher 更现实。"},
+    {"id": "anon-18", "titleZh": "优化博士 → 制造调度算法", "region": "Mainland China", "steps": ["组合优化", "生产计划项目", "MES/数据工程", "制造算法岗"], "evidenceLevel": "C · 工业岗位归纳", "lessonZh": "进入概率较高，但要核验岗位是否真正做算法。"},
+    {"id": "anon-19", "titleZh": "数学博士 → 风险建模/金融科技", "region": "Mainland China", "steps": ["概率统计", "优化与 ML", "风控数据项目", "金融科技算法"], "evidenceLevel": "C · 岗位归纳", "lessonZh": "比顶级量化更容易进入，但业务约束和监管知识重要。"},
+    {"id": "anon-20", "titleZh": "高校青年教师 → 大厂联合研究", "region": "Global", "steps": ["博后/教职", "产业合作课题", "联合论文与实习生", "长期研究顾问/合作"], "evidenceLevel": "B · Amazon 等公开合作", "lessonZh": "产业影响力并不要求放弃学术主线。"}
+  ]
+}

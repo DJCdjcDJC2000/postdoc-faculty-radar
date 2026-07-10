@@ -86,13 +86,17 @@ function weeklyMessage(site) {
     `地区分布：${formatCounts(byRegion)}`,
     `岗位类型：${formatCounts(byRole)}`,
     "",
-    "重点机会："
+    "重点机会（学术 6 + 产业 4）："
   ];
-  lines.push(...alertLines(site.alerts ?? [], 10));
-  if ((site.people ?? []).length) {
+  lines.push(...alertLines(site.alerts ?? [], 6));
+  lines.push(...industryAlertLines(site.industry?.opportunities ?? [], 4));
+  if ((site.people ?? []).length || (site.industry?.people ?? []).length) {
     lines.push("");
-    lines.push("新增/可读成功案例：");
-    for (const person of (site.people ?? []).slice(0, 5)) {
+    lines.push("本周可读路径样本：");
+    for (const person of (site.industry?.people ?? []).slice(0, 3)) {
+      lines.push(`- ${person.name}｜${person.currentPosition ?? ""}｜可复制性 ${person.replicabilityScore ?? "?"}`);
+    }
+    for (const person of (site.people ?? []).slice(0, 2)) {
       lines.push(`- ${person.name}｜${person.currentPosition ?? ""}｜${person.currentInstitution ?? ""}`);
     }
   }
@@ -125,6 +129,22 @@ function alertLines(items, limit) {
     if (item.aiSummaryZh || item.ai?.summaryZh || item.reason || item.simpleReason) {
       lines.push(item.aiSummaryZh || item.ai?.summaryZh || item.reason || item.simpleReason);
     }
+    if (item.sourceUrl) lines.push(item.sourceUrl);
+    lines.push("");
+  }
+  return lines;
+}
+
+function industryAlertLines(items, limit) {
+  const selected = [...items]
+    .filter((item) => item.status === "active")
+    .sort((a, b) => (b.overallScore ?? 0) - (a.overallScore ?? 0))
+    .slice(0, limit);
+  if (!selected.length) return [];
+  const lines = ["产业机会："];
+  for (const item of selected) {
+    lines.push(`[产业 ${item.overallScore ?? "?"}] ${item.titleZh ?? item.title}`);
+    lines.push(`${item.company ?? ""} | ${item.city ?? item.region ?? ""} | ${item.availabilityZh ?? ""}`);
     if (item.sourceUrl) lines.push(item.sourceUrl);
     lines.push("");
   }

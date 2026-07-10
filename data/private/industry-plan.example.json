@@ -1,0 +1,18 @@
+{
+  "currentStageZh": "2026–2027：保持优化主线，同时补产业可迁移能力",
+  "summaryZh": "私有版在这里合并论文、GitHub、实习和求职状态；公开构建会删除整个 private 字段。",
+  "readiness": [
+    {"name": "优化理论与研究", "score": 72, "statusZh": "已有基础，继续形成代表作"},
+    {"name": "Python 与可复现实验", "score": 58, "statusZh": "需要把论文代码整理成公开项目"},
+    {"name": "C++ 与高性能计算", "score": 32, "statusZh": "求解器、量化和 AI Infra 的主要差距"},
+    {"name": "机器学习与 PyTorch", "score": 38, "statusZh": "邻近转型岗位的必要补充"},
+    {"name": "工业问题建模", "score": 40, "statusZh": "需要供应链、调度或能源案例"},
+    {"name": "实习与行业网络", "score": 20, "statusZh": "2027 下半年开始准备 2028 暑期"}
+  ],
+  "timeline": [
+    {"period": "2026–2027", "focusZh": "论文代表作、GitHub 代码和 C++/ML 基础"},
+    {"period": "2027 H2", "focusZh": "准备 2028 实习简历、项目和内推网络"},
+    {"period": "2028 Summer", "focusZh": "大陆大厂为主，港新量化/产业研究并行投递"},
+    {"period": "2028–2029", "focusZh": "博后与大厂双轨申请，根据 Offer 质量决策"}
+  ]
+}

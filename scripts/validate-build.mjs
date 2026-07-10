@@ -39,4 +39,20 @@ if (!privateSite.calendar?.preparationPlan) {
   throw new Error("private build must include preparation plan");
 }
 
+if ((publicSite.industry?.companies ?? []).length < 30) {
+  throw new Error("public build must contain the industry company radar");
+}
+
+if ((publicSite.industry?.people ?? []).length < 50) {
+  throw new Error("public build must contain the industry people database");
+}
+
+if (publicSite.industry?.private) {
+  throw new Error("public industry build must not include private planning data");
+}
+
+if (!privateSite.industry?.private?.readiness?.length) {
+  throw new Error("private build must include the industry readiness plan");
+}
+
 console.log("Build validation passed.");

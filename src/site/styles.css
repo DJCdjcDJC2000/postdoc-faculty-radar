@@ -138,7 +138,12 @@ a {
 .page-heading,
 .filter-band,
 .table-section,
-.private-band {
+.private-band,
+.industry-metric-strip,
+.industry-compare-band,
+.method-note-band,
+.private-gap-band,
+.public-gap-notice {
   width: min(1440px, calc(100% - 32px));
   margin: 0 auto;
 }
@@ -774,6 +779,493 @@ th {
   font-weight: 900;
 }
 
+.industry-heading {
+  padding-bottom: 12px;
+}
+
+.industry-update-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.industry-update-line span,
+.status-chip,
+.risk-chip,
+.company-category,
+.replicability-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--surface-soft);
+  color: #3d4a58;
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.industry-metric-strip {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  padding: 8px 0 22px;
+}
+
+.industry-filter-band {
+  grid-template-columns: minmax(260px, 1fr) repeat(5, minmax(130px, 170px));
+}
+
+.industry-home-band {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.industry-home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(320px, 0.5fr);
+  gap: 12px;
+}
+
+.industry-opportunity-list,
+.company-rank-list {
+  display: grid;
+  gap: 8px;
+}
+
+.industry-opportunity-row {
+  display: grid;
+  grid-template-columns: 64px minmax(280px, 1.4fr) minmax(150px, 0.55fr) minmax(170px, 0.55fr) 104px;
+  gap: 12px;
+  align-items: center;
+  min-height: 104px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.industry-opportunity-main {
+  min-width: 0;
+}
+
+.industry-opportunity-main .row-title {
+  max-width: 100%;
+  font-size: 15px;
+}
+
+.industry-opportunity-main small,
+.industry-opportunity-main p,
+.industry-row-meta span {
+  display: block;
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.industry-opportunity-main p {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.industry-row-status,
+.industry-row-actions {
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+}
+
+.status-active {
+  background: var(--teal-soft);
+  color: var(--teal);
+}
+
+.status-historical {
+  background: #f1f2f4;
+  color: var(--muted);
+}
+
+.risk-chip,
+.risk-banner {
+  background: var(--orange-soft);
+  color: #8d4c0b;
+}
+
+.risk-chip.block {
+  margin-top: 10px;
+}
+
+.risk-banner {
+  padding: 10px 12px;
+  border-left: 3px solid var(--orange);
+  border-radius: 4px;
+  font-weight: 800;
+}
+
+.tiny-button.primary {
+  border-color: var(--blue);
+  background: var(--blue);
+  color: #fff;
+}
+
+.company-rank-row {
+  display: grid;
+  grid-template-columns: 54px 1fr 34px;
+  gap: 10px;
+  align-items: center;
+  min-height: 64px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+}
+
+.company-rank-row span strong,
+.company-rank-row span small {
+  display: block;
+}
+
+.company-rank-row span small {
+  margin-top: 3px;
+  color: var(--muted);
+}
+
+.industry-company-grid,
+.industry-person-grid,
+.anonymous-path-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.industry-company-card,
+.industry-person-card,
+.anonymous-path-card {
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.industry-company-card h3,
+.industry-person-card h3,
+.anonymous-path-card h3 {
+  margin: 12px 0 4px;
+  font-size: 18px;
+}
+
+.industry-company-card p,
+.industry-person-card p,
+.anonymous-path-card p {
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.company-card-heading,
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.company-name-en {
+  margin: 0;
+  font-size: 12px;
+}
+
+.company-score-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin: 12px 0;
+}
+
+.company-score-grid div {
+  padding: 8px;
+  border-left: 2px solid #dbe5ef;
+}
+
+.company-score-grid span,
+.company-score-grid strong {
+  display: block;
+}
+
+.company-score-grid span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.company-score-grid strong {
+  margin-top: 3px;
+  color: var(--blue-strong);
+  font-size: 18px;
+}
+
+.replicability-badge {
+  background: #e9f3ff;
+  color: var(--blue-strong);
+}
+
+.industry-person-card .reason {
+  min-height: 72px;
+}
+
+.salary-table-wrap {
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.salary-table {
+  min-width: 980px;
+}
+
+.skill-demand-list {
+  display: grid;
+  gap: 1px;
+  border-top: 1px solid var(--line);
+}
+
+.skill-demand-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.6fr) minmax(220px, 1fr) 40px minmax(260px, 1.2fr);
+  gap: 14px;
+  align-items: center;
+  min-height: 62px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.skill-demand-row strong,
+.skill-demand-row small {
+  display: block;
+}
+
+.skill-demand-row small,
+.skill-demand-row p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.skill-bar,
+.mini-bar {
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e8edf3;
+}
+
+.skill-bar span,
+.mini-bar i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--teal);
+}
+
+.anonymous-path-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.anonymous-path-card ol {
+  display: grid;
+  gap: 6px;
+  padding-left: 20px;
+  color: #394553;
+  font-size: 13px;
+}
+
+.industry-compare-band {
+  margin-top: 18px;
+  padding: 16px;
+  border: 1px solid rgba(31, 95, 153, 0.28);
+  border-radius: 8px;
+  background: #f8fbff;
+}
+
+.compare-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.compare-column {
+  display: grid;
+  gap: 5px;
+  padding: 12px;
+  border-left: 3px solid var(--blue);
+  background: #fff;
+}
+
+.compare-column span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.expand-row {
+  display: flex;
+  justify-content: center;
+  padding-top: 14px;
+}
+
+.detail-score-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.detail-score-grid > div {
+  display: grid;
+  grid-template-columns: 1fr 36px;
+  gap: 4px 8px;
+  align-items: center;
+}
+
+.detail-score-grid span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.detail-score-grid .mini-bar {
+  grid-column: 1 / -1;
+}
+
+.mini-bar.risk i {
+  background: var(--orange);
+}
+
+.private-gap-band,
+.public-gap-notice,
+.method-note-band {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.private-gap-band {
+  border-color: rgba(198, 106, 16, 0.35);
+  background: #fffaf3;
+}
+
+.public-gap-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.public-gap-notice h2,
+.method-note-band p {
+  margin: 0;
+}
+
+.public-gap-notice p {
+  max-width: 720px;
+  color: var(--muted);
+}
+
+.readiness-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.readiness-row {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+  gap: 5px 8px;
+  padding: 10px;
+  border: 1px solid rgba(198, 106, 16, 0.2);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.readiness-row .mini-bar,
+.readiness-row small {
+  grid-column: 1 / -1;
+}
+
+.readiness-row small {
+  color: var(--muted);
+}
+
+.private-timeline {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.private-timeline div {
+  padding: 10px;
+  border-top: 3px solid var(--orange);
+  background: #fff;
+}
+
+.private-timeline strong,
+.private-timeline span {
+  display: block;
+}
+
+.private-timeline span {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.local-tracking {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.local-tracking label {
+  display: grid;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.local-tracking label.wide {
+  grid-column: 1 / -1;
+}
+
+.local-tracking input,
+.local-tracking select,
+.local-tracking textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 8px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+}
+
+.local-tracking small {
+  align-self: center;
+  color: var(--muted);
+}
+
 .empty {
   min-height: 86px;
   display: grid;
@@ -798,7 +1290,8 @@ th {
   .hero-band,
   .split-band,
   .route-grid,
-  .filter-band {
+  .filter-band,
+  .industry-home-grid {
     grid-template-columns: 1fr;
   }
 
@@ -808,9 +1301,36 @@ th {
   .lab-grid,
   .lab-grid.compact,
   .person-grid,
-  .method-grid,
-  .advanced-grid {
+    .method-grid,
+    .advanced-grid,
+    .industry-metric-strip,
+    .industry-company-grid,
+    .industry-person-grid,
+    .anonymous-path-grid,
+    .compare-grid,
+    .private-timeline {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .industry-opportunity-row {
+    grid-template-columns: 64px minmax(0, 1fr) minmax(150px, 0.45fr);
+  }
+
+  .industry-row-meta {
+    grid-column: 2;
+  }
+
+  .industry-row-status,
+  .industry-row-actions {
+    grid-column: 3;
+  }
+
+  .skill-demand-row {
+    grid-template-columns: minmax(160px, 0.6fr) 1fr 40px;
+  }
+
+  .skill-demand-row p {
+    grid-column: 1 / -1;
   }
 }
 
@@ -821,9 +1341,17 @@ th {
   .lab-grid,
   .lab-grid.compact,
   .person-grid,
-  .method-grid,
-  .advanced-grid,
-  .route-columns {
+    .method-grid,
+    .advanced-grid,
+    .route-columns,
+    .industry-metric-strip,
+    .industry-company-grid,
+    .industry-person-grid,
+    .anonymous-path-grid,
+    .compare-grid,
+    .readiness-grid,
+    .private-timeline,
+    .detail-score-grid {
     grid-template-columns: 1fr;
   }
 
@@ -845,5 +1373,41 @@ th {
 
   .private-band {
     display: block;
+  }
+
+  .industry-opportunity-row {
+    grid-template-columns: 52px 1fr;
+  }
+
+  .industry-row-meta,
+  .industry-row-status,
+  .industry-row-actions {
+    grid-column: 2;
+  }
+
+  .industry-row-actions {
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+  }
+
+  .skill-demand-row {
+    grid-template-columns: 1fr 40px;
+  }
+
+  .skill-demand-row .skill-bar,
+  .skill-demand-row p {
+    grid-column: 1 / -1;
+  }
+
+  .public-gap-notice {
+    display: block;
+  }
+
+  .local-tracking {
+    grid-template-columns: 1fr;
+  }
+
+  .local-tracking label.wide {
+    grid-column: 1;
   }
 }

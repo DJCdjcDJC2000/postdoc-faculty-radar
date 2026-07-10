@@ -7,7 +7,7 @@ const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "
 await loadDotEnv(projectRoot);
 
 const mode = readArg("mode") ?? "public";
-const maxItems = Number(process.env.DEEPSEEK_MAX_ITEMS ?? 40);
+const maxItems = Number(process.env.DEEPSEEK_MAX_ITEMS ?? 12);
 const apiKey = process.env.DEEPSEEK_API_KEY;
 const baseUrl = process.env.DEEPSEEK_BASE_URL ?? "https://api.deepseek.com";
 const model = process.env.DEEPSEEK_MODEL ?? "deepseek-chat";

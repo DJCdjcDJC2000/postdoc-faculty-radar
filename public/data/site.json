@@ -14,6 +14,10 @@
         "label": "机会雷达"
       },
       {
+        "id": "industry",
+        "label": "产业雷达"
+      },
+      {
         "id": "routes",
         "label": "职业路线"
       },
@@ -31,7 +35,7 @@
       }
     ],
     "methodology": {
-      "sourcePrinciple": "官方优先 + 权威平台补充 + 聚合站补漏 + 线索源需回链确认。",
+      "sourcePrinciple": "官方优先 + 权威平台补充 + 聚合站补漏 + 社区信息仅作低权重参考；所有线索需回链确认。",
       "privacy": "成功案例只收录公开可验证信息；公开版不包含私人备注、联系记录、申请状态和个人差距分析。",
       "aiNotice": "AI 辅助生成，需核验。所有申请决策以官方原始链接和人工判断为准。",
       "disclaimer": "本站不是官方招聘网站，不保证岗位仍然开放；申请前必须以原始来源为准。"
@@ -43,7 +47,7 @@
     "jobCount": 8,
     "alertCount": 3,
     "sourceCount": 20,
-    "builtAt": "2026-07-09T16:37:25.028Z",
+    "builtAt": "2026-07-10T02:14:31.169Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -74,7 +78,12 @@
     "totalSources": 20,
     "peopleCount": 14,
     "targetLabs": 23,
-    "activeLabSignals": 3
+    "activeLabSignals": 3,
+    "industryCompanies": 30,
+    "industryPeople": 51,
+    "industryOpportunities": 24,
+    "activeIndustryOpportunities": 14,
+    "industryInternships": 5
   },
   "jobs": [
     {
@@ -3086,6 +3095,4478 @@
       ]
     }
   ],
+  "industry": {
+    "updatedAt": "2026-07-10",
+    "sourcePolicyZh": "官方招聘和公司/研究团队主页优先；社区信息只补充薪资、面试与匿名路径，并单独标注低可信度。所有岗位在投递前必须回到原始链接核验。",
+    "rankingWeights": {
+      "supply": 25,
+      "salary": 25,
+      "feasibility": 20,
+      "fit": 15,
+      "growth": 10,
+      "locationRisk": 5
+    },
+    "companies": [
+      {
+        "id": "huawei",
+        "name": "Huawei",
+        "nameZh": "华为",
+        "category": "大陆科技大厂",
+        "priority": "P1",
+        "regions": [
+          "Mainland China",
+          "Hong Kong",
+          "Europe"
+        ],
+        "locations": [
+          "深圳",
+          "北京",
+          "东莞",
+          "香港",
+          "巴黎",
+          "苏黎世"
+        ],
+        "teams": [
+          "诺亚方舟实验室",
+          "2012 实验室",
+          "供应链算法与 AI",
+          "AI Infra 与数值计算"
+        ],
+        "roleFamilies": [
+          "决策与优化",
+          "供应链算法",
+          "AI Infra",
+          "研究工程"
+        ],
+        "fitScore": 92,
+        "salaryScore": 84,
+        "supplyScore": 94,
+        "feasibilityScore": 88,
+        "growthScore": 91,
+        "identityRisk": 8,
+        "salaryBandZh": "博士研究/算法岗约 45–90 万元人民币年总包；特殊人才项目差异很大，需以 Offer 核验",
+        "whyTrackZh": "大陆工作首选之一，公开岗位覆盖供应链决策、数值计算、AI 系统优化与研究工程，数学博士可从核心优化或邻近工程两条线切入。",
+        "careerUrl": "https://career.huawei.com/",
+        "homepage": "https://www.huawei.com/cn/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 90
+      },
+      {
+        "id": "bytedance",
+        "name": "ByteDance",
+        "nameZh": "字节跳动",
+        "category": "大陆科技大厂",
+        "priority": "P1",
+        "regions": [
+          "Mainland China",
+          "Singapore",
+          "Europe"
+        ],
+        "locations": [
+          "北京",
+          "上海",
+          "深圳",
+          "杭州",
+          "新加坡",
+          "伦敦"
+        ],
+        "teams": [
+          "Seed",
+          "AML",
+          "推荐与广告",
+          "电商供应链算法"
+        ],
+        "roleFamilies": [
+          "研究员",
+          "推荐算法",
+          "机器学习",
+          "供应链算法"
+        ],
+        "fitScore": 80,
+        "salaryScore": 92,
+        "supplyScore": 92,
+        "feasibilityScore": 80,
+        "growthScore": 92,
+        "identityRisk": 10,
+        "salaryBandZh": "博士算法/研究岗约 50–100 万元人民币年总包，团队差异明显",
+        "whyTrackZh": "薪资和岗位数量突出；应优先筛选决策、强化学习、系统优化和电商供应链岗位，避免被泛大模型岗位淹没。",
+        "careerUrl": "https://jobs.bytedance.com/",
+        "homepage": "https://www.bytedance.com/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 88
+      },
+      {
+        "id": "alibaba",
+        "name": "Alibaba",
+        "nameZh": "阿里巴巴",
+        "category": "大陆科技大厂",
+        "priority": "P1",
+        "regions": [
+          "Mainland China",
+          "Singapore",
+          "Europe"
+        ],
+        "locations": [
+          "杭州",
+          "北京",
+          "上海",
+          "深圳",
+          "新加坡"
+        ],
+        "teams": [
+          "达摩院",
+          "阿里云智能",
+          "淘天算法",
+          "菜鸟供应链与物流算法"
+        ],
+        "roleFamilies": [
+          "运筹优化",
+          "供应链算法",
+          "机器学习",
+          "研究员"
+        ],
+        "fitScore": 90,
+        "salaryScore": 86,
+        "supplyScore": 88,
+        "feasibilityScore": 82,
+        "growthScore": 90,
+        "identityRisk": 8,
+        "salaryBandZh": "博士算法/研究岗约 45–90 万元人民币年总包，职级和股票影响较大",
+        "whyTrackZh": "菜鸟、零售、云计算与决策智能场景能直接承接随机优化、预测加优化和大规模求解。",
+        "careerUrl": "https://talent.alibaba.com/",
+        "homepage": "https://www.alibabagroup.com/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 87
+      },
+      {
+        "id": "meituan",
+        "name": "Meituan",
+        "nameZh": "美团",
+        "category": "大陆科技大厂",
+        "priority": "P1",
+        "regions": [
+          "Mainland China",
+          "Hong Kong",
+          "International"
+        ],
+        "locations": [
+          "北京",
+          "上海",
+          "深圳",
+          "香港"
+        ],
+        "teams": [
+          "配送与调度算法",
+          "到店与供应链",
+          "推荐广告",
+          "Keeta 国际化"
+        ],
+        "roleFamilies": [
+          "运筹优化",
+          "路径规划",
+          "供需匹配",
+          "机器学习"
+        ],
+        "fitScore": 94,
+        "salaryScore": 86,
+        "supplyScore": 86,
+        "feasibilityScore": 84,
+        "growthScore": 87,
+        "identityRisk": 8,
+        "salaryBandZh": "博士算法岗约 45–85 万元人民币年总包",
+        "whyTrackZh": "配送、调度、路径规划和供需匹配是与你最接近的互联网业务场景之一，适合把优化理论转化为可落地算法。",
+        "careerUrl": "https://zhaopin.meituan.com/",
+        "homepage": "https://www.meituan.com/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 87
+      },
+      {
+        "id": "tencent",
+        "name": "Tencent",
+        "nameZh": "腾讯",
+        "category": "大陆科技大厂",
+        "priority": "P1",
+        "regions": [
+          "Mainland China",
+          "Hong Kong",
+          "Singapore"
+        ],
+        "locations": [
+          "深圳",
+          "北京",
+          "上海",
+          "香港",
+          "新加坡"
+        ],
+        "teams": [
+          "腾讯 AI Lab",
+          "广告算法",
+          "推荐与搜索",
+          "云与基础设施优化"
+        ],
+        "roleFamilies": [
+          "研究员",
+          "机器学习",
+          "推荐广告",
+          "系统优化"
+        ],
+        "fitScore": 79,
+        "salaryScore": 88,
+        "supplyScore": 90,
+        "feasibilityScore": 82,
+        "growthScore": 89,
+        "identityRisk": 8,
+        "salaryBandZh": "博士算法/研究岗约 45–90 万元人民币年总包",
+        "whyTrackZh": "岗位供给大、薪资有竞争力；与论文主线的直接重合度低于供应链优化团队，因此主要作为邻近转型路线。",
+        "careerUrl": "https://careers.tencent.com/",
+        "homepage": "https://www.tencent.com/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 86
+      },
+      {
+        "id": "jd",
+        "name": "JD.com",
+        "nameZh": "京东",
+        "category": "大陆科技大厂",
+        "priority": "P1",
+        "regions": [
+          "Mainland China",
+          "Hong Kong",
+          "International"
+        ],
+        "locations": [
+          "北京",
+          "上海",
+          "深圳",
+          "宿迁"
+        ],
+        "teams": [
+          "京东物流算法",
+          "零售供应链",
+          "京东科技",
+          "工业供应链"
+        ],
+        "roleFamilies": [
+          "供应链优化",
+          "库存优化",
+          "物流算法",
+          "预测"
+        ],
+        "fitScore": 95,
+        "salaryScore": 81,
+        "supplyScore": 84,
+        "feasibilityScore": 86,
+        "growthScore": 84,
+        "identityRisk": 6,
+        "salaryBandZh": "博士算法/研究岗约 40–80 万元人民币年总包",
+        "whyTrackZh": "库存、仓储、配送和工业供应链提供大量预测加优化问题，研究匹配度极高。",
+        "careerUrl": "https://zhaopin.jd.com/",
+        "homepage": "https://www.jd.com/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 86
+      },
+      {
+        "id": "baidu",
+        "name": "Baidu",
+        "nameZh": "百度",
+        "category": "大陆科技大厂",
+        "priority": "P1",
+        "regions": [
+          "Mainland China"
+        ],
+        "locations": [
+          "北京",
+          "上海",
+          "深圳"
+        ],
+        "teams": [
+          "ACG 决策智能",
+          "飞桨与昆仑芯",
+          "Apollo",
+          "搜索推荐"
+        ],
+        "roleFamilies": [
+          "决策智能",
+          "组合优化",
+          "AI Infra",
+          "算法工程"
+        ],
+        "fitScore": 86,
+        "salaryScore": 80,
+        "supplyScore": 82,
+        "feasibilityScore": 86,
+        "growthScore": 84,
+        "identityRisk": 6,
+        "salaryBandZh": "博士算法/研究岗约 40–80 万元人民币年总包",
+        "whyTrackZh": "已出现明确的预测加优化、组合优化和工业决策 Agent 实习岗位，是从数学优化转向决策智能的高价值入口。",
+        "careerUrl": "https://talent.baidu.com/",
+        "homepage": "https://www.baidu.com/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 84
+      },
+      {
+        "id": "didi",
+        "name": "DiDi",
+        "nameZh": "滴滴",
+        "category": "大陆科技大厂",
+        "priority": "P1",
+        "regions": [
+          "Mainland China",
+          "International"
+        ],
+        "locations": [
+          "北京",
+          "杭州",
+          "上海",
+          "深圳"
+        ],
+        "teams": [
+          "供需预测与调度",
+          "地图与路径规划",
+          "自动驾驶",
+          "国际化算法"
+        ],
+        "roleFamilies": [
+          "运筹优化",
+          "匹配调度",
+          "路径规划",
+          "强化学习"
+        ],
+        "fitScore": 94,
+        "salaryScore": 83,
+        "supplyScore": 76,
+        "feasibilityScore": 82,
+        "growthScore": 83,
+        "identityRisk": 8,
+        "salaryBandZh": "博士算法岗约 40–80 万元人民币年总包",
+        "whyTrackZh": "动态供需匹配、路径规划和不确定性决策与随机优化高度相关，但岗位数量受业务周期影响。",
+        "careerUrl": "https://talent.didiglobal.com/",
+        "homepage": "https://www.didiglobal.com/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 83
+      },
+      {
+        "id": "amazon-scot",
+        "name": "Amazon SCOT",
+        "nameZh": "亚马逊供应链优化技术团队",
+        "category": "全球产业研究",
+        "priority": "P1",
+        "regions": [
+          "Europe",
+          "United States",
+          "Canada"
+        ],
+        "locations": [
+          "卢森堡",
+          "伦敦",
+          "柏林",
+          "西雅图",
+          "多伦多"
+        ],
+        "teams": [
+          "Supply Chain Optimization Technologies",
+          "Inventory Planning",
+          "Transportation Planning",
+          "Forecasting"
+        ],
+        "roleFamilies": [
+          "Operations Research",
+          "Applied Scientist",
+          "Data Scientist",
+          "Postdoctoral Scientist"
+        ],
+        "fitScore": 98,
+        "salaryScore": 92,
+        "supplyScore": 88,
+        "feasibilityScore": 54,
+        "growthScore": 95,
+        "identityRisk": 42,
+        "salaryBandZh": "欧洲约 €65k–€120k；北美总包常高于等值人民币 120 万元，地点与职级影响很大",
+        "whyTrackZh": "全球最直接的运筹优化产业场景之一，并有博士后科学家到教职的公开路径；身份风险需单独评估。",
+        "careerUrl": "https://www.amazon.science/scot",
+        "homepage": "https://www.amazon.science/research-areas/operations-research-and-optimization",
+        "sourceConfidence": "A · Amazon Science",
+        "overallScore": 83
+      },
+      {
+        "id": "ant-group",
+        "name": "Ant Group",
+        "nameZh": "蚂蚁集团",
+        "category": "大陆金融科技",
+        "priority": "P1",
+        "regions": [
+          "Mainland China",
+          "Hong Kong",
+          "Singapore"
+        ],
+        "locations": [
+          "杭州",
+          "上海",
+          "北京",
+          "香港",
+          "新加坡"
+        ],
+        "teams": [
+          "风险智能",
+          "运筹与决策",
+          "可信 AI",
+          "金融科技研究"
+        ],
+        "roleFamilies": [
+          "风险建模",
+          "优化算法",
+          "机器学习",
+          "金融科技"
+        ],
+        "fitScore": 84,
+        "salaryScore": 88,
+        "supplyScore": 74,
+        "feasibilityScore": 76,
+        "growthScore": 88,
+        "identityRisk": 8,
+        "salaryBandZh": "博士算法/金融科技岗约 50–95 万元人民币年总包，公开样本有限",
+        "whyTrackZh": "适合作为优化到金融科技的转型路线，重点观察风险、资源配置和数据驱动决策岗位。",
+        "careerUrl": "https://talent.antgroup.com/",
+        "homepage": "https://www.antgroup.com/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 82
+      },
+      {
+        "id": "astar",
+        "name": "A*STAR",
+        "nameZh": "新加坡科技研究局",
+        "category": "港新产业研究",
+        "priority": "P1",
+        "regions": [
+          "Singapore"
+        ],
+        "locations": [
+          "新加坡"
+        ],
+        "teams": [
+          "Institute for Infocomm Research",
+          "IHPC",
+          "AI 与运筹",
+          "科学计算"
+        ],
+        "roleFamilies": [
+          "Research Scientist",
+          "Research Fellow",
+          "Scientific Computing",
+          "AI Engineer"
+        ],
+        "fitScore": 90,
+        "salaryScore": 72,
+        "supplyScore": 78,
+        "feasibilityScore": 82,
+        "growthScore": 84,
+        "identityRisk": 12,
+        "salaryBandZh": "Research Fellow/Scientist 约 SGD 60k–120k，具体按研究所和级别核验",
+        "whyTrackZh": "兼具博后、研究员和工程岗位，签证相对可行，适合作为港新主线的重要桥梁。",
+        "careerUrl": "https://careers.a-star.edu.sg/",
+        "homepage": "https://www.a-star.edu.sg/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 80
+      },
+      {
+        "id": "byd",
+        "name": "BYD",
+        "nameZh": "比亚迪",
+        "category": "大陆工业龙头",
+        "priority": "P2",
+        "regions": [
+          "Mainland China",
+          "Europe"
+        ],
+        "locations": [
+          "深圳",
+          "西安",
+          "合肥",
+          "长沙"
+        ],
+        "teams": [
+          "智能制造",
+          "物流与供应链",
+          "汽车算法",
+          "能源管理"
+        ],
+        "roleFamilies": [
+          "生产优化",
+          "物流算法",
+          "控制与仿真",
+          "数据科学"
+        ],
+        "fitScore": 77,
+        "salaryScore": 65,
+        "supplyScore": 86,
+        "feasibilityScore": 86,
+        "growthScore": 78,
+        "identityRisk": 6,
+        "salaryBandZh": "算法/研发岗约 25–55 万元人民币年总包，公开薪资样本可信度较低",
+        "whyTrackZh": "岗位数量和进入概率较好，可作为制造优化与工程落地路线，但需仔细区分研发含量。",
+        "careerUrl": "https://job.byd.com/",
+        "homepage": "https://www.bydglobal.com/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 79
+      },
+      {
+        "id": "catl",
+        "name": "CATL",
+        "nameZh": "宁德时代",
+        "category": "大陆工业龙头",
+        "priority": "P2",
+        "regions": [
+          "Mainland China",
+          "Europe"
+        ],
+        "locations": [
+          "宁德",
+          "上海",
+          "溧阳",
+          "德国"
+        ],
+        "teams": [
+          "智能制造",
+          "能源系统",
+          "生产计划与供应链",
+          "电池数字化研发"
+        ],
+        "roleFamilies": [
+          "制造优化",
+          "能源优化",
+          "仿真",
+          "数据科学"
+        ],
+        "fitScore": 80,
+        "salaryScore": 72,
+        "supplyScore": 76,
+        "feasibilityScore": 82,
+        "growthScore": 80,
+        "identityRisk": 8,
+        "salaryBandZh": "算法/研发岗约 30–65 万元人民币年总包，城市和职级差异较大",
+        "whyTrackZh": "制造调度、能源管理与供应链优化适合应用数学背景，工程化要求高于论文要求。",
+        "careerUrl": "https://career.catl.com/",
+        "homepage": "https://www.catl.com/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 78
+      },
+      {
+        "id": "grab",
+        "name": "Grab",
+        "nameZh": "Grab",
+        "category": "港新科技公司",
+        "priority": "P2",
+        "regions": [
+          "Singapore"
+        ],
+        "locations": [
+          "新加坡"
+        ],
+        "teams": [
+          "Marketplace",
+          "Mobility",
+          "Maps",
+          "Data Science"
+        ],
+        "roleFamilies": [
+          "供需匹配",
+          "定价",
+          "路径规划",
+          "机器学习"
+        ],
+        "fitScore": 89,
+        "salaryScore": 84,
+        "supplyScore": 68,
+        "feasibilityScore": 68,
+        "growthScore": 85,
+        "identityRisk": 18,
+        "salaryBandZh": "新加坡算法/数据岗约 SGD 90k–180k 总包，职级差异明显",
+        "whyTrackZh": "东南亚出行与配送提供匹配、定价和路径优化问题，岗位偏工程落地。",
+        "careerUrl": "https://www.grab.careers/",
+        "homepage": "https://www.grab.com/sg/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 78
+      },
+      {
+        "id": "microsoft-research",
+        "name": "Microsoft Research",
+        "nameZh": "微软研究院",
+        "category": "全球产业研究",
+        "priority": "P1",
+        "regions": [
+          "Mainland China",
+          "Europe",
+          "United States"
+        ],
+        "locations": [
+          "北京",
+          "剑桥",
+          "雷德蒙德",
+          "纽约"
+        ],
+        "teams": [
+          "Microsoft Research Asia",
+          "Machine Learning",
+          "AI for Science",
+          "Algorithms"
+        ],
+        "roleFamilies": [
+          "Researcher",
+          "Research SDE",
+          "Intern",
+          "Applied Scientist"
+        ],
+        "fitScore": 89,
+        "salaryScore": 90,
+        "supplyScore": 68,
+        "feasibilityScore": 58,
+        "growthScore": 96,
+        "identityRisk": 36,
+        "salaryBandZh": "北京研究岗公开薪资有限；欧美研究岗总包常为当地高位，需逐岗核验",
+        "whyTrackZh": "研究质量和学术连接极强，北京团队对中文申请者更现实，但岗位数量少、竞争激烈。",
+        "careerUrl": "https://www.microsoft.com/en-us/research/careers/open-positions/",
+        "homepage": "https://www.microsoft.com/en-us/research/",
+        "sourceConfidence": "A · 官方研究院",
+        "overallScore": 77
+      },
+      {
+        "id": "state-grid",
+        "name": "State Grid Corporation of China",
+        "nameZh": "国家电网",
+        "category": "央国企研究院",
+        "priority": "P2",
+        "regions": [
+          "Mainland China"
+        ],
+        "locations": [
+          "北京",
+          "南京",
+          "武汉",
+          "各省会"
+        ],
+        "teams": [
+          "中国电科院",
+          "国网数科",
+          "电力调度与规划",
+          "人工智能与优化"
+        ],
+        "roleFamilies": [
+          "电力系统优化",
+          "调度",
+          "预测",
+          "科研"
+        ],
+        "fitScore": 88,
+        "salaryScore": 55,
+        "supplyScore": 82,
+        "feasibilityScore": 78,
+        "growthScore": 78,
+        "identityRisk": 4,
+        "salaryBandZh": "科研/数字化岗位约 20–45 万元人民币年总包，地区和单位层级差异很大",
+        "whyTrackZh": "电力调度、规划和不确定性优化高度相关，稳定性强；招聘规则和专业目录需提前核验。",
+        "careerUrl": "https://zhaopin.sgcc.com.cn/",
+        "homepage": "https://www.sgcc.com.cn/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 76
+      },
+      {
+        "id": "china-southern-grid",
+        "name": "China Southern Power Grid",
+        "nameZh": "南方电网",
+        "category": "央国企研究院",
+        "priority": "P2",
+        "regions": [
+          "Mainland China"
+        ],
+        "locations": [
+          "广州",
+          "深圳",
+          "南宁",
+          "贵阳",
+          "昆明"
+        ],
+        "teams": [
+          "南网数研院",
+          "南网人工智能科技",
+          "电力调度",
+          "负荷预测与优化"
+        ],
+        "roleFamilies": [
+          "电力优化",
+          "预测",
+          "工业 AI",
+          "科研"
+        ],
+        "fitScore": 88,
+        "salaryScore": 58,
+        "supplyScore": 72,
+        "feasibilityScore": 80,
+        "growthScore": 78,
+        "identityRisk": 4,
+        "salaryBandZh": "科研/数字化岗位约 22–48 万元人民币年总包，需以具体单位核验",
+        "whyTrackZh": "数字电网、负荷预测和强不确定性优化与研究方向有直接连接，适合稳定型工业科研路线。",
+        "careerUrl": "https://zhaopin.csg.cn/",
+        "homepage": "https://www.csg.cn/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 74
+      },
+      {
+        "id": "citadel",
+        "name": "Citadel / Citadel Securities",
+        "nameZh": "Citadel / Citadel Securities",
+        "category": "量化金融",
+        "priority": "P1",
+        "regions": [
+          "Hong Kong",
+          "Singapore",
+          "Europe",
+          "United States"
+        ],
+        "locations": [
+          "香港",
+          "新加坡",
+          "伦敦",
+          "纽约",
+          "迈阿密"
+        ],
+        "teams": [
+          "Quantitative Research",
+          "Systematic Trading",
+          "Engineering"
+        ],
+        "roleFamilies": [
+          "Quant Research",
+          "Quant Developer",
+          "Intern"
+        ],
+        "fitScore": 79,
+        "salaryScore": 100,
+        "supplyScore": 58,
+        "feasibilityScore": 44,
+        "growthScore": 96,
+        "identityRisk": 24,
+        "salaryBandZh": "香港/新加坡量化研究约等值人民币 100–300 万元以上，奖金不确定性很高",
+        "whyTrackZh": "官方长期开放香港和新加坡 PhD Quant Research 实习，是 2028 暑期最值得准备的高薪备选之一。",
+        "careerUrl": "https://www.citadel.com/careers/open-positions/",
+        "homepage": "https://www.citadel.com/",
+        "sourceConfidence": "A · 官方招聘；薪资 C",
+        "overallScore": 74
+      },
+      {
+        "id": "optiver",
+        "name": "Optiver",
+        "nameZh": "Optiver",
+        "category": "量化金融",
+        "priority": "P1",
+        "regions": [
+          "Singapore",
+          "Europe",
+          "Asia Pacific"
+        ],
+        "locations": [
+          "新加坡",
+          "悉尼",
+          "阿姆斯特丹",
+          "伦敦"
+        ],
+        "teams": [
+          "Quantitative Research",
+          "Trading",
+          "Software Engineering"
+        ],
+        "roleFamilies": [
+          "Quant Research",
+          "Quant Trading",
+          "Software Engineering",
+          "Intern"
+        ],
+        "fitScore": 75,
+        "salaryScore": 96,
+        "supplyScore": 62,
+        "feasibilityScore": 52,
+        "growthScore": 90,
+        "identityRisk": 20,
+        "salaryBandZh": "新加坡/悉尼/欧洲岗位约等值人民币 80–250 万元，奖金波动明显",
+        "whyTrackZh": "新加坡和欧洲机会比美国量化路线更现实，适合从概率、优化和高性能编程切入。",
+        "careerUrl": "https://optiver.com/working-at-optiver/career-opportunities/",
+        "homepage": "https://optiver.com/",
+        "sourceConfidence": "A · 官方招聘；薪资 C",
+        "overallScore": 74
+      },
+      {
+        "id": "google-research",
+        "name": "Google Research",
+        "nameZh": "谷歌研究",
+        "category": "全球产业研究",
+        "priority": "P1",
+        "regions": [
+          "Europe",
+          "United States"
+        ],
+        "locations": [
+          "苏黎世",
+          "巴黎",
+          "伦敦",
+          "纽约",
+          "湾区"
+        ],
+        "teams": [
+          "Algorithms & Optimization",
+          "Market Algorithms",
+          "Large-scale Optimization",
+          "Graph Mining"
+        ],
+        "roleFamilies": [
+          "Research Scientist",
+          "Research Engineer",
+          "Software Engineer",
+          "Intern"
+        ],
+        "fitScore": 96,
+        "salaryScore": 96,
+        "supplyScore": 60,
+        "feasibilityScore": 38,
+        "growthScore": 98,
+        "identityRisk": 52,
+        "salaryBandZh": "欧美研究岗总包通常处于当地科技公司高位；公开职位按城市披露时再更新",
+        "whyTrackZh": "官方 Algorithms & Optimization 团队直接覆盖大规模、分布式、在线和数据驱动优化，是高上限目标。",
+        "careerUrl": "https://research.google/careers/",
+        "homepage": "https://research.google/teams/algorithms-optimization/",
+        "sourceConfidence": "A · 官方研究团队",
+        "overallScore": 73
+      },
+      {
+        "id": "jane-street",
+        "name": "Jane Street",
+        "nameZh": "Jane Street",
+        "category": "量化金融",
+        "priority": "P1",
+        "regions": [
+          "Hong Kong",
+          "Singapore",
+          "Europe",
+          "United States"
+        ],
+        "locations": [
+          "香港",
+          "新加坡",
+          "伦敦",
+          "纽约"
+        ],
+        "teams": [
+          "Quantitative Research",
+          "Trading",
+          "Machine Learning",
+          "Software Engineering"
+        ],
+        "roleFamilies": [
+          "Quant Research",
+          "Quant Trading",
+          "Software Engineering",
+          "ML"
+        ],
+        "fitScore": 76,
+        "salaryScore": 100,
+        "supplyScore": 54,
+        "feasibilityScore": 42,
+        "growthScore": 94,
+        "identityRisk": 24,
+        "salaryBandZh": "香港/新加坡量化岗位约等值人民币 100–300 万元以上，社区样本波动极大",
+        "whyTrackZh": "数学和编程要求高、薪资上限高；与当前研究并非直接延续，应作为独立高薪备选路线。",
+        "careerUrl": "https://www.janestreet.com/join-jane-street/open-roles/",
+        "homepage": "https://www.janestreet.com/",
+        "sourceConfidence": "A · 官方招聘；薪资 C",
+        "overallScore": 72
+      },
+      {
+        "id": "comac",
+        "name": "COMAC",
+        "nameZh": "中国商飞",
+        "category": "央国企研究院",
+        "priority": "P2",
+        "regions": [
+          "Mainland China"
+        ],
+        "locations": [
+          "上海",
+          "北京"
+        ],
+        "teams": [
+          "上海飞机设计研究院",
+          "北京民用飞机技术研究中心",
+          "航空科学中心",
+          "智能设计"
+        ],
+        "roleFamilies": [
+          "不确定性量化",
+          "可靠性优化",
+          "数值仿真",
+          "智能设计"
+        ],
+        "fitScore": 92,
+        "salaryScore": 56,
+        "supplyScore": 56,
+        "feasibilityScore": 78,
+        "growthScore": 80,
+        "identityRisk": 10,
+        "salaryBandZh": "科研岗位多为面议，社区样本约 20–45 万元人民币年总包",
+        "whyTrackZh": "官方岗位曾明确要求不确定性传播、随机模拟、参数估计、可靠性分析和优化，研究契合度很高。",
+        "careerUrl": "https://zhaopin.comac.cc/",
+        "homepage": "https://www.comac.cc/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 70
+      },
+      {
+        "id": "ibm-research",
+        "name": "IBM Research",
+        "nameZh": "IBM 研究院",
+        "category": "全球产业研究",
+        "priority": "P1",
+        "regions": [
+          "Europe",
+          "United States"
+        ],
+        "locations": [
+          "苏黎世",
+          "都柏林",
+          "约克敦",
+          "湾区"
+        ],
+        "teams": [
+          "Optimization & Machine Learning",
+          "Trusted AI",
+          "AI for Business",
+          "Research Europe"
+        ],
+        "roleFamilies": [
+          "Research Scientist",
+          "Staff Research Scientist",
+          "Predoc",
+          "Intern"
+        ],
+        "fitScore": 93,
+        "salaryScore": 82,
+        "supplyScore": 58,
+        "feasibilityScore": 46,
+        "growthScore": 90,
+        "identityRisk": 42,
+        "salaryBandZh": "欧洲研究岗约 €55k–€105k；美国岗位按地点和职级显著更高",
+        "whyTrackZh": "公开人物页对教育与研究路径披露完整，优化与机器学习交叉强，是很好的可复制路径样本。",
+        "careerUrl": "https://www.ibm.com/careers/search",
+        "homepage": "https://research.ibm.com/",
+        "sourceConfidence": "A · IBM Research",
+        "overallScore": 70
+      },
+      {
+        "id": "cssc",
+        "name": "China State Shipbuilding Corporation",
+        "nameZh": "中国船舶集团",
+        "category": "央国企研究院",
+        "priority": "P2",
+        "regions": [
+          "Mainland China"
+        ],
+        "locations": [
+          "北京",
+          "上海",
+          "武汉",
+          "哈尔滨",
+          "无锡"
+        ],
+        "teams": [
+          "系统工程研究院",
+          "中国舰船研究院",
+          "七〇三所",
+          "船舶设计与仿真"
+        ],
+        "roleFamilies": [
+          "系统工程",
+          "优化与控制",
+          "数值仿真",
+          "科研"
+        ],
+        "fitScore": 83,
+        "salaryScore": 50,
+        "supplyScore": 66,
+        "feasibilityScore": 82,
+        "growthScore": 72,
+        "identityRisk": 24,
+        "salaryBandZh": "研究所岗位约 18–40 万元人民币年总包，保密与地点差异明显",
+        "whyTrackZh": "本科背景和工程数学能力具有连接点；部分岗位涉及国籍、保密或安全许可，应保留并醒目标注限制。",
+        "careerUrl": "https://www.cssc.net.cn/n9/n63/index.html",
+        "homepage": "https://www.cssc.net.cn/",
+        "sourceConfidence": "A · 集团官方",
+        "overallScore": 69
+      },
+      {
+        "id": "sea-ai-lab",
+        "name": "Sea AI Lab",
+        "nameZh": "Sea AI Lab",
+        "category": "港新产业研究",
+        "priority": "P2",
+        "regions": [
+          "Singapore"
+        ],
+        "locations": [
+          "新加坡"
+        ],
+        "teams": [
+          "Machine Learning",
+          "Optimization for AI",
+          "E-commerce Intelligence"
+        ],
+        "roleFamilies": [
+          "Research Scientist",
+          "Research Engineer",
+          "Machine Learning"
+        ],
+        "fitScore": 75,
+        "salaryScore": 82,
+        "supplyScore": 46,
+        "feasibilityScore": 64,
+        "growthScore": 84,
+        "identityRisk": 16,
+        "salaryBandZh": "新加坡研究/算法岗约 SGD 90k–180k，总量和团队状态需持续核验",
+        "whyTrackZh": "适合作为机器学习优化和电商智能的邻近路线，但团队公开招聘信号不稳定。",
+        "careerUrl": "https://www.sea.com/careers",
+        "homepage": "https://sail.sea.com/",
+        "sourceConfidence": "A/B · 官方站点，招聘信号待核验",
+        "overallScore": 69
+      },
+      {
+        "id": "gurobi",
+        "name": "Gurobi Optimization",
+        "nameZh": "Gurobi",
+        "category": "优化求解器公司",
+        "priority": "P1",
+        "regions": [
+          "Europe",
+          "United States",
+          "Asia"
+        ],
+        "locations": [
+          "德国",
+          "美国",
+          "远程/区域岗位"
+        ],
+        "teams": [
+          "Solver Development",
+          "Optimization Engineering",
+          "Technical Account Management"
+        ],
+        "roleFamilies": [
+          "Optimization Engineer",
+          "Solver Developer",
+          "Technical Account Manager"
+        ],
+        "fitScore": 99,
+        "salaryScore": 78,
+        "supplyScore": 42,
+        "feasibilityScore": 48,
+        "growthScore": 91,
+        "identityRisk": 38,
+        "salaryBandZh": "欧美优化工程岗约等值人民币 55–120 万元，公开样本有限",
+        "whyTrackZh": "研究契合度最高的工业路线之一；岗位少，但数学建模、求解器和客户问题转化能力可直接复用。",
+        "careerUrl": "https://www.gurobi.com/company/careers/",
+        "homepage": "https://www.gurobi.com/",
+        "sourceConfidence": "A · 官方团队与招聘",
+        "overallScore": 67
+      },
+      {
+        "id": "hexaly",
+        "name": "Hexaly",
+        "nameZh": "Hexaly",
+        "category": "优化求解器公司",
+        "priority": "P1",
+        "regions": [
+          "Europe",
+          "United States"
+        ],
+        "locations": [
+          "巴黎",
+          "纽约"
+        ],
+        "teams": [
+          "Optimizer R&D",
+          "Optimization Science",
+          "Customer Applications"
+        ],
+        "roleFamilies": [
+          "Optimization Scientist",
+          "R&D Engineer",
+          "Intern",
+          "Industrial PhD"
+        ],
+        "fitScore": 99,
+        "salaryScore": 72,
+        "supplyScore": 44,
+        "feasibilityScore": 55,
+        "growthScore": 88,
+        "identityRisk": 30,
+        "salaryBandZh": "巴黎优化岗约 €45k–€85k，官方仅说明薪资有竞争力，区间为估算",
+        "whyTrackZh": "官方展示从六个月实习、工业博士到 Senior Optimization Scientist 的路径，可复制性强。",
+        "careerUrl": "https://www.hexaly.com/join-us",
+        "homepage": "https://www.hexaly.com/",
+        "sourceConfidence": "A · 官方团队",
+        "overallScore": 67
+      },
+      {
+        "id": "google-deepmind",
+        "name": "Google DeepMind",
+        "nameZh": "谷歌 DeepMind",
+        "category": "全球产业研究",
+        "priority": "P2",
+        "regions": [
+          "Europe",
+          "United States"
+        ],
+        "locations": [
+          "伦敦",
+          "巴黎",
+          "苏黎世",
+          "湾区"
+        ],
+        "teams": [
+          "Reinforcement Learning",
+          "AI for Science",
+          "Research Engineering"
+        ],
+        "roleFamilies": [
+          "Research Scientist",
+          "Research Engineer",
+          "Intern"
+        ],
+        "fitScore": 78,
+        "salaryScore": 97,
+        "supplyScore": 46,
+        "feasibilityScore": 32,
+        "growthScore": 99,
+        "identityRisk": 50,
+        "salaryBandZh": "欧美研究岗总包处于科技行业高位，具体以岗位披露为准",
+        "whyTrackZh": "适合作为强化学习、AI for Science 和优化交叉的高上限路线，不应替代当前数学优化主线。",
+        "careerUrl": "https://deepmind.google/careers/",
+        "homepage": "https://deepmind.google/",
+        "sourceConfidence": "A · 官方招聘",
+        "overallScore": 66
+      },
+      {
+        "id": "two-sigma",
+        "name": "Two Sigma",
+        "nameZh": "Two Sigma",
+        "category": "量化金融",
+        "priority": "P2",
+        "regions": [
+          "United States",
+          "Europe"
+        ],
+        "locations": [
+          "纽约",
+          "伦敦"
+        ],
+        "teams": [
+          "Quantitative Research",
+          "Engineering",
+          "Data Science"
+        ],
+        "roleFamilies": [
+          "Quant Research",
+          "Data Science",
+          "Software Engineering",
+          "Intern"
+        ],
+        "fitScore": 78,
+        "salaryScore": 98,
+        "supplyScore": 48,
+        "feasibilityScore": 28,
+        "growthScore": 94,
+        "identityRisk": 58,
+        "salaryBandZh": "欧美量化研究总包通常高于等值人民币 150 万元，岗位与身份门槛很高",
+        "whyTrackZh": "研究文化强，但港新机会少且美国身份风险高；保留为能力上限样本。",
+        "careerUrl": "https://www.twosigma.com/careers/",
+        "homepage": "https://www.twosigma.com/",
+        "sourceConfidence": "A · 官方招聘；薪资 C",
+        "overallScore": 65
+      },
+      {
+        "id": "mosek",
+        "name": "MOSEK",
+        "nameZh": "MOSEK",
+        "category": "优化求解器公司",
+        "priority": "P1",
+        "regions": [
+          "Europe"
+        ],
+        "locations": [
+          "哥本哈根"
+        ],
+        "teams": [
+          "Conic Optimization",
+          "Solver Development",
+          "Technical Support"
+        ],
+        "roleFamilies": [
+          "Optimization Scientist",
+          "Solver Developer",
+          "Support Engineer"
+        ],
+        "fitScore": 99,
+        "salaryScore": 72,
+        "supplyScore": 30,
+        "feasibilityScore": 42,
+        "growthScore": 88,
+        "identityRisk": 34,
+        "salaryBandZh": "丹麦求解器研发岗约 DKK 500k–900k，非官方估算，需核验",
+        "whyTrackZh": "凸优化、锥优化和数值算法高度相关，但岗位极少，应作为高匹配低供给目标。",
+        "careerUrl": "https://www.mosek.com/about/contact-information/",
+        "homepage": "https://www.mosek.com/",
+        "sourceConfidence": "B · 官方公司联系入口，未发现常驻招聘页",
+        "overallScore": 61
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "jd-logistics-watch",
+        "title": "Logistics / Inventory Optimization Careers",
+        "titleZh": "物流与库存优化岗位入口",
+        "companyId": "jd",
+        "company": "京东",
+        "team": "京东物流 / 零售供应链 / 京东工业",
+        "region": "Mainland China",
+        "city": "北京 / 上海 / 深圳",
+        "roleFamily": "供应链优化",
+        "track": "watchlist",
+        "status": "active",
+        "availabilityZh": "官方招聘入口持续更新",
+        "timingFit": "future_action",
+        "fitScore": 99,
+        "salaryScore": 82,
+        "supplyScore": 84,
+        "feasibilityScore": 86,
+        "identityRisk": 2,
+        "skills": [
+          "库存优化",
+          "物流网络",
+          "预测",
+          "数学规划",
+          "数据工程"
+        ],
+        "summaryZh": "京东公开业务结构突出供应链、物流和工业效率，是大陆工作路线的核心目标。",
+        "sourceUrl": "https://zhaopin.jd.com/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "jd",
+          "name": "JD.com",
+          "nameZh": "京东",
+          "category": "大陆科技大厂",
+          "careerUrl": "https://zhaopin.jd.com/"
+        },
+        "overallScore": 88
+      },
+      {
+        "id": "alibaba-supply-chain-watch",
+        "title": "Supply Chain / Decision Optimization Careers",
+        "titleZh": "供应链与决策优化岗位入口",
+        "companyId": "alibaba",
+        "company": "阿里巴巴",
+        "team": "菜鸟 / 淘天 / 阿里云",
+        "region": "Mainland China",
+        "city": "杭州 / 北京 / 上海",
+        "roleFamily": "供应链优化",
+        "track": "watchlist",
+        "status": "watch",
+        "availabilityZh": "官方招聘入口，按关键词检索",
+        "timingFit": "future_action",
+        "fitScore": 94,
+        "salaryScore": 88,
+        "supplyScore": 82,
+        "feasibilityScore": 78,
+        "identityRisk": 4,
+        "skills": [
+          "运筹优化",
+          "预测",
+          "供应链",
+          "Python",
+          "大规模算法"
+        ],
+        "summaryZh": "重点关键词为运筹优化、库存、定价、调度、路径和决策智能；泛推荐岗位只作为邻近备选。",
+        "sourceUrl": "https://talent.alibaba.com/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "alibaba",
+          "name": "Alibaba",
+          "nameZh": "阿里巴巴",
+          "category": "大陆科技大厂",
+          "careerUrl": "https://talent.alibaba.com/"
+        },
+        "overallScore": 87
+      },
+      {
+        "id": "meituan-dispatch-watch",
+        "title": "Dispatch / Routing / Marketplace Algorithm Careers",
+        "titleZh": "调度、路径与供需算法岗位入口",
+        "companyId": "meituan",
+        "company": "美团",
+        "team": "配送 / 到家 / Keeta",
+        "region": "Mainland China",
+        "city": "北京 / 上海 / 深圳 / 香港",
+        "roleFamily": "运筹优化",
+        "track": "watchlist",
+        "status": "watch",
+        "availabilityZh": "官方招聘入口，逐岗核验",
+        "timingFit": "future_action",
+        "fitScore": 98,
+        "salaryScore": 86,
+        "supplyScore": 80,
+        "feasibilityScore": 82,
+        "identityRisk": 4,
+        "skills": [
+          "调度优化",
+          "路径规划",
+          "供需匹配",
+          "强化学习",
+          "工程部署"
+        ],
+        "summaryZh": "研究匹配和进入概率兼顾，应作为大陆大厂核心目标公司之一。",
+        "sourceUrl": "https://zhaopin.meituan.com/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "meituan",
+          "name": "Meituan",
+          "nameZh": "美团",
+          "category": "大陆科技大厂",
+          "careerUrl": "https://zhaopin.meituan.com/"
+        },
+        "overallScore": 87
+      },
+      {
+        "id": "huawei-2027-internship",
+        "title": "2027 Internship Recruitment",
+        "titleZh": "华为 2027 届实习生招聘",
+        "companyId": "huawei",
+        "company": "华为",
+        "team": "研发类 / 算法与 AI",
+        "region": "Mainland China",
+        "city": "多城市",
+        "roleFamily": "算法实习",
+        "track": "internship",
+        "status": "active",
+        "availabilityZh": "当前开放，但你的目标窗口是 2028",
+        "timingFit": "future_sample",
+        "fitScore": 78,
+        "salaryScore": 70,
+        "supplyScore": 96,
+        "feasibilityScore": 92,
+        "identityRisk": 4,
+        "skills": [
+          "Python/C++",
+          "算法与数据结构",
+          "机器学习",
+          "工程实现"
+        ],
+        "summaryZh": "华为官方显示 2027 届实习招聘已于 2026-03-15 启动，可用于倒推 2028 实习时间线和校招资格窗口。",
+        "sourceUrl": "https://career.huawei.com/reccampportal/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-05-11",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "huawei",
+          "name": "Huawei",
+          "nameZh": "华为",
+          "category": "大陆科技大厂",
+          "careerUrl": "https://career.huawei.com/"
+        },
+        "overallScore": 85
+      },
+      {
+        "id": "baidu-decision-agent-intern",
+        "title": "Decision Agent Algorithm Intern",
+        "titleZh": "决策 Agent 算法实习生",
+        "companyId": "baidu",
+        "company": "百度",
+        "team": "ACG",
+        "region": "Mainland China",
+        "city": "北京",
+        "roleFamily": "决策智能",
+        "track": "internship",
+        "status": "active",
+        "availabilityZh": "当前日常实习；2028 重点同类岗位",
+        "timingFit": "future_sample",
+        "fitScore": 97,
+        "salaryScore": 72,
+        "supplyScore": 68,
+        "feasibilityScore": 88,
+        "identityRisk": 2,
+        "skills": [
+          "预测+优化",
+          "组合优化",
+          "强化学习",
+          "Python",
+          "复杂约束建模"
+        ],
+        "summaryZh": "官方职责直接写明预测加优化、组合优化、强约束与不确定性，是目前与你最相关的大厂实习样本之一。",
+        "sourceUrl": "https://talent.baidu.com/jobs/detail/INTERN/cd423c1c-7a35-4672-b0a7-2857308efe43",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-05-26",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "baidu",
+          "name": "Baidu",
+          "nameZh": "百度",
+          "category": "大陆科技大厂",
+          "careerUrl": "https://talent.baidu.com/"
+        },
+        "overallScore": 82
+      },
+      {
+        "id": "astar-research-careers",
+        "title": "Research Scientist / Research Fellow",
+        "titleZh": "研究科学家与 Research Fellow",
+        "companyId": "astar",
+        "company": "A*STAR",
+        "team": "I²R / IHPC",
+        "region": "Singapore",
+        "city": "新加坡",
+        "roleFamily": "产业研究",
+        "track": "postdoc_or_research",
+        "status": "active",
+        "availabilityZh": "官方职位入口持续更新",
+        "timingFit": "future_action",
+        "fitScore": 92,
+        "salaryScore": 72,
+        "supplyScore": 78,
+        "feasibilityScore": 82,
+        "identityRisk": 10,
+        "skills": [
+          "优化",
+          "科学计算",
+          "AI",
+          "产业项目"
+        ],
+        "summaryZh": "兼具博后与产业研究属性，是 2029 年新加坡主线中进入概率较高的目标。",
+        "sourceUrl": "https://careers.a-star.edu.sg/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "astar",
+          "name": "A*STAR",
+          "nameZh": "新加坡科技研究局",
+          "category": "港新产业研究",
+          "careerUrl": "https://careers.a-star.edu.sg/"
+        },
+        "overallScore": 81
+      },
+      {
+        "id": "amazon-scot-science",
+        "title": "Applied Scientist / Data Scientist – SCOT",
+        "titleZh": "SCOT 应用科学家 / 数据科学家",
+        "companyId": "amazon-scot",
+        "company": "Amazon SCOT",
+        "team": "Supply Chain Optimization Technologies",
+        "region": "Europe",
+        "city": "卢森堡 / 欧洲及北美多地",
+        "roleFamily": "Operations Research",
+        "track": "graduate_or_experienced",
+        "status": "active",
+        "availabilityZh": "官方团队页持续展示岗位",
+        "timingFit": "future_sample",
+        "fitScore": 99,
+        "salaryScore": 94,
+        "supplyScore": 86,
+        "feasibilityScore": 48,
+        "identityRisk": 42,
+        "skills": [
+          "运筹优化",
+          "库存与网络优化",
+          "预测",
+          "统计建模",
+          "生产部署"
+        ],
+        "summaryZh": "SCOT 直接解决库存、运输、容量和需求不确定性问题，是研究方向最匹配的全球产业团队之一。",
+        "sourceUrl": "https://www.amazon.science/scot",
+        "sourceType": "Amazon Science",
+        "sourceUpdatedAt": "2026-07-09",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "amazon-scot",
+          "name": "Amazon SCOT",
+          "nameZh": "亚马逊供应链优化技术团队",
+          "category": "全球产业研究",
+          "careerUrl": "https://www.amazon.science/scot"
+        },
+        "overallScore": 80
+      },
+      {
+        "id": "huawei-supply-chain-ai-expert",
+        "title": "Supply Chain Algorithm & AI Application Expert",
+        "titleZh": "供应链算法与 AI 应用专家",
+        "companyId": "huawei",
+        "company": "华为",
+        "team": "终端 BG 供应链",
+        "region": "Mainland China",
+        "city": "东莞",
+        "roleFamily": "供应链优化",
+        "track": "experienced",
+        "status": "active",
+        "availabilityZh": "当前社招样本",
+        "timingFit": "future_sample",
+        "fitScore": 96,
+        "salaryScore": 84,
+        "supplyScore": 78,
+        "feasibilityScore": 48,
+        "identityRisk": 4,
+        "skills": [
+          "供应链建模",
+          "优化算法",
+          "AI 应用",
+          "工程交付"
+        ],
+        "summaryZh": "方向高度相关，但当前职位面向有经验人才；应提取其技能要求，而非作为现在可投岗位。",
+        "sourceUrl": "https://career.huawei.com/reccampportal/portal5/social-recruitment-ai.html",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "huawei",
+          "name": "Huawei",
+          "nameZh": "华为",
+          "category": "大陆科技大厂",
+          "careerUrl": "https://career.huawei.com/"
+        },
+        "overallScore": 79
+      },
+      {
+        "id": "bytedance-seed-careers",
+        "title": "Seed Research Scientist / Research Engineer",
+        "titleZh": "Seed 研究员与研究工程师",
+        "companyId": "bytedance",
+        "company": "字节跳动",
+        "team": "Seed",
+        "region": "Mainland China",
+        "city": "北京 / 上海 / 深圳",
+        "roleFamily": "产业研究",
+        "track": "watchlist",
+        "status": "active",
+        "availabilityZh": "官方团队招聘入口",
+        "timingFit": "future_sample",
+        "fitScore": 72,
+        "salaryScore": 94,
+        "supplyScore": 72,
+        "feasibilityScore": 62,
+        "identityRisk": 6,
+        "skills": [
+          "机器学习",
+          "研究论文",
+          "Python/C++",
+          "大规模训练"
+        ],
+        "summaryZh": "属于高薪邻近路线；只有优化、强化学习、科学智能或系统优化岗位进入高优先级。",
+        "sourceUrl": "https://seed.bytedance.com/en/career",
+        "sourceType": "官方团队",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "bytedance",
+          "name": "ByteDance",
+          "nameZh": "字节跳动",
+          "category": "大陆科技大厂",
+          "careerUrl": "https://jobs.bytedance.com/"
+        },
+        "overallScore": 78
+      },
+      {
+        "id": "citadel-phd-intern-asia",
+        "title": "Quantitative Researcher – PhD Intern (Asia)",
+        "titleZh": "量化研究员博士实习生（亚洲）",
+        "companyId": "citadel",
+        "company": "Citadel",
+        "team": "Quantitative Research",
+        "region": "Hong Kong",
+        "city": "香港 / 新加坡",
+        "roleFamily": "量化研究",
+        "track": "internship",
+        "status": "active",
+        "availabilityZh": "长期开放页面；2028 暑期重点",
+        "timingFit": "future_action",
+        "fitScore": 82,
+        "salaryScore": 100,
+        "supplyScore": 56,
+        "feasibilityScore": 62,
+        "identityRisk": 12,
+        "skills": [
+          "概率统计",
+          "研究设计",
+          "Python/C++",
+          "金融数据",
+          "模型验证"
+        ],
+        "summaryZh": "官方 11 周项目覆盖香港和新加坡，不要求先有金融背景；应从 2027 年开始准备概率、编程和数据研究能力。",
+        "sourceUrl": "https://www.citadel.com/careers/details/quantitative-researcher-phd-intern-asia/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-06",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "citadel",
+          "name": "Citadel / Citadel Securities",
+          "nameZh": "Citadel / Citadel Securities",
+          "category": "量化金融",
+          "careerUrl": "https://www.citadel.com/careers/open-positions/"
+        },
+        "overallScore": 77
+      },
+      {
+        "id": "baidu-ai-compiler-graduate",
+        "title": "AI Compiler R&D Engineer",
+        "titleZh": "AI 编译器研发工程师",
+        "companyId": "baidu",
+        "company": "百度",
+        "team": "昆仑芯",
+        "region": "Mainland China",
+        "city": "北京 / 上海",
+        "roleFamily": "AI Infra",
+        "track": "graduate",
+        "status": "active",
+        "availabilityZh": "2026 校招样本",
+        "timingFit": "future_sample",
+        "fitScore": 68,
+        "salaryScore": 78,
+        "supplyScore": 76,
+        "feasibilityScore": 72,
+        "identityRisk": 2,
+        "skills": [
+          "C++",
+          "LLVM",
+          "性能优化",
+          "编译器",
+          "AI 框架"
+        ],
+        "summaryZh": "属于邻近转型岗位，适合愿意加强 C++、系统和性能优化能力的人，不是论文方向的直接延续。",
+        "sourceUrl": "https://talent.baidu.com/jobs/list?recruitType=GRADUATE",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-03-19",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "baidu",
+          "name": "Baidu",
+          "nameZh": "百度",
+          "category": "大陆科技大厂",
+          "careerUrl": "https://talent.baidu.com/"
+        },
+        "overallScore": 76
+      },
+      {
+        "id": "optiver-quant-careers",
+        "title": "Quantitative Research / Trading Internship",
+        "titleZh": "量化研究与交易实习入口",
+        "companyId": "optiver",
+        "company": "Optiver",
+        "team": "Quantitative Research / Trading",
+        "region": "Singapore",
+        "city": "新加坡 / 悉尼 / 阿姆斯特丹",
+        "roleFamily": "量化研究",
+        "track": "internship_or_graduate",
+        "status": "active",
+        "availabilityZh": "官方招聘入口持续更新",
+        "timingFit": "future_action",
+        "fitScore": 76,
+        "salaryScore": 98,
+        "supplyScore": 64,
+        "feasibilityScore": 58,
+        "identityRisk": 18,
+        "skills": [
+          "概率",
+          "博弈与决策",
+          "编程",
+          "快速建模"
+        ],
+        "summaryZh": "新加坡与欧洲路线比美国量化更可行，适合作为 2028 暑期的并行备选。",
+        "sourceUrl": "https://optiver.com/working-at-optiver/career-opportunities/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "optiver",
+          "name": "Optiver",
+          "nameZh": "Optiver",
+          "category": "量化金融",
+          "careerUrl": "https://optiver.com/working-at-optiver/career-opportunities/"
+        },
+        "overallScore": 76
+      },
+      {
+        "id": "grab-marketplace-careers",
+        "title": "Marketplace / Mobility Data Science Careers",
+        "titleZh": "市场、出行与数据科学岗位入口",
+        "companyId": "grab",
+        "company": "Grab",
+        "team": "Marketplace / Mobility",
+        "region": "Singapore",
+        "city": "新加坡",
+        "roleFamily": "供需匹配与定价",
+        "track": "watchlist",
+        "status": "watch",
+        "availabilityZh": "官方招聘入口，逐岗核验",
+        "timingFit": "future_action",
+        "fitScore": 90,
+        "salaryScore": 84,
+        "supplyScore": 62,
+        "feasibilityScore": 64,
+        "identityRisk": 16,
+        "skills": [
+          "供需匹配",
+          "动态定价",
+          "因果推断",
+          "机器学习",
+          "SQL"
+        ],
+        "summaryZh": "东南亚业务场景与滴滴、美团相近，可作为新加坡工业路线的重要目标。",
+        "sourceUrl": "https://www.grab.careers/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "grab",
+          "name": "Grab",
+          "nameZh": "Grab",
+          "category": "港新科技公司",
+          "careerUrl": "https://www.grab.careers/"
+        },
+        "overallScore": 76
+      },
+      {
+        "id": "jane-street-quant-research-hk",
+        "title": "Quantitative Researcher",
+        "titleZh": "量化研究员",
+        "companyId": "jane-street",
+        "company": "Jane Street",
+        "team": "Quantitative Research",
+        "region": "Hong Kong",
+        "city": "香港",
+        "roleFamily": "量化研究",
+        "track": "graduate_or_experienced",
+        "status": "active",
+        "availabilityZh": "当前开放页面",
+        "timingFit": "future_sample",
+        "fitScore": 78,
+        "salaryScore": 100,
+        "supplyScore": 52,
+        "feasibilityScore": 54,
+        "identityRisk": 10,
+        "skills": [
+          "概率统计",
+          "时间序列",
+          "实验设计",
+          "机器学习",
+          "编程"
+        ],
+        "summaryZh": "香港岗位强调实验设计、数据生成、时间序列、特征工程与模型构建，可作为量化能力目标清单。",
+        "sourceUrl": "https://www.janestreet.com/join-jane-street/position/8071941002/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-09",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "jane-street",
+          "name": "Jane Street",
+          "nameZh": "Jane Street",
+          "category": "量化金融",
+          "careerUrl": "https://www.janestreet.com/join-jane-street/open-roles/"
+        },
+        "overallScore": 73
+      },
+      {
+        "id": "microsoft-research-careers",
+        "title": "Researcher / Research SDE / Internship",
+        "titleZh": "研究员、Research SDE 与实习入口",
+        "companyId": "microsoft-research",
+        "company": "Microsoft Research",
+        "team": "MSR Asia / Global Labs",
+        "region": "Global",
+        "city": "北京 / 剑桥 / 雷德蒙德",
+        "roleFamily": "产业研究",
+        "track": "watchlist",
+        "status": "watch",
+        "availabilityZh": "官方职位入口，逐岗核验",
+        "timingFit": "future_action",
+        "fitScore": 88,
+        "salaryScore": 92,
+        "supplyScore": 58,
+        "feasibilityScore": 54,
+        "identityRisk": 34,
+        "skills": [
+          "研究论文",
+          "机器学习",
+          "算法",
+          "研究工程"
+        ],
+        "summaryZh": "北京研究院更具地域可行性；应同时关注 Researcher、Research SDE 和博士实习，而不只搜索 Scientist。",
+        "sourceUrl": "https://www.microsoft.com/en-us/research/careers/open-positions/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "microsoft-research",
+          "name": "Microsoft Research",
+          "nameZh": "微软研究院",
+          "category": "全球产业研究",
+          "careerUrl": "https://www.microsoft.com/en-us/research/careers/open-positions/"
+        },
+        "overallScore": 73
+      },
+      {
+        "id": "hexaly-optimization-scientist",
+        "title": "Optimization Scientist / Internship",
+        "titleZh": "优化科学家与实习岗位",
+        "companyId": "hexaly",
+        "company": "Hexaly",
+        "team": "Optimizer R&D",
+        "region": "Europe",
+        "city": "巴黎",
+        "roleFamily": "求解器研发",
+        "track": "internship_or_graduate",
+        "status": "active",
+        "availabilityZh": "官方接受开放申请",
+        "timingFit": "future_action",
+        "fitScore": 100,
+        "salaryScore": 74,
+        "supplyScore": 42,
+        "feasibilityScore": 56,
+        "identityRisk": 28,
+        "skills": [
+          "组合优化",
+          "局部搜索",
+          "C++",
+          "求解器 R&D",
+          "客户应用"
+        ],
+        "summaryZh": "官方展示实习、工业博士和长期研发路径，适合 2028 暑期或博士毕业后的精准申请。",
+        "sourceUrl": "https://www.hexaly.com/join-us",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "hexaly",
+          "name": "Hexaly",
+          "nameZh": "Hexaly",
+          "category": "优化求解器公司",
+          "careerUrl": "https://www.hexaly.com/join-us"
+        },
+        "overallScore": 67
+      },
+      {
+        "id": "ibm-optimization-ml-careers",
+        "title": "Optimization & Machine Learning Research Roles",
+        "titleZh": "优化与机器学习研究岗位",
+        "companyId": "ibm-research",
+        "company": "IBM Research",
+        "team": "Research Europe / Yorktown",
+        "region": "Europe",
+        "city": "都柏林 / 苏黎世 / 美国",
+        "roleFamily": "优化与机器学习",
+        "track": "watchlist",
+        "status": "watch",
+        "availabilityZh": "官方招聘入口，逐岗核验",
+        "timingFit": "future_sample",
+        "fitScore": 94,
+        "salaryScore": 84,
+        "supplyScore": 48,
+        "feasibilityScore": 42,
+        "identityRisk": 38,
+        "skills": [
+          "随机优化",
+          "机器学习",
+          "工业研究",
+          "Python"
+        ],
+        "summaryZh": "IBM 官方人物页显示应用数学、优化与 ML 的明确职业路径，欧洲研究院值得长期监控。",
+        "sourceUrl": "https://www.ibm.com/careers/search",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "ibm-research",
+          "name": "IBM Research",
+          "nameZh": "IBM 研究院",
+          "category": "全球产业研究",
+          "careerUrl": "https://www.ibm.com/careers/search"
+        },
+        "overallScore": 66
+      },
+      {
+        "id": "comac-uq-historical",
+        "title": "Intelligent Algorithm Application Research",
+        "titleZh": "智能算法应用研究岗：不确定性量化与优化",
+        "companyId": "comac",
+        "company": "中国商飞",
+        "team": "上海飞机设计研究院航空科学中心",
+        "region": "Mainland China",
+        "city": "上海",
+        "roleFamily": "不确定性量化",
+        "track": "historical",
+        "status": "historical",
+        "availabilityZh": "历史岗位样本，不可直接投递",
+        "timingFit": "future_sample",
+        "fitScore": 100,
+        "salaryScore": 54,
+        "supplyScore": 28,
+        "feasibilityScore": 76,
+        "identityRisk": 10,
+        "skills": [
+          "随机模拟",
+          "参数估计",
+          "不确定性传播",
+          "可靠性分析",
+          "优化"
+        ],
+        "summaryZh": "官方历史岗位几乎逐项对应随机优化和不确定性量化，应保留用于监控同类新岗位。",
+        "sourceUrl": "https://zhaopin.comac.cc/zp/ct/out/position/positionDetail?planid=ce4739a2e38d46ad863a3a5845ba7201",
+        "sourceType": "官方历史岗位",
+        "sourceUpdatedAt": "2024-04-02",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "comac",
+          "name": "COMAC",
+          "nameZh": "中国商飞",
+          "category": "央国企研究院",
+          "careerUrl": "https://zhaopin.comac.cc/"
+        },
+        "overallScore": 65
+      },
+      {
+        "id": "google-algorithms-optimization",
+        "title": "Algorithms & Optimization Research Careers",
+        "titleZh": "算法与优化研究岗位入口",
+        "companyId": "google-research",
+        "company": "Google Research",
+        "team": "Algorithms & Optimization",
+        "region": "Europe",
+        "city": "巴黎 / 苏黎世 / 伦敦及其他",
+        "roleFamily": "优化研究",
+        "track": "watchlist",
+        "status": "watch",
+        "availabilityZh": "团队常驻监控入口",
+        "timingFit": "future_sample",
+        "fitScore": 99,
+        "salaryScore": 98,
+        "supplyScore": 34,
+        "feasibilityScore": 28,
+        "identityRisk": 48,
+        "skills": [
+          "大规模优化",
+          "在线算法",
+          "分布式优化",
+          "组合优化",
+          "算法研究"
+        ],
+        "summaryZh": "官方团队明确覆盖大规模、分布式和数据驱动优化；只有出现具体职位时才计入可投岗位。",
+        "sourceUrl": "https://research.google/teams/algorithms-optimization/",
+        "sourceType": "官方研究团队",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "google-research",
+          "name": "Google Research",
+          "nameZh": "谷歌研究",
+          "category": "全球产业研究",
+          "careerUrl": "https://research.google/careers/"
+        },
+        "overallScore": 64
+      },
+      {
+        "id": "amazon-postdoc-science-program",
+        "title": "Amazon Postdoctoral Science Program – OR",
+        "titleZh": "Amazon 运筹优化博士后科学家项目",
+        "companyId": "amazon-scot",
+        "company": "Amazon",
+        "team": "SCOT",
+        "region": "Global",
+        "city": "按年度项目",
+        "roleFamily": "产业博士后",
+        "track": "postdoc",
+        "status": "watch",
+        "availabilityZh": "历史项目，等待新一轮信号",
+        "timingFit": "future_action",
+        "fitScore": 100,
+        "salaryScore": 88,
+        "supplyScore": 24,
+        "feasibilityScore": 46,
+        "identityRisk": 38,
+        "skills": [
+          "Operations Research",
+          "学术论文",
+          "工业数据",
+          "供应链优化"
+        ],
+        "summaryZh": "Amazon 曾公开展示 OR 博士进入 SCOT 做一年产业博士后再赴 NUS/USC 任教的路径，与你的博后主线高度契合。",
+        "sourceUrl": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems",
+        "sourceType": "Amazon Science",
+        "sourceUpdatedAt": "2023-08-29",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "amazon-scot",
+          "name": "Amazon SCOT",
+          "nameZh": "亚马逊供应链优化技术团队",
+          "category": "全球产业研究",
+          "careerUrl": "https://www.amazon.science/scot"
+        },
+        "overallScore": 63
+      },
+      {
+        "id": "gurobi-optimization-careers",
+        "title": "Optimization Engineer / Solver Development",
+        "titleZh": "优化工程师与求解器研发",
+        "companyId": "gurobi",
+        "company": "Gurobi",
+        "team": "Development / Experts",
+        "region": "Global",
+        "city": "欧美及区域岗位",
+        "roleFamily": "求解器与优化工程",
+        "track": "watchlist",
+        "status": "watch",
+        "availabilityZh": "官方招聘入口",
+        "timingFit": "future_action",
+        "fitScore": 100,
+        "salaryScore": 80,
+        "supplyScore": 32,
+        "feasibilityScore": 42,
+        "identityRisk": 34,
+        "skills": [
+          "数学优化",
+          "MIP",
+          "建模",
+          "C++/Python",
+          "客户问题转化"
+        ],
+        "summaryZh": "岗位少但高度相关；官方团队路径显示应用数学/系统工程博士可进入 Optimization Engineer。",
+        "sourceUrl": "https://www.gurobi.com/company/careers/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "gurobi",
+          "name": "Gurobi Optimization",
+          "nameZh": "Gurobi",
+          "category": "优化求解器公司",
+          "careerUrl": "https://www.gurobi.com/company/careers/"
+        },
+        "overallScore": 63
+      },
+      {
+        "id": "huawei-ai-infra-france-lead",
+        "title": "AI Infrastructure Lab Technical Leader",
+        "titleZh": "AI Infra 实验室技术负责人",
+        "companyId": "huawei",
+        "company": "华为",
+        "team": "欧洲 AI Infrastructure",
+        "region": "Europe",
+        "city": "法国",
+        "roleFamily": "AI Infra / 数值计算",
+        "track": "experienced",
+        "status": "active",
+        "availabilityZh": "当前开放，资深岗位",
+        "timingFit": "future_sample",
+        "fitScore": 82,
+        "salaryScore": 88,
+        "supplyScore": 40,
+        "feasibilityScore": 24,
+        "identityRisk": 22,
+        "skills": [
+          "分布式并行",
+          "图调度",
+          "数值计算",
+          "研究团队管理"
+        ],
+        "summaryZh": "官方岗位明确包含图调度、稀疏训练、低秩分解和数值计算，可作为优化转 AI 系统的高阶能力样本。",
+        "sourceUrl": "https://career.huawei.com/reccampportal/euportal/portal/social-recruitment-detail.html?dataSource=1&jobId=23981",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-06",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "huawei",
+          "name": "Huawei",
+          "nameZh": "华为",
+          "category": "大陆科技大厂",
+          "careerUrl": "https://career.huawei.com/"
+        },
+        "overallScore": 61
+      },
+      {
+        "id": "two-sigma-quant-careers",
+        "title": "Quantitative Research Careers",
+        "titleZh": "量化研究岗位入口",
+        "companyId": "two-sigma",
+        "company": "Two Sigma",
+        "team": "Quantitative Research",
+        "region": "United States",
+        "city": "纽约 / 伦敦",
+        "roleFamily": "量化研究",
+        "track": "watchlist",
+        "status": "active",
+        "availabilityZh": "官方招聘入口；身份可行性较低",
+        "timingFit": "future_sample",
+        "fitScore": 78,
+        "salaryScore": 100,
+        "supplyScore": 46,
+        "feasibilityScore": 24,
+        "identityRisk": 62,
+        "skills": [
+          "统计研究",
+          "机器学习",
+          "编程",
+          "数据科学"
+        ],
+        "summaryZh": "保留用于能力和薪资上限观察，当前地域与身份可行性低于香港、新加坡量化岗位。",
+        "sourceUrl": "https://www.twosigma.com/careers/",
+        "sourceType": "官方招聘",
+        "sourceUpdatedAt": "2026-07-09",
+        "confidence": "A",
+        "companyProfile": {
+          "id": "two-sigma",
+          "name": "Two Sigma",
+          "nameZh": "Two Sigma",
+          "category": "量化金融",
+          "careerUrl": "https://www.twosigma.com/careers/"
+        },
+        "overallScore": 61
+      },
+      {
+        "id": "mosek-careers",
+        "title": "Conic Optimization Talent Watch",
+        "titleZh": "锥优化求解器人才监控入口",
+        "companyId": "mosek",
+        "company": "MOSEK",
+        "team": "Solver Development",
+        "region": "Europe",
+        "city": "哥本哈根",
+        "roleFamily": "数值优化",
+        "track": "watchlist",
+        "status": "watch",
+        "availabilityZh": "未发现常驻招聘页，仅作主动联系线索",
+        "timingFit": "future_sample",
+        "fitScore": 100,
+        "salaryScore": 72,
+        "supplyScore": 20,
+        "feasibilityScore": 38,
+        "identityRisk": 32,
+        "skills": [
+          "凸优化",
+          "锥规划",
+          "数值线性代数",
+          "C/C++"
+        ],
+        "summaryZh": "极高匹配、极低岗位供给；官方未显示常驻招聘页，只能作为数值优化能力上限和主动联系线索。",
+        "sourceUrl": "https://www.mosek.com/about/contact-information/",
+        "sourceType": "官方公司联系页",
+        "sourceUpdatedAt": "2026-07-10",
+        "confidence": "B · 非招聘页",
+        "companyProfile": {
+          "id": "mosek",
+          "name": "MOSEK",
+          "nameZh": "MOSEK",
+          "category": "优化求解器公司",
+          "careerUrl": "https://www.mosek.com/about/contact-information/"
+        },
+        "overallScore": 57
+      }
+    ],
+    "people": [
+      {
+        "id": "hanzhang-qin-amazon-postdoc",
+        "name": "Hanzhang Qin",
+        "nameZh": "秦汉章",
+        "companyId": "amazon-scot",
+        "currentPosition": "Assistant Professor, NUS; former Amazon Postdoctoral Scientist",
+        "team": "Former Amazon SCOT",
+        "region": "Singapore",
+        "category": "青年可复制路径",
+        "careerStage": "early-career faculty",
+        "fieldTags": [
+          "operations research",
+          "uncertainty",
+          "inventory",
+          "transportation"
+        ],
+        "educationSummaryZh": "清华数学与工业工程背景，MIT 计算科学与工程博士，并取得 EECS 和交通方向硕士训练。",
+        "pathSummaryZh": "清华 → MIT CSE 博士 → 获 NUS 教职后推迟一年进入 Amazon SCOT 产业博士后 → NUS 教职。",
+        "representativeWorks": [
+          {
+            "title": "Delivery route planning under uncertainty at Amazon",
+            "note": "官方职业路径访谈",
+            "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems"
+          }
+        ],
+        "homepage": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems",
+        "confidence": "A · Amazon Science",
+        "replicabilityScore": 96,
+        "replicabilityZh": "最重要的参考样本之一：数学/工业工程、计算科学、随机 OR、产业博士后、港新教职。",
+        "evidence": [
+          {
+            "type": "official_path_story",
+            "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "亚马逊供应链优化技术团队"
+      },
+      {
+        "id": "chamsi-hssaine-amazon-postdoc",
+        "name": "Chamsi Hssaine",
+        "companyId": "amazon-scot",
+        "currentPosition": "Assistant Professor, USC; former Amazon Postdoctoral Scientist",
+        "team": "Former Amazon SCOT",
+        "region": "United States",
+        "category": "青年可复制路径",
+        "careerStage": "early-career faculty",
+        "fieldTags": [
+          "operations research",
+          "pricing",
+          "incentive design",
+          "supply chain"
+        ],
+        "educationSummaryZh": "Princeton ORFE 本科，Cornell Operations Research 博士；博士三年级曾在 Amazon 实习。",
+        "pathSummaryZh": "Cornell OR 博士 → Amazon 实习 → 获教职后推迟一年进入 SCOT 产业博士后 → USC 教职。",
+        "representativeWorks": [
+          {
+            "title": "Inbound optimization at Amazon SCOT",
+            "note": "官方职业路径访谈",
+            "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems"
+          }
+        ],
+        "homepage": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems",
+        "confidence": "A · Amazon Science",
+        "replicabilityScore": 94,
+        "replicabilityZh": "高度可参考：博士期间实习、产业博士后和教职双轨与你的时间线非常接近。",
+        "evidence": [
+          {
+            "type": "official_path_story",
+            "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "亚马逊供应链优化技术团队"
+      },
+      {
+        "id": "ahmed-azab-gurobi",
+        "name": "Ahmed Azab",
+        "companyId": "gurobi",
+        "currentPosition": "Optimization Engineer",
+        "team": "Gurobi Optimization Engineering",
+        "region": "Asia / Global",
+        "category": "青年可复制路径",
+        "careerStage": "engineer",
+        "fieldTags": [
+          "mathematical optimization",
+          "container logistics",
+          "manufacturing",
+          "energy"
+        ],
+        "educationSummaryZh": "Osaka University 系统工程博士，研究方向为应用数学、建模与集装箱物流优化。",
+        "pathSummaryZh": "系统工程/应用数学博士 → 日本优化咨询公司 → Gurobi Optimization Engineer。",
+        "representativeWorks": [
+          {
+            "title": "Gurobi official team profile",
+            "note": "教育与职业路径",
+            "url": "https://www.gurobi.com/company/our-people"
+          }
+        ],
+        "homepage": "https://www.gurobi.com/company/our-people",
+        "confidence": "A · Gurobi official profile",
+        "replicabilityScore": 93,
+        "replicabilityZh": "极高参考价值：应用数学博士、物流优化、咨询项目和求解器公司路径。",
+        "evidence": [
+          {
+            "type": "official_profile",
+            "url": "https://www.gurobi.com/company/our-people",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "Gurobi"
+      },
+      {
+        "id": "lam-nguyen-ibm",
+        "name": "Lam M. Nguyen",
+        "companyId": "ibm-research",
+        "currentPosition": "Staff Research Scientist; Master Inventor",
+        "team": "IBM Research",
+        "region": "United States",
+        "category": "青年/中生代产业研究者",
+        "careerStage": "mid-career",
+        "fieldTags": [
+          "stochastic optimization",
+          "optimization for machine learning",
+          "federated learning",
+          "nonconvex optimization"
+        ],
+        "educationSummaryZh": "莫斯科国立大学应用数学与计算机本科，Lehigh University 工业与系统工程博士（2018）。",
+        "pathSummaryZh": "应用数学本科到工业与系统工程博士，再进入 IBM 做随机优化与机器学习研究；与你的背景可比性很强。",
+        "representativeWorks": [
+          {
+            "title": "A Hybrid Stochastic Optimization Framework for Composite Nonconvex Optimization",
+            "note": "IBM Pat Goldberg Memorial Best Paper",
+            "url": "https://research.ibm.com/people/lam-nguyen"
+          }
+        ],
+        "homepage": "https://research.ibm.com/people/lam-nguyen",
+        "confidence": "A · IBM Research",
+        "replicabilityScore": 88,
+        "replicabilityZh": "高度可参考：应用数学、优化论文、工业系统问题和顶级 ML 发表形成闭环。",
+        "evidence": [
+          {
+            "type": "official_profile",
+            "url": "https://research.ibm.com/people/lam-nguyen",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "IBM 研究院"
+      },
+      {
+        "id": "abigail-freeman-gurobi",
+        "name": "Abigail Freeman",
+        "companyId": "gurobi",
+        "currentPosition": "Technical Account Manager",
+        "team": "Gurobi Technical Account Management",
+        "region": "United States",
+        "category": "可复制工程路径",
+        "careerStage": "mid-career",
+        "fieldTags": [
+          "operations research",
+          "supply chain",
+          "optimization applications",
+          "client engineering"
+        ],
+        "educationSummaryZh": "MIT Operations Research Center 商业分析硕士，数学与计算机双背景。",
+        "pathSummaryZh": "数学/计算机 → MIT OR → Pfizer 供应链优化与数据产品 → 医疗数据科学 → Gurobi。",
+        "representativeWorks": [
+          {
+            "title": "Gurobi official team profile",
+            "note": "教育与跨行业路径",
+            "url": "https://www.gurobi.com/company/our-people"
+          }
+        ],
+        "homepage": "https://www.gurobi.com/company/our-people",
+        "confidence": "A · Gurobi official profile",
+        "replicabilityScore": 86,
+        "replicabilityZh": "可借鉴优化能力跨制药、医疗和求解器客户成功的迁移。",
+        "evidence": [
+          {
+            "type": "official_profile",
+            "url": "https://www.gurobi.com/company/our-people",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "Gurobi"
+      },
+      {
+        "id": "david-torres-sanchez-gurobi",
+        "name": "David Torres Sanchez",
+        "companyId": "gurobi",
+        "currentPosition": "Mathematical Optimization QA Engineer",
+        "team": "Gurobi Development / QA",
+        "region": "Europe / Global",
+        "category": "青年工程路径",
+        "careerStage": "engineer",
+        "fieldTags": [
+          "mathematical optimization",
+          "solver quality",
+          "testing",
+          "engineering"
+        ],
+        "educationSummaryZh": "官方团队页标注博士和 Mathematical Optimization QA Engineer；教育细节待补。",
+        "pathSummaryZh": "数学优化博士进入求解器质量与工程体系，说明非开发核心岗位也需要深厚优化知识。",
+        "representativeWorks": [
+          {
+            "title": "Gurobi Team Spotlight",
+            "note": "官方职位证据",
+            "url": "https://www.gurobi.com/company/our-people"
+          }
+        ],
+        "homepage": "https://www.gurobi.com/company/our-people",
+        "confidence": "A/B · Gurobi official team",
+        "replicabilityScore": 82,
+        "replicabilityZh": "可作为求解器测试、数值稳定性和工程质量路线样本。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://www.gurobi.com/company/our-people",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "Gurobi"
+      },
+      {
+        "id": "xianliang-yang-msr",
+        "name": "Xianliang Yang",
+        "companyId": "microsoft-research",
+        "currentPosition": "Research SDE",
+        "team": "Microsoft Research Machine Learning Area",
+        "region": "Mainland China / Global",
+        "category": "青年研究工程师",
+        "careerStage": "research engineer",
+        "fieldTags": [
+          "research engineering",
+          "machine learning",
+          "software development"
+        ],
+        "educationSummaryZh": "官方团队页确认 Research SDE 职位，详细履历待补。",
+        "pathSummaryZh": "证明研究院并非只有 Researcher，Research SDE 是数学研究转工程的现实入口。",
+        "representativeWorks": [],
+        "homepage": "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/people/",
+        "confidence": "A · Microsoft Research team",
+        "replicabilityScore": 78,
+        "replicabilityZh": "对强化代码和工程能力后的转型路线具有较高参考价值。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/people/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "微软研究院"
+      },
+      {
+        "id": "marika-karbstein-gurobi",
+        "name": "Marika Karbstein",
+        "companyId": "gurobi",
+        "currentPosition": "Senior Optimization Engineer",
+        "team": "Gurobi Optimization Engineering",
+        "region": "Europe",
+        "category": "青年/中生代工程路径",
+        "careerStage": "senior engineer",
+        "fieldTags": [
+          "mathematical optimization",
+          "optimization engineering",
+          "solver applications"
+        ],
+        "educationSummaryZh": "Gurobi 官方团队页确认 Senior Optimization Engineer；详细博士与项目经历待补。",
+        "pathSummaryZh": "数学优化专业能力成长为高级优化工程师。",
+        "representativeWorks": [
+          {
+            "title": "Gurobi Team Spotlight",
+            "note": "官方职位证据",
+            "url": "https://www.gurobi.com/company/our-people"
+          }
+        ],
+        "homepage": "https://www.gurobi.com/company/our-people",
+        "confidence": "A/B · Gurobi official team",
+        "replicabilityScore": 78,
+        "replicabilityZh": "岗位类型高度相关，待补教育和代表项目后可严格比较。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://www.gurobi.com/company/our-people",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "Gurobi"
+      },
+      {
+        "id": "rahul-nair-ibm",
+        "name": "Rahul Nair",
+        "companyId": "ibm-research",
+        "currentPosition": "Senior Research Scientist",
+        "team": "IBM Research Europe – Ireland",
+        "region": "Europe",
+        "category": "产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "optimization",
+          "machine learning",
+          "transportation",
+          "trusted AI"
+        ],
+        "educationSummaryZh": "University of Maryland College Park 博士。",
+        "pathSummaryZh": "优化与机器学习能力跨交通、医疗和企业计算场景，再扩展到可信 AI。",
+        "representativeWorks": [
+          {
+            "title": "IBM Research profile and publications",
+            "note": "官方研究档案",
+            "url": "https://research.ibm.com/people/rahul-nair"
+          }
+        ],
+        "homepage": "https://research.ibm.com/people/rahul-nair",
+        "confidence": "A · IBM Research",
+        "replicabilityScore": 76,
+        "replicabilityZh": "可借鉴优化方法跨行业应用和研究主题迭代。",
+        "evidence": [
+          {
+            "type": "official_profile",
+            "url": "https://research.ibm.com/people/rahul-nair",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "IBM 研究院"
+      },
+      {
+        "id": "hana-ku-amazon",
+        "name": "Hana Ku",
+        "companyId": "amazon-scot",
+        "currentPosition": "Amazon scientist / engineer",
+        "team": "Middle-mile network optimization",
+        "region": "United States / Global",
+        "category": "青年产业研究者",
+        "careerStage": "researcher",
+        "fieldTags": [
+          "network optimization",
+          "uncertainty",
+          "middle-mile logistics",
+          "operations research"
+        ],
+        "educationSummaryZh": "Amazon 2026 官方研究文章确认其参与不确定性下中段物流网络优化；完整教育背景待补。",
+        "pathSummaryZh": "围绕真实物流网络不确定性开展算法与工程协作。",
+        "representativeWorks": [
+          {
+            "title": "Navigating uncertainty in Amazon's middle-mile network",
+            "note": "Amazon Science, 2026",
+            "url": "https://www.amazon.science/scot"
+          }
+        ],
+        "homepage": "https://www.amazon.science/scot",
+        "confidence": "A/B · Amazon Science",
+        "replicabilityScore": 74,
+        "replicabilityZh": "研究主题高度相关，履历证据补全后可成为重要青年样本。",
+        "evidence": [
+          {
+            "type": "official_research_story",
+            "url": "https://www.amazon.science/scot",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "亚马逊供应链优化技术团队"
+      },
+      {
+        "id": "yannis-belkhiter-ibm",
+        "name": "Yannis Belkhiter",
+        "companyId": "ibm-research",
+        "currentPosition": "Pre-Doctoral AI Researcher",
+        "team": "IBM Research Europe – Ireland / Trinity College Dublin",
+        "region": "Europe",
+        "category": "青年产业研究者",
+        "careerStage": "predoc / PhD",
+        "fieldTags": [
+          "time series",
+          "model selection",
+          "machine learning",
+          "AI research"
+        ],
+        "educationSummaryZh": "Imperial College London Computing 硕士，École des Mines d'Alès 计算机工程背景，在 IBM 与 Trinity 联合读博。",
+        "pathSummaryZh": "欧洲产业联合博士/预博士研究路径，展示先进入研究院再完成博士训练的另一种路线。",
+        "representativeWorks": [
+          {
+            "title": "IBM Research profile and publications",
+            "note": "官方青年研究者档案",
+            "url": "https://research.ibm.com/people/yannis-belkhiter"
+          }
+        ],
+        "homepage": "https://research.ibm.com/people/yannis-belkhiter",
+        "confidence": "A · IBM Research",
+        "replicabilityScore": 73,
+        "replicabilityZh": "对欧洲产业联合培养路径有参考价值，但与你的博士阶段不同。",
+        "evidence": [
+          {
+            "type": "official_profile",
+            "url": "https://research.ibm.com/people/yannis-belkhiter",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "IBM 研究院"
+      },
+      {
+        "id": "ruth-misener-amazon-collab",
+        "name": "Ruth Misener",
+        "companyId": "amazon-scot",
+        "currentPosition": "Professor; Amazon research collaborator",
+        "team": "Amazon middle-mile research collaboration",
+        "region": "Europe",
+        "category": "产学合作路径",
+        "careerStage": "academic collaborator",
+        "fieldTags": [
+          "optimization under uncertainty",
+          "process systems",
+          "mixed-integer optimization",
+          "AI"
+        ],
+        "educationSummaryZh": "当前为欧洲高校教授；Amazon 2026 官方研究文章列为不确定性物流网络研究作者。",
+        "pathSummaryZh": "高校优化 PI 与 Amazon 工业问题合作，展示不必离开学术界也能建立产业影响力。",
+        "representativeWorks": [
+          {
+            "title": "Navigating uncertainty in Amazon's middle-mile network",
+            "note": "Amazon Science, 2026",
+            "url": "https://www.amazon.science/scot"
+          }
+        ],
+        "homepage": "https://www.amazon.science/scot",
+        "confidence": "A/B · Amazon Science collaboration",
+        "replicabilityScore": 72,
+        "replicabilityZh": "对“博后/教职主线 + 产业合作”路线有直接参考价值。",
+        "evidence": [
+          {
+            "type": "official_research_story",
+            "url": "https://www.amazon.science/scot",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "亚马逊供应链优化技术团队"
+      },
+      {
+        "id": "mahdieh-allahviranloo-amazon",
+        "name": "Mahdieh Allahviranloo",
+        "companyId": "amazon-scot",
+        "currentPosition": "Amazon scientist",
+        "team": "Last-mile delivery / SCOT-related science",
+        "region": "United States",
+        "category": "产业研究者",
+        "careerStage": "mid-career",
+        "fieldTags": [
+          "transportation",
+          "mobility",
+          "human behavior",
+          "last-mile delivery"
+        ],
+        "educationSummaryZh": "Amazon Science 公开其将交通工程与人类行为研究用于最后一公里配送；详细学位信息待补。",
+        "pathSummaryZh": "交通工程研究转入 Amazon 最后一公里运营问题。",
+        "representativeWorks": [
+          {
+            "title": "Where machine learning models meet mobility and human behavior",
+            "note": "Amazon Science",
+            "url": "https://www.amazon.science/scot"
+          }
+        ],
+        "homepage": "https://www.amazon.science/scot",
+        "confidence": "A/B · Amazon Science",
+        "replicabilityScore": 70,
+        "replicabilityZh": "可借鉴领域问题与数据科学、运营决策结合的路线。",
+        "evidence": [
+          {
+            "type": "official_research_story",
+            "url": "https://www.amazon.science/scot",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "亚马逊供应链优化技术团队"
+      },
+      {
+        "id": "dennis-wei-ibm",
+        "name": "Dennis Wei",
+        "companyId": "ibm-research",
+        "currentPosition": "Senior Research Scientist",
+        "team": "Trustworthy AI, IBM Research",
+        "region": "United States",
+        "category": "产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "optimization",
+          "statistics",
+          "signal processing",
+          "trustworthy machine learning"
+        ],
+        "educationSummaryZh": "MIT 电子工程与物理本科、电子工程硕士和博士。",
+        "pathSummaryZh": "扎实的数学、统计和信号处理基础，逐步转向可信机器学习产品与开源工具。",
+        "representativeWorks": [
+          {
+            "title": "AI Explainability 360 / ICX360",
+            "note": "开源工具与研究路线",
+            "url": "https://research.ibm.com/people/dennis-wei"
+          }
+        ],
+        "homepage": "https://research.ibm.com/people/dennis-wei",
+        "confidence": "A · IBM Research",
+        "replicabilityScore": 68,
+        "replicabilityZh": "可借鉴从数学方法到开源工具和业务研究的迁移。",
+        "evidence": [
+          {
+            "type": "official_profile",
+            "url": "https://research.ibm.com/people/dennis-wei",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "IBM 研究院"
+      },
+      {
+        "id": "parikshit-ram-ibm",
+        "name": "Parikshit Ram",
+        "companyId": "ibm-research",
+        "currentPosition": "Principal Research Staff Member",
+        "team": "IBM Research",
+        "region": "United States",
+        "category": "产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "optimization",
+          "computational geometry",
+          "AutoML",
+          "large-scale algorithms"
+        ],
+        "educationSummaryZh": "官方档案披露其在高性能机器学习公司 Skytree 工作后进入 IBM；完整学位信息待补。",
+        "pathSummaryZh": "创业公司高性能 ML 经验与基础数学、优化研究结合。",
+        "representativeWorks": [
+          {
+            "title": "IBM Research profile and publication list",
+            "note": "官方研究档案",
+            "url": "https://research.ibm.com/people/parikshit-ram"
+          }
+        ],
+        "homepage": "https://research.ibm.com/people/parikshit-ram",
+        "confidence": "A · IBM Research",
+        "replicabilityScore": 67,
+        "replicabilityZh": "适合参考数学算法、创业公司和大型研究院之间的迁移。",
+        "evidence": [
+          {
+            "type": "official_profile",
+            "url": "https://research.ibm.com/people/parikshit-ram",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "IBM 研究院"
+      },
+      {
+        "id": "chang-xu-msr",
+        "name": "Chang Xu",
+        "companyId": "microsoft-research",
+        "currentPosition": "Senior Researcher",
+        "team": "Microsoft Research Machine Learning Area",
+        "region": "Mainland China / Global",
+        "category": "青年/中生代产业研究者",
+        "careerStage": "senior researcher",
+        "fieldTags": [
+          "machine learning",
+          "industrial research",
+          "algorithms"
+        ],
+        "educationSummaryZh": "官方团队页确认职位；完整教育背景待补。",
+        "pathSummaryZh": "青年研究员成长为 Senior Researcher 的产业研究路径样本。",
+        "representativeWorks": [],
+        "homepage": "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/people/",
+        "confidence": "A · Microsoft Research team",
+        "replicabilityScore": 66,
+        "replicabilityZh": "职业阶段具有参考性，但需补充论文与教育证据后再严格比较。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/people/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "微软研究院"
+      },
+      {
+        "id": "zhong-li-msr",
+        "name": "Zhong Li",
+        "companyId": "microsoft-research",
+        "currentPosition": "Researcher",
+        "team": "Microsoft Research Machine Learning Area",
+        "region": "Mainland China / Global",
+        "category": "青年产业研究者",
+        "careerStage": "researcher",
+        "fieldTags": [
+          "machine learning",
+          "research",
+          "optimization for AI"
+        ],
+        "educationSummaryZh": "官方团队页确认当前职位；教育背景待个人页补全。",
+        "pathSummaryZh": "进入微软研究机器学习团队的青年研究员样本。",
+        "representativeWorks": [],
+        "homepage": "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/people/",
+        "confidence": "A · Microsoft Research team",
+        "replicabilityScore": 64,
+        "replicabilityZh": "阶段更接近青年研究者，但公开履历尚不足，需要继续补证。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/people/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "微软研究院"
+      },
+      {
+        "id": "georgios-paschos-amazon",
+        "name": "Georgios Paschos",
+        "companyId": "amazon-scot",
+        "currentPosition": "Amazon scientist / research contributor",
+        "team": "Middle-mile network optimization",
+        "region": "Europe / Global",
+        "category": "产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "network optimization",
+          "stochastic systems",
+          "logistics",
+          "algorithms"
+        ],
+        "educationSummaryZh": "Amazon 2026 官方研究文章确认其参与中段物流网络优化；当前职位和教育细节需继续核验。",
+        "pathSummaryZh": "随机网络与算法能力进入物流网络优化。",
+        "representativeWorks": [
+          {
+            "title": "Navigating uncertainty in Amazon's middle-mile network",
+            "note": "Amazon Science, 2026",
+            "url": "https://www.amazon.science/scot"
+          }
+        ],
+        "homepage": "https://www.amazon.science/scot",
+        "confidence": "B · 官方研究文章，履历待补",
+        "replicabilityScore": 62,
+        "replicabilityZh": "方向可参考，人物当前归属需进一步交叉验证。",
+        "evidence": [
+          {
+            "type": "official_research_story",
+            "url": "https://www.amazon.science/scot",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "亚马逊供应链优化技术团队"
+      },
+      {
+        "id": "yaron-minsky-jane-street",
+        "name": "Yaron Minsky",
+        "companyId": "jane-street",
+        "currentPosition": "Technology leader / long-time engineer",
+        "team": "Jane Street Technology",
+        "region": "United States",
+        "category": "量化工程路径",
+        "careerStage": "leader",
+        "fieldTags": [
+          "OCaml",
+          "functional programming",
+          "distributed systems",
+          "quant engineering"
+        ],
+        "educationSummaryZh": "官方技术演讲披露其原计划完成博后后任教，后在 Jane Street 兼职约半年转为全职。",
+        "pathSummaryZh": "学术博士后阶段兼职进入 Jane Street → 放弃教职路线转向量化技术 → 长期推动 OCaml 与工程文化。",
+        "representativeWorks": [
+          {
+            "title": "Jane and the Compiler",
+            "note": "Jane Street 官方技术演讲",
+            "url": "https://www.janestreet.com/tech-talks/jane-and-compiler/"
+          }
+        ],
+        "homepage": "https://blog.janestreet.com/author/yminsky/",
+        "confidence": "A · Jane Street official",
+        "replicabilityScore": 62,
+        "replicabilityZh": "可借鉴博士后到工业的转折逻辑，但其方向偏编程语言与系统，不是优化直连。",
+        "evidence": [
+          {
+            "type": "official_talk",
+            "url": "https://www.janestreet.com/tech-talks/jane-and-compiler/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "Jane Street"
+      },
+      {
+        "id": "alessandro-epasto-google",
+        "name": "Alessandro Epasto",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "Europe / United States",
+        "category": "青年/中生代产业研究者",
+        "careerStage": "mid-career",
+        "fieldTags": [
+          "algorithms",
+          "data mining",
+          "machine intelligence",
+          "graph optimization"
+        ],
+        "educationSummaryZh": "官方团队页确认当前归属；详细教育路径待补。",
+        "pathSummaryZh": "图算法、数据挖掘和机器智能结合的产业研究路线。",
+        "representativeWorks": [
+          {
+            "title": "Google graph mining research",
+            "note": "团队方向入口",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/alessandro-epasto/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 58,
+        "replicabilityZh": "中生代产业研究路径，对算法到产品的连接具有参考性。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "jinxiang-gu-amazon",
+        "name": "Jinxiang Gu",
+        "companyId": "amazon-scot",
+        "currentPosition": "Senior Manager, Research Science",
+        "team": "Amazon SCOT",
+        "region": "United States / Global",
+        "category": "产业研究管理者",
+        "careerStage": "manager",
+        "fieldTags": [
+          "supply chain optimization",
+          "simulation",
+          "fulfillment",
+          "research management"
+        ],
+        "educationSummaryZh": "Amazon Science 论文作者简介确认其 SCOT Senior Manager, Research Science 职位。",
+        "pathSummaryZh": "从供应链科学研究成长到研究管理岗位。",
+        "representativeWorks": [
+          {
+            "title": "Revolutionizing order fulfillment",
+            "note": "Winter Simulation Conference 2025 / Amazon Science",
+            "url": "https://www.amazon.science/research-areas/operations-research-and-optimization"
+          }
+        ],
+        "homepage": "https://www.amazon.science/research-areas/operations-research-and-optimization",
+        "confidence": "A/B · Amazon Science author bio",
+        "replicabilityScore": 58,
+        "replicabilityZh": "可观察工业科学家到研究管理的晋升路线。",
+        "evidence": [
+          {
+            "type": "official_publication_bio",
+            "url": "https://www.amazon.science/research-areas/operations-research-and-optimization",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "亚马逊供应链优化技术团队"
+      },
+      {
+        "id": "silvio-lattanzi-google",
+        "name": "Silvio Lattanzi",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "Europe / United States",
+        "category": "产业研究者",
+        "careerStage": "mid-career",
+        "fieldTags": [
+          "algorithms",
+          "data mining",
+          "distributed systems",
+          "parallel computing"
+        ],
+        "educationSummaryZh": "官方团队页确认当前研究领域；完整教育履历待补。",
+        "pathSummaryZh": "算法理论进入分布式图计算与大规模数据问题。",
+        "representativeWorks": [
+          {
+            "title": "Large-scale graph and distributed optimization",
+            "note": "团队方向证据",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/silvio-lattanzi/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 56,
+        "replicabilityZh": "适合参考算法与系统结合的研究定位。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "ashwinkumar-badanidiyuru-google",
+        "name": "Ashwinkumar Badanidiyuru Varadaraja",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "青年/中生代产业研究者",
+        "careerStage": "mid-career",
+        "fieldTags": [
+          "algorithms",
+          "economics",
+          "machine intelligence",
+          "online decision-making"
+        ],
+        "educationSummaryZh": "官方团队页确认当前研究领域；详细履历待补。",
+        "pathSummaryZh": "在线算法和市场问题进入机器智能应用的路线。",
+        "representativeWorks": [
+          {
+            "title": "Market algorithms at Google",
+            "note": "团队方向证据",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/teams/algorithms-optimization/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 55,
+        "replicabilityZh": "可借鉴在线决策与机器学习的交叉定位。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "kshipra-bhawalkar-google",
+        "name": "Kshipra Bhawalkar",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "青年/中生代产业研究者",
+        "careerStage": "mid-career",
+        "fieldTags": [
+          "algorithms",
+          "economics",
+          "market design",
+          "online optimization"
+        ],
+        "educationSummaryZh": "官方团队页确认当前归属；个人履历待补。",
+        "pathSummaryZh": "理论算法与电子市场应用结合的产业研究路线。",
+        "representativeWorks": [
+          {
+            "title": "Google market algorithms portfolio",
+            "note": "团队方向入口",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/kshipra-bhawalkar/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 55,
+        "replicabilityZh": "可借鉴市场设计与在线优化的交叉研究画像。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "morteza-zadimoghaddam-google",
+        "name": "Morteza Zadimoghaddam",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "青年/中生代产业研究者",
+        "careerStage": "mid-career",
+        "fieldTags": [
+          "algorithms",
+          "distributed systems",
+          "economics",
+          "optimization"
+        ],
+        "educationSummaryZh": "官方团队页确认当前归属；完整履历待补。",
+        "pathSummaryZh": "组合算法与分布式、经济应用交叉。",
+        "representativeWorks": [
+          {
+            "title": "Google Algorithms & Optimization portfolio",
+            "note": "团队方向入口",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/morteza-zadimoghaddam/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 55,
+        "replicabilityZh": "可以借鉴问题选择和理论到应用的转化方式。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "kostas-kollias-google",
+        "name": "Kostas Kollias",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "青年/中生代产业研究者",
+        "careerStage": "mid-career",
+        "fieldTags": [
+          "algorithms",
+          "economics",
+          "optimization",
+          "machine learning"
+        ],
+        "educationSummaryZh": "官方团队页确认当前归属；完整教育背景待补。",
+        "pathSummaryZh": "算法、优化与平台经济问题交叉。",
+        "representativeWorks": [
+          {
+            "title": "Google Algorithms & Optimization portfolio",
+            "note": "团队方向入口",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/kostas-kollias/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 55,
+        "replicabilityZh": "适合观察工业研究岗位需要的算法宽度。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "mohammadhossein-bateni-google",
+        "name": "Mohammadhossein Bateni",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "产业研究者",
+        "careerStage": "mid-career",
+        "fieldTags": [
+          "algorithms",
+          "data mining",
+          "distributed systems",
+          "optimization"
+        ],
+        "educationSummaryZh": "官方团队页确认当前归属；个人教育背景待补。",
+        "pathSummaryZh": "算法研究与数据挖掘、分布式系统交叉。",
+        "representativeWorks": [
+          {
+            "title": "Google algorithms and graph optimization portfolio",
+            "note": "团队方向入口",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/mohammadhossein-bateni/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 53,
+        "replicabilityZh": "适合观察算法论文如何转化为大规模产品能力。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "aaron-archer-google",
+        "name": "Aaron Archer",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "algorithms",
+          "distributed systems",
+          "parallel computing",
+          "optimization"
+        ],
+        "educationSummaryZh": "官方团队页确认当前归属，个人教育背景待补。",
+        "pathSummaryZh": "算法研究延伸到分布式与并行系统优化。",
+        "representativeWorks": [
+          {
+            "title": "Large-scale optimization at Google",
+            "note": "团队方向入口",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/aaron-archer/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 52,
+        "replicabilityZh": "对数学优化转 AI Infra 和系统优化有参考价值。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "renato-paes-leme-google",
+        "name": "Renato Paes Leme",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "青年/中生代产业研究者",
+        "careerStage": "mid-career",
+        "fieldTags": [
+          "algorithms",
+          "economics",
+          "market design",
+          "optimization"
+        ],
+        "educationSummaryZh": "官方团队页确认当前研究领域；个人教育背景待补。",
+        "pathSummaryZh": "市场机制和算法研究进入平台型公司核心业务。",
+        "representativeWorks": [
+          {
+            "title": "Market Algorithms research at Google",
+            "note": "团队方向入口",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/renato-paes-leme/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 52,
+        "replicabilityZh": "适合观察理论经济学、算法和业务问题的结合。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "yunan-liu-amazon",
+        "name": "Yunan Liu",
+        "companyId": "amazon-scot",
+        "currentPosition": "Principal Research Scientist",
+        "team": "Amazon SCOT",
+        "region": "United States / Global",
+        "category": "产业研究者",
+        "careerStage": "principal",
+        "fieldTags": [
+          "supply chain optimization",
+          "simulation",
+          "fulfillment",
+          "operations research"
+        ],
+        "educationSummaryZh": "Amazon Science 论文作者简介确认其 Principal Research Scientist 职位；教育细节待补。",
+        "pathSummaryZh": "长期供应链优化研究成长到 Principal 级别。",
+        "representativeWorks": [
+          {
+            "title": "SCOT fulfillment optimization research",
+            "note": "Amazon Science",
+            "url": "https://www.amazon.science/research-areas/operations-research-and-optimization"
+          }
+        ],
+        "homepage": "https://www.amazon.science/research-areas/operations-research-and-optimization",
+        "confidence": "A/B · Amazon Science author bio",
+        "replicabilityScore": 52,
+        "replicabilityZh": "可学习长期工业 OR 研究与职级晋升，早期经历仍需补证。",
+        "evidence": [
+          {
+            "type": "official_publication_bio",
+            "url": "https://www.amazon.science/research-areas/operations-research-and-optimization",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "亚马逊供应链优化技术团队"
+      },
+      {
+        "id": "robert-luce-gurobi",
+        "name": "Robert Luce",
+        "companyId": "gurobi",
+        "currentPosition": "Senior Director of Optimization",
+        "team": "Gurobi Optimization",
+        "region": "Europe",
+        "category": "优化行业负责人",
+        "careerStage": "leader",
+        "fieldTags": [
+          "optimization",
+          "energy",
+          "industry applications",
+          "leadership"
+        ],
+        "educationSummaryZh": "Gurobi 官方活动资料确认 Senior Director of Optimization 职位；完整履历待补。",
+        "pathSummaryZh": "优化专家成长到行业解决方案与技术领导岗位。",
+        "representativeWorks": [
+          {
+            "title": "Gurobi Energy Innovation Summit profile",
+            "note": "官方活动资料",
+            "url": "https://www.gurobi.com/company/our-people"
+          }
+        ],
+        "homepage": "https://www.gurobi.com/company/our-people",
+        "confidence": "B · 官方活动/团队资料",
+        "replicabilityScore": 50,
+        "replicabilityZh": "可学习优化技术与行业领导力结合，早期路径待补。",
+        "evidence": [
+          {
+            "type": "official_company",
+            "url": "https://www.gurobi.com/company/our-people",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "Gurobi"
+      },
+      {
+        "id": "li-zhao-msr",
+        "name": "Li Zhao",
+        "companyId": "microsoft-research",
+        "currentPosition": "Principal Researcher",
+        "team": "Microsoft Research Machine Learning Area",
+        "region": "Mainland China / Global",
+        "category": "产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "machine learning",
+          "algorithms",
+          "industrial research"
+        ],
+        "educationSummaryZh": "官方团队页确认 Principal Researcher 职位；完整履历待补。",
+        "pathSummaryZh": "长期产业研究员晋升到 Principal 级别的路径样本。",
+        "representativeWorks": [],
+        "homepage": "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/people/",
+        "confidence": "A · Microsoft Research team",
+        "replicabilityScore": 49,
+        "replicabilityZh": "可学习长期产业研究晋升逻辑，早期路径信息仍需补充。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/people/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "微软研究院"
+      },
+      {
+        "id": "gagan-aggarwal-google",
+        "name": "Gagan Aggarwal",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "algorithms",
+          "data mining",
+          "economics",
+          "electronic commerce"
+        ],
+        "educationSummaryZh": "官方团队页确认当前研究领域，完整教育路径待补。",
+        "pathSummaryZh": "算法、数据与平台经济交叉的产业研究路线。",
+        "representativeWorks": [
+          {
+            "title": "Google Algorithms & Optimization team profile",
+            "note": "团队方向入口",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/gagan-aggarwal/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 48,
+        "replicabilityZh": "可借鉴从算法理论扩展到平台经济问题的方向组合。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "aranyak-mehta-google",
+        "name": "Aranyak Mehta",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "online algorithms",
+          "economics",
+          "ad allocation",
+          "market algorithms"
+        ],
+        "educationSummaryZh": "官方团队页确认当前研究领域；详细履历待补。",
+        "pathSummaryZh": "在线算法与广告分配、市场机制结合的典型产业路径。",
+        "representativeWorks": [
+          {
+            "title": "Market Algorithms at Google",
+            "note": "团队方向证据",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/aranyak-mehta/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 48,
+        "replicabilityZh": "可借鉴在线优化与平台业务的连接，但竞争门槛很高。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "wei-chen-msr",
+        "name": "Wei Chen",
+        "nameZh": "陈卫",
+        "companyId": "microsoft-research",
+        "currentPosition": "Principal Researcher; Chair of MSR Asia Theory Center",
+        "team": "Microsoft Research Asia",
+        "region": "Mainland China",
+        "category": "顶级产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "online learning",
+          "combinatorial optimization",
+          "algorithmic game theory",
+          "social networks"
+        ],
+        "educationSummaryZh": "官方主页完整履历可核验；当前为 MSRA Principal Researcher 与 Theory Center 主席。",
+        "pathSummaryZh": "长期用数学和算法工具连接真实网络、市场和学习问题。",
+        "representativeWorks": [
+          {
+            "title": "Influence Maximization: Integrating Classical Algorithms",
+            "note": "组合优化与在线学习路线",
+            "url": "https://www.microsoft.com/en-us/research/people/weic/"
+          }
+        ],
+        "homepage": "https://www.microsoft.com/en-us/research/people/weic/",
+        "confidence": "A · Microsoft Research",
+        "replicabilityScore": 48,
+        "replicabilityZh": "可学习理论问题与真实应用的长期结合，属于高门槛资深路线。",
+        "evidence": [
+          {
+            "type": "official_profile",
+            "url": "https://www.microsoft.com/en-us/research/people/weic/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "微软研究院"
+      },
+      {
+        "id": "dirk-bergemann-amazon-collab",
+        "name": "Dirk Bergemann",
+        "companyId": "amazon-scot",
+        "currentPosition": "Professor; Amazon research collaborator",
+        "team": "Amazon vendor collaboration research",
+        "region": "United States",
+        "category": "产学合作路径",
+        "careerStage": "academic collaborator",
+        "fieldTags": [
+          "mechanism design",
+          "economics",
+          "supply chain",
+          "optimization"
+        ],
+        "educationSummaryZh": "Amazon 2026 官方内容显示其参与供应商协作与机制设计研究；完整学术履历从个人页核验。",
+        "pathSummaryZh": "经济学与机制设计研究进入供应链合作问题。",
+        "representativeWorks": [
+          {
+            "title": "How mechanism design theory helps optimize Amazon-vendor collaboration",
+            "note": "Amazon Science, 2026",
+            "url": "https://www.amazon.science/scot"
+          }
+        ],
+        "homepage": "https://www.amazon.science/scot",
+        "confidence": "A/B · Amazon Science collaboration",
+        "replicabilityScore": 48,
+        "replicabilityZh": "适合观察理论机制设计与产业问题的合作模式。",
+        "evidence": [
+          {
+            "type": "official_research_story",
+            "url": "https://www.amazon.science/scot",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "亚马逊供应链优化技术团队"
+      },
+      {
+        "id": "weiqing-liu-msr",
+        "name": "Weiqing Liu",
+        "companyId": "microsoft-research",
+        "currentPosition": "Principal Research Manager",
+        "team": "Microsoft Research Machine Learning Area",
+        "region": "Mainland China / Global",
+        "category": "产业研究管理者",
+        "careerStage": "manager",
+        "fieldTags": [
+          "machine learning",
+          "research management",
+          "industrial AI"
+        ],
+        "educationSummaryZh": "官方团队页确认职位，教育和早期经历待补。",
+        "pathSummaryZh": "从研究到 Principal Research Manager 的产业研究管理路线。",
+        "representativeWorks": [],
+        "homepage": "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/people/",
+        "confidence": "A · Microsoft Research team",
+        "replicabilityScore": 47,
+        "replicabilityZh": "适合观察研究管理上限，不是早期职业阶段的直接模板。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/people/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "微软研究院"
+      },
+      {
+        "id": "mohammad-mahdian-google",
+        "name": "Mohammad Mahdian",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "顶级产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "algorithms",
+          "economics",
+          "market design",
+          "data mining"
+        ],
+        "educationSummaryZh": "官方团队页确认研究方向与当前归属；教育细节待个人页核验。",
+        "pathSummaryZh": "以算法博弈、市场设计和产业平台问题建立长期研究路线。",
+        "representativeWorks": [
+          {
+            "title": "Algorithms, markets and optimization at Google",
+            "note": "团队方向证据",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/mohammad-mahdian/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 45,
+        "replicabilityZh": "理论与产业问题结合的上限样本，可借鉴选题方式，不能简单复制履历。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "vahab-mirrokni-google",
+        "name": "Vahab S. Mirrokni",
+        "companyId": "google-research",
+        "currentPosition": "Google Fellow and VP, Google Research",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "顶级产业研究者",
+        "careerStage": "leader",
+        "fieldTags": [
+          "large-scale optimization",
+          "market algorithms",
+          "distributed algorithms",
+          "machine learning"
+        ],
+        "educationSummaryZh": "Sharif University of Technology 本科，MIT 博士（2005）；曾在 Microsoft Research、MIT 和 Amazon 任研究职位，2008 年加入 Google。",
+        "pathSummaryZh": "长期在算法、市场机制与大规模优化交叉方向形成产业研究影响力。",
+        "representativeWorks": [
+          {
+            "title": "Google Algorithms & Optimization research portfolio",
+            "note": "团队方向入口，个人代表作需在主页核验",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/mirrokni/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 42,
+        "replicabilityZh": "顶级上限样本；需要强理论论文、国际可见度和大规模落地记录。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "david-applegate-google",
+        "name": "David Applegate",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "顶级产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "combinatorial optimization",
+          "algorithms",
+          "large-scale optimization"
+        ],
+        "educationSummaryZh": "官方团队页确认当前归属；其组合优化代表作和经历需回到个人页面核验。",
+        "pathSummaryZh": "经典组合优化能力进入大规模工业算法研究的代表路线。",
+        "representativeWorks": [
+          {
+            "title": "Google large-scale optimization team",
+            "note": "团队方向证据",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/david-applegate/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 40,
+        "replicabilityZh": "适合观察组合优化深度要求，属于难以直接复制的资深路线。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "edith-cohen-google",
+        "name": "Edith Cohen",
+        "companyId": "google-research",
+        "currentPosition": "Researcher",
+        "team": "Google Algorithms & Optimization",
+        "region": "United States",
+        "category": "顶级产业研究者",
+        "careerStage": "senior",
+        "fieldTags": [
+          "algorithms",
+          "data mining",
+          "machine learning",
+          "sketching"
+        ],
+        "educationSummaryZh": "官方团队页确认当前研究领域；个人主页可继续核验完整履历。",
+        "pathSummaryZh": "以基础算法和数据方法持续影响工业规模系统。",
+        "representativeWorks": [
+          {
+            "title": "Google graph mining and optimization research",
+            "note": "团队方向入口",
+            "url": "https://research.google/teams/algorithms-optimization/"
+          }
+        ],
+        "homepage": "https://research.google/people/edith-cohen/",
+        "confidence": "A · Google Research",
+        "replicabilityScore": 38,
+        "replicabilityZh": "资深上限样本，重点学习长期研究主线而非比较短期产出。",
+        "evidence": [
+          {
+            "type": "official_team",
+            "url": "https://research.google/teams/algorithms-optimization/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "谷歌研究"
+      },
+      {
+        "id": "fred-gardi-hexaly",
+        "name": "Fred Gardi",
+        "companyId": "hexaly",
+        "currentPosition": "Founder & CEO",
+        "team": "Hexaly",
+        "region": "Europe",
+        "category": "优化产业负责人",
+        "careerStage": "founder",
+        "fieldTags": [
+          "mathematical optimization",
+          "local search",
+          "solver commercialization",
+          "entrepreneurship"
+        ],
+        "educationSummaryZh": "Hexaly 官方招聘页公开 Founder & CEO 联系入口；完整教育背景待补。",
+        "pathSummaryZh": "优化研发与商业求解器创业结合，并通过实习、工业博士培养优化科学家。",
+        "representativeWorks": [
+          {
+            "title": "Hexaly Join Us and Optimizer R&D path",
+            "note": "官方团队与人才路径",
+            "url": "https://www.hexaly.com/join-us"
+          }
+        ],
+        "homepage": "https://www.hexaly.com/join-us",
+        "confidence": "A/B · Hexaly official",
+        "replicabilityScore": 38,
+        "replicabilityZh": "创业路线难复制，但其团队培养路径对 2028 实习很有价值。",
+        "evidence": [
+          {
+            "type": "official_company",
+            "url": "https://www.hexaly.com/join-us",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "Hexaly"
+      },
+      {
+        "id": "salal-humair-amazon",
+        "name": "Salal Humair",
+        "companyId": "amazon-scot",
+        "currentPosition": "Vice President and Distinguished Scientist",
+        "team": "Amazon SCOT",
+        "region": "United States",
+        "category": "顶级产业研究负责人",
+        "careerStage": "leader",
+        "fieldTags": [
+          "operations research",
+          "supply chain",
+          "inventory optimization",
+          "research leadership"
+        ],
+        "educationSummaryZh": "Amazon Science 公开其作为 SCOT 产业博士后项目管理者和 Distinguished Scientist 的角色。",
+        "pathSummaryZh": "在超大规模供应链优化团队中连接学术合作、博士后培养和工业系统。",
+        "representativeWorks": [
+          {
+            "title": "Amazon postdoctoral scientists apply operations research",
+            "note": "产业博士后培养与 SCOT 路线",
+            "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems"
+          }
+        ],
+        "homepage": "https://www.amazon.science/scot",
+        "confidence": "A · Amazon Science",
+        "replicabilityScore": 35,
+        "replicabilityZh": "领导者上限样本，重点学习问题判断与人才培养体系。",
+        "evidence": [
+          {
+            "type": "official_article",
+            "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "亚马逊供应链优化技术团队"
+      },
+      {
+        "id": "garrett-van-ryzin-amazon",
+        "name": "Garrett van Ryzin",
+        "companyId": "amazon-scot",
+        "currentPosition": "Distinguished Scientist",
+        "team": "Amazon SCOT",
+        "region": "United States",
+        "category": "顶级产业研究者",
+        "careerStage": "leader",
+        "fieldTags": [
+          "revenue management",
+          "operations research",
+          "supply chain",
+          "pricing"
+        ],
+        "educationSummaryZh": "Amazon Science 官方文章确认其 Distinguished Scientist 和博士后导师角色；学术履历需从个人页继续核验。",
+        "pathSummaryZh": "顶级 OR 学术能力进入 Amazon 供应链与收入管理研究。",
+        "representativeWorks": [
+          {
+            "title": "Amazon postdoctoral scientists apply operations research",
+            "note": "SCOT 导师角色",
+            "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems"
+          }
+        ],
+        "homepage": "https://www.amazon.science/scot",
+        "confidence": "A · Amazon Science",
+        "replicabilityScore": 34,
+        "replicabilityZh": "学术到产业领导的上限样本，不能按早期职业路径直接比较。",
+        "evidence": [
+          {
+            "type": "official_article",
+            "url": "https://www.amazon.science/working-at-amazon/amazon-postdoctoral-scientists-apply-operations-research-to-real-world-problems",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "亚马逊供应链优化技术团队"
+      },
+      {
+        "id": "lidong-zhou-msr",
+        "name": "Lidong Zhou",
+        "nameZh": "周礼栋",
+        "companyId": "microsoft-research",
+        "currentPosition": "Corporate Vice President; Managing Director of Microsoft Research Asia",
+        "team": "Microsoft Research Asia",
+        "region": "Mainland China",
+        "category": "顶级产业研究负责人",
+        "careerStage": "leader",
+        "fieldTags": [
+          "distributed systems",
+          "AI infrastructure",
+          "systems optimization",
+          "research leadership"
+        ],
+        "educationSummaryZh": "Cornell University 计算机科学博士，2002 年加入微软，历经硅谷、雷德蒙德和亚洲研究院。",
+        "pathSummaryZh": "研究员到首席研究员、研究经理、研究院院长和企业副总裁的长期技术领导路线。",
+        "representativeWorks": [
+          {
+            "title": "nnScaler: Constraint-Guided Parallelization Plan Generation",
+            "note": "OSDI 2024",
+            "url": "https://www.microsoft.com/en-us/research/people/lidongz/"
+          }
+        ],
+        "homepage": "https://www.microsoft.com/en-us/research/people/lidongz/",
+        "confidence": "A · Microsoft Research",
+        "replicabilityScore": 32,
+        "replicabilityZh": "领导力上限样本；可学习长期系统主线与组织影响力，履历不可直接复制。",
+        "evidence": [
+          {
+            "type": "official_profile",
+            "url": "https://www.microsoft.com/en-us/research/people/lidongz/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "微软研究院"
+      },
+      {
+        "id": "erling-andersen-mosek",
+        "name": "Erling D. Andersen",
+        "companyId": "mosek",
+        "currentPosition": "Founder / CEO",
+        "team": "MOSEK",
+        "region": "Europe",
+        "category": "优化产业负责人",
+        "careerStage": "founder",
+        "fieldTags": [
+          "conic optimization",
+          "interior-point methods",
+          "solver development",
+          "numerical optimization"
+        ],
+        "educationSummaryZh": "MOSEK 创始人与核心求解器研发者；具体学位和当前头衔需以公司资料核验。",
+        "pathSummaryZh": "数值优化与锥规划研究长期沉淀为商业求解器。",
+        "representativeWorks": [
+          {
+            "title": "MOSEK Optimization Suite",
+            "note": "求解器产品与数值优化路线",
+            "url": "https://www.mosek.com/"
+          }
+        ],
+        "homepage": "https://www.mosek.com/",
+        "confidence": "A/B · company materials",
+        "replicabilityScore": 28,
+        "replicabilityZh": "数值优化创业上限样本，重点学习技术深度与长期产品化。",
+        "evidence": [
+          {
+            "type": "official_company",
+            "url": "https://www.mosek.com/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "MOSEK"
+      },
+      {
+        "id": "peng-zhao-citadel",
+        "name": "Peng Zhao",
+        "nameZh": "赵鹏",
+        "companyId": "citadel",
+        "currentPosition": "CEO, Citadel Securities",
+        "team": "Citadel Securities",
+        "region": "United States / Global",
+        "category": "量化产业负责人",
+        "careerStage": "leader",
+        "fieldTags": [
+          "quantitative research",
+          "trading",
+          "leadership",
+          "financial technology"
+        ],
+        "educationSummaryZh": "UC Berkeley 博士；Citadel Securities 官方资料显示 2006 年加入，34 岁成为 CEO。",
+        "pathSummaryZh": "Berkeley 博士 → 量化研究 → 快速承担管理责任 → Citadel Securities CEO。",
+        "representativeWorks": [
+          {
+            "title": "Citadel Securities leadership profile",
+            "note": "官方转载与公司资料",
+            "url": "https://www.citadelsecurities.com/news-and-insights/"
+          }
+        ],
+        "homepage": "https://www.citadelsecurities.com/news-and-insights/",
+        "confidence": "A/B · Citadel Securities materials",
+        "replicabilityScore": 28,
+        "replicabilityZh": "职业上限样本；可学习博士研究能力到量化研究的迁移，晋升速度不可作为常规预期。",
+        "evidence": [
+          {
+            "type": "official_company_material",
+            "url": "https://www.citadelsecurities.com/news-and-insights/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "Citadel / Citadel Securities"
+      },
+      {
+        "id": "edward-rothberg-gurobi",
+        "name": "Edward Rothberg",
+        "companyId": "gurobi",
+        "currentPosition": "Co-founder / CEO",
+        "team": "Gurobi",
+        "region": "United States",
+        "category": "优化产业负责人",
+        "careerStage": "founder",
+        "fieldTags": [
+          "solver development",
+          "mixed-integer programming",
+          "optimization software"
+        ],
+        "educationSummaryZh": "Gurobi 官方历史确认共同创办求解器公司；详细学术履历从官方资料继续核验。",
+        "pathSummaryZh": "求解器核心技术研发到商业公司领导。",
+        "representativeWorks": [
+          {
+            "title": "Gurobi origin story",
+            "note": "公司历史",
+            "url": "https://www.gurobi.com/company/origin-story/"
+          }
+        ],
+        "homepage": "https://www.gurobi.com/company/origin-story/",
+        "confidence": "A/B · Gurobi official history",
+        "replicabilityScore": 25,
+        "replicabilityZh": "创业和技术领导上限样本，不是普通博士入职模板。",
+        "evidence": [
+          {
+            "type": "official_company_history",
+            "url": "https://www.gurobi.com/company/origin-story/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "Gurobi"
+      },
+      {
+        "id": "zonghao-gu-gurobi",
+        "name": "Zonghao Gu",
+        "companyId": "gurobi",
+        "currentPosition": "Co-founder / optimization executive",
+        "team": "Gurobi",
+        "region": "United States",
+        "category": "优化产业负责人",
+        "careerStage": "founder",
+        "fieldTags": [
+          "optimization software",
+          "solver development",
+          "commercialization"
+        ],
+        "educationSummaryZh": "Gurobi 官方历史确认共同创办公司；详细履历待补。",
+        "pathSummaryZh": "优化求解器技术积累转化为商业产品与公司。",
+        "representativeWorks": [
+          {
+            "title": "Gurobi origin story",
+            "note": "公司历史",
+            "url": "https://www.gurobi.com/company/origin-story/"
+          }
+        ],
+        "homepage": "https://www.gurobi.com/company/origin-story/",
+        "confidence": "A/B · Gurobi official history",
+        "replicabilityScore": 25,
+        "replicabilityZh": "产业创业上限样本，适合观察技术产品化。",
+        "evidence": [
+          {
+            "type": "official_company_history",
+            "url": "https://www.gurobi.com/company/origin-story/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "Gurobi"
+      },
+      {
+        "id": "robert-bixby-gurobi",
+        "name": "Robert Bixby",
+        "companyId": "gurobi",
+        "currentPosition": "Co-founder / optimization pioneer",
+        "team": "Gurobi",
+        "region": "United States",
+        "category": "优化产业奠基者",
+        "careerStage": "founder",
+        "fieldTags": [
+          "mixed-integer programming",
+          "solver development",
+          "entrepreneurship"
+        ],
+        "educationSummaryZh": "学术优化研究者与求解器创业者；具体当前头衔以 Gurobi 官方资料为准。",
+        "pathSummaryZh": "长期学术优化与商业求解器研发结合，参与创建 Gurobi。",
+        "representativeWorks": [
+          {
+            "title": "Gurobi origin and solver development",
+            "note": "公司历史入口",
+            "url": "https://www.gurobi.com/company/origin-story/"
+          }
+        ],
+        "homepage": "https://www.gurobi.com/company/origin-story/",
+        "confidence": "A/B · Gurobi official history",
+        "replicabilityScore": 24,
+        "replicabilityZh": "产业奠基者上限样本，只适合观察长期技术积累与创业机会。",
+        "evidence": [
+          {
+            "type": "official_company_history",
+            "url": "https://www.gurobi.com/company/origin-story/",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "Gurobi"
+      },
+      {
+        "id": "tian-qi-huawei",
+        "name": "Tian Qi",
+        "nameZh": "田奇",
+        "companyId": "huawei",
+        "currentPosition": "Chief Scientist, Huawei Consumer Business Group",
+        "team": "Huawei Consumer BG",
+        "region": "Mainland China",
+        "category": "顶级产业研究负责人",
+        "careerStage": "leader",
+        "fieldTags": [
+          "computer vision",
+          "machine learning",
+          "research leadership",
+          "top talent hiring"
+        ],
+        "educationSummaryZh": "华为天才少年官方页面展示其顶级学术影响力和 Fellow 资历；完整教育路径从公开主页核验。",
+        "pathSummaryZh": "顶级学术研究影响力进入大厂首席科学家岗位，并参与世界级课题人才培养。",
+        "representativeWorks": [
+          {
+            "title": "Huawei Top Minds mentor profile",
+            "note": "官方人才项目",
+            "url": "https://career.huawei.com/cn/young-genius"
+          }
+        ],
+        "homepage": "https://career.huawei.com/cn/young-genius",
+        "confidence": "A · Huawei official",
+        "replicabilityScore": 24,
+        "replicabilityZh": "顶级上限样本；对你更有价值的是反推华为重视的论文、开源和工程影响力。",
+        "evidence": [
+          {
+            "type": "official_talent_program",
+            "url": "https://career.huawei.com/cn/young-genius",
+            "confidence": "A"
+          }
+        ],
+        "companyNameZh": "华为"
+      }
+    ],
+    "salaryBenchmarks": [
+      {
+        "id": "hk-quant",
+        "labelZh": "香港顶级量化研究/交易",
+        "originalRange": "HKD 1.1m–3.3m+ / 年总包",
+        "cnyRange": "约 100–300 万元人民币以上",
+        "purchasingPowerZh": "高，但奖金波动和淘汰风险显著",
+        "score": 100,
+        "confidence": "C · 社区与公开职位综合估算",
+        "noteZh": "不同公司、年份和奖金差异极大，不用于预测个人 Offer。"
+      },
+      {
+        "id": "sg-quant",
+        "labelZh": "新加坡量化研究/交易",
+        "originalRange": "SGD 180k–450k+ / 年总包",
+        "cnyRange": "约 95–240 万元人民币以上",
+        "purchasingPowerZh": "高，住房成本较高",
+        "score": 98,
+        "confidence": "C · 社区与公开职位综合估算",
+        "noteZh": "实习转正和团队奖金对总包影响很大。"
+      },
+      {
+        "id": "us-global-research",
+        "labelZh": "美国全球科技公司研究岗",
+        "originalRange": "USD 180k–350k+ / 年总包",
+        "cnyRange": "约 130–250 万元人民币以上",
+        "purchasingPowerZh": "高，税和城市成本高",
+        "score": 96,
+        "confidence": "B/C · 公开职位与社区样本",
+        "noteZh": "身份可行性较低，保留用于能力和薪资上限观察。"
+      },
+      {
+        "id": "mainland-top-tech",
+        "labelZh": "大陆头部大厂博士算法/研究岗",
+        "originalRange": "RMB 450k–1.0m / 年总包",
+        "cnyRange": "45–100 万元人民币",
+        "purchasingPowerZh": "较高，城市和工作强度差异大",
+        "score": 88,
+        "confidence": "C · 招聘与社区样本",
+        "noteZh": "职级、股票和特殊人才项目会显著改变区间。"
+      },
+      {
+        "id": "hk-sg-applied-science",
+        "labelZh": "香港/新加坡应用科学家与算法岗",
+        "originalRange": "HKD 650k–1.4m / SGD 110k–220k",
+        "cnyRange": "约 60–125 万元人民币",
+        "purchasingPowerZh": "中高，住房成本较高",
+        "score": 84,
+        "confidence": "C · 社区与公开岗位估算",
+        "noteZh": "外企、平台公司和研究机构差异很大。"
+      },
+      {
+        "id": "europe-industrial-research",
+        "labelZh": "欧洲科技公司产业研究岗",
+        "originalRange": "EUR 65k–130k / 年总包",
+        "cnyRange": "约 55–110 万元人民币",
+        "purchasingPowerZh": "中高，税率较高但福利较完整",
+        "score": 82,
+        "confidence": "B/C · 公开职位与社区样本",
+        "noteZh": "伦敦、苏黎世、巴黎、柏林不可直接横向比较。"
+      },
+      {
+        "id": "europe-solver",
+        "labelZh": "欧洲优化求解器研发",
+        "originalRange": "EUR 45k–100k / 年总包",
+        "cnyRange": "约 38–85 万元人民币",
+        "purchasingPowerZh": "中等到中高",
+        "score": 74,
+        "confidence": "C · 小样本估算",
+        "noteZh": "岗位供给少，研究匹配度远高于薪资样本可信度。"
+      },
+      {
+        "id": "singapore-research-institute",
+        "labelZh": "新加坡 Research Fellow / Scientist",
+        "originalRange": "SGD 60k–120k / 年",
+        "cnyRange": "约 32–64 万元人民币",
+        "purchasingPowerZh": "中等，住房成本需单独估算",
+        "score": 68,
+        "confidence": "B/C · 公开与社区样本",
+        "noteZh": "适合博后到产业研究的桥梁，不能与量化总包比较。"
+      },
+      {
+        "id": "mainland-industrial-leader",
+        "labelZh": "大陆工业龙头算法/研发岗",
+        "originalRange": "RMB 280k–650k / 年总包",
+        "cnyRange": "28–65 万元人民币",
+        "purchasingPowerZh": "中等到中高，二线城市可能更有优势",
+        "score": 64,
+        "confidence": "C · 社区样本",
+        "noteZh": "宁德时代、比亚迪和制造类团队差异很大。"
+      },
+      {
+        "id": "mainland-state-owned-research",
+        "labelZh": "央国企研究院与数字化研发",
+        "originalRange": "RMB 200k–480k / 年总包",
+        "cnyRange": "20–48 万元人民币",
+        "purchasingPowerZh": "中等，稳定性和隐性福利较强",
+        "score": 52,
+        "confidence": "C · 社区样本与岗位信息",
+        "noteZh": "编制、户口、住房和保密要求需逐单位核验。"
+      }
+    ],
+    "skillDemand": [
+      {
+        "name": "Python",
+        "count": 22,
+        "category": "工程基础",
+        "whyZh": "数据处理、建模、实验和算法原型的共同语言。"
+      },
+      {
+        "name": "英语研究沟通",
+        "count": 21,
+        "category": "通用能力",
+        "whyZh": "论文、跨国团队、技术报告和面试都需要。"
+      },
+      {
+        "name": "概率统计",
+        "count": 19,
+        "category": "数学基础",
+        "whyZh": "随机优化、预测、量化和实验设计的共同底座。"
+      },
+      {
+        "name": "C++",
+        "count": 17,
+        "category": "工程基础",
+        "whyZh": "求解器、AI Infra、量化和高性能算法岗位的重要门槛。"
+      },
+      {
+        "name": "优化建模",
+        "count": 16,
+        "category": "核心方向",
+        "whyZh": "需要把业务约束转成可计算目标、变量和约束。"
+      },
+      {
+        "name": "机器学习 / PyTorch",
+        "count": 15,
+        "category": "邻近转型",
+        "whyZh": "提升大厂岗位数量，并支持预测加优化和决策智能。"
+      },
+      {
+        "name": "运筹与组合优化",
+        "count": 14,
+        "category": "核心方向",
+        "whyZh": "供应链、路径、调度和资源配置岗位的直接要求。"
+      },
+      {
+        "name": "数据结构与算法",
+        "count": 14,
+        "category": "面试基础",
+        "whyZh": "大陆大厂、量化和研究工程岗都会考察。"
+      },
+      {
+        "name": "SQL 与数据管道",
+        "count": 11,
+        "category": "工程基础",
+        "whyZh": "工业算法需要从真实数据到上线评估的完整闭环。"
+      },
+      {
+        "name": "分布式与高性能计算",
+        "count": 10,
+        "category": "高价值扩展",
+        "whyZh": "连接科学计算、AI Infra 和大规模优化。"
+      },
+      {
+        "name": "Gurobi / MOSEK / OR-Tools",
+        "count": 9,
+        "category": "核心工具",
+        "whyZh": "证明你能把优化模型落到可复现工程项目。"
+      },
+      {
+        "name": "强化学习与序贯决策",
+        "count": 8,
+        "category": "高价值扩展",
+        "whyZh": "连接动态调度、决策 Agent 和量化策略。"
+      }
+    ],
+    "anonymousPaths": [
+      {
+        "id": "anon-01",
+        "titleZh": "应用数学博士 → 大厂供应链算法",
+        "region": "Mainland China",
+        "steps": [
+          "应用数学/优化博士",
+          "补 Python、SQL 和求解器项目",
+          "供应链算法实习",
+          "库存/调度算法岗"
+        ],
+        "evidenceLevel": "C · 社区归纳",
+        "lessonZh": "论文之外必须展示业务建模和上线指标。"
+      },
+      {
+        "id": "anon-02",
+        "titleZh": "随机优化博士 → 决策智能研究工程师",
+        "region": "Mainland China",
+        "steps": [
+          "随机优化论文",
+          "强化学习与 Agent 项目",
+          "预测+优化案例",
+          "决策智能团队"
+        ],
+        "evidenceLevel": "C · 岗位要求归纳",
+        "lessonZh": "保持优化主线，同时补足 ML 工程。"
+      },
+      {
+        "id": "anon-03",
+        "titleZh": "OR 博士 → Amazon 产业博士后 → 教职",
+        "region": "Global",
+        "steps": [
+          "OR 博士",
+          "博士期间 Amazon 实习",
+          "SCOT 产业博士后",
+          "NUS/USC 教职"
+        ],
+        "evidenceLevel": "A · Amazon Science",
+        "lessonZh": "产业博士后可以增强教职路线而非中断它。"
+      },
+      {
+        "id": "anon-04",
+        "titleZh": "应用数学博士 → 求解器优化工程师",
+        "region": "Europe",
+        "steps": [
+          "应用数学/系统工程博士",
+          "物流或制造优化项目",
+          "优化咨询",
+          "求解器公司"
+        ],
+        "evidenceLevel": "A/B · Gurobi 路径",
+        "lessonZh": "模型表达、求解性能和客户问题翻译同样重要。"
+      },
+      {
+        "id": "anon-05",
+        "titleZh": "数学博士 → 香港量化研究实习 → 转正",
+        "region": "Hong Kong",
+        "steps": [
+          "概率与优化训练",
+          "时间序列和数据研究",
+          "11 周量化实习",
+          "Quant Researcher"
+        ],
+        "evidenceLevel": "B/C · 官方岗位+社区",
+        "lessonZh": "金融知识可后补，概率、编程和研究迭代更关键。"
+      },
+      {
+        "id": "anon-06",
+        "titleZh": "数学博士 → 新加坡量化交易",
+        "region": "Singapore",
+        "steps": [
+          "概率与快速推理",
+          "C++/Python",
+          "交易实习",
+          "Quant Trader/Researcher"
+        ],
+        "evidenceLevel": "C · 社区归纳",
+        "lessonZh": "面试风格与学术研究差异大，需要单独准备。"
+      },
+      {
+        "id": "anon-07",
+        "titleZh": "优化博士 → 美团配送调度",
+        "region": "Mainland China",
+        "steps": [
+          "组合/随机优化",
+          "路径与匹配项目",
+          "大规模数据工程",
+          "配送调度算法"
+        ],
+        "evidenceLevel": "B/C · 岗位归纳",
+        "lessonZh": "研究价值要翻译成成本、履约和效率指标。"
+      },
+      {
+        "id": "anon-08",
+        "titleZh": "优化博士 → 京东物流/零售供应链",
+        "region": "Mainland China",
+        "steps": [
+          "库存与随机优化",
+          "预测+优化项目",
+          "供应链实习",
+          "物流算法"
+        ],
+        "evidenceLevel": "B/C · 岗位归纳",
+        "lessonZh": "库存、网络和需求不确定性是最直接的迁移场景。"
+      },
+      {
+        "id": "anon-09",
+        "titleZh": "科学计算博士 → AI Infra",
+        "region": "Mainland China",
+        "steps": [
+          "数值线性代数",
+          "C++ 与并行计算",
+          "编译器/算子项目",
+          "AI Infra 工程"
+        ],
+        "evidenceLevel": "B · 官方岗位归纳",
+        "lessonZh": "需要把算法复杂度落实到性能分析和系统代码。"
+      },
+      {
+        "id": "anon-10",
+        "titleZh": "优化博士 → 电网调度研究院",
+        "region": "Mainland China",
+        "steps": [
+          "随机/鲁棒优化",
+          "电力系统基础",
+          "调度或负荷预测项目",
+          "电科院/数研院"
+        ],
+        "evidenceLevel": "B/C · 官方研究+社区",
+        "lessonZh": "专业目录、笔试和单位层级决定进入概率。"
+      },
+      {
+        "id": "anon-11",
+        "titleZh": "数学博士 → 商飞不确定性量化",
+        "region": "Mainland China",
+        "steps": [
+          "随机模拟与 SAA",
+          "参数估计",
+          "可靠性分析",
+          "智能设计研究岗"
+        ],
+        "evidenceLevel": "A · 商飞历史岗位",
+        "lessonZh": "你的论文语言与航空 UQ 岗位有直接映射。"
+      },
+      {
+        "id": "anon-12",
+        "titleZh": "船海背景 + 优化博士 → 船舶系统工程",
+        "region": "Mainland China",
+        "steps": [
+          "船海本科背景",
+          "优化与数值博士",
+          "系统建模项目",
+          "船舶研究院"
+        ],
+        "evidenceLevel": "B/C · 官方单位资料",
+        "lessonZh": "本科行业背景可成为差异化，但需注意保密和地域限制。"
+      },
+      {
+        "id": "anon-13",
+        "titleZh": "数学博士 → A*STAR Research Fellow → Scientist",
+        "region": "Singapore",
+        "steps": [
+          "优化/科学计算博士",
+          "Research Fellow",
+          "产业联合项目",
+          "Research Scientist"
+        ],
+        "evidenceLevel": "B · 官方岗位结构",
+        "lessonZh": "是博后与工业研究之间较平滑的桥梁。"
+      },
+      {
+        "id": "anon-14",
+        "titleZh": "优化博士 → Grab 市场算法",
+        "region": "Singapore",
+        "steps": [
+          "动态优化",
+          "因果与 ML",
+          "供需/定价项目",
+          "Marketplace Scientist"
+        ],
+        "evidenceLevel": "C · 岗位归纳",
+        "lessonZh": "需要补因果、SQL 和线上实验能力。"
+      },
+      {
+        "id": "anon-15",
+        "titleZh": "优化博士 → 推荐广告算法",
+        "region": "Mainland China",
+        "steps": [
+          "数学优化",
+          "深度学习",
+          "召回排序项目",
+          "推荐/广告算法"
+        ],
+        "evidenceLevel": "C · 岗位归纳",
+        "lessonZh": "岗位多但方向偏移大，应作为邻近转型而非核心路线。"
+      },
+      {
+        "id": "anon-16",
+        "titleZh": "博士后 → 大厂 Research Scientist",
+        "region": "Europe",
+        "steps": [
+          "优化博士",
+          "欧洲顶级博后",
+          "与产业合作论文",
+          "Research Scientist"
+        ],
+        "evidenceLevel": "C · 公开履历归纳",
+        "lessonZh": "博后阶段要积累国际合作和可运行代码，不只是增加论文数量。"
+      },
+      {
+        "id": "anon-17",
+        "titleZh": "博士 → Research SDE → Researcher",
+        "region": "Mainland China",
+        "steps": [
+          "数学/计算博士",
+          "Research SDE",
+          "研究工程成果",
+          "Researcher"
+        ],
+        "evidenceLevel": "B · MSR 职位结构",
+        "lessonZh": "研究工程岗可能比直接申请 Researcher 更现实。"
+      },
+      {
+        "id": "anon-18",
+        "titleZh": "优化博士 → 制造调度算法",
+        "region": "Mainland China",
+        "steps": [
+          "组合优化",
+          "生产计划项目",
+          "MES/数据工程",
+          "制造算法岗"
+        ],
+        "evidenceLevel": "C · 工业岗位归纳",
+        "lessonZh": "进入概率较高，但要核验岗位是否真正做算法。"
+      },
+      {
+        "id": "anon-19",
+        "titleZh": "数学博士 → 风险建模/金融科技",
+        "region": "Mainland China",
+        "steps": [
+          "概率统计",
+          "优化与 ML",
+          "风控数据项目",
+          "金融科技算法"
+        ],
+        "evidenceLevel": "C · 岗位归纳",
+        "lessonZh": "比顶级量化更容易进入，但业务约束和监管知识重要。"
+      },
+      {
+        "id": "anon-20",
+        "titleZh": "高校青年教师 → 大厂联合研究",
+        "region": "Global",
+        "steps": [
+          "博后/教职",
+          "产业合作课题",
+          "联合论文与实习生",
+          "长期研究顾问/合作"
+        ],
+        "evidenceLevel": "B · Amazon 等公开合作",
+        "lessonZh": "产业影响力并不要求放弃学术主线。"
+      }
+    ]
+  },
   "routes": [
     {
       "id": "europe-postdoc-fellowship",

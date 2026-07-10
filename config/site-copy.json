@@ -5,13 +5,14 @@
   "navigation": [
     {"id": "home", "label": "首页"},
     {"id": "radar", "label": "机会雷达"},
+    {"id": "industry", "label": "产业雷达"},
     {"id": "routes", "label": "职业路线"},
     {"id": "cases", "label": "导师与学者"},
     {"id": "calendar", "label": "申请日历"},
     {"id": "methods", "label": "资源与方法"}
   ],
   "methodology": {
-    "sourcePrinciple": "官方优先 + 权威平台补充 + 聚合站补漏 + 线索源需回链确认。",
+    "sourcePrinciple": "官方优先 + 权威平台补充 + 聚合站补漏 + 社区信息仅作低权重参考；所有线索需回链确认。",
     "privacy": "成功案例只收录公开可验证信息；公开版不包含私人备注、联系记录、申请状态和个人差距分析。",
     "aiNotice": "AI 辅助生成，需核验。所有申请决策以官方原始链接和人工判断为准。",
     "disclaimer": "本站不是官方招聘网站，不保证岗位仍然开放；申请前必须以原始来源为准。"

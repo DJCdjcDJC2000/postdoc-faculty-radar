@@ -6,8 +6,9 @@
 
 - 首页：公开社区门户，显示本周情报摘要、高匹配机会、职业路线、成功案例和数据源状态。
 - 机会雷达：常驻筛选 + 高级筛选 + 高密度表格 + 岗位详情。
+- 产业雷达：大陆大厂优先的岗位、公司/团队、薪资、产业人物、技能需求、对比与私有申请跟踪。
 - 职业路线：欧洲博后/Fellowship、港新 Research Fellow、国内博士后/青年教职、大厂研究岗、数学/应用数学教职。
-- 成功案例：人物卡片 + 背景表格 + 职业路径分析，只收公开可验证信息。
+- 导师与学者：QS Top 50 目标导师、青年学者、代表作和公开招聘信号。
 - 申请日历：Fellowship 周期、岗位截止、个人行动。
 - 资源与方法：数据源、评分、隐私、AI 辅助和免责声明。
 
@@ -71,6 +72,8 @@ DeepSeek 用于：
 
 AI 内容始终标注：`AI 辅助生成，需核验`。
 
+产业雷达采用增量分析，`DEEPSEEK_MAX_ITEMS` 默认每次最多 12 项，以适配低成本周更。
+
 公开分析写入 `data/ai/job-analysis.json`。私有分析写入已忽略的 `data/private/job-analysis.json`，避免个人差距分析进入公开仓库。
 
 ## 飞书提醒
@@ -95,6 +98,7 @@ npm run notify:immediate
 ## 部署
 
 详见 [docs/deployment.md](./docs/deployment.md)。
+产业数据与证据边界见 [docs/industry-intelligence-research.md](./docs/industry-intelligence-research.md)。
 
 验收状态详见 [docs/acceptance-audit.md](./docs/acceptance-audit.md)。
 
