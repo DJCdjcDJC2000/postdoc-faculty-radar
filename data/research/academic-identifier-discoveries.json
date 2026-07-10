@@ -1,0 +1,1144 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-10T12:20:53.767Z",
+  "methodNoteZh": "只提取已核验主页中显式链接的书目标识；唯一标识还需由对应书目服务的作者姓名再次确认。",
+  "counts": {
+    "checked": 125,
+    "candidates": 51,
+    "review": 1,
+    "errors": 7
+  },
+  "profiles": [
+    {
+      "id": "nus-isem-napat",
+      "name": "Napat Rujeerapaiboon",
+      "sourceUrl": "https://sites.google.com/view/napatrujeerapaiboon/home",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "MWZwBeUAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "cuhk-seem-viet-anh-nguyen",
+      "name": "Viet Anh Nguyen",
+      "sourceUrl": "https://vietanhnguyen.net/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "3iyf-EoAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "hkust-ieda-sanyou-mei",
+      "name": "Sanyou Mei",
+      "sourceUrl": "https://sanyoumei.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "mzIWgpwAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "epfl-optim-nicolas-boumal",
+      "name": "Nicolas Boumal",
+      "sourceUrl": "https://www.nicolasboumal.net/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "51Axqz8AAAAJ",
+          "t9PEVrkAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "hku-ids-yue-xie",
+      "name": "Yue Xie",
+      "sourceUrl": "https://datascience.hku.hk/people/yue-xie/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "fxIfAckAAAAJ",
+          "Zkv9FqwAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "epfl-rao-daniel-kuhn",
+      "name": "Daniel Kuhn",
+      "sourceUrl": "https://people.epfl.ch/daniel.kuhn?lang=en",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "RqnXytkAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "oxford-coralia-cartis",
+      "name": "Coralia Cartis",
+      "sourceUrl": "https://www.maths.ox.ac.uk/people/coralia.cartis",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0002-0963-5550",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0002-0963-5550"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "stanford-yinyu-ye-optimization",
+      "name": "Yinyu Ye",
+      "sourceUrl": "https://web.stanford.edu/~yyye/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "BgOXDogAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "fr-inria-sierra-bach",
+      "name": "Francis Bach",
+      "sourceUrl": "https://www.di.ens.fr/~fbach/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "l-rRr94AAAAJ",
+          "QXSA4p4AAAAJ",
+          "A6qfFPkAAAAJ",
+          "pIT7A7QAAAAJ",
+          "1TglQmsAAAAJ",
+          "wpdabDgAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "at-vienna-bot-optimization",
+      "name": "Radu Ioan Boţ",
+      "sourceUrl": "https://www.mat.univie.ac.at/~rabot/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0002-4469-314X",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0002-4469-314X"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "hhmaYxQAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "https://orcid.org/0000-0002-4469-314X",
+      "existingOpenAlex": null
+    },
+    {
+      "id": "de-freiburg-syscop-diehl",
+      "name": "Moritz Diehl",
+      "sourceUrl": "https://www.syscop.de/people/moritz-diehl",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "JEwMX6wAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "at-tu-graz-vlo-pock",
+      "name": "Thomas Pock",
+      "sourceUrl": "https://ivc.tugraz.at/people/thomas-pock/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0001-6120-1058",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0001-6120-1058"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "FwNaHxQAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "hku-xiaoming-yuan",
+      "name": "Xiaoming Yuan",
+      "sourceUrl": "https://hkumath.hku.hk/~xmyuan/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "NleHkdYAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "hkbu-michael-ng",
+      "name": "Michael Kwok-Po Ng",
+      "sourceUrl": "https://www.math.hkbu.edu.hk/~mng/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "BBpjLiIAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": "https://openalex.org/A5010561682"
+    },
+    {
+      "id": "fr-dauphine-chambolle-variational",
+      "name": "Antonin Chambolle",
+      "sourceUrl": "https://www.ceremade.dauphine.fr/~chambolle/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0002-9465-4659",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0002-9465-4659"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "eGLUzVEAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "https://orcid.org/0000-0002-9465-4659",
+      "existingOpenAlex": null
+    },
+    {
+      "id": "amss-yuhong-dai",
+      "name": "Yu-Hong Dai",
+      "sourceUrl": "https://lsec.cc.ac.cn/~dyh/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "Em62ozgAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": "https://openalex.org/A5109187979"
+    },
+    {
+      "id": "sanyou-mei-hkust",
+      "name": "Sanyou Mei",
+      "sourceUrl": "https://sanyoumei.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "mzIWgpwAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "",
+      "existingOpenAlex": ""
+    },
+    {
+      "id": "liu-yang-nus",
+      "name": "Liu Yang",
+      "sourceUrl": "https://liuyangresearch.com/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "3qRUYIYAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "",
+      "existingOpenAlex": ""
+    },
+    {
+      "id": "napat-rujeerapaiboon-nus",
+      "name": "Napat Rujeerapaiboon",
+      "sourceUrl": "https://sites.google.com/view/napatrujeerapaiboon/home",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "MWZwBeUAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "",
+      "existingOpenAlex": ""
+    },
+    {
+      "id": "viet-anh-nguyen-cuhk",
+      "name": "Viet Anh Nguyen",
+      "sourceUrl": "https://vietanhnguyen.net/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "3iyf-EoAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "",
+      "existingOpenAlex": ""
+    },
+    {
+      "id": "haihao-lu-mit",
+      "name": "Haihao Lu",
+      "sourceUrl": "https://mitsloan.mit.edu/faculty/directory/haihao-lu",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "DnRJBwUAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "",
+      "existingOpenAlex": ""
+    },
+    {
+      "id": "rahul-mazumder-mit",
+      "name": "Rahul Mazumder",
+      "sourceUrl": "https://mitsloan.mit.edu/faculty/directory/rahul-mazumder",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "cyCp3pIAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "",
+      "existingOpenAlex": ""
+    },
+    {
+      "id": "damek-davis-upenn",
+      "name": "Damek Davis",
+      "sourceUrl": "https://www.damekdavis.com/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "uGdPyZQAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "",
+      "existingOpenAlex": ""
+    },
+    {
+      "id": "mengdi-wang-princeton",
+      "name": "Mengdi Wang",
+      "sourceUrl": "https://mwang.princeton.edu/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "33yNvIgAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "",
+      "existingOpenAlex": ""
+    },
+    {
+      "id": "fr-inria-adrien-taylor",
+      "name": "Adrien Taylor",
+      "sourceUrl": "https://adrientaylor.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "tcRn4JYAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "ch-epfl-nicolas-flammarion",
+      "name": "Nicolas Flammarion",
+      "sourceUrl": "https://people.epfl.ch/nicolas.flammarion",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "7nVGYfgAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "se-kth-giuseppe-belgioioso",
+      "name": "Giuseppe Belgioioso",
+      "sourceUrl": "https://belgioio.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "ck0wft8AAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "uk-gresearch-samuel-lanthaler",
+      "name": "Samuel Lanthaler",
+      "sourceUrl": "https://slanthaler.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0003-1911-246X",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0003-1911-246X"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "v-Jv3LoAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "de-heidelberg-jakob-zech",
+      "name": "Jakob Zech",
+      "sourceUrl": "https://jakobzech.com/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0003-3163-3735",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0003-3163-3735"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "F678i2sAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "de-cispa-anton-rodomanov",
+      "name": "Anton Rodomanov",
+      "sourceUrl": "https://arodomanov.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "u95GRZQAAAAJ",
+          "DJ8Ep8YAAAAJ",
+          "7HU0UoUAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "https://orcid.org/0000-0001-9656-8554",
+      "existingOpenAlex": null
+    },
+    {
+      "id": "at-tuwien-tatjana-chavdarova",
+      "name": "Tatjana Chavdarova",
+      "sourceUrl": "https://chavdarova.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "YWVuCKUAAAAJ",
+          "LGI13OsAAAAJ",
+          "tIBk2zEAAAAJ",
+          "FXacC3oAAAAJ",
+          "r1TJBr8AAAAJ",
+          "B3ZPLGUAAAAJ",
+          "-Ve9sJ0AAAAJ",
+          "9PLqulwAAAAJ",
+          "u56iZPkAAAAJ",
+          "QZd-fvAAAAAJ",
+          "oLi7xJ0AAAAJ",
+          "kzFmAkYAAAAJ",
+          "TwMib_QAAAAJ",
+          "76HdZDQAAAAJ",
+          "P2CPNr8AAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "fr-inria-fabian-schaipp",
+      "name": "Fabian Schaipp",
+      "sourceUrl": "https://fabian-sp.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0002-0673-9944",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0002-0673-9944"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "Wxb5J_8AAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "fr-polytechnique-aymeric-dieuleveut",
+      "name": "Aymeric Dieuleveut",
+      "sourceUrl": "https://www.cmap.polytechnique.fr/~aymeric.dieuleveut/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "ge-OinUAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "fr-inria-baptiste-goujaud",
+      "name": "Baptiste Goujaud",
+      "sourceUrl": "https://bgoujaud.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "93PAG2AAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "nl-maastricht-barbara-franci",
+      "name": "Barbara Franci",
+      "sourceUrl": "https://www.maastrichtuniversity.nl/b-franci",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0002-8298-0684",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0002-8298-0684"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "fr-polytechnique-luiz-chamon",
+      "name": "Luiz Chamon",
+      "sourceUrl": "https://luizchamon.com/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "FIm-l-sAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "it-pisa-alice-cortinovis",
+      "name": "Alice Cortinovis",
+      "sourceUrl": "https://sites.google.com/view/alicecortinovis/home",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "ZdVDls8AAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "it-bologna-davide-palitta",
+      "name": "Davide Palitta",
+      "sourceUrl": "https://www.unibo.it/sitoweb/davide.palitta",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0002-6987-4430",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0002-6987-4430"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "https://orcid.org/0000-0002-6987-4430",
+      "existingOpenAlex": null
+    },
+    {
+      "id": "de-mainz-hendrik-ranocha",
+      "name": "Hendrik Ranocha",
+      "sourceUrl": "https://ranocha.de/home",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0002-3456-2277",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0002-3456-2277"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "ApHMoZ4AAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "fr-sorbonne-theo-mary",
+      "name": "Théo Mary",
+      "sourceUrl": "https://perso.lip6.fr/Theo.Mary/index.php",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "lYPeLUMAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "de-unibw-alberto-de-marchi",
+      "name": "Alberto De Marchi",
+      "sourceUrl": "https://aldma.github.io/index.html",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0002-3545-6898",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0002-3545-6898"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "_fYtFysAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "https://orcid.org/0000-0002-3545-6898",
+      "existingOpenAlex": null
+    },
+    {
+      "id": "uk-leeds-massimiliano-fasi",
+      "name": "Massimiliano Fasi",
+      "sourceUrl": "https://eps.leeds.ac.uk/computing/staff/14034/massimiliano-fasi",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "SnHN4h4AAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "fr-inria-manu-upadhyaya",
+      "name": "Manu Upadhyaya",
+      "sourceUrl": "https://manuupadhyaya.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "pqHlu8kAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "cityu-menglong-li",
+      "name": "Menglong Li",
+      "sourceUrl": "https://menglongmath.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "mSNZgMYAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "hkbu-xindong-tang",
+      "name": "Xindong Tang",
+      "sourceUrl": "https://www.math.hkbu.edu.hk/~xdtang/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "ckuZ3DYAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "hkust-wei-you",
+      "name": "Wei You",
+      "sourceUrl": "https://cnyouwei.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": "0000-0003-0844-4194",
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0003-0844-4194"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "N9b9l8wAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": "https://orcid.org/0000-0003-0844-4194",
+      "existingOpenAlex": null
+    },
+    {
+      "id": "hkust-nian-si",
+      "name": "Nian Si",
+      "sourceUrl": "http://niansi.me",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "jEWU3-AAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "sutd-niangjun-chen",
+      "name": "Niangjun Chen",
+      "sourceUrl": "https://niangjunchen.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "mOmPukcAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": "https://openalex.org/A5050993305"
+    },
+    {
+      "id": "pku-kun-yuan",
+      "name": "Kun Yuan",
+      "sourceUrl": "https://kunyuan827.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "aMnHLz4AAAAJ",
+          "u70vRDYAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "pku-cong-fang",
+      "name": "Cong Fang",
+      "sourceUrl": "https://congfang-ml.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "N2M9RPoAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    },
+    {
+      "id": "cuhksz-shi-pu",
+      "name": "Shi Pu",
+      "sourceUrl": "https://pu-shi.github.io/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "homepage_candidate",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "IlEydmwAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "标识来自已核验主页，仍需书目记录姓名二次匹配。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    }
+  ],
+  "review": [
+    {
+      "id": "be-uclouvain-glineur-optimization",
+      "name": "François Glineur",
+      "sourceUrl": "https://perso.uclouvain.be/francois.glineur/",
+      "checkedAt": "2026-07-10T12:20:53.767Z",
+      "status": "needs_review",
+      "orcid": null,
+      "openalex": null,
+      "identifiers": {
+        "orcids": [
+          "0000-0002-5890-1093",
+          "0009-0009-0381-0512"
+        ],
+        "openAlexIds": [],
+        "googleScholarUsers": [
+          "p-mHx4AAAAAJ"
+        ],
+        "semanticScholarAuthorIds": []
+      },
+      "noteZh": "主页出现多个同类书目标识，需人工确认。",
+      "existingOrcid": null,
+      "existingOpenAlex": null
+    }
+  ],
+  "errors": [
+    {
+      "id": "princeton-amir-ali-ahmadi",
+      "name": "Amir Ali Ahmadi",
+      "sourceUrl": "https://aaa.princeton.edu/",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "pku-pingwen-zhang",
+      "name": "Pingwen Zhang",
+      "sourceUrl": "https://www.math.pku.edu.cn/pzhang/en/",
+      "error": "fetch failed"
+    },
+    {
+      "id": "de-ellis-antonio-orvieto",
+      "name": "Antonio Orvieto",
+      "sourceUrl": "https://orvi.altervista.org/",
+      "error": "fetch failed"
+    },
+    {
+      "id": "at-vienna-philipp-petersen",
+      "name": "Philipp Petersen",
+      "sourceUrl": "https://www.pc-petersen.eu/",
+      "error": "fetch failed"
+    },
+    {
+      "id": "se-kth-jan-kronqvist",
+      "name": "Jan Kronqvist",
+      "sourceUrl": "https://www.kth.se/profile/jankr/",
+      "error": "fetch failed"
+    },
+    {
+      "id": "ch-uzh-anastasiia-koloskova",
+      "name": "Anastasiia Koloskova",
+      "sourceUrl": "https://www.dsi.uzh.ch/de/people/dsiprofs/akoloskova.html",
+      "error": "fetch failed"
+    },
+    {
+      "id": "cuhk-liu-liu",
+      "name": "Liu Liu",
+      "sourceUrl": "https://www.math.cuhk.edu.hk/~lliu/",
+      "error": "fetch failed"
+    }
+  ]
+}

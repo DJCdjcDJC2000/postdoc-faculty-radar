@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
+  applyAcademicCandidateSupplements,
   buildAcademicCandidateDataset,
   normalizeRecruitmentCandidateSignal,
   parsePhdYear
@@ -66,4 +67,58 @@ test("PhD years are parsed from explicit and position-stage fields", () => {
   assert.equal(parsePhdYear({ phdYear: 2020 }), 2020);
   assert.equal(parsePhdYear({ positionStage: "Associate Professor; PhD 2018" }), 2018);
   assert.equal(parsePhdYear({ positionStage: "Postdoctoral Researcher" }), null);
+});
+
+test("verified profile supplements merge by stable id and reject unknown ids", () => {
+  const dataset = buildAcademicCandidateDataset(
+    [{ mentorLabs: [lab], youngScholars: [young] }],
+    { labs: [], people: [] }
+  );
+  const supplemented = applyAcademicCandidateSupplements(dataset, {
+    updatedAt: "2026-07-11",
+    profiles: [
+      {
+        id: "young-a",
+        researchEvolution: ["Recent shift"],
+        representativeWorks: [{ title: "Verified work", year: 2026 }],
+        evidence: [{ type: "author_cv", url: "https://example.edu/young/cv.pdf" }],
+        lastVerifiedAt: "2026-07-11"
+      },
+      { id: "missing-id", researchEvolution: ["Must not merge"] }
+    ]
+  });
+
+  assert.deepEqual(supplemented.people[0].researchEvolution, ["Recent shift"]);
+  assert.equal(supplemented.people[0].representativeWorks[0].title, "Verified work");
+  assert.equal(supplemented.people[0].lastVerifiedAt, "2026-07-11");
+  assert.equal(supplemented.counts.supplementsApplied, 1);
+  assert.ok(supplemented.review.some((item) => item.id === "missing-id" && item.reason === "unknown_profile_id"));
+});
+
+test("supplements for canonical or manual profiles are deferred without false review errors", () => {
+  const dataset = buildAcademicCandidateDataset(
+    [{ mentorLabs: [lab], youngScholars: [young] }],
+    { labs: [], people: [] }
+  );
+  const supplemented = applyAcademicCandidateSupplements(dataset, {
+    profiles: [{ id: "canonical-mentor", researchEvolution: ["Verified shift"] }]
+  }, {
+    knownExternalIds: ["canonical-mentor"]
+  });
+
+  assert.equal(supplemented.counts.supplementsApplied, 0);
+  assert.equal(supplemented.counts.supplementsDeferred, 1);
+  assert.equal(supplemented.review.some((item) => item.id === "canonical-mentor"), false);
+});
+
+test("supplements without timeline data preserve automatic timeline fallback", () => {
+  const dataset = buildAcademicCandidateDataset(
+    [{ mentorLabs: [], youngScholars: [young] }],
+    { labs: [], people: [] }
+  );
+  const supplemented = applyAcademicCandidateSupplements(dataset, {
+    profiles: [{ id: "young-a", researchEvolution: ["Recent shift"] }]
+  });
+
+  assert.equal(Object.hasOwn(supplemented.people[0], "timeline"), false);
 });

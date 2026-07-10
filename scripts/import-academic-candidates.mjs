@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildAcademicCandidateDataset } from "./lib/academic-candidates.mjs";
+import { applyAcademicCandidateSupplements, buildAcademicCandidateDataset } from "./lib/academic-candidates.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const researchDir = path.join(projectRoot, "data", "research");
@@ -11,11 +11,22 @@ const names = (await fs.readdir(researchDir))
   .filter((name) => /^candidates-.*\.json$/i.test(name))
   .sort();
 const documents = await Promise.all(names.map((name) => readJson(path.join(researchDir, name))));
-const [labs, people] = await Promise.all([
+const [labs, people, academicIdentities] = await Promise.all([
   readJson(path.join(projectRoot, "data", "manual", "labs.json")),
-  readJson(path.join(projectRoot, "data", "manual", "people.json"))
+  readJson(path.join(projectRoot, "data", "manual", "people.json")),
+  readJson(path.join(projectRoot, "config", "academic-identities.json"))
 ]);
-const dataset = buildAcademicCandidateDataset(documents, { labs, people });
+const supplements = await readJson(path.join(researchDir, "academic-profile-supplements.json"));
+const knownExternalIds = [
+  ...labs.map((item) => item.id),
+  ...people.map((item) => item.id),
+  ...(academicIdentities.canonicalPeople ?? []).map((item) => item.id)
+];
+const dataset = applyAcademicCandidateSupplements(
+  buildAcademicCandidateDataset(documents, { labs, people }),
+  supplements,
+  { knownExternalIds }
+);
 dataset.sourceFiles = names;
 await writeJsonAtomically(outputPath, dataset);
 console.log(`Wrote ${dataset.counts.labs} labs and ${dataset.counts.people} young scholars to ${path.relative(projectRoot, outputPath)}.`);

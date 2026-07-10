@@ -70,6 +70,13 @@ test("duplicate manual IDs fail instead of generating unstable replacements", ()
   assert.equal(institutionSimilarity("University", "College"), 0);
 });
 
+test("institution matching recognizes multilingual academic aliases", () => {
+  assert.equal(institutionSimilarity("Technical University of Munich", "Technische Universität München"), 1);
+  assert.equal(institutionSimilarity("UCLouvain / CORE", "Université catholique de Louvain"), 1);
+  assert.equal(institutionSimilarity("Inria Paris / ENS-PSL / CNRS", "Inria Centre de Recherche de Paris"), 1);
+  assert.equal(institutionSimilarity("University of Innsbruck", "Universität Innsbruck"), 1);
+});
+
 test("verified identity aliases merge duplicate lab and person records under one stable person ID", () => {
   const targets = buildAcademicTargets([
     {

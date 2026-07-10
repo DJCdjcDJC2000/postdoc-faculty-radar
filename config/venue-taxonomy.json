@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "taxonomyVersion": "2026.07.1",
+  "taxonomyVersion": "2026.07.4",
   "curatedAt": "2026-07-10",
   "curationNote": "Tiers are a local radar taxonomy, not rankings issued by the linked publishers or conference organizers. Official URLs support venue identity, scope, and publication form.",
   "tierIds": [
@@ -58,11 +58,15 @@
         "important_mainstream": [
           "ima_journal_of_numerical_analysis",
           "acm_transactions_on_mathematical_software",
-          "journal_of_computational_physics"
+          "journal_of_computational_physics",
+          "multiscale_modeling_and_simulation",
+          "siam_asa_journal_on_uncertainty_quantification"
         ],
         "related_reference": [
           "m2an",
-          "siam_journal_on_mathematics_of_data_science"
+          "siam_journal_on_mathematics_of_data_science",
+          "advances_in_computational_mathematics",
+          "analysis_and_applications"
         ]
       }
     },
@@ -82,7 +86,8 @@
         ],
         "related_reference": [
           "siam_journal_on_control_and_optimization",
-          "mathematical_programming_computation"
+          "mathematical_programming_computation",
+          "ieee_transactions_on_automatic_control"
         ]
       }
     },
@@ -100,7 +105,9 @@
         ],
         "important_mainstream": [
           "aistats",
-          "tmlr"
+          "tmlr",
+          "ieee_tpami",
+          "nature_machine_intelligence"
         ],
         "related_reference": [
           "siam_journal_on_mathematics_of_data_science",
@@ -122,13 +129,26 @@
         "important_mainstream": [
           "acm_transactions_on_mathematical_software",
           "siam_journal_on_mathematics_of_data_science",
+          "ieee_transactions_on_power_systems",
+          "ieee_transactions_on_sustainable_energy",
+          "ieee_transactions_on_control_of_network_systems",
+          "ieee_transactions_on_automatic_control",
+          "ieee_tpami",
+          "nature_machine_intelligence",
           "mlsys",
           "uai"
         ],
         "related_reference": [
           "m2an",
           "siam_journal_on_scientific_computing",
-          "tmlr"
+          "tmlr",
+          "ieee_transactions_on_control_systems_technology",
+          "applied_energy",
+          "ieee_transactions_on_smart_grid",
+          "transportation_research_part_c",
+          "ieee_transactions_on_intelligent_transportation_systems",
+          "ieee_transactions_on_intelligent_vehicles",
+          "nature_communications"
         ]
       }
     }
@@ -923,6 +943,144 @@
       ]
     },
     {
+      "id": "ieee_transactions_on_power_systems",
+      "name": "IEEE Transactions on Power Systems",
+      "acronym": "TPWRS",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "IEEE Trans. Power Syst.",
+        "IEEE Transactions on Power System"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": []
+      },
+      "sourceUrls": [
+        "https://ieee-pes.org/publications/transactions-on-power-systems/"
+      ]
+    },
+    {
+      "id": "ieee_transactions_on_sustainable_energy",
+      "name": "IEEE Transactions on Sustainable Energy",
+      "acronym": "TSTE",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "IEEE Trans. Sustain. Energy"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": []
+      },
+      "sourceUrls": [
+        "https://ieee-pes.org/publications/transactions-on-sustainable-energy/"
+      ]
+    },
+    {
+      "id": "ieee_transactions_on_control_of_network_systems",
+      "name": "IEEE Transactions on Control of Network Systems",
+      "acronym": "TCNS",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "IEEE Trans. Control Netw. Syst.",
+        "IEEE Transactions on Control of Network System"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": []
+      },
+      "sourceUrls": [
+        "https://www.ieeecss.org/publication/transactions-control-network-systems"
+      ]
+    },
+    {
+      "id": "ieee_transactions_on_automatic_control",
+      "name": "IEEE Transactions on Automatic Control",
+      "acronym": "TAC",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "IEEE Trans. Autom. Control",
+        "IEEE Transactions on Automatic Control"
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": []
+      },
+      "sourceUrls": [
+        "https://ieeecss.org/publication/transactions-automatic-control"
+      ]
+    },
+    {
+      "id": "ieee_transactions_on_control_systems_technology",
+      "name": "IEEE Transactions on Control Systems Technology",
+      "acronym": "TCST",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "IEEE Trans. Control Syst. Technol."
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": []
+      },
+      "sourceUrls": [
+        "https://www.ieeecss.org/publication/transactions-control-systems-technology"
+      ]
+    },
+    {
+      "id": "ieee_tpami",
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "acronym": "TPAMI",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "IEEE Trans. Pattern Anal. Mach. Intell."
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": null,
+        "issns": [],
+        "venueIds": []
+      },
+      "sourceUrls": [
+        "https://www.computer.org/digital-library/journals/tp/cfp-ieee-pattern-analysis-machine-intelligence"
+      ]
+    },
+    {
+      "id": "nature_machine_intelligence",
+      "name": "Nature Machine Intelligence",
+      "acronym": "Nat Mach Intell",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": [
+        "Nat. Mach. Intell."
+      ],
+      "identifiers": {
+        "doiPrefixes": [],
+        "issnL": "2522-5839",
+        "issns": [
+          "2522-5839"
+        ],
+        "venueIds": []
+      },
+      "sourceUrls": [
+        "https://www.nature.com/natmachintell/aims"
+      ]
+    },
+    {
       "id": "mlsys",
       "name": "Conference on Machine Learning and Systems",
       "acronym": "MLSys",
@@ -946,6 +1104,106 @@
         "https://mlsys.org/",
         "https://proceedings.mlsys.org/"
       ]
+    },
+    {
+      "id": "multiscale_modeling_and_simulation",
+      "name": "Multiscale Modeling & Simulation",
+      "acronym": "MMS",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": ["Multiscale Modeling and Simulation", "Multiscale Model. Simul."],
+      "identifiers": { "doiPrefixes": [], "issnL": "1540-3459", "issns": ["1540-3459", "1540-3467"], "venueIds": [] },
+      "sourceUrls": ["https://www.siam.org/publications/siam-journals/multiscale-modeling-and-simulation/aims-and-scope/"]
+    },
+    {
+      "id": "siam_asa_journal_on_uncertainty_quantification",
+      "name": "SIAM/ASA Journal on Uncertainty Quantification",
+      "acronym": "JUQ",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": ["SIAM ASA Journal on Uncertainty Quantification", "SIAM/ASA J. Uncertain. Quantif."],
+      "identifiers": { "doiPrefixes": [], "issnL": "2166-2525", "issns": ["2166-2525"], "venueIds": [] },
+      "sourceUrls": ["https://www.siam.org/publications/siam-journals/siam-asa-journal-on-uncertainty-quantification/"]
+    },
+    {
+      "id": "advances_in_computational_mathematics",
+      "name": "Advances in Computational Mathematics",
+      "acronym": "ACOM",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": ["Adv. Comput. Math."],
+      "identifiers": { "doiPrefixes": ["10.1007/s10444-"], "issnL": "1019-7168", "issns": ["1019-7168", "1572-9044"], "venueIds": [] },
+      "sourceUrls": ["https://link.springer.com/journal/10444"]
+    },
+    {
+      "id": "analysis_and_applications",
+      "name": "Analysis and Applications",
+      "acronym": null,
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": ["Anal. Appl."],
+      "identifiers": { "doiPrefixes": ["10.1142/S02195305"], "issnL": "0219-5305", "issns": ["0219-5305", "1793-6861"], "venueIds": [] },
+      "sourceUrls": ["https://www.worldscientific.com/worldscinet/aa"]
+    },
+    {
+      "id": "applied_energy",
+      "name": "Applied Energy",
+      "acronym": null,
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": ["Appl. Energy"],
+      "identifiers": { "doiPrefixes": ["10.1016/j.apenergy."], "issnL": "0306-2619", "issns": ["0306-2619"], "venueIds": [] },
+      "sourceUrls": ["https://www.sciencedirect.com/journal/applied-energy"]
+    },
+    {
+      "id": "ieee_transactions_on_smart_grid",
+      "name": "IEEE Transactions on Smart Grid",
+      "acronym": "TSG",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": ["IEEE Trans. Smart Grid"],
+      "identifiers": { "doiPrefixes": [], "issnL": "1949-3053", "issns": ["1949-3053"], "venueIds": [] },
+      "sourceUrls": ["https://ieee-pes.org/publications/transactions-on-smart-grid/"]
+    },
+    {
+      "id": "transportation_research_part_c",
+      "name": "Transportation Research Part C: Emerging Technologies",
+      "acronym": "TR-C",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": ["Transportation Research Part C", "Transp. Res. Part C Emerg. Technol."],
+      "identifiers": { "doiPrefixes": ["10.1016/j.trc."], "issnL": "0968-090X", "issns": ["0968-090X"], "venueIds": [] },
+      "sourceUrls": ["https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies"]
+    },
+    {
+      "id": "ieee_transactions_on_intelligent_transportation_systems",
+      "name": "IEEE Transactions on Intelligent Transportation Systems",
+      "acronym": "T-ITS",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": ["IEEE Trans. Intell. Transp. Syst."],
+      "identifiers": { "doiPrefixes": [], "issnL": "1524-9050", "issns": ["1524-9050", "1558-0016"], "venueIds": [] },
+      "sourceUrls": ["https://ieee-itss.org/pub/t-its/"]
+    },
+    {
+      "id": "ieee_transactions_on_intelligent_vehicles",
+      "name": "IEEE Transactions on Intelligent Vehicles",
+      "acronym": "T-IV",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": ["IEEE Trans. Intell. Veh."],
+      "identifiers": { "doiPrefixes": [], "issnL": "2379-8858", "issns": ["2379-8858"], "venueIds": [] },
+      "sourceUrls": ["https://ieee-itss.org/pub/tiv/"]
+    },
+    {
+      "id": "nature_communications",
+      "name": "Nature Communications",
+      "acronym": "Nat Commun",
+      "venueType": "journal",
+      "publicationClass": "archival_publication",
+      "aliases": ["Nat. Commun."],
+      "identifiers": { "doiPrefixes": ["10.1038/s41467-"], "issnL": "2041-1723", "issns": ["2041-1723"], "venueIds": [] },
+      "sourceUrls": ["https://www.nature.com/ncomms/journal-information"]
     }
   ]
 }

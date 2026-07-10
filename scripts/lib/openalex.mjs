@@ -32,6 +32,12 @@ const INSTITUTION_ALIASES = [
   [/\b(hong kong polytechnic university|polyu)\b/i, "hong kong polytechnic university"],
   [/\b(massachusetts institute of technology|mit sloan school of management|mit)\b/i, "massachusetts institute technology"],
   [/\b(technical university of munich|tum)\b/i, "technical university munich"],
+  [/\b(technische universitat munchen|technische universitaet muenchen)\b/i, "technical university munich"],
+  [/\b(uclouvain|universite catholique de louvain|catholic university of louvain)\b/i, "uclouvain"],
+  [/\b(inria|institut national de recherche en informatique et en automatique)\b/i, "inria"],
+  [/\b(ellis institute tubingen|max planck institute for intelligent systems)\b/i, "ellis institute tubingen"],
+  [/\b(university of innsbruck|universitat innsbruck)\b/i, "university innsbruck"],
+  [/\b(academy of mathematics and systems science.*cas|chinese academy of sciences)\b/i, "chinese academy sciences"],
   [/\b(university of california,? berkeley|uc berkeley)\b/i, "university california berkeley"],
   [/\b(university of pennsylvania|upenn|wharton)\b/i, "university pennsylvania"],
   [/\b(imperial college london|imperial college)\b/i, "imperial college london"]
@@ -863,6 +869,7 @@ function mergeAcademicTargets(left, right) {
     explicitOrcid: explicitOrcids[0] ?? null,
     topicHints: uniqueStrings([...left.topicHints, ...right.topicHints]),
     collaboratorHints: uniqueStrings([...left.collaboratorHints, ...right.collaboratorHints]),
+    homepages: uniqueStrings([...(left.homepages ?? []), ...(right.homepages ?? [])]),
     sourceKinds: uniqueStrings([...left.sourceKinds, ...right.sourceKinds]),
     sourceRecordIds: {
       labs: uniqueStrings([...left.sourceRecordIds.labs, ...right.sourceRecordIds.labs]),
@@ -888,6 +895,7 @@ function buildTarget(item, sourceKind) {
     name,
     officialInstitution,
     officialInstitutions: [officialInstitution].filter(Boolean),
+    homepages: uniqueStrings([item.homepage, item.groupHomepage].filter(Boolean)),
     explicitOpenAlexId,
     explicitOrcid,
     topicHints: uniqueStrings(item.fieldTags ?? []),

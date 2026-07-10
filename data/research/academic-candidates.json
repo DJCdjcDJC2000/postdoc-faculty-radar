@@ -1,11 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-10T09:34:42.336Z",
+  "generatedAt": "2026-07-10T12:20:52.488Z",
   "sourceKind": "researched_candidates",
   "counts": {
     "labs": 28,
     "people": 72,
-    "review": 1
+    "review": 1,
+    "supplementsApplied": 34,
+    "supplementsDeferred": 9
   },
   "labs": [
     {
@@ -27,6 +29,8 @@
         "predictive control"
       ],
       "researchSummaryZh": "国际领先的一阶与二阶优化、前向后向包络和嵌入式优化研究者；个人页明确招聘1名博后。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -110,6 +114,8 @@
         "convex optimization"
       ],
       "researchSummaryZh": "大规模内点法、稀疏线性代数与并行优化的国际权威，拥有求解器和持续高水平成果。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -195,6 +201,65 @@
         "kernel methods"
       ],
       "researchSummaryZh": "Lagrange Prize、两项ERC、SAG等代表性成果，机器学习优化领域顶级导师。",
+      "researchEvolution": [],
+      "representativeWorks": [
+        {
+          "title": "Sampling Binary Data by Denoising through Score Functions",
+          "year": 2025,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://www.di.ens.fr/~fbach/",
+          "selectionReason": "作者主页列出的 2025 年采样与生成建模代表作"
+        },
+        {
+          "title": "The Surprising Agreement Between Convex Optimization Theory and Learning-Rate Scheduling for Large Model Training",
+          "year": 2025,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://www.di.ens.fr/~fbach/",
+          "selectionReason": "作者主页列出的 2025 年大模型训练优化代表作"
+        },
+        {
+          "title": "Finding Global Minima via Kernel Approximations",
+          "year": 2025,
+          "venue": "Mathematical Programming",
+          "url": "https://www.di.ens.fr/~fbach/",
+          "selectionReason": "作者主页列出的核方法与全局优化代表作"
+        },
+        {
+          "title": "Physics-informed kernel learning",
+          "year": 2025,
+          "venue": "Journal of Machine Learning Research",
+          "url": "https://www.di.ens.fr/~fbach/",
+          "selectionReason": "作者主页列出的科学机器学习代表作"
+        },
+        {
+          "title": "Enhanced Feature Learning via Regularisation: Integrating Neural Networks and Kernel Methods",
+          "year": 2025,
+          "venue": "Journal of Machine Learning Research",
+          "url": "https://www.di.ens.fr/~fbach/",
+          "selectionReason": "作者主页列出的特征学习与核方法代表作"
+        },
+        {
+          "title": "Statistical and Geometrical properties of regularized Kernel Kullback-Leibler divergence",
+          "year": 2024,
+          "venue": "Advances in Neural Information Processing Systems",
+          "url": "https://www.di.ens.fr/~fbach/",
+          "selectionReason": "作者主页列出的核散度与统计学习代表作"
+        },
+        {
+          "title": "Second Order Conditions to Decompose Smooth Functions as Sums of Squares",
+          "year": 2024,
+          "venue": "SIAM Journal on Optimization",
+          "url": "https://www.di.ens.fr/~fbach/",
+          "selectionReason": "作者主页列出的连续优化与平方和代表作"
+        },
+        {
+          "title": "Sum-of-squares relaxations for polynomial min-max problems over simple sets",
+          "year": 2024,
+          "venue": "Mathematical Programming",
+          "url": "https://www.di.ens.fr/~fbach/",
+          "selectionReason": "作者主页列出的多项式优化代表作"
+        }
+      ],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -265,11 +330,23 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "author_publication_list",
+          "url": "https://www.di.ens.fr/~fbach/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_list",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "venueBreakdown": []
     },
     {
       "id": "ch-epfl-mcss-hesthaven",
@@ -290,6 +367,74 @@
         "scientific machine learning"
       ],
       "researchSummaryZh": "SIAM Fellow，计算数学、降阶建模、高阶PDE数值方法和SciML领域顶级课题组。",
+      "researchEvolution": [
+        "早期以高阶谱方法和间断 Galerkin 方法解决双曲守恒律、电磁与流体问题；随后发展降阶模型、分数阶方程和高性能科学计算；近年把神经网络、物理信息学习和神经经验插值用于参数化 PDE 与模型降阶。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Neural Empirical Interpolation Method for Nonlinear Model Reduction",
+          "year": 2025,
+          "venue": "SIAM Journal on Scientific Computing",
+          "doi": "https://doi.org/10.1137/24M1681434",
+          "url": "https://people.epfl.ch/jan.hesthaven?lang=en",
+          "selectionReason": "EPFL 官方论文模块列出的神经降阶代表作"
+        },
+        {
+          "title": "A coordinate transformation-based physics-informed neural networks for hyperbolic conservation laws",
+          "year": 2025,
+          "venue": "Journal of Computational Physics",
+          "doi": "https://doi.org/10.1016/j.jcp.2025.114161",
+          "url": "https://people.epfl.ch/jan.hesthaven?lang=en",
+          "selectionReason": "EPFL 官方论文模块列出的物理信息学习代表作"
+        },
+        {
+          "title": "Galerkin neural network-POD for acoustic and electromagnetic wave propagation in parametric domains",
+          "year": 2025,
+          "venue": "Advances in Computational Mathematics",
+          "doi": "https://doi.org/10.1007/s10444-025-10245-9",
+          "url": "https://people.epfl.ch/jan.hesthaven?lang=en",
+          "selectionReason": "EPFL 官方论文模块列出的神经网络 POD 代表作"
+        },
+        {
+          "title": "Reduced basis methods for time-dependent problems",
+          "year": 2022,
+          "venue": "Acta Numerica",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B3A3572002FB0071F9E903AAEAB83087",
+          "selectionReason": "Cambridge 官方页面列出的时变降阶综述代表作"
+        },
+        {
+          "title": "Rank-adaptive structure-preserving model order reduction of Hamiltonian systems",
+          "year": 2022,
+          "venue": "ESAIM: Mathematical Modelling and Numerical Analysis",
+          "doi": "https://doi.org/10.1051/m2an/2022013",
+          "url": "https://people.epfl.ch/jan.hesthaven?lang=en",
+          "selectionReason": "EPFL 官方论文模块列出的结构保持降阶代表作"
+        },
+        {
+          "title": "Controlling oscillations in spectral methods by local artificial viscosity governed by neural networks",
+          "year": 2021,
+          "venue": "Journal of Computational Physics",
+          "doi": "https://doi.org/10.1016/j.jcp.2021.110144",
+          "url": "https://people.epfl.ch/jan.hesthaven?lang=en",
+          "selectionReason": "EPFL 官方论文模块列出的神经网络稳定化代表作"
+        },
+        {
+          "title": "Non-intrusive reduced order modeling of nonlinear problems using neural networks",
+          "year": 2018,
+          "venue": "Journal of Computational Physics",
+          "doi": "https://doi.org/10.1016/j.jcp.2018.02.037",
+          "url": "https://people.epfl.ch/jan.hesthaven?lang=en",
+          "selectionReason": "EPFL 官方论文模块列出的非侵入降阶代表作"
+        },
+        {
+          "title": "Accuracy of high order and spectral methods for hyperbolic conservation laws with discontinuous solutions",
+          "year": 2015,
+          "venue": "SIAM Journal on Numerical Analysis",
+          "doi": "https://doi.org/10.1137/140992758",
+          "url": "https://people.epfl.ch/jan.hesthaven?lang=en",
+          "selectionReason": "EPFL 官方论文模块列出的高阶方法代表作"
+        }
+      ],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -356,11 +501,43 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_profile_homepage",
+          "url": "https://www.epfl.ch/labs/mcss/members/hesthaven/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "career_timeline",
+            "group"
+          ]
+        },
+        {
+          "type": "official_institution_publication_list",
+          "url": "https://people.epfl.ch/jan.hesthaven?lang=en",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 8,
+        "recentWorksCount": 5,
+        "provider": "OfficialInstitutionProfile",
+        "countLabelZh": "本次核验的 EPFL 正式论文（下界）",
+        "countCaveatZh": "仅统计 EPFL 官方论文模块中逐条核验的 8 篇代表作；完整生涯论文数量显著更高。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "ch-eth-camlab-mishra",
@@ -381,6 +558,8 @@
         "physics-informed ML"
       ],
       "researchSummaryZh": "ICIAM Collatz Prize、SIAM Dahlquist Prize、两项ERC，数值PDE与科学机器学习顶级导师。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -464,6 +643,25 @@
         "neural-network approximation"
       ],
       "researchSummaryZh": "计算不确定性量化、高维PDE、稀疏逼近和神经网络数值分析的重要奠基型学者。",
+      "researchEvolution": [],
+      "representativeWorks": [
+        {
+          "title": "Deep Learning in High Dimension: Neural Network Expression Rates for Analytic Functions in L2(Rd, gamma_d)",
+          "year": 2023,
+          "venue": "SIAM/ASA Journal on Uncertainty Quantification",
+          "doi": "https://doi.org/10.1137/21M1462738",
+          "url": "https://epubs.siam.org/doi/10.1137/21M1462738",
+          "selectionReason": "SIAM 官方页面列出的高维神经网络逼近代表作"
+        },
+        {
+          "title": "De Rham compatible Deep Neural Network FEM",
+          "year": 2023,
+          "venue": "Neural Networks",
+          "doi": "https://doi.org/10.1016/j.neunet.2023.06.008",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37390705/",
+          "selectionReason": "期刊元数据列出的神经网络有限元代表作"
+        }
+      ],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -522,11 +720,32 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_publisher_publication",
+          "url": "https://epubs.siam.org/doi/10.1137/21M1462738",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "representative_works",
+            "publication_venue"
+          ]
+        },
+        {
+          "type": "bibliographic_publication",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37390705/",
+          "confidence": "B",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "representative_works",
+            "publication_venue"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "venueBreakdown": []
     },
     {
       "id": "ch-epfl-anchp-kressner",
@@ -547,6 +766,8 @@
         "high-performance computing"
       ],
       "researchSummaryZh": "SIAM Fellow，数值线性代数、低秩矩阵与张量算法的国际顶级导师。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -642,6 +863,8 @@
         "variational analysis"
       ],
       "researchSummaryZh": "非光滑、非凸优化与单调算子算法持续高产，主持Vienna Graduate School on Computational Optimization。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -725,6 +948,8 @@
         "AI for mathematics"
       ],
       "researchSummaryZh": "TU Berlin与ZIB数学优化负责人，Frank-Wolfe、离散优化和AI辅助数学发现方向国际活跃。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -822,6 +1047,8 @@
         "CasADi and acados"
       ],
       "researchSummaryZh": "数值最优控制、实时优化及CasADi/acados软件生态的顶级导师，理论与工业结合突出。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -905,6 +1132,8 @@
         "machine learning"
       ],
       "researchSummaryZh": "Chambolle-Pock算法、变分成像和双层优化领域高影响力导师，拥有ERC与START Prize。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -988,6 +1217,8 @@
         "ML systems"
       ],
       "researchSummaryZh": "机器学习优化、协作学习和Frank-Wolfe算法的国际领先课题组，学生去向突出。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -1083,6 +1314,8 @@
         "nonnegative matrix factorization"
       ],
       "researchSummaryZh": "计算机辅助性能估计PEP体系的重要推动者，与Nesterov、Taylor、Patrinos网络紧密。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -1166,6 +1399,8 @@
         "free-discontinuity problems"
       ],
       "researchSummaryZh": "Chambolle-Pock算法共同作者，非光滑变分优化、成像与数值分析的顶级学者。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -1249,6 +1484,8 @@
         "imaging"
       ],
       "researchSummaryZh": "CNRS Silver Medal、ERC Advanced Grant，计算最优传输及其ML应用的国际顶级学者。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -1346,6 +1583,8 @@
         "optimization software"
       ],
       "researchSummaryZh": "AMS/SIAM/CSIAM/ORSC Fellow；Beale–Orchard-Hays Prize；RGC Senior Research Fellow",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [
         {
           "summary": "RGC Senior Research Fellowship 2023-2027"
@@ -1450,6 +1689,8 @@
         "applied mathematics"
       ],
       "researchSummaryZh": "HKU Optimization and OR 核心成员；长期从事计算优化和算法设计",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -1527,6 +1768,8 @@
         "data science"
       ],
       "researchSummaryZh": "AMS Fellow；高影响数值线性代数、张量与计算成像研究",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -1612,6 +1855,8 @@
         "operations research"
       ],
       "researchSummaryZh": "HKUST IEDA 系主任；持续发表于 OR、MOR、Management Science",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -1688,6 +1933,8 @@
         "supply chain"
       ],
       "researchSummaryZh": "鲁棒优化领域代表性学者；NUS Provost's Chair；MOE Tier-3 PI",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [
         {
           "summary": "Singapore MOE Tier-3 project"
@@ -1786,6 +2033,8 @@
         "numerical analysis"
       ],
       "researchSummaryZh": "SIAM Fellow、AMS Fellow、Feng Kang Prize；科学计算软件与数值方法影响突出",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [],
       "recruitmentSignals": [
         {
@@ -1862,6 +2111,8 @@
         "operations research"
       ],
       "researchSummaryZh": "IORA 执行主任；IFORS Distinguished Lecturer；顶级 OR 期刊编辑经历",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [
         {
           "summary": "MOE Tier-3 Supply Network Modelling and Optimization"
@@ -1951,6 +2202,8 @@
         "machine learning"
       ],
       "researchSummaryZh": "DRO、广义矩问题与不确定优化代表性学者；Math Programming、OR、Management Science 编委",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [
         {
           "summary": "MOE research on network robustness"
@@ -2031,6 +2284,67 @@
         "optimization software"
       ],
       "researchSummaryZh": "中国科学院院士；CMIP 约20人团队；国际运筹学会与中国运筹学会领导职务",
+      "researchEvolution": [
+        "早期以非线性共轭梯度和 Barzilai-Borwein 步长为核心，建立简洁高效的一阶优化算法；随后扩展到约束优化、内点与 SQP 方法、混合整数优化和信号处理应用；近年进一步关注强化学习选割、概率覆盖和大规模工程优化。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Benders Decomposition for The Large-Scale Probabilistic Set Covering Problem",
+          "year": 2025,
+          "venue": "Computers & Operations Research",
+          "url": "https://lsec.cc.ac.cn/~dyh/publication.html",
+          "selectionReason": "作者官方目录列出的近期离散优化代表作"
+        },
+        {
+          "title": "A New Model and Algorithm Design of Pooling Problem",
+          "year": 2025,
+          "venue": "Vietnam Journal of Mathematics",
+          "url": "https://lsec.cc.ac.cn/~dyh/publication.html",
+          "selectionReason": "作者官方目录列出的工程优化代表作"
+        },
+        {
+          "title": "Chebyshev Accelerated Parameterized AOR Method for Time-Periodic Parabolic Optimal Control Problems",
+          "year": 2025,
+          "venue": "Computational and Applied Mathematics",
+          "url": "https://lsec.cc.ac.cn/~dyh/publication.html",
+          "selectionReason": "作者官方目录列出的最优控制数值算法代表作"
+        },
+        {
+          "title": "IPRSDP: A Primal-Dual Interior-Point Relaxation Algorithm for Semidefinite Programming",
+          "year": 2024,
+          "venue": "Computational Optimization and Applications",
+          "url": "https://lsec.cc.ac.cn/~dyh/publication.html",
+          "selectionReason": "作者官方目录列出的半定规划代表作"
+        },
+        {
+          "title": "Enhancing Cut Selection Through Reinforcement Learning",
+          "year": 2024,
+          "venue": "Science China Mathematics",
+          "url": "https://lsec.cc.ac.cn/~dyh/publication.html",
+          "selectionReason": "作者官方目录列出的学习辅助整数优化代表作"
+        },
+        {
+          "title": "The Rate of Convergence of Augmented Lagrangian Method for Minimax Optimization Problems with Equality Constraints",
+          "year": 2024,
+          "venue": "Journal of the Operations Research Society of China",
+          "url": "https://lsec.cc.ac.cn/~dyh/publication.html",
+          "selectionReason": "作者官方目录列出的增广拉格朗日代表作"
+        },
+        {
+          "title": "A Line Search Penalty-free SQP Method for Equality-constrained Optimization without Maratos Effect",
+          "year": 2022,
+          "venue": "IMA Journal of Numerical Analysis",
+          "url": "https://lsec.cc.ac.cn/~dyh/publication.html",
+          "selectionReason": "作者官方目录列出的 SQP 代表作"
+        },
+        {
+          "title": "On the Acceleration of The Barzilai-Borwein Method",
+          "year": 2022,
+          "venue": "Computational Optimization and Applications",
+          "url": "https://lsec.cc.ac.cn/~dyh/publication.html",
+          "selectionReason": "作者官方目录列出的 BB 方法代表作"
+        }
+      ],
       "grantsAwards": [
         {
           "summary": "CMIP optimization group projects"
@@ -2102,13 +2416,46 @@
           "supportsClaims": [
             "bibliographic_identity_hint"
           ]
+        },
+        {
+          "type": "official_profile_homepage",
+          "url": "https://lsec.cc.ac.cn/~dyh/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research",
+            "group_members",
+            "accepts_applications"
+          ]
+        },
+        {
+          "type": "official_publication_list",
+          "url": "https://lsec.cc.ac.cn/~dyh/publication.html",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [
         "需邮件确认具体博后课题与待遇"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 8,
+        "recentWorksCount": 8,
+        "provider": "OfficialHomepage",
+        "countLabelZh": "本次核验的近期正式论文（下界）",
+        "countCaveatZh": "仅统计作者官方论文目录中逐条核验的 8 篇 2022-2025 代表作；完整目录超过百篇。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "amss-xin-liu",
@@ -2129,6 +2476,67 @@
         "scientific computing"
       ],
       "researchSummaryZh": "国家杰青、国家优青；优化与非线性优化研究中心负责人；MPC 长期编委",
+      "researchEvolution": [
+        "早期工作以大规模特征值、低秩矩阵和正交约束优化为核心；随后形成无正交化流形优化、精确罚函数和分布式 Stiefel 流形算法主线；近年扩展到联邦学习、非光滑双层优化、科学计算和变分蒙特卡洛。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Mixed precision strategies for preconditioned GMRES: a comprehensive analysis",
+          "year": 2026,
+          "venue": "IMA Journal of Numerical Analysis",
+          "url": "https://lsec.cc.ac.cn/~liuxin/paper.html",
+          "selectionReason": "作者官方目录列出的数值线性代数代表作"
+        },
+        {
+          "title": "Decentralized Stochastic Subgradient Methods for Nonsmooth Nonconvex Optimization",
+          "year": 2026,
+          "venue": "Journal of Machine Learning Research",
+          "url": "https://lsec.cc.ac.cn/~liuxin/paper.html",
+          "selectionReason": "作者官方目录列出的分布式非光滑优化代表作"
+        },
+        {
+          "title": "A Decentralized Proximal Gradient Tracking Algorithm for Composite Optimization on Riemannian Manifolds",
+          "year": 2025,
+          "venue": "Journal of Machine Learning Research",
+          "url": "https://lsec.cc.ac.cn/~liuxin/paper.html",
+          "selectionReason": "作者官方目录列出的黎曼分布式优化代表作"
+        },
+        {
+          "title": "CDOpt: A Python Package for a Class of Riemannian Optimization",
+          "year": 2025,
+          "venue": "Mathematical Programming Computation",
+          "url": "https://lsec.cc.ac.cn/~liuxin/paper.html",
+          "selectionReason": "作者官方目录列出的流形优化软件代表作"
+        },
+        {
+          "title": "Sampling-Based Approaches for Multimarginal Optimal Transport Problems with Coulomb Cost",
+          "year": 2025,
+          "venue": "Mathematics of Computation",
+          "url": "https://lsec.cc.ac.cn/~liuxin/paper.html",
+          "selectionReason": "作者官方目录列出的最优传输代表作"
+        },
+        {
+          "title": "Adam-family Methods for Nonsmooth Optimization with Convergence Guarantees",
+          "year": 2024,
+          "venue": "Journal of Machine Learning Research",
+          "url": "https://lsec.cc.ac.cn/~liuxin/paper.html",
+          "selectionReason": "作者官方目录列出的机器学习优化代表作"
+        },
+        {
+          "title": "An Improved Unconstrained Approach for Bilevel Optimization",
+          "year": 2023,
+          "venue": "SIAM Journal on Optimization",
+          "url": "https://lsec.cc.ac.cn/~liuxin/paper.html",
+          "selectionReason": "作者官方目录列出的双层优化代表作"
+        },
+        {
+          "title": "A Global Optimization Approach for Multi-Marginal Optimal Transport Problems with Coulomb Cost",
+          "year": 2023,
+          "venue": "SIAM Journal on Scientific Computing",
+          "url": "https://lsec.cc.ac.cn/~liuxin/paper.html",
+          "selectionReason": "作者官方目录列出的科学计算代表作"
+        }
+      ],
       "grantsAwards": [
         {
           "summary": "National Science Fund for Distinguished Young Scholars"
@@ -2194,13 +2602,45 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_profile_homepage",
+          "url": "https://lsec.cc.ac.cn/~liuxin/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research",
+            "group"
+          ]
+        },
+        {
+          "type": "author_publication_list",
+          "url": "https://lsec.cc.ac.cn/~liuxin/paper.html",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [
         "基金存在但未找到公开岗位"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 8,
+        "recentWorksCount": 8,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "本次核验的近期正式论文（下界）",
+        "countCaveatZh": "仅统计作者官方目录中逐条核验的 8 篇 2023-2026 代表作；完整目录显著更长。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "pku-zaiwen-wen",
@@ -2221,6 +2661,8 @@
         "optimization for ML"
       ],
       "researchSummaryZh": "国家优青、青年拔尖、中国青年科技奖；多项优化软件与顶刊成果",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "grantsAwards": [
         {
           "summary": "NSFC Excellent Young Scientists Fund"
@@ -2318,6 +2760,67 @@
         "computational mathematics"
       ],
       "researchSummaryZh": "SIAM Fellow、Feng Kang Prize、国家杰青、国家自然科学二等奖",
+      "researchEvolution": [
+        "早期围绕谱方法、奇异摄动和守恒律高精度离散建立数值分析主线；随后发展自适应网格、移动网格和积分方程谱配置方法；近年进一步面向相场模型、参数不确定性量化和长时间稳定计算。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Long time numerical simulations for phase-field problems using p-adaptive spectral deferred correction methods",
+          "year": 2015,
+          "venue": "SIAM Journal on Scientific Computing",
+          "url": "https://math.sustech.edu.cn/user/show/50.html?lang=en",
+          "selectionReason": "南科大官方院系页列出的相场长时间计算代表作"
+        },
+        {
+          "title": "On discrete least square projection in unbounded domain with random evaluations and its application to parametric uncertainty quantification",
+          "year": 2014,
+          "venue": "SIAM Journal on Scientific Computing",
+          "url": "https://math.sustech.edu.cn/user/show/50.html?lang=en",
+          "selectionReason": "南科大官方院系页列出的不确定性量化代表作"
+        },
+        {
+          "title": "An adaptive time-stepping strategy for the molecular beam epitaxy models",
+          "year": 2011,
+          "venue": "SIAM Journal on Scientific Computing",
+          "url": "https://math.sustech.edu.cn/user/show/50.html?lang=en",
+          "selectionReason": "南科大官方院系页列出的自适应时间步代表作"
+        },
+        {
+          "title": "Convergence analysis of the Jacobi spectral-collocation methods for Volterra integral equations with a weakly singular kernel",
+          "year": 2010,
+          "venue": "Mathematics of Computation",
+          "url": "https://math.sustech.edu.cn/user/show/50.html?lang=en",
+          "selectionReason": "南科大官方院系页列出的谱配置分析代表作"
+        },
+        {
+          "title": "Stability analysis of large time-stepping methods for epitaxial growth models",
+          "year": 2006,
+          "venue": "SIAM Journal on Numerical Analysis",
+          "url": "https://math.sustech.edu.cn/user/show/50.html?lang=en",
+          "selectionReason": "南科大官方院系页列出的稳定性分析代表作"
+        },
+        {
+          "title": "Adaptive mesh methods for one- and two-dimensional hyperbolic conservation laws",
+          "year": 2003,
+          "venue": "SIAM Journal on Numerical Analysis",
+          "url": "https://math.sustech.edu.cn/user/show/50.html?lang=en",
+          "selectionReason": "南科大官方院系页列出的自适应网格代表作"
+        },
+        {
+          "title": "Adaptive finite element approximation for distributed elliptic optimal control problems",
+          "year": 2002,
+          "venue": "SIAM Journal on Control and Optimization",
+          "url": "https://math.sustech.edu.cn/user/show/50.html?lang=en",
+          "selectionReason": "南科大官方院系页列出的最优控制有限元代表作"
+        },
+        {
+          "title": "Moving mesh methods in multiple dimensions based on harmonic maps",
+          "year": 2001,
+          "venue": "Journal of Computational Physics",
+          "url": "https://math.sustech.edu.cn/user/show/50.html?lang=en",
+          "selectionReason": "南科大官方院系页列出的移动网格代表作"
+        }
+      ],
       "grantsAwards": [
         {
           "summary": "NSFC key projects in adaptive scientific computing"
@@ -2371,13 +2874,36 @@
             "research",
             "career_stage"
           ]
+        },
+        {
+          "type": "official_department_publication_list",
+          "url": "https://math.sustech.edu.cn/user/show/50.html?lang=en",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "career_timeline",
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [
         "未见当前个人招聘页"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 13,
+        "recentWorksCount": 0,
+        "provider": "OfficialDepartmentHomepage",
+        "countLabelZh": "南科大院系页列出的代表性正式论文",
+        "countCaveatZh": "院系页列出 13 篇代表作而非完整生涯目录，最近一篇为 2015 年；总论文数显著高于此下界。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "pku-pingwen-zhang",
@@ -2398,6 +2924,67 @@
         "data science"
       ],
       "researchSummaryZh": "中国科学院院士、SIAM Fellow、国家创新研究群体负责人",
+      "researchEvolution": [
+        "早期工作聚焦涡方法、移动网格和偏微分方程数值分析；随后长期发展复杂流体、液晶与准晶的多尺度建模和科学计算；近年进一步延伸到高指标鞍点动力学、深度学习反问题和未知动力系统的数据同化。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "π-HuB: the proteomic navigator of the human body",
+          "year": 2024,
+          "venue": "Nature",
+          "url": "https://www.math.pku.edu.cn/pzhang/en/publication/",
+          "selectionReason": "北大官方论文页列出的跨学科代表作"
+        },
+        {
+          "title": "Theory of Polygonal Phases Self-Assembled from T-Shaped Liquid Crystalline Molecules",
+          "year": 2024,
+          "venue": "Macromolecules",
+          "url": "https://www.math.pku.edu.cn/pzhang/en/publication/",
+          "selectionReason": "北大官方论文页列出的软物质代表作"
+        },
+        {
+          "title": "Semi-implicit method of high-index saddle dynamics and application to construct solution landscape",
+          "year": 2024,
+          "venue": "Numerical Methods for Partial Differential Equations",
+          "url": "https://www.math.pku.edu.cn/pzhang/en/publication/",
+          "selectionReason": "北大官方论文页列出的鞍点动力学代表作"
+        },
+        {
+          "title": "Recovering the Source Term in Elliptic Equation via Deep Learning: Method and Convergence Analysis",
+          "year": 2024,
+          "venue": "East Asian Journal on Applied Mathematics",
+          "url": "https://www.math.pku.edu.cn/pzhang/en/publication/",
+          "selectionReason": "北大官方论文页列出的科学机器学习代表作"
+        },
+        {
+          "title": "Numerical Methods and Analysis of Computing Quasiperiodic Systems",
+          "year": 2024,
+          "venue": "SIAM Journal on Numerical Analysis",
+          "url": "https://www.math.pku.edu.cn/pzhang/en/publication/",
+          "selectionReason": "北大官方论文页列出的准周期系统数值分析代表作"
+        },
+        {
+          "title": "Nucleation and phase transition of decagonal quasicrystals",
+          "year": 2024,
+          "venue": "Journal of Chemical Physics",
+          "url": "https://www.math.pku.edu.cn/pzhang/en/publication/",
+          "selectionReason": "北大官方论文页列出的准晶相变代表作"
+        },
+        {
+          "title": "Latent assimilation with implicit neural representations for unknown dynamics",
+          "year": 2024,
+          "venue": "Journal of Computational Physics",
+          "url": "https://www.math.pku.edu.cn/pzhang/en/publication/",
+          "selectionReason": "北大官方论文页列出的数据同化代表作"
+        },
+        {
+          "title": "An Adaptive Method Based on Local Dynamic Mode Decomposition for Parametric Dynamical Systems",
+          "year": 2024,
+          "venue": "Communications in Computational Physics",
+          "url": "https://www.math.pku.edu.cn/pzhang/en/publication/",
+          "selectionReason": "北大官方论文页列出的参数动力系统代表作"
+        }
+      ],
       "grantsAwards": [
         {
           "summary": "NSFC Science Fund for Creative Research Groups"
@@ -2460,13 +3047,44 @@
           "supportsClaims": [
             "bibliographic_identity_hint"
           ]
+        },
+        {
+          "type": "official_publication_list",
+          "url": "https://www.math.pku.edu.cn/pzhang/en/publication/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
+        },
+        {
+          "type": "author_cv",
+          "url": "https://www.math.pku.edu.cn/pzhang/cv/pzhang_cv_english_202509.pdf",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "career_timeline",
+            "full_publication_history"
+          ]
         }
       ],
       "uncertainties": [
         "行政职责重，宜作为学术参照而非默认申请目标"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 8,
+        "recentWorksCount": 8,
+        "provider": "OfficialHomepage",
+        "countLabelZh": "本次核验的近期正式论文（下界）",
+        "countCaveatZh": "仅统计北京大学官方论文页中逐条核验的 8 篇 2024 年代表作；其完整生涯论文数量显著更高。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     }
   ],
   "people": [
@@ -2488,6 +3106,46 @@
         "nonconvex optimization"
       ],
       "researchSummaryZh": "ENS博士、Berkeley博后、NeurIPS Outstanding Paper；已形成独立ML优化研究主线。",
+      "researchEvolution": [
+        "博士阶段研究最小二乘、平均与加速随机梯度方法；Berkeley 博后阶段延伸到采样复杂度和统计学习；在 EPFL 建组后发展鲁棒深度学习、权重衰减与训练动力学，近期重点转向长上下文、下一词预测和上下文学习的理论基础。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Space-Efficient Language Generation in the Limit",
+          "year": 2026,
+          "venue": "COLT",
+          "url": "https://proceedings.mlr.press/v336/flammarion26a.html",
+          "selectionReason": "PMLR 官方页面列出的资源受限语言生成理论代表作"
+        },
+        {
+          "title": "Long-Context Linear System Identification",
+          "year": 2025,
+          "venue": "ICLR",
+          "url": "https://www.epfl.ch/labs/tml/theory-of-machine-learning/research/theoretical-foundation-of-llms/",
+          "selectionReason": "EPFL TML 官方研究页列出的长上下文理论代表作"
+        },
+        {
+          "title": "On the Sample Complexity of Next-Token Prediction",
+          "year": 2025,
+          "venue": "AISTATS",
+          "url": "https://www.epfl.ch/labs/tml/theory-of-machine-learning/research/theoretical-foundation-of-llms/",
+          "selectionReason": "EPFL TML 官方研究页列出的下一词预测代表作"
+        },
+        {
+          "title": "Learning In-context n-grams with Transformers: Sub-n-grams Are Near Stationary Points",
+          "year": 2025,
+          "venue": "ICML",
+          "url": "https://www.epfl.ch/labs/tml/theory-of-machine-learning/research/theoretical-foundation-of-llms/",
+          "selectionReason": "EPFL TML 官方研究页列出的上下文学习优化代表作"
+        },
+        {
+          "title": "Long is more for alignment: A simple but tough-to-beat baseline for instruction fine-tuning",
+          "year": 2024,
+          "venue": "ICML",
+          "url": "https://www.epfl.ch/labs/tml/theory-of-machine-learning/research/theoretical-foundation-of-llms/",
+          "selectionReason": "EPFL TML 官方研究页列出的模型对齐代表作"
+        }
+      ],
       "currentStatusZh": "ENS博士、Berkeley博后、NeurIPS Outstanding Paper；已形成独立ML优化研究主线。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -2548,11 +3206,54 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_institution_profile",
+          "url": "https://people.epfl.ch/nicolas.flammarion",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "career_timeline",
+            "research",
+            "awards",
+            "group_members"
+          ]
+        },
+        {
+          "type": "official_lab_publication_list",
+          "url": "https://www.epfl.ch/labs/tml/theory-of-machine-learning/publications/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works"
+          ]
+        },
+        {
+          "type": "official_lab_research_page",
+          "url": "https://www.epfl.ch/labs/tml/theory-of-machine-learning/research/theoretical-foundation-of-llms/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 5,
+        "recentWorksCount": 5,
+        "provider": "OfficialInstitutionHomepage",
+        "countLabelZh": "本次逐条核验的近期正式论文（下界）",
+        "countCaveatZh": "EPFL TML 官方论文页覆盖完整团队成果；此处只选取并核验 5 篇能代表其本人当前研究主线的论文，不作为生涯论文总数。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "fr-inria-adrien-taylor",
@@ -2572,6 +3273,10 @@
         "distributed optimization"
       ],
       "researchSummaryZh": "Tucker Prize finalist、ERC Starting Grant 2024、PEPit核心作者，青年优化学者上限样本。",
+      "researchEvolution": [
+        "博士阶段围绕一阶优化方法的精确最坏情形分析和性能估计展开；此后把半正定性能估计、自动化证明与随机、分布式优化相结合，并在 2024-2029 年 ERC CASPER 项目中进一步推进可复现、计算机辅助的优化理论。"
+      ],
+      "representativeWorks": [],
       "currentStatusZh": "Tucker Prize finalist、ERC Starting Grant 2024、PEPit核心作者，青年优化学者上限样本。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -2644,11 +3349,24 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_profile_homepage",
+          "url": "https://adrientaylor.github.io/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "research_evolution",
+            "career_timeline",
+            "group_members",
+            "active_grant"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "venueBreakdown": []
     },
     {
       "id": "de-ellis-antonio-orvieto",
@@ -2668,6 +3386,8 @@
         "sequence models"
       ],
       "researchSummaryZh": "ETH Medal、AI2050 Fellowship，博士毕业即独立领导Deep Models and Optimization组。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "ETH Medal、AI2050 Fellowship，博士毕业即独立领导Deep Models and Optimization组。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -2752,6 +3472,8 @@
         "SHOT solver"
       ],
       "researchSummaryZh": "最佳博士论文、Newton International Fellowship、SHOT求解器开发者。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "最佳博士论文、Newton International Fellowship、SHOT求解器开发者。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -2836,6 +3558,8 @@
         "SCIP"
       ],
       "researchSummaryZh": "SCIP核心开发者，已任ZIB研究组负责人，专注全局MINLP与切平面。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "SCIP核心开发者，已任ZIB研究组负责人，专注全局MINLP与切平面。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -2920,6 +3644,8 @@
         "energy optimization"
       ],
       "researchSummaryZh": "2024年完成精确整数规划算法与证书博士论文，直接参与SCIP生态。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "2024年完成精确整数规划算法与证书博士论文，直接参与SCIP生态。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3006,6 +3732,8 @@
         "decision making under uncertainty"
       ],
       "researchSummaryZh": "博士毕业五年晋升副教授，并获RAEng Senior Research Fellowship，理论与工程结合强。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "博士毕业五年晋升副教授，并获RAEng Senior Research Fellowship，理论与工程结合强。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3090,6 +3818,8 @@
         "feedback optimization"
       ],
       "researchSummaryZh": "2020博士后迅速成为KTH AP/WASP Fellow，获2026 Göran Gustafsson Prize及多项新基金。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "2020博士后迅速成为KTH AP/WASP Fellow，获2026 Göran Gustafsson Prize及多项新基金。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3174,6 +3904,8 @@
         "mathematical ML"
       ],
       "researchSummaryZh": "深度网络逼近理论与数值分析交叉方向的高影响青年学者，已有独立项目组合。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "深度网络逼近理论与数值分析交叉方向的高影响青年学者，已有独立项目组合。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3270,6 +4002,8 @@
         "particle optimization"
       ],
       "researchSummaryZh": "ETH Schwab谱系、MIT博后，2025晋升教授并建立SciML数学基础研究组。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "ETH Schwab谱系、MIT博后，2025晋升教授并建立SciML数学基础研究组。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3354,6 +4088,8 @@
         "approximation theory"
       ],
       "researchSummaryZh": "ETH Mishra谱系、Caltech博后、曾任维也纳大学TT AP；学术转量化研究路径参考价值高。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "ETH Mishra谱系、Caltech博后、曾任维也纳大学TT AP；学术转量化研究路径参考价值高。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3438,6 +4174,8 @@
         "optimal control"
       ],
       "researchSummaryZh": "JuMP/MathOptInterface核心开发者，MIT Parrilo博后，非凸问题隐藏凸性方向独立PI。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "JuMP/MathOptInterface核心开发者，MIT Parrilo博后，非凸问题隐藏凸性方向独立PI。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3522,6 +4260,8 @@
         "game theory"
       ],
       "researchSummaryZh": "Patrinos学术谱系，长期研究非光滑、非凸、单调包含和双层优化，方向直接相关。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Patrinos学术谱系，长期研究非光滑、非凸、单调包含和双层优化，方向直接相关。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3606,6 +4346,54 @@
         "complexity analysis"
       ],
       "researchSummaryZh": "Nesterov博士生，准牛顿超线性收敛与现代自适应优化方向成果突出。",
+      "researchEvolution": [
+        "博士阶段围绕可证明效率的准牛顿方法、局部超线性收敛和连续优化复杂度分析形成主线。",
+        "2023-2025 年明显扩展到随机与自适应梯度方法、联邦优化、通信受限博弈和面向机器学习的优化算法。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Stabilized Proximal-Point Methods for Federated Optimization",
+          "year": 2024,
+          "venue": "Advances in Neural Information Processing Systems",
+          "url": "https://arodomanov.github.io/files/cv.pdf",
+          "selectionReason": "作者 CV 列出的近期联邦优化代表作"
+        },
+        {
+          "title": "Universality of AdaGrad Stepsizes for Stochastic Optimization: Inexact Oracle, Acceleration and Variance Reduction",
+          "year": 2024,
+          "venue": "Advances in Neural Information Processing Systems",
+          "url": "https://arodomanov.github.io/files/cv.pdf",
+          "selectionReason": "作者 CV 列出的近期自适应随机优化代表作"
+        },
+        {
+          "title": "Non-convex Stochastic Composite Optimization with Polyak Momentum",
+          "year": 2024,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://arodomanov.github.io/files/cv.pdf",
+          "selectionReason": "作者 CV 列出的近期非凸随机优化代表作"
+        },
+        {
+          "title": "Federated Optimization with Doubly Regularized Drift Correction",
+          "year": 2024,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://arodomanov.github.io/files/cv.pdf",
+          "selectionReason": "作者 CV 列出的近期联邦优化代表作"
+        },
+        {
+          "title": "Universal Gradient Methods for Stochastic Convex Optimization",
+          "year": 2024,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://arodomanov.github.io/files/cv.pdf",
+          "selectionReason": "作者 CV 列出的近期随机凸优化代表作"
+        },
+        {
+          "title": "Polynomial Preconditioning for Gradient Methods",
+          "year": 2023,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://arodomanov.github.io/files/cv.pdf",
+          "selectionReason": "作者 CV 列出的梯度方法代表作"
+        }
+      ],
       "currentStatusZh": "Nesterov博士生，准牛顿超线性收敛与现代自适应优化方向成果突出。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3678,11 +4466,23 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "author_cv",
+          "url": "https://arodomanov.github.io/files/cv.pdf",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "career_timeline",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "venueBreakdown": []
     },
     {
       "id": "ch-uzh-anastasiia-koloskova",
@@ -3702,6 +4502,46 @@
         "ML optimization"
       ],
       "researchSummaryZh": "EPFL Thesis Distinction、ELLIS PhD Award、Google PhD Fellowship，2025建立独立组。",
+      "researchEvolution": [
+        "博士阶段以通信压缩、去中心化 SGD、动态图拓扑和协作式学习为主线；随后扩展到异步联邦学习、梯度裁剪和差分隐私；Stanford 博后及独立任职后进一步研究机器遗忘、隐私优化和可部署的协作 AI。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Certified Unlearning for Neural Networks",
+          "year": 2025,
+          "venue": "ICML",
+          "url": "https://openreview.net/forum?id=3rWQlV3s1I",
+          "selectionReason": "作者主页列出的机器遗忘代表作"
+        },
+        {
+          "title": "The Privacy Power of Correlated Noise in Decentralized Learning",
+          "year": 2024,
+          "venue": "ICML",
+          "url": "https://koloskova.github.io/",
+          "selectionReason": "作者主页列出的去中心化隐私学习代表作"
+        },
+        {
+          "title": "Sharper Convergence Guarantees for Asynchronous SGD for Distributed and Federated Learning",
+          "year": 2022,
+          "venue": "NeurIPS",
+          "url": "https://openreview.net/forum?id=4_oCZgBIVI",
+          "selectionReason": "作者主页列出的 NeurIPS oral 异步 SGD 代表作"
+        },
+        {
+          "title": "A Unified Theory of Decentralized SGD with Changing Topology and Local Updates",
+          "year": 2020,
+          "venue": "ICML",
+          "url": "https://proceedings.mlr.press/v119/koloskova20a.html",
+          "selectionReason": "作者主页与 PMLR 官方页面共同核验的去中心化 SGD 理论代表作"
+        },
+        {
+          "title": "Decentralized Stochastic Optimization and Gossip Algorithms with Compressed Communication",
+          "year": 2019,
+          "venue": "ICML",
+          "url": "https://proceedings.mlr.press/v97/koloskova19a.html",
+          "selectionReason": "作者主页与 PMLR 官方页面共同核验的通信压缩代表作"
+        }
+      ],
       "currentStatusZh": "EPFL Thesis Distinction、ELLIS PhD Award、Google PhD Fellowship，2025建立独立组。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3762,11 +4602,45 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_institution_profile",
+          "url": "https://www.dsi.uzh.ch/de/people/dsiprofs/akoloskova.html",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "career_timeline",
+            "research",
+            "awards"
+          ]
+        },
+        {
+          "type": "author_profile_and_publication_list",
+          "url": "https://koloskova.github.io/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution",
+            "accepts_applications"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 15,
+        "recentWorksCount": 8,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "作者主页列出的同行评审论文",
+        "countCaveatZh": "按作者主页 Publications 栏目逐条统计 15 篇；博士论文不计入论文数，后续新增成果以主页更新为准。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "at-tuwien-tatjana-chavdarova",
@@ -3786,6 +4660,8 @@
         "optimization dynamics"
       ],
       "researchSummaryZh": "EPFL博士、Berkeley博后，获得€1.8M WWTF VRG并于2026建立新组，VI高度相关。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "EPFL博士、Berkeley博后，获得€1.8M WWTF VRG并于2026建立新组，VI高度相关。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3870,6 +4746,30 @@
         "robust step sizes"
       ],
       "researchSummaryZh": "Michael Ulbrich博士生，现受Bach、Taylor、Şimşekli联合指导，连接传统优化与大模型训练。",
+      "researchEvolution": [],
+      "representativeWorks": [
+        {
+          "title": "Understanding the behaviour of learning-rate schedules for LLM training",
+          "year": 2025,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://fabian-sp.github.io/",
+          "selectionReason": "作者主页列出的近期 LLM 优化代表作"
+        },
+        {
+          "title": "What are good optimizers for training diffusion models?",
+          "year": 2025,
+          "venue": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+          "url": "https://fabian-sp.github.io/",
+          "selectionReason": "作者主页列出的近期扩散模型优化代表作"
+        },
+        {
+          "title": "A Proximal Polyak Step Size",
+          "year": 2023,
+          "venue": "Transactions on Machine Learning Research",
+          "url": "https://fabian-sp.github.io/",
+          "selectionReason": "作者主页列出的自适应步长代表作"
+        }
+      ],
       "currentStatusZh": "Michael Ulbrich博士生，现受Bach、Taylor、Şimşekli联合指导，连接传统优化与大模型训练。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -3930,11 +4830,23 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "author_publication_list",
+          "url": "https://fabian-sp.github.io/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_list",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "venueBreakdown": []
     },
     {
       "id": "fr-polytechnique-aymeric-dieuleveut",
@@ -3954,6 +4866,8 @@
         "uncertainty quantification"
       ],
       "researchSummaryZh": "ENS Sierra博士、EPFL博后，已晋升教授并形成优化、统计与联邦学习交叉团队。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "ENS Sierra博士、EPFL博后，已晋升教授并形成优化、统计与联邦学习交叉团队。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -4058,6 +4972,46 @@
         "robust learning"
       ],
       "researchSummaryZh": "Bach与Massoulié博士生、Jaggi组博后，分布式优化方向已形成独立研究和指导团队。",
+      "researchEvolution": [
+        "博士阶段聚焦加速去中心化有限和优化、方差缩减和网络拓扑；EPFL 博后阶段延伸到随机 Bregman、隐私和异步学习；进入 INRIA 后进一步研究 Byzantine 鲁棒性、镜像下降，并把机器学习方法用于生态与异质科学数据。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Byzantine-Robust Gossip: Insights from a Dual Approach",
+          "year": 2026,
+          "venue": "Transactions on Machine Learning Research",
+          "url": "https://www.di.ens.fr/~hhendrikx/",
+          "selectionReason": "作者主页列出的 Byzantine 鲁棒去中心化学习代表作"
+        },
+        {
+          "title": "Unified breakdown analysis for byzantine robust gossip",
+          "year": 2025,
+          "venue": "ICML",
+          "url": "https://www.di.ens.fr/~hhendrikx/",
+          "selectionReason": "作者主页列出的鲁棒 gossip 理论代表作"
+        },
+        {
+          "title": "The Relative Gaussian Mechanism and its Application to Private Gradient Descent",
+          "year": 2024,
+          "venue": "AISTATS",
+          "url": "https://www.di.ens.fr/~hhendrikx/",
+          "selectionReason": "作者主页列出的差分隐私优化代表作"
+        },
+        {
+          "title": "Beyond spectral gap: the role of the topology in decentralized learning",
+          "year": 2023,
+          "venue": "Journal of Machine Learning Research",
+          "url": "https://www.di.ens.fr/~hhendrikx/",
+          "selectionReason": "作者主页列出的网络拓扑与去中心化学习代表作"
+        },
+        {
+          "title": "An Optimal Algorithm for Decentralized Finite Sum Optimization",
+          "year": 2021,
+          "venue": "SIAM Journal on Optimization",
+          "url": "https://www.di.ens.fr/~hhendrikx/",
+          "selectionReason": "作者主页列出的去中心化有限和优化代表作"
+        }
+      ],
       "currentStatusZh": "Bach与Massoulié博士生、Jaggi组博后，分布式优化方向已形成独立研究和指导团队。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -4118,11 +5072,37 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "author_profile_and_publication_list",
+          "url": "https://www.di.ens.fr/~hhendrikx/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "career_timeline",
+            "research",
+            "publication_metrics",
+            "representative_works",
+            "research_evolution",
+            "funding",
+            "official_opening"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 20,
+        "recentWorksCount": 13,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "作者主页列出的同行评审论文",
+        "countCaveatZh": "逐条统计作者主页 2017-2026 年 20 篇正式会议或期刊论文；预印本、博士论文和未正式发表项目不计入。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "fr-inria-baptiste-goujaud",
@@ -4142,6 +5122,46 @@
         "diffusion models"
       ],
       "researchSummaryZh": "Taylor与Dieuleveut联合指导，获IP Paris最佳数学博士奖，优化算法自动分析主线清晰。",
+      "researchEvolution": [
+        "博士阶段围绕一阶优化的最坏情形分析、反例构造、重球法与周期步长建立理论工具；随后把性能估计问题自动化为 PEPit；INRIA 博后阶段进一步转向分布式学习、鲁棒性、隐私、扩散模型和神经网络几何。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Proving linear mode connectivity of neural networks via optimal transport",
+          "year": 2024,
+          "venue": "AISTATS",
+          "url": "https://bgoujaud.github.io/publication/conference-paper/lmc/",
+          "selectionReason": "作者主页列出的神经网络几何代表作"
+        },
+        {
+          "title": "PEPit: computer-assisted worst-case analyses of first-order optimization methods in Python",
+          "year": 2024,
+          "venue": "Mathematical Programming Computation",
+          "url": "https://bgoujaud.github.io/publication/journal-article/pepit/",
+          "selectionReason": "作者主页列出的计算机辅助优化分析平台代表作"
+        },
+        {
+          "title": "Gradient descent is optimal under lower restricted secant inequality and upper error bound",
+          "year": 2023,
+          "venue": "NeurIPS",
+          "url": "https://bgoujaud.github.io/publication/conference-paper/rsi/",
+          "selectionReason": "作者主页列出的一阶方法最优性代表作"
+        },
+        {
+          "title": "Quadratic minimization: from conjugate gradient to an adaptive Heavy-ball method with Polyak step-sizes",
+          "year": 2022,
+          "venue": "Open Journal of Mathematical Optimization",
+          "url": "https://bgoujaud.github.io/publication/",
+          "selectionReason": "作者主页列出的自适应重球法代表作"
+        },
+        {
+          "title": "Super-acceleration with cyclical step-sizes",
+          "year": 2022,
+          "venue": "AISTATS",
+          "url": "https://bgoujaud.github.io/publication/",
+          "selectionReason": "作者主页列出的周期步长加速代表作"
+        }
+      ],
       "currentStatusZh": "Taylor与Dieuleveut联合指导，获IP Paris最佳数学博士奖，优化算法自动分析主线清晰。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -4202,11 +5222,43 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "author_profile_homepage",
+          "url": "https://bgoujaud.github.io/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "career_timeline",
+            "research"
+          ]
+        },
+        {
+          "type": "author_publication_list",
+          "url": "https://bgoujaud.github.io/publication/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 9,
+        "recentWorksCount": 9,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "作者主页列出的正式论文",
+        "countCaveatZh": "统计个人主页中 2019-2024 年的 9 篇期刊或正式会议论文；预印本与 workshop 不计入。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "de-tum-felix-dietrich",
@@ -4226,6 +5278,8 @@
         "numerical algorithms"
       ],
       "researchSummaryZh": "Emmy Noether组长，2024获TUM教授职位，SciML数值算法与动力系统方向突出。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Emmy Noether组长，2024获TUM教授职位，SciML数值算法与动力系统方向突出。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -4310,6 +5364,8 @@
         "uncertainty"
       ],
       "researchSummaryZh": "随机VI与不确定博弈高度相关，Delft博后后建立独立GamesAI方向。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "随机VI与不确定博弈高度相关，Delft博后后建立独立GamesAI方向。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -4394,6 +5450,8 @@
         "data-driven control"
       ],
       "researchSummaryZh": "Grammatico博士生、Dörfler组博后，获得IEEE Roberto Tempo Best CDC Paper Award。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Grammatico博士生、Dörfler组博后，获得IEEE Roberto Tempo Best CDC Paper Award。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -4478,6 +5536,8 @@
         "hybrid systems"
       ],
       "researchSummaryZh": "Delft与Oxford博后，现任IMT permanent faculty，博弈、MPEC与鲁棒控制交叉明显。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Delft与Oxford博后，现任IMT permanent faculty，博弈、MPEC与鲁棒控制交叉明显。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -4574,6 +5634,47 @@
         "control"
       ],
       "researchSummaryZh": "Penn博士、ELLIS-SimTech独立组长，2025加入Polytechnique并获ANR JCJC。",
+      "researchEvolution": [
+        "早期从图信号采样、稀疏模型和无线资源配置切入；博士后阶段形成约束统计学习、安全强化学习和图神经网络迁移性主线；独立任职后进一步拓展到约束采样、微分方程学习、等变网络与统计公平约束。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Solving Differential Equations with Constrained Learning",
+          "year": 2025,
+          "venue": "ICLR",
+          "url": "https://www.luizchamon.com/pages/publications.html#Moro25s",
+          "selectionReason": "作者主页列出的约束科学机器学习代表作"
+        },
+        {
+          "title": "Constrained sampling with primal-dual Langevin Monte Carlo",
+          "year": 2024,
+          "venue": "NeurIPS",
+          "url": "https://www.luizchamon.com/pages/publications.html#Chamon24c",
+          "selectionReason": "作者主页列出的原始-对偶约束采样代表作"
+        },
+        {
+          "title": "State augmented constrained reinforcement learning: Overcoming the limitations of learning with rewards",
+          "year": 2024,
+          "venue": "IEEE Transactions on Automatic Control",
+          "url": "https://www.luizchamon.com/pages/publications.html",
+          "selectionReason": "作者主页列出的安全约束强化学习代表作"
+        },
+        {
+          "title": "Constrained Learning with Non-Convex Losses",
+          "year": 2023,
+          "venue": "IEEE Transactions on Information Theory",
+          "doi": "https://doi.org/10.1109/TIT.2022.3187948",
+          "url": "https://www.luizchamon.com/pages/publications.html",
+          "selectionReason": "作者主页列出的非凸约束学习理论代表作"
+        },
+        {
+          "title": "Constrained reinforcement learning has zero duality gap",
+          "year": 2019,
+          "venue": "NeurIPS",
+          "url": "https://www.luizchamon.com/pages/publications.html",
+          "selectionReason": "作者主页列出的约束强化学习对偶理论代表作"
+        }
+      ],
       "currentStatusZh": "Penn博士、ELLIS-SimTech独立组长，2025加入Polytechnique并获ANR JCJC。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -4646,11 +5747,45 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "author_profile_homepage",
+          "url": "https://luizchamon.com/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research",
+            "awards",
+            "funding",
+            "funded_expansion"
+          ]
+        },
+        {
+          "type": "author_publication_list",
+          "url": "https://www.luizchamon.com/pages/publications.html",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 10,
+        "recentWorksCount": 6,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "作者主页列出的精选正式论文",
+        "countCaveatZh": "统计个人主页 Selected publications 的 10 篇正式论文；完整期刊、机器学习、控制和信号处理目录更长，因此该数值是下界。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "fr-inria-quentin-bertrand",
@@ -4670,6 +5805,46 @@
         "sparse learning"
       ],
       "researchSummaryZh": "Inria博士、Mila博后，2024获Inria永久研究员职位及CIFAR Global Scholar。",
+      "researchEvolution": [
+        "博士阶段研究高维稀疏学习、坐标下降和超参数隐式微分；Mila 博后阶段转向多智能体学习与生成模型自训练稳定性；进入 INRIA 后聚焦扩散与流匹配泛化、自消费生成模型、合成数据和多智能体协作。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "On the Closed-Form of Flow Matching: Generalization Does Not Arise from Target Stochasticity",
+          "year": 2025,
+          "venue": "NeurIPS",
+          "url": "https://qb3.github.io/research.html",
+          "selectionReason": "作者主页列出的 NeurIPS oral 流匹配泛化代表作"
+        },
+        {
+          "title": "Self-Play Q-learners Can Provably Collude in the Iterated Prisoner's Dilemma",
+          "year": 2025,
+          "venue": "ICML",
+          "url": "https://qb3.github.io/research.html",
+          "selectionReason": "作者主页列出的多智能体学习代表作"
+        },
+        {
+          "title": "Self-Consuming Generative Models with Curated Data Provably Optimize Human Preferences",
+          "year": 2024,
+          "venue": "NeurIPS",
+          "url": "https://qb3.github.io/research.html",
+          "selectionReason": "作者主页列出的生成模型自消费数据代表作"
+        },
+        {
+          "title": "On the Stability of Iterative Retraining of Generative Models on their own Data",
+          "year": 2024,
+          "venue": "ICLR",
+          "url": "https://qb3.github.io/research.html",
+          "selectionReason": "作者主页列出的 ICLR spotlight 迭代重训练代表作"
+        },
+        {
+          "title": "Implicit differentiation for fast hyperparameter selection in non-smooth convex learning",
+          "year": 2022,
+          "venue": "Journal of Machine Learning Research",
+          "url": "https://qb3.github.io/research.html",
+          "selectionReason": "作者主页列出的非光滑超参数优化代表作"
+        }
+      ],
       "currentStatusZh": "Inria博士、Mila博后，2024获Inria永久研究员职位及CIFAR Global Scholar。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -4742,11 +5917,46 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "author_profile_homepage",
+          "url": "https://qb3.github.io/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "career_timeline",
+            "research",
+            "awards",
+            "funding",
+            "fellowship"
+          ]
+        },
+        {
+          "type": "author_publication_list",
+          "url": "https://qb3.github.io/research.html",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 18,
+        "recentWorksCount": 13,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "作者主页列出的正式论文",
+        "countCaveatZh": "逐条统计 Research 页 2019-2026 年 18 篇正式期刊或会议论文；教程、博士论文和 workshop-only 项目不计入。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "fr-apple-pierre-ablin",
@@ -4766,6 +5976,46 @@
         "signal processing"
       ],
       "researchSummaryZh": "Inria博士、ENS Peyré博后、前CNRS研究员，现为Apple巴黎ML研究员并联合指导学生。",
+      "researchEvolution": [
+        "早期从脑信号处理、独立成分分析和正交流形拟牛顿法切入；随后研究自动微分、隐式微分、双层与黎曼优化；进入 Apple 后进一步把这些工具用于神经网络动力学、最优传输、长序列训练和大模型训练分布优化。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Optimization without retraction on the generalized Stiefel manifold",
+          "year": 2024,
+          "venue": "ICML",
+          "url": "https://pierreablin.com/publications/",
+          "selectionReason": "作者主页列出的广义 Stiefel 流形优化代表作"
+        },
+        {
+          "title": "Careful with that Scalpel: Improving Gradient Surgery with an EMA",
+          "year": 2024,
+          "venue": "ICML",
+          "url": "https://pierreablin.com/publications/",
+          "selectionReason": "作者主页列出的多任务梯度优化代表作"
+        },
+        {
+          "title": "A framework for bilevel optimization that enables stochastic and global variance reduction algorithms",
+          "year": 2022,
+          "venue": "NeurIPS",
+          "url": "https://pierreablin.com/publications/",
+          "selectionReason": "作者主页列出的双层随机优化代表作"
+        },
+        {
+          "title": "Fast and accurate optimization on the orthogonal manifold without retraction",
+          "year": 2022,
+          "venue": "AISTATS",
+          "url": "https://pierreablin.com/publications/",
+          "selectionReason": "作者主页列出的无回缩正交流形优化代表作"
+        },
+        {
+          "title": "Super-efficiency of automatic differentiation for functions defined as a minimum",
+          "year": 2020,
+          "venue": "ICML",
+          "url": "https://pierreablin.com/publications/",
+          "selectionReason": "作者主页列出的隐式目标自动微分代表作"
+        }
+      ],
       "currentStatusZh": "Inria博士、ENS Peyré博后、前CNRS研究员，现为Apple巴黎ML研究员并联合指导学生。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -4838,11 +6088,43 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "author_profile_homepage",
+          "url": "https://pierreablin.com/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research",
+            "group_supervision"
+          ]
+        },
+        {
+          "type": "author_publication_list",
+          "url": "https://pierreablin.com/publications/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 5,
+        "recentWorksCount": 5,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "本次逐条核验的正式论文（下界）",
+        "countCaveatZh": "作者主页列出约三十篇成果并提示 Google Scholar 更新更快；此处仅统计与本站方向最相关的 5 篇代表作。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "fr-inria-thomas-moreau",
@@ -4862,6 +6144,8 @@
         "scientific Python"
       ],
       "researchSummaryZh": "Benchopt、joblib、loky等开源生态主要维护者，连接优化理论、可复现基准和应用。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Benchopt、joblib、loky等开源生态主要维护者，连接优化理论、可复现基准和应用。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -4948,6 +6232,46 @@
         "rigorous numerics"
       ],
       "researchSummaryZh": "2017博士、TUM博后，现为Polytechnique CMAP青年教师，严格数值证明路线独特。",
+      "researchEvolution": [
+        "博士阶段把动力系统和偏微分方程中的分析问题转化为可验证数值证明；随后在随机动力系统、交叉扩散、Navier-Stokes 周期轨道和半线性抛物方程中发展多项式混沌、后验误差验证与计算机辅助证明。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "A posteriori validation of generalized polynomial chaos expansions",
+          "year": 2023,
+          "venue": "SIAM Journal on Applied Dynamical Systems",
+          "url": "https://sites.google.com/site/maximebreden/research",
+          "selectionReason": "作者主页列出的多项式混沌与严格验证代表作"
+        },
+        {
+          "title": "Computer-assisted proof of shear-induced chaos in stochastically perturbed Hopf systems",
+          "year": 2023,
+          "venue": "The Annals of Applied Probability",
+          "url": "https://sites.google.com/site/maximebreden/research",
+          "selectionReason": "作者主页列出的随机动力系统代表作"
+        },
+        {
+          "title": "Computer-assisted proofs for some nonlinear diffusion problems",
+          "year": 2022,
+          "venue": "Communications in Nonlinear Science and Numerical Simulation",
+          "url": "https://sites.google.com/site/maximebreden/research",
+          "selectionReason": "作者主页列出的非线性扩散代表作"
+        },
+        {
+          "title": "Existence of traveling wave solutions for the Diffusion Poisson Coupled Model: a computer-assisted proof",
+          "year": 2021,
+          "venue": "ESAIM: Mathematical Modelling and Numerical Analysis",
+          "url": "https://sites.google.com/site/maximebreden/research",
+          "selectionReason": "作者主页列出的行波严格证明代表作"
+        },
+        {
+          "title": "Spontaneous periodic orbits in the Navier-Stokes flow",
+          "year": 2021,
+          "venue": "Journal of Nonlinear Science",
+          "url": "https://sites.google.com/site/maximebreden/research",
+          "selectionReason": "作者主页列出的流体动力系统代表作"
+        }
+      ],
       "currentStatusZh": "2017博士、TUM博后，现为Polytechnique CMAP青年教师，严格数值证明路线独特。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -5008,11 +6332,41 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "author_publication_list",
+          "url": "https://sites.google.com/site/maximebreden/research",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
+        },
+        {
+          "type": "official_department_profile",
+          "url": "https://www.polytechnique.edu/annuaire/breden-maxime",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 17,
+        "recentWorksCount": 6,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "作者主页列出的正式论文",
+        "countCaveatZh": "按作者 Research 页面逐条统计正式发表论文，预印本单列且未计入；页面可能尚未覆盖后续成果。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "it-pisa-alice-cortinovis",
@@ -5032,6 +6386,8 @@
         "Krylov methods"
       ],
       "researchSummaryZh": "EPFL Kressner博士、Stanford Szegö AP、2025 Householder Prize得主，数值线性代数青年顶尖样本。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "EPFL Kressner博士、Stanford Szegö AP、2025 Householder Prize得主，数值线性代数青年顶尖样本。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -5128,6 +6484,50 @@
         "semismooth Newton methods"
       ],
       "researchSummaryZh": "博士毕业七年后获连续优化正教授职位；工作直接覆盖VI灵敏度分析、非光滑信赖域、半光滑Newton和PDE约束优化，并持续发表于COAP、ESAIM COCV、Numerische Mathematik等平台。",
+      "researchEvolution": [
+        "早期从障碍问题、变分不等式的灵敏度与二阶最优性出发；随后发展非光滑 PDE 约束优化、双层控制和信赖域算法；近期集中研究半光滑 Newton、非 Lipschitz 半线性 PDE、神经网络训练景观和物理引导反问题。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "A Globalized Inexact Semismooth Newton Method for Nonsmooth Fixed-point Equations involving Variational Inequalities",
+          "year": 2025,
+          "venue": "Computational Optimization and Applications",
+          "doi": "https://doi.org/10.1007/s10589-025-00722-8",
+          "url": "https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/personen_1/personendetails/christof__constantin.de.jsp",
+          "selectionReason": "官方院系页列出的半光滑 Newton 代表作"
+        },
+        {
+          "title": "Energy Space Newton Differentiability for Solution Maps of Unilateral and Bilateral Obstacle Problems",
+          "year": 2025,
+          "venue": "SIAM Journal on Control and Optimization",
+          "doi": "https://doi.org/10.1137/23M1597332",
+          "url": "https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/personen_1/personendetails/christof__constantin.de.jsp",
+          "selectionReason": "官方院系页列出的障碍问题 Newton 可微性代表作"
+        },
+        {
+          "title": "Strong Stationarity Conditions for Optimal Control Problems Governed by a Rate-Independent Evolution Variational Inequality",
+          "year": 2023,
+          "venue": "SIAM Journal on Control and Optimization",
+          "doi": "https://doi.org/10.1137/22M1494403",
+          "url": "https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/personen_1/personendetails/christof__constantin.de.jsp",
+          "selectionReason": "官方院系页列出的变分不等式控制代表作"
+        },
+        {
+          "title": "On the Stability Properties and the Optimization Landscape of Training Problems with Squared Loss for Neural Networks and General Nonlinear Conic Approximation Schemes",
+          "year": 2021,
+          "venue": "Journal of Machine Learning Research",
+          "url": "https://jmlr.org/papers/v22/20-1259.html",
+          "selectionReason": "官方院系页与 JMLR 页面共同核验的神经网络训练景观代表作"
+        },
+        {
+          "title": "Gradient-Based Solution Algorithms for a Class of Bilevel Optimization and Optimal Control Problems with a Non-Smooth Lower Level",
+          "year": 2020,
+          "venue": "SIAM Journal on Optimization",
+          "doi": "https://doi.org/10.1137/18M1225707",
+          "url": "https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/personen_1/personendetails/christof__constantin.de.jsp",
+          "selectionReason": "官方院系页列出的非光滑双层优化代表作"
+        }
+      ],
       "currentStatusZh": "博士毕业七年后获连续优化正教授职位；工作直接覆盖VI灵敏度分析、非光滑信赖域、半光滑Newton和PDE约束优化，并持续发表于COAP、ESAIM COCV、Numerische Mathematik等平台。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -5200,11 +6600,34 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_department_profile_and_publication_list",
+          "url": "https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/personen_1/personendetails/christof__constantin.de.jsp",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research",
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 5,
+        "recentWorksCount": 5,
+        "provider": "OfficialDepartmentHomepage",
+        "countLabelZh": "本次逐条核验的正式论文（下界）",
+        "countCaveatZh": "TU Darmstadt 官方页面给出完整长目录；此处只计入与非光滑优化和控制最相关的 5 篇代表作，因此不是生涯论文总数。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "at-klagenfurt-caroline-geiersbach",
@@ -5224,6 +6647,8 @@
         "shape optimization"
       ],
       "researchSummaryZh": "从WIAS非光滑变分问题组副组长成长为Klagenfurt随机优化教授；在SIAM Journal on Optimization、Mathematics of Operations Research等发表随机PDE约束与随机近端方法成果。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "从WIAS非光滑变分问题组副组长成长为Klagenfurt随机优化教授；在SIAM Journal on Optimization、Mathematics of Operations Research等发表随机PDE约束与随机近端方法成果。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -5320,6 +6745,8 @@
         "scientific computing"
       ],
       "researchSummaryZh": "ETH博士后在EPFL Hesthaven组和TU/e形成结构保持模型降阶主线，现任Pisa数值分析研究员；成果覆盖Numerische Mathematik、Vlasov-Maxwell与Hamiltonian系统。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "ETH博士后在EPFL Hesthaven组和TU/e形成结构保持模型降阶主线，现任Pisa数值分析研究员；成果覆盖Numerische Mathematik、Vlasov-Maxwell与Hamiltonian系统。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -5416,6 +6843,8 @@
         "mixed-precision optimization"
       ],
       "researchSummaryZh": "2020 Householder Prize共同获奖者，博士毕业八年内晋升副教授；在低秩矩阵函数、Sylvester/Lyapunov方程及低精度梯度法上持续发表。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "2020 Householder Prize共同获奖者，博士毕业八年内晋升副教授；在低秩矩阵函数、Sylvester/Lyapunov方程及低精度梯度法上持续发表。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -5512,6 +6941,8 @@
         "parallel-in-time methods"
       ],
       "researchSummaryZh": "从Bologna博士到Max Planck Magdeburg三年博后，再回Bologna进入tenure-track；研究聚焦大规模矩阵方程、随机Krylov方法和数据同化中的数值线性代数。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "从Bologna博士到Max Planck Magdeburg三年博后，再回Bologna进入tenure-track；研究聚焦大规模矩阵方程、随机Krylov方法和数据同化中的数值线性代数。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -5608,6 +7039,47 @@
         "scientific computing"
       ],
       "researchSummaryZh": "博士工作与Christian Lubich合作发展鲁棒、秩自适应的动力低秩积分器；2026年取得数学Habilitation，形成矩阵/张量微分方程的独立数值分析路线。",
+      "researchEvolution": [
+        "博士阶段与 Christian Lubich 合作发展对小奇异值鲁棒的动力低秩和树张量网络积分器；随后形成秩自适应、并行和二阶 BUG 方法，并把低秩积分推广到双曲方程、不确定性量化与长程相互作用算子。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "A parallel rank-adaptive integrator for dynamical low-rank approximation",
+          "year": 2024,
+          "venue": "SIAM Journal on Scientific Computing",
+          "url": "https://epubs.siam.org/doi/10.1137/23M1565103",
+          "selectionReason": "SIAM 官方页面列出的并行秩自适应代表作"
+        },
+        {
+          "title": "A robust second-order low-rank BUG integrator based on the midpoint rule",
+          "year": 2024,
+          "venue": "BIT Numerical Mathematics",
+          "url": "https://zbmath.org/authors/ceruti.gianluca",
+          "selectionReason": "zbMATH 作者档案列出的二阶低秩积分代表作"
+        },
+        {
+          "title": "Rank-adaptive time integration of tree tensor networks",
+          "year": 2023,
+          "venue": "SIAM Journal on Numerical Analysis",
+          "url": "https://zbmath.org/authors/ceruti.gianluca",
+          "selectionReason": "zbMATH 作者档案列出的树张量网络代表作"
+        },
+        {
+          "title": "On the stability of robust dynamical low-rank approximations for hyperbolic problems",
+          "year": 2023,
+          "venue": "SIAM Journal on Scientific Computing",
+          "url": "https://publikationen.bibliothek.kit.edu/1000162263",
+          "selectionReason": "KIT 机构库列出的双曲问题低秩稳定性代表作"
+        },
+        {
+          "title": "A rank-adaptive robust integrator for dynamical low-rank approximation",
+          "year": 2022,
+          "venue": "BIT Numerical Mathematics",
+          "doi": "https://doi.org/10.1007/s10543-021-00907-7",
+          "url": "https://zbmath.org/authors/ceruti.gianluca",
+          "selectionReason": "zbMATH 作者档案列出的秩自适应核心代表作"
+        }
+      ],
       "currentStatusZh": "博士工作与Christian Lubich合作发展鲁棒、秩自适应的动力低秩积分器；2026年取得数学Habilitation，形成矩阵/张量微分方程的独立数值分析路线。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -5680,11 +7152,42 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_department_profile",
+          "url": "https://www.uibk.ac.at/de/mathematik/team/gianluca-ceruti/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research_group"
+          ]
+        },
+        {
+          "type": "bibliographic_publication_list",
+          "url": "https://zbmath.org/authors/ceruti.gianluca",
+          "confidence": "B",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 15,
+        "recentWorksCount": 12,
+        "provider": "zbMATH",
+        "countLabelZh": "zbMATH 已索引正式论文（下界）",
+        "countCaveatZh": "以 zbMATH 作者档案的正式论文索引为准，并由因斯布鲁克官方身份页确认本人；不含未索引或仅预印本成果。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "fr-sorbonne-theo-mary",
@@ -5704,6 +7207,8 @@
         "high-performance scientific computing"
       ],
       "researchSummaryZh": "CNRS 2024铜牌、SIAG/LA Early Career Prize、Householder荣誉提名和MUMPS贡献者；是混合精度、稀疏求解和近似计算方向的高水平青年研究员。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "CNRS 2024铜牌、SIAG/LA Early Career Prize、Householder荣誉提名和MUMPS贡献者；是混合精度、稀疏求解和近似计算方向的高水平青年研究员。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -5814,6 +7319,8 @@
         "exascale computing"
       ],
       "researchSummaryZh": "Manchester博士后经Örebro Wenner-Gren Fellowship、Durham科学计算教职进入Leeds；研究连接数值线性代数、计算机算术和可扩展数学软件。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Manchester博士后经Örebro Wenner-Gren Fellowship、Durham科学计算教职进入Leeds；研究连接数值线性代数、计算机算术和可扩展数学软件。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -5912,6 +7419,8 @@
         "Julia scientific computing"
       ],
       "researchSummaryZh": "博士毕业四年即获Hamburg W1、随后任Mainz教授；Trixi.jl核心贡献者，在高阶守恒律、熵稳定离散和时间积分方面兼具理论、软件与HPC影响。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "博士毕业四年即获Hamburg W1、随后任Mainz教授；Trixi.jl核心贡献者，在高阶守恒律、熵稳定离散和时间积分方面兼具理论、软件与HPC影响。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -6008,6 +7517,8 @@
         "inverse problems"
       ],
       "researchSummaryZh": "博士论文直接研究Hilbert空间分裂算法；此后在KTH、Lund和Bremen持续发表Chambolle-Pock、forward-backward及自动Lyapunov分析成果，包括Mathematical Programming和SIAM Journal on Optimization。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "博士论文直接研究Hilbert空间分裂算法；此后在KTH、Lund和Bremen持续发表Chambolle-Pock、forward-backward及自动Lyapunov分析成果，包括Mathematical Programming和SIAM Journal on Optimization。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -6104,6 +7615,8 @@
         "optimal control"
       ],
       "researchSummaryZh": "博士论文发展约束结构优化的增广Lagrangian与近端方法，并获2022 COAP Best Paper Prize；近期覆盖非光滑非凸、混合整数和互补约束算法。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "博士论文发展约束结构优化的增广Lagrangian与近端方法，并获2022 COAP Best Paper Prize；近期覆盖非光滑非凸、混合整数和互补约束算法。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -6202,6 +7715,8 @@
         "scientific machine learning"
       ],
       "researchSummaryZh": "ENS Lyon/Inria OCKHAM永久成员并主持ANR MEPHISTO；研究从Levenberg-Marquardt扩展到多层级、稀疏和物理信息训练，2026年将进行HDR答辩。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "ENS Lyon/Inria OCKHAM永久成员并主持ANR MEPHISTO；研究从Levenberg-Marquardt扩展到多层级、稀疏和物理信息训练，2026年将进行HDR答辩。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -6312,6 +7827,46 @@
         "optimization theory"
       ],
       "researchSummaryZh": "博士论文获2025 CAIAC最佳博士论文奖及AAAI/ACM SIGAI荣誉提名，AISTATS 2021 Best Paper；现以MSCA Fellowship在Francis Bach团队研究ML优化。",
+      "researchEvolution": [
+        "博士阶段研究 EM、自然梯度、经验 Fisher 与自动微分二阶工具；随后转向按坐标步长、SGD 与 Adam 差异；INRIA 的 MSCA 博后阶段聚焦大语言模型中的重尾类别不平衡、Sign 方法和训练缩放规律。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Scaling Laws for Gradient Descent and Sign Descent for Linear Bigram Models under Zipf's Law",
+          "year": 2025,
+          "venue": "NeurIPS",
+          "url": "https://papers.nips.cc/paper_files/paper/2025/hash/d51397f67732d310809220b1236f4702-Abstract-Conference.html",
+          "selectionReason": "DBLP 与 NeurIPS 官方页面核验的大模型优化缩放规律代表作"
+        },
+        {
+          "title": "Heavy-Tailed Class Imbalance and Why Adam Outperforms Gradient Descent on Language Models",
+          "year": 2024,
+          "venue": "NeurIPS",
+          "url": "https://papers.nips.cc/paper_files/paper/2024/hash/350e718ff74062b4bac2c6ffd9e1ac66-Abstract-Conference.html",
+          "selectionReason": "INRIA 介绍页重点说明的 Adam 与语言重尾不平衡代表作"
+        },
+        {
+          "title": "Noise Is Not the Main Factor Behind the Gap Between SGD and Adam on Transformers, But Sign Descent Might Be",
+          "year": 2023,
+          "venue": "ICLR",
+          "url": "https://openreview.net/forum?id=a65YK0cqH8g",
+          "selectionReason": "DBLP 与 OpenReview 核验的 Transformer 优化代表作"
+        },
+        {
+          "title": "Homeomorphic-Invariance of EM: Non-Asymptotic Convergence in KL Divergence for Exponential Families via Mirror Descent",
+          "year": 2021,
+          "venue": "AISTATS",
+          "url": "https://proceedings.mlr.press/v130/kunstner21a.html",
+          "selectionReason": "PMLR 官方页面列出的 AISTATS Best Paper"
+        },
+        {
+          "title": "Limitations of the empirical Fisher approximation for natural gradient descent",
+          "year": 2019,
+          "venue": "NeurIPS",
+          "url": "https://proceedings.neurips.cc/paper/2019/hash/46a558d97954d0692411c861cf78ef79-Abstract.html",
+          "selectionReason": "DBLP 与 NeurIPS 官方页面核验的自然梯度代表作"
+        }
+      ],
       "currentStatusZh": "博士论文获2025 CAIAC最佳博士论文奖及AAAI/ACM SIGAI荣誉提名，AISTATS 2021 Best Paper；现以MSCA Fellowship在Francis Bach团队研究ML优化。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -6396,11 +7951,54 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_institution_profile",
+          "url": "https://www.inria.fr/en/frederik-kunstner-2024",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "career_timeline",
+            "research",
+            "fellowship"
+          ]
+        },
+        {
+          "type": "official_team_roster",
+          "url": "https://sierra-mlopt.github.io/team/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "current_group",
+            "position"
+          ]
+        },
+        {
+          "type": "bibliographic_publication_list",
+          "url": "https://dblp.org/pid/230/3921.html",
+          "confidence": "B",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 9,
+        "recentWorksCount": 5,
+        "provider": "DBLP",
+        "countLabelZh": "DBLP 去重后的正式会议论文",
+        "countCaveatZh": "DBLP 同时收录预印本版本；此处按标题去重，仅统计 9 篇正式会议论文，并以 INRIA 官方人物页交叉核验身份与研究主线。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "fr-inria-sorbonne-raphael-berthier",
@@ -6420,6 +8018,46 @@
         "optimization dynamics"
       ],
       "researchSummaryZh": "Francis Bach指导的优化博士，后在EPFL与Emmanuel Abbe、Andrea Montanari开展非凸优化和神经网络理论研究，2024获Inria Sorbonne CPJ独立职位。",
+      "researchEvolution": [
+        "博士阶段并行研究随机梯度、加速 gossip 和分布式凸优化；EPFL 博后阶段转向非凸学习动力学、AMP 与神经网络时间尺度；进入 INRIA Sorbonne 后聚焦隐式正则化、增量学习、注意力机制和上下文学习理论。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Attention layers provably solve single-location regression",
+          "year": 2025,
+          "venue": "ICLR",
+          "url": "https://raphael-berthier.github.io/",
+          "selectionReason": "作者主页列出的注意力机制理论代表作"
+        },
+        {
+          "title": "On the minimal degree bias in generalization on the unseen for non-boolean functions",
+          "year": 2024,
+          "venue": "ICML",
+          "url": "https://raphael-berthier.github.io/",
+          "selectionReason": "作者主页列出的域外泛化代表作"
+        },
+        {
+          "title": "Learning time-scales in two-layers neural networks",
+          "year": 2023,
+          "venue": "Foundations of Computational Mathematics",
+          "url": "https://raphael-berthier.github.io/",
+          "selectionReason": "作者主页列出的两层网络学习动力学代表作"
+        },
+        {
+          "title": "Incremental learning in diagonal linear networks",
+          "year": 2023,
+          "venue": "Journal of Machine Learning Research",
+          "url": "https://raphael-berthier.github.io/",
+          "selectionReason": "作者主页列出的隐式正则与增量学习代表作"
+        },
+        {
+          "title": "Accelerated gossip in networks of given dimension using Jacobi polynomial iterations",
+          "year": 2020,
+          "venue": "SIAM Journal on Mathematics of Data Science",
+          "url": "https://raphael-berthier.github.io/",
+          "selectionReason": "作者主页列出的加速 gossip 代表作"
+        }
+      ],
       "currentStatusZh": "Francis Bach指导的优化博士，后在EPFL与Emmanuel Abbe、Andrea Montanari开展非凸优化和神经网络理论研究，2024获Inria Sorbonne CPJ独立职位。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -6504,13 +8142,37 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "author_profile_and_publication_list",
+          "url": "https://raphael-berthier.github.io/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "career_timeline",
+            "research",
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [
         "项目说明以联系导师为申请方式，未给出固定截止日期。"
       ],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 12,
+        "recentWorksCount": 10,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "作者主页列出的正式论文",
+        "countCaveatZh": "统计个人主页 2017-2025 年 12 篇正式期刊或会议论文；2025-2026 预印本和博士论文不计入。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "fr-inria-manu-upadhyaya",
@@ -6530,6 +8192,8 @@
         "computer-assisted optimization proofs"
       ],
       "researchSummaryZh": "博士阶段已在Mathematical Programming发表自动Lyapunov分析并开发AutoLyap；毕业后由Adrien Taylor与Aymeric Dieuleveut联合指导，路径与一阶优化、PEP和分裂算法高度相关。",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "博士阶段已在Mathematical Programming发表自动Lyapunov分析并开发AutoLyap；毕业后由Adrien Taylor与Aymeric Dieuleveut联合指导，路径与一阶优化、PEP和分裂算法高度相关。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -6638,6 +8302,8 @@
         "signal processing"
       ],
       "researchSummaryZh": "RGC Early Career Award；Math Programming、OR、NeurIPS 等成果",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "RGC Early Career Award；Math Programming、OR、NeurIPS 等成果",
       "grantsAwards": [
         {
@@ -6736,6 +8402,8 @@
         "optimization for ML"
       ],
       "researchSummaryZh": "JHU 优化博士、Cornell 博后；NSFC/UGC 支持；MIP 理论与算法高度相关",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "JHU 优化博士、Cornell 博后；NSFC/UGC 支持；MIP 理论与算法高度相关",
       "grantsAwards": [
         {
@@ -6826,6 +8494,8 @@
         "network science"
       ],
       "researchSummaryZh": "UC Berkeley Systems PhD；能源交通系统优化；已有独立课题组",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "UC Berkeley Systems PhD；能源交通系统优化；已有独立课题组",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -6921,6 +8591,8 @@
         "data-driven decisions"
       ],
       "researchSummaryZh": "MIT IDSS 博后；Operations Research、Management Science 连续成果",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "MIT IDSS 博后；Operations Research、Management Science 连续成果",
       "grantsAwards": [
         {
@@ -7011,6 +8683,8 @@
         "operations research"
       ],
       "researchSummaryZh": "Chicago Booth/MSR 博后；OR、Management Science 代表作",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Chicago Booth/MSR 博后；OR、Management Science 代表作",
       "grantsAwards": [
         {
@@ -7110,6 +8784,8 @@
         "simulation"
       ],
       "researchSummaryZh": "Stanford OR PhD；DRO、连续状态控制与随机网络成果",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Stanford OR PhD；DRO、连续状态控制与随机网络成果",
       "grantsAwards": [
         {
@@ -7206,6 +8882,8 @@
         "mechanism design"
       ],
       "researchSummaryZh": "NYU Stern PhD；OR、在线决策和随机优化成果",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "NYU Stern PhD；OR、在线决策和随机优化成果",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -7292,6 +8970,8 @@
         "service systems"
       ],
       "researchSummaryZh": "Columbia OR PhD；Operations Research 与鲁棒排队成果",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Columbia OR PhD；Operations Research 与鲁棒排队成果",
       "grantsAwards": [
         {
@@ -7382,6 +9062,8 @@
         "ML for power systems"
       ],
       "researchSummaryZh": "Caltech PhD；RGC Early Career Award；优化与电力系统交叉",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Caltech PhD；RGC Early Career Award；优化与电力系统交叉",
       "grantsAwards": [
         {
@@ -7472,6 +9154,8 @@
         "global optimization"
       ],
       "researchSummaryZh": "UCSD/Jiawang Nie 谱系；多项式优化与广义 Nash 均衡直接相关",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "UCSD/Jiawang Nie 谱系；多项式优化与广义 Nash 均衡直接相关",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -7558,6 +9242,47 @@
         "scientific ML"
       ],
       "researchSummaryZh": "UW-Madison PhD、UT Austin Oden 博后；连续获得 RGC 项目",
+      "researchEvolution": [
+        "2017-2021 年以动力学方程、随机 Galerkin、渐近保持格式和不确定性量化为核心，集中解决多尺度输运与 Boltzmann 模型。",
+        "2022-2026 年拓展到双保真/多保真计算、渐近保持神经网络、物理信息学习、反问题以及肿瘤和量子动力学模型。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "PhysicsSolver: Transformer-enhanced physics-informed neural networks for forward and forecasting problems in partial differential equations",
+          "year": null,
+          "venue": "Journal of Computational and Applied Mathematics",
+          "url": "https://www.math.cuhk.edu.hk/~lliu/",
+          "selectionReason": "官方个人主页列出的近期科学机器学习代表作"
+        },
+        {
+          "title": "Machine learning-based moment closure model for the semiconductor Boltzmann equation with uncertainties",
+          "year": 2026,
+          "venue": "Computer Methods in Applied Mechanics and Engineering",
+          "url": "https://www.math.cuhk.edu.hk/~lliu/",
+          "selectionReason": "官方个人主页列出的近期科学机器学习代表作"
+        },
+        {
+          "title": "Asymptotic-preserving neural networks for the semiconductor Boltzmann equation and its application on inverse problems",
+          "year": 2025,
+          "venue": "Journal of Computational Physics",
+          "url": "https://www.math.cuhk.edu.hk/~lliu/",
+          "selectionReason": "官方个人主页列出的近期渐近保持神经网络代表作"
+        },
+        {
+          "title": "On a class of multi-fidelity methods for the semiclassical Schrödinger equation with uncertainties",
+          "year": 2025,
+          "venue": "SIAM Journal on Scientific Computing",
+          "url": "https://www.math.cuhk.edu.hk/~lliu/",
+          "selectionReason": "官方个人主页列出的近期多保真计算代表作"
+        },
+        {
+          "title": "A unified Bayesian inversion approach for a class of tumor growth models with different pressure laws",
+          "year": 2024,
+          "venue": "ESAIM: Mathematical Modelling and Numerical Analysis",
+          "url": "https://www.math.cuhk.edu.hk/~lliu/",
+          "selectionReason": "官方个人主页列出的近期反问题代表作"
+        }
+      ],
       "currentStatusZh": "UW-Madison PhD、UT Austin Oden 博后；连续获得 RGC 项目",
       "grantsAwards": [
         {
@@ -7628,13 +9353,38 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_profile_homepage",
+          "url": "https://www.math.cuhk.edu.hk/~lliu/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_list",
+            "research_evolution",
+            "group_members",
+            "accepts_applications"
+          ]
+        },
+        {
+          "type": "official_department_profile",
+          "url": "https://www.math.cuhk.edu.hk/people/academic-staff/lliu",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research",
+            "major_grants"
+          ]
         }
       ],
       "uncertainties": [
         "主页欢迎联系但未给出固定名额"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "venueBreakdown": []
     },
     {
       "id": "nus-qianxiao-li",
@@ -7654,6 +9404,8 @@
         "dynamical systems"
       ],
       "researchSummaryZh": "Princeton Applied Math PhD；NRF Fellowship 2021；优化、动力系统和 SciML 交叉",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Princeton Applied Math PhD；NRF Fellowship 2021；优化、动力系统和 SciML 交叉",
       "grantsAwards": [
         {
@@ -7753,6 +9505,46 @@
         "learning-augmented optimization"
       ],
       "researchSummaryZh": "2025 INFORMS Dantzig Dissertation Award；OR forthcoming 与 M&SOM 成果",
+      "researchEvolution": [
+        "从清华建设管理、滑铁卢运筹硕士进入多伦多大学运筹博士训练；博士阶段围绕城市骑行网络、双层与两阶段随机优化发展机器学习增强方法；MIT/多伦多博后及 NUS 独立任职后进一步研究逆优化、人机协作与可持续城市 AI。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Conformal Inverse Optimization for Adherence-aware Prescriptive Analytics",
+          "year": 2026,
+          "venue": "Operations Research",
+          "url": "https://cde.nus.edu.sg/isem/staff/lin-bo/",
+          "selectionReason": "NUS 官方页列出的人机协作逆优化代表作"
+        },
+        {
+          "title": "Machine Learning-Augmented Optimization of Large Bilevel and Two-stage Stochastic Programs: Application to Cycling Network Design",
+          "year": 2025,
+          "venue": "Manufacturing & Service Operations Management",
+          "url": "https://cde.nus.edu.sg/isem/staff/lin-bo/",
+          "selectionReason": "NUS 官方页列出的学习增强双层优化代表作"
+        },
+        {
+          "title": "Analytics for Better Urban Cycling: A Multi-year Collaboration with the City of Toronto",
+          "year": 2026,
+          "venue": "INFORMS Journal on Applied Analytics",
+          "url": "https://cde.nus.edu.sg/isem/staff/lin-bo/",
+          "selectionReason": "NUS 官方页列出的城市级真实部署代表作"
+        },
+        {
+          "title": "AutoLTS: Automating Cycling Stress Assessment via Contrastive Learning and Spatial Post-processing",
+          "year": 2024,
+          "venue": "AAAI",
+          "url": "https://dblp.org/pid/97/339-4.html",
+          "selectionReason": "DBLP 与作者主页核验的城市视觉分析代表作"
+        },
+        {
+          "title": "Exploring the geographical equity-efficiency tradeoff in cycling infrastructure planning",
+          "year": 2024,
+          "venue": "Journal of Transport Geography",
+          "url": "https://lin-bo.github.io/",
+          "selectionReason": "作者主页关联的城市公平优化代表作"
+        }
+      ],
       "currentStatusZh": "2025 INFORMS Dantzig Dissertation Award；OR forthcoming 与 M&SOM 成果",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -7804,13 +9596,59 @@
             "research",
             "career_stage"
           ]
+        },
+        {
+          "type": "official_department_profile_and_selected_publications",
+          "url": "https://cde.nus.edu.sg/isem/staff/lin-bo/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "education",
+            "research",
+            "awards",
+            "representative_works"
+          ]
+        },
+        {
+          "type": "author_profile_homepage",
+          "url": "https://lin-bo.github.io/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "career_timeline",
+            "research_evolution",
+            "industry_experience",
+            "real_world_impact",
+            "accepts_applications"
+          ]
+        },
+        {
+          "type": "bibliographic_publication_list",
+          "url": "https://dblp.org/pid/97/339-4.html",
+          "confidence": "B",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works"
+          ]
         }
       ],
       "uncertainties": [
         "新入职，基金与招聘页尚未完整"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 5,
+        "recentWorksCount": 5,
+        "provider": "OfficialInstitutionAndAuthorHomepage",
+        "countLabelZh": "本次逐条核验的正式论文（下界）",
+        "countCaveatZh": "NUS 官方页列出 3 篇精选论文，个人主页与 DBLP 再核验 2 篇；完整研究成果多于 5 篇，因此不是生涯总数。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "nus-guanyi-wang",
@@ -7829,6 +9667,30 @@
         "statistical learning"
       ],
       "researchSummaryZh": "Georgia Tech/Santanu Dey 谱系；Mathematical Programming、OR 成果",
+      "researchEvolution": [],
+      "representativeWorks": [
+        {
+          "title": "Solving row-sparse principal component analysis via convex integer programs",
+          "year": null,
+          "venue": "Mathematical Programming",
+          "url": "https://cde.nus.edu.sg/isem/staff/wang-guanyi/",
+          "selectionReason": "NUS 官方主页列出的代表作"
+        },
+        {
+          "title": "An Approximation Algorithm for Training One-Node ReLU Neural Network",
+          "year": 2020,
+          "venue": "IEEE Transactions on Signal Processing",
+          "url": "https://cde.nus.edu.sg/isem/staff/wang-guanyi/",
+          "selectionReason": "NUS 官方主页列出的优化与机器学习代表作"
+        },
+        {
+          "title": "Mixed-Integer Linear Representability, Disjunctions, and Chvátal Functions—Modeling Implications",
+          "year": 2019,
+          "venue": "Mathematics of Operations Research",
+          "url": "https://cde.nus.edu.sg/isem/staff/wang-guanyi/",
+          "selectionReason": "NUS 官方主页列出的混合整数优化代表作"
+        }
+      ],
       "currentStatusZh": "Georgia Tech/Santanu Dey 谱系；Mathematical Programming、OR 成果",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -7880,13 +9742,26 @@
             "research",
             "career_stage"
           ]
+        },
+        {
+          "type": "official_publication_list",
+          "url": "https://cde.nus.edu.sg/isem/staff/wang-guanyi/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "publication_list",
+            "representative_works",
+            "education"
+          ]
         }
       ],
       "uncertainties": [
         "OpenAlex同名消歧未完成"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "venueBreakdown": []
     },
     {
       "id": "nus-junyu-zhang",
@@ -7906,6 +9781,8 @@
         "complexity lower bounds"
       ],
       "researchSummaryZh": "Minnesota/Shuzhong Zhang 谱系；Math Programming、SIOPT、JMLR 成果",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "Minnesota/Shuzhong Zhang 谱系；Math Programming、SIOPT、JMLR 成果",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -7983,6 +9860,16 @@
         "transportation"
       ],
       "researchSummaryZh": "MIT CSE PhD、Amazon Supply Chain Optimization 博后；OR/Management Science 成果",
+      "researchEvolution": [],
+      "representativeWorks": [
+        {
+          "title": "Trading Safety Stock for Service Response Time in Inventory Positioning",
+          "year": 2022,
+          "venue": "Production and Operations Management",
+          "url": "https://cde.nus.edu.sg/isem/staff/qin-hanzhang/",
+          "selectionReason": "NUS 官方主页列出的供应链优化代表作"
+        }
+      ],
       "currentStatusZh": "MIT CSE PhD、Amazon Supply Chain Optimization 博后；OR/Management Science 成果",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -8034,13 +9921,26 @@
             "research",
             "career_stage"
           ]
+        },
+        {
+          "type": "official_publication_list",
+          "url": "https://cde.nus.edu.sg/isem/staff/qin-hanzhang/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "publication_list",
+            "representative_works",
+            "education"
+          ]
         }
       ],
       "uncertainties": [
         "偏应用 OR，需按论文方法匹配"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "venueBreakdown": []
     },
     {
       "id": "sutd-niangjun-chen",
@@ -8060,6 +9960,46 @@
         "large-scale systems"
       ],
       "researchSummaryZh": "Caltech PhD；在线优化与预测辅助决策具有明确理论主线",
+      "researchEvolution": [
+        "博士阶段以带预测的在线凸优化、数据中心需求响应和电动车充电为主线；独立任职后扩展到机制设计、学习与控制，并将算法用于交通、物流、能源和小额金融等复杂系统。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Smoothed Least-Laxity-First Algorithm for EV Charging",
+          "year": 2022,
+          "venue": "IEEE Transactions on Smart Grid",
+          "url": "https://niangjunchen.github.io/",
+          "selectionReason": "作者主页列出的电动车在线调度代表作"
+        },
+        {
+          "title": "Online Cloud Resource Provisioning Under Cost Budget for QoS Maximization",
+          "year": 2021,
+          "venue": "IEEE/ACM International Symposium on Quality of Service",
+          "url": "https://niangjunchen.github.io/",
+          "selectionReason": "作者主页列出的在线资源配置代表作"
+        },
+        {
+          "title": "Smoothed Online Convex Optimization in High Dimensions via Online Balanced Descent",
+          "year": 2018,
+          "venue": "Conference on Learning Theory",
+          "url": "https://niangjunchen.github.io/",
+          "selectionReason": "作者主页列出的在线凸优化核心代表作"
+        },
+        {
+          "title": "Thinking Fast and Slow: Optimization Decomposition Across Timescales",
+          "year": 2017,
+          "venue": "IEEE Conference on Decision and Control",
+          "url": "https://niangjunchen.github.io/",
+          "selectionReason": "作者主页列出的多时间尺度控制代表作"
+        },
+        {
+          "title": "Online Convex Optimization Using Predictions",
+          "year": 2015,
+          "venue": "ACM SIGMETRICS",
+          "url": "https://niangjunchen.github.io/",
+          "selectionReason": "作者主页列出的预测辅助在线优化代表作"
+        }
+      ],
       "currentStatusZh": "Caltech PhD；在线优化与预测辅助决策具有明确理论主线",
       "grantsAwards": [
         {
@@ -8124,13 +10064,27 @@
           "supportsClaims": [
             "bibliographic_identity_hint"
           ]
+        },
+        {
+          "type": "author_publication_list",
+          "url": "https://niangjunchen.github.io/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "publication_list",
+            "representative_works",
+            "research_evolution",
+            "career_timeline"
+          ]
         }
       ],
       "uncertainties": [
         "SUTD 官方个人页和独立基金信息待补"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "venueBreakdown": []
     },
     {
       "id": "nus-zaile-li",
@@ -8150,6 +10104,47 @@
         "sequential decisions"
       ],
       "researchSummaryZh": "Fudan PhD、INSEAD 博后；Nicholson finalist；大规模选择程序研究",
+      "researchEvolution": [
+        "博士阶段从大规模排序选择、仿真优化和序贯学习切入；INSEAD 博后阶段把方法用于自适应临床试验、药物组合和医疗创新管线；进入 NUS 后进一步探索 LLM 辅助虚拟筛选、医疗运营和数据驱动决策。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "The (Surprising) Sample Optimality of Greedy Procedures for Large-Scale Ranking and Selection",
+          "year": 2025,
+          "venue": "Management Science",
+          "doi": "https://doi.org/10.1287/mnsc.2023.00694",
+          "url": "https://cde.nus.edu.sg/isem/staff/li-zaile/",
+          "selectionReason": "NUS 官方页与 INFORMS 页面共同核验的大规模排序选择代表作"
+        },
+        {
+          "title": "New Additive OCBA Procedures for Robust Ranking and Selection",
+          "year": 2025,
+          "venue": "Asia-Pacific Journal of Operational Research",
+          "url": "https://www.insead.edu/researcher/zaile-li",
+          "selectionReason": "INSEAD 官方人物页列出的鲁棒排序选择代表作"
+        },
+        {
+          "title": "Beyond Fixed-Precision and Fixed-Budget Ranking and Selection: Economics of Selection Procedures, New and Old",
+          "year": 2026,
+          "venue": "Winter Simulation Conference",
+          "url": "https://cde.nus.edu.sg/isem/staff/li-zaile/",
+          "selectionReason": "NUS 官方页列出的序贯选择代表作"
+        },
+        {
+          "title": "Optimizing Portfolios of Multiple Treatments for One Indication",
+          "year": 2026,
+          "venue": "Winter Simulation Conference",
+          "url": "https://cde.nus.edu.sg/isem/staff/li-zaile/",
+          "selectionReason": "NUS 官方页列出的医疗组合优化代表作"
+        },
+        {
+          "title": "Explore Then Confirm: Investment Portfolios for New Drug Therapies",
+          "year": 2025,
+          "venue": "Winter Simulation Conference",
+          "url": "https://cde.nus.edu.sg/isem/staff/li-zaile/",
+          "selectionReason": "NUS 官方页列出的医疗创新管线代表作"
+        }
+      ],
       "currentStatusZh": "Fudan PhD、INSEAD 博后；Nicholson finalist；大规模选择程序研究",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -8210,13 +10205,57 @@
           "supportsClaims": [
             "bibliographic_identity_hint"
           ]
+        },
+        {
+          "type": "official_department_profile_and_publication_list",
+          "url": "https://cde.nus.edu.sg/isem/staff/li-zaile/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research",
+            "awards",
+            "publication_metrics",
+            "representative_works"
+          ]
+        },
+        {
+          "type": "official_previous_institution_profile",
+          "url": "https://www.insead.edu/researcher/zaile-li",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "career_timeline",
+            "research_evolution",
+            "representative_works"
+          ]
+        },
+        {
+          "type": "author_profile_homepage",
+          "url": "https://sites.google.com/view/zaileli/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "current_position",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [
         "OpenAlex仍显示INSEAD，可能存在机构更新延迟"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 5,
+        "recentWorksCount": 5,
+        "provider": "OfficialInstitutionHomepage",
+        "countLabelZh": "NUS 官方页列出的正式论文与会议成果",
+        "countCaveatZh": "NUS 官方页目前列出 1 篇期刊论文和 3 篇 WSC 论文，另以 INSEAD 官方页核验 1 篇期刊论文；这是当前可核验成果下界。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "sjtu-jingwei-liang",
@@ -8236,6 +10275,46 @@
         "mathematical imaging"
       ],
       "researchSummaryZh": "Cambridge 博后；ICML Outstanding Paper；SIOPT、Math Programming、JMLR 成果",
+      "researchEvolution": [
+        "早期研究近端分裂、部分光滑性与有限识别；随后把算子分裂和随机优化用于大规模逆问题与计算成像；近期进一步延伸到即插即用算法、数据驱动图像处理和联邦原始-对偶方法。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Federated Primal-Dual Fixed Point Algorithm",
+          "year": 2024,
+          "venue": "SIAM Journal on Mathematics of Data Science",
+          "url": "https://ins.sjtu.edu.cn/people/jwliang/publications/",
+          "selectionReason": "上海交大官方论文页列出的联邦复合优化代表作"
+        },
+        {
+          "title": "Partial Smoothness and Constant Rank",
+          "year": 2022,
+          "venue": "SIAM Journal on Optimization",
+          "url": "https://ins.sjtu.edu.cn/people/jwliang/publications/",
+          "selectionReason": "上海交大官方论文页列出的部分光滑性理论代表作"
+        },
+        {
+          "title": "On Biased Stochastic Gradient Estimation",
+          "year": 2022,
+          "venue": "Journal of Computational and Graphical Statistics",
+          "url": "https://ins.sjtu.edu.cn/people/jwliang/publications/",
+          "selectionReason": "官方论文页列出的有偏随机梯度分析代表作"
+        },
+        {
+          "title": "TFPNP: Tuning-free Plug-and-Play Proximal Algorithms with Applications to Inverse Imaging Problems",
+          "year": 2022,
+          "venue": "Journal of Machine Learning Research",
+          "url": "https://www.jmlr.org/papers/v23/20-316.html",
+          "selectionReason": "官方论文页与 JMLR 页面共同核验的逆成像代表作"
+        },
+        {
+          "title": "Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems",
+          "year": 2020,
+          "venue": "ICML",
+          "url": "https://ins.sjtu.edu.cn/people/jwliang/publications/",
+          "selectionReason": "官方论文页列出的 ICML 2020 Outstanding Paper"
+        }
+      ],
       "currentStatusZh": "Cambridge 博后；ICML Outstanding Paper；SIOPT、Math Programming、JMLR 成果",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -8287,13 +10366,45 @@
             "research",
             "career_stage"
           ]
+        },
+        {
+          "type": "official_department_profile",
+          "url": "https://ins.sjtu.edu.cn/people/jwliang/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research",
+            "group"
+          ]
+        },
+        {
+          "type": "official_department_publication_list",
+          "url": "https://ins.sjtu.edu.cn/people/jwliang/publications/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [
         "基金与招聘信息待补"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 5,
+        "recentWorksCount": 4,
+        "provider": "OfficialInstitutionHomepage",
+        "countLabelZh": "本次逐条核验的正式论文（下界）",
+        "countCaveatZh": "上海交大官方个人论文页包含更完整目录；此处仅统计与本站方向最相关并逐条核验的 5 篇代表作。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "sustech-shangzhi-zeng",
@@ -8313,6 +10424,8 @@
         "first-order methods"
       ],
       "researchSummaryZh": "HKU PhD、Victoria 博后；Math Programming、SINUM、ICML/NeurIPS/ICLR 系列成果",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "HKU PhD、Victoria 博后；Math Programming、SINUM、ICML/NeurIPS/ICLR 系列成果",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -8399,6 +10512,8 @@
         "signal processing"
       ],
       "researchSummaryZh": "UCLA PhD、Alibaba Decision Intelligence 经历；IEEE SPS Young Author Best Paper",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "UCLA PhD、Alibaba Decision Intelligence 经历；IEEE SPS Young Author Best Paper",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -8476,6 +10591,46 @@
         "decision under uncertainty"
       ],
       "researchSummaryZh": "USC/Pang-Sen 谱系；MOR、OR、SIOPT；随机规划学生论文奖 finalist",
+      "researchEvolution": [
+        "博士阶段围绕两阶段随机规划、随机分解和内生不确定性展开；与 Jong-Shi Pang 合作后转向非光滑、非凸随机优化、风险度量与机会约束，并进一步应用到治疗学习和贝叶斯分层模型。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Adaptive Importance Sampling Based Surrogation Methods for Bayesian Hierarchical Models, via Logarithmic Integral Optimization",
+          "year": 2025,
+          "venue": "Mathematical Programming",
+          "url": "https://www.ie.tsinghua.edu.cn/eng/info/1051/1035.htm",
+          "selectionReason": "清华官方主页列出的近期代表作"
+        },
+        {
+          "title": "Treatment learning with Gini constraints by Heaviside composite optimization and a progressive method",
+          "year": 2025,
+          "venue": "Computational Optimization and Applications",
+          "url": "https://www.ie.tsinghua.edu.cn/eng/info/1051/1035.htm",
+          "selectionReason": "清华官方主页列出的治疗学习代表作"
+        },
+        {
+          "title": "Nonconvex and Nonsmooth Approaches for Affine Chance Constrained Stochastic Programs",
+          "year": 2022,
+          "venue": "Set-Valued and Variational Analysis",
+          "url": "https://www.ie.tsinghua.edu.cn/eng/info/1051/1035.htm",
+          "selectionReason": "清华官方主页列出的非凸非光滑随机优化代表作"
+        },
+        {
+          "title": "Risk-based Robust Statistical Learning By Stochastic Difference-of-Convex Value-Function Optimization",
+          "year": 2022,
+          "venue": "Operations Research",
+          "url": "https://www.ie.tsinghua.edu.cn/eng/info/1051/1035.htm",
+          "selectionReason": "清华官方主页列出的风险学习代表作"
+        },
+        {
+          "title": "Solving Nonsmooth and Nonconvex Compound Stochastic Programs with Applications to Risk Measure Minimization",
+          "year": 2022,
+          "venue": "Mathematics of Operations Research",
+          "url": "https://www.ie.tsinghua.edu.cn/eng/info/1051/1035.htm",
+          "selectionReason": "清华官方主页列出的复合随机优化代表作"
+        }
+      ],
       "currentStatusZh": "USC/Pang-Sen 谱系；MOR、OR、SIOPT；随机规划学生论文奖 finalist",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -8536,13 +10691,35 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_department_publication_list",
+          "url": "https://www.ie.tsinghua.edu.cn/eng/info/1051/1035.htm",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "career_timeline",
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [
         "当前明确的是博士招生，博后需单独询问"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 10,
+        "recentWorksCount": 6,
+        "provider": "OfficialHomepage",
+        "countLabelZh": "清华官方主页列出的正式论文",
+        "countCaveatZh": "按清华大学个人页当前公开列表逐条统计，不含页面另列的预印本；不等同于数据库全量收录。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "cuhksz-xiao-li",
@@ -8562,6 +10739,48 @@
         "LLM optimization"
       ],
       "researchSummaryZh": "CUHK/Anthony So 谱系；SIOPT、NeurIPS 等直接优化成果",
+      "researchEvolution": [
+        "早期围绕鲁棒低秩恢复、弱凸优化与黎曼次梯度方法展开；随后系统研究随机重排、非光滑非凸有限和优化及统一收敛理论；近期将分块坐标下降和内存高效反向传播用于大模型微调与长序列训练。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "StreamBP: Memory-Efficient Exact Backpropagation for Long Sequence Training of LLMs",
+          "year": 2025,
+          "venue": "NeurIPS",
+          "url": "https://xiao-li.org/publications/",
+          "selectionReason": "作者主页列出的长序列大模型训练代表作"
+        },
+        {
+          "title": "BAdam: A Memory Efficient Full Parameter Optimization Method for Large Language Models",
+          "year": 2024,
+          "venue": "NeurIPS",
+          "url": "https://xiao-li.org/publications/",
+          "selectionReason": "作者主页列出的大模型分块优化代表作"
+        },
+        {
+          "title": "A New Random Reshuffling Method for Nonsmooth Nonconvex Finite-sum Optimization",
+          "year": 2025,
+          "venue": "Journal of Machine Learning Research",
+          "url": "https://www.jmlr.org/papers/volume26/24-0891/24-0891.pdf",
+          "selectionReason": "作者主页与 JMLR 官方页面共同核验的随机重排代表作"
+        },
+        {
+          "title": "Convergence of Random Reshuffling Under The Kurdyka-Lojasiewicz Inequality",
+          "year": 2023,
+          "venue": "SIAM Journal on Optimization",
+          "doi": "https://doi.org/10.1137/21M1468048",
+          "url": "https://xiao-li.org/publications/",
+          "selectionReason": "作者主页列出的随机重排收敛代表作"
+        },
+        {
+          "title": "Weakly Convex Optimization over Stiefel Manifold Using Riemannian Subgradient-Type Methods",
+          "year": 2021,
+          "venue": "SIAM Journal on Optimization",
+          "doi": "https://doi.org/10.1137/20M1321000",
+          "url": "https://xiao-li.org/publications/",
+          "selectionReason": "作者主页列出的黎曼非光滑优化代表作"
+        }
+      ],
       "currentStatusZh": "CUHK/Anthony So 谱系；SIOPT、NeurIPS 等直接优化成果",
       "grantsAwards": [
         {
@@ -8626,13 +10845,45 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "author_profile_homepage",
+          "url": "https://xiao-li.org",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research",
+            "group"
+          ]
+        },
+        {
+          "type": "author_publication_list",
+          "url": "https://xiao-li.org/publications/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [
         "后续研究正向LLM训练延伸，需保持数学优化主线筛选"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 11,
+        "recentWorksCount": 8,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "作者主页逐条列出的精选正式论文",
+        "countCaveatZh": "统计作者主页 Selected Articles 中可核验的 11 篇正式论文；主页明确说明 Google Scholar 才是完整目录，因此该数值是下界。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "cuhksz-rui-chen",
@@ -8652,6 +10903,50 @@
         "combinatorial optimization"
       ],
       "researchSummaryZh": "Wisconsin PhD、Cornell Tech 博后；OR、Math Programming、IPCO 成果",
+      "researchEvolution": [
+        "博士阶段聚焦两阶段随机整数规划、拉格朗日割与多线性集合凸化；在 Cornell Tech 博后阶段进一步发展分解、分支定界和公平优化；独立任职后转向数据驱动离散优化、学习增强搜索、因果结构学习与机会约束。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Learning large neighborhood search for maritime inventory routing optimization",
+          "year": 2026,
+          "venue": "International Transactions in Operational Research",
+          "doi": "https://doi.org/10.1111/itor.70175",
+          "url": "https://rchen234.github.io/",
+          "selectionReason": "作者主页列出的学习增强组合优化代表作"
+        },
+        {
+          "title": "The complexity of recognizing facets for the knapsack polytope",
+          "year": 2025,
+          "venue": "Mathematics of Operations Research",
+          "doi": "https://doi.org/10.1287/moor.2024.0481",
+          "url": "https://rchen234.github.io/",
+          "selectionReason": "作者主页列出的背包多面体复杂度代表作"
+        },
+        {
+          "title": "Recovering Dantzig-Wolfe bounds by cutting planes",
+          "year": 2025,
+          "venue": "Operations Research",
+          "doi": "https://doi.org/10.1287/opre.2023.0048",
+          "url": "https://rchen234.github.io/",
+          "selectionReason": "作者主页列出的分解与割平面代表作"
+        },
+        {
+          "title": "Sparse multi-term disjunctive cuts for the epigraph of a function of binary variables",
+          "year": 2024,
+          "venue": "Mathematical Programming",
+          "url": "https://rchen234.github.io/",
+          "selectionReason": "作者主页列出的析取割代表作"
+        },
+        {
+          "title": "On generating Lagrangian cuts for two-stage stochastic integer programs",
+          "year": 2022,
+          "venue": "INFORMS Journal on Computing",
+          "doi": "https://doi.org/10.1287/ijoc.2022.1185",
+          "url": "https://rchen234.github.io/",
+          "selectionReason": "作者主页列出的两阶段随机整数规划代表作"
+        }
+      ],
       "currentStatusZh": "Wisconsin PhD、Cornell Tech 博后；OR、Math Programming、IPCO 成果",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -8703,13 +10998,39 @@
             "research",
             "career_stage"
           ]
+        },
+        {
+          "type": "author_profile_and_publication_list",
+          "url": "https://rchen234.github.io/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "career_timeline",
+            "research",
+            "publication_metrics",
+            "representative_works",
+            "research_evolution",
+            "group_members",
+            "funding"
+          ]
         }
       ],
       "uncertainties": [
         "基金和招聘页待补"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 9,
+        "recentWorksCount": 9,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "作者主页列出的正式期刊论文",
+        "countCaveatZh": "统计作者主页 Journal Papers 栏目当前列出的 9 篇论文；会议论文和预印本另列，不混入正式期刊计数。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "pku-cong-fang",
@@ -8728,6 +11049,67 @@
         "nonconvex optimization"
       ],
       "researchSummaryZh": "PKU PhD、Princeton/UPenn 博后；研究明确位于优化、统计和学习理论交叉",
+      "researchEvolution": [
+        "早期围绕随机非凸优化、方差缩减和逃离鞍点建立复杂度分析；随后转向过参数化神经网络、表征学习与隐式正则化理论；近期进一步拓展到跨环境不变性与因果学习、AI 基础理论和具身智能。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Causality Pursuit from Heterogeneous Environments via Neural Adversarial Invariance Learning",
+          "year": 2025,
+          "venue": "Annals of Statistics",
+          "url": "https://congfang-ml.github.io/",
+          "selectionReason": "作者主页列出的非线性不变性与因果学习代表作"
+        },
+        {
+          "title": "The Implicit Bias of Heterogeneity towards Invariance and Causality",
+          "year": 2024,
+          "venue": "NeurIPS",
+          "url": "https://congfang-ml.github.io/",
+          "selectionReason": "作者主页列出的异质数据与因果学习代表作"
+        },
+        {
+          "title": "Environment Invariant Linear Least Squares",
+          "year": 2024,
+          "venue": "Annals of Statistics",
+          "url": "https://congfang-ml.github.io/",
+          "selectionReason": "作者主页列出的跨环境不变学习代表作"
+        },
+        {
+          "title": "On the Lower Bound of Minimizing Polyak-Lojasiewicz Functions",
+          "year": 2023,
+          "venue": "COLT",
+          "url": "https://congfang-ml.github.io/",
+          "selectionReason": "作者主页列出的 PL 函数一阶复杂度下界代表作"
+        },
+        {
+          "title": "Layer-Peeled Model: Toward Understanding Well-Trained Deep Neural Networks",
+          "year": 2021,
+          "venue": "PNAS",
+          "url": "https://congfang-ml.github.io/",
+          "selectionReason": "作者主页列出的深度网络理论代表作"
+        },
+        {
+          "title": "Modeling from Features: a Mean-field Framework for Over-parameterized Deep Neural Network",
+          "year": 2021,
+          "venue": "COLT",
+          "url": "https://congfang-ml.github.io/",
+          "selectionReason": "作者主页列出的过参数化网络均值场代表作"
+        },
+        {
+          "title": "Sharp Analysis for Nonconvex SGD Escaping from Saddle Points",
+          "year": 2019,
+          "venue": "COLT",
+          "url": "https://congfang-ml.github.io/",
+          "selectionReason": "作者主页列出的非凸随机优化代表作"
+        },
+        {
+          "title": "SPIDER: Near-Optimal Non-Convex Optimization via Stochastic Path-Integrated Differential Estimator",
+          "year": 2018,
+          "venue": "NeurIPS",
+          "url": "https://papers.nips.cc/paper/2018/hash/1543843a4723ed2ab08e18053ae6dc5b-Abstract.html",
+          "selectionReason": "作者主页与 NeurIPS 官方页面共同核验的方差缩减代表作"
+        }
+      ],
       "currentStatusZh": "PKU PhD、Princeton/UPenn 博后；研究明确位于优化、统计和学习理论交叉",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -8779,13 +11161,48 @@
             "research",
             "career_stage"
           ]
+        },
+        {
+          "type": "author_profile_and_publication_list",
+          "url": "https://congfang-ml.github.io/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "career_timeline",
+            "research",
+            "publication_metrics",
+            "representative_works",
+            "research_evolution",
+            "accepts_applications"
+          ]
+        },
+        {
+          "type": "author_full_publication_list",
+          "url": "https://congfang-ml.github.io/paper-list.html",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works"
+          ]
         }
       ],
       "uncertainties": [
         "需用代表作进一步验证与非光滑/随机优化的直接重合度"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 8,
+        "recentWorksCount": 4,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "作者主页逐条核验的代表作（下界）",
+        "countCaveatZh": "仅统计作者主页 Selected Papers 中逐条核验的 8 篇正式论文；完整年度目录更长，因此不是生涯论文总数。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     },
     {
       "id": "sustech-kailiang-wu",
@@ -8805,6 +11222,8 @@
         "data-driven modeling"
       ],
       "researchSummaryZh": "北大 PhD、Utah/Ohio State 博后；2026晋升教授；高阶数值方法成果突出",
+      "researchEvolution": [],
+      "representativeWorks": [],
       "currentStatusZh": "北大 PhD、Utah/Ohio State 博后；2026晋升教授；高阶数值方法成果突出",
       "grantsAwards": [
         {
@@ -8907,6 +11326,47 @@
         "multi-agent networks"
       ],
       "researchSummaryZh": "Operations Research、Mathematical Programming、IEEE TAC/TSP 连续成果；总统青年学者",
+      "researchEvolution": [
+        "早期从群集动力学、网络资源分配与随机优化切入；随后建立 Push-Pull、梯度跟踪和网络瞬态复杂度主线；近期聚焦压缩、异步和随机去中心化优化，并将分布式一阶方法延伸到双层优化与大模型训练。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "An Accelerated Distributed Stochastic Gradient Method with Momentum",
+          "year": 2026,
+          "venue": "Mathematical Programming",
+          "url": "https://pu-shi.github.io/publications/",
+          "selectionReason": "作者主页列出的加速分布式随机优化代表作"
+        },
+        {
+          "title": "Distributed Random Reshuffling Methods with Improved Convergence",
+          "year": 2025,
+          "venue": "IEEE Transactions on Automatic Control",
+          "url": "https://pu-shi.github.io/publications/",
+          "selectionReason": "作者主页列出的分布式随机重排代表作"
+        },
+        {
+          "title": "Provably Accelerated Decentralized Gradient Method Over Unbalanced Directed Graphs",
+          "year": 2024,
+          "venue": "SIAM Journal on Optimization",
+          "doi": "https://doi.org/10.1137/22M148570X",
+          "url": "https://pu-shi.github.io/publications/",
+          "selectionReason": "作者主页与 SIAM 页面共同核验的有向图加速代表作"
+        },
+        {
+          "title": "Optimal Gradient Tracking for Decentralized Optimization",
+          "year": 2024,
+          "venue": "Mathematical Programming",
+          "url": "https://pu-shi.github.io/publications/",
+          "selectionReason": "作者主页列出的最优梯度跟踪代表作"
+        },
+        {
+          "title": "Distributed Stochastic Gradient Tracking Methods",
+          "year": 2021,
+          "venue": "Mathematical Programming",
+          "url": "https://pu-shi.github.io/publications/",
+          "selectionReason": "作者主页列出的分布式随机梯度跟踪代表作"
+        }
+      ],
       "currentStatusZh": "Operations Research、Mathematical Programming、IEEE TAC/TSP 连续成果；总统青年学者",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -8958,13 +11418,45 @@
             "research",
             "career_stage"
           ]
+        },
+        {
+          "type": "author_profile_homepage",
+          "url": "https://pu-shi.github.io/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research",
+            "group_members"
+          ]
+        },
+        {
+          "type": "author_publication_list",
+          "url": "https://pu-shi.github.io/publications/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
       "uncertainties": [
         "博士年份处于10年边界，后续按滚动年份重新分类"
       ],
       "lastVerifiedAt": "2026-07-10",
-      "sourceKind": "researched_candidate"
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 22,
+        "recentWorksCount": 13,
+        "provider": "AuthorHomepage",
+        "countLabelZh": "作者主页列出的正式期刊论文",
+        "countCaveatZh": "按作者主页 Journal Papers 栏目逐条统计 22 篇；预印本、会议论文和书章未混入正式期刊数量。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": []
     }
   ],
   "review": [
@@ -8975,6 +11467,7 @@
       "reason": "missing_verified_phd_year"
     }
   ],
+  "supplementsUpdatedAt": "2026-07-10",
   "sourceFiles": [
     "candidates-europe-2026-07-10.json",
     "candidates-europe-extension-2026-07-10.json",

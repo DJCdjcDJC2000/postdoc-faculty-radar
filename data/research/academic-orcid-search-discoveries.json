@@ -1,0 +1,3927 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-10T12:21:43.167Z",
+  "methodNoteZh": "使用 ORCID 官方 expanded-search；只有姓名相似度不低于 0.94 且机构相似度不低于 0.6 的唯一记录进入二次校验。",
+  "thresholds": {
+    "nameSimilarity": 0.94,
+    "institutionSimilarity": 0.6
+  },
+  "counts": {
+    "checked": 106,
+    "candidates": 65,
+    "review": 33,
+    "errors": 0
+  },
+  "profiles": [
+    {
+      "id": "person-niao-he",
+      "name": "Niao He",
+      "officialInstitution": "ETH Zurich",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-4225-7536",
+      "selected": {
+        "orcid": "0000-0003-4225-7536",
+        "observedName": "Niao He",
+        "institutionNames": [
+          "ETH Zurich"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-4225-7536",
+          "observedName": "Niao He",
+          "institutionNames": [
+            "ETH Zurich"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "nus-math-kim-chuan-toh",
+      "name": "Kim-Chuan Toh",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-7204-8933",
+      "selected": {
+        "orcid": "0000-0001-7204-8933",
+        "observedName": "Kim-Chuan Toh",
+        "institutionNames": [
+          "Cornell University",
+          "National University of Singapore"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-7204-8933",
+          "observedName": "Kim-Chuan Toh",
+          "institutionNames": [
+            "Cornell University",
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "person-napat-rujeerapaiboon",
+      "name": "Napat Rujeerapaiboon",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-5996-335X",
+      "selected": {
+        "orcid": "0000-0002-5996-335X",
+        "observedName": "Napat Rujeerapaiboon",
+        "institutionNames": [
+          "Chulalongkorn University",
+          "Imperial College London",
+          "National University of Singapore",
+          "École Polytechnique Fédérale de Lausanne"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-5996-335X",
+          "observedName": "Napat Rujeerapaiboon",
+          "institutionNames": [
+            "Chulalongkorn University",
+            "Imperial College London",
+            "National University of Singapore",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "cuhk-seem-anthony-so",
+      "name": "Anthony Man-Cho So",
+      "officialInstitution": "The Chinese University of Hong Kong",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-2588-7851",
+      "selected": {
+        "orcid": "0000-0003-2588-7851",
+        "observedName": "Anthony Man-Cho So",
+        "institutionNames": [
+          "The Chinese University of Hong Kong"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-2588-7851",
+          "observedName": "Anthony Man-Cho So",
+          "institutionNames": [
+            "The Chinese University of Hong Kong"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "person-viet-anh-nguyen",
+      "name": "Viet Anh Nguyen",
+      "officialInstitution": "The Chinese University of Hong Kong",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-9607-7891",
+      "selected": {
+        "orcid": "0000-0002-9607-7891",
+        "observedName": "Viet Anh Nguyen",
+        "institutionNames": [
+          "Chinese University of Hong Kong",
+          "Ecole Polytechnique Federale de Lausanne Collège du Management de la Technologie",
+          "Stanford University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-9607-7891",
+          "observedName": "Viet Anh Nguyen",
+          "institutionNames": [
+            "Chinese University of Hong Kong",
+            "Ecole Polytechnique Federale de Lausanne Collège du Management de la Technologie",
+            "Stanford University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-7141-6463",
+          "observedName": "Viet Anh Nguyen",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-8776-9765",
+          "observedName": "Viet Anh Nguyen",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-2649-2918",
+          "observedName": "viet anh nguyen",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-8064-9480",
+          "observedName": "Việt Anh Nguyễn",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "person-luze-xu",
+      "name": "Luze Xu",
+      "officialInstitution": "The Hong Kong University of Science and Technology",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-5705-4403",
+      "selected": {
+        "orcid": "0000-0001-5705-4403",
+        "observedName": "Luze Xu",
+        "institutionNames": [
+          "Hong Kong University of Science and Technology",
+          "Peking University",
+          "University of California, Davis",
+          "University of Michigan–Ann Arbor",
+          "University of Wisconsin–Madison"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-5705-4403",
+          "observedName": "Luze Xu",
+          "institutionNames": [
+            "Hong Kong University of Science and Technology",
+            "Peking University",
+            "University of California, Davis",
+            "University of Michigan–Ann Arbor",
+            "University of Wisconsin–Madison"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "person-sanyou-mei",
+      "name": "Sanyou Mei",
+      "officialInstitution": "The Hong Kong University of Science and Technology",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0009-0001-9028-7847",
+      "selected": {
+        "orcid": "0009-0001-9028-7847",
+        "observedName": "Sanyou Mei",
+        "institutionNames": [
+          "Hong Kong University of Science and Technology"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0009-0001-9028-7847",
+          "observedName": "Sanyou Mei",
+          "institutionNames": [
+            "Hong Kong University of Science and Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "epfl-rao-daniel-kuhn",
+      "name": "Daniel Kuhn",
+      "officialInstitution": "EPFL",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-2697-8886",
+      "selected": {
+        "orcid": "0000-0003-2697-8886",
+        "observedName": "Daniel Kuhn",
+        "institutionNames": [
+          "EPFL - École Polytechnique Fédérale de Lausanne"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-2697-8886",
+          "observedName": "Daniel Kuhn",
+          "institutionNames": [
+            "EPFL - École Polytechnique Fédérale de Lausanne"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0009-0000-9182-7916",
+          "observedName": "Daniel Kuhn",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-5778-3160",
+          "observedName": "Daniel Kuhn",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0004-5125-0517",
+          "observedName": "Daniel Kühn",
+          "institutionNames": [
+            "Deutsches Elektronen-Synchrotron DESY"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0007-5173-6965",
+          "observedName": "Daniel Kuhn",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "epfl-optim-nicolas-boumal",
+      "name": "Nicolas Boumal",
+      "officialInstitution": "EPFL",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-1322-958X",
+      "selected": {
+        "orcid": "0000-0002-1322-958X",
+        "observedName": "Nicolas Boumal",
+        "institutionNames": [
+          "EPFL - École Polytechnique Fédérale de Lausanne",
+          "Princeton University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-1322-958X",
+          "observedName": "Nicolas Boumal",
+          "institutionNames": [
+            "EPFL - École Polytechnique Fédérale de Lausanne",
+            "Princeton University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "tum-math-michael-ulbrich",
+      "name": "Michael Ulbrich",
+      "officialInstitution": "Technical University of Munich",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-4320-8616",
+      "selected": {
+        "orcid": "0000-0002-4320-8616",
+        "observedName": "Michael Ulbrich",
+        "institutionNames": [
+          "Technische Universität München"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-4320-8616",
+          "observedName": "Michael Ulbrich",
+          "institutionNames": [
+            "Technische Universität München"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "stanford-yinyu-ye-optimization",
+      "name": "Yinyu Ye",
+      "officialInstitution": "Stanford University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0009-0001-3239-2622",
+      "selected": {
+        "orcid": "0009-0001-3239-2622",
+        "observedName": "Yinyu Ye",
+        "institutionNames": [
+          "Stanford University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0009-0001-3239-2622",
+          "observedName": "Yinyu Ye",
+          "institutionNames": [
+            "Stanford University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "stanford-boyd-convex-optimization",
+      "name": "Stephen Boyd",
+      "officialInstitution": "Stanford University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-8353-6000",
+      "selected": {
+        "orcid": "0000-0001-8353-6000",
+        "observedName": "Stephen Boyd",
+        "institutionNames": [
+          "Stanford University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-8353-6000",
+          "observedName": "Stephen Boyd",
+          "institutionNames": [
+            "Stanford University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-5694-0056",
+          "observedName": "Stephen Boyd",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-1415-5014",
+          "observedName": "Stephen Boyd",
+          "institutionNames": [
+            "Dún Laoghaire Institute of Art, Design and Technology",
+            "National College of Art and Design",
+            "Trinity College Dublin"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-9978-1139",
+          "observedName": "Stephen Boyd",
+          "institutionNames": [
+            "Central Michigan University",
+            "Michigan State University",
+            "Purdue University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0003-6679-0164",
+          "observedName": "Stephen Boyd",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "mit-bertsimas-analytics-optimization",
+      "name": "Dimitris Bertsimas",
+      "officialInstitution": "Massachusetts Institute of Technology",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-1985-1003",
+      "selected": {
+        "orcid": "0000-0002-1985-1003",
+        "observedName": "Dimitris Bertsimas",
+        "institutionNames": [
+          "Massachusetts Institute of Technology"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-1985-1003",
+          "observedName": "Dimitris Bertsimas",
+          "institutionNames": [
+            "Massachusetts Institute of Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "princeton-amir-ali-ahmadi",
+      "name": "Amir Ali Ahmadi",
+      "officialInstitution": "Princeton University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0009-0001-5743-354X",
+      "selected": {
+        "orcid": "0009-0001-5743-354X",
+        "observedName": "Amir Ali Ahmadi",
+        "institutionNames": [
+          "Citadel",
+          "Google (United States)",
+          "IBM Research - Thomas J. Watson Research Center",
+          "Ivypedia",
+          "Massachusetts Institute of Technology",
+          "Princeton University",
+          "University of Maryland, Baltimore"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0009-0001-5743-354X",
+          "observedName": "Amir Ali Ahmadi",
+          "institutionNames": [
+            "Citadel",
+            "Google (United States)",
+            "IBM Research - Thomas J. Watson Research Center",
+            "Ivypedia",
+            "Massachusetts Institute of Technology",
+            "Princeton University",
+            "University of Maryland, Baltimore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-1590-7281",
+          "observedName": "Amir Ali Ahmadi",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "epfl-lions-volkan-cevher",
+      "name": "Volkan Cevher",
+      "officialInstitution": "EPFL",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-5004-201X",
+      "selected": {
+        "orcid": "0000-0002-5004-201X",
+        "observedName": "Volkan Cevher",
+        "institutionNames": [
+          "AdvML Frontiers 2023",
+          "Association for Computing Machinery",
+          "Bilkent University",
+          "EPFL - École Polytechnique Fédérale de Lausanne",
+          "Ecole Polytechnique Federale de Lausanne",
+          "European Research Council",
+          "Georgia Institute of Technology",
+          "Google Research",
+          "IBM Research - Zurich",
+          "IEEE ComSoc Turkey",
+          "IEEE Foundation",
+          "IEEE Signal Processing Society",
+          "Idiap Research Institute",
+          "NeurIPS 2022",
+          "Neural Information Processing Systems Conference",
+          "Rice University",
+          "Signal Processing with Adaptive Sparse Structured Representations (SPARS)",
+          "Top contributing authors @ ICML 2019",
+          "University of Maryland, Baltimore",
+          "École Polytechnique Fédérale de Lausanne"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-5004-201X",
+          "observedName": "Volkan Cevher",
+          "institutionNames": [
+            "AdvML Frontiers 2023",
+            "Association for Computing Machinery",
+            "Bilkent University",
+            "EPFL - École Polytechnique Fédérale de Lausanne",
+            "Ecole Polytechnique Federale de Lausanne",
+            "European Research Council",
+            "Georgia Institute of Technology",
+            "Google Research",
+            "IBM Research - Zurich",
+            "IEEE ComSoc Turkey",
+            "IEEE Foundation",
+            "IEEE Signal Processing Society",
+            "Idiap Research Institute",
+            "NeurIPS 2022",
+            "Neural Information Processing Systems Conference",
+            "Rice University",
+            "Signal Processing with Adaptive Sparse Structured Representations (SPARS)",
+            "Top contributing authors @ ICML 2019",
+            "University of Maryland, Baltimore",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "cuhk-seem-huifu-xu",
+      "name": "Huifu Xu",
+      "officialInstitution": "The Chinese University of Hong Kong",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-8307-2920",
+      "selected": {
+        "orcid": "0000-0001-8307-2920",
+        "observedName": "Huifu Xu",
+        "institutionNames": [
+          "The Chinese University of Hong Kong"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-8307-2920",
+          "observedName": "Huifu Xu",
+          "institutionNames": [
+            "The Chinese University of Hong Kong"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "be-ku-leuven-patrinos-lab",
+      "name": "Panagiotis Patrinos",
+      "officialInstitution": "KU Leuven",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-4824-7697",
+      "selected": {
+        "orcid": "0000-0003-4824-7697",
+        "observedName": "Panagiotis Patrinos",
+        "institutionNames": [
+          "KU Leuven"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-4824-7697",
+          "observedName": "Panagiotis Patrinos",
+          "institutionNames": [
+            "KU Leuven"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-4478-4639",
+          "observedName": "Panagiotis Patrinos",
+          "institutionNames": [
+            "General University Hospital of Patras"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "fr-inria-sierra-bach",
+      "name": "Francis Bach",
+      "officialInstitution": "Inria Paris / ENS-PSL / CNRS",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-8644-1058",
+      "selected": {
+        "orcid": "0000-0001-8644-1058",
+        "observedName": "Francis Bach",
+        "institutionNames": [
+          "Inria Centre de Recherche de Paris",
+          "University of California Berkeley",
+          "École Polytechnique"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-8644-1058",
+          "observedName": "Francis Bach",
+          "institutionNames": [
+            "Inria Centre de Recherche de Paris",
+            "University of California Berkeley",
+            "École Polytechnique"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "ch-eth-camlab-mishra",
+      "name": "Siddhartha Mishra",
+      "officialInstitution": "ETH Zurich",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-2665-5385",
+      "selected": {
+        "orcid": "0000-0002-2665-5385",
+        "observedName": "Siddhartha Mishra",
+        "institutionNames": [
+          "ETH Zurich",
+          "ETH Zürich Foundation",
+          "European Community on Computational Methods in Applied Sciences",
+          "European Research Council",
+          "GAMM",
+          "Indian Institute of Science",
+          "Infosys Foundation",
+          "International Mathematical Union",
+          "Society for Industrial and Applied Mathematics",
+          "The International Council for Industrial and Applied Mathematics",
+          "University of Oslo"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-2665-5385",
+          "observedName": "Siddhartha Mishra",
+          "institutionNames": [
+            "ETH Zurich",
+            "ETH Zürich Foundation",
+            "European Community on Computational Methods in Applied Sciences",
+            "European Research Council",
+            "GAMM",
+            "Indian Institute of Science",
+            "Infosys Foundation",
+            "International Mathematical Union",
+            "Society for Industrial and Applied Mathematics",
+            "The International Council for Industrial and Applied Mathematics",
+            "University of Oslo"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-0583-7390",
+          "observedName": "Siddhartha Mishra",
+          "institutionNames": [
+            "MPUAT",
+            "Maharana Pratap University of Agriculture and Technology",
+            "National Dairy Research Institute"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-0907-9256",
+          "observedName": "Siddhartha Mishra",
+          "institutionNames": [
+            "Amity University",
+            "International Centre For Genetic Engineering and Biotechnology New Delhi"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-4294-6075",
+          "observedName": "Siddhartha Mishra",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0008-7057-9261",
+          "observedName": "Siddhartha Mishra",
+          "institutionNames": [
+            "University of Delhi"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "ch-eth-schwab-cse",
+      "name": "Christoph Schwab",
+      "officialInstitution": "ETH Zurich",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-7570-1472",
+      "selected": {
+        "orcid": "0000-0002-7570-1472",
+        "observedName": "Christoph Schwab",
+        "institutionNames": [
+          "ETH Zurich",
+          "Technical University of Darmstadt",
+          "University of Maryland, College Park"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-7570-1472",
+          "observedName": "Christoph Schwab",
+          "institutionNames": [
+            "ETH Zurich",
+            "Technical University of Darmstadt",
+            "University of Maryland, College Park"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0001-9011-5124",
+          "observedName": "Christoph Schwab",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-2719-2511",
+          "observedName": "Christoph Schwab",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0004-8627-7998",
+          "observedName": "Christoph Schwab",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "ch-epfl-anchp-kressner",
+      "name": "Daniel Kressner",
+      "officialInstitution": "EPFL",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-3369-2958",
+      "selected": {
+        "orcid": "0000-0003-3369-2958",
+        "observedName": "Daniel Kressner",
+        "institutionNames": [
+          "Association for Computing Machinery",
+          "ETH Zurich",
+          "Elsevier Foundation",
+          "Freie Universität Berlin",
+          "IMA",
+          "Mathematisches Forschungsinstitut Oberwolfach",
+          "Society for Industrial and Applied Mathematics",
+          "Springer Nature (Germany)",
+          "Technische Universität Berlin",
+          "Technische Universität Chemnitz",
+          "Technische Universität München",
+          "Walter de Gruyter (Germany)",
+          "École Polytechnique Fédérale de Lausanne"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-3369-2958",
+          "observedName": "Daniel Kressner",
+          "institutionNames": [
+            "Association for Computing Machinery",
+            "ETH Zurich",
+            "Elsevier Foundation",
+            "Freie Universität Berlin",
+            "IMA",
+            "Mathematisches Forschungsinstitut Oberwolfach",
+            "Society for Industrial and Applied Mathematics",
+            "Springer Nature (Germany)",
+            "Technische Universität Berlin",
+            "Technische Universität Chemnitz",
+            "Technische Universität München",
+            "Walter de Gruyter (Germany)",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "de-tu-berlin-pokutta-optimization",
+      "name": "Sebastian Pokutta",
+      "officialInstitution": "TU Berlin / Zuse Institute Berlin",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-7365-3000",
+      "selected": {
+        "orcid": "0000-0001-7365-3000",
+        "observedName": "Sebastian Pokutta",
+        "institutionNames": [
+          "Technische Universität Berlin",
+          "Zuse Institute Berlin"
+        ],
+        "nameScore": 1,
+        "institutionScore": 0.92
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-7365-3000",
+          "observedName": "Sebastian Pokutta",
+          "institutionNames": [
+            "Technische Universität Berlin",
+            "Zuse Institute Berlin"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "de-freiburg-syscop-diehl",
+      "name": "Moritz Diehl",
+      "officialInstitution": "University of Freiburg",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-6556-8252",
+      "selected": {
+        "orcid": "0000-0001-6556-8252",
+        "observedName": "Moritz Diehl",
+        "institutionNames": [
+          "KU Leuven",
+          "Ruprecht-Karls-Universität Heidelberg",
+          "University of Freiburg"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-6556-8252",
+          "observedName": "Moritz Diehl",
+          "institutionNames": [
+            "KU Leuven",
+            "Ruprecht-Karls-Universität Heidelberg",
+            "University of Freiburg"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "ch-epfl-mlo-jaggi",
+      "name": "Martin Jaggi",
+      "officialInstitution": "EPFL",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-1579-5558",
+      "selected": {
+        "orcid": "0000-0003-1579-5558",
+        "observedName": "Martin Jaggi",
+        "institutionNames": [
+          "EPFL"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-1579-5558",
+          "observedName": "Martin Jaggi",
+          "institutionNames": [
+            "EPFL"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "be-uclouvain-glineur-optimization",
+      "name": "François Glineur",
+      "officialInstitution": "UCLouvain / CORE",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-5890-1093",
+      "selected": {
+        "orcid": "0000-0002-5890-1093",
+        "observedName": "François Glineur",
+        "institutionNames": [
+          "Université catholique de Louvain",
+          "Université de Mons"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-5890-1093",
+          "observedName": "François Glineur",
+          "institutionNames": [
+            "Université catholique de Louvain",
+            "Université de Mons"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "hku-xiaoming-yuan",
+      "name": "Xiaoming Yuan",
+      "officialInstitution": "University of Hong Kong",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-6900-6983",
+      "selected": {
+        "orcid": "0000-0002-6900-6983",
+        "observedName": "Xiaoming YUAN",
+        "institutionNames": [
+          "Hong Kong Baptist University",
+          "The University of Hong Kong"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-6900-6983",
+          "observedName": "Xiaoming YUAN",
+          "institutionNames": [
+            "Hong Kong Baptist University",
+            "The University of Hong Kong"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-3438-6082",
+          "observedName": "Xiaoming YUAN",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-2784-601X",
+          "observedName": "Xiaoming Yuan",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-8493-0234",
+          "observedName": "Xiaoming Yuan",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-4155-8230",
+          "observedName": "Xiaoming Yuan",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "hkust-jiheng-zhang",
+      "name": "Jiheng Zhang",
+      "officialInstitution": "Hong Kong University of Science and Technology",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-3025-1495",
+      "selected": {
+        "orcid": "0000-0003-3025-1495",
+        "observedName": "Jiheng Zhang",
+        "institutionNames": [
+          "Hong Kong University of Science and Technology"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-3025-1495",
+          "observedName": "Jiheng Zhang",
+          "institutionNames": [
+            "Hong Kong University of Science and Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-7257-8077",
+          "observedName": "Jiheng Zhang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0002-1770-0583",
+          "observedName": "Jiheng ZHANG",
+          "institutionNames": [
+            "Ocean University of China",
+            "中国海洋大学"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "nus-weizhu-bao",
+      "name": "Weizhu Bao",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-3418-9625",
+      "selected": {
+        "orcid": "0000-0003-3418-9625",
+        "observedName": "Weizhu Bao",
+        "institutionNames": [
+          "Georgia Institute of Technology",
+          "Imperial College London",
+          "National University of Singapore",
+          "Tsinghua University",
+          "University of Wisconsin Madison"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-3418-9625",
+          "observedName": "Weizhu Bao",
+          "institutionNames": [
+            "Georgia Institute of Technology",
+            "Imperial College London",
+            "National University of Singapore",
+            "Tsinghua University",
+            "University of Wisconsin Madison"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "nus-chung-piaw-teo",
+      "name": "Chung Piaw Teo",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-0534-6858",
+      "selected": {
+        "orcid": "0000-0002-0534-6858",
+        "observedName": "Chung Piaw Teo",
+        "institutionNames": [
+          "Massachusetts Institute of Technology",
+          "National University of Singapore"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-0534-6858",
+          "observedName": "Chung Piaw Teo",
+          "institutionNames": [
+            "Massachusetts Institute of Technology",
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "sutd-karthik-natarajan",
+      "name": "Karthik Natarajan",
+      "officialInstitution": "Singapore University of Technology and Design",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-3868-7587",
+      "selected": {
+        "orcid": "0000-0002-3868-7587",
+        "observedName": "Karthik Natarajan",
+        "institutionNames": [
+          "Singapore University of Technology and Design"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-3868-7587",
+          "observedName": "Karthik Natarajan",
+          "institutionNames": [
+            "Singapore University of Technology and Design"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-1977-1860",
+          "observedName": "Karthik Natarajan",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0008-3174-2150",
+          "observedName": "Karthik Natarajan",
+          "institutionNames": [
+            "Australasian College for Emergency Medicine",
+            "EAST METROPOLITAN HEALTH SERVICE",
+            "Royal Perth Hospital",
+            "Sri Siddhartha Medical College"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-9066-9431",
+          "observedName": "Karthik Natarajan",
+          "institutionNames": [
+            "Columbia University Medical Center"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0004-8982-2525",
+          "observedName": "Karthik Natarajan",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "pku-zaiwen-wen",
+      "name": "Zaiwen Wen",
+      "officialInstitution": "Peking University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-1762-0671",
+      "selected": {
+        "orcid": "0000-0003-1762-0671",
+        "observedName": "Zaiwen Wen",
+        "institutionNames": [
+          "Peking University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-1762-0671",
+          "observedName": "Zaiwen Wen",
+          "institutionNames": [
+            "Peking University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "pku-pingwen-zhang",
+      "name": "Pingwen Zhang",
+      "officialInstitution": "Wuhan University / Peking University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0009-0005-0256-9158",
+      "selected": {
+        "orcid": "0009-0005-0256-9158",
+        "observedName": "Pingwen Zhang",
+        "institutionNames": [
+          "Wuhan University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 0.92
+      },
+      "candidates": [
+        {
+          "orcid": "0009-0005-0256-9158",
+          "observedName": "Pingwen Zhang",
+          "institutionNames": [
+            "Wuhan University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "shaoning-han-nus",
+      "name": "Shaoning Han",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-1145-7981",
+      "selected": {
+        "orcid": "0000-0003-1145-7981",
+        "observedName": "Shaoning Han",
+        "institutionNames": [
+          "National University of Singapore",
+          "University of Southern California"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-1145-7981",
+          "observedName": "Shaoning Han",
+          "institutionNames": [
+            "National University of Singapore",
+            "University of Southern California"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "madeleine-udell-stanford",
+      "name": "Madeleine Udell",
+      "officialInstitution": "Stanford University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-3985-915X",
+      "selected": {
+        "orcid": "0000-0002-3985-915X",
+        "observedName": "Madeleine Udell",
+        "institutionNames": [
+          "Stanford University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-3985-915X",
+          "observedName": "Madeleine Udell",
+          "institutionNames": [
+            "Stanford University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "mengdi-wang-princeton",
+      "name": "Mengdi Wang",
+      "officialInstitution": "Princeton University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-2101-9507",
+      "selected": {
+        "orcid": "0000-0002-2101-9507",
+        "observedName": "Mengdi Wang",
+        "institutionNames": [
+          "Google DeepMind",
+          "Massachusetts Institute of Technology",
+          "Princeton University",
+          "Tsinghua University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-2101-9507",
+          "observedName": "Mengdi Wang",
+          "institutionNames": [
+            "Google DeepMind",
+            "Massachusetts Institute of Technology",
+            "Princeton University",
+            "Tsinghua University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-3600-0822",
+          "observedName": "Mengdi Wang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-2207-2131",
+          "observedName": "Mengdi Wang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-8206-8663",
+          "observedName": "Mengdi Wang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-2258-5674",
+          "observedName": "Mengdi Wang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "de-ellis-antonio-orvieto",
+      "name": "Antonio Orvieto",
+      "officialInstitution": "ELLIS Institute Tübingen / MPI-IS",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-1914-0367",
+      "selected": {
+        "orcid": "0000-0002-1914-0367",
+        "observedName": "Antonio Orvieto",
+        "institutionNames": [
+          "DeepMind (United Kingdom)",
+          "ETH Zurich",
+          "ETH Zürich",
+          "Hilti (Liechtenstein)",
+          "Inria Centre de Recherche de Paris",
+          "Max Planck Institute for Intelligent Systems, ELLIS Institute Tübingen, Tübingen AI Center",
+          "Meta Platforms Inc",
+          "Mila - Quebec Artificial Intelligence Institute",
+          "Schmidt Sciences",
+          "University of Padua"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-1914-0367",
+          "observedName": "Antonio Orvieto",
+          "institutionNames": [
+            "DeepMind (United Kingdom)",
+            "ETH Zurich",
+            "ETH Zürich",
+            "Hilti (Liechtenstein)",
+            "Inria Centre de Recherche de Paris",
+            "Max Planck Institute for Intelligent Systems, ELLIS Institute Tübingen, Tübingen AI Center",
+            "Meta Platforms Inc",
+            "Mila - Quebec Artificial Intelligence Institute",
+            "Schmidt Sciences",
+            "University of Padua"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "de-zib-ksenia-bestuzheva",
+      "name": "Ksenia Bestuzheva",
+      "officialInstitution": "Zuse Institute Berlin",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-7018-7099",
+      "selected": {
+        "orcid": "0000-0002-7018-7099",
+        "observedName": "Ksenia Bestuzheva",
+        "institutionNames": [
+          "Australian National University",
+          "GAMS Software GmbH",
+          "Zuse Institute Berlin"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-7018-7099",
+          "observedName": "Ksenia Bestuzheva",
+          "institutionNames": [
+            "Australian National University",
+            "GAMS Software GmbH",
+            "Zuse Institute Berlin"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "de-zib-leon-eifler",
+      "name": "Leon Eifler",
+      "officialInstitution": "Zuse Institute Berlin",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-0245-9344",
+      "selected": {
+        "orcid": "0000-0003-0245-9344",
+        "observedName": "Leon Eifler",
+        "institutionNames": [
+          "Technische Universität Berlin Institut für Mathematik",
+          "Zuse Institute Berlin"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-0245-9344",
+          "observedName": "Leon Eifler",
+          "institutionNames": [
+            "Technische Universität Berlin Institut für Mathematik",
+            "Zuse Institute Berlin"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "se-kth-giuseppe-belgioioso",
+      "name": "Giuseppe Belgioioso",
+      "officialInstitution": "KTH Royal Institute of Technology",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-8892-1466",
+      "selected": {
+        "orcid": "0000-0002-8892-1466",
+        "observedName": "Giuseppe Belgioioso",
+        "institutionNames": [
+          "ETH Zurich",
+          "KTH Royal Institute of Technology",
+          "Technische Universiteit Eindhoven",
+          "Università degli Studi di Padova",
+          "Università degli Studi di Padova Scuola di Ingegneria"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-8892-1466",
+          "observedName": "Giuseppe Belgioioso",
+          "institutionNames": [
+            "ETH Zurich",
+            "KTH Royal Institute of Technology",
+            "Technische Universiteit Eindhoven",
+            "Università degli Studi di Padova",
+            "Università degli Studi di Padova Scuola di Ingegneria"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "at-vienna-philipp-petersen",
+      "name": "Philipp Petersen",
+      "officialInstitution": "University of Vienna",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-3566-1020",
+      "selected": {
+        "orcid": "0000-0003-3566-1020",
+        "observedName": "Philipp Petersen",
+        "institutionNames": [
+          "TU Berlin",
+          "Tu Berlin",
+          "University of Oxford",
+          "University of Vienna"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-3566-1020",
+          "observedName": "Philipp Petersen",
+          "institutionNames": [
+            "TU Berlin",
+            "Tu Berlin",
+            "University of Oxford",
+            "University of Vienna"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "it-imt-puya-latafat",
+      "name": "Puya Latafat",
+      "officialInstitution": "IMT School for Advanced Studies Lucca",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-7969-8565",
+      "selected": {
+        "orcid": "0000-0002-7969-8565",
+        "observedName": "Puya Latafat",
+        "institutionNames": [
+          "IMT School for Advanced Studies Lucca"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-7969-8565",
+          "observedName": "Puya Latafat",
+          "institutionNames": [
+            "IMT School for Advanced Studies Lucca"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "at-tuwien-tatjana-chavdarova",
+      "name": "Tatjana Chavdarova",
+      "officialInstitution": "TU Wien",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-6795-4576",
+      "selected": {
+        "orcid": "0000-0002-6795-4576",
+        "observedName": "Tatjana Chavdarova",
+        "institutionNames": [
+          "EPFL",
+          "Minimax Theory and Applications Journal",
+          "TU Wien",
+          "WiML Workshop at ICML 2020",
+          "Women in Machine Learning"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-6795-4576",
+          "observedName": "Tatjana Chavdarova",
+          "institutionNames": [
+            "EPFL",
+            "Minimax Theory and Applications Journal",
+            "TU Wien",
+            "WiML Workshop at ICML 2020",
+            "Women in Machine Learning"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "fr-polytechnique-aymeric-dieuleveut",
+      "name": "Aymeric Dieuleveut",
+      "officialInstitution": "École Polytechnique",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0009-0005-1848-1724",
+      "selected": {
+        "orcid": "0009-0005-1848-1724",
+        "observedName": "Aymeric Dieuleveut",
+        "institutionNames": [
+          "École Polytechnique"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0009-0005-1848-1724",
+          "observedName": "Aymeric Dieuleveut",
+          "institutionNames": [
+            "École Polytechnique"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "ch-eth-mattia-bianchi",
+      "name": "Mattia Bianchi",
+      "officialInstitution": "ETH Zurich",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-5261-6718",
+      "selected": {
+        "orcid": "0000-0002-5261-6718",
+        "observedName": "Mattia Bianchi",
+        "institutionNames": [
+          "ETH Zurich",
+          "Technische Universiteit Delft",
+          "University of L'Aquila"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-5261-6718",
+          "observedName": "Mattia Bianchi",
+          "institutionNames": [
+            "ETH Zurich",
+            "Technische Universiteit Delft",
+            "University of L'Aquila"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-4762-4278",
+          "observedName": "Mattia Bianchi",
+          "institutionNames": [
+            "Universidad de Salamanca"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-3799-5887",
+          "observedName": "Mattia Bianchi",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0009-1554-2439",
+          "observedName": "Mattia Bianchi",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-1683-4459",
+          "observedName": "Mattia Bianchi",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "it-imt-filippo-fabiani",
+      "name": "Filippo Fabiani",
+      "officialInstitution": "IMT School for Advanced Studies Lucca",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-9911-4758",
+      "selected": {
+        "orcid": "0000-0002-9911-4758",
+        "observedName": "Filippo Fabiani",
+        "institutionNames": [
+          "Delft University of Technology",
+          "IMT School for Advanced Studies Lucca",
+          "Research Centre \"E. Piaggio\"",
+          "University of Oxford",
+          "Università di Pisa Scuola di Ingegneria"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-9911-4758",
+          "observedName": "Filippo Fabiani",
+          "institutionNames": [
+            "Delft University of Technology",
+            "IMT School for Advanced Studies Lucca",
+            "Research Centre \"E. Piaggio\"",
+            "University of Oxford",
+            "Università di Pisa Scuola di Ingegneria"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "fr-inria-thomas-moreau",
+      "name": "Thomas Moreau",
+      "officialInstitution": "Inria Saclay",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-1523-3419",
+      "selected": {
+        "orcid": "0000-0002-1523-3419",
+        "observedName": "Thomas Moreau",
+        "institutionNames": [
+          "Inria Centre de Recherche Saclay-Île-de-France",
+          "École Normale Supérieure Paris-Saclay"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-1523-3419",
+          "observedName": "Thomas Moreau",
+          "institutionNames": [
+            "Inria Centre de Recherche Saclay-Île-de-France",
+            "École Normale Supérieure Paris-Saclay"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-4325-7071",
+          "observedName": "Thomas Moreau",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-6356-399X",
+          "observedName": "Thomas Moreau",
+          "institutionNames": [
+            "CHUV",
+            "ULiège"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-1090-6685",
+          "observedName": "Thomas Moreau",
+          "institutionNames": [
+            "Aix-Marseille Université",
+            "University of Cambridge",
+            "bit.bio"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0000-2965-0400",
+          "observedName": "Thomas Moreau",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "fr-polytechnique-maxime-breden",
+      "name": "Maxime Breden",
+      "officialInstitution": "École Polytechnique",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0009-0000-0072-404X",
+      "selected": {
+        "orcid": "0009-0000-0072-404X",
+        "observedName": "Maxime Breden",
+        "institutionNames": [
+          "École Polytechnique"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0009-0000-0072-404X",
+          "observedName": "Maxime Breden",
+          "institutionNames": [
+            "École Polytechnique"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "it-pisa-alice-cortinovis",
+      "name": "Alice Cortinovis",
+      "officialInstitution": "University of Pisa",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-6917-5106",
+      "selected": {
+        "orcid": "0000-0001-6917-5106",
+        "observedName": "Alice Cortinovis",
+        "institutionNames": [
+          "University of Pisa"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-6917-5106",
+          "observedName": "Alice Cortinovis",
+          "institutionNames": [
+            "University of Pisa"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "it-pisa-stefano-massei",
+      "name": "Stefano Massei",
+      "officialInstitution": "University of Pisa",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-1813-4181",
+      "selected": {
+        "orcid": "0000-0003-1813-4181",
+        "observedName": "STEFANO MASSEI",
+        "institutionNames": [
+          "Eindhoven University of Technology",
+          "Scuola Normale Superiore",
+          "University of Pisa",
+          "École Polytechnique Fédérale de Lausanne"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-1813-4181",
+          "observedName": "STEFANO MASSEI",
+          "institutionNames": [
+            "Eindhoven University of Technology",
+            "Scuola Normale Superiore",
+            "University of Pisa",
+            "École Polytechnique Fédérale de Lausanne"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "at-innsbruck-gianluca-ceruti",
+      "name": "Gianluca Ceruti",
+      "officialInstitution": "University of Innsbruck",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0009-0009-2644-8093",
+      "selected": {
+        "orcid": "0009-0009-2644-8093",
+        "observedName": "Gianluca Ceruti",
+        "institutionNames": [
+          "Universität Innsbruck"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0009-0009-2644-8093",
+          "observedName": "Gianluca Ceruti",
+          "institutionNames": [
+            "Universität Innsbruck"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "fr-sorbonne-theo-mary",
+      "name": "Théo Mary",
+      "officialInstitution": "CNRS / Sorbonne Université, LIP6",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-9949-4634",
+      "selected": {
+        "orcid": "0000-0001-9949-4634",
+        "observedName": "Theo Mary",
+        "institutionNames": [
+          "CNRS",
+          "University of Toulouse, FR"
+        ],
+        "nameScore": 1,
+        "institutionScore": 0.92
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-9949-4634",
+          "observedName": "Theo Mary",
+          "institutionNames": [
+            "CNRS",
+            "University of Toulouse, FR"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "uk-leeds-massimiliano-fasi",
+      "name": "Massimiliano Fasi",
+      "officialInstitution": "University of Leeds",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-6015-391X",
+      "selected": {
+        "orcid": "0000-0002-6015-391X",
+        "observedName": "Massimiliano Fasi",
+        "institutionNames": [
+          "Durham University",
+          "The University of Manchester",
+          "University of Leeds",
+          "Örebro Universitet"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-6015-391X",
+          "observedName": "Massimiliano Fasi",
+          "institutionNames": [
+            "Durham University",
+            "The University of Manchester",
+            "University of Leeds",
+            "Örebro Universitet"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "fr-inria-manu-upadhyaya",
+      "name": "Manu Upadhyaya",
+      "officialInstitution": "Inria Paris / École Normale Supérieure, SIERRA",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-8235-0789",
+      "selected": {
+        "orcid": "0000-0002-8235-0789",
+        "observedName": "Manu Upadhyaya",
+        "institutionNames": [
+          "Inria Paris Centre",
+          "Lund University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-8235-0789",
+          "observedName": "Manu Upadhyaya",
+          "institutionNames": [
+            "Inria Paris Centre",
+            "Lund University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "cityu-hongyi-jiang",
+      "name": "Hongyi Jiang",
+      "officialInstitution": "City University of Hong Kong",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-9840-078X",
+      "selected": {
+        "orcid": "0000-0001-9840-078X",
+        "observedName": "Hongyi Jiang",
+        "institutionNames": [
+          "City University of Hong Kong",
+          "Cornell University",
+          "Johns Hopkins University",
+          "North Carolina State University",
+          "Wake Forest University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-9840-078X",
+          "observedName": "Hongyi Jiang",
+          "institutionNames": [
+            "City University of Hong Kong",
+            "Cornell University",
+            "Johns Hopkins University",
+            "North Carolina State University",
+            "Wake Forest University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-7106-1228",
+          "observedName": "Hongyi Jiang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-8269-4979",
+          "observedName": "Hongyi Jiang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-0655-0532",
+          "observedName": "Hongyi Jiang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-5675-0706",
+          "observedName": "Hongyi Jiang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "cityu-menglong-li",
+      "name": "Menglong Li",
+      "officialInstitution": "City University of Hong Kong",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-9770-0908",
+      "selected": {
+        "orcid": "0000-0001-9770-0908",
+        "observedName": "Menglong Li",
+        "institutionNames": [
+          "City University of Hong Kong",
+          "Massachusetts Institute of Technology",
+          "Tsinghua University",
+          "University of Illinois at Urbana-Champaign",
+          "Université Pierre et Marie Curie"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-9770-0908",
+          "observedName": "Menglong Li",
+          "institutionNames": [
+            "City University of Hong Kong",
+            "Massachusetts Institute of Technology",
+            "Tsinghua University",
+            "University of Illinois at Urbana-Champaign",
+            "Université Pierre et Marie Curie"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0001-6417-9538",
+          "observedName": "Menglong Li",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-7231-7531",
+          "observedName": "Menglong Li",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-1962-967X",
+          "observedName": "Menglong Li",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-4912-6061",
+          "observedName": "menglong li",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "hkust-nian-si",
+      "name": "Nian Si",
+      "officialInstitution": "Hong Kong University of Science and Technology",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-4730-543X",
+      "selected": {
+        "orcid": "0000-0002-4730-543X",
+        "observedName": "Nian Si",
+        "institutionNames": [
+          "Hong Kong University of Science and Technology",
+          "Stanford University",
+          "University of Chicago Booth School of Business"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-4730-543X",
+          "observedName": "Nian Si",
+          "institutionNames": [
+            "Hong Kong University of Science and Technology",
+            "Stanford University",
+            "University of Chicago Booth School of Business"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0009-0004-9903-2412",
+          "observedName": "Nian Si",
+          "institutionNames": [
+            "South China Normal University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0007-8511-3168",
+          "observedName": "Nian Si",
+          "institutionNames": [
+            "华南师范大学"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0009-2561-6825",
+          "observedName": "Nian Si",
+          "institutionNames": [
+            "Xi'an Siyuan University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-9116-8615",
+          "observedName": "Zhao-Nian Si",
+          "institutionNames": [],
+          "nameScore": 0.5333333333333333,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "hkbu-xindong-tang",
+      "name": "Xindong Tang",
+      "officialInstitution": "Hong Kong Baptist University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-4951-768X",
+      "selected": {
+        "orcid": "0000-0002-4951-768X",
+        "observedName": "Xindong Tang",
+        "institutionNames": [
+          "Hong Kong Baptist University",
+          "Hong Kong Polytechnic University",
+          "University of California San Diego"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-4951-768X",
+          "observedName": "Xindong Tang",
+          "institutionNames": [
+            "Hong Kong Baptist University",
+            "Hong Kong Polytechnic University",
+            "University of California San Diego"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "nus-qianxiao-li",
+      "name": "Qianxiao Li",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-3903-3737",
+      "selected": {
+        "orcid": "0000-0002-3903-3737",
+        "observedName": "Qianxiao Li",
+        "institutionNames": [
+          "Institute of High Performance Computing",
+          "National University of Singapore",
+          "Princeton University",
+          "University of Cambridge"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-3903-3737",
+          "observedName": "Qianxiao Li",
+          "institutionNames": [
+            "Institute of High Performance Computing",
+            "National University of Singapore",
+            "Princeton University",
+            "University of Cambridge"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "nus-guanyi-wang",
+      "name": "Guanyi Wang",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-5491-732X",
+      "selected": {
+        "orcid": "0000-0002-5491-732X",
+        "observedName": "Guanyi Wang",
+        "institutionNames": [
+          "Georgia Institute of Technology",
+          "Johns Hopkins University",
+          "National University of Singapore",
+          "Polytechnique Montréal",
+          "University of Science and Technology Beijing"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-5491-732X",
+          "observedName": "Guanyi Wang",
+          "institutionNames": [
+            "Georgia Institute of Technology",
+            "Johns Hopkins University",
+            "National University of Singapore",
+            "Polytechnique Montréal",
+            "University of Science and Technology Beijing"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-5958-9898",
+          "observedName": "guanyi wang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0000-8712-9787",
+          "observedName": "Guanyi Wang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-7243-265X",
+          "observedName": "Guanyi Wang",
+          "institutionNames": [
+            "University College London"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-8368-955X",
+          "observedName": "Guanyi Wang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "nus-junyu-zhang",
+      "name": "Junyu Zhang",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-2194-9664",
+      "selected": {
+        "orcid": "0000-0003-2194-9664",
+        "observedName": "Junyu Zhang",
+        "institutionNames": [
+          "National University of Singapore",
+          "Peking University",
+          "Princeton University",
+          "University of Minnesota Twin Cities"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-2194-9664",
+          "observedName": "Junyu Zhang",
+          "institutionNames": [
+            "National University of Singapore",
+            "Peking University",
+            "Princeton University",
+            "University of Minnesota Twin Cities"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0001-5551-4576",
+          "observedName": "Junyu Zhang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-1775-3263",
+          "observedName": "Junyu Zhang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0008-6874-4408",
+          "observedName": "Junyu Zhang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-4174-0414",
+          "observedName": "Junyu Zhang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "nus-hanzhang-qin",
+      "name": "Hanzhang Qin",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-2787-0685",
+      "selected": {
+        "orcid": "0000-0002-2787-0685",
+        "observedName": "Hanzhang Qin",
+        "institutionNames": [
+          "National University of Singapore"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-2787-0685",
+          "observedName": "Hanzhang Qin",
+          "institutionNames": [
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-3679-0457",
+          "observedName": "Hanzhang Qin",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0005-2838-9075",
+          "observedName": "Hanzhang Qin",
+          "institutionNames": [
+            "University of Chinese Academy of Sciences"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "sutd-niangjun-chen",
+      "name": "Niangjun Chen",
+      "officialInstitution": "Singapore University of Technology and Design",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-2289-9737",
+      "selected": {
+        "orcid": "0000-0002-2289-9737",
+        "observedName": "Niangjun Chen",
+        "institutionNames": [
+          "Singapore University of Technology and Design"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-2289-9737",
+          "observedName": "Niangjun Chen",
+          "institutionNames": [
+            "Singapore University of Technology and Design"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "pku-kun-yuan",
+      "name": "Kun Yuan",
+      "officialInstitution": "Peking University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0001-8394-8187",
+      "selected": {
+        "orcid": "0000-0001-8394-8187",
+        "observedName": "Kun Yuan",
+        "institutionNames": [
+          "Peking University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0001-8394-8187",
+          "observedName": "Kun Yuan",
+          "institutionNames": [
+            "Peking University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-0197-7580",
+          "observedName": "Kun Yuan",
+          "institutionNames": [
+            "Accounting Society of China",
+            "Guangdong University of Finance and Economics",
+            "Shanghai University of Finance and Economics"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-5876-1521",
+          "observedName": "kun yuan",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-7613-2486",
+          "observedName": "KUN YUAN",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-9826-0366",
+          "observedName": "Kun Yuan",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "tsinghua-junyi-liu",
+      "name": "Junyi Liu",
+      "officialInstitution": "Tsinghua University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0009-0007-4310-1775",
+      "selected": {
+        "orcid": "0009-0007-4310-1775",
+        "observedName": "Junyi Liu",
+        "institutionNames": [
+          "Tsinghua University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0009-0007-4310-1775",
+          "observedName": "Junyi Liu",
+          "institutionNames": [
+            "Tsinghua University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-2546-4923",
+          "observedName": "Junyi Liu",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-1627-3535",
+          "observedName": "Junyi Liu",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0005-6191-7538",
+          "observedName": "Junyi Liu",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-3531-2317",
+          "observedName": "Junyi Liu",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
+      "id": "sustech-kailiang-wu",
+      "name": "Kailiang Wu",
+      "officialInstitution": "Southern University of Science and Technology",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-9042-3909",
+      "selected": {
+        "orcid": "0000-0002-9042-3909",
+        "observedName": "Kailiang Wu",
+        "institutionNames": [
+          "Peking University",
+          "Southern University of Science and Technology",
+          "The Ohio State University",
+          "University of Utah"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-9042-3909",
+          "observedName": "Kailiang Wu",
+          "institutionNames": [
+            "Peking University",
+            "Southern University of Science and Technology",
+            "The Ohio State University",
+            "University of Utah"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0001-9498-0326",
+          "observedName": "kailiang wu",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-3853-0245",
+          "observedName": "Kailiang Wu",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-7482-5062",
+          "observedName": "Kailiang Wu",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-2808-3234",
+          "observedName": "Kailiang Wu",
+          "institutionNames": [
+            "First Affiliated Hospital of Nanchang University",
+            "Fudan University",
+            "Fudan University Shanghai Cancer Center",
+            "Ion Channels and Disease Laboratory",
+            "Sunnybrook Health Sciences Centre"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    }
+  ],
+  "review": [
+    {
+      "id": "hku-ids-yue-xie",
+      "name": "Yue Xie",
+      "officialInstitution": "The University of Hong Kong",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-3961-0343",
+          "observedName": "yue xie",
+          "institutionNames": [
+            "Chinese PLA General Hospital",
+            "Shanxi Medical University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-6140-3450",
+          "observedName": "yue xie",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-6230-9159",
+          "observedName": "Yue Xie",
+          "institutionNames": [
+            "Kunming Medical University First Affilliated Hospital"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-4240-2214",
+          "observedName": "YUE XIE",
+          "institutionNames": [
+            "Beihang University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-6358-2138",
+          "observedName": "Yue Xie",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "imperial-wolfram-wiesemann",
+      "name": "Wolfram Wiesemann",
+      "officialInstitution": "Imperial College London",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-3076-1591",
+          "observedName": "Wolfram Wiesemann",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "berkeley-lavaei-optimization-control",
+      "name": "Javad Lavaei",
+      "officialInstitution": "University of California, Berkeley",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-4294-1338",
+          "observedName": "Javad Lavaei",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "nus-jie-sun-optimization-benchmark",
+      "name": "Jie Sun",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-5264-4428",
+          "observedName": "Jie Sun",
+          "institutionNames": [
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-1334-5262",
+          "observedName": "Jie Sun",
+          "institutionNames": [
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-3876-3631",
+          "observedName": "Jie Sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-6209-5506",
+          "observedName": "Jie Sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-0595-2396",
+          "observedName": "jie sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "nus-melvyn-sim",
+      "name": "Melvyn Sim",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0001-9798-2482",
+          "observedName": "Melvyn Sim",
+          "institutionNames": [
+            "Massachusetts Institute of Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "amss-yuhong-dai",
+      "name": "Yu-Hong Dai",
+      "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0002-2088-562X",
+          "observedName": "Yu-hong Dai",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "amss-xin-liu",
+      "name": "Xin Liu",
+      "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-4090-1703",
+          "observedName": "Xin Liu",
+          "institutionNames": [
+            "SPACE STAR TECHNOLOGY CO.,LTD.",
+            "University of the Chinese Academy of Sciences"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-1828-4729",
+          "observedName": "Xin Liu",
+          "institutionNames": [
+            "Institute of Hydrobiology Chinese Academy of Sciences"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0009-0002-6188-9782",
+          "observedName": "Xin Liu",
+          "institutionNames": [
+            "Beijing University of Aeronautics and Astronautics",
+            "Huawei Technologies (China)",
+            "KTH Royal Institute of Technology",
+            "University of Chinese Academy of Sciences"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0009-0003-0737-2798",
+          "observedName": "Xin Liu",
+          "institutionNames": [
+            "University of Chinese Academy of Sciences"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-0847-182X",
+          "observedName": "Xin Liu",
+          "institutionNames": [
+            "Chinese Academy of Sciences",
+            "Huazhong University of Science and Technology",
+            "The University of Texas at Austin",
+            "University of Texas Southwestern Medical Center at Dallas"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "sustech-tao-tang",
+      "name": "Tao Tang",
+      "officialInstitution": "Southern University of Science and Technology",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-0477-8322",
+          "observedName": "Tao Tang",
+          "institutionNames": [
+            "Chongqing University",
+            "Hefei University of Technology",
+            "Nara Institute of Science and Technology",
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.5
+        },
+        {
+          "orcid": "0000-0003-4474-1604",
+          "observedName": "TAO TANG",
+          "institutionNames": [
+            "Guangdong Institute of Intelligence Science and Technology",
+            "Nanyang Technological University",
+            "National University of Singapore",
+            "Zhejiang Lab"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.4
+        },
+        {
+          "orcid": "0000-0001-6327-0823",
+          "observedName": "Tao Tang",
+          "institutionNames": [
+            "Chengdu University of Information Technology",
+            "IEEE",
+            "Southwest Jiaotong University",
+            "Southwest Minzu University",
+            "University of Electronic Science and Technology of China",
+            "University of Waterloo"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.4
+        },
+        {
+          "orcid": "0000-0002-7649-0996",
+          "observedName": "Tao Tang",
+          "institutionNames": [
+            "Guilin University of Electronic Technology",
+            "Guilin University of Technology",
+            "Nanjing University",
+            "Wuhan University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.25
+        },
+        {
+          "orcid": "0009-0008-2715-9392",
+          "observedName": "Tao Tang",
+          "institutionNames": [
+            "Harbin Institute of Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.25
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "liu-yang-nus",
+      "name": "Liu Yang",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0000-5687-2295",
+          "observedName": "LIU YANG",
+          "institutionNames": [
+            "National University of Malaysia"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.3333333333333333
+        },
+        {
+          "orcid": "0009-0006-7534-3069",
+          "observedName": "Liu Yang",
+          "institutionNames": [
+            "Kunsan National University",
+            "大连外国语学院",
+            "西安翻译学院"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.3333333333333333
+        },
+        {
+          "orcid": "0000-0003-2547-3974",
+          "observedName": "Liu Yang",
+          "institutionNames": [
+            "Northeastern University",
+            "Peking University",
+            "Singapore  Management  University",
+            "University of Massachusetts Amherst"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.3333333333333333
+        },
+        {
+          "orcid": "0009-0009-8289-3482",
+          "observedName": "Liu Yang",
+          "institutionNames": [
+            "National University of Defense Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.25
+        },
+        {
+          "orcid": "0009-0002-7735-7262",
+          "observedName": "Liu Yang",
+          "institutionNames": [
+            "Abai Kazakh National Pedagogical University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.2
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "rahul-mazumder-mit",
+      "name": "Rahul Mazumder",
+      "officialInstitution": "MIT Sloan School of Management",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-4285-7400",
+          "observedName": "Rahul Mazumder",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0006-1865-7395",
+          "observedName": "Rahul Mazumder",
+          "institutionNames": [
+            "University of Calcutta"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0003-5656-178X",
+          "observedName": "Rahul Mazumder",
+          "institutionNames": [
+            "PGIMER"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "john-duchi-stanford",
+      "name": "John Duchi",
+      "officialInstitution": "Stanford University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-0045-7185",
+          "observedName": "John Duchi",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "damek-davis-upenn",
+      "name": "Damek Davis",
+      "officialInstitution": "University of Pennsylvania, Wharton",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-2105-4641",
+          "observedName": "Damek Davis",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "ch-epfl-nicolas-flammarion",
+      "name": "Nicolas Flammarion",
+      "officialInstitution": "EPFL",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0000-6402-7411",
+          "observedName": "Nicolas Flammarion",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "fr-inria-adrien-taylor",
+      "name": "Adrien Taylor",
+      "officialInstitution": "Inria Paris / ENS",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-2509-1765",
+          "observedName": "Adrien Taylor",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "be-uclouvain-benoit-legat",
+      "name": "Benoît Legat",
+      "officialInstitution": "UCLouvain",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-5921-368X",
+          "observedName": "Benoît Legat",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "fr-inria-hadrien-hendrikx",
+      "name": "Hadrien Hendrikx",
+      "officialInstitution": "Inria Grenoble",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0007-2282-5109",
+          "observedName": "Hadrien Hendrikx",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "fr-inria-baptiste-goujaud",
+      "name": "Baptiste Goujaud",
+      "officialInstitution": "Inria Saclay",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0000-8905-0335",
+          "observedName": "Baptiste Goujaud",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "fr-inria-quentin-bertrand",
+      "name": "Quentin Bertrand",
+      "officialInstitution": "Inria Lyon",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-1487-6671",
+          "observedName": "QUENTIN BERTRAND",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0002-9243-2195",
+          "observedName": "Quentin Bertrand",
+          "institutionNames": [
+            "Sciences Po"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-3476-1775",
+          "observedName": "Quentin Bertrand",
+          "institutionNames": [
+            "Institut de Biologie Structurale",
+            "Paul Scherrer Institut PSI"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "fr-apple-pierre-ablin",
+      "name": "Pierre Ablin",
+      "officialInstitution": "Apple Machine Learning Research, Paris",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-4277-5202",
+          "observedName": "Pierre Ablin",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "at-klagenfurt-caroline-geiersbach",
+      "name": "Caroline Geiersbach",
+      "officialInstitution": "University of Klagenfurt",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-6518-7756",
+          "observedName": "Caroline Geiersbach",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "it-pisa-cecilia-pagliantini",
+      "name": "Cecilia Pagliantini",
+      "officialInstitution": "University of Pisa",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-5649-1721",
+          "observedName": "Cecilia Pagliantini",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "fr-ens-lyon-elisa-riccietti",
+      "name": "Elisa Riccietti",
+      "officialInstitution": "École Normale Supérieure de Lyon / Inria OCKHAM",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-0864-6116",
+          "observedName": "Elisa Riccietti",
+          "institutionNames": [
+            "Università degli Studi di Firenze",
+            "École normale supérieure de Lyon"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "fr-inria-frederik-kunstner",
+      "name": "Frederik Kunstner",
+      "officialInstitution": "Inria Paris / École Normale Supérieure, SIERRA",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-4213-1944",
+          "observedName": "Frederik Kunstner",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "fr-inria-sorbonne-raphael-berthier",
+      "name": "Raphaël Berthier",
+      "officialInstitution": "Inria Sorbonne Université",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0007-7928-5430",
+          "observedName": "Raphaël Berthier",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "cityu-jiaman-wu",
+      "name": "Jiaman Wu",
+      "officialInstitution": "City University of Hong Kong",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-7960-7731",
+          "observedName": "Jiaman Wu",
+          "institutionNames": [
+            "City University of Hong Kong",
+            "University of California, Berkeley"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0009-0008-1216-3719",
+          "observedName": "Jiaman WU",
+          "institutionNames": [
+            "City University of Hong Kong"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0001-8772-0980",
+          "observedName": "Jiaman Wu",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0003-7731-5588",
+          "observedName": "Jiaman Wu",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0004-8288-271X",
+          "observedName": "Jiaman Wu",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "nus-bo-lin",
+      "name": "Bo Lin",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-5081-3419",
+          "observedName": "Bo Lin",
+          "institutionNames": [
+            "National University of Singapore",
+            "University of Science and Technology of China"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-4225-9171",
+          "observedName": "Bo Lin",
+          "institutionNames": [
+            "National University of Singapore",
+            "Tsinghua University",
+            "University of Toronto",
+            "University of Waterloo"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0001-5326-1747",
+          "observedName": "Bo Lin",
+          "institutionNames": [
+            "National University of Defense Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.25
+        },
+        {
+          "orcid": "0000-0002-9173-1671",
+          "observedName": "Bo Lin",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-5362-9174",
+          "observedName": "Bo Lin",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "nus-zaile-li",
+      "name": "Zaile Li",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0000-8984-539X",
+          "observedName": "Zaile Li",
+          "institutionNames": [
+            "Fudan University",
+            "INSEAD"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "sjtu-jingwei-liang",
+      "name": "Jingwei Liang",
+      "officialInstitution": "Shanghai Jiao Tong University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0009-4476-6968",
+          "observedName": "Jingwei Liang",
+          "institutionNames": [
+            "University of Shanghai for Science and Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.16666666666666666
+        },
+        {
+          "orcid": "0000-0003-3702-0606",
+          "observedName": "Jingwei Liang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0000-7404-635X",
+          "observedName": "Jingwei Liang",
+          "institutionNames": [
+            "Affiliated Hospital of Hebei University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0005-3152-3992",
+          "observedName": "Jingwei Liang",
+          "institutionNames": [
+            "Jilin University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0002-6892-9188",
+          "observedName": "jingwei liang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "sustech-shangzhi-zeng",
+      "name": "Shangzhi Zeng",
+      "officialInstitution": "Southern University of Science and Technology",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-6950-7825",
+          "observedName": "Shangzhi Zeng",
+          "institutionNames": [
+            "Hong Kong Baptist University",
+            "The University of Hong Kong",
+            "Wuhan University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "cuhksz-rui-chen",
+      "name": "Rui Chen",
+      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-1002-9758",
+          "observedName": "Rui CHEN",
+          "institutionNames": [
+            "The Chinese University of Hong Kong",
+            "The Hong Kong University of Science and Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-8848-6118",
+          "observedName": "Rui Chen",
+          "institutionNames": [
+            "Chinese University of Hong Kong, Shenzhen",
+            "Cornell Tech",
+            "University of Wisconsin–Madison"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-4671-4538",
+          "observedName": "Rui Chen",
+          "institutionNames": [
+            "City University of Hong Kong",
+            "The University of Adelaide",
+            "The University of Queensland",
+            "Xi'an Jiaotong University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92
+        },
+        {
+          "orcid": "0000-0002-3185-8208",
+          "observedName": "Rui Chen",
+          "institutionNames": [
+            "Hong Kong Polytechnic University",
+            "South China University of Technology",
+            "Xiamen University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.5
+        },
+        {
+          "orcid": "0009-0003-7122-5207",
+          "observedName": "Rui Chen",
+          "institutionNames": [
+            "Hong Kong University of Science and Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.4
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "cuhksz-xiao-li",
+      "name": "Xiao Li",
+      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0007-6982-8681",
+          "observedName": "Xiao LI",
+          "institutionNames": [
+            "CUHK"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-1758-807X",
+          "observedName": "xiao li",
+          "institutionNames": [
+            "Shanxi Medical University",
+            "Sun Yat-sen Memorial Hospital",
+            "Sun Yat-sen University",
+            "The Chinese University of Hong Kong Faculty of Medicine"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-7630-0558",
+          "observedName": "Xiao Li",
+          "institutionNames": [
+            "City University of Hong Kong"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92
+        },
+        {
+          "orcid": "0000-0002-6630-4627",
+          "observedName": "Xiao Li",
+          "institutionNames": [
+            "City University of Hong Kong",
+            "South China University of Technology",
+            "University of Genoa"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92
+        },
+        {
+          "orcid": "0000-0001-9702-4153",
+          "observedName": "Xiao Li",
+          "institutionNames": [
+            "American Society of Civil Engineers",
+            "Curtin University",
+            "The Hong Kong Polytechnic University",
+            "The University of Hong Kong",
+            "University of Cambridge",
+            "University of Hong Kong"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "pku-cong-fang",
+      "name": "Cong Fang",
+      "officialInstitution": "Peking University",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-6580-8196",
+          "observedName": "Cong Fang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-9263-1173",
+          "observedName": "Cong Fang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-5858-9688",
+          "observedName": "Cong Fang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-3936-5296",
+          "observedName": "cong fang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-9352-9525",
+          "observedName": "Cong Fang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
+      "id": "cuhksz-shi-pu",
+      "name": "Shi Pu",
+      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
+      "checkedAt": "2026-07-10T12:21:43.167Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0001-8333-4628",
+          "observedName": "Shi Pu",
+          "institutionNames": [
+            "Penn State",
+            "Purdue University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-3819-8983",
+          "observedName": "SHI PU",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0001-8102-1214",
+          "observedName": "Shi PU",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0009-0009-6349-3627",
+          "observedName": "Shi Pu",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0
+        },
+        {
+          "orcid": "0000-0003-3496-621X",
+          "observedName": "Shi Pu",
+          "institutionNames": [
+            "Auburn University",
+            "Huazhong University of Science and Technology",
+            "University of Texas at Dallas"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    }
+  ],
+  "errors": []
+}

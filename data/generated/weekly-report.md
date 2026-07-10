@@ -6,7 +6,7 @@
 - A/B 高匹配：3
 - 30 天内截止：0
 - 学术候选池：132
-- 完整公开档案：11
+- 完整公开档案：127
 - 导师组 / 青年学者：52 / 84
 
 ## 本周变化
@@ -44,17 +44,18 @@
 - 基金或项目扩组信号：20（不等于招聘）
 - 长期接受申请：5
 - Fellowship host：4
-- [陈晓君 / Xiaojun Chen](https://public-omega-seven-25.vercel.app/#people/person-xiaojun-chen) · The Hong Kong Polytechnic University · ORCID
-- [Jacek Gondzio](https://public-omega-seven-25.vercel.app/#people/uk-edinburgh-gondzio-optimization) · University of Edinburgh · ORCID
-- [Defeng Sun](https://public-omega-seven-25.vercel.app/#people/polyu-defeng-sun) · Hong Kong Polytechnic University · OpenAlex
-- [Michael Kwok-Po Ng](https://public-omega-seven-25.vercel.app/#people/hkbu-michael-ng) · Hong Kong Baptist University · OpenAlex
-- [Melvyn Sim](https://public-omega-seven-25.vercel.app/#people/nus-melvyn-sim) · National University of Singapore · OpenAlex
-- [Jan Kronqvist](https://public-omega-seven-25.vercel.app/#people/se-kth-jan-kronqvist) · KTH Royal Institute of Technology · ORCID
-- [Felix Dietrich](https://public-omega-seven-25.vercel.app/#people/de-tum-felix-dietrich) · Technical University of Munich · ORCID
-- [Davide Palitta](https://public-omega-seven-25.vercel.app/#people/it-bologna-davide-palitta) · University of Bologna · ORCID
-- [Alberto De Marchi](https://public-omega-seven-25.vercel.app/#people/de-unibw-alberto-de-marchi) · University of the Bundeswehr Munich · ORCID
-- [Yiding Feng](https://public-omega-seven-25.vercel.app/#people/hkust-yiding-feng) · Hong Kong University of Science and Technology · ORCID
-- [Jiashuo Jiang](https://public-omega-seven-25.vercel.app/#people/hkust-jiashuo-jiang) · Hong Kong University of Science and Technology · ORCID
+- [何鸟 / Niao He](https://public-omega-seven-25.vercel.app/#people/person-niao-he) · ETH Zurich · ORCID
+- [杜锦泉 / Kim-Chuan Toh](https://public-omega-seven-25.vercel.app/#people/nus-math-kim-chuan-toh) · National University of Singapore · ORCID
+- [Napat Rujeerapaiboon](https://public-omega-seven-25.vercel.app/#people/person-napat-rujeerapaiboon) · National University of Singapore · ORCID
+- [苏文藻 / Anthony Man-Cho So](https://public-omega-seven-25.vercel.app/#people/cuhk-seem-anthony-so) · The Chinese University of Hong Kong · ORCID
+- [阮越英 / Viet Anh Nguyen](https://public-omega-seven-25.vercel.app/#people/person-viet-anh-nguyen) · The Chinese University of Hong Kong · ORCID
+- [徐芦泽 / Luze Xu](https://public-omega-seven-25.vercel.app/#people/person-luze-xu) · The Hong Kong University of Science and Technology · ORCID
+- [Daniel Kuhn](https://public-omega-seven-25.vercel.app/#people/epfl-rao-daniel-kuhn) · EPFL · ORCID
+- [Nicolas Boumal](https://public-omega-seven-25.vercel.app/#people/epfl-optim-nicolas-boumal) · EPFL · ORCID
+- [Wolfram Wiesemann](https://public-omega-seven-25.vercel.app/#people/imperial-wolfram-wiesemann) · Imperial College London · ORCID
+- [Coralia Cartis](https://public-omega-seven-25.vercel.app/#people/oxford-coralia-cartis) · University of Oxford · ORCID
+- [Michael Ulbrich](https://public-omega-seven-25.vercel.app/#people/tum-math-michael-ulbrich) · Technical University of Munich · ORCID
+- [Stephen Boyd](https://public-omega-seven-25.vercel.app/#people/stanford-boyd-convex-optimization) · Stanford University · ORCID
 
 ## 数据源状态
 

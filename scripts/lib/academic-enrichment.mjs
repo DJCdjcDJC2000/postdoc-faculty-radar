@@ -83,15 +83,15 @@ export function mergeOpenAlexEnrichment(profile, enrichment, taxonomy = {}) {
       ...enrichment.metrics,
       provider,
       authorId: enrichment.author.openAlexId ?? enrichment.author.orcid,
-      countLabelZh: isOpenAlex ? "OpenAlex 收录成果（近似）" : "ORCID 自关联成果记录",
-      countCaveatZh: isOpenAlex
+      countLabelZh: enrichment.metrics.countLabelZh ?? (isOpenAlex ? "OpenAlex 收录成果（近似）" : "ORCID 自关联成果记录"),
+      countCaveatZh: enrichment.metrics.countCaveatZh ?? (isOpenAlex
         ? "包含 OpenAlex 归入该作者的多类学术成果，可能受同名合并与文献类型影响；请结合 ORCID、Crossref 与个人主页理解。"
-        : "来自作者 ORCID 公开记录，通常只覆盖作者主动关联或第三方同步的成果，不等同于完整论文总数。",
+        : "来自作者 ORCID 公开记录，通常只覆盖作者主动关联或第三方同步的成果，不等同于完整论文总数。"),
       crossSourceCounts: verification ? {
         orcidRecordCount: verification.orcid?.recordCount ?? null,
         crossrefOrcidWorksCount: verification.crossref?.worksCount ?? null,
         checkedAt: verification.checkedAt ?? null
-      } : null,
+      } : enrichment.metrics.sourceCounts ?? null,
       updatedAt: fetchedAt
     } : profile.publicationMetrics,
     publicationAnalysis: {

@@ -19,6 +19,7 @@ import {
   summarizeAuthorCandidate,
   writeJsonAtomically
 } from "./lib/openalex.mjs";
+import { mergeIdentifierDiscoveries } from "./lib/identifier-discovery.mjs";
 
 const scriptPath = fileURLToPath(import.meta.url);
 const projectRoot = path.resolve(path.dirname(scriptPath), "..");
@@ -46,7 +47,8 @@ export async function main(argv = process.argv.slice(2)) {
   const client = new OpenAlexClient({
     apiKey: process.env.OPENALEX_API_KEY,
     mailto: process.env.OPENALEX_MAILTO,
-    cacheDir: path.join(projectRoot, ".radar-cache", "openalex")
+    cacheDir: path.join(projectRoot, ".radar-cache", "openalex"),
+    minimumIntervalMs: process.env.OPENALEX_API_KEY ? 150 : 1_100
   });
 
   const profiles = [];
@@ -107,9 +109,9 @@ export async function main(argv = process.argv.slice(2)) {
   return output;
 }
 
-export async function loadAcademicTargets(root = projectRoot) {
+export async function loadAcademicTargets(root = projectRoot, options = {}) {
   const inputManualDirectory = path.join(root, "data", "manual");
-  const [manualLabs, manualPeople, candidates, identityConfig] = await Promise.all([
+  const [manualLabs, manualPeople, candidates, identityConfig, identifierDiscoveries, orcidSearchDiscoveries, orcidCrosscheckDiscoveries] = await Promise.all([
     readRequiredJsonArray(path.join(inputManualDirectory, "labs.json")),
     readRequiredJsonArray(path.join(inputManualDirectory, "people.json")),
     readOptionalJsonObject(
@@ -119,15 +121,44 @@ export async function loadAcademicTargets(root = projectRoot) {
     readOptionalJsonObject(
       path.join(root, "config", "academic-identities.json"),
       { canonicalPeople: [] }
-    )
+    ),
+    readOptionalJsonObject(
+      path.join(root, "data", "research", "academic-identifier-discoveries.json"),
+      { profiles: [] }
+    ),
+    options.includeOrcidSearchDiscoveries === false
+      ? { profiles: [] }
+      : readOptionalJsonObject(
+        path.join(root, "data", "research", "academic-orcid-search-discoveries.json"),
+        { profiles: [] }
+      ),
+    options.includeOrcidSearchDiscoveries === false
+      ? { profiles: [] }
+      : readOptionalJsonObject(
+        path.join(root, "data", "research", "academic-orcid-crosscheck-discoveries.json"),
+        { profiles: [] }
+      )
   ]);
+  const discoveriesById = mergeIdentifierDiscoveries(
+    orcidSearchDiscoveries.profiles ?? [],
+    orcidCrosscheckDiscoveries.profiles ?? [],
+    identifierDiscoveries.profiles ?? []
+  );
   const labs = [...manualLabs, ...(candidates.labs ?? [])];
   const people = [...manualPeople, ...(candidates.people ?? [])];
+  const targets = buildAcademicTargets(labs, people, identityConfig).map((target) => {
+    const discovery = discoveriesById.get(target.internalId);
+    return discovery ? {
+      ...target,
+      explicitOrcid: target.explicitOrcid ?? discovery.orcid ?? null,
+      explicitOpenAlexId: target.explicitOpenAlexId ?? discovery.openalex ?? null
+    } : target;
+  });
   return {
     labs,
     people,
     identityConfig,
-    targets: buildAcademicTargets(labs, people, identityConfig)
+    targets
   };
 }
 

@@ -39,6 +39,7 @@ const [
   academicEnrichment,
   orcidAcademicEnrichment,
   academicCandidates,
+  academicSupplements,
   industryCompaniesRaw,
   industryOpportunitiesRaw,
   industryPeopleRaw,
@@ -66,6 +67,7 @@ const [
   readJson(projectRoot, "data/research/academic-enrichment.json", { provider: "OpenAlex", profiles: [] }),
   readJson(projectRoot, "data/research/orcid-academic-enrichment.json", { provider: "ORCID", profiles: [] }),
   readJson(projectRoot, "data/research/academic-candidates.json", { labs: [], people: [] }),
+  readJson(projectRoot, "data/research/academic-profile-supplements.json", { profiles: [] }),
   readJson(projectRoot, "data/manual/industry-companies.json", []),
   readJson(projectRoot, "data/manual/industry-opportunities.json", []),
   readJson(projectRoot, "data/manual/industry-people.json", []),
@@ -115,7 +117,8 @@ const allAcademicProfiles = buildAcademicProfiles(
   peopleIntelligenceConfig,
   academicIdentityMap,
   [academicEnrichment, orcidAcademicEnrichment],
-  venueTaxonomy
+  venueTaxonomy,
+  academicSupplements
 );
 const publishIncompleteProfiles = mode !== "public"
   || peopleIntelligenceConfig.minimumProfile?.incompleteProfilesArePublic === true;

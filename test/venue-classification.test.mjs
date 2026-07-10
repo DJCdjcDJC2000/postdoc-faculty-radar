@@ -66,7 +66,24 @@ test("all researched venues are archival channels backed by official URLs", () =
     "tmlr",
     "siam_journal_on_mathematics_of_data_science",
     "uai",
-    "mlsys"
+    "ieee_transactions_on_power_systems",
+    "ieee_transactions_on_sustainable_energy",
+    "ieee_transactions_on_control_of_network_systems",
+    "ieee_transactions_on_automatic_control",
+    "ieee_transactions_on_control_systems_technology",
+    "ieee_tpami",
+    "nature_machine_intelligence",
+    "mlsys",
+    "multiscale_modeling_and_simulation",
+    "siam_asa_journal_on_uncertainty_quantification",
+    "advances_in_computational_mathematics",
+    "analysis_and_applications",
+    "applied_energy",
+    "ieee_transactions_on_smart_grid",
+    "transportation_research_part_c",
+    "ieee_transactions_on_intelligent_transportation_systems",
+    "ieee_transactions_on_intelligent_vehicles",
+    "nature_communications"
   ];
 
   assert.deepEqual(taxonomy.venues.map((venue) => venue.id), requiredVenueIds);
@@ -130,6 +147,20 @@ test("identifier matching follows DOI, ISSN-L, venue id, then normalized name", 
     type: "journal-article"
   });
   assert.equal(crossrefName.venueId, "mathematical_programming");
+
+  const applicationVenue = classifyVenue({
+    venueName: "IEEE Transactions on Power Systems",
+    type: "journal-article"
+  });
+  assert.equal(applicationVenue.venueId, "ieee_transactions_on_power_systems");
+  assert.ok(applicationVenue.matches.some((item) => (
+    item.track === "interdisciplinary_applications" && item.tier === "important_mainstream"
+  )));
+
+  const controlVenue = classifyVenue({ venueName: "IEEE Transactions on Automatic Control", type: "journal-article" });
+  assert.ok(controlVenue.matches.some((item) => (
+    item.track === "complementarity_vi_nonsmooth" && item.tier === "related_reference"
+  )));
 });
 
 test("archival papers count while preprints and event-only records do not", () => {

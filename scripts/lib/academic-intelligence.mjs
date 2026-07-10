@@ -1,22 +1,88 @@
 import { applyAcademicEnrichment } from "./academic-enrichment.mjs";
+import { classifyWorks } from "./venue-classification.mjs";
 
 const OFFICIAL_EVIDENCE_PATTERN = /official|homepage|profile|institution|department|university/i;
 const BIBLIOGRAPHIC_EVIDENCE_PATTERN = /openalex|crossref|orcid|semantic|scholar|dblp|doi|publication/i;
 
-export function buildAcademicProfiles(labs = [], people = [], config = {}, identityMap = {}, enrichments = [], taxonomy = {}) {
+export function buildAcademicProfiles(
+  labs = [],
+  people = [],
+  config = {},
+  identityMap = {},
+  enrichments = [],
+  taxonomy = {},
+  supplements = {}
+) {
   const rawProfiles = [
     ...labs.map(normalizeLabProfile),
     ...people.map(normalizePersonProfile)
   ];
-  const profiles = applyAcademicEnrichment(
+  const profiles = applyAcademicProfileSupplements(applyAcademicEnrichment(
     mergeCanonicalProfiles(rawProfiles, identityMap),
     enrichments,
     taxonomy
-  );
+  ), supplements, taxonomy);
   return profiles.map((profile) => ({
     ...profile,
     quality: assessProfileReadiness(profile, config)
   }));
+}
+
+export function applyAcademicProfileSupplements(profiles = [], supplements = {}, taxonomy = {}) {
+  const patches = new Map((supplements.profiles ?? []).map((item) => [item.id, item]));
+  return profiles.map((profile) => {
+    const supplement = patches.get(profile.canonicalId ?? profile.id) ?? patches.get(profile.id);
+    if (!supplement) return profile;
+    const representativeWorks = deduplicateWorks([
+      ...(supplement.representativeWorks ?? []),
+      ...(profile.representativeWorks ?? [])
+    ]);
+    const classifiedVenues = classifyWorks(representativeWorks, taxonomy).venueBreakdown;
+    return {
+      ...profile,
+      research: {
+        ...(profile.research ?? {}),
+        summaryZh: supplement.researchSummaryZh ?? profile.research?.summaryZh,
+        recentEvolution: unique([
+          ...(profile.research?.recentEvolution ?? []),
+          ...(supplement.researchEvolution ?? [])
+        ])
+      },
+      publicationMetrics: supplement.publicationMetrics ?? profile.publicationMetrics,
+      venueBreakdown: mergeVenueBreakdown(
+        supplement.venueBreakdown ?? [],
+        classifiedVenues,
+        profile.venueBreakdown ?? []
+      ),
+      representativeWorks,
+      grantsAwards: uniqueObjects([
+        ...(profile.grantsAwards ?? []),
+        ...(supplement.grantsAwards ?? [])
+      ]),
+      timeline: uniqueObjects([
+        ...(profile.timeline ?? []),
+        ...(supplement.timeline ?? [])
+      ]),
+      evidence: uniqueObjects([
+        ...(profile.evidence ?? []),
+        ...(supplement.evidence ?? [])
+      ], (item) => `${item.type}|${item.url ?? ""}`),
+      uncertainties: unique([
+        ...(profile.uncertainties ?? []),
+        ...(supplement.uncertainties ?? [])
+      ]),
+      lastVerifiedAt: latestDate([profile.lastVerifiedAt, supplement.lastVerifiedAt])
+    };
+  });
+}
+
+function mergeVenueBreakdown(...groups) {
+  const merged = new Map();
+  for (const item of groups.flat()) {
+    const key = `${item.track ?? ""}|${item.tier ?? ""}`;
+    if (!merged.has(key)) merged.set(key, item);
+  }
+  return [...merged.values()];
 }
 
 export function normalizeRecruitmentSignals(item = {}) {

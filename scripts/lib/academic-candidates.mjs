@@ -59,6 +59,31 @@ export function buildAcademicCandidateDataset(documents = [], existing = {}) {
   };
 }
 
+export function applyAcademicCandidateSupplements(dataset = {}, supplements = {}, options = {}) {
+  const patches = new Map((supplements.profiles ?? []).map((item) => [item.id, item]));
+  const knownIds = new Set([...(dataset.labs ?? []), ...(dataset.people ?? [])].map((item) => item.id));
+  const deferredIds = new Set(options.knownExternalIds ?? []);
+  const unknown = [...patches.keys()].filter((id) => !knownIds.has(id) && !deferredIds.has(id));
+  const merge = (item) => mergeCandidateSupplement(item, patches.get(item.id));
+  const review = [
+    ...(dataset.review ?? []),
+    ...unknown.map((id) => ({ kind: "supplement", id, reason: "unknown_profile_id" }))
+  ];
+  return {
+    ...dataset,
+    labs: (dataset.labs ?? []).map(merge),
+    people: (dataset.people ?? []).map(merge),
+    review,
+    counts: {
+      ...(dataset.counts ?? {}),
+      review: review.length,
+      supplementsApplied: [...patches.keys()].filter((id) => knownIds.has(id)).length,
+      supplementsDeferred: [...patches.keys()].filter((id) => !knownIds.has(id) && deferredIds.has(id)).length
+    },
+    supplementsUpdatedAt: supplements.updatedAt ?? null
+  };
+}
+
 export function normalizeRecruitmentCandidateSignal(signal = {}, verifiedAt) {
   const aliases = SIGNAL_ALIASES[signal.type] ?? ["no_public_signal"];
   return aliases.map((type) => ({
@@ -93,6 +118,8 @@ function normalizeLabCandidate(candidate) {
     openingsUrl: recruitmentEvidenceUrl(candidate.recruitmentSignal),
     fieldTags: candidate.researchTags ?? [],
     researchSummaryZh: candidate.selectionEvidence,
+    researchEvolution: candidate.researchEvolution ?? [],
+    representativeWorks: candidate.representativeWorks ?? [],
     grantsAwards: (candidate.fundingProjects ?? []).map((item) => ({ summary: item })),
     recruitmentSignals: normalizeRecruitmentCandidateSignal(candidate.recruitmentSignal, verifiedAt),
     openalex: normalizeOpenAlexUrl(candidate.ids?.openAlex ?? candidate.ids?.openalex),
@@ -119,6 +146,8 @@ function normalizeYoungScholarCandidate(candidate, phdYear) {
     phdYear,
     fieldTags: candidate.researchTags ?? [],
     researchSummaryZh: candidate.selectionEvidence,
+    researchEvolution: candidate.researchEvolution ?? [],
+    representativeWorks: candidate.representativeWorks ?? [],
     currentStatusZh: candidate.selectionEvidence,
     grantsAwards: (candidate.fundingProjects ?? []).map((item) => ({ summary: item })),
     recruitmentSignals: normalizeRecruitmentCandidateSignal(candidate.recruitmentSignal, verifiedAt),
@@ -230,4 +259,46 @@ function uniqueObjects(values, keyFor) {
     seen.add(key);
     return true;
   });
+}
+
+function mergeCandidateSupplement(item, supplement) {
+  if (!supplement) return item;
+  return {
+    ...item,
+    researchSummaryZh: supplement.researchSummaryZh ?? item.researchSummaryZh,
+    researchEvolution: uniqueValues([...(item.researchEvolution ?? []), ...(supplement.researchEvolution ?? [])]),
+    publicationMetrics: supplement.publicationMetrics ?? item.publicationMetrics,
+    venueBreakdown: uniqueObjects(
+      [...(supplement.venueBreakdown ?? []), ...(item.venueBreakdown ?? [])],
+      (entry) => `${entry.track ?? ""}|${entry.tier ?? ""}`
+    ),
+    representativeWorks: uniqueObjects(
+      [...(supplement.representativeWorks ?? []), ...(item.representativeWorks ?? [])],
+      (work) => String(work.doi ?? `${work.title ?? ""}|${work.year ?? ""}`).toLowerCase()
+    ),
+    grantsAwards: uniqueObjects(
+      [...(item.grantsAwards ?? []), ...(supplement.grantsAwards ?? [])],
+      (entry) => JSON.stringify(entry)
+    ),
+    ...((item.timeline || supplement.timeline) ? {
+      timeline: uniqueObjects(
+        [...(item.timeline ?? []), ...(supplement.timeline ?? [])],
+        (entry) => JSON.stringify(entry)
+      )
+    } : {}),
+    evidence: uniqueObjects(
+      [...(item.evidence ?? []), ...(supplement.evidence ?? [])],
+      (entry) => `${entry.type}|${entry.url ?? ""}`
+    ),
+    uncertainties: uniqueValues([...(item.uncertainties ?? []), ...(supplement.uncertainties ?? [])]),
+    lastVerifiedAt: latestDate([item.lastVerifiedAt, supplement.lastVerifiedAt])
+  };
+}
+
+function uniqueValues(values) {
+  return [...new Set(values.filter(Boolean))];
+}
+
+function latestDate(values) {
+  return values.filter(Boolean).sort((a, b) => String(b).localeCompare(String(a)))[0] ?? null;
 }

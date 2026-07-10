@@ -87,7 +87,12 @@ test("ORCID enrichment is used when no higher-priority OpenAlex profile exists",
         orcid: "0000-0000-0000-0001",
         orcidUrl: "https://orcid.org/0000-0000-0000-0001"
       },
-      metrics: { worksCount: 12, recentWorksCount: 5 },
+      metrics: {
+        worksCount: 12,
+        recentWorksCount: 5,
+        countLabelZh: "ORCID / Crossref 关联成果记录",
+        sourceCounts: { orcidRecordCount: 8, crossrefOrcidWorksCount: 6, mergedRecordCount: 12 }
+      },
       conceptTrends: [{ displayName: "Optimization", trend: "active", worksCount: 5 }],
       works: Array.from({ length: 8 }, (_, index) => ({
         title: `Paper ${index}`,
@@ -99,6 +104,8 @@ test("ORCID enrichment is used when no higher-priority OpenAlex profile exists",
   };
   const [profile] = applyAcademicEnrichment([baseProfile], document, taxonomy);
   assert.equal(profile.publicationMetrics.provider, "ORCID");
+  assert.equal(profile.publicationMetrics.countLabelZh, "ORCID / Crossref 关联成果记录");
+  assert.equal(profile.publicationMetrics.crossSourceCounts.mergedRecordCount, 12);
   assert.equal(profile.links.orcid, "https://orcid.org/0000-0000-0000-0001");
   assert.equal(profile.representativeWorks.length, 8);
 });

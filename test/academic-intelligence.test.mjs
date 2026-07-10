@@ -180,3 +180,80 @@ test("verified aliases merge one person into a canonical multi-role profile", ()
   assert.equal(profiles[0].representativeWorks.length, 2);
   assert.equal(profiles[0].recruitmentSignals.length, 1);
 });
+
+test("verified supplements apply after canonical profile merging", () => {
+  const profiles = buildAcademicProfiles([{
+    id: "lab-ada",
+    leadName: "Ada Mentor",
+    groupName: "Optimization Lab",
+    homepage: "https://example.edu/ada",
+    representativeWorks: [{ title: "Existing Paper", year: 2024 }],
+    evidence: [{ type: "official_profile", url: "https://example.edu/ada" }]
+  }], [], config, {
+    canonicalPeople: [{
+      id: "canonical-ada",
+      name: "Ada Mentor",
+      aliases: { labs: ["lab-ada"], people: [] }
+    }]
+  }, [], {}, {
+    profiles: [{
+      id: "canonical-ada",
+      researchEvolution: ["Expanded from convex to robust optimization"],
+      publicationMetrics: {
+        worksCount: 12,
+        recentWorksCount: 5,
+        provider: "AuthorHomepage",
+        updatedAt: "2026-07-11"
+      },
+      venueBreakdown: [{ track: "optimization", tier: "top_core", count: 2 }],
+      representativeWorks: [{ title: "Supplemented Paper", year: 2026 }],
+      timeline: [{ type: "grant", role: "Principal investigator", startYear: 2026 }],
+      evidence: [{ type: "author_publication_list", url: "https://example.edu/ada/publications" }],
+      lastVerifiedAt: "2026-07-11"
+    }]
+  });
+
+  assert.deepEqual(profiles[0].research.recentEvolution, ["Expanded from convex to robust optimization"]);
+  assert.deepEqual(profiles[0].representativeWorks.map((item) => item.title), [
+    "Supplemented Paper",
+    "Existing Paper"
+  ]);
+  assert.equal(profiles[0].lastVerifiedAt, "2026-07-11");
+  assert.equal(profiles[0].publicationMetrics.provider, "AuthorHomepage");
+  assert.equal(profiles[0].venueBreakdown[0].count, 2);
+  assert.ok(profiles[0].timeline.some((item) => item.type === "grant"));
+  assert.ok(profiles[0].evidence.some((item) => item.type === "author_publication_list"));
+});
+
+test("supplemented works are classified after enrichment", () => {
+  const profiles = buildAcademicProfiles([{
+    id: "lab-venue",
+    leadName: "Venue Mentor",
+    groupName: "Venue Lab",
+    homepage: "https://example.edu/venue",
+    evidence: [{ type: "official_profile", url: "https://example.edu/venue" }]
+  }], [], config, {}, [], {
+    tierIds: ["top_core", "important_mainstream", "related_reference"],
+    publicationPolicy: { countedClass: "archival_publication" },
+    tracks: [{
+      id: "optimization",
+      tiers: { top_core: ["journal-a"], important_mainstream: [], related_reference: [] }
+    }],
+    venues: [{
+      id: "journal-a",
+      name: "Journal A",
+      venueType: "journal",
+      publicationClass: "archival_publication",
+      aliases: [],
+      identifiers: {},
+      sourceUrls: ["https://example.edu/journal-a"]
+    }]
+  }, {
+    profiles: [{
+      id: "lab-venue",
+      representativeWorks: [{ title: "Verified", venue: "Journal A" }]
+    }]
+  });
+
+  assert.equal(profiles[0].venueBreakdown[0].count, 1);
+});
