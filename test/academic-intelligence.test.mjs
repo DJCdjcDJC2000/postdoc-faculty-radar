@@ -4,6 +4,7 @@ import {
   assessProfileReadiness,
   buildAcademicOverview,
   buildAcademicProfiles,
+  deriveResearchFeatures,
   normalizeRecruitmentSignals
 } from "../scripts/lib/academic-intelligence.mjs";
 
@@ -198,7 +199,10 @@ test("verified supplements apply after canonical profile merging", () => {
   }, [], {}, {
     profiles: [{
       id: "canonical-ada",
+      researchTags: ["stochastic optimization"],
       researchEvolution: ["Expanded from convex to robust optimization"],
+      methods: ["sample average approximation"],
+      applications: ["energy systems"],
       publicationMetrics: {
         worksCount: 12,
         recentWorksCount: 5,
@@ -208,12 +212,18 @@ test("verified supplements apply after canonical profile merging", () => {
       venueBreakdown: [{ track: "optimization", tier: "top_core", count: 2 }],
       representativeWorks: [{ title: "Supplemented Paper", year: 2026 }],
       timeline: [{ type: "grant", role: "Principal investigator", startYear: 2026 }],
+      group: { name: "Verified Optimization Lab", homepage: "https://example.edu/ada/lab" },
+      links: { openings: "https://example.edu/ada/openings" },
+      recruitmentSignals: [{ type: "official_opening", sourceUrl: "https://example.edu/ada/openings" }],
       evidence: [{ type: "author_publication_list", url: "https://example.edu/ada/publications" }],
       lastVerifiedAt: "2026-07-11"
     }]
   });
 
   assert.deepEqual(profiles[0].research.recentEvolution, ["Expanded from convex to robust optimization"]);
+  assert.ok(profiles[0].research.tags.includes("stochastic optimization"));
+  assert.deepEqual(profiles[0].research.methods, ["sample average approximation"]);
+  assert.deepEqual(profiles[0].research.applications, ["energy systems"]);
   assert.deepEqual(profiles[0].representativeWorks.map((item) => item.title), [
     "Supplemented Paper",
     "Existing Paper"
@@ -222,6 +232,10 @@ test("verified supplements apply after canonical profile merging", () => {
   assert.equal(profiles[0].publicationMetrics.provider, "AuthorHomepage");
   assert.equal(profiles[0].venueBreakdown[0].count, 2);
   assert.ok(profiles[0].timeline.some((item) => item.type === "grant"));
+  assert.equal(profiles[0].group.name, "Verified Optimization Lab");
+  assert.equal(profiles[0].links.openings, "https://example.edu/ada/openings");
+  assert.ok(profiles[0].recruitmentSignals.some((item) => item.type === "official_opening"));
+  assert.ok(profiles[0].recruitmentSignals.every((item) => item.type !== "no_public_signal"));
   assert.ok(profiles[0].evidence.some((item) => item.type === "author_publication_list"));
 });
 
@@ -231,6 +245,7 @@ test("supplemented works are classified after enrichment", () => {
     leadName: "Venue Mentor",
     groupName: "Venue Lab",
     homepage: "https://example.edu/venue",
+    publicationMetrics: { worksCount: 1, recentWorksCount: 1 },
     evidence: [{ type: "official_profile", url: "https://example.edu/venue" }]
   }], [], config, {}, [], {
     tierIds: ["top_core", "important_mainstream", "related_reference"],
@@ -256,4 +271,44 @@ test("supplemented works are classified after enrichment", () => {
   });
 
   assert.equal(profiles[0].venueBreakdown[0].count, 1);
+  assert.deepEqual(profiles[0].publicationMetrics.topVenueCountsLowerBound, [{ venue: "Journal A", count: 1 }]);
+});
+
+test("supplemented representative works deduplicate title variants across publication years", () => {
+  const profiles = buildAcademicProfiles([{
+    id: "lab-dedup",
+    leadName: "Dedup Mentor",
+    representativeWorks: [{
+      title: "A First-Order Method for Robust Optimization",
+      year: 2025,
+      doi: "https://doi.org/10.1000/example"
+    }]
+  }], [], config, {}, [], {}, {
+    profiles: [{
+      id: "lab-dedup",
+      representativeWorks: [{
+        title: "A first order method for robust optimization",
+        year: 2024,
+        selectionReason: "verified author-page record"
+      }]
+    }]
+  });
+
+  assert.equal(profiles[0].representativeWorks.length, 1);
+  assert.equal(profiles[0].representativeWorks[0].selectionReason, "verified author-page record");
+});
+
+test("public research tags yield explicitly marked method and application features", () => {
+  const profile = deriveResearchFeatures({
+    research: {
+      tags: ["stochastic variational inequalities", "scientific computing", "energy systems"]
+    }
+  });
+
+  assert.match(profile.research.summaryZh, /公开资料/);
+  assert.ok(profile.research.methods.includes("stochastic optimization and uncertainty methods"));
+  assert.ok(profile.research.methods.includes("variational-inequality and monotone-operator methods"));
+  assert.ok(profile.research.applications.includes("energy and power systems"));
+  assert.equal(profile.research.featureProvenance.methods, "derived_from_public_research_fields");
+  assert.equal(profile.research.featureProvenance.applications, "derived_from_public_research_fields");
 });

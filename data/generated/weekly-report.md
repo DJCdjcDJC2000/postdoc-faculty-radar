@@ -6,7 +6,7 @@
 - A/B 高匹配：3
 - 30 天内截止：0
 - 学术候选池：132
-- 完整公开档案：127
+- 完整公开档案：132
 - 导师组 / 青年学者：52 / 84
 
 ## 本周变化
@@ -41,9 +41,9 @@
 
 ## 学术人物建设
 
-- 官方明确招聘：15
+- 官方明确招聘：16
 - 基金或项目扩组信号：20（不等于招聘）
-- 长期接受申请：5
+- 长期接受申请：7
 - Fellowship host：4
 - [何鸟 / Niao He](https://public-omega-seven-25.vercel.app/#people/person-niao-he) · ETH Zurich · ORCID
 - [杜锦泉 / Kim-Chuan Toh](https://public-omega-seven-25.vercel.app/#people/nus-math-kim-chuan-toh) · National University of Singapore · ORCID
@@ -51,12 +51,12 @@
 - [苏文藻 / Anthony Man-Cho So](https://public-omega-seven-25.vercel.app/#people/cuhk-seem-anthony-so) · The Chinese University of Hong Kong · ORCID
 - [阮越英 / Viet Anh Nguyen](https://public-omega-seven-25.vercel.app/#people/person-viet-anh-nguyen) · The Chinese University of Hong Kong · ORCID
 - [徐芦泽 / Luze Xu](https://public-omega-seven-25.vercel.app/#people/person-luze-xu) · The Hong Kong University of Science and Technology · ORCID
+- [梅三友 / Sanyou Mei](https://public-omega-seven-25.vercel.app/#people/person-sanyou-mei) · The Hong Kong University of Science and Technology · HKUSTResearchPortalAndAuthorHomepage
+- [谢岳 / Yue Xie](https://public-omega-seven-25.vercel.app/#people/hku-ids-yue-xie) · The University of Hong Kong · AuthorPublicationPage
 - [Daniel Kuhn](https://public-omega-seven-25.vercel.app/#people/epfl-rao-daniel-kuhn) · EPFL · ORCID
 - [Nicolas Boumal](https://public-omega-seven-25.vercel.app/#people/epfl-optim-nicolas-boumal) · EPFL · ORCID
 - [Wolfram Wiesemann](https://public-omega-seven-25.vercel.app/#people/imperial-wolfram-wiesemann) · Imperial College London · ORCID
 - [Coralia Cartis](https://public-omega-seven-25.vercel.app/#people/oxford-coralia-cartis) · University of Oxford · ORCID
-- [Michael Ulbrich](https://public-omega-seven-25.vercel.app/#people/tum-math-michael-ulbrich) · Technical University of Munich · ORCID
-- [Stephen Boyd](https://public-omega-seven-25.vercel.app/#people/stanford-boyd-convex-optimization) · Stanford University · ORCID
 
 ## 数据源状态
 

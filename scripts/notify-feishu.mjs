@@ -37,8 +37,28 @@ async function readJson(relativePath, fallback) {
 
 function buildMessage(site, kind) {
   if (kind === "weekly") return weeklyMessage(site);
+  if (["monthly", "quarterly", "annual"].includes(kind)) return periodicMessage(site, kind);
   if (kind === "immediate") return immediateMessage(site);
   return dailyMessage(site);
+}
+
+function periodicMessage(site, kind) {
+  const label = ({ monthly: "月报", quarterly: "季度报告", annual: "年度报告" })[kind];
+  const profiles = site.academic?.profiles ?? [];
+  const official = profiles.filter((profile) => (profile.recruitmentSignals ?? []).some((signal) => ["official_opening", "department_opening"].includes(signal.type))).length;
+  const activeIndustry = (site.industry?.opportunities ?? []).filter((item) => item.status === "active").length;
+  return [
+    `Postdoc Faculty Radar ${label}`,
+    `构建时间：${site.metadata?.builtAt ?? site.metadata?.generatedAt ?? "unknown"}`,
+    `当前机会：${site.metrics?.totalJobs ?? 0}；A/B 高匹配：${site.metrics?.highMatchJobs ?? 0}；30 天内截止：${site.metrics?.dueSoonJobs ?? 0}`,
+    `学术人物：${site.academic?.overview?.totalProfiles ?? profiles.length}；完整档案：${site.academic?.qualityGate?.publishedProfiles ?? 0}；官方招聘证据：${official}`,
+    `重点公司：${site.industry?.companies?.length ?? 0}；产业人物：${site.industry?.people?.length ?? 0}；活跃产业岗位：${activeIndustry}`,
+    `来源健康：${(site.sources ?? []).filter((source) => source.status === "ok").length}/${site.sources?.length ?? 0}`,
+    "",
+    "完整报告：https://github.com/DJCdjcDJC2000/postdoc-faculty-radar/issues",
+    "网站：https://public-omega-seven-25.vercel.app/",
+    "岗位与人员状态请以原始官方来源为准。"
+  ].join("\n");
 }
 
 function dailyMessage(site) {

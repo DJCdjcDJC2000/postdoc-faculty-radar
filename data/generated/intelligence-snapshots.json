@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "snapshots": [
+    {
+      "date": "2026-07-10",
+      "jobs": 8,
+      "highMatchJobs": 3,
+      "dueSoonJobs": 0,
+      "academicProfiles": 132,
+      "readyProfiles": 132,
+      "mentors": 52,
+      "youngScholars": 80,
+      "officialOpenings": 16,
+      "acceptingApplications": 7,
+      "fellowshipHosts": 4,
+      "companies": 32,
+      "industryPeople": 50,
+      "activeIndustryOpportunities": 14,
+      "healthySources": 3,
+      "totalSources": 20
+    }
+  ]
+}

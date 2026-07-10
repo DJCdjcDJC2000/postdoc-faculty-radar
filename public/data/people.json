@@ -136,12 +136,10 @@
     ],
     "phdInstitution": "University of Minnesota, Twin Cities",
     "phdYear": "2025",
-    "advisor": "",
+    "advisor": "Zhaosong Lu",
     "postdocHistory": [],
     "grantsAwards": [
-      "INFORMS Optimization Society 2024 Student Paper Prize Honorable Mention",
-      "INFORMS Computing Society 2024 Student Paper Award Finalist",
-      "NeurIPS 2022 Outstanding Paper Award"
+      "INFORMS Optimization Society 2024 Student Paper Prize Honorable Mention"
     ],
     "representativePapers": [
       {
@@ -156,8 +154,8 @@
       }
     ],
     "homepage": "https://sanyoumei.github.io/",
-    "googleScholar": "https://scholar.google.com/citations?user=w4-8DmAAAAAJ&hl=en",
-    "orcid": "",
+    "googleScholar": "https://scholar.google.com/citations?user=mzIWgpwAAAAJ",
+    "orcid": "https://orcid.org/0009-0001-9028-7847",
     "dblp": "",
     "openalex": "",
     "semanticScholar": "",
@@ -176,8 +174,13 @@
       },
       {
         "type": "google_scholar",
-        "url": "https://scholar.google.com/citations?user=w4-8DmAAAAAJ&hl=en",
+        "url": "https://scholar.google.com/citations?user=mzIWgpwAAAAJ",
         "confidence": "B"
+      },
+      {
+        "type": "official_research_portal",
+        "url": "https://researchportal.hkust.edu.hk/en/persons/sanyou-mei/",
+        "confidence": "A"
       }
     ],
     "ai": {
@@ -204,7 +207,7 @@
     ],
     "phdInstitution": "Brown University",
     "phdYear": "2021",
-    "advisor": "Stanley Osher",
+    "advisor": "George Em Karniadakis",
     "postdocHistory": [
       {
         "institution": "University of California, Los Angeles",

@@ -147,12 +147,10 @@
     ],
     "phdInstitution": "University of Minnesota, Twin Cities",
     "phdYear": "2025",
-    "advisor": "",
+    "advisor": "Zhaosong Lu",
     "postdocHistory": [],
     "grantsAwards": [
-      "INFORMS Optimization Society 2024 Student Paper Prize Honorable Mention",
-      "INFORMS Computing Society 2024 Student Paper Award Finalist",
-      "NeurIPS 2022 Outstanding Paper Award"
+      "INFORMS Optimization Society 2024 Student Paper Prize Honorable Mention"
     ],
     "representativePapers": [
       {
@@ -167,8 +165,8 @@
       }
     ],
     "homepage": "https://sanyoumei.github.io/",
-    "googleScholar": "https://scholar.google.com/citations?user=w4-8DmAAAAAJ&hl=en",
-    "orcid": "",
+    "googleScholar": "https://scholar.google.com/citations?user=mzIWgpwAAAAJ",
+    "orcid": "https://orcid.org/0009-0001-9028-7847",
     "dblp": "",
     "openalex": "",
     "semanticScholar": "",
@@ -176,7 +174,7 @@
     "pathSummaryZh": "本科 USTC、博士 Minnesota，毕业当年进入 HKUST IEDA 助理教授；这是“高强度论文/奖项直接冲港校青年教职”的样本。",
     "learningsZh": [
       "优化方向青年教职通常需要一个非常聚焦且可扩展的研究标签。",
-      "INFORMS/NeurIPS 等奖项和强会议论文能显著提高早期教职竞争力。",
+      "可核验的优化学会论文奖和连续顶刊成果能显著提高早期教职竞争力。",
       "工业工程/决策分析院系对随机优化、minimax 和在线优化有直接需求。"
     ],
     "risksZh": [
@@ -196,8 +194,13 @@
       },
       {
         "type": "google_scholar",
-        "url": "https://scholar.google.com/citations?user=w4-8DmAAAAAJ&hl=en",
+        "url": "https://scholar.google.com/citations?user=mzIWgpwAAAAJ",
         "confidence": "B"
+      },
+      {
+        "type": "official_research_portal",
+        "url": "https://researchportal.hkust.edu.hk/en/persons/sanyou-mei/",
+        "confidence": "A"
       }
     ]
   },
@@ -220,7 +223,7 @@
     ],
     "phdInstitution": "Brown University",
     "phdYear": "2021",
-    "advisor": "Stanley Osher",
+    "advisor": "George Em Karniadakis",
     "postdocHistory": [
       {
         "institution": "University of California, Los Angeles",

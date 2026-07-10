@@ -34,9 +34,17 @@ test("people workspace exposes all six views and requested filters", () => {
   for (const label of ["总览", "导师课题组", "青年学者", "产业人物入口", "横向对比", "关系网络"]) {
     assert.ok(app.includes(label), `missing people tab: ${label}`);
   }
-  for (const key of ["search", "type", "region", "research", "recruitment", "quality"]) {
+  for (const key of ["search", "type", "region", "research", "recruitment", "quality", "qs", "method", "application", "topVenues", "activity", "grants", "evidence", "updated", "sort"]) {
     assert.match(app, new RegExp(`${key}: ""`));
   }
+  for (const label of ["高级人物筛选", "QS 区间", "研究方法", "应用方向", "核心顶刊保守下限", "近五年活跃度", "基金奖项", "证据可信度", "更新时间", "排序", "保存筛选", "载入筛选"]) {
+    assert.ok(app.includes(label), `missing advanced filter: ${label}`);
+  }
+  assert.match(app, /PEOPLE_FILTER_STORAGE_KEY/);
+  assert.match(app, /academicTopVenueCount/);
+  assert.match(app, /peopleNaturalQuery/);
+  assert.match(app, /academicNaturalQueryMatches/);
+  assert.match(app, /群体特征总览/);
   assert.match(app, /peopleView: "table"/);
   assert.match(app, /state\.peopleCompare\.size >= 5/);
   assert.match(app, /最多选择 5 人/);
@@ -58,10 +66,15 @@ test("profile page covers research, publication, group and evidence records", ()
   }
   assert.match(app, /profile\.profileType === "mentor_group" \? 8 : 5/);
   assert.match(app, /window\.print\(\)/);
-  assert.match(app, /new Blob\(\[JSON\.stringify/);
+  assert.match(app, /JSON\.stringify\(payload, null, 2\)/);
   assert.match(app, /academic-profile-\$\{safeFileName/);
   assert.match(app, /isTopicMetric/);
   assert.match(app, /近 5 年 \$\{worksCount\} 篇相关公开记录/);
+  for (const label of ["研究方法", "应用方向", "入选理由", "JSON", "Markdown", "CSV", "BibTeX", "PNG"]) {
+    assert.ok(app.includes(label), `missing profile intelligence or export label: ${label}`);
+  }
+  assert.match(app, /exportAcademicComparison/);
+  assert.match(app, /exportAcademicNetwork/);
 });
 
 test("academic comparison suppresses zero-count venues and localizes taxonomy labels", () => {

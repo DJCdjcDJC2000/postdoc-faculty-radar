@@ -40,6 +40,7 @@ const [
   orcidAcademicEnrichment,
   academicCandidates,
   academicSupplements,
+  academicAiAnalysis,
   industryCompaniesRaw,
   industryOpportunitiesRaw,
   industryPeopleRaw,
@@ -68,6 +69,7 @@ const [
   readJson(projectRoot, "data/research/orcid-academic-enrichment.json", { provider: "ORCID", profiles: [] }),
   readJson(projectRoot, "data/research/academic-candidates.json", { labs: [], people: [] }),
   readJson(projectRoot, "data/research/academic-profile-supplements.json", { profiles: [] }),
+  readJson(projectRoot, "data/ai/academic-profile-analysis.json", {}),
   readJson(projectRoot, "data/manual/industry-companies.json", []),
   readJson(projectRoot, "data/manual/industry-opportunities.json", []),
   readJson(projectRoot, "data/manual/industry-people.json", []),
@@ -77,6 +79,13 @@ const [
     ? readPrivateJson("data/private/industry-plan.json", "data/private/industry-plan.example.json", null)
     : null
 ]);
+
+const reports = (await Promise.all([
+  readReport("weekly", "周报", "data/generated/weekly-report.md"),
+  readReport("monthly", "月报", "data/generated/monthly-report.md"),
+  readReport("quarterly", "季度报告", "data/generated/quarterly-report.md"),
+  readReport("annual", "年度报告", "data/generated/annual-report.md")
+])).filter(Boolean);
 
 const profile = mergeProfile(publicProfileConfig, mode === "private" ? privateProfileConfig : null);
 const aiIndex = mode === "private" ? { ...publicAiIndex, ...privateAiIndex } : publicAiIndex;
@@ -118,7 +127,7 @@ const allAcademicProfiles = buildAcademicProfiles(
   academicIdentityMap,
   [academicEnrichment, orcidAcademicEnrichment],
   venueTaxonomy,
-  academicSupplements
+  mergeAcademicSupplements(academicSupplements, academicAiAnalysis)
 );
 const publishIncompleteProfiles = mode !== "public"
   || peopleIntelligenceConfig.minimumProfile?.incompleteProfilesArePublic === true;
@@ -211,6 +220,7 @@ const siteData = {
   industry,
   routes: routes.sort((a, b) => (a.order ?? 99) - (b.order ?? 99)),
   sources: sourceStatuses,
+  reports,
   updates: buildUpdates(jobs, industryOpportunities, buildDate),
   calendar: buildCalendar(
     jobs,
@@ -249,6 +259,48 @@ console.log(
     `${outputData.academic.qualityGate.publishedProfiles} public-ready academic profiles, ` +
     `${outputData.industry.companies.length} companies, ${outputData.industry.people.length} industry people.`
 );
+
+async function readReport(kind, labelZh, relativePath) {
+  try {
+    const content = await fs.readFile(path.join(projectRoot, relativePath), "utf8");
+    const date = content.match(/^# .+? · (\d{4}-\d{2}-\d{2})/m)?.[1] ?? null;
+    return { kind, labelZh, date, content };
+  } catch (error) {
+    if (error?.code === "ENOENT") return null;
+    throw error;
+  }
+}
+
+function mergeAcademicSupplements(manual = {}, ai = {}) {
+  const byId = new Map();
+  for (const [id, analysis] of Object.entries(ai)) {
+    if (analysis?.status !== "deepseek") continue;
+    byId.set(id, {
+      id,
+      researchSummaryZh: analysis.researchSummaryZh,
+      methods: analysis.methods ?? [],
+      applications: analysis.applications ?? [],
+      publicAnalysis: {
+        careerPatternZh: analysis.careerPatternZh,
+        caveatsZh: analysis.caveatsZh ?? [],
+        notice: analysis.notice,
+        generatedAt: analysis.generatedAt,
+        source: "deepseek_public_fact_summary"
+      }
+    });
+  }
+  for (const supplement of manual.profiles ?? []) {
+    const previous = byId.get(supplement.id) ?? {};
+    byId.set(supplement.id, {
+      ...previous,
+      ...supplement,
+      methods: [...new Set([...(previous.methods ?? []), ...(supplement.methods ?? [])])],
+      applications: [...new Set([...(previous.applications ?? []), ...(supplement.applications ?? [])])],
+      publicAnalysis: { ...(previous.publicAnalysis ?? {}), ...(supplement.publicAnalysis ?? {}) }
+    });
+  }
+  return { ...manual, profiles: [...byId.values()] };
+}
 
 function readArg(name) {
   const eq = process.argv.find((arg) => arg.startsWith(`--${name}=`));

@@ -1259,6 +1259,243 @@
         { "type": "official_institution_publication_list", "url": "https://mitmgmtfaculty.mit.edu/hlu/research-publications/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["publication_metrics", "representative_works", "research_evolution"] }
       ],
       "lastVerifiedAt": "2026-07-10"
+    },
+    {
+      "id": "person-sanyou-mei",
+      "researchEvolution": [
+        "博士阶段先从局部 Lipschitz 梯度下的一阶加速与单调包含出发，随后转向双层、约束 minimax 和确定约束随机非凸优化；进入 HKUST 后继续推进可扩展一阶算法及其在数据科学、机器学习和不确定决策中的应用。"
+      ],
+      "methods": ["first-order methods", "augmented Lagrangian methods", "primal-dual extrapolation", "variance reduction"],
+      "applications": ["data science", "machine learning", "healthcare", "decision-making under uncertainty"],
+      "publicationMetrics": {
+        "worksCount": 7,
+        "recentWorksCount": 7,
+        "citedByCount": 26,
+        "hIndex": 2,
+        "provider": "HKUSTResearchPortalAndAuthorHomepage",
+        "countLabelZh": "官方主页列出的正式或已接收论文",
+        "countCaveatZh": "个人主页列出 7 篇正式或已接收论文；HKUST Research Portal 当前收录 6 篇期刊论文并显示 26 次引用、h-index 2。另列 1 篇相关预印本作为阅读材料，但不计入顶刊数量。",
+        "updatedAt": "2026-07-10"
+      },
+      "representativeWorks": [
+        { "title": "A first-order method for nonconvex-strongly-concave constrained minimax optimization", "year": 2026, "venue": "Optimization Methods and Software", "url": "https://sanyoumei.github.io/", "selectionReason": "个人主页标注为已接收，代表约束非凸 minimax 主线" },
+        { "title": "Solving bilevel optimization via sequential minimax optimization", "year": 2026, "venue": "Mathematics of Operations Research", "url": "https://sanyoumei.github.io/", "selectionReason": "个人主页标注为已接收，连接双层优化与序贯 minimax" },
+        { "title": "Variance-reduced first-order methods for deterministically constrained stochastic nonconvex optimization with strong convergence guarantees", "year": 2026, "venue": "SIAM Journal on Optimization", "url": "https://sanyoumei.github.io/", "selectionReason": "代表随机非凸约束与方差缩减方向" },
+        { "title": "Primal-dual extrapolation methods for monotone inclusions under local Lipschitz continuity", "year": 2024, "venue": "Mathematics of Operations Research", "url": "https://sanyoumei.github.io/", "selectionReason": "代表单调包含与原始-对偶算法方向" },
+        { "title": "A first-order augmented Lagrangian method for constrained minimax optimization", "year": 2025, "venue": "Mathematical Programming", "url": "https://sanyoumei.github.io/", "selectionReason": "代表一阶增广拉格朗日与约束 minimax 方向" },
+        { "title": "First-order penalty methods for bilevel optimization", "year": 2024, "venue": "SIAM Journal on Optimization", "url": "https://sanyoumei.github.io/", "selectionReason": "代表双层优化的一阶罚函数方法" },
+        { "title": "Accelerated first-order methods for convex optimization with locally Lipschitz continuous gradient", "year": 2023, "venue": "SIAM Journal on Optimization", "url": "https://sanyoumei.github.io/", "selectionReason": "获得 INFORMS Optimization Society 学生论文奖 Honorable Mention 的基础代表作" },
+        { "title": "Sequential minimax optimization methods for bilevel optimization with strongly convex lower-level objective function", "year": 2025, "venue": "Preprint", "url": "https://sanyoumei.github.io/research.html", "selectionReason": "个人研究页列出的双层优化后续工作；作为阅读材料，预印本不计入顶刊数量" }
+      ],
+      "timeline": [
+        { "type": "phd", "degree": "Ph.D. in Industrial Engineering", "institution": "University of Minnesota", "advisor": "Zhaosong Lu", "startYear": 2020, "endYear": 2025 },
+        { "type": "current_position", "role": "Assistant Professor", "institution": "The Hong Kong University of Science and Technology", "department": "Department of Industrial Engineering and Decision Analytics", "startYear": 2025 }
+      ],
+      "group": {
+        "name": "Bilevel, Minimax, Stochastic and Distributed Optimization",
+        "homepage": "https://sanyoumei.github.io/",
+        "collaborationStyleZh": "个人主页公开列出研究论文、课程和招生方式；当前明确招收数学基础扎实的博士生，未把该信息改写为博士后岗位。"
+      },
+      "links": {
+        "homepage": "https://sanyoumei.github.io/",
+        "groupHomepage": "https://sanyoumei.github.io/",
+        "orcid": "https://orcid.org/0009-0001-9028-7847"
+      },
+      "recruitmentSignals": [
+        { "type": "accepts_applications", "summaryZh": "个人主页明确欢迎博士申请并要求提交 CV 与成绩单；这不是博士后招聘公告。", "sourceUrl": "https://sanyoumei.github.io/", "sourceType": "author_homepage", "confidence": "A", "observedAt": "2026-07-10" }
+      ],
+      "evidence": [
+        { "type": "author_profile_and_publication_list", "url": "https://sanyoumei.github.io/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["identity", "position", "education", "research", "publication_metrics", "representative_works", "award", "accepts_applications"] },
+        { "type": "official_institution_research_portal", "url": "https://researchportal.hkust.edu.hk/en/persons/sanyou-mei/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["identity", "position", "publication_metrics", "orcid"] }
+      ],
+      "lastVerifiedAt": "2026-07-10"
+    },
+    {
+      "id": "hku-ids-yue-xie",
+      "researchEvolution": [
+        "博士阶段研究不确定线性互补问题和随机 inexact ADMM；UW-Madison 博后阶段转向非凸等式/边界约束的复杂度分析；在 HKU 建组后继续发展无正则最优传输、随机一阶方法和数据科学中的大规模约束优化。"
+      ],
+      "methods": ["stochastic ADMM", "projected Newton-CG", "proximal augmented Lagrangian", "randomized block coordinate descent"],
+      "applications": ["optimal transport", "machine learning", "data science", "low-rank matrix optimization"],
+      "publicationMetrics": {
+        "worksCount": 8,
+        "recentWorksCount": 3,
+        "provider": "AuthorPublicationPage",
+        "countLabelZh": "个人论文页列出的正式论文与会议版本",
+        "countCaveatZh": "个人论文页逐条列出 8 项成果；其中期刊扩展版与会议版分别保留关联，近五年正式论文为 2021、2023 和 2024 年 3 篇。",
+        "updatedAt": "2026-07-10"
+      },
+      "representativeWorks": [
+        { "title": "Randomized methods for computing optimal transport without regularization and their convergence analysis", "year": 2024, "venue": "Journal of Scientific Computing", "url": "https://yue-xie.github.io/publications/", "selectionReason": "代表当前最优传输与随机坐标方法主线" },
+        { "title": "Complexity of a Projected Newton-CG Method for Optimization with Bounds", "year": 2023, "venue": "Mathematical Programming", "url": "https://yue-xie.github.io/publication/PNCG", "selectionReason": "代表边界约束非凸优化与二阶复杂度分析" },
+        { "title": "Complexity of proximal augmented Lagrangian for nonconvex optimization with nonlinear equality constraints", "year": 2021, "venue": "Journal of Scientific Computing", "url": "https://yue-xie.github.io/publication/PAL-JOMP", "selectionReason": "代表非凸等式约束与增广拉格朗日复杂度" },
+        { "title": "Tractable ADMM schemes for computing KKT points and local minimizers for l0-minimization problems", "year": 2020, "venue": "Computational Optimization and Applications", "url": "https://yue-xie.github.io/publication/l0min-COAP", "selectionReason": "代表非凸稀疏优化与 ADMM" },
+        { "title": "SI-ADMM: A stochastic inexact ADMM framework for stochastic convex programs", "year": 2019, "venue": "IEEE Transactions on Automatic Control", "url": "https://yue-xie.github.io/publications/", "selectionReason": "代表随机凸优化与 inexact ADMM" },
+        { "title": "SI-ADMM: A stochastic inexact ADMM framework for resolving structured stochastic convex programs", "year": 2016, "venue": "Winter Simulation Conference", "url": "https://yue-xie.github.io/publications/", "selectionReason": "保留与期刊扩展版的版本关系，不重复计入顶刊总量" },
+        { "title": "On robust solutions to uncertain linear complementarity problems and their variants", "year": 2016, "venue": "SIAM Journal on Optimization", "url": "https://yue-xie.github.io/publications/", "selectionReason": "与本站核心互补问题方向最直接相关的代表作" },
+        { "title": "On robust solutions to uncertain monotone linear complementarity problems and their variants", "year": 2014, "venue": "IEEE Conference on Decision and Control", "url": "https://yue-xie.github.io/publications/", "selectionReason": "保留鲁棒 LCP 期刊工作之前的会议版本" }
+      ],
+      "timeline": [
+        { "type": "phd", "degree": "Ph.D.", "institution": "Pennsylvania State University", "advisor": "Uday V. Shanbhag", "endYear": 2018 },
+        { "type": "postdoc", "role": "Postdoctoral Researcher", "institution": "University of Wisconsin-Madison", "advisor": "Stephen J. Wright" },
+        { "type": "current_position", "role": "Research Assistant Professor", "institution": "The University of Hong Kong", "department": "Musketeers Foundation Institute of Data Science / Department of Mathematics" }
+      ],
+      "grantsAwards": [
+        { "title": "HKU-IDS start-up fund", "amount": "HKD 1.16 million", "url": "https://yue-xie.github.io/files/CV_YueXie_2024.pdf" }
+      ],
+      "group": {
+        "name": "Nonconvex and Stochastic Optimization",
+        "homepage": "https://yue-xie.github.io/",
+        "collaborationStyleZh": "公开项目覆盖最优传输和约束优化；个人主页长期欢迎具备 HKPFS 潜力的博士申请者，但当前未发现仍有效的博士后公告。"
+      },
+      "links": {
+        "homepage": "https://yue-xie.github.io/",
+        "groupHomepage": "https://yue-xie.github.io/",
+        "orcid": "https://orcid.org/0000-0002-9282-1089"
+      },
+      "recruitmentSignals": [
+        { "type": "accepts_applications", "summaryZh": "个人主页明确欢迎具备 HKPFS 潜力的博士申请者；该信号不等于博士后招聘。", "sourceUrl": "https://yue-xie.github.io/", "sourceType": "author_homepage", "confidence": "A", "observedAt": "2026-07-10" },
+        { "type": "closed_or_expired", "summaryZh": "2025 年 1 月发布过多个优化/机器学习博士后岗位，但公告已作为历史样本保留，不能视为当前开放。", "sourceUrl": "https://yue-xie.github.io/files/Job_AD_2025.pdf", "sourceType": "historical_job_ad", "confidence": "A", "observedAt": "2025-01-20", "expiresAt": "2026-01-20" }
+      ],
+      "evidence": [
+        { "type": "official_institution_profile", "url": "https://datascience.hku.hk/people/yue-xie/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["identity", "position", "research", "career_timeline", "current_projects"] },
+        { "type": "author_publication_list", "url": "https://yue-xie.github.io/publications/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["publication_metrics", "representative_works", "research_evolution"] },
+        { "type": "official_institution_repository_profile", "url": "https://repository.hku.hk/cris/rp/rp02906", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["identity", "education", "orcid"] }
+      ],
+      "lastVerifiedAt": "2026-07-10"
+    },
+    {
+      "id": "liu-yang-nus",
+      "researchEvolution": [
+        "Brown 博士阶段从物理信息生成模型、随机微分方程和函数先验学习起步；UCLA 阶段转向粒子输运和生成建模；加入 NUS 后形成 In-Context Operator Networks 主线，并进一步扩展到多物理预测、科学基础模型、具身 AI 和自动算法发现。"
+      ],
+      "methods": ["physics-informed learning", "generative models", "operator learning", "particle transport", "in-context learning"],
+      "applications": ["differential equations", "multi-physics prediction", "scientific foundation models", "embodied AI"],
+      "publicationMetrics": {
+        "worksCount": 7,
+        "recentWorksCount": 3,
+        "provider": "AuthorCV",
+        "countLabelZh": "个人 CV 可核验的正式论文（下界）",
+        "countCaveatZh": "统计个人 CV 中 7 篇正式期刊论文；近期预印本单列，不计入顶刊数量。近五年正式论文按 2022-2026 窗口计 3 篇。",
+        "updatedAt": "2026-07-10"
+      },
+      "representativeWorks": [
+        { "title": "In-Context Operator Learning With Data Prompts for Differential Equation Problems", "year": 2023, "venue": "Proceedings of the National Academy of Sciences", "url": "https://www.pnas.org/doi/10.1073/pnas.2310142120", "selectionReason": "当前 ICON 科学基础模型主线的核心代表作" },
+        { "title": "Learning Functional Priors and Posteriors from Data and Physics", "year": 2022, "venue": "Journal of Computational Physics", "url": "https://liuyangresearch.com/pdf/cv.pdf", "selectionReason": "代表物理与数据联合学习函数分布的工作" },
+        { "title": "Generative Ensemble Regression: Learning Particle Dynamics From Observations of Ensembles With Physics-Informed Deep Generative Models", "year": 2022, "venue": "SIAM Journal on Scientific Computing", "url": "https://liuyangresearch.com/pdf/cv.pdf", "selectionReason": "代表粒子动力学与物理信息生成模型" },
+        { "title": "Physics-Informed Machine Learning", "year": 2021, "venue": "Nature Reviews Physics", "url": "https://liuyangresearch.com/pdf/cv.pdf", "selectionReason": "概括物理信息机器学习方法谱系的重要综述" },
+        { "title": "Physics-Informed Generative Adversarial Networks for Stochastic Differential Equations", "year": 2020, "venue": "SIAM Journal on Scientific Computing", "url": "https://liuyangresearch.com/pdf/cv.pdf", "selectionReason": "博士阶段随机微分方程与生成模型代表作" }
+      ],
+      "timeline": [
+        { "type": "phd", "degree": "Ph.D. in Applied Mathematics", "institution": "Brown University", "advisor": "George Em Karniadakis", "endYear": 2021 },
+        { "type": "position", "role": "Autonomous Driving Engineer", "institution": "WeRide.ai", "startYear": 2021, "endYear": 2022 },
+        { "type": "position", "role": "Assistant Adjunct Professor", "institution": "University of California, Los Angeles", "advisor": "Stanley Osher", "startYear": 2022, "endYear": 2024 },
+        { "type": "current_position", "role": "Assistant Professor / NUS Presidential Young Professor", "institution": "National University of Singapore", "department": "Department of Mathematics", "startYear": 2024 }
+      ],
+      "group": {
+        "name": "Scientific Computing and Intelligence Group (Scaling Group)",
+        "homepage": "https://scaling-group.github.io/",
+        "members": ["Song Chen · Research Fellow", "Gao Yihang · Research Fellow", "Sun Boai · Research Fellow", "Xiang Linyan · Research Fellow"],
+        "collaborationStyleZh": "组主页以 ICON、科学基础模型和自动算法发现为主线，并明确欢迎新学生、博士后和访问学者加入。"
+      },
+      "links": {
+        "homepage": "https://liuyangresearch.com/",
+        "groupHomepage": "https://scaling-group.github.io/",
+        "openings": "https://scaling-group.github.io/"
+      },
+      "recruitmentSignals": [
+        { "type": "official_opening", "summaryZh": "Scaling Group 主页当前明确写明招收 postdocs、students 和 visiting scholars。", "sourceUrl": "https://scaling-group.github.io/", "sourceType": "official_group_homepage", "confidence": "A", "observedAt": "2026-07-10" }
+      ],
+      "evidence": [
+        { "type": "official_institution_profile", "url": "https://www.math.nus.edu.sg/people/regular-faculty/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["identity", "position", "title"] },
+        { "type": "author_cv_and_publication_list", "url": "https://liuyangresearch.com/pdf/cv.pdf", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["education", "career_timeline", "publication_metrics", "representative_works"] },
+        { "type": "official_group_homepage_and_opening", "url": "https://scaling-group.github.io/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["group", "research", "official_opening"] },
+        { "type": "official_department_research_staff", "url": "https://www.math.nus.edu.sg/people/research-staff/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["group_members", "funded_projects"] }
+      ],
+      "lastVerifiedAt": "2026-07-10"
+    },
+    {
+      "id": "at-klagenfurt-caroline-geiersbach",
+      "researchEvolution": [
+        "博士后早期聚焦 Banach 空间中的随机优化与几乎处处状态约束，随后发展随机 PDE/变分不等式的风险规避最优控制；近年进一步推进概率状态约束、随机形状优化和 Riemannian 形状流形上的增广拉格朗日方法。"
+      ],
+      "methods": ["stochastic gradient methods", "Moreau-Yosida regularization", "augmented Lagrangian methods", "shape calculus"],
+      "applications": ["PDE-constrained optimization", "random elliptic variational inequalities", "Navier-Stokes shape optimization", "probabilistic state constraints"],
+      "publicationMetrics": {
+        "worksCount": 8,
+        "recentWorksCount": 8,
+        "provider": "WIASOfficialPublicationList",
+        "countLabelZh": "WIAS 官方作者书目列出的成果",
+        "countCaveatZh": "WIAS 官方作者页列出 8 项 2021-2026 年成果，其中已正式发表和预印本均保留状态；数量是该机构收录下界，不等同于完整生涯总数。",
+        "updatedAt": "2026-07-10"
+      },
+      "representativeWorks": [
+        { "title": "Optimality conditions for convex stochastic optimization problems in Banach spaces with almost sure state constraint", "year": 2021, "venue": "SIAM Journal on Optimization", "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline", "selectionReason": "建立随机 Banach 空间与几乎处处状态约束主线的代表作" },
+        { "title": "Optimality conditions in control problems with random state constraints in probabilistic or almost-sure form", "year": 2025, "venue": "Mathematics of Operations Research", "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline", "selectionReason": "代表概率与几乎处处随机状态约束的最新理论" },
+        { "title": "Numerical solution of an optimal control problem with probabilistic and almost sure state constraints", "year": 2025, "venue": "Journal of Optimization Theory and Applications", "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline", "selectionReason": "代表随机状态约束的数值算法与验证" },
+        { "title": "Risk-averse optimal control of random elliptic VIs", "year": 2025, "venue": "ESAIM: Control, Optimisation and Calculus of Variations", "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline", "selectionReason": "与风险规避随机变分不等式直接相关" },
+        { "title": "Stochastic augmented Lagrangian method in Riemannian shape manifolds", "year": 2024, "venue": "Journal of Optimization Theory and Applications", "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline", "selectionReason": "代表随机形状优化与增广拉格朗日方向" }
+      ],
+      "timeline": [
+        { "type": "phd", "degree": "Ph.D.", "endYear": 2020 },
+        { "type": "position", "role": "Assistant Professor of Optimization under Uncertainty", "institution": "University of Hamburg", "startYear": 2024, "endYear": 2025 },
+        { "type": "current_position", "role": "Professor of Stochastic Optimization", "institution": "University of Klagenfurt", "department": "Department of Mathematics", "startYear": 2025 }
+      ],
+      "links": {
+        "homepage": "https://www.aau.at/en/team/geiersbach-caroline/"
+      },
+      "evidence": [
+        { "type": "official_institution_profile", "url": "https://www.aau.at/en/team/geiersbach-caroline/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["identity", "position", "research"] },
+        { "type": "official_publication_list", "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["publication_metrics", "representative_works", "research_evolution"] },
+        { "type": "official_appointment_news", "url": "https://www.aau.at/blog/neue-professuren-im-september-2025-an-der-universitaet-klagenfurt/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["career_timeline", "current_position"] }
+      ],
+      "lastVerifiedAt": "2026-07-10"
+    },
+    {
+      "id": "it-pisa-cecilia-pagliantini",
+      "researchEvolution": [
+        "ETH 博士阶段以离散微分形式研究计算磁流体；EPFL 与 TU/e 阶段形成 Hamiltonian 系统的结构保持模型降阶；进入 Pisa 后进一步发展自适应低秩/超降阶、Hermite 谱方法、Vlasov 等离子体计算和数据同化。"
+      ],
+      "methods": ["structure-preserving model order reduction", "symplectic projection", "adaptive low-rank approximation", "Hermite spectral methods", "discrete empirical interpolation"],
+      "applications": ["Hamiltonian systems", "Vlasov-Poisson equations", "Vlasov-Maxwell equations", "plasma physics", "filtering and data assimilation"],
+      "publicationMetrics": {
+        "worksCount": 15,
+        "recentWorksCount": 15,
+        "provider": "UniversityOfPisaOfficialProfile",
+        "countLabelZh": "Pisa 官方人物页当前列出的 2022-2026 成果",
+        "countCaveatZh": "官方页面当前可见 15 项 2022-2026 论文与会议成果；完整 ARPI 书目更多，因此这里是近年成果下界，不冒充生涯总数。",
+        "updatedAt": "2026-07-10"
+      },
+      "representativeWorks": [
+        { "title": "Dynamical reduced basis methods for Hamiltonian systems", "year": 2021, "venue": "Numerische Mathematik", "url": "https://arpi.unipi.it/bitstream/11568/1169930/2/s00211-021-01211-w-15.pdf", "selectionReason": "结构保持动态低秩模型降阶的基础代表作" },
+        { "title": "Reduced basis methods for time-dependent problems", "year": 2022, "venue": "Acta Numerica", "url": "https://arpi.unipi.it/retrieve/8393bb4d-7ad0-4418-be6b-3986a3724cb3/reduced_basis_methods_for_timedependent_problems.pdf", "selectionReason": "时间依赖问题模型降阶的系统综述" },
+        { "title": "Adaptive symplectic model order reduction of parametric particle-based Vlasov-Poisson equation", "year": 2024, "venue": "Mathematics of Computation", "url": "https://arpi.unipi.it/retrieve/ceb007e8-1c0c-4e2c-9810-6ac41e42c6f4/Adaptive_symplectic_MOR_of_parametric_Vlasov_Poisson.pdf", "selectionReason": "连接辛结构、粒子模型与自适应模型降阶" },
+        { "title": "Gradient-Preserving Hyper-Reduction of Nonlinear Dynamical Systems via Discrete Empirical Interpolation", "year": 2023, "venue": "SIAM Journal on Scientific Computing", "url": "https://epubs.siam.org/doi/10.1137/22M1503890", "selectionReason": "代表梯度结构保持与 DEIM 超降阶" },
+        { "title": "Physics-based adaptivity of a spectral method for the Vlasov-Poisson equations based on the asymmetrically-weighted Hermite expansion in velocity space", "year": 2023, "venue": "Journal of Computational Physics", "url": "https://arpi.unipi.it/handle/11568/1179707", "selectionReason": "与用户谱方法能力最直接相连的 Vlasov-Poisson 自适应谱算法" }
+      ],
+      "timeline": [
+        { "type": "phd", "degree": "Ph.D. in Mathematics", "institution": "ETH Zurich", "advisor": "Ralf Hiptmair", "endYear": 2016 },
+        { "type": "postdoc", "role": "Postdoctoral Researcher", "institution": "EPFL" },
+        { "type": "position", "role": "Researcher", "institution": "Eindhoven University of Technology" },
+        { "type": "current_position", "role": "Fixed-term Researcher in Numerical Analysis", "institution": "University of Pisa", "department": "Department of Mathematics" }
+      ],
+      "group": {
+        "name": "Numerical Analysis Group, Pisa",
+        "homepage": "https://numpi.dm.unipi.it/people/cecilia-pagliantini/",
+        "collaborationStyleZh": "公开研究页显示其参与模型降阶、计算等离子体、数值 PDE 与数据同化合作；未发现本人当前明确博士后岗位。"
+      },
+      "links": {
+        "homepage": "https://www.unipi.it/ateneo/organizzazione/persone/cecilia-pagliantini-183262/",
+        "groupHomepage": "https://numpi.dm.unipi.it/people/cecilia-pagliantini/",
+        "dblp": "https://dblp.org/pid/271/0336.html"
+      },
+      "evidence": [
+        { "type": "official_institution_profile_and_publication_list", "url": "https://www.unipi.it/ateneo/organizzazione/persone/cecilia-pagliantini-183262/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["identity", "position", "publication_metrics", "representative_works", "research_evolution"] },
+        { "type": "official_group_profile", "url": "https://numpi.dm.unipi.it/people/cecilia-pagliantini/", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["group", "research"] },
+        { "type": "official_phd_record", "url": "https://math.ethz.ch/news-and-events/news/d-math-news/2016/09/doctoral-exam-of-cecilia-pagliantini.html", "confidence": "A", "checkedAt": "2026-07-10", "supportsClaims": ["education", "phd_year", "advisor"] },
+        { "type": "bibliographic_publication_list", "url": "https://dblp.org/pid/271/0336.html", "confidence": "B", "checkedAt": "2026-07-10", "supportsClaims": ["publication_identity", "representative_works"] }
+      ],
+      "lastVerifiedAt": "2026-07-10"
     }
   ]
 }

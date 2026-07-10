@@ -22,10 +22,132 @@ export function buildAcademicProfiles(
     enrichments,
     taxonomy
   ), supplements, taxonomy);
-  return profiles.map((profile) => ({
+  return profiles.map((rawProfile) => {
+    const profile = attachTopVenueLowerBound(deriveResearchFeatures(rawProfile), taxonomy);
+    return {
+      ...profile,
+      quality: assessProfileReadiness(profile, config)
+    };
+  });
+}
+
+function attachTopVenueLowerBound(profile, taxonomy) {
+  const works = profile.representativeWorks ?? [];
+  const analysis = classifyWorks(works, taxonomy);
+  const counts = new Map();
+  for (const classification of analysis.classifications ?? []) {
+    if (!classification.counted || !(classification.matches ?? []).some((match) => match.tier === "top_core")) continue;
+    const venue = classification.venueName;
+    if (venue) counts.set(venue, (counts.get(venue) ?? 0) + 1);
+  }
+  const topVenueCountsLowerBound = [...counts.entries()]
+    .map(([venue, count]) => ({ venue, count }))
+    .sort((left, right) => right.count - left.count || left.venue.localeCompare(right.venue));
+  return {
     ...profile,
-    quality: assessProfileReadiness(profile, config)
-  }));
+    publicationMetrics: profile.publicationMetrics ? {
+      ...profile.publicationMetrics,
+      topVenueCountsLowerBound,
+      topVenueCountBasisZh: "仅按已核验代表作中可识别的核心 venue 统计，是保守下限，不等同于完整履历总数。"
+    } : profile.publicationMetrics
+  };
+}
+
+export function deriveResearchFeatures(profile) {
+  const research = profile.research ?? {};
+  const tags = unique(research.tags ?? []);
+  const text = [research.summaryZh, ...tags].filter(Boolean).join(" ");
+  const suppliedMethods = unique(research.methods ?? []);
+  const suppliedApplications = unique(research.applications ?? []);
+  const derivedMethods = suppliedMethods.length ? [] : deriveFeatures(text, METHOD_FEATURE_RULES);
+  const derivedApplications = suppliedApplications.length ? [] : deriveFeatures(text, APPLICATION_FEATURE_RULES);
+  const methods = unique([...suppliedMethods, ...derivedMethods]);
+  const applications = unique([...suppliedApplications, ...derivedApplications]);
+  const featureProvenance = {
+    summary: research.summaryZh ? "public_source_or_verified_summary" : tags.length ? "derived_from_public_tags" : "not_publicly_specified",
+    methods: suppliedMethods.length ? "public_source_or_verified_supplement" : derivedMethods.length ? "derived_from_public_research_fields" : "not_publicly_specified",
+    applications: suppliedApplications.length ? "public_source_or_verified_supplement" : derivedApplications.length ? "derived_from_public_research_fields" : "not_publicly_specified"
+  };
+  return {
+    ...profile,
+    publicAnalysis: {
+      ...derivePublicCareerAnalysis(profile, featureProvenance),
+      ...(profile.publicAnalysis ?? {})
+    },
+    research: {
+      ...research,
+      tags,
+      summaryZh: research.summaryZh || (tags.length ? `公开资料将其研究方向概括为：${tags.join("、")}。` : "公开资料尚未提供可核验的研究概述。"),
+      methods,
+      applications,
+      featureProvenance
+    }
+  };
+}
+
+function derivePublicCareerAnalysis(profile, featureProvenance) {
+  const steps = unique((profile.timeline ?? []).map((item) => {
+    if (typeof item === "string") return item;
+    const period = item.years || item.period || item.year || [item.startYear, item.endYear].filter(Boolean).join("-");
+    const role = item.role || item.title || item.degree || item.position;
+    return [period, role, item.institution].filter(Boolean).join(" · ");
+  })).slice(0, 8);
+  const caveatsZh = [];
+  if (!steps.length) caveatsZh.push("公开经历尚不足以形成可靠的职业路径归纳。");
+  if (featureProvenance.methods === "derived_from_public_research_fields") caveatsZh.push("研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。");
+  return {
+    careerPatternZh: steps.length ? `公开教育与任职路径包括：${steps.join("；")}。` : "公开经历尚不足以形成可靠的职业路径归纳。",
+    caveatsZh,
+    notice: "公开事实归纳，需回到证据台账核验",
+    source: "deterministic_public_fact_summary"
+  };
+}
+
+const METHOD_FEATURE_RULES = [
+  [/stochastic|uncertaint|random/i, "stochastic optimization and uncertainty methods"],
+  [/distributionally robust|\bdro\b/i, "distributionally robust optimization"],
+  [/robust optimization/i, "robust optimization"],
+  [/variational inequalit|monotone inclusion/i, "variational-inequality and monotone-operator methods"],
+  [/complementarity/i, "complementarity formulations and algorithms"],
+  [/nonsmooth|variational analysis/i, "nonsmooth and variational analysis"],
+  [/semismooth|newton/i, "Newton and semismooth Newton methods"],
+  [/first[- ]order|gradient|accelerat/i, "first-order methods"],
+  [/bilevel/i, "bilevel optimization"],
+  [/minimax|saddle/i, "minimax and saddle-point methods"],
+  [/distributed|federated/i, "distributed and federated optimization"],
+  [/semidefinite|conic/i, "conic and semidefinite optimization"],
+  [/integer|mixed-integer|combinatorial|discrete optimization|cutting plane/i, "discrete and mixed-integer optimization"],
+  [/numerical linear algebra|matrix|tensor/i, "numerical linear algebra"],
+  [/spectral/i, "spectral methods"],
+  [/finite element|numerical pde|scientific computing|numerical analysis/i, "numerical analysis and scientific computing"],
+  [/operator learning|physics-informed|scientific machine learning/i, "scientific machine learning"],
+  [/manifold|riemannian/i, "Riemannian and manifold optimization"],
+  [/optimal control|control/i, "optimal-control methods"],
+  [/reinforcement learning/i, "reinforcement learning"],
+  [/game theory|mechanism design/i, "game-theoretic methods"],
+  [/global optimization|polynomial optimization/i, "global and polynomial optimization"],
+  [/online optimization/i, "online optimization"],
+  [/interior point/i, "interior-point methods"],
+  [/decomposition/i, "decomposition methods"],
+  [/optimization|operations research|mathematical programming/i, "mathematical optimization"],
+];
+
+const APPLICATION_FEATURE_RULES = [
+  [/machine learning|statistical learning|data science|optimization for ml|ml optimization/i, "machine learning and data science"],
+  [/signal processing|imaging|inverse problem/i, "signal processing, imaging, and inverse problems"],
+  [/energy|power system|electric/i, "energy and power systems"],
+  [/supply chain|logistics|transport|routing|revenue management/i, "logistics, transportation, and operations"],
+  [/health|medical|biomedical/i, "healthcare and biomedical systems"],
+  [/finance|risk analytics|portfolio/i, "finance and risk analytics"],
+  [/control|robot|autonomous|dynamical system/i, "control and dynamical systems"],
+  [/network|communication|federated/i, "networked and distributed systems"],
+  [/pde|fluid|physics|scientific computing|uncertainty quantification/i, "physical simulation and scientific computing"],
+  [/game theory|mechanism design|market/i, "markets and strategic decision-making"],
+  [/decision making|operations research|applied probability/i, "decision-making and operations"],
+];
+
+function deriveFeatures(text, rules) {
+  return rules.filter(([pattern]) => pattern.test(text)).map(([, label]) => label);
 }
 
 export function applyAcademicProfileSupplements(profiles = [], supplements = {}, taxonomy = {}) {
@@ -42,10 +164,22 @@ export function applyAcademicProfileSupplements(profiles = [], supplements = {},
       ...profile,
       research: {
         ...(profile.research ?? {}),
+        tags: unique([
+          ...(profile.research?.tags ?? []),
+          ...(supplement.researchTags ?? [])
+        ]),
         summaryZh: supplement.researchSummaryZh ?? profile.research?.summaryZh,
         recentEvolution: unique([
           ...(profile.research?.recentEvolution ?? []),
           ...(supplement.researchEvolution ?? [])
+        ]),
+        methods: unique([
+          ...(profile.research?.methods ?? []),
+          ...(supplement.methods ?? [])
+        ]),
+        applications: unique([
+          ...(profile.research?.applications ?? []),
+          ...(supplement.applications ?? [])
         ])
       },
       publicationMetrics: supplement.publicationMetrics ?? profile.publicationMetrics,
@@ -62,6 +196,22 @@ export function applyAcademicProfileSupplements(profiles = [], supplements = {},
       timeline: uniqueObjects([
         ...(profile.timeline ?? []),
         ...(supplement.timeline ?? [])
+      ]),
+      group: supplement.group ? {
+        ...(profile.group ?? {}),
+        ...supplement.group
+      } : profile.group,
+      publicAnalysis: supplement.publicAnalysis ? {
+        ...(profile.publicAnalysis ?? {}),
+        ...supplement.publicAnalysis
+      } : profile.publicAnalysis,
+      links: {
+        ...(profile.links ?? {}),
+        ...(supplement.links ?? {})
+      },
+      recruitmentSignals: mergeRecruitmentSignals([
+        ...(profile.recruitmentSignals ?? []),
+        ...(supplement.recruitmentSignals ?? []).map((signal) => normalizeSignal(signal, supplement))
       ]),
       evidence: uniqueObjects([
         ...(profile.evidence ?? []),
@@ -434,17 +584,33 @@ function uniqueObjects(values, keyFor = (item) => JSON.stringify(item)) {
 
 function deduplicateWorks(works) {
   return uniqueObjects(works, (work) => String(
-    work.doi
-    ?? work.openalexId
-    ?? (work.title ? `${work.title}|${work.year ?? work.publicationYear ?? ""}` : work.url)
+    work.title
+      ? `title:${normalizeWorkTitle(work.title)}`
+      : work.doi
+        ?? work.openalexId
+        ?? work.url
     ?? ""
   ).toLowerCase());
+}
+
+function normalizeWorkTitle(value) {
+  return String(value ?? "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function mergeRecruitmentSignals(signals) {
   const uniqueSignals = uniqueObjects(signals, (item) => `${item.type}|${item.sourceUrl ?? ""}`);
   const sourcedTypes = new Set(uniqueSignals.filter((item) => item.sourceUrl).map((item) => item.type));
-  return uniqueSignals.filter((item) => item.sourceUrl || !sourcedTypes.has(item.type));
+  const hasExplicitOpening = uniqueSignals.some((item) => ["official_opening", "department_opening"].includes(item.type));
+  return uniqueSignals.filter((item) => (
+    (!hasExplicitOpening || item.type !== "no_public_signal")
+    && (item.sourceUrl || !sourcedTypes.has(item.type))
+  ));
 }
 
 function latestObject(values) {

@@ -33,6 +33,7 @@ jobs:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
       DEEPSEEK_MAX_ITEMS: ${{ vars.DEEPSEEK_MAX_ITEMS || '12' }}
+      DEEPSEEK_MAX_ACADEMIC_PROFILES: ${{ vars.DEEPSEEK_MAX_ACADEMIC_PROFILES || '6' }}
       OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
       OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
     steps:
@@ -68,11 +69,40 @@ jobs:
       - name: Build pushed revision
         if: ${{ github.event_name == 'push' }}
         run: npm run build:public
+      - name: Generate calendar reports
+        if: ${{ github.event_name != 'push' }}
+        shell: bash
+        run: |
+          day="$(date -u +%d)"
+          month="$(date -u +%m)"
+          echo "MONTHLY_REPORT=false" >> "$GITHUB_ENV"
+          echo "QUARTERLY_REPORT=false" >> "$GITHUB_ENV"
+          echo "ANNUAL_REPORT=false" >> "$GITHUB_ENV"
+          if [[ "$day" == "01" ]]; then
+            npm run report:monthly
+            echo "MONTHLY_REPORT=true" >> "$GITHUB_ENV"
+          fi
+          if [[ "$day" == "01" && "$month" =~ ^(01|04|07|10)$ ]]; then
+            npm run report:quarterly
+            echo "QUARTERLY_REPORT=true" >> "$GITHUB_ENV"
+          fi
+          if [[ "$day" == "01" && "$month" == "01" ]]; then
+            npm run report:annual
+            echo "ANNUAL_REPORT=true" >> "$GITHUB_ENV"
+          fi
+          if [[ "$day" == "01" ]]; then npm run build:public; fi
       - run: npm run validate
       - run: npm run verify:acceptance
       - name: Notify weekly Feishu report
         if: ${{ env.FULL_UPDATE == 'true' && (env.FEISHU_WEBHOOK_URL != '' || (env.FEISHU_BOT_APP_ID != '' && env.FEISHU_BOT_APP_SECRET != '' && env.FEISHU_BOT_RECEIVE_ID != '')) }}
         run: npm run notify:weekly
+      - name: Notify calendar Feishu reports
+        if: ${{ (env.MONTHLY_REPORT == 'true' || env.QUARTERLY_REPORT == 'true' || env.ANNUAL_REPORT == 'true') && (env.FEISHU_WEBHOOK_URL != '' || (env.FEISHU_BOT_APP_ID != '' && env.FEISHU_BOT_APP_SECRET != '' && env.FEISHU_BOT_RECEIVE_ID != '')) }}
+        shell: bash
+        run: |
+          if [[ "$MONTHLY_REPORT" == "true" ]]; then npm run notify:monthly; fi
+          if [[ "$QUARTERLY_REPORT" == "true" ]]; then npm run notify:quarterly; fi
+          if [[ "$ANNUAL_REPORT" == "true" ]]; then npm run notify:annual; fi
       - name: Create or update weekly GitHub report
         if: ${{ env.FULL_UPDATE == 'true' }}
         uses: actions/github-script@v7
@@ -104,6 +134,39 @@ jobs:
                 title,
                 body
               });
+            }
+      - name: Create calendar GitHub reports
+        if: ${{ env.MONTHLY_REPORT == 'true' || env.QUARTERLY_REPORT == 'true' || env.ANNUAL_REPORT == 'true' }}
+        uses: actions/github-script@v7
+        env:
+          REPORT_MONTHLY: ${{ env.MONTHLY_REPORT }}
+          REPORT_QUARTERLY: ${{ env.QUARTERLY_REPORT }}
+          REPORT_ANNUAL: ${{ env.ANNUAL_REPORT }}
+        with:
+          script: |
+            const fs = require('fs');
+            const date = new Date().toISOString().slice(0, 10);
+            const reports = [
+              ['monthly', '月报', process.env.REPORT_MONTHLY],
+              ['quarterly', '季度报告', process.env.REPORT_QUARTERLY],
+              ['annual', '年度报告', process.env.REPORT_ANNUAL]
+            ];
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'all',
+              per_page: 100
+            });
+            for (const [kind, label, enabled] of reports) {
+              if (enabled !== 'true') continue;
+              const body = fs.readFileSync(`data/generated/${kind}-report.md`, 'utf8');
+              const title = `职业雷达${label} · ${date}`;
+              const existing = issues.find((issue) => !issue.pull_request && issue.title === title);
+              if (existing) {
+                await github.rest.issues.update({ owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number, body, state: 'open' });
+              } else {
+                await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body });
+              }
             }
       - name: Commit generated data
         if: ${{ github.event_name != 'push' }}
