@@ -38,6 +38,17 @@ test("Feishu webhook receives a text message", async () => {
   });
 });
 
+test("Feishu webhook rejects an HTTP 200 application error", async () => {
+  await assert.rejects(
+    sendFeishuNotification({
+      text: "周报",
+      env: { FEISHU_WEBHOOK_URL: "https://example.invalid/hook" },
+      fetchImpl: async () => jsonResponse({ code: 19024 }),
+    }),
+    /Feishu webhook failed/,
+  );
+});
+
 test("Feishu app bot obtains a tenant token and sends to the owner open_id", async () => {
   const requests = [];
   const mode = await sendFeishuNotification({

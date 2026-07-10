@@ -44,7 +44,9 @@ async function sendWebhook(fetchImpl, webhook, text) {
     headers: { "content-type": "application/json" },
     body: JSON.stringify({ msg_type: "text", content: { text } }),
   });
-  if (!response.ok) {
+  const payload = await readJson(response);
+  const code = payload?.code ?? payload?.StatusCode;
+  if (!response.ok || code !== 0) {
     throw new Error(`Feishu webhook failed with HTTP ${response.status}`);
   }
 }
