@@ -27,8 +27,13 @@
 ## 公开部署状态
 
 - Vercel 生产主站：`https://public-omega-seven-25.vercel.app/`。
+- GitHub Pages：`https://djcdjcdjc2000.github.io/postdoc-faculty-radar/`。
 - GitHub 公开仓库：`https://github.com/DJCdjcDJC2000/postdoc-faculty-radar`。
-- GitHub Actions、Pages、飞书 Webhook 与 DeepSeek Secret 的最终联调状态以仓库 Actions 运行记录为准。
+- 2026-07-10 完整联调运行 `29071321565` 成功：测试、完整更新、DeepSeek 分析、飞书周报、GitHub 周报、生成数据提交和 Pages 部署全部通过。
+- DeepSeek 专用 Secret 已配置；本轮 8 条当前岗位均返回 `deepseek` 状态，旧的无密钥 fallback 会在后续周更中自动重试。
+- 飞书机器人周报已成功发送，并在客户端确认收到 13:26 的最新消息。
+- GitHub Pages 与 Vercel 的首页、`data/site.json`、`data/jobs.json` 均返回 200，且响应内容逐字节一致。
+- 已跟踪文件密钥扫描通过；`.env.local`、`vercel-proxy/.env.local` 和 `private/` 均被 Git 忽略。
 
 ## 验证命令
 
