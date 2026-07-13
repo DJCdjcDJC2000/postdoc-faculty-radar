@@ -1,7 +1,7 @@
-# 职业雷达周报 · 2026-07-10
+# 职业雷达周报 · 2026-07-13
 
 - 本周新增：7
-- 本周更新：19
+- 本周更新：17
 - 本周失效：1
 - A/B 高匹配：3
 - 30 天内截止：0
@@ -36,8 +36,6 @@
 - **本周更新** [SCOT 应用科学家 / 数据科学家](https://www.amazon.science/scot) · Amazon SCOT · Europe
 - **本周更新** [量化研究员](https://www.janestreet.com/join-jane-street/position/8071941002/) · Jane Street · Hong Kong
 - **本周更新** [量化研究岗位入口](https://www.twosigma.com/careers/) · Two Sigma · United States
-- **本周更新** [量化研究员博士实习生（亚洲）](https://www.citadel.com/careers/details/quantitative-researcher-phd-intern-asia/) · Citadel · Hong Kong
-- **本周更新** [AI Infra 实验室技术负责人](https://career.huawei.com/reccampportal/euportal/portal/social-recruitment-detail.html?dataSource=1&jobId=23981) · 华为 · Europe
 
 ## 学术人物建设
 

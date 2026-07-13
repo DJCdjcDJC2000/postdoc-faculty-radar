@@ -1,0 +1,118 @@
+{
+  "sustech-shangzhi-zeng": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-13T04:38:49.952Z",
+    "profileFingerprint": "462e9ff1758806ff61a88b743914bb1d62b1424ea136e6cb4716d361a43ffb2b",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "主要从事双层优化、非光滑优化、变分分析及一阶优化方法的研究，并将这些方法应用于机器学习与数据科学。",
+    "methods": [
+      "nonsmooth and variational analysis",
+      "first-order methods",
+      "bilevel optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science"
+    ],
+    "careerPatternZh": "2011-2015 武汉大学数学与统计学院本科；2015-2017 香港浸会大学数学系硕士；2018-2021 香港大学数学系博士；现任南方科技大学数学系副教授（2021年博士毕业）。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "cityu-jiaman-wu": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-13T04:38:49.952Z",
+    "profileFingerprint": "9b0eba85e327722ef69489c01613b6b6cc0c1cf4a6a8c372665e011cb2f1c75e",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "研究主线为数据驱动的优化方法在能源与交通系统中的应用，涵盖电动汽车充电行为建模、充电站规划、电网与交通网络协同优化等。",
+    "methods": [
+      "game-theoretic methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "energy and power systems",
+      "logistics, transportation, and operations",
+      "networked and distributed systems",
+      "markets and strategic decision-making"
+    ],
+    "careerPatternZh": "公开信息显示，Jiaman Wu 于 2025 年获得博士学位，同年起任香港城市大学数据科学系助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "fr-ens-lyon-elisa-riccietti": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-13T04:38:49.952Z",
+    "profileFingerprint": "cc42c7de99f04e99afc4cabd9c540396de12a4b3affca6b73f231b361f9917d0",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "ENS Lyon/Inria OCKHAM永久成员并主持ANR MEPHISTO；研究从Levenberg-Marquardt扩展到多层级、稀疏和物理信息训练，2026年将进行HDR答辩。",
+    "methods": [
+      "scientific machine learning",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "signal processing, imaging, and inverse problems"
+    ],
+    "careerPatternZh": "2010-2012年于Università degli Studi di Firenze获数学学士学位；2012-2014年获数学硕士学位；2014-2018年于同校攻读博士；2020年起任École normale supérieure de Lyon副教授（Associate professor），隶属于Département d'Informatique，同时为Inria OCKHAM团队成员。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "be-uclouvain-benoit-legat": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-13T04:38:49.952Z",
+    "profileFingerprint": "80e20f8f2b4c287d28bda6e1c7599cdfc201ee36dae95c737e5d235ab5643492",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "JuMP/MathOptInterface核心开发者，MIT Parrilo博后，非凸问题隐藏凸性方向独立PI。",
+    "methods": [
+      "optimal-control methods",
+      "global and polynomial optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "control and dynamical systems"
+    ],
+    "careerPatternZh": "现任UCLouvain Faculty/Assistant Professor；此前在MIT从事博士后研究（导师Parrilo）。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "fr-inria-adrien-taylor": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-13T04:38:49.952Z",
+    "profileFingerprint": "56d1fa67271a827c707e9d988237eefa8521b4b00494a1ad3a5bbdcb03be66b8",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Tucker Prize finalist、ERC Starting Grant 2024、PEPit核心作者，青年优化学者上限样本。",
+    "methods": [
+      "first-order methods",
+      "distributed and federated optimization",
+      "numerical analysis and scientific computing",
+      "mathematical optimization"
+    ],
+    "applications": [],
+    "careerPatternZh": "当前职位为Inria Paris / ENS的Tenured Research Scientist / ERC PI。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "john-duchi-stanford": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-13T04:38:49.952Z",
+    "profileFingerprint": "0d4acef313632762183cccade65d0649270335e0f1e296da647fda2a52d13b2d",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Stanford 统计与 EE 副教授，研究统计学习、优化、信息论和大规模计算。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "distributed and federated optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science"
+    ],
+    "careerPatternZh": "现任 Stanford University 统计与电气工程副教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  }
+}

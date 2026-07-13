@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-10T14:21:37.577Z",
+  "generatedAt": "2026-07-13T04:37:00.067Z",
   "sourceKind": "researched_candidates",
   "counts": {
     "labs": 28,
     "people": 72,
     "review": 1,
-    "supplementsApplied": 34,
-    "supplementsDeferred": 9
+    "supplementsApplied": 36,
+    "supplementsDeferred": 12
   },
   "labs": [
     {
@@ -6647,8 +6647,46 @@
         "shape optimization"
       ],
       "researchSummaryZh": "从WIAS非光滑变分问题组副组长成长为Klagenfurt随机优化教授；在SIAM Journal on Optimization、Mathematics of Operations Research等发表随机PDE约束与随机近端方法成果。",
-      "researchEvolution": [],
-      "representativeWorks": [],
+      "researchEvolution": [
+        "博士后早期聚焦 Banach 空间中的随机优化与几乎处处状态约束，随后发展随机 PDE/变分不等式的风险规避最优控制；近年进一步推进概率状态约束、随机形状优化和 Riemannian 形状流形上的增广拉格朗日方法。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Optimality conditions for convex stochastic optimization problems in Banach spaces with almost sure state constraint",
+          "year": 2021,
+          "venue": "SIAM Journal on Optimization",
+          "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline",
+          "selectionReason": "建立随机 Banach 空间与几乎处处状态约束主线的代表作"
+        },
+        {
+          "title": "Optimality conditions in control problems with random state constraints in probabilistic or almost-sure form",
+          "year": 2025,
+          "venue": "Mathematics of Operations Research",
+          "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline",
+          "selectionReason": "代表概率与几乎处处随机状态约束的最新理论"
+        },
+        {
+          "title": "Numerical solution of an optimal control problem with probabilistic and almost sure state constraints",
+          "year": 2025,
+          "venue": "Journal of Optimization Theory and Applications",
+          "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline",
+          "selectionReason": "代表随机状态约束的数值算法与验证"
+        },
+        {
+          "title": "Risk-averse optimal control of random elliptic VIs",
+          "year": 2025,
+          "venue": "ESAIM: Control, Optimisation and Calculus of Variations",
+          "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline",
+          "selectionReason": "与风险规避随机变分不等式直接相关"
+        },
+        {
+          "title": "Stochastic augmented Lagrangian method in Riemannian shape manifolds",
+          "year": 2024,
+          "venue": "Journal of Optimization Theory and Applications",
+          "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline",
+          "selectionReason": "代表随机形状优化与增广拉格朗日方向"
+        }
+      ],
       "currentStatusZh": "从WIAS非光滑变分问题组副组长成长为Klagenfurt随机优化教授；在SIAM Journal on Optimization、Mathematics of Operations Research等发表随机PDE约束与随机近端方法成果。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -6721,11 +6759,73 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_institution_profile",
+          "url": "https://www.aau.at/en/team/geiersbach-caroline/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "research"
+          ]
+        },
+        {
+          "type": "official_publication_list",
+          "url": "https://www.wias-berlin.de/publications/wias-publ/wiasp.jsp?name=Geiersbach%2C+Caroline",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
+        },
+        {
+          "type": "official_appointment_news",
+          "url": "https://www.aau.at/blog/neue-professuren-im-september-2025-an-der-universitaet-klagenfurt/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "career_timeline",
+            "current_position"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 8,
+        "recentWorksCount": 8,
+        "provider": "WIASOfficialPublicationList",
+        "countLabelZh": "WIAS 官方作者书目列出的成果",
+        "countCaveatZh": "WIAS 官方作者页列出 8 项 2021-2026 年成果，其中已正式发表和预印本均保留状态；数量是该机构收录下界，不等同于完整生涯总数。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": [],
+      "timeline": [
+        {
+          "type": "phd",
+          "degree": "Ph.D.",
+          "endYear": 2020
+        },
+        {
+          "type": "position",
+          "role": "Assistant Professor of Optimization under Uncertainty",
+          "institution": "University of Hamburg",
+          "startYear": 2024,
+          "endYear": 2025
+        },
+        {
+          "type": "current_position",
+          "role": "Professor of Stochastic Optimization",
+          "institution": "University of Klagenfurt",
+          "department": "Department of Mathematics",
+          "startYear": 2025
+        }
+      ]
     },
     {
       "id": "it-pisa-cecilia-pagliantini",
@@ -6745,8 +6845,46 @@
         "scientific computing"
       ],
       "researchSummaryZh": "ETH博士后在EPFL Hesthaven组和TU/e形成结构保持模型降阶主线，现任Pisa数值分析研究员；成果覆盖Numerische Mathematik、Vlasov-Maxwell与Hamiltonian系统。",
-      "researchEvolution": [],
-      "representativeWorks": [],
+      "researchEvolution": [
+        "ETH 博士阶段以离散微分形式研究计算磁流体；EPFL 与 TU/e 阶段形成 Hamiltonian 系统的结构保持模型降阶；进入 Pisa 后进一步发展自适应低秩/超降阶、Hermite 谱方法、Vlasov 等离子体计算和数据同化。"
+      ],
+      "representativeWorks": [
+        {
+          "title": "Dynamical reduced basis methods for Hamiltonian systems",
+          "year": 2021,
+          "venue": "Numerische Mathematik",
+          "url": "https://arpi.unipi.it/bitstream/11568/1169930/2/s00211-021-01211-w-15.pdf",
+          "selectionReason": "结构保持动态低秩模型降阶的基础代表作"
+        },
+        {
+          "title": "Reduced basis methods for time-dependent problems",
+          "year": 2022,
+          "venue": "Acta Numerica",
+          "url": "https://arpi.unipi.it/retrieve/8393bb4d-7ad0-4418-be6b-3986a3724cb3/reduced_basis_methods_for_timedependent_problems.pdf",
+          "selectionReason": "时间依赖问题模型降阶的系统综述"
+        },
+        {
+          "title": "Adaptive symplectic model order reduction of parametric particle-based Vlasov-Poisson equation",
+          "year": 2024,
+          "venue": "Mathematics of Computation",
+          "url": "https://arpi.unipi.it/retrieve/ceb007e8-1c0c-4e2c-9810-6ac41e42c6f4/Adaptive_symplectic_MOR_of_parametric_Vlasov_Poisson.pdf",
+          "selectionReason": "连接辛结构、粒子模型与自适应模型降阶"
+        },
+        {
+          "title": "Gradient-Preserving Hyper-Reduction of Nonlinear Dynamical Systems via Discrete Empirical Interpolation",
+          "year": 2023,
+          "venue": "SIAM Journal on Scientific Computing",
+          "url": "https://epubs.siam.org/doi/10.1137/22M1503890",
+          "selectionReason": "代表梯度结构保持与 DEIM 超降阶"
+        },
+        {
+          "title": "Physics-based adaptivity of a spectral method for the Vlasov-Poisson equations based on the asymmetrically-weighted Hermite expansion in velocity space",
+          "year": 2023,
+          "venue": "Journal of Computational Physics",
+          "url": "https://arpi.unipi.it/handle/11568/1179707",
+          "selectionReason": "与用户谱方法能力最直接相连的 Vlasov-Poisson 自适应谱算法"
+        }
+      ],
       "currentStatusZh": "ETH博士后在EPFL Hesthaven组和TU/e形成结构保持模型降阶主线，现任Pisa数值分析研究员；成果覆盖Numerische Mathematik、Vlasov-Maxwell与Hamiltonian系统。",
       "grantsAwards": [],
       "recruitmentSignals": [
@@ -6819,11 +6957,89 @@
           "supportsClaims": [
             "recruitment_signal"
           ]
+        },
+        {
+          "type": "official_institution_profile_and_publication_list",
+          "url": "https://www.unipi.it/ateneo/organizzazione/persone/cecilia-pagliantini-183262/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "identity",
+            "position",
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
+        },
+        {
+          "type": "official_group_profile",
+          "url": "https://numpi.dm.unipi.it/people/cecilia-pagliantini/",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "group",
+            "research"
+          ]
+        },
+        {
+          "type": "official_phd_record",
+          "url": "https://math.ethz.ch/news-and-events/news/d-math-news/2016/09/doctoral-exam-of-cecilia-pagliantini.html",
+          "confidence": "A",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "education",
+            "phd_year",
+            "advisor"
+          ]
+        },
+        {
+          "type": "bibliographic_publication_list",
+          "url": "https://dblp.org/pid/271/0336.html",
+          "confidence": "B",
+          "checkedAt": "2026-07-10",
+          "supportsClaims": [
+            "publication_identity",
+            "representative_works"
+          ]
         }
       ],
       "uncertainties": [],
-      "lastVerifiedAt": null,
-      "sourceKind": "researched_candidate"
+      "lastVerifiedAt": "2026-07-10",
+      "sourceKind": "researched_candidate",
+      "publicationMetrics": {
+        "worksCount": 15,
+        "recentWorksCount": 15,
+        "provider": "UniversityOfPisaOfficialProfile",
+        "countLabelZh": "Pisa 官方人物页当前列出的 2022-2026 成果",
+        "countCaveatZh": "官方页面当前可见 15 项 2022-2026 论文与会议成果；完整 ARPI 书目更多，因此这里是近年成果下界，不冒充生涯总数。",
+        "updatedAt": "2026-07-10"
+      },
+      "venueBreakdown": [],
+      "timeline": [
+        {
+          "type": "phd",
+          "degree": "Ph.D. in Mathematics",
+          "institution": "ETH Zurich",
+          "advisor": "Ralf Hiptmair",
+          "endYear": 2016
+        },
+        {
+          "type": "postdoc",
+          "role": "Postdoctoral Researcher",
+          "institution": "EPFL"
+        },
+        {
+          "type": "position",
+          "role": "Researcher",
+          "institution": "Eindhoven University of Technology"
+        },
+        {
+          "type": "current_position",
+          "role": "Fixed-term Researcher in Numerical Analysis",
+          "institution": "University of Pisa",
+          "department": "Department of Mathematics"
+        }
+      ]
     },
     {
       "id": "it-pisa-stefano-massei",

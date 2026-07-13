@@ -1470,11 +1470,7 @@
         "careerUrl": "https://www.citadel.com/careers/open-positions/"
       },
       "lifecycleStatus": "active",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "baidu-ai-compiler-graduate",
@@ -1925,11 +1921,7 @@
         "careerUrl": "https://career.huawei.com/"
       },
       "lifecycleStatus": "active",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "two-sigma-quant-careers",
