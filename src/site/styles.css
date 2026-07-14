@@ -443,10 +443,13 @@ a {
 }
 
 .row-title {
+  min-width: 0;
   max-width: 440px;
   padding: 0;
   color: var(--ink);
   text-align: left;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .opportunity-grid {

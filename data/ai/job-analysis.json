@@ -2271,5 +2271,22 @@
     "riskZh": "竞争激烈，需提前准备完整申请材料；薪资为英镑，需考虑英国生活成本。",
     "nextStepZh": "访问原始链接获取完整职位描述和申请要求；准备简历、研究陈述和推荐信。",
     "depth": 1
+  },
+  "79605fde47e58ad1": {
+    "status": "skipped_no_key",
+    "generatedAt": "2026-07-14T09:37:22.224Z",
+    "jobFingerprint": "C|43|United Kingdom · 教职 · applied mathematics|core|applied mathematics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "United Kingdom地区的教职机会，规则评分为 C 43。",
+    "tagsZh": [
+      "applied mathematics"
+    ],
+    "positiveZh": [
+      "United Kingdom · 教职 · applied mathematics"
+    ],
+    "negativeZh": [],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "light"
   }
 }

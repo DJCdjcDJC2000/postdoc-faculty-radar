@@ -72,7 +72,8 @@ check(
 );
 check("weekly Feishu and GitHub reports are configured", radarWorkflow.includes("notify:weekly") && radarWorkflow.includes("actions/github-script"));
 check("independent Vercel production deployment is documented", deploymentDoc.includes("postdoc-faculty-radar-public.vercel.app") && deploymentDoc.includes("postdoc-faculty-radar-public"));
-check("EdgeOne deployment instructions exist", deploymentDoc.includes("EdgeOne Pages") && deploymentDoc.includes("public"));
+check("CloudBase mainland mirror is documented and repeatable", deploymentDoc.includes("tcloudbaseapp.com") && packageJson.scripts?.["deploy:cloudbase"]?.includes("hosting deploy public"));
+check("EdgeOne deployment boundary is documented", deploymentDoc.includes("EdgeOne Makers") && deploymentDoc.includes("临时预览"));
 check("core resources avoid external CDN/runtime dependencies", !externalRuntimePattern().test([html, app, styles].join("\n")));
 
 const failed = checks.filter((item) => !item.ok);

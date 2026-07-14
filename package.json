@@ -30,6 +30,7 @@
     "notify:immediate": "node scripts/notify-feishu.mjs --kind immediate --mode private",
     "dev": "node scripts/dev-server.mjs --dir public",
     "dev:private": "node scripts/dev-server.mjs --dir private",
+    "deploy:cloudbase": "npx --yes --package @cloudbase/cli@3.6.1 tcb hosting deploy public -e postdoc-d0gag7854778e6b41 --concurrency 4 --retry-count 5 --retry-interval 1000",
     "import:academic:candidates": "node scripts/import-academic-candidates.mjs",
     "import:industry:candidates": "node scripts/import-industry-candidates.mjs",
     "enrich:academic:openalex": "node scripts/enrich-academic-openalex.mjs --dry-run",

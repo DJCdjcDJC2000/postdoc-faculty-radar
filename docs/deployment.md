@@ -2,14 +2,21 @@
 
 本项目采用静态站多链接策略：
 
-- Vercel：当前生产主站。
+- CloudBase：国内固定镜像。
+- Vercel：海外生产主站。
 - GitHub Pages：与公开源码绑定的备用链接。
-- EdgeOne Makers：正在接入的中国大陆访问镜像。
+- EdgeOne Makers：临时预览备用；未绑定备案自定义域名时不作为永久入口。
 
 当前生产地址：
 
 ```text
 https://postdoc-faculty-radar-public.vercel.app/
+```
+
+国内固定镜像：
+
+```text
+https://postdoc-d0gag7854778e6b41-1315477303.tcloudbaseapp.com/
 ```
 
 ## 构建输出
@@ -59,7 +66,19 @@ https://djcdjcdjc2000.github.io/postdoc-faculty-radar/
 npx vercel deploy --prod --yes -Q C:\Users\16523\.vercel-career-radar
 ```
 
-## EdgeOne Makers（大陆镜像）
+## CloudBase（国内固定镜像）
+
+CloudBase 环境 `postdoc` 使用免费体验版，当前没有启用按量付费或自动续费。首次部署已经验证主页、脚本、样式和核心 JSON 均返回 200。
+
+本机完成公开构建、隐私扫描和验收后，使用已授权的 CloudBase CLI 同步 `public/`：
+
+```bash
+npm run deploy:cloudbase
+```
+
+该命令只上传公开构建，不上传 `private/`、`.env*`、API 密钥或本地配置。免费体验环境到期前需要在控制台确认续期政策；不得自动切换到付费套餐。
+
+## EdgeOne Makers（临时预览备用）
 
 1. 在 EdgeOne Pages 中导入同一个 GitHub 仓库。
 2. 构建命令使用：
@@ -77,6 +96,7 @@ public
 
 4. 生产分支设为 `main`，由 Makers 监听推送并自动部署。
 5. EdgeOne 只负责部署已经脱敏的公开构建，不配置 DeepSeek 或飞书密钥；周更仍由 GitHub Actions 完成。
+6. 系统预览链接有时效；在中国大陆使用永久自定义域名通常需要备案，因此当前不把 EdgeOne 预览链接写入公开入口。
 
 ## 隐私边界
 

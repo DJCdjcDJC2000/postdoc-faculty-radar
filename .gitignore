@@ -13,3 +13,8 @@ data/private/**
 !data/private/
 !data/private/*.example.json
 .env.local
+
+# Tencent Cloud EdgeOne
+.edgeone/*
+.tef_dist/*
+.playwright-cli/

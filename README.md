@@ -2,7 +2,8 @@
 
 一个默认中文、静态优先、可多链接部署的博后/教职/研究岗职业情报门户。项目面向应用数学、优化、数值分析和科学计算方向，先服务个人职业规划，未来可公开给同方向 PhD/Postdoc 作为只读情报站使用。
 
-- 生产站：<https://postdoc-faculty-radar-public.vercel.app/>
+- 海外主站：<https://postdoc-faculty-radar-public.vercel.app/>
+- 国内镜像：<https://postdoc-d0gag7854778e6b41-1315477303.tcloudbaseapp.com/>
 - GitHub：<https://github.com/DJCdjcDJC2000/postdoc-faculty-radar>
 
 ## 产品形态
@@ -48,6 +49,7 @@ npm run update:light   # 每日轻量检查，不调用 DeepSeek
 npm run update:weekly  # 周更、增量分析、变化报告
 npm run check          # 测试 + 离线更新 + public/private 构建
 npm run verify:acceptance # PRD 验收检查
+npm run deploy:cloudbase # 将已验证的 public/ 同步到国内镜像
 ```
 
 ## 个人画像
@@ -111,6 +113,7 @@ npm run notify:immediate
 
 推荐公开链接：
 
-- Vercel：当前生产主站。
+- CloudBase：国内固定镜像。
+- Vercel：海外生产主站。
 - GitHub Pages：公开源码对应的备用链接。
-- EdgeOne Makers：正在接入的大陆访问镜像。
+- EdgeOne Makers：已验证可部署，但未绑定备案自定义域名，因此只作为临时预览备用。

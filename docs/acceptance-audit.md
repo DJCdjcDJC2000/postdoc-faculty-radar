@@ -1,6 +1,6 @@
 # PRD 验收审计
 
-日期：2026-07-10
+日期：2026-07-14
 
 本审计对应 `postdoc-faculty-radar-product-spec.md` 的 MVP 和验收标准。可执行检查在 `scripts/verify-acceptance.mjs`，并已接入 `npm run check`。
 
@@ -22,17 +22,20 @@
 - public/private 边界：公开构建无 private 字段；真实 private 文件、私有画像、私有 AI 输出均被 `.gitignore` 忽略。
 - 静态部署约束：核心 HTML/JS/CSS 不依赖外部 CDN、Google Fonts、GitHub raw 动态资源。
 - GitHub Pages 配置：`.github/workflows/radar.yml` 包含更新、通知、提交生成数据和 Pages 部署步骤。
-- EdgeOne 兼容：`docs/deployment.md` 写明 EdgeOne Pages 构建命令和输出目录。
+- CloudBase 国内镜像：固定域名已部署，主页、脚本、样式和核心 JSON 均返回 200。
+- EdgeOne 兼容：部署已验证；因系统预览链接有时效，未备案自定义域名时仅作为临时备用。
 
 ## 公开部署状态
 
 - Vercel 独立生产主站：`https://postdoc-faculty-radar-public.vercel.app/`。
+- CloudBase 国内固定镜像：`https://postdoc-d0gag7854778e6b41-1315477303.tcloudbaseapp.com/`。
 - GitHub Pages：`https://djcdjcdjc2000.github.io/postdoc-faculty-radar/`。
 - GitHub 公开仓库：`https://github.com/DJCdjcDJC2000/postdoc-faculty-radar`。
 - 2026-07-10 完整联调运行 `29071321565` 成功：测试、完整更新、DeepSeek 分析、飞书周报、GitHub 周报、生成数据提交和 Pages 部署全部通过。
 - DeepSeek 专用 Secret 已配置；本轮 8 条当前岗位均返回 `deepseek` 状态，旧的无密钥 fallback 会在后续周更中自动重试。
 - 飞书机器人周报已成功发送，并在客户端确认收到 13:26 的最新消息。
 - GitHub Pages 与 Vercel 的首页、`data/site.json`、`data/jobs.json` 均返回 200，且响应内容逐字节一致。
+- CloudBase 真实域名在 1440×1000 和 390×844 视口下通过页面加载、导航、产业详情抽屉、横向溢出与控制台复验；核心静态资源均返回 200。
 - 已跟踪文件密钥扫描通过；`.env.local`、`vercel-proxy/.env.local` 和 `private/` 均被 Git 忽略。
 
 ## 验证命令

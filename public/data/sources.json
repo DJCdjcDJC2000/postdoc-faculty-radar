@@ -6,11 +6,11 @@
     "url": "https://euraxess.ec.europa.eu/jobs/search",
     "trust": "academic_board",
     "sourceType": "academic_board",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 295
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "academic-positions",
@@ -19,11 +19,11 @@
     "url": "https://academicpositions.com/find-jobs",
     "trust": "academic_board",
     "sourceType": "academic_board",
-    "status": "error",
-    "message": "HTTP 403",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 57
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "academic-transfer",
@@ -32,11 +32,11 @@
     "url": "https://www.academictransfer.com/en/jobs/",
     "trust": "academic_board",
     "sourceType": "academic_board",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 1242
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "mathjobs",
@@ -45,11 +45,11 @@
     "url": "https://www.mathjobs.org/jobs",
     "trust": "academic_board",
     "sourceType": "academic_board",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 749
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "academic-jobs-online",
@@ -58,11 +58,11 @@
     "url": "https://academicjobsonline.org/ajo/jobs",
     "trust": "academic_board",
     "sourceType": "academic_board",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 627
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "jobs-ac-uk",
@@ -71,11 +71,11 @@
     "url": "https://www.jobs.ac.uk/search/mathematics-and-statistics",
     "trust": "academic_board",
     "sourceType": "academic_board",
-    "status": "ok",
-    "message": "16 candidates",
-    "count": 16,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 1461
+    "status": "skipped",
+    "message": "Offline run",
+    "count": 0,
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "polyu",
@@ -84,11 +84,11 @@
     "url": "https://jobs.polyu.edu.hk/research.php",
     "trust": "official",
     "sourceType": "university",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 2067
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "hku",
@@ -97,11 +97,11 @@
     "url": "https://jobs.hku.hk/",
     "trust": "official",
     "sourceType": "university",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 1270
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "hkust-math",
@@ -110,11 +110,11 @@
     "url": "https://www.math.hkust.edu.hk/employment/",
     "trust": "official",
     "sourceType": "university",
-    "status": "ok",
-    "message": "3 candidates",
-    "count": 3,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 722
+    "status": "skipped",
+    "message": "Offline run",
+    "count": 0,
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "cuhk-math",
@@ -123,11 +123,11 @@
     "url": "https://www.math.cuhk.edu.hk/about-us/career-opportunities",
     "trust": "official",
     "sourceType": "university",
-    "status": "error",
-    "message": "fetch failed",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 768
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "nus",
@@ -136,11 +136,11 @@
     "url": "https://careers.nus.edu.sg/NUS/go/Academic-and-Research-Positions/545744/",
     "trust": "official",
     "sourceType": "university",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 1202
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "ntu",
@@ -149,11 +149,11 @@
     "url": "https://ntu.wd3.myworkdayjobs.com/Careers",
     "trust": "official",
     "sourceType": "university",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 796
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "astar",
@@ -162,11 +162,11 @@
     "url": "https://careers.a-star.edu.sg/",
     "trust": "official",
     "sourceType": "research_institute",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 1313
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "chinapostdoctor",
@@ -175,11 +175,11 @@
     "url": "https://www.chinapostdoctor.org.cn/home",
     "trust": "official",
     "sourceType": "official",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 1034
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "gaoxiaojob",
@@ -188,11 +188,11 @@
     "url": "https://www.gaoxiaojob.com/",
     "trust": "aggregator",
     "sourceType": "aggregator",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 1630
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "microsoft-research",
@@ -201,11 +201,11 @@
     "url": "https://www.microsoft.com/en-us/research/careers/open-positions/",
     "trust": "company",
     "sourceType": "company",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 1559
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "google-research",
@@ -214,11 +214,11 @@
     "url": "https://research.google/careers/",
     "trust": "company",
     "sourceType": "company",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 225
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "deepmind",
@@ -227,11 +227,11 @@
     "url": "https://deepmind.google/careers/",
     "trust": "company",
     "sourceType": "company",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 589
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "huawei-noah",
@@ -240,11 +240,11 @@
     "url": "https://dev3.noahlab.com.hk/Recruitment-JD.html",
     "trust": "company",
     "sourceType": "company",
-    "status": "error",
-    "message": "fetch failed",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 697
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   },
   {
     "id": "bytedance-seed",
@@ -253,10 +253,10 @@
     "url": "https://seed.bytedance.com/en/career",
     "trust": "company",
     "sourceType": "company",
-    "status": "no_candidates",
-    "message": "0 candidates",
+    "status": "skipped",
+    "message": "Offline run",
     "count": 0,
-    "checkedAt": "2026-07-14T04:16:16.757Z",
-    "latencyMs": 874
+    "checkedAt": "2026-07-14T09:37:21.605Z",
+    "latencyMs": 0
   }
 ]
