@@ -26,7 +26,7 @@
 
 ## 公开部署状态
 
-- Vercel 生产主站：`https://public-omega-seven-25.vercel.app/`。
+- Vercel 独立生产主站：`https://postdoc-faculty-radar-public.vercel.app/`。
 - GitHub Pages：`https://djcdjcdjc2000.github.io/postdoc-faculty-radar/`。
 - GitHub 公开仓库：`https://github.com/DJCdjcDJC2000/postdoc-faculty-radar`。
 - 2026-07-10 完整联调运行 `29071321565` 成功：测试、完整更新、DeepSeek 分析、飞书周报、GitHub 周报、生成数据提交和 Pages 部署全部通过。

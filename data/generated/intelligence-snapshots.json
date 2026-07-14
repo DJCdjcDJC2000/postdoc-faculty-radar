@@ -18,6 +18,24 @@
       "activeIndustryOpportunities": 14,
       "healthySources": 3,
       "totalSources": 20
+    },
+    {
+      "date": "2026-07-14",
+      "jobs": 9,
+      "highMatchJobs": 3,
+      "dueSoonJobs": 0,
+      "academicProfiles": 132,
+      "readyProfiles": 132,
+      "mentors": 52,
+      "youngScholars": 80,
+      "officialOpenings": 16,
+      "acceptingApplications": 7,
+      "fellowshipHosts": 4,
+      "companies": 32,
+      "industryPeople": 50,
+      "activeIndustryOpportunities": 14,
+      "healthySources": 2,
+      "totalSources": 20
     }
   ]
 }

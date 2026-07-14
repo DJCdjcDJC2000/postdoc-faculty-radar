@@ -1,8 +1,8 @@
-# 职业雷达季度报告 · 2026-07-10
+# 职业雷达季度报告 · 2026-07-14
 
 ## 核心变化
 
-- 当前机会：8
+- 当前机会：9
 - A/B 高匹配机会：3
 - 学术人物档案：132
 - 完整公开档案：132
@@ -22,21 +22,21 @@
 
 ## 有公开招聘证据的人物
 
-- [何鸟 / Niao He](https://public-omega-seven-25.vercel.app/#people/person-niao-he) · ETH Zurich
-- [杜锦泉 / Kim-Chuan Toh](https://public-omega-seven-25.vercel.app/#people/nus-math-kim-chuan-toh) · National University of Singapore
-- [Volkan Cevher](https://public-omega-seven-25.vercel.app/#people/epfl-lions-volkan-cevher) · EPFL
-- [Panagiotis Patrinos](https://public-omega-seven-25.vercel.app/#people/be-ku-leuven-patrinos-lab) · KU Leuven
-- [Martin Jaggi](https://public-omega-seven-25.vercel.app/#people/ch-epfl-mlo-jaggi) · EPFL
-- [Defeng Sun](https://public-omega-seven-25.vercel.app/#people/polyu-defeng-sun) · Hong Kong Polytechnic University
-- [Zaiwen Wen](https://public-omega-seven-25.vercel.app/#people/pku-zaiwen-wen) · Peking University
-- [刘洋 / Liu Yang](https://public-omega-seven-25.vercel.app/#people/liu-yang-nus) · National University of Singapore
-- [Jan Kronqvist](https://public-omega-seven-25.vercel.app/#people/se-kth-jan-kronqvist) · KTH Royal Institute of Technology
-- [Anastasiia Koloskova](https://public-omega-seven-25.vercel.app/#people/ch-uzh-anastasiia-koloskova) · University of Zurich
-- [Tatjana Chavdarova](https://public-omega-seven-25.vercel.app/#people/at-tuwien-tatjana-chavdarova) · TU Wien
-- [Théo Mary](https://public-omega-seven-25.vercel.app/#people/fr-sorbonne-theo-mary) · CNRS / Sorbonne Université, LIP6
-- [Massimiliano Fasi](https://public-omega-seven-25.vercel.app/#people/uk-leeds-massimiliano-fasi) · University of Leeds
-- [Elisa Riccietti](https://public-omega-seven-25.vercel.app/#people/fr-ens-lyon-elisa-riccietti) · École Normale Supérieure de Lyon / Inria OCKHAM
-- [Raphaël Berthier](https://public-omega-seven-25.vercel.app/#people/fr-inria-sorbonne-raphael-berthier) · Inria Sorbonne Université
+- [何鸟 / Niao He](https://postdoc-faculty-radar-public.vercel.app/#people/person-niao-he) · ETH Zurich
+- [杜锦泉 / Kim-Chuan Toh](https://postdoc-faculty-radar-public.vercel.app/#people/nus-math-kim-chuan-toh) · National University of Singapore
+- [Volkan Cevher](https://postdoc-faculty-radar-public.vercel.app/#people/epfl-lions-volkan-cevher) · EPFL
+- [Panagiotis Patrinos](https://postdoc-faculty-radar-public.vercel.app/#people/be-ku-leuven-patrinos-lab) · KU Leuven
+- [Martin Jaggi](https://postdoc-faculty-radar-public.vercel.app/#people/ch-epfl-mlo-jaggi) · EPFL
+- [Defeng Sun](https://postdoc-faculty-radar-public.vercel.app/#people/polyu-defeng-sun) · Hong Kong Polytechnic University
+- [Zaiwen Wen](https://postdoc-faculty-radar-public.vercel.app/#people/pku-zaiwen-wen) · Peking University
+- [刘洋 / Liu Yang](https://postdoc-faculty-radar-public.vercel.app/#people/liu-yang-nus) · National University of Singapore
+- [Jan Kronqvist](https://postdoc-faculty-radar-public.vercel.app/#people/se-kth-jan-kronqvist) · KTH Royal Institute of Technology
+- [Anastasiia Koloskova](https://postdoc-faculty-radar-public.vercel.app/#people/ch-uzh-anastasiia-koloskova) · University of Zurich
+- [Tatjana Chavdarova](https://postdoc-faculty-radar-public.vercel.app/#people/at-tuwien-tatjana-chavdarova) · TU Wien
+- [Théo Mary](https://postdoc-faculty-radar-public.vercel.app/#people/fr-sorbonne-theo-mary) · CNRS / Sorbonne Université, LIP6
+- [Massimiliano Fasi](https://postdoc-faculty-radar-public.vercel.app/#people/uk-leeds-massimiliano-fasi) · University of Leeds
+- [Elisa Riccietti](https://postdoc-faculty-radar-public.vercel.app/#people/fr-ens-lyon-elisa-riccietti) · École Normale Supérieure de Lyon / Inria OCKHAM
+- [Raphaël Berthier](https://postdoc-faculty-radar-public.vercel.app/#people/fr-inria-sorbonne-raphael-berthier) · Inria Sorbonne Université
 
 ## 产业观察
 
@@ -55,10 +55,9 @@
 
 ## 数据源健康
 
-- 正常来源：3/20
+- 正常来源：2/20
 - 待恢复：Academic Positions · HTTP 403
 - 待恢复：CUHK Mathematics Career Opportunities · fetch failed
-- 待恢复：高校人才网 · HTTP 403
 - 待恢复：Huawei Noah's Ark Lab · fetch failed
 
 > 本报告由公开来源自动汇总。岗位、论文、基金和人员状态应回到原始链接复核；软信号不等于公开招聘。

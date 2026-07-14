@@ -83,7 +83,7 @@ function buildReport(site, current, baseline, label) {
     "",
     "## 有公开招聘证据的人物",
     "",
-    ...openingProfiles.map((profile) => `- [${profile.nameZh ? `${profile.nameZh} / ` : ""}${profile.name}](https://public-omega-seven-25.vercel.app/#people/${profile.id}) · ${profile.institution || "机构待补充"}`),
+    ...openingProfiles.map((profile) => `- [${profile.nameZh ? `${profile.nameZh} / ` : ""}${profile.name}](https://postdoc-faculty-radar-public.vercel.app/#people/${profile.id}) · ${profile.institution || "机构待补充"}`),
   ];
   if (!openingProfiles.length) lines.push("- 当前未发现通过证据门槛的公开招聘人物。 ");
   lines.push("", "## 产业观察", "", `- 重点公司：${current.companies}`, `- 产业人物：${current.industryPeople}`);

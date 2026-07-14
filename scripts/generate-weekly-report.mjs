@@ -25,7 +25,7 @@ const lines = [
 for (const item of (updates.items ?? []).slice(0, 30)) {
   const score = item.priority ? `${item.priority} ${item.score ?? ""}`.trim() : item.score;
   const details = [item.organization, item.region, score].filter((value) => value !== undefined && value !== null && value !== "").join(" · ");
-  lines.push(`- **${item.labelZh}** [${item.title}](${item.sourceUrl || "https://public-omega-seven-25.vercel.app/"})${details ? ` · ${details}` : ""}`);
+  lines.push(`- **${item.labelZh}** [${item.title}](${item.sourceUrl || "https://postdoc-faculty-radar-public.vercel.app/"})${details ? ` · ${details}` : ""}`);
 }
 
 if (!(updates.items ?? []).length) lines.push("- 本周没有检测到可确认的变化。");
@@ -36,7 +36,7 @@ lines.push(`- 基金或项目扩组信号：${site.academic?.overview?.expansion
 lines.push(`- 长期接受申请：${site.academic?.overview?.acceptingApplications ?? 0}`);
 lines.push(`- Fellowship host：${site.academic?.overview?.fellowshipHosts ?? 0}`);
 for (const profile of (site.academic?.profiles ?? []).slice(0, 12)) {
-  lines.push(`- [${profile.nameZh ? `${profile.nameZh} / ` : ""}${profile.name}](https://public-omega-seven-25.vercel.app/#people/${profile.id}) · ${profile.institution ?? "机构待补充"} · ${profile.publicationMetrics?.provider ?? "书目待补充"}`);
+  lines.push(`- [${profile.nameZh ? `${profile.nameZh} / ` : ""}${profile.name}](https://postdoc-faculty-radar-public.vercel.app/#people/${profile.id}) · ${profile.institution ?? "机构待补充"} · ${profile.publicationMetrics?.provider ?? "书目待补充"}`);
 }
 
 const failedSources = (site.sources ?? []).filter((source) => source.status === "error");
@@ -50,7 +50,7 @@ lines.push(
   "",
   "## 查看网站",
   "",
-  "[打开博后教职职业情报门户](https://public-omega-seven-25.vercel.app/)",
+  "[打开博后教职职业情报门户](https://postdoc-faculty-radar-public.vercel.app/)",
   "",
   "> 自动生成的情报摘要。岗位状态与申请要求以官方原文为准。"
 );

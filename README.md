@@ -2,7 +2,7 @@
 
 一个默认中文、静态优先、可多链接部署的博后/教职/研究岗职业情报门户。项目面向应用数学、优化、数值分析和科学计算方向，先服务个人职业规划，未来可公开给同方向 PhD/Postdoc 作为只读情报站使用。
 
-- 生产站：<https://public-omega-seven-25.vercel.app/>
+- 生产站：<https://postdoc-faculty-radar-public.vercel.app/>
 - GitHub：<https://github.com/DJCdjcDJC2000/postdoc-faculty-radar>
 
 ## 产品形态
@@ -113,4 +113,4 @@ npm run notify:immediate
 
 - Vercel：当前生产主站。
 - GitHub Pages：公开源码对应的备用链接。
-- EdgeOne Pages：后续可选的大陆访问镜像。
+- EdgeOne Makers：正在接入的大陆访问镜像。

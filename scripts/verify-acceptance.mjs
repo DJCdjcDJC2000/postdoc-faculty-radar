@@ -11,7 +11,6 @@ const app = await readText("public/app.js");
 const styles = await readText("public/styles.css");
 const packageJson = await readJson("package.json");
 const radarWorkflow = await readText(".github/workflows/radar.yml");
-const vercelProxy = await readText("vercel-proxy/vercel.json");
 const deploymentDoc = await readText("docs/deployment.md");
 const peopleSpec = await readText("docs/people-intelligence-spec.md");
 const peopleConfig = await readJson("config/people-intelligence.json");
@@ -72,7 +71,7 @@ check(
     radarWorkflow.includes("Build pushed revision")
 );
 check("weekly Feishu and GitHub reports are configured", radarWorkflow.includes("notify:weekly") && radarWorkflow.includes("actions/github-script"));
-check("Vercel production proxy follows GitHub Pages", vercelProxy.includes("djcdjcdjc2000.github.io/postdoc-faculty-radar") && vercelProxy.includes("max-age=300"));
+check("independent Vercel production deployment is documented", deploymentDoc.includes("postdoc-faculty-radar-public.vercel.app") && deploymentDoc.includes("postdoc-faculty-radar-public"));
 check("EdgeOne deployment instructions exist", deploymentDoc.includes("EdgeOne Pages") && deploymentDoc.includes("public"));
 check("core resources avoid external CDN/runtime dependencies", !externalRuntimePattern().test([html, app, styles].join("\n")));
 

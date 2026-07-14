@@ -4,12 +4,12 @@
 
 - Vercel：当前生产主站。
 - GitHub Pages：与公开源码绑定的备用链接。
-- EdgeOne Pages：后续可选的中国大陆访问镜像。
+- EdgeOne Makers：正在接入的中国大陆访问镜像。
 
 当前生产地址：
 
 ```text
-https://public-omega-seven-25.vercel.app/
+https://postdoc-faculty-radar-public.vercel.app/
 ```
 
 ## 构建输出
@@ -51,23 +51,22 @@ https://djcdjcdjc2000.github.io/postdoc-faculty-radar/
 
 ## Vercel
 
-Vercel 项目名为 `public`，生产域名为 `public-omega-seven-25.vercel.app`。生产部署使用 `vercel-proxy/vercel.json` 将该域名反向代理到自动更新的 GitHub Pages，并缓存 5 分钟。这样无需在 GitHub 保存长期 Vercel 账号 Token；每次 `main` 更新并完成 Pages 部署后，Vercel 主链接会自动读取新版本。
+独立 Vercel 项目名为 `postdoc-faculty-radar-public`，生产域名为 `postdoc-faculty-radar-public.vercel.app`。项目只连接当前公开仓库的 `main` 分支，不依赖其他 Vercel 项目；每次有效推送自动生成生产部署。
 
-重新发布代理配置时执行：
+需要从本机显式复验或发布时，必须使用职业雷达的隔离配置：
 
 ```bash
-npx vercel link --cwd vercel-proxy --yes --scope djc-world --project public
-npx vercel deploy --cwd vercel-proxy --prod --yes
+npx vercel deploy --prod --yes -Q C:\Users\16523\.vercel-career-radar
 ```
 
-## EdgeOne Pages（可选镜像）
+## EdgeOne Makers（大陆镜像）
 
 1. 在 EdgeOne Pages 中导入同一个 GitHub 仓库。
 2. 构建命令使用：
 
 ```bash
 npm ci
-npm run update:weekly
+npm run build:public
 ```
 
 3. 输出目录设置为：
@@ -76,10 +75,8 @@ npm run update:weekly
 public
 ```
 
-4. 环境变量配置：
-   - `DEEPSEEK_API_KEY`
-   - `FEISHU_WEBHOOK_URL`
-   - `DEEPSEEK_MODEL=deepseek-v4-flash`
+4. 生产分支设为 `main`，由 Makers 监听推送并自动部署。
+5. EdgeOne 只负责部署已经脱敏的公开构建，不配置 DeepSeek 或飞书密钥；周更仍由 GitHub Actions 完成。
 
 ## 隐私边界
 

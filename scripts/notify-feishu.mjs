@@ -56,7 +56,7 @@ function periodicMessage(site, kind) {
     `来源健康：${(site.sources ?? []).filter((source) => source.status === "ok").length}/${site.sources?.length ?? 0}`,
     "",
     "完整报告：https://github.com/DJCdjcDJC2000/postdoc-faculty-radar/issues",
-    "网站：https://public-omega-seven-25.vercel.app/",
+    "网站：https://postdoc-faculty-radar-public.vercel.app/",
     "岗位与人员状态请以原始官方来源为准。"
   ].join("\n");
 }
