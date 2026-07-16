@@ -1355,11 +1355,7 @@
         "careerUrl": "https://www.amazon.science/scot"
       },
       "lifecycleStatus": "active",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "huawei-supply-chain-ai-expert",
@@ -1617,11 +1613,7 @@
         "careerUrl": "https://www.janestreet.com/join-jane-street/open-roles/"
       },
       "lifecycleStatus": "active",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "microsoft-research-careers",
@@ -1955,11 +1947,7 @@
         "careerUrl": "https://www.twosigma.com/careers/"
       },
       "lifecycleStatus": "active",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "mosek-careers",

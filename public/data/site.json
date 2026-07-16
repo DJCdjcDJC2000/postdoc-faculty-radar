@@ -46,12 +46,12 @@
     }
   },
   "metadata": {
-    "generatedAt": "2026-07-15T04:15:52.604Z",
+    "generatedAt": "2026-07-16T04:24:05.369Z",
     "offline": false,
     "jobCount": 10,
     "alertCount": 3,
     "sourceCount": 20,
-    "builtAt": "2026-07-15T04:16:39.331Z",
+    "builtAt": "2026-07-16T04:24:24.360Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -75,11 +75,11 @@
     "careerPlanSummaryZh": "重点覆盖欧洲、香港、新加坡、内地和大厂研究岗，适用于应用数学、优化与科学计算方向的 PhD/Postdoc。"
   },
   "metrics": {
-    "totalJobs": 8,
-    "archivedJobs": 2,
-    "newJobs": 8,
+    "totalJobs": 7,
+    "archivedJobs": 3,
+    "newJobs": 7,
     "updatedJobs": 0,
-    "expiredJobs": 2,
+    "expiredJobs": 3,
     "highMatchJobs": 3,
     "dueSoonJobs": 0,
     "activeSources": 2,
@@ -118,7 +118,7 @@
       "trust": "lead",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-15T04:15:52.604Z",
+      "createdAt": "2026-07-16T04:24:05.369Z",
       "id": "c4f0adb87a8dfd89",
       "matchScore": 100,
       "priority": "A",
@@ -139,11 +139,11 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "线索待核验",
       "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-      "updatedAt": "2026-07-15T04:15:52.604Z",
+      "updatedAt": "2026-07-16T04:24:05.369Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-15T04:15:52.604Z",
+      "lastSeenAt": "2026-07-16T04:24:05.369Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -195,7 +195,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-15T04:15:52.604Z",
+      "createdAt": "2026-07-16T04:24:05.369Z",
       "id": "1411a9a5c5c5768d",
       "matchScore": 74,
       "priority": "B",
@@ -208,11 +208,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-      "updatedAt": "2026-07-15T04:15:52.604Z",
+      "updatedAt": "2026-07-16T04:24:05.369Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-15T04:15:52.604Z",
+      "lastSeenAt": "2026-07-16T04:24:05.369Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -263,7 +263,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-15T04:15:52.604Z",
+      "createdAt": "2026-07-16T04:24:05.369Z",
       "id": "576a05e8b695f331",
       "matchScore": 64,
       "priority": "B",
@@ -273,11 +273,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Fellowship",
-      "updatedAt": "2026-07-15T04:15:52.604Z",
+      "updatedAt": "2026-07-16T04:24:05.369Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-15T04:15:52.604Z",
+      "lastSeenAt": "2026-07-16T04:24:05.369Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -328,7 +328,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-15T04:15:52.604Z",
+      "createdAt": "2026-07-16T04:24:05.369Z",
       "id": "bbac44b5da0bc36a",
       "matchScore": 64,
       "priority": "B",
@@ -338,11 +338,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Singapore · Fellowship",
-      "updatedAt": "2026-07-15T04:15:52.604Z",
+      "updatedAt": "2026-07-16T04:24:05.369Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-15T04:15:52.604Z",
+      "lastSeenAt": "2026-07-16T04:24:05.369Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -392,7 +392,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-15T04:15:52.604Z",
+      "createdAt": "2026-07-16T04:24:05.369Z",
       "id": "e1e5047f5f87635e",
       "matchScore": 59,
       "priority": "C",
@@ -402,11 +402,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship",
-      "updatedAt": "2026-07-15T04:15:52.604Z",
+      "updatedAt": "2026-07-16T04:24:05.369Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-15T04:15:52.604Z",
+      "lastSeenAt": "2026-07-16T04:24:05.369Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -464,7 +464,7 @@
       ],
       "deadline": null,
       "fieldRelevantSource": true,
-      "status": "active",
+      "status": "expired",
       "trust": "academic_board",
       "fetchedAt": "2026-07-15T04:15:52.604Z",
       "id": "7c0599826d9b8f14",
@@ -480,13 +480,13 @@
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "United Kingdom · 博后 · applied mathematics / statistics",
       "updatedAt": "2026-07-15T04:15:52.604Z",
-      "lifecycleStatus": "active",
-      "lifecycleLabelZh": "当前有效",
+      "lifecycleStatus": "expired",
+      "lifecycleLabelZh": "已失效/已截止",
       "firstSeenAt": "2026-07-10T14:16:57.278Z",
       "lastSeenAt": "2026-07-15T04:15:52.604Z",
-      "lastChangedAt": "2026-07-10T14:16:57.278Z",
-      "changeType": "new",
-      "archivedAt": null,
+      "lastChangedAt": "2026-07-16T04:24:05.369Z",
+      "changeType": "expired",
+      "archivedAt": "2026-07-16T04:24:05.369Z",
       "stale": false,
       "ai": {
         "status": "deepseek",
@@ -511,8 +511,8 @@
         "depth": 1
       },
       "freshness": {
-        "type": "new",
-        "labelZh": "本周新增",
+        "type": "expired",
+        "labelZh": "已失效/已截止",
         "highlighted": true
       }
     },
@@ -601,7 +601,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "official",
-      "fetchedAt": "2026-07-15T04:15:52.604Z",
+      "fetchedAt": "2026-07-16T04:24:05.369Z",
       "id": "8f0378d469afbb63",
       "matchScore": 45,
       "priority": "C",
@@ -613,14 +613,14 @@
       "roleLabelZh": "Research Fellow",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Research Fellow",
-      "updatedAt": "2026-07-15T04:15:52.604Z",
+      "updatedAt": "2026-07-16T04:24:05.369Z",
       "stale": false,
       "changeType": null,
       "sourceId": "hkust-math",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-15T04:15:52.604Z",
+      "lastSeenAt": "2026-07-16T04:24:05.369Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "ai": {
@@ -674,7 +674,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "academic_board",
-      "fetchedAt": "2026-07-15T04:15:52.604Z",
+      "fetchedAt": "2026-07-16T04:24:05.369Z",
       "id": "79605fde47e58ad1",
       "matchScore": 43,
       "priority": "C",
@@ -686,11 +686,11 @@
       "roleLabelZh": "教职",
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "United Kingdom · 教职 · applied mathematics",
-      "updatedAt": "2026-07-15T04:15:52.604Z",
+      "updatedAt": "2026-07-16T04:24:05.369Z",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-07-14T04:16:16.757Z",
-      "lastSeenAt": "2026-07-15T04:15:52.604Z",
+      "lastSeenAt": "2026-07-16T04:24:05.369Z",
       "lastChangedAt": "2026-07-14T04:16:16.757Z",
       "changeType": "new",
       "archivedAt": null,
@@ -79944,11 +79944,7 @@
           "careerUrl": "https://www.amazon.science/scot"
         },
         "lifecycleStatus": "active",
-        "freshness": {
-          "type": "updated",
-          "labelZh": "本周更新",
-          "highlighted": true
-        }
+        "freshness": null
       },
       {
         "id": "huawei-supply-chain-ai-expert",
@@ -80206,11 +80202,7 @@
           "careerUrl": "https://www.janestreet.com/join-jane-street/open-roles/"
         },
         "lifecycleStatus": "active",
-        "freshness": {
-          "type": "updated",
-          "labelZh": "本周更新",
-          "highlighted": true
-        }
+        "freshness": null
       },
       {
         "id": "microsoft-research-careers",
@@ -80544,11 +80536,7 @@
           "careerUrl": "https://www.twosigma.com/careers/"
         },
         "lifecycleStatus": "active",
-        "freshness": {
-          "type": "updated",
-          "labelZh": "本周更新",
-          "highlighted": true
-        }
+        "freshness": null
       },
       {
         "id": "mosek-careers",
@@ -83903,8 +83891,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 481
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 379
     },
     {
       "id": "academic-positions",
@@ -83916,8 +83904,8 @@
       "status": "error",
       "message": "HTTP 403",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 114
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 130
     },
     {
       "id": "academic-transfer",
@@ -83929,8 +83917,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 1187
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 1057
     },
     {
       "id": "mathjobs",
@@ -83942,8 +83930,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 649
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 315
     },
     {
       "id": "academic-jobs-online",
@@ -83955,8 +83943,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 556
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 277
     },
     {
       "id": "jobs-ac-uk",
@@ -83968,8 +83956,8 @@
       "status": "ok",
       "message": "16 candidates",
       "count": 16,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 1757
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 1316
     },
     {
       "id": "polyu",
@@ -83981,8 +83969,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 1898
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 2539
     },
     {
       "id": "hku",
@@ -83994,8 +83982,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 856
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 957
     },
     {
       "id": "hkust-math",
@@ -84007,8 +83995,8 @@
       "status": "ok",
       "message": "3 candidates",
       "count": 3,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 690
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 810
     },
     {
       "id": "cuhk-math",
@@ -84020,8 +84008,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 775
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 1343
     },
     {
       "id": "nus",
@@ -84033,8 +84021,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 1130
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 1455
     },
     {
       "id": "ntu",
@@ -84046,8 +84034,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 867
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 635
     },
     {
       "id": "astar",
@@ -84056,11 +84044,11 @@
       "url": "https://careers.a-star.edu.sg/",
       "trust": "official",
       "sourceType": "research_institute",
-      "status": "error",
-      "message": "The operation was aborted due to timeout",
+      "status": "no_candidates",
+      "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 15008
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 1511
     },
     {
       "id": "chinapostdoctor",
@@ -84072,8 +84060,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 870
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 1197
     },
     {
       "id": "gaoxiaojob",
@@ -84085,8 +84073,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 1873
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 1838
     },
     {
       "id": "microsoft-research",
@@ -84095,11 +84083,11 @@
       "url": "https://www.microsoft.com/en-us/research/careers/open-positions/",
       "trust": "company",
       "sourceType": "company",
-      "status": "error",
-      "message": "The operation was aborted due to timeout",
+      "status": "no_candidates",
+      "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 15000
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 596
     },
     {
       "id": "google-research",
@@ -84111,8 +84099,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 241
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 152
     },
     {
       "id": "deepmind",
@@ -84124,8 +84112,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 551
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 271
     },
     {
       "id": "huawei-noah",
@@ -84137,8 +84125,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 558
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 802
     },
     {
       "id": "bytedance-seed",
@@ -84150,8 +84138,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-15T04:15:52.604Z",
-      "latencyMs": 1482
+      "checkedAt": "2026-07-16T04:24:05.369Z",
+      "latencyMs": 1240
     }
   ],
   "reports": [
@@ -84182,11 +84170,24 @@
   ],
   "updates": {
     "windowDays": 7,
-    "generatedAt": "2026-07-15T04:16:39.331Z",
-    "newCount": 7,
-    "updatedCount": 17,
-    "expiredCount": 2,
+    "generatedAt": "2026-07-16T04:24:24.360Z",
+    "newCount": 6,
+    "updatedCount": 14,
+    "expiredCount": 3,
     "items": [
+      {
+        "id": "7c0599826d9b8f14",
+        "kind": "job",
+        "type": "expired",
+        "labelZh": "已失效/已截止",
+        "title": "Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics",
+        "organization": "jobs.ac.uk Mathematics",
+        "region": "United Kingdom",
+        "priority": "C",
+        "score": 54,
+        "sourceUrl": "https://www.jobs.ac.uk/job/DSE536/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics",
+        "changedAt": "2026-07-16T04:24:05.369Z"
+      },
       {
         "id": "f63bcce9a06b4f8e",
         "kind": "job",
@@ -84212,19 +84213,6 @@
         "score": 43,
         "sourceUrl": "https://www.jobs.ac.uk/job/DSF913/assistant-professor-in-applied-mathematics",
         "changedAt": "2026-07-14T04:16:16.757Z"
-      },
-      {
-        "id": "7c0599826d9b8f14",
-        "kind": "job",
-        "type": "new",
-        "labelZh": "本周新增",
-        "title": "Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics",
-        "organization": "jobs.ac.uk Mathematics",
-        "region": "United Kingdom",
-        "priority": "C",
-        "score": 54,
-        "sourceUrl": "https://www.jobs.ac.uk/job/DSE536/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics",
-        "changedAt": "2026-07-10T14:16:57.278Z"
       },
       {
         "id": "ad0598f43a3c9e24",
@@ -84457,39 +84445,6 @@
         "score": 45,
         "sourceUrl": "https://www.math.hkust.edu.hk/employment/?menu=2",
         "changedAt": "2026-07-09T16:37:03.501Z"
-      },
-      {
-        "id": "amazon-scot-science",
-        "kind": "industry",
-        "type": "updated",
-        "labelZh": "本周更新",
-        "title": "SCOT 应用科学家 / 数据科学家",
-        "organization": "Amazon SCOT",
-        "region": "Europe",
-        "sourceUrl": "https://www.amazon.science/scot",
-        "changedAt": "2026-07-09"
-      },
-      {
-        "id": "jane-street-quant-research-hk",
-        "kind": "industry",
-        "type": "updated",
-        "labelZh": "本周更新",
-        "title": "量化研究员",
-        "organization": "Jane Street",
-        "region": "Hong Kong",
-        "sourceUrl": "https://www.janestreet.com/join-jane-street/position/8071941002/",
-        "changedAt": "2026-07-09"
-      },
-      {
-        "id": "two-sigma-quant-careers",
-        "kind": "industry",
-        "type": "updated",
-        "labelZh": "本周更新",
-        "title": "量化研究岗位入口",
-        "organization": "Two Sigma",
-        "region": "United States",
-        "sourceUrl": "https://www.twosigma.com/careers/",
-        "changedAt": "2026-07-09"
       }
     ]
   },
@@ -84515,7 +84470,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-15T04:15:52.604Z",
+        "createdAt": "2026-07-16T04:24:05.369Z",
         "id": "1411a9a5c5c5768d",
         "matchScore": 74,
         "priority": "B",
@@ -84528,11 +84483,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-        "updatedAt": "2026-07-15T04:15:52.604Z",
+        "updatedAt": "2026-07-16T04:24:05.369Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-15T04:15:52.604Z",
+        "lastSeenAt": "2026-07-16T04:24:05.369Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84583,7 +84538,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-15T04:15:52.604Z",
+        "createdAt": "2026-07-16T04:24:05.369Z",
         "id": "576a05e8b695f331",
         "matchScore": 64,
         "priority": "B",
@@ -84593,11 +84548,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Hong Kong · Fellowship",
-        "updatedAt": "2026-07-15T04:15:52.604Z",
+        "updatedAt": "2026-07-16T04:24:05.369Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-15T04:15:52.604Z",
+        "lastSeenAt": "2026-07-16T04:24:05.369Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84648,7 +84603,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-15T04:15:52.604Z",
+        "createdAt": "2026-07-16T04:24:05.369Z",
         "id": "bbac44b5da0bc36a",
         "matchScore": 64,
         "priority": "B",
@@ -84658,11 +84613,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Singapore · Fellowship",
-        "updatedAt": "2026-07-15T04:15:52.604Z",
+        "updatedAt": "2026-07-16T04:24:05.369Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-15T04:15:52.604Z",
+        "lastSeenAt": "2026-07-16T04:24:05.369Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84712,7 +84667,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-15T04:15:52.604Z",
+        "createdAt": "2026-07-16T04:24:05.369Z",
         "id": "e1e5047f5f87635e",
         "matchScore": 59,
         "priority": "C",
@@ -84722,11 +84677,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship",
-        "updatedAt": "2026-07-15T04:15:52.604Z",
+        "updatedAt": "2026-07-16T04:24:05.369Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-15T04:15:52.604Z",
+        "lastSeenAt": "2026-07-16T04:24:05.369Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
