@@ -23,7 +23,7 @@
     "trust": "lead",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-16T04:24:05.369Z",
+    "createdAt": "2026-07-17T04:22:52.678Z",
     "id": "c4f0adb87a8dfd89",
     "matchScore": 100,
     "priority": "A",
@@ -44,14 +44,15 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "线索待核验",
     "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-    "updatedAt": "2026-07-16T04:24:05.369Z",
+    "updatedAt": "2026-07-17T04:22:52.678Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-07-16T04:24:05.369Z",
+    "lastSeenAt": "2026-07-17T04:22:52.678Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
+    "changeType": null,
     "ai": {
       "status": "deepseek",
       "generatedAt": "2026-07-10T05:26:07.363Z",
@@ -74,11 +75,7 @@
       "nextStepZh": "建议搜索具体招聘机构（如大学或研究所）的正式博士后公告，或联系相关领域学者获取更多信息。",
       "depth": "medium"
     },
-    "freshness": {
-      "type": "new",
-      "labelZh": "本周新增",
-      "highlighted": true
-    }
+    "freshness": null
   },
   {
     "title": "Humboldt Research Fellowship for Postdoctoral Researchers",
@@ -100,7 +97,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-16T04:24:05.369Z",
+    "createdAt": "2026-07-17T04:22:52.678Z",
     "id": "1411a9a5c5c5768d",
     "matchScore": 74,
     "priority": "B",
@@ -113,14 +110,15 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-    "updatedAt": "2026-07-16T04:24:05.369Z",
+    "updatedAt": "2026-07-17T04:22:52.678Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-07-16T04:24:05.369Z",
+    "lastSeenAt": "2026-07-17T04:22:52.678Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
+    "changeType": null,
     "ai": {
       "status": "deepseek",
       "generatedAt": "2026-07-10T05:26:07.363Z",
@@ -142,11 +140,7 @@
       "nextStepZh": "1. 确认研究方向与德国导师匹配；2. 准备研究计划、推荐信等材料；3. 通过洪堡基金会在线系统提交申请。",
       "depth": "medium"
     },
-    "freshness": {
-      "type": "new",
-      "labelZh": "本周新增",
-      "highlighted": true
-    }
+    "freshness": null
   },
   {
     "title": "RGC Junior Research Fellow Scheme",
@@ -168,7 +162,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-16T04:24:05.369Z",
+    "createdAt": "2026-07-17T04:22:52.678Z",
     "id": "576a05e8b695f331",
     "matchScore": 64,
     "priority": "B",
@@ -178,14 +172,15 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Fellowship",
-    "updatedAt": "2026-07-16T04:24:05.369Z",
+    "updatedAt": "2026-07-17T04:22:52.678Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-07-16T04:24:05.369Z",
+    "lastSeenAt": "2026-07-17T04:22:52.678Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
+    "changeType": null,
     "ai": {
       "status": "deepseek",
       "generatedAt": "2026-07-10T05:26:07.363Z",
@@ -207,11 +202,7 @@
       "nextStepZh": "查阅RGC官网申请要求，联系目标院校导师确认支持。",
       "depth": 1
     },
-    "freshness": {
-      "type": "new",
-      "labelZh": "本周新增",
-      "highlighted": true
-    }
+    "freshness": null
   },
   {
     "title": "Singapore NRF Fellowship",
@@ -233,7 +224,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-16T04:24:05.369Z",
+    "createdAt": "2026-07-17T04:22:52.678Z",
     "id": "bbac44b5da0bc36a",
     "matchScore": 64,
     "priority": "B",
@@ -243,14 +234,15 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Singapore · Fellowship",
-    "updatedAt": "2026-07-16T04:24:05.369Z",
+    "updatedAt": "2026-07-17T04:22:52.678Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-07-16T04:24:05.369Z",
+    "lastSeenAt": "2026-07-17T04:22:52.678Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
+    "changeType": null,
     "ai": {
       "status": "deepseek",
       "generatedAt": "2026-07-10T05:26:07.363Z",
@@ -271,11 +263,7 @@
       "nextStepZh": "关注申请截止日期，准备研究计划；联系潜在合作机构或导师。",
       "depth": 1
     },
-    "freshness": {
-      "type": "new",
-      "labelZh": "本周新增",
-      "highlighted": true
-    }
+    "freshness": null
   },
   {
     "title": "MSCA Postdoctoral Fellowships",
@@ -297,7 +285,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-07-16T04:24:05.369Z",
+    "createdAt": "2026-07-17T04:22:52.678Z",
     "id": "e1e5047f5f87635e",
     "matchScore": 59,
     "priority": "C",
@@ -307,14 +295,15 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship",
-    "updatedAt": "2026-07-16T04:24:05.369Z",
+    "updatedAt": "2026-07-17T04:22:52.678Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-07-16T04:24:05.369Z",
+    "lastSeenAt": "2026-07-17T04:22:52.678Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
+    "changeType": null,
     "ai": {
       "status": "deepseek",
       "generatedAt": "2026-07-10T05:26:07.363Z",
@@ -345,11 +334,7 @@
       "nextStepZh": "访问MSCA官网确认当前开放通知，寻找合适的接收机构并联系导师。",
       "depth": 1
     },
-    "freshness": {
-      "type": "new",
-      "labelZh": "本周新增",
-      "highlighted": true
-    }
+    "freshness": null
   },
   {
     "title": "Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics",
@@ -506,7 +491,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "official",
-    "fetchedAt": "2026-07-16T04:24:05.369Z",
+    "fetchedAt": "2026-07-17T04:22:52.678Z",
     "id": "8f0378d469afbb63",
     "matchScore": 45,
     "priority": "C",
@@ -518,14 +503,14 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Research Fellow",
-    "updatedAt": "2026-07-16T04:24:05.369Z",
+    "updatedAt": "2026-07-17T04:22:52.678Z",
     "stale": false,
     "changeType": null,
     "sourceId": "hkust-math",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-07-16T04:24:05.369Z",
+    "lastSeenAt": "2026-07-17T04:22:52.678Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "ai": {
@@ -553,11 +538,7 @@
       "nextStepZh": "访问官网左侧菜单查看详细招聘信息并准备申请材料。",
       "depth": "shallow"
     },
-    "freshness": {
-      "type": "new",
-      "labelZh": "本周新增",
-      "highlighted": true
-    }
+    "freshness": null
   },
   {
     "title": "Assistant Professor in Applied Mathematics",
@@ -577,7 +558,7 @@
     ],
     "deadline": null,
     "fieldRelevantSource": true,
-    "status": "active",
+    "status": "expired",
     "trust": "academic_board",
     "fetchedAt": "2026-07-16T04:24:05.369Z",
     "id": "79605fde47e58ad1",
@@ -592,13 +573,13 @@
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 教职 · applied mathematics",
     "updatedAt": "2026-07-16T04:24:05.369Z",
-    "lifecycleStatus": "active",
-    "lifecycleLabelZh": "当前有效",
+    "lifecycleStatus": "expired",
+    "lifecycleLabelZh": "已失效/已截止",
     "firstSeenAt": "2026-07-14T04:16:16.757Z",
     "lastSeenAt": "2026-07-16T04:24:05.369Z",
-    "lastChangedAt": "2026-07-14T04:16:16.757Z",
-    "changeType": "new",
-    "archivedAt": null,
+    "lastChangedAt": "2026-07-17T04:22:52.678Z",
+    "changeType": "expired",
+    "archivedAt": "2026-07-17T04:22:52.678Z",
     "stale": false,
     "ai": {
       "status": "skipped_no_key",
@@ -618,8 +599,8 @@
       "depth": "light"
     },
     "freshness": {
-      "type": "new",
-      "labelZh": "本周新增",
+      "type": "expired",
+      "labelZh": "已失效/已截止",
       "highlighted": true
     }
   },

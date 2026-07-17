@@ -1131,11 +1131,7 @@
         "careerUrl": "https://zhaopin.jd.com/"
       },
       "lifecycleStatus": "active",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "alibaba-supply-chain-watch",
@@ -1170,11 +1166,7 @@
         "careerUrl": "https://talent.alibaba.com/"
       },
       "lifecycleStatus": "watchlist",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "meituan-dispatch-watch",
@@ -1209,11 +1201,7 @@
         "careerUrl": "https://zhaopin.meituan.com/"
       },
       "lifecycleStatus": "watchlist",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "huawei-2027-internship",
@@ -1316,11 +1304,7 @@
         "careerUrl": "https://careers.a-star.edu.sg/"
       },
       "lifecycleStatus": "active",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "amazon-scot-science",
@@ -1389,11 +1373,7 @@
         "careerUrl": "https://career.huawei.com/"
       },
       "lifecycleStatus": "active",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "bytedance-seed-careers",
@@ -1427,11 +1407,7 @@
         "careerUrl": "https://jobs.bytedance.com/"
       },
       "lifecycleStatus": "active",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "citadel-phd-intern-asia",
@@ -1535,11 +1511,7 @@
         "careerUrl": "https://optiver.com/working-at-optiver/career-opportunities/"
       },
       "lifecycleStatus": "active",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "grab-marketplace-careers",
@@ -1574,11 +1546,7 @@
         "careerUrl": "https://www.grab.careers/"
       },
       "lifecycleStatus": "watchlist",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "jane-street-quant-research-hk",
@@ -1647,11 +1615,7 @@
         "careerUrl": "https://www.microsoft.com/en-us/research/careers/open-positions/"
       },
       "lifecycleStatus": "watchlist",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "hexaly-optimization-scientist",
@@ -1686,11 +1650,7 @@
         "careerUrl": "https://www.hexaly.com/join-us"
       },
       "lifecycleStatus": "active",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "ibm-optimization-ml-careers",
@@ -1724,11 +1684,7 @@
         "careerUrl": "https://www.ibm.com/careers/search"
       },
       "lifecycleStatus": "watchlist",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "comac-uq-historical",
@@ -1802,11 +1758,7 @@
         "careerUrl": "https://research.google/careers/"
       },
       "lifecycleStatus": "watchlist",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "amazon-postdoc-science-program",
@@ -1875,11 +1827,7 @@
         "careerUrl": "https://www.gurobi.com/company/careers/"
       },
       "lifecycleStatus": "watchlist",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     },
     {
       "id": "huawei-ai-infra-france-lead",
@@ -1981,11 +1929,7 @@
         "careerUrl": "https://www.mosek.com/about/contact-information/"
       },
       "lifecycleStatus": "watchlist",
-      "freshness": {
-        "type": "updated",
-        "labelZh": "本周更新",
-        "highlighted": true
-      }
+      "freshness": null
     }
   ],
   "people": [
