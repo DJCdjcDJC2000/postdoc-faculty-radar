@@ -2273,20 +2273,23 @@
     "depth": 1
   },
   "79605fde47e58ad1": {
-    "status": "skipped_no_key",
-    "generatedAt": "2026-07-14T09:37:22.224Z",
+    "status": "deepseek",
+    "generatedAt": "2026-07-20T04:44:56.766Z",
     "jobFingerprint": "C|43|United Kingdom · 教职 · applied mathematics|core|applied mathematics",
     "notice": "AI 辅助生成，需核验",
-    "summaryZh": "United Kingdom地区的教职机会，规则评分为 C 43。",
+    "summaryZh": "香港理工大学应用数学系招聘应用数学助理教授，岗位发布于2024年7月13日，薪资未说明。",
     "tagsZh": [
-      "applied mathematics"
+      "应用数学",
+      "助理教授",
+      "香港",
+      "学术岗位"
     ],
     "positiveZh": [
       "United Kingdom · 教职 · applied mathematics"
     ],
     "negativeZh": [],
-    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
-    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
-    "depth": "light"
+    "riskZh": "岗位信息简短，未说明具体研究方向或教学要求，匹配度可能有限。",
+    "nextStepZh": "访问原链接查看完整职位描述，确认研究方向是否匹配，并准备申请材料。",
+    "depth": 1
   }
 }

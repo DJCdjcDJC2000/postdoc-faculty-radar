@@ -1,8 +1,8 @@
-# 职业雷达周报 · 2026-07-14
+# 职业雷达周报 · 2026-07-20
 
-- 本周新增：8
-- 本周更新：17
-- 本周失效：1
+- 本周新增：0
+- 本周更新：0
+- 本周失效：3
 - A/B 高匹配：3
 - 30 天内截止：0
 - 学术候选池：132
@@ -11,32 +11,9 @@
 
 ## 本周变化
 
-- **本周新增** [Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSF913/assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
-- **本周新增** [Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics](https://www.jobs.ac.uk/job/DSE536/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 54
-- **已失效/已截止** [Postdoctoral Research Associate in Stochastic Analysis](https://www.jobs.ac.uk/job/DSE306/postdoctoral-research-associate-in-stochastic-analysis) · jobs.ac.uk Mathematics · United Kingdom · C 53
-- **本周更新** [物流与库存优化岗位入口](https://zhaopin.jd.com/) · 京东 · Mainland China
-- **本周更新** [供应链与决策优化岗位入口](https://talent.alibaba.com/) · 阿里巴巴 · Mainland China
-- **本周更新** [调度、路径与供需算法岗位入口](https://zhaopin.meituan.com/) · 美团 · Mainland China
-- **本周更新** [研究科学家与 Research Fellow](https://careers.a-star.edu.sg/) · A*STAR · Singapore
-- **本周更新** [供应链算法与 AI 应用专家](https://career.huawei.com/reccampportal/portal5/social-recruitment-ai.html) · 华为 · Mainland China
-- **本周更新** [Seed 研究员与研究工程师](https://seed.bytedance.com/en/career) · 字节跳动 · Mainland China
-- **本周更新** [量化研究与交易实习入口](https://optiver.com/working-at-optiver/career-opportunities/) · Optiver · Singapore
-- **本周更新** [市场、出行与数据科学岗位入口](https://www.grab.careers/) · Grab · Singapore
-- **本周更新** [研究员、Research SDE 与实习入口](https://www.microsoft.com/en-us/research/careers/open-positions/) · Microsoft Research · Global
-- **本周更新** [优化科学家与实习岗位](https://www.hexaly.com/join-us) · Hexaly · Europe
-- **本周更新** [优化与机器学习研究岗位](https://www.ibm.com/careers/search) · IBM Research · Europe
-- **本周更新** [算法与优化研究岗位入口](https://research.google/teams/algorithms-optimization/) · Google Research · Europe
-- **本周更新** [优化工程师与求解器研发](https://www.gurobi.com/company/careers/) · Gurobi · Global
-- **本周更新** [锥优化求解器人才监控入口](https://www.mosek.com/about/contact-information/) · MOSEK · Europe
-- **本周新增** [Humboldt Research Fellowship for Postdoctoral Researchers](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship) · Alexander von Humboldt Foundation · Europe · B 74
-- **本周新增** [RGC Junior Research Fellow Scheme](https://awards.ugc.edu.hk/award/rgc-junior-research-fellow-scheme) · University Grants Committee / Research Grants Council · Hong Kong · B 64
-- **本周新增** [Singapore NRF Fellowship](https://www.nrf.gov.sg/grants/nrff/) · National Research Foundation Singapore · Singapore · B 64
-- **本周新增** [MSCA Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) · European Commission · Europe · C 59
-- **本周新增** [Research Assistant Professor](https://www.math.hkust.edu.hk/employment/?menu=2) · HKUST Mathematics Employment · Hong Kong · C 45
-- **本周新增** [Professor/Associate/Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSD058/professor-associate-assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
-- **本周更新** [SCOT 应用科学家 / 数据科学家](https://www.amazon.science/scot) · Amazon SCOT · Europe
-- **本周更新** [量化研究员](https://www.janestreet.com/join-jane-street/position/8071941002/) · Jane Street · Hong Kong
-- **本周更新** [量化研究岗位入口](https://www.twosigma.com/careers/) · Two Sigma · United States
+- **已失效/已截止** [Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSF913/assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
+- **已失效/已截止** [Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics](https://www.jobs.ac.uk/job/DSE536/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 54
+- **已失效/已截止** [Professor/Associate/Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSD058/professor-associate-assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
 
 ## 学术人物建设
 
@@ -59,7 +36,7 @@
 
 ## 数据源状态
 
-- 正常或有结果：2/20
+- 正常或有结果：3/20
 - 抓取失败：Academic Positions · HTTP 403
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed

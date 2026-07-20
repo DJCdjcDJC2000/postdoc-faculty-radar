@@ -114,5 +114,128 @@
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
     ]
+  },
+  "imperial-wolfram-wiesemann": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-20T04:44:59.949Z",
+    "profileFingerprint": "1cb6505ee3843e3c9bf88a98a2ba706b5805b86f5ab86f2a332408f13897e5ed",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将其研究方向概括为：stochastic programming、robust optimization、distributionally robust optimization、decision making under uncertainty、operations research。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "distributionally robust optimization",
+      "robust optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "公开资料未提供教育、博后、任职变化信息。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "sustech-kailiang-wu": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-20T04:44:59.949Z",
+    "profileFingerprint": "8ea4c9cf21ef093ffb0898248288ea1c09a1cd8bdad5c24edb9c483a5ad08ddb",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "高阶数值方法（DG、有限体积）及其在双曲守恒律、相对论流体力学、MHD中的应用；结合机器学习进行未知方程建模与动力学学习。",
+    "methods": [
+      "high-order discontinuous Galerkin methods",
+      "bound-preserving finite volume methods",
+      "oscillation-suppressing frameworks",
+      "uncertainty quantification",
+      "data-driven modeling",
+      "neural integrators"
+    ],
+    "applications": [
+      "hyperbolic conservation laws",
+      "special relativistic hydrodynamics",
+      "ideal MHD equations",
+      "physical simulation",
+      "scientific computing"
+    ],
+    "careerPatternZh": "2011-2016 北京大学数学科学学院博士；2016 犹他大学科学计算与成像研究所博士后；2016-2020 俄亥俄州立大学数学系博士后；2021-2026 南方科技大学数学系副教授；2026 晋升教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "tsinghua-junyi-liu": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-20T04:44:59.949Z",
+    "profileFingerprint": "b26195a2f1702bd2ab33bf244e6b739855c5a5d880e98a7d6b83874fb1a51dfa",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "USC/Pang-Sen 谱系；MOR、OR、SIOPT；随机规划学生论文奖 finalist。博士阶段围绕两阶段随机规划、随机分解和内生不确定性展开；与 Jong-Shi Pang 合作后转向非光滑、非凸随机优化、风险度量与机会约束，并进一步应用到治疗学习和贝叶斯分层模型。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "nonsmooth and variational analysis",
+      "mathematical optimization"
+    ],
+    "applications": [],
+    "careerPatternZh": "当前为清华大学副教授，博士毕业于2019年。公开信息未显示博士后经历或其他任职变化。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "pku-kun-yuan": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-20T04:44:59.949Z",
+    "profileFingerprint": "26703e82e65eb2db26146d4e1c884a23525855f73a6fbe16eb25cc7f9fe53c7f",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "主要从事分布式优化、随机优化、联邦学习、大规模优化与信号处理研究，UCLA博士，曾任职阿里巴巴决策智能实验室，获IEEE SPS青年作者最佳论文奖。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "distributed and federated optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "signal processing, imaging, and inverse problems",
+      "networked and distributed systems"
+    ],
+    "careerPatternZh": "UCLA博士（2019年），曾任阿里巴巴决策智能实验室研究员，2022年起任北京大学机器学习研究中心助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "sutd-niangjun-chen": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-20T04:44:59.949Z",
+    "profileFingerprint": "2087e15e8194c47d114dba0c84c7cf471f7f34a53eec2049bb69bf28b6010769",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Caltech PhD；在线优化与预测辅助决策具有明确理论主线",
+    "methods": [
+      "game-theoretic methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "energy and power systems",
+      "markets and strategic decision-making"
+    ],
+    "careerPatternZh": "博士毕业于Caltech（2017年）；2020年起任新加坡科技设计大学（SUTD）信息系统技术与设计支柱助理教授；兼任A*STAR IHPC联合职务。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "nus-hanzhang-qin": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-20T04:44:59.949Z",
+    "profileFingerprint": "dbf878d76e09725a689673aaf36e76bc05505c4d5e6090b5aa9e05f3a474acf8",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "MIT CSE PhD、Amazon Supply Chain Optimization 博后；OR/Management Science 成果",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "optimal-control methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "logistics, transportation, and operations",
+      "control and dynamical systems"
+    ],
+    "careerPatternZh": "MIT CSE PhD 2022；Amazon Supply Chain Optimization 博后；现任新加坡国立大学助理教授",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
   }
 }

@@ -46,12 +46,12 @@
     }
   },
   "metadata": {
-    "generatedAt": "2026-07-19T04:32:45.986Z",
+    "generatedAt": "2026-07-20T04:44:37.824Z",
     "offline": false,
     "jobCount": 10,
     "alertCount": 3,
     "sourceCount": 20,
-    "builtAt": "2026-07-19T04:33:05.296Z",
+    "builtAt": "2026-07-20T04:45:17.516Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -118,7 +118,7 @@
       "trust": "lead",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-19T04:32:45.986Z",
+      "createdAt": "2026-07-20T04:44:37.824Z",
       "id": "c4f0adb87a8dfd89",
       "matchScore": 100,
       "priority": "A",
@@ -139,11 +139,11 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "线索待核验",
       "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-      "updatedAt": "2026-07-19T04:32:45.986Z",
+      "updatedAt": "2026-07-20T04:44:37.824Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-19T04:32:45.986Z",
+      "lastSeenAt": "2026-07-20T04:44:37.824Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -192,7 +192,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-19T04:32:45.986Z",
+      "createdAt": "2026-07-20T04:44:37.824Z",
       "id": "1411a9a5c5c5768d",
       "matchScore": 74,
       "priority": "B",
@@ -205,11 +205,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-      "updatedAt": "2026-07-19T04:32:45.986Z",
+      "updatedAt": "2026-07-20T04:44:37.824Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-19T04:32:45.986Z",
+      "lastSeenAt": "2026-07-20T04:44:37.824Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -257,7 +257,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-19T04:32:45.986Z",
+      "createdAt": "2026-07-20T04:44:37.824Z",
       "id": "576a05e8b695f331",
       "matchScore": 64,
       "priority": "B",
@@ -267,11 +267,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Fellowship",
-      "updatedAt": "2026-07-19T04:32:45.986Z",
+      "updatedAt": "2026-07-20T04:44:37.824Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-19T04:32:45.986Z",
+      "lastSeenAt": "2026-07-20T04:44:37.824Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -319,7 +319,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-19T04:32:45.986Z",
+      "createdAt": "2026-07-20T04:44:37.824Z",
       "id": "bbac44b5da0bc36a",
       "matchScore": 64,
       "priority": "B",
@@ -329,11 +329,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Singapore · Fellowship",
-      "updatedAt": "2026-07-19T04:32:45.986Z",
+      "updatedAt": "2026-07-20T04:44:37.824Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-19T04:32:45.986Z",
+      "lastSeenAt": "2026-07-20T04:44:37.824Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -380,7 +380,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-19T04:32:45.986Z",
+      "createdAt": "2026-07-20T04:44:37.824Z",
       "id": "e1e5047f5f87635e",
       "matchScore": 59,
       "priority": "C",
@@ -390,11 +390,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship",
-      "updatedAt": "2026-07-19T04:32:45.986Z",
+      "updatedAt": "2026-07-20T04:44:37.824Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-19T04:32:45.986Z",
+      "lastSeenAt": "2026-07-20T04:44:37.824Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -586,7 +586,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "official",
-      "fetchedAt": "2026-07-19T04:32:45.986Z",
+      "fetchedAt": "2026-07-20T04:44:37.824Z",
       "id": "8f0378d469afbb63",
       "matchScore": 45,
       "priority": "C",
@@ -598,14 +598,14 @@
       "roleLabelZh": "Research Fellow",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Research Fellow",
-      "updatedAt": "2026-07-19T04:32:45.986Z",
+      "updatedAt": "2026-07-20T04:44:37.824Z",
       "stale": false,
       "changeType": null,
       "sourceId": "hkust-math",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-19T04:32:45.986Z",
+      "lastSeenAt": "2026-07-20T04:44:37.824Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "ai": {
@@ -677,21 +677,24 @@
       "archivedAt": "2026-07-17T04:22:52.678Z",
       "stale": false,
       "ai": {
-        "status": "skipped_no_key",
-        "generatedAt": "2026-07-14T09:37:22.224Z",
+        "status": "deepseek",
+        "generatedAt": "2026-07-20T04:44:56.766Z",
         "jobFingerprint": "C|43|United Kingdom · 教职 · applied mathematics|core|applied mathematics",
         "notice": "AI 辅助生成，需核验",
-        "summaryZh": "United Kingdom地区的教职机会，规则评分为 C 43。",
+        "summaryZh": "香港理工大学应用数学系招聘应用数学助理教授，岗位发布于2024年7月13日，薪资未说明。",
         "tagsZh": [
-          "applied mathematics"
+          "应用数学",
+          "助理教授",
+          "香港",
+          "学术岗位"
         ],
         "positiveZh": [
           "United Kingdom · 教职 · applied mathematics"
         ],
         "negativeZh": [],
-        "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
-        "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
-        "depth": "light"
+        "riskZh": "岗位信息简短，未说明具体研究方向或教学要求，匹配度可能有限。",
+        "nextStepZh": "访问原链接查看完整职位描述，确认研究方向是否匹配，并准备申请材料。",
+        "depth": 1
       },
       "freshness": {
         "type": "expired",
@@ -10831,9 +10834,9 @@
             "decision-making and operations"
           ],
           "featureProvenance": {
-            "summary": "derived_from_public_tags",
-            "methods": "derived_from_public_research_fields",
-            "applications": "derived_from_public_research_fields"
+            "summary": "public_source_or_verified_summary",
+            "methods": "public_source_or_verified_supplement",
+            "applications": "public_source_or_verified_supplement"
           }
         },
         "publicationMetrics": {
@@ -10888,7 +10891,7 @@
           "topVenueCountsLowerBound": [
             {
               "venue": "Operations Research",
-              "count": 8
+              "count": 7
             },
             {
               "venue": "Management Science",
@@ -10901,107 +10904,77 @@
           {
             "track": "optimization_operations_research",
             "tier": "top_core",
-            "count": 12,
-            "trackLabelZh": "数学优化与运筹学",
-            "trackLabel": "Optimization and operations research"
+            "count": 7
           },
           {
             "track": "optimization_operations_research",
             "tier": "important_mainstream",
-            "count": 4,
-            "trackLabelZh": "数学优化与运筹学",
-            "trackLabel": "Optimization and operations research"
+            "count": 1
           },
           {
             "track": "optimization_operations_research",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "数学优化与运筹学",
-            "trackLabel": "Optimization and operations research"
+            "count": 0
           },
           {
             "track": "numerical_analysis_scientific_computing",
             "tier": "top_core",
-            "count": 0,
-            "trackLabelZh": "数值分析与科学计算",
-            "trackLabel": "Numerical analysis and scientific computing"
+            "count": 0
           },
           {
             "track": "numerical_analysis_scientific_computing",
             "tier": "important_mainstream",
-            "count": 0,
-            "trackLabelZh": "数值分析与科学计算",
-            "trackLabel": "Numerical analysis and scientific computing"
+            "count": 0
           },
           {
             "track": "numerical_analysis_scientific_computing",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "数值分析与科学计算",
-            "trackLabel": "Numerical analysis and scientific computing"
+            "count": 0
           },
           {
             "track": "complementarity_vi_nonsmooth",
             "tier": "top_core",
-            "count": 0,
-            "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-            "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+            "count": 0
           },
           {
             "track": "complementarity_vi_nonsmooth",
             "tier": "important_mainstream",
-            "count": 0,
-            "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-            "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+            "count": 0
           },
           {
             "track": "complementarity_vi_nonsmooth",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-            "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+            "count": 0
           },
           {
             "track": "machine_learning_optimization",
             "tier": "top_core",
-            "count": 0,
-            "trackLabelZh": "机器学习优化与算法",
-            "trackLabel": "Machine learning and optimization"
+            "count": 0
           },
           {
             "track": "machine_learning_optimization",
             "tier": "important_mainstream",
-            "count": 0,
-            "trackLabelZh": "机器学习优化与算法",
-            "trackLabel": "Machine learning and optimization"
+            "count": 0
           },
           {
             "track": "machine_learning_optimization",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "机器学习优化与算法",
-            "trackLabel": "Machine learning and optimization"
+            "count": 0
           },
           {
             "track": "interdisciplinary_applications",
             "tier": "top_core",
-            "count": 16,
-            "trackLabelZh": "交叉应用方向",
-            "trackLabel": "Interdisciplinary applications"
+            "count": 8
           },
           {
             "track": "interdisciplinary_applications",
             "tier": "important_mainstream",
-            "count": 0,
-            "trackLabelZh": "交叉应用方向",
-            "trackLabel": "Interdisciplinary applications"
+            "count": 0
           },
           {
             "track": "interdisciplinary_applications",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "交叉应用方向",
-            "trackLabel": "Interdisciplinary applications"
+            "count": 0
           }
         ],
         "representativeWorks": [
@@ -11014,25 +10987,6 @@
             "title": "A Note on Piecewise Affine Decision Rules for Robust, Stochastic, and Data-Driven Optimization",
             "year": "2024",
             "url": "https://arxiv.org/abs/2409.10295"
-          },
-          {
-            "title": "A Note on Piecewise Affine Decision Rules for Robust, Stochastic, and Data-Driven Optimization",
-            "year": 2026,
-            "publicationDate": "2026-02-23",
-            "venue": "Operations Research",
-            "doi": "https://doi.org/10.1287/opre.2024.1344",
-            "url": "https://doi.org/10.1287/opre.2024.1344",
-            "citedByCount": null,
-            "selectionReason": "recent",
-            "selectionReasons": [
-              "recent_crossref_orcid",
-              "recent"
-            ],
-            "isRecent": true,
-            "type": "journal-article",
-            "source": {
-              "displayName": "Operations Research"
-            }
           },
           {
             "title": "An MILP-Based Solution Scheme for Factored Markov Decision Processes",
@@ -11280,14 +11234,15 @@
           ]
         },
         "publicAnalysis": {
-          "careerPatternZh": "公开经历尚不足以形成可靠的职业路径归纳。",
+          "careerPatternZh": "公开资料未提供教育、博后、任职变化信息。",
           "caveatsZh": [
-            "公开经历尚不足以形成可靠的职业路径归纳。",
-            "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+            "论文计数与招聘状态需以原始来源为准。"
           ],
-          "notice": "公开事实归纳，需回到证据台账核验",
-          "source": "deterministic_public_fact_summary"
+          "notice": "AI 辅助归纳，需回到公开证据核验",
+          "source": "deepseek_public_fact_summary",
+          "generatedAt": "2026-07-20T04:44:59.949Z"
         },
+        "uncertainties": [],
         "quality": {
           "status": "ready",
           "isPublicReady": true,
@@ -29670,8 +29625,8 @@
           "countCaveatZh": "包含 OpenAlex 归入该作者的多类学术成果，可能受同名合并与文献类型影响；请结合 ORCID、Crossref 与个人主页理解。",
           "crossSourceCounts": {
             "orcidRecordCount": 98,
-            "crossrefOrcidWorksCount": 21,
-            "checkedAt": "2026-07-13T04:38:28.723Z"
+            "crossrefOrcidWorksCount": 22,
+            "checkedAt": "2026-07-20T04:44:36.795Z"
           },
           "updatedAt": "2026-07-10T08:29:24.830Z",
           "topVenueCountsLowerBound": [
@@ -30153,7 +30108,7 @@
           {
             "type": "orcid_record",
             "url": "https://orcid.org/0000-0003-0481-272X",
-            "checkedAt": "2026-07-13T04:38:28.723Z",
+            "checkedAt": "2026-07-20T04:44:36.795Z",
             "confidence": "A",
             "supportsClaims": [
               "bibliographic_identity",
@@ -31554,9 +31509,9 @@
           "countLabelZh": "OpenAlex 收录成果（近似）",
           "countCaveatZh": "包含 OpenAlex 归入该作者的多类学术成果，可能受同名合并与文献类型影响；请结合 ORCID、Crossref 与个人主页理解。",
           "crossSourceCounts": {
-            "orcidRecordCount": 488,
-            "crossrefOrcidWorksCount": 155,
-            "checkedAt": "2026-07-13T04:38:28.911Z"
+            "orcidRecordCount": 489,
+            "crossrefOrcidWorksCount": 156,
+            "checkedAt": "2026-07-20T04:44:37.343Z"
           },
           "updatedAt": "2026-07-10T08:29:30.945Z",
           "topVenueCountsLowerBound": [
@@ -32003,7 +31958,7 @@
           {
             "type": "orcid_record",
             "url": "https://orcid.org/0000-0001-6833-5227",
-            "checkedAt": "2026-07-13T04:38:28.911Z",
+            "checkedAt": "2026-07-20T04:44:37.343Z",
             "confidence": "A",
             "supportsClaims": [
               "bibliographic_identity",
@@ -33332,7 +33287,7 @@
           "crossSourceCounts": {
             "orcidRecordCount": 66,
             "crossrefOrcidWorksCount": 21,
-            "checkedAt": "2026-07-13T04:38:28.980Z"
+            "checkedAt": "2026-07-20T04:44:37.522Z"
           },
           "updatedAt": "2026-07-10T08:29:33.059Z",
           "topVenueCountsLowerBound": [
@@ -33804,7 +33759,7 @@
           {
             "type": "orcid_record",
             "url": "https://orcid.org/0000-0001-9798-2482",
-            "checkedAt": "2026-07-13T04:38:28.980Z",
+            "checkedAt": "2026-07-20T04:44:37.522Z",
             "confidence": "A",
             "supportsClaims": [
               "bibliographic_identity",
@@ -73838,8 +73793,8 @@
           ],
           "featureProvenance": {
             "summary": "public_source_or_verified_summary",
-            "methods": "derived_from_public_research_fields",
-            "applications": "derived_from_public_research_fields"
+            "methods": "public_source_or_verified_supplement",
+            "applications": "public_source_or_verified_supplement"
           }
         },
         "publicationMetrics": {
@@ -74178,12 +74133,13 @@
           ]
         },
         "publicAnalysis": {
-          "careerPatternZh": "公开教育与任职路径包括：Assistant Professor; PhD 2022 · National University of Singapore；Employment · National University of Singapore。",
+          "careerPatternZh": "MIT CSE PhD 2022；Amazon Supply Chain Optimization 博后；现任新加坡国立大学助理教授",
           "caveatsZh": [
-            "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+            "论文计数与招聘状态需以原始来源为准。"
           ],
-          "notice": "公开事实归纳，需回到证据台账核验",
-          "source": "deterministic_public_fact_summary"
+          "notice": "AI 辅助归纳，需回到公开证据核验",
+          "source": "deepseek_public_fact_summary",
+          "generatedAt": "2026-07-20T04:44:59.949Z"
         },
         "uncertainties": [],
         "quality": {
@@ -74258,8 +74214,8 @@
           ],
           "featureProvenance": {
             "summary": "public_source_or_verified_summary",
-            "methods": "derived_from_public_research_fields",
-            "applications": "derived_from_public_research_fields"
+            "methods": "public_source_or_verified_supplement",
+            "applications": "public_source_or_verified_supplement"
           }
         },
         "publicationMetrics": {
@@ -74584,12 +74540,13 @@
           ]
         },
         "publicAnalysis": {
-          "careerPatternZh": "公开教育与任职路径包括：Assistant Professor; PhD 2017 · Singapore University of Technology and Design；2020 · Assistant Professor · Singapore University of Technology and Design。",
+          "careerPatternZh": "博士毕业于Caltech（2017年）；2020年起任新加坡科技设计大学（SUTD）信息系统技术与设计支柱助理教授；兼任A*STAR IHPC联合职务。",
           "caveatsZh": [
-            "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+            "论文计数与招聘状态需以原始来源为准。"
           ],
-          "notice": "公开事实归纳，需回到证据台账核验",
-          "source": "deterministic_public_fact_summary"
+          "notice": "AI 辅助归纳，需回到公开证据核验",
+          "source": "deepseek_public_fact_summary",
+          "generatedAt": "2026-07-20T04:44:59.949Z"
         },
         "uncertainties": [],
         "quality": {
@@ -75754,7 +75711,7 @@
             "large-scale optimization",
             "signal processing"
           ],
-          "summaryZh": "UCLA PhD、Alibaba Decision Intelligence 经历；IEEE SPS Young Author Best Paper",
+          "summaryZh": "主要从事分布式优化、随机优化、联邦学习、大规模优化与信号处理研究，UCLA博士，曾任职阿里巴巴决策智能实验室，获IEEE SPS青年作者最佳论文奖。",
           "recentEvolution": [
             {
               "topic": "Stochastic and robust optimization",
@@ -75913,8 +75870,8 @@
           ],
           "featureProvenance": {
             "summary": "public_source_or_verified_summary",
-            "methods": "derived_from_public_research_fields",
-            "applications": "derived_from_public_research_fields"
+            "methods": "public_source_or_verified_supplement",
+            "applications": "public_source_or_verified_supplement"
           }
         },
         "publicationMetrics": {
@@ -75978,107 +75935,77 @@
           {
             "track": "optimization_operations_research",
             "tier": "top_core",
-            "count": 1,
-            "trackLabelZh": "数学优化与运筹学",
-            "trackLabel": "Optimization and operations research"
+            "count": 1
           },
           {
             "track": "optimization_operations_research",
             "tier": "important_mainstream",
-            "count": 0,
-            "trackLabelZh": "数学优化与运筹学",
-            "trackLabel": "Optimization and operations research"
+            "count": 0
           },
           {
             "track": "optimization_operations_research",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "数学优化与运筹学",
-            "trackLabel": "Optimization and operations research"
+            "count": 0
           },
           {
             "track": "numerical_analysis_scientific_computing",
             "tier": "top_core",
-            "count": 0,
-            "trackLabelZh": "数值分析与科学计算",
-            "trackLabel": "Numerical analysis and scientific computing"
+            "count": 0
           },
           {
             "track": "numerical_analysis_scientific_computing",
             "tier": "important_mainstream",
-            "count": 0,
-            "trackLabelZh": "数值分析与科学计算",
-            "trackLabel": "Numerical analysis and scientific computing"
+            "count": 0
           },
           {
             "track": "numerical_analysis_scientific_computing",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "数值分析与科学计算",
-            "trackLabel": "Numerical analysis and scientific computing"
+            "count": 0
           },
           {
             "track": "complementarity_vi_nonsmooth",
             "tier": "top_core",
-            "count": 1,
-            "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-            "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+            "count": 1
           },
           {
             "track": "complementarity_vi_nonsmooth",
             "tier": "important_mainstream",
-            "count": 0,
-            "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-            "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+            "count": 0
           },
           {
             "track": "complementarity_vi_nonsmooth",
             "tier": "related_reference",
-            "count": 3,
-            "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-            "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+            "count": 0
           },
           {
             "track": "machine_learning_optimization",
             "tier": "top_core",
-            "count": 0,
-            "trackLabelZh": "机器学习优化与算法",
-            "trackLabel": "Machine learning and optimization"
+            "count": 0
           },
           {
             "track": "machine_learning_optimization",
             "tier": "important_mainstream",
-            "count": 3,
-            "trackLabelZh": "机器学习优化与算法",
-            "trackLabel": "Machine learning and optimization"
+            "count": 3
           },
           {
             "track": "machine_learning_optimization",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "机器学习优化与算法",
-            "trackLabel": "Machine learning and optimization"
+            "count": 0
           },
           {
             "track": "interdisciplinary_applications",
             "tier": "top_core",
-            "count": 0,
-            "trackLabelZh": "交叉应用方向",
-            "trackLabel": "Interdisciplinary applications"
+            "count": 0
           },
           {
             "track": "interdisciplinary_applications",
             "tier": "important_mainstream",
-            "count": 6,
-            "trackLabelZh": "交叉应用方向",
-            "trackLabel": "Interdisciplinary applications"
+            "count": 3
           },
           {
             "track": "interdisciplinary_applications",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "交叉应用方向",
-            "trackLabel": "Interdisciplinary applications"
+            "count": 0
           }
         ],
         "representativeWorks": [
@@ -76334,13 +76261,15 @@
           ]
         },
         "publicAnalysis": {
-          "careerPatternZh": "公开教育与任职路径包括：Assistant Professor; PhD 2019 · Peking University；2022 · Assistant Professor · Peking University。",
+          "careerPatternZh": "UCLA博士（2019年），曾任阿里巴巴决策智能实验室研究员，2022年起任北京大学机器学习研究中心助理教授。",
           "caveatsZh": [
-            "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+            "论文计数与招聘状态需以原始来源为准。"
           ],
-          "notice": "公开事实归纳，需回到证据台账核验",
-          "source": "deterministic_public_fact_summary"
+          "notice": "AI 辅助归纳，需回到公开证据核验",
+          "source": "deepseek_public_fact_summary",
+          "generatedAt": "2026-07-20T04:44:59.949Z"
         },
+        "uncertainties": [],
         "quality": {
           "status": "ready",
           "isPublicReady": true,
@@ -76370,7 +76299,7 @@
             "chance constraints",
             "decision under uncertainty"
           ],
-          "summaryZh": "USC/Pang-Sen 谱系；MOR、OR、SIOPT；随机规划学生论文奖 finalist",
+          "summaryZh": "USC/Pang-Sen 谱系；MOR、OR、SIOPT；随机规划学生论文奖 finalist。博士阶段围绕两阶段随机规划、随机分解和内生不确定性展开；与 Jong-Shi Pang 合作后转向非光滑、非凸随机优化、风险度量与机会约束，并进一步应用到治疗学习和贝叶斯分层模型。",
           "recentEvolution": [
             "博士阶段围绕两阶段随机规划、随机分解和内生不确定性展开；与 Jong-Shi Pang 合作后转向非光滑、非凸随机优化、风险度量与机会约束，并进一步应用到治疗学习和贝叶斯分层模型。"
           ],
@@ -76382,7 +76311,7 @@
           "applications": [],
           "featureProvenance": {
             "summary": "public_source_or_verified_summary",
-            "methods": "derived_from_public_research_fields",
+            "methods": "public_source_or_verified_supplement",
             "applications": "not_publicly_specified"
           }
         },
@@ -76653,12 +76582,13 @@
           ]
         },
         "publicAnalysis": {
-          "careerPatternZh": "公开教育与任职路径包括：Associate Professor; PhD 2019 · Tsinghua University；Employment · Tsinghua University。",
+          "careerPatternZh": "当前为清华大学副教授，博士毕业于2019年。公开信息未显示博士后经历或其他任职变化。",
           "caveatsZh": [
-            "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+            "论文计数与招聘状态需以原始来源为准。"
           ],
-          "notice": "公开事实归纳，需回到证据台账核验",
-          "source": "deterministic_public_fact_summary"
+          "notice": "AI 辅助归纳，需回到公开证据核验",
+          "source": "deepseek_public_fact_summary",
+          "generatedAt": "2026-07-20T04:44:59.949Z"
         },
         "uncertainties": [],
         "quality": {
@@ -77567,7 +77497,7 @@
             "uncertainty quantification",
             "data-driven modeling"
           ],
-          "summaryZh": "北大 PhD、Utah/Ohio State 博后；2026晋升教授；高阶数值方法成果突出",
+          "summaryZh": "高阶数值方法（DG、有限体积）及其在双曲守恒律、相对论流体力学、MHD中的应用；结合机器学习进行未知方程建模与动力学学习。",
           "recentEvolution": [
             {
               "topic": "Machine learning optimization",
@@ -77629,16 +77559,24 @@
             }
           ],
           "methods": [
-            "stochastic optimization and uncertainty methods",
-            "numerical analysis and scientific computing"
+            "high-order discontinuous Galerkin methods",
+            "bound-preserving finite volume methods",
+            "oscillation-suppressing frameworks",
+            "uncertainty quantification",
+            "data-driven modeling",
+            "neural integrators"
           ],
           "applications": [
-            "physical simulation and scientific computing"
+            "hyperbolic conservation laws",
+            "special relativistic hydrodynamics",
+            "ideal MHD equations",
+            "physical simulation",
+            "scientific computing"
           ],
           "featureProvenance": {
             "summary": "public_source_or_verified_summary",
-            "methods": "derived_from_public_research_fields",
-            "applications": "derived_from_public_research_fields"
+            "methods": "public_source_or_verified_supplement",
+            "applications": "public_source_or_verified_supplement"
           }
         },
         "publicationMetrics": {
@@ -77706,107 +77644,77 @@
           {
             "track": "optimization_operations_research",
             "tier": "top_core",
-            "count": 0,
-            "trackLabelZh": "数学优化与运筹学",
-            "trackLabel": "Optimization and operations research"
+            "count": 0
           },
           {
             "track": "optimization_operations_research",
             "tier": "important_mainstream",
-            "count": 0,
-            "trackLabelZh": "数学优化与运筹学",
-            "trackLabel": "Optimization and operations research"
+            "count": 0
           },
           {
             "track": "optimization_operations_research",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "数学优化与运筹学",
-            "trackLabel": "Optimization and operations research"
+            "count": 0
           },
           {
             "track": "numerical_analysis_scientific_computing",
             "tier": "top_core",
-            "count": 12,
-            "trackLabelZh": "数值分析与科学计算",
-            "trackLabel": "Numerical analysis and scientific computing"
+            "count": 3
           },
           {
             "track": "numerical_analysis_scientific_computing",
             "tier": "important_mainstream",
-            "count": 11,
-            "trackLabelZh": "数值分析与科学计算",
-            "trackLabel": "Numerical analysis and scientific computing"
+            "count": 2
           },
           {
             "track": "numerical_analysis_scientific_computing",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "数值分析与科学计算",
-            "trackLabel": "Numerical analysis and scientific computing"
+            "count": 0
           },
           {
             "track": "complementarity_vi_nonsmooth",
             "tier": "top_core",
-            "count": 0,
-            "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-            "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+            "count": 0
           },
           {
             "track": "complementarity_vi_nonsmooth",
             "tier": "important_mainstream",
-            "count": 0,
-            "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-            "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+            "count": 0
           },
           {
             "track": "complementarity_vi_nonsmooth",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-            "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+            "count": 0
           },
           {
             "track": "machine_learning_optimization",
             "tier": "top_core",
-            "count": 0,
-            "trackLabelZh": "机器学习优化与算法",
-            "trackLabel": "Machine learning and optimization"
+            "count": 0
           },
           {
             "track": "machine_learning_optimization",
             "tier": "important_mainstream",
-            "count": 0,
-            "trackLabelZh": "机器学习优化与算法",
-            "trackLabel": "Machine learning and optimization"
+            "count": 0
           },
           {
             "track": "machine_learning_optimization",
             "tier": "related_reference",
-            "count": 0,
-            "trackLabelZh": "机器学习优化与算法",
-            "trackLabel": "Machine learning and optimization"
+            "count": 0
           },
           {
             "track": "interdisciplinary_applications",
             "tier": "top_core",
-            "count": 11,
-            "trackLabelZh": "交叉应用方向",
-            "trackLabel": "Interdisciplinary applications"
+            "count": 2
           },
           {
             "track": "interdisciplinary_applications",
             "tier": "important_mainstream",
-            "count": 0,
-            "trackLabelZh": "交叉应用方向",
-            "trackLabel": "Interdisciplinary applications"
+            "count": 0
           },
           {
             "track": "interdisciplinary_applications",
             "tier": "related_reference",
-            "count": 10,
-            "trackLabelZh": "交叉应用方向",
-            "trackLabel": "Interdisciplinary applications"
+            "count": 4
           }
         ],
         "representativeWorks": [
@@ -78112,13 +78020,15 @@
           ]
         },
         "publicAnalysis": {
-          "careerPatternZh": "公开教育与任职路径包括：Professor; PhD 2016 · Southern University of Science and Technology；2011-2016 · Ph. D. student · Peking University；2021 · Associate Professor · Southern University of Science and Technology；2016-2020 · Postdoctoral Scholar · The Ohio State University；2016-2016 · Postdoctoral Fellow · University of Utah。",
+          "careerPatternZh": "2011-2016 北京大学数学科学学院博士；2016 犹他大学科学计算与成像研究所博士后；2016-2020 俄亥俄州立大学数学系博士后；2021-2026 南方科技大学数学系副教授；2026 晋升教授。",
           "caveatsZh": [
-            "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+            "论文计数与招聘状态需以原始来源为准。"
           ],
-          "notice": "公开事实归纳，需回到证据台账核验",
-          "source": "deterministic_public_fact_summary"
+          "notice": "AI 辅助归纳，需回到公开证据核验",
+          "source": "deepseek_public_fact_summary",
+          "generatedAt": "2026-07-20T04:44:59.949Z"
         },
+        "uncertainties": [],
         "quality": {
           "status": "ready",
           "isPublicReady": true,
@@ -83816,8 +83726,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 388
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 490
     },
     {
       "id": "academic-positions",
@@ -83829,8 +83739,8 @@
       "status": "error",
       "message": "HTTP 403",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 108
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 81
     },
     {
       "id": "academic-transfer",
@@ -83842,8 +83752,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 914
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 1119
     },
     {
       "id": "mathjobs",
@@ -83855,8 +83765,8 @@
       "status": "ok",
       "message": "1 candidates",
       "count": 1,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 308
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 953
     },
     {
       "id": "academic-jobs-online",
@@ -83868,8 +83778,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 113
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 423
     },
     {
       "id": "jobs-ac-uk",
@@ -83881,8 +83791,8 @@
       "status": "ok",
       "message": "13 candidates",
       "count": 13,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 1134
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 1708
     },
     {
       "id": "polyu",
@@ -83894,8 +83804,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 3355
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 2111
     },
     {
       "id": "hku",
@@ -83907,8 +83817,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 965
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 1153
     },
     {
       "id": "hkust-math",
@@ -83920,8 +83830,8 @@
       "status": "ok",
       "message": "3 candidates",
       "count": 3,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 852
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 684
     },
     {
       "id": "cuhk-math",
@@ -83933,8 +83843,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 1200
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 466
     },
     {
       "id": "nus",
@@ -83946,8 +83856,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 1692
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 1422
     },
     {
       "id": "ntu",
@@ -83959,8 +83869,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 704
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 720
     },
     {
       "id": "astar",
@@ -83972,8 +83882,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 1425
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 1151
     },
     {
       "id": "chinapostdoctor",
@@ -83985,8 +83895,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 882
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 883
     },
     {
       "id": "gaoxiaojob",
@@ -83998,8 +83908,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 1924
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 1492
     },
     {
       "id": "microsoft-research",
@@ -84011,8 +83921,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 557
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 687
     },
     {
       "id": "google-research",
@@ -84024,8 +83934,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 191
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 249
     },
     {
       "id": "deepmind",
@@ -84037,8 +83947,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 375
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 586
     },
     {
       "id": "huawei-noah",
@@ -84050,8 +83960,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 1171
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 913
     },
     {
       "id": "bytedance-seed",
@@ -84063,16 +83973,16 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-19T04:32:45.986Z",
-      "latencyMs": 852
+      "checkedAt": "2026-07-20T04:44:37.824Z",
+      "latencyMs": 1468
     }
   ],
   "reports": [
     {
       "kind": "weekly",
       "labelZh": "周报",
-      "date": "2026-07-14",
-      "content": "# 职业雷达周报 · 2026-07-14\n\n- 本周新增：8\n- 本周更新：17\n- 本周失效：1\n- A/B 高匹配：3\n- 30 天内截止：0\n- 学术候选池：132\n- 完整公开档案：132\n- 导师组 / 青年学者：52 / 84\n\n## 本周变化\n\n- **本周新增** [Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSF913/assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43\n- **本周新增** [Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics](https://www.jobs.ac.uk/job/DSE536/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 54\n- **已失效/已截止** [Postdoctoral Research Associate in Stochastic Analysis](https://www.jobs.ac.uk/job/DSE306/postdoctoral-research-associate-in-stochastic-analysis) · jobs.ac.uk Mathematics · United Kingdom · C 53\n- **本周更新** [物流与库存优化岗位入口](https://zhaopin.jd.com/) · 京东 · Mainland China\n- **本周更新** [供应链与决策优化岗位入口](https://talent.alibaba.com/) · 阿里巴巴 · Mainland China\n- **本周更新** [调度、路径与供需算法岗位入口](https://zhaopin.meituan.com/) · 美团 · Mainland China\n- **本周更新** [研究科学家与 Research Fellow](https://careers.a-star.edu.sg/) · A*STAR · Singapore\n- **本周更新** [供应链算法与 AI 应用专家](https://career.huawei.com/reccampportal/portal5/social-recruitment-ai.html) · 华为 · Mainland China\n- **本周更新** [Seed 研究员与研究工程师](https://seed.bytedance.com/en/career) · 字节跳动 · Mainland China\n- **本周更新** [量化研究与交易实习入口](https://optiver.com/working-at-optiver/career-opportunities/) · Optiver · Singapore\n- **本周更新** [市场、出行与数据科学岗位入口](https://www.grab.careers/) · Grab · Singapore\n- **本周更新** [研究员、Research SDE 与实习入口](https://www.microsoft.com/en-us/research/careers/open-positions/) · Microsoft Research · Global\n- **本周更新** [优化科学家与实习岗位](https://www.hexaly.com/join-us) · Hexaly · Europe\n- **本周更新** [优化与机器学习研究岗位](https://www.ibm.com/careers/search) · IBM Research · Europe\n- **本周更新** [算法与优化研究岗位入口](https://research.google/teams/algorithms-optimization/) · Google Research · Europe\n- **本周更新** [优化工程师与求解器研发](https://www.gurobi.com/company/careers/) · Gurobi · Global\n- **本周更新** [锥优化求解器人才监控入口](https://www.mosek.com/about/contact-information/) · MOSEK · Europe\n- **本周新增** [Humboldt Research Fellowship for Postdoctoral Researchers](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship) · Alexander von Humboldt Foundation · Europe · B 74\n- **本周新增** [RGC Junior Research Fellow Scheme](https://awards.ugc.edu.hk/award/rgc-junior-research-fellow-scheme) · University Grants Committee / Research Grants Council · Hong Kong · B 64\n- **本周新增** [Singapore NRF Fellowship](https://www.nrf.gov.sg/grants/nrff/) · National Research Foundation Singapore · Singapore · B 64\n- **本周新增** [MSCA Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) · European Commission · Europe · C 59\n- **本周新增** [Research Assistant Professor](https://www.math.hkust.edu.hk/employment/?menu=2) · HKUST Mathematics Employment · Hong Kong · C 45\n- **本周新增** [Professor/Associate/Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSD058/professor-associate-assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43\n- **本周更新** [SCOT 应用科学家 / 数据科学家](https://www.amazon.science/scot) · Amazon SCOT · Europe\n- **本周更新** [量化研究员](https://www.janestreet.com/join-jane-street/position/8071941002/) · Jane Street · Hong Kong\n- **本周更新** [量化研究岗位入口](https://www.twosigma.com/careers/) · Two Sigma · United States\n\n## 学术人物建设\n\n- 官方明确招聘：16\n- 基金或项目扩组信号：20（不等于招聘）\n- 长期接受申请：7\n- Fellowship host：4\n- [何鸟 / Niao He](https://postdoc-faculty-radar-public.vercel.app/#people/person-niao-he) · ETH Zurich · ORCID\n- [杜锦泉 / Kim-Chuan Toh](https://postdoc-faculty-radar-public.vercel.app/#people/nus-math-kim-chuan-toh) · National University of Singapore · ORCID\n- [Napat Rujeerapaiboon](https://postdoc-faculty-radar-public.vercel.app/#people/person-napat-rujeerapaiboon) · National University of Singapore · ORCID\n- [苏文藻 / Anthony Man-Cho So](https://postdoc-faculty-radar-public.vercel.app/#people/cuhk-seem-anthony-so) · The Chinese University of Hong Kong · ORCID\n- [阮越英 / Viet Anh Nguyen](https://postdoc-faculty-radar-public.vercel.app/#people/person-viet-anh-nguyen) · The Chinese University of Hong Kong · ORCID\n- [徐芦泽 / Luze Xu](https://postdoc-faculty-radar-public.vercel.app/#people/person-luze-xu) · The Hong Kong University of Science and Technology · ORCID\n- [梅三友 / Sanyou Mei](https://postdoc-faculty-radar-public.vercel.app/#people/person-sanyou-mei) · The Hong Kong University of Science and Technology · HKUSTResearchPortalAndAuthorHomepage\n- [谢岳 / Yue Xie](https://postdoc-faculty-radar-public.vercel.app/#people/hku-ids-yue-xie) · The University of Hong Kong · AuthorPublicationPage\n- [Daniel Kuhn](https://postdoc-faculty-radar-public.vercel.app/#people/epfl-rao-daniel-kuhn) · EPFL · ORCID\n- [Nicolas Boumal](https://postdoc-faculty-radar-public.vercel.app/#people/epfl-optim-nicolas-boumal) · EPFL · ORCID\n- [Wolfram Wiesemann](https://postdoc-faculty-radar-public.vercel.app/#people/imperial-wolfram-wiesemann) · Imperial College London · ORCID\n- [Coralia Cartis](https://postdoc-faculty-radar-public.vercel.app/#people/oxford-coralia-cartis) · University of Oxford · ORCID\n\n## 数据源状态\n\n- 正常或有结果：2/20\n- 抓取失败：Academic Positions · HTTP 403\n- 抓取失败：CUHK Mathematics Career Opportunities · fetch failed\n- 抓取失败：Huawei Noah's Ark Lab · fetch failed\n\n## 查看网站\n\n[打开博后教职职业情报门户](https://postdoc-faculty-radar-public.vercel.app/)\n\n> 自动生成的情报摘要。岗位状态与申请要求以官方原文为准。\n"
+      "date": "2026-07-20",
+      "content": "# 职业雷达周报 · 2026-07-20\n\n- 本周新增：0\n- 本周更新：0\n- 本周失效：3\n- A/B 高匹配：3\n- 30 天内截止：0\n- 学术候选池：132\n- 完整公开档案：132\n- 导师组 / 青年学者：52 / 84\n\n## 本周变化\n\n- **已失效/已截止** [Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSF913/assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43\n- **已失效/已截止** [Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics](https://www.jobs.ac.uk/job/DSE536/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 54\n- **已失效/已截止** [Professor/Associate/Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSD058/professor-associate-assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43\n\n## 学术人物建设\n\n- 官方明确招聘：16\n- 基金或项目扩组信号：20（不等于招聘）\n- 长期接受申请：7\n- Fellowship host：4\n- [何鸟 / Niao He](https://postdoc-faculty-radar-public.vercel.app/#people/person-niao-he) · ETH Zurich · ORCID\n- [杜锦泉 / Kim-Chuan Toh](https://postdoc-faculty-radar-public.vercel.app/#people/nus-math-kim-chuan-toh) · National University of Singapore · ORCID\n- [Napat Rujeerapaiboon](https://postdoc-faculty-radar-public.vercel.app/#people/person-napat-rujeerapaiboon) · National University of Singapore · ORCID\n- [苏文藻 / Anthony Man-Cho So](https://postdoc-faculty-radar-public.vercel.app/#people/cuhk-seem-anthony-so) · The Chinese University of Hong Kong · ORCID\n- [阮越英 / Viet Anh Nguyen](https://postdoc-faculty-radar-public.vercel.app/#people/person-viet-anh-nguyen) · The Chinese University of Hong Kong · ORCID\n- [徐芦泽 / Luze Xu](https://postdoc-faculty-radar-public.vercel.app/#people/person-luze-xu) · The Hong Kong University of Science and Technology · ORCID\n- [梅三友 / Sanyou Mei](https://postdoc-faculty-radar-public.vercel.app/#people/person-sanyou-mei) · The Hong Kong University of Science and Technology · HKUSTResearchPortalAndAuthorHomepage\n- [谢岳 / Yue Xie](https://postdoc-faculty-radar-public.vercel.app/#people/hku-ids-yue-xie) · The University of Hong Kong · AuthorPublicationPage\n- [Daniel Kuhn](https://postdoc-faculty-radar-public.vercel.app/#people/epfl-rao-daniel-kuhn) · EPFL · ORCID\n- [Nicolas Boumal](https://postdoc-faculty-radar-public.vercel.app/#people/epfl-optim-nicolas-boumal) · EPFL · ORCID\n- [Wolfram Wiesemann](https://postdoc-faculty-radar-public.vercel.app/#people/imperial-wolfram-wiesemann) · Imperial College London · ORCID\n- [Coralia Cartis](https://postdoc-faculty-radar-public.vercel.app/#people/oxford-coralia-cartis) · University of Oxford · ORCID\n\n## 数据源状态\n\n- 正常或有结果：3/20\n- 抓取失败：Academic Positions · HTTP 403\n- 抓取失败：CUHK Mathematics Career Opportunities · fetch failed\n- 抓取失败：Huawei Noah's Ark Lab · fetch failed\n\n## 查看网站\n\n[打开博后教职职业情报门户](https://postdoc-faculty-radar-public.vercel.app/)\n\n> 自动生成的情报摘要。岗位状态与申请要求以官方原文为准。\n"
     },
     {
       "kind": "monthly",
@@ -84095,7 +84005,7 @@
   ],
   "updates": {
     "windowDays": 7,
-    "generatedAt": "2026-07-19T04:33:05.296Z",
+    "generatedAt": "2026-07-20T04:45:17.516Z",
     "newCount": 0,
     "updatedCount": 0,
     "expiredCount": 3,
@@ -84163,7 +84073,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-19T04:32:45.986Z",
+        "createdAt": "2026-07-20T04:44:37.824Z",
         "id": "1411a9a5c5c5768d",
         "matchScore": 74,
         "priority": "B",
@@ -84176,11 +84086,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-        "updatedAt": "2026-07-19T04:32:45.986Z",
+        "updatedAt": "2026-07-20T04:44:37.824Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-19T04:32:45.986Z",
+        "lastSeenAt": "2026-07-20T04:44:37.824Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84228,7 +84138,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-19T04:32:45.986Z",
+        "createdAt": "2026-07-20T04:44:37.824Z",
         "id": "576a05e8b695f331",
         "matchScore": 64,
         "priority": "B",
@@ -84238,11 +84148,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Hong Kong · Fellowship",
-        "updatedAt": "2026-07-19T04:32:45.986Z",
+        "updatedAt": "2026-07-20T04:44:37.824Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-19T04:32:45.986Z",
+        "lastSeenAt": "2026-07-20T04:44:37.824Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84290,7 +84200,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-19T04:32:45.986Z",
+        "createdAt": "2026-07-20T04:44:37.824Z",
         "id": "bbac44b5da0bc36a",
         "matchScore": 64,
         "priority": "B",
@@ -84300,11 +84210,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Singapore · Fellowship",
-        "updatedAt": "2026-07-19T04:32:45.986Z",
+        "updatedAt": "2026-07-20T04:44:37.824Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-19T04:32:45.986Z",
+        "lastSeenAt": "2026-07-20T04:44:37.824Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84351,7 +84261,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-19T04:32:45.986Z",
+        "createdAt": "2026-07-20T04:44:37.824Z",
         "id": "e1e5047f5f87635e",
         "matchScore": 59,
         "priority": "C",
@@ -84361,11 +84271,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship",
-        "updatedAt": "2026-07-19T04:32:45.986Z",
+        "updatedAt": "2026-07-20T04:44:37.824Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-19T04:32:45.986Z",
+        "lastSeenAt": "2026-07-20T04:44:37.824Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
