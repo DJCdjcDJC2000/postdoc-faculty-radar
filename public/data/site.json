@@ -46,12 +46,12 @@
     }
   },
   "metadata": {
-    "generatedAt": "2026-07-23T04:31:20.275Z",
+    "generatedAt": "2026-07-24T04:30:09.195Z",
     "offline": false,
-    "jobCount": 12,
-    "alertCount": 4,
+    "jobCount": 13,
+    "alertCount": 3,
     "sourceCount": 20,
-    "builtAt": "2026-07-23T04:31:41.243Z",
+    "builtAt": "2026-07-24T04:30:29.852Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -76,11 +76,11 @@
   },
   "metrics": {
     "totalJobs": 8,
-    "archivedJobs": 4,
+    "archivedJobs": 5,
     "newJobs": 2,
     "updatedJobs": 0,
     "expiredJobs": 1,
-    "highMatchJobs": 4,
+    "highMatchJobs": 3,
     "dueSoonJobs": 0,
     "activeSources": 4,
     "totalSources": 20,
@@ -118,7 +118,7 @@
       "trust": "lead",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-23T04:31:20.275Z",
+      "createdAt": "2026-07-24T04:30:09.195Z",
       "id": "c4f0adb87a8dfd89",
       "matchScore": 100,
       "priority": "A",
@@ -139,11 +139,11 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "线索待核验",
       "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-      "updatedAt": "2026-07-23T04:31:20.275Z",
+      "updatedAt": "2026-07-24T04:30:09.195Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-23T04:31:20.275Z",
+      "lastSeenAt": "2026-07-24T04:30:09.195Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -192,7 +192,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-23T04:31:20.275Z",
+      "createdAt": "2026-07-24T04:30:09.195Z",
       "id": "1411a9a5c5c5768d",
       "matchScore": 74,
       "priority": "B",
@@ -205,11 +205,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-      "updatedAt": "2026-07-23T04:31:20.275Z",
+      "updatedAt": "2026-07-24T04:30:09.195Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-23T04:31:20.275Z",
+      "lastSeenAt": "2026-07-24T04:30:09.195Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -257,7 +257,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-23T04:31:20.275Z",
+      "createdAt": "2026-07-24T04:30:09.195Z",
       "id": "576a05e8b695f331",
       "matchScore": 64,
       "priority": "B",
@@ -267,11 +267,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Fellowship",
-      "updatedAt": "2026-07-23T04:31:20.275Z",
+      "updatedAt": "2026-07-24T04:30:09.195Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-23T04:31:20.275Z",
+      "lastSeenAt": "2026-07-24T04:30:09.195Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -319,7 +319,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-23T04:31:20.275Z",
+      "createdAt": "2026-07-24T04:30:09.195Z",
       "id": "bbac44b5da0bc36a",
       "matchScore": 64,
       "priority": "B",
@@ -329,11 +329,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Singapore · Fellowship",
-      "updatedAt": "2026-07-23T04:31:20.275Z",
+      "updatedAt": "2026-07-24T04:30:09.195Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-23T04:31:20.275Z",
+      "lastSeenAt": "2026-07-24T04:30:09.195Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -378,7 +378,7 @@
       ],
       "deadline": "2026-08-31",
       "fieldRelevantSource": false,
-      "status": "active",
+      "status": "expired",
       "trust": "academic_board",
       "fetchedAt": "2026-07-23T04:31:20.275Z",
       "id": "c283d57a458340bb",
@@ -393,13 +393,13 @@
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "Europe · 大厂研究岗 · operations research",
       "updatedAt": "2026-07-23T04:31:20.275Z",
-      "lifecycleStatus": "active",
-      "lifecycleLabelZh": "当前有效",
+      "lifecycleStatus": "expired",
+      "lifecycleLabelZh": "已失效/已截止",
       "firstSeenAt": "2026-07-23T04:31:20.275Z",
       "lastSeenAt": "2026-07-23T04:31:20.275Z",
-      "lastChangedAt": "2026-07-23T04:31:20.275Z",
-      "changeType": "new",
-      "archivedAt": null,
+      "lastChangedAt": "2026-07-24T04:30:09.195Z",
+      "changeType": "expired",
+      "archivedAt": "2026-07-24T04:30:09.195Z",
       "stale": false,
       "ai": {
         "status": "rule_fallback",
@@ -416,8 +416,8 @@
         "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
       },
       "freshness": {
-        "type": "new",
-        "labelZh": "本周新增",
+        "type": "expired",
+        "labelZh": "已失效/已截止",
         "highlighted": true
       }
     },
@@ -441,7 +441,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-07-23T04:31:20.275Z",
+      "createdAt": "2026-07-24T04:30:09.195Z",
       "id": "e1e5047f5f87635e",
       "matchScore": 59,
       "priority": "C",
@@ -451,11 +451,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship",
-      "updatedAt": "2026-07-23T04:31:20.275Z",
+      "updatedAt": "2026-07-24T04:30:09.195Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-23T04:31:20.275Z",
+      "lastSeenAt": "2026-07-24T04:30:09.195Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -491,6 +491,67 @@
         "depth": 1
       },
       "freshness": null
+    },
+    {
+      "title": "Junior Professor Chair (tenure track position) Université Paris Sciences et Lettres Supporting an Efficient Logistics Transition Through Artificial Intelligence",
+      "institution": "EURAXESS Jobs",
+      "department": "",
+      "region": "Europe",
+      "country": "Europe",
+      "roleType": "faculty",
+      "track": "academia",
+      "sourceName": "EURAXESS Jobs",
+      "sourceId": "euraxess",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/455412",
+      "originalSourceUrl": "https://euraxess.ec.europa.eu/jobs/search",
+      "description": "Junior Professor Chair (tenure track position) Université Paris Sciences et Lettres Supporting an Efficient Logistics Transition Through Artificial Intelligence Université PSLPosted on: 23 July 2026Junior Professor Chair (tenure track position) Université Paris Sciences et Lettres Supporting an Efficient Logistics Transition Through Artificial Intelligence Université PSL is launching a call for applications for a Junior Professor Chair in management sciences titled \" Supporting an Efficient Tran",
+      "keywords": [
+        "logistics"
+      ],
+      "deadline": "2026-09-28",
+      "fieldRelevantSource": false,
+      "status": "active",
+      "trust": "academic_board",
+      "fetchedAt": "2026-07-24T04:30:09.195Z",
+      "id": "31e667ca303a4cb0",
+      "matchScore": 58,
+      "priority": "C",
+      "matchedKeywords": [
+        "logistics"
+      ],
+      "negativeKeywords": [],
+      "relevance": "core",
+      "roleLabelZh": "教职",
+      "sourceTrustLabelZh": "权威平台",
+      "simpleReason": "Europe · 教职 · logistics",
+      "updatedAt": "2026-07-24T04:30:09.195Z",
+      "lifecycleStatus": "active",
+      "lifecycleLabelZh": "当前有效",
+      "firstSeenAt": "2026-07-24T04:30:09.195Z",
+      "lastSeenAt": "2026-07-24T04:30:09.195Z",
+      "lastChangedAt": "2026-07-24T04:30:09.195Z",
+      "changeType": "new",
+      "archivedAt": null,
+      "stale": false,
+      "ai": {
+        "status": "rule_fallback",
+        "notice": "AI 辅助生成，需核验",
+        "summaryZh": "Europe · 教职 · logistics",
+        "tagsZh": [
+          "logistics"
+        ],
+        "positiveZh": [
+          "Europe · 教职 · logistics"
+        ],
+        "negativeZh": [],
+        "riskZh": "需打开官方原始链接核验岗位细节。",
+        "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
+      }
     },
     {
       "title": "Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics",
@@ -650,7 +711,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "academic_board",
-      "fetchedAt": "2026-07-23T04:31:20.275Z",
+      "fetchedAt": "2026-07-24T04:30:09.195Z",
       "id": "b1203f6938fc5897",
       "matchScore": 50,
       "priority": "C",
@@ -662,11 +723,11 @@
       "roleLabelZh": "Research Fellow",
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "United Kingdom · Research Fellow · transportation",
-      "updatedAt": "2026-07-23T04:31:20.275Z",
+      "updatedAt": "2026-07-24T04:30:09.195Z",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-07-23T04:31:20.275Z",
-      "lastSeenAt": "2026-07-23T04:31:20.275Z",
+      "lastSeenAt": "2026-07-24T04:30:09.195Z",
       "lastChangedAt": "2026-07-23T04:31:20.275Z",
       "changeType": "new",
       "archivedAt": null,
@@ -708,7 +769,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "official",
-      "fetchedAt": "2026-07-23T04:31:20.275Z",
+      "fetchedAt": "2026-07-24T04:30:09.195Z",
       "id": "8f0378d469afbb63",
       "matchScore": 45,
       "priority": "C",
@@ -720,14 +781,14 @@
       "roleLabelZh": "Research Fellow",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Research Fellow",
-      "updatedAt": "2026-07-23T04:31:20.275Z",
+      "updatedAt": "2026-07-24T04:30:09.195Z",
       "stale": false,
       "changeType": null,
       "sourceId": "hkust-math",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-07-23T04:31:20.275Z",
+      "lastSeenAt": "2026-07-24T04:30:09.195Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "ai": {
@@ -795,7 +856,7 @@
       "firstSeenAt": "2026-07-14T04:16:16.757Z",
       "lastSeenAt": "2026-07-16T04:24:05.369Z",
       "lastChangedAt": "2026-07-17T04:22:52.678Z",
-      "changeType": "expired",
+      "changeType": null,
       "archivedAt": "2026-07-17T04:22:52.678Z",
       "stale": false,
       "ai": {
@@ -821,7 +882,7 @@
       "freshness": {
         "type": "expired",
         "labelZh": "已失效/已截止",
-        "highlighted": true
+        "highlighted": false
       }
     },
     {
@@ -939,20 +1000,6 @@
       "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
       "reason": "Singapore · Fellowship",
       "aiSummaryZh": "新加坡国家研究基金会（NRF）提供早期独立研究职位，适合博士后向独立研究员过渡。"
-    },
-    {
-      "id": "c283d57a458340bb",
-      "title": "Researcher in Operations Research for Electric Vehicle Fleet Charging Optimization - G-SCOP",
-      "institution": "EURAXESS Jobs",
-      "region": "Europe",
-      "roleType": "industry_research",
-      "roleLabelZh": "大厂研究岗",
-      "priority": "B",
-      "matchScore": 63,
-      "sourceName": "EURAXESS Jobs",
-      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/454956",
-      "reason": "Europe · 大厂研究岗 · operations research",
-      "aiSummaryZh": "Europe · 大厂研究岗 · operations research"
     }
   ],
   "people": [
@@ -83862,8 +83909,8 @@
       "status": "ok",
       "message": "1 candidates",
       "count": 1,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 411
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 604
     },
     {
       "id": "academic-positions",
@@ -83875,8 +83922,8 @@
       "status": "error",
       "message": "HTTP 403",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 129
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 47
     },
     {
       "id": "academic-transfer",
@@ -83888,8 +83935,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 1083
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 1199
     },
     {
       "id": "mathjobs",
@@ -83898,11 +83945,11 @@
       "url": "https://www.mathjobs.org/jobs",
       "trust": "academic_board",
       "sourceType": "academic_board",
-      "status": "ok",
-      "message": "2 candidates",
-      "count": 2,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 662
+      "status": "no_candidates",
+      "message": "0 candidates",
+      "count": 0,
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 1120
     },
     {
       "id": "academic-jobs-online",
@@ -83914,8 +83961,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 328
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 778
     },
     {
       "id": "jobs-ac-uk",
@@ -83925,10 +83972,10 @@
       "trust": "academic_board",
       "sourceType": "academic_board",
       "status": "ok",
-      "message": "15 candidates",
-      "count": 15,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 1942
+      "message": "13 candidates",
+      "count": 13,
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 1623
     },
     {
       "id": "polyu",
@@ -83940,8 +83987,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 2396
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 1900
     },
     {
       "id": "hku",
@@ -83953,8 +84000,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 991
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 1136
     },
     {
       "id": "hkust-math",
@@ -83966,8 +84013,8 @@
       "status": "ok",
       "message": "3 candidates",
       "count": 3,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 816
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 664
     },
     {
       "id": "cuhk-math",
@@ -83979,8 +84026,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 1019
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 712
     },
     {
       "id": "nus",
@@ -83992,8 +84039,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 1561
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 1251
     },
     {
       "id": "ntu",
@@ -84005,8 +84052,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 634
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 799
     },
     {
       "id": "astar",
@@ -84018,8 +84065,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 1423
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 1192
     },
     {
       "id": "chinapostdoctor",
@@ -84031,8 +84078,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 1227
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 998
     },
     {
       "id": "gaoxiaojob",
@@ -84041,11 +84088,11 @@
       "url": "https://www.gaoxiaojob.com/",
       "trust": "aggregator",
       "sourceType": "aggregator",
-      "status": "no_candidates",
-      "message": "0 candidates",
-      "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 1896
+      "status": "ok",
+      "message": "1 candidates",
+      "count": 1,
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 1637
     },
     {
       "id": "microsoft-research",
@@ -84057,8 +84104,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 1635
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 1351
     },
     {
       "id": "google-research",
@@ -84070,8 +84117,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 183
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 286
     },
     {
       "id": "deepmind",
@@ -84083,8 +84130,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 472
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 621
     },
     {
       "id": "huawei-noah",
@@ -84096,8 +84143,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 837
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 968
     },
     {
       "id": "bytedance-seed",
@@ -84109,8 +84156,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-07-23T04:31:20.275Z",
-      "latencyMs": 1136
+      "checkedAt": "2026-07-24T04:30:09.195Z",
+      "latencyMs": 1584
     }
   ],
   "reports": [
@@ -84141,7 +84188,7 @@
   ],
   "updates": {
     "windowDays": 7,
-    "generatedAt": "2026-07-23T04:31:41.243Z",
+    "generatedAt": "2026-07-24T04:30:29.852Z",
     "newCount": 2,
     "updatedCount": 0,
     "expiredCount": 1,
@@ -84149,15 +84196,28 @@
       {
         "id": "c283d57a458340bb",
         "kind": "job",
-        "type": "new",
-        "labelZh": "本周新增",
+        "type": "expired",
+        "labelZh": "已失效/已截止",
         "title": "Researcher in Operations Research for Electric Vehicle Fleet Charging Optimization - G-SCOP",
         "organization": "EURAXESS Jobs",
         "region": "Europe",
         "priority": "B",
         "score": 63,
         "sourceUrl": "https://euraxess.ec.europa.eu/jobs/454956",
-        "changedAt": "2026-07-23T04:31:20.275Z"
+        "changedAt": "2026-07-24T04:30:09.195Z"
+      },
+      {
+        "id": "31e667ca303a4cb0",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "Junior Professor Chair (tenure track position) Université Paris Sciences et Lettres Supporting an Efficient Logistics Transition Through Artificial Intelligence",
+        "organization": "EURAXESS Jobs",
+        "region": "Europe",
+        "priority": "C",
+        "score": 58,
+        "sourceUrl": "https://euraxess.ec.europa.eu/jobs/455412",
+        "changedAt": "2026-07-24T04:30:09.195Z"
       },
       {
         "id": "b1203f6938fc5897",
@@ -84171,19 +84231,6 @@
         "score": 50,
         "sourceUrl": "https://www.jobs.ac.uk/job/DSI662/research-fellow-in-digital-twinning-for-crisis-and-resilience-in-transportation",
         "changedAt": "2026-07-23T04:31:20.275Z"
-      },
-      {
-        "id": "79605fde47e58ad1",
-        "kind": "job",
-        "type": "expired",
-        "labelZh": "已失效/已截止",
-        "title": "Assistant Professor in Applied Mathematics",
-        "organization": "jobs.ac.uk Mathematics",
-        "region": "United Kingdom",
-        "priority": "C",
-        "score": 43,
-        "sourceUrl": "https://www.jobs.ac.uk/job/DSF913/assistant-professor-in-applied-mathematics",
-        "changedAt": "2026-07-17T04:22:52.678Z"
       }
     ]
   },
@@ -84209,7 +84256,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-23T04:31:20.275Z",
+        "createdAt": "2026-07-24T04:30:09.195Z",
         "id": "1411a9a5c5c5768d",
         "matchScore": 74,
         "priority": "B",
@@ -84222,11 +84269,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-        "updatedAt": "2026-07-23T04:31:20.275Z",
+        "updatedAt": "2026-07-24T04:30:09.195Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-23T04:31:20.275Z",
+        "lastSeenAt": "2026-07-24T04:30:09.195Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84274,7 +84321,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-23T04:31:20.275Z",
+        "createdAt": "2026-07-24T04:30:09.195Z",
         "id": "576a05e8b695f331",
         "matchScore": 64,
         "priority": "B",
@@ -84284,11 +84331,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Hong Kong · Fellowship",
-        "updatedAt": "2026-07-23T04:31:20.275Z",
+        "updatedAt": "2026-07-24T04:30:09.195Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-23T04:31:20.275Z",
+        "lastSeenAt": "2026-07-24T04:30:09.195Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84336,7 +84383,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-23T04:31:20.275Z",
+        "createdAt": "2026-07-24T04:30:09.195Z",
         "id": "bbac44b5da0bc36a",
         "matchScore": 64,
         "priority": "B",
@@ -84346,11 +84393,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Singapore · Fellowship",
-        "updatedAt": "2026-07-23T04:31:20.275Z",
+        "updatedAt": "2026-07-24T04:30:09.195Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-23T04:31:20.275Z",
+        "lastSeenAt": "2026-07-24T04:30:09.195Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84397,7 +84444,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-07-23T04:31:20.275Z",
+        "createdAt": "2026-07-24T04:30:09.195Z",
         "id": "e1e5047f5f87635e",
         "matchScore": 59,
         "priority": "C",
@@ -84407,11 +84454,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship",
-        "updatedAt": "2026-07-23T04:31:20.275Z",
+        "updatedAt": "2026-07-24T04:30:09.195Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-07-23T04:31:20.275Z",
+        "lastSeenAt": "2026-07-24T04:30:09.195Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84451,55 +84498,55 @@
     ],
     "deadlines": [
       {
-        "title": "Researcher in Operations Research for Electric Vehicle Fleet Charging Optimization - G-SCOP",
+        "title": "Junior Professor Chair (tenure track position) Université Paris Sciences et Lettres Supporting an Efficient Logistics Transition Through Artificial Intelligence",
         "institution": "EURAXESS Jobs",
         "department": "",
         "region": "Europe",
         "country": "Europe",
-        "roleType": "industry_research",
-        "track": "industry",
+        "roleType": "faculty",
+        "track": "academia",
         "sourceName": "EURAXESS Jobs",
         "sourceId": "euraxess",
-        "sourceUrl": "https://euraxess.ec.europa.eu/jobs/454956",
+        "sourceUrl": "https://euraxess.ec.europa.eu/jobs/455412",
         "originalSourceUrl": "https://euraxess.ec.europa.eu/jobs/search",
-        "description": "Researcher in Operations Research for Electric Vehicle Fleet Charging Optimization - G-SCOP Grenoble INP - Institute of EngineeringPosted on: 22 July 2026Researcher in Operations Research for Electric Vehicle Fleet Charging Optimization - G-SCOPMain goall: to develop optimization models for electric vehicle fleet charging planning.Activities:• Apply operations research methods (linear and mixed-integer programming, dynamic optimization, stochastic optimization)• Integrate lithium-ion battery mod",
+        "description": "Junior Professor Chair (tenure track position) Université Paris Sciences et Lettres Supporting an Efficient Logistics Transition Through Artificial Intelligence Université PSLPosted on: 23 July 2026Junior Professor Chair (tenure track position) Université Paris Sciences et Lettres Supporting an Efficient Logistics Transition Through Artificial Intelligence Université PSL is launching a call for applications for a Junior Professor Chair in management sciences titled \" Supporting an Efficient Tran",
         "keywords": [
-          "operations research"
+          "logistics"
         ],
-        "deadline": "2026-08-31",
+        "deadline": "2026-09-28",
         "fieldRelevantSource": false,
         "status": "active",
         "trust": "academic_board",
-        "fetchedAt": "2026-07-23T04:31:20.275Z",
-        "id": "c283d57a458340bb",
-        "matchScore": 63,
-        "priority": "B",
+        "fetchedAt": "2026-07-24T04:30:09.195Z",
+        "id": "31e667ca303a4cb0",
+        "matchScore": 58,
+        "priority": "C",
         "matchedKeywords": [
-          "operations research"
+          "logistics"
         ],
         "negativeKeywords": [],
         "relevance": "core",
-        "roleLabelZh": "大厂研究岗",
+        "roleLabelZh": "教职",
         "sourceTrustLabelZh": "权威平台",
-        "simpleReason": "Europe · 大厂研究岗 · operations research",
-        "updatedAt": "2026-07-23T04:31:20.275Z",
+        "simpleReason": "Europe · 教职 · logistics",
+        "updatedAt": "2026-07-24T04:30:09.195Z",
         "lifecycleStatus": "active",
         "lifecycleLabelZh": "当前有效",
-        "firstSeenAt": "2026-07-23T04:31:20.275Z",
-        "lastSeenAt": "2026-07-23T04:31:20.275Z",
-        "lastChangedAt": "2026-07-23T04:31:20.275Z",
+        "firstSeenAt": "2026-07-24T04:30:09.195Z",
+        "lastSeenAt": "2026-07-24T04:30:09.195Z",
+        "lastChangedAt": "2026-07-24T04:30:09.195Z",
         "changeType": "new",
         "archivedAt": null,
         "stale": false,
         "ai": {
           "status": "rule_fallback",
           "notice": "AI 辅助生成，需核验",
-          "summaryZh": "Europe · 大厂研究岗 · operations research",
+          "summaryZh": "Europe · 教职 · logistics",
           "tagsZh": [
-            "operations research"
+            "logistics"
           ],
           "positiveZh": [
-            "Europe · 大厂研究岗 · operations research"
+            "Europe · 教职 · logistics"
           ],
           "negativeZh": [],
           "riskZh": "需打开官方原始链接核验岗位细节。",

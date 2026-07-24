@@ -37,18 +37,5 @@
     "sourceName": "NRF Singapore",
     "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
     "reason": "Singapore · Fellowship"
-  },
-  {
-    "id": "c283d57a458340bb",
-    "title": "Researcher in Operations Research for Electric Vehicle Fleet Charging Optimization - G-SCOP",
-    "institution": "EURAXESS Jobs",
-    "region": "Europe",
-    "roleType": "industry_research",
-    "roleLabelZh": "大厂研究岗",
-    "priority": "B",
-    "matchScore": 63,
-    "sourceName": "EURAXESS Jobs",
-    "sourceUrl": "https://euraxess.ec.europa.eu/jobs/454956",
-    "reason": "Europe · 大厂研究岗 · operations research"
   }
 ]

@@ -40,19 +40,5 @@
     "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
     "reason": "Singapore · Fellowship",
     "aiSummaryZh": "新加坡国家研究基金会（NRF）提供早期独立研究职位，适合博士后向独立研究员过渡。"
-  },
-  {
-    "id": "c283d57a458340bb",
-    "title": "Researcher in Operations Research for Electric Vehicle Fleet Charging Optimization - G-SCOP",
-    "institution": "EURAXESS Jobs",
-    "region": "Europe",
-    "roleType": "industry_research",
-    "roleLabelZh": "大厂研究岗",
-    "priority": "B",
-    "matchScore": 63,
-    "sourceName": "EURAXESS Jobs",
-    "sourceUrl": "https://euraxess.ec.europa.eu/jobs/454956",
-    "reason": "Europe · 大厂研究岗 · operations research",
-    "aiSummaryZh": "Europe · 大厂研究岗 · operations research"
   }
 ]
