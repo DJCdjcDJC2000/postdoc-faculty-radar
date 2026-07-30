@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { retryDelayMs } from "./lib/openalex.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const file = path.join(projectRoot, "data", "research", "academic-enrichment.json");
@@ -57,9 +58,26 @@ function normalizeOrcid(value) {
 }
 
 async function requestJson(url, headers) {
-  const response = await fetch(url, { headers, signal: AbortSignal.timeout(30_000) });
-  if (!response.ok) throw new Error(`Verification request failed with HTTP ${response.status}: ${url}`);
-  return response.json();
+  for (let attempt = 0; attempt < 5; attempt += 1) {
+    try {
+      const response = await fetch(url, { headers, signal: AbortSignal.timeout(30_000) });
+      if (response.ok) return response.json();
+      if (![408, 425, 429].includes(response.status) && response.status < 500) {
+        throw new Error(`Verification request failed with HTTP ${response.status}: ${url}`);
+      }
+      if (attempt === 4) {
+        throw new Error(`Verification request failed with HTTP ${response.status}: ${url}`);
+      }
+      await delay(retryDelayMs(attempt, response.headers.get("retry-after")));
+    } catch (error) {
+      if (attempt === 4 || error.message.startsWith("Verification request failed")) throw error;
+      await delay(retryDelayMs(attempt, null));
+    }
+  }
+}
+
+function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function writeJsonAtomically(target, value) {
