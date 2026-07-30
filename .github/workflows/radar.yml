@@ -46,8 +46,10 @@ jobs:
       - run: npm run test
       - name: Select update mode
         shell: bash
+        env:
+          HEAD_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         run: |
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" || "${{ github.event.schedule }}" == "7 1 * * 1" ]]; then
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" || "${{ github.event.schedule }}" == "7 1 * * 1" || "$HEAD_COMMIT_MESSAGE" == *"[full-update]"* ]]; then
             echo "FULL_UPDATE=true" >> "$GITHUB_ENV"
           else
             echo "FULL_UPDATE=false" >> "$GITHUB_ENV"
