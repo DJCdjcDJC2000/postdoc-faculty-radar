@@ -1,6 +1,6 @@
-# 职业雷达周报 · 2026-07-20
+# 职业雷达周报 · 2026-07-30
 
-- 本周新增：0
+- 本周新增：3
 - 本周更新：0
 - 本周失效：3
 - A/B 高匹配：3
@@ -11,9 +11,12 @@
 
 ## 本周变化
 
-- **已失效/已截止** [Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSF913/assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
-- **已失效/已截止** [Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics](https://www.jobs.ac.uk/job/DSE536/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 54
-- **已失效/已截止** [Professor/Associate/Assistant Professor in Applied Mathematics](https://www.jobs.ac.uk/job/DSD058/professor-associate-assistant-professor-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
+- **本周新增** [Research Associate in Modelling and Simulation of Contrail Formation (Fixed Term)](https://www.jobs.ac.uk/job/DSK505/research-associate-in-modelling-and-simulation-of-contrail-formation-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 50
+- **本周新增** [Associate Professorship (or Professorship) in Applied Mathematics](https://www.jobs.ac.uk/job/DSK277/associate-professorship-or-professorship-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
+- **本周新增** [Associate / Full Professor in Applied Mathematics / Statistics](https://www.jobs.ac.uk/job/DSK054/associate-full-professor-in-applied-mathematics-statistics) · jobs.ac.uk Mathematics · United Kingdom · C 54
+- **已失效/已截止** [Research fellow in Digital Twinning for Crisis and Resilience in Transportation](https://www.jobs.ac.uk/job/DSI662/research-fellow-in-digital-twinning-for-crisis-and-resilience-in-transportation) · jobs.ac.uk Mathematics · United Kingdom · C 50
+- **已失效/已截止** [Junior Professor Chair (tenure track position) Université Paris Sciences et Lettres Supporting an Efficient Logistics Transition Through Artificial Intelligence](https://euraxess.ec.europa.eu/jobs/455412) · EURAXESS Jobs · Europe · C 58
+- **已失效/已截止** [Researcher in Operations Research for Electric Vehicle Fleet Charging Optimization - G-SCOP](https://euraxess.ec.europa.eu/jobs/454956) · EURAXESS Jobs · Europe · B 63
 
 ## 学术人物建设
 
@@ -39,6 +42,7 @@
 - 正常或有结果：3/20
 - 抓取失败：Academic Positions · HTTP 403
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
+- 抓取失败：高校人才网 · HTTP 403
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed
 
 ## 查看网站

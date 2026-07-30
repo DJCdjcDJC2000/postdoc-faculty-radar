@@ -2291,5 +2291,136 @@
     "riskZh": "岗位信息简短，未说明具体研究方向或教学要求，匹配度可能有限。",
     "nextStepZh": "访问原链接查看完整职位描述，确认研究方向是否匹配，并准备申请材料。",
     "depth": 1
+  },
+  "c283d57a458340bb": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-30T14:29:02.404Z",
+    "jobFingerprint": "B|63|Europe · 大厂研究岗 · operations research|core|operations research",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "该职位是G-SCOP实验室（隶属于格勒诺布尔INP）的研究员岗位，专注于电动汽车车队充电优化的运筹学研究。主要目标是为电动汽车车队充电规划开发优化模型，涉及线性与混合整数规划、动态优化、随机优化等方法，并需整合锂离子电池模型。",
+    "tagsZh": [
+      "运筹学",
+      "电动汽车",
+      "充电优化",
+      "线性规划",
+      "混合整数规划",
+      "动态优化"
+    ],
+    "positiveZh": [
+      "Europe · 大厂研究岗 · operations research"
+    ],
+    "negativeZh": [],
+    "riskZh": "1. 岗位信息可能不完整，需进一步核实具体职责和条件。2. 电动汽车充电优化领域竞争可能激烈。3. 欧洲岗位可能涉及语言或签证问题。",
+    "nextStepZh": "1. 访问EURAXESS Jobs官网查看完整职位描述。2. 准备运筹学相关研究经历和项目案例。3. 了解G-SCOP实验室的研究方向和团队。4. 确认申请所需材料（如推荐信、研究计划）。",
+    "depth": "medium"
+  },
+  "31e667ca303a4cb0": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-30T14:29:02.404Z",
+    "jobFingerprint": "C|58|Europe · 教职 · logistics|core|logistics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "巴黎文理研究大学（PSL）招聘管理科学方向初级教授（终身轨），聚焦人工智能支持高效物流转型。",
+    "tagsZh": [
+      "终身轨",
+      "管理科学",
+      "人工智能",
+      "物流转型",
+      "法国",
+      "教职"
+    ],
+    "positiveZh": [
+      "Europe · 教职 · logistics"
+    ],
+    "negativeZh": [],
+    "riskZh": "竞争激烈，需较强研究背景；法国教职体系对法语能力可能有潜在要求（未明确）。",
+    "nextStepZh": "访问EURAXESS或PSL官网获取完整招聘公告，确认申请材料（如研究计划、推荐信）及语言要求。",
+    "depth": "shallow"
+  },
+  "01d147f474791838": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-30T14:29:02.404Z",
+    "jobFingerprint": "C|54|United Kingdom · 博后 · applied mathematics / statistics|core|applied mathematics|statistics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "英国诺丁汉大学宁波分校数学科学学院招聘应用数学/统计学副教授或正教授，提供有竞争力的薪资。",
+    "tagsZh": [
+      "应用数学",
+      "统计学",
+      "教授",
+      "宁波",
+      "英国诺丁汉大学"
+    ],
+    "positiveZh": [
+      "United Kingdom · 博后 · applied mathematics / statistics"
+    ],
+    "negativeZh": [],
+    "riskZh": "信息不完整，可能需进一步了解合同期限、晋升路径、科研支持等；中外合作办学可能存在文化适应问题。",
+    "nextStepZh": "访问原招聘页面获取完整职位描述，了解申请要求、截止日期及薪资福利详情。",
+    "depth": "shallow"
+  },
+  "f7539e27cf60ddfb": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-30T14:29:02.404Z",
+    "jobFingerprint": "C|50|United Kingdom · Research Fellow · simulation|core|simulation",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "剑桥大学工程系招聘固定期限研究助理，从事尾迹云形成建模与仿真，薪资£33,002-£46,049/年。",
+    "tagsZh": [
+      "尾迹云",
+      "建模",
+      "仿真",
+      "剑桥大学",
+      "固定期限",
+      "英国"
+    ],
+    "positiveZh": [
+      "United Kingdom · Research Fellow · simulation"
+    ],
+    "negativeZh": [],
+    "riskZh": "合同到期后续聘不确定；竞争可能激烈。",
+    "nextStepZh": "查看完整职位描述；准备建模/仿真相关申请材料；关注截止日期。",
+    "depth": 1
+  },
+  "b1203f6938fc5897": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-30T14:29:02.404Z",
+    "jobFingerprint": "C|50|United Kingdom · Research Fellow · transportation|core|transportation",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "英国米德尔塞克斯大学伦敦数字孪生研究中心招聘交通危机与韧性数字孪生方向研究员，年薪£43,811-£50,136，地点在伦敦亨登。",
+    "tagsZh": [
+      "数字孪生",
+      "交通",
+      "危机管理",
+      "韧性",
+      "研究员",
+      "英国"
+    ],
+    "positiveZh": [
+      "United Kingdom · Research Fellow · transportation"
+    ],
+    "negativeZh": [],
+    "riskZh": "岗位竞争可能激烈；伦敦生活成本高；未说明是否支持远程或签证。",
+    "nextStepZh": "访问原始链接查看完整职位描述和申请要求；准备数字孪生、交通韧性相关研究材料。",
+    "depth": 1
+  },
+  "f41fbf31781173bb": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-30T14:29:02.404Z",
+    "jobFingerprint": "C|43|United Kingdom · 教职 · applied mathematics|core|applied mathematics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "牛津大学基督堂学院与数学研究所联合招聘应用数学副教授或教授，年薪从57,986英镑起，地点在英国牛津。",
+    "tagsZh": [
+      "应用数学",
+      "副教授",
+      "教授",
+      "牛津大学",
+      "英国",
+      "学术职位"
+    ],
+    "positiveZh": [
+      "United Kingdom · 教职 · applied mathematics"
+    ],
+    "negativeZh": [],
+    "riskZh": "职位信息不完整，缺乏具体职责和研究方向要求。",
+    "nextStepZh": "访问jobs.ac.uk查看完整职位描述并准备申请材料。",
+    "depth": "浅层"
   }
 }

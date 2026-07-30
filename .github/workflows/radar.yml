@@ -171,7 +171,7 @@ jobs:
               }
             }
       - name: Commit generated data
-        if: ${{ github.event_name != 'push' }}
+        if: ${{ github.event_name != 'push' || env.FULL_UPDATE == 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

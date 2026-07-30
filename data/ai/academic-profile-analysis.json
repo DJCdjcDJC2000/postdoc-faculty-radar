@@ -117,8 +117,8 @@
   },
   "imperial-wolfram-wiesemann": {
     "status": "deepseek",
-    "generatedAt": "2026-07-20T04:44:59.949Z",
-    "profileFingerprint": "1cb6505ee3843e3c9bf88a98a2ba706b5805b86f5ab86f2a332408f13897e5ed",
+    "generatedAt": "2026-07-30T14:29:22.422Z",
+    "profileFingerprint": "4405890770321537e09ed68dd10bd645fb292acba89934b297e1d2341ae4d407",
     "notice": "AI 辅助归纳，需回到公开证据核验",
     "researchSummaryZh": "公开资料将其研究方向概括为：stochastic programming、robust optimization、distributionally robust optimization、decision making under uncertainty、operations research。",
     "methods": [
@@ -234,6 +234,111 @@
       "control and dynamical systems"
     ],
     "careerPatternZh": "MIT CSE PhD 2022；Amazon Supply Chain Optimization 博后；现任新加坡国立大学助理教授",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "hkbu-xindong-tang": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-30T14:29:22.422Z",
+    "profileFingerprint": "5169cf9df45943097e8a38efcf96a85b7f38a59909fc3ea0902f87bee2c99366",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "UCSD/Jiawang Nie 谱系；多项式优化与广义 Nash 均衡直接相关",
+    "methods": [
+      "numerical linear algebra",
+      "optimal-control methods",
+      "global and polynomial optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "control and dynamical systems"
+    ],
+    "careerPatternZh": "2021年博士毕业；2021-2023年香港理工大学应用数学系研究助理教授；2023年起任香港浸会大学数学系助理教授",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "cuhk-liu-liu": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-30T14:29:22.422Z",
+    "profileFingerprint": "6bb9b205e9b73c0e54497502d66db27f7c77b6caeeab7bc2c2b68e77543b6800",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "UW-Madison PhD、UT Austin Oden 博后；连续获得 RGC 项目。研究主线为数值分析与科学计算，聚焦不确定性量化、多尺度偏微分方程及科学机器学习。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "numerical analysis and scientific computing",
+      "asymptotic-preserving schemes",
+      "stochastic Galerkin method",
+      "multi-fidelity methods",
+      "physics-informed neural networks"
+    ],
+    "applications": [
+      "physical simulation and scientific computing",
+      "kinetic equations",
+      "Boltzmann equation",
+      "Schrödinger equation",
+      "tumor growth models",
+      "quantum dynamics"
+    ],
+    "careerPatternZh": "2017年获得博士学位；之后在UT Austin Oden Institute从事博士后研究；现任香港中文大学助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "nus-qianxiao-li": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-30T14:29:22.422Z",
+    "profileFingerprint": "203376835c5b054f1b19a9bbd0bb7432efa7d1ed3286d83603063b641f1d676b",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Princeton Applied Math PhD；NRF Fellowship 2021；优化、动力系统和 SciML 交叉",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "first-order methods",
+      "numerical analysis and scientific computing",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "control and dynamical systems",
+      "physical simulation and scientific computing"
+    ],
+    "careerPatternZh": "2016年Princeton应用数学博士毕业；2016-2021年任Institute of High Performance Computing科学家；现任National University of Singapore数学系助理教授，同时为NRF Fellow。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "nus-guanyi-wang": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-30T14:29:22.422Z",
+    "profileFingerprint": "f499142c2ad7616272d24ce375b5e07830e7cdb169716671a5de3f2800452bb6",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Georgia Tech/Santanu Dey 谱系；Mathematical Programming、OR 成果",
+    "methods": [
+      "discrete and mixed-integer optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science"
+    ],
+    "careerPatternZh": "2010-2014 北京科技大学数学与应用数学学士；2014-2016 约翰霍普金斯大学应用数学与统计硕士；2016-2021 佐治亚理工学院算法、组合与优化博士；2021-2022 蒙特利尔理工学院博士后；2022至今 新加坡国立大学工业系统工程与管理系助理教授",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "nus-junyu-zhang": {
+    "status": "deepseek",
+    "generatedAt": "2026-07-30T14:29:22.422Z",
+    "profileFingerprint": "93adeaaaab9e66a40d445552b3e7ddb9b5dcddf07929da7a43ee1676a7def2bf",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "研究主线为优化算法理论，涵盖鞍点优化、随机复合优化、黎曼优化、强化学习优化及复杂度下界，成果发表于Mathematical Programming、SIAM Journal on Optimization、JMLR等期刊。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "minimax and saddle-point methods",
+      "Riemannian and manifold optimization",
+      "mathematical optimization"
+    ],
+    "applications": [],
+    "careerPatternZh": "2011-2015年在北京大学元培学院获信息与计算科学学士学位；2015-2020年在明尼苏达大学双城分校工业与系统工程系获博士学位；2020-2021年在普林斯顿大学电气与计算机工程系从事博士后研究；2021年起任新加坡国立大学工业系统工程与管理系助理教授。",
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
     ]

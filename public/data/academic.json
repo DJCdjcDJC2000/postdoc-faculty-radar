@@ -8060,7 +8060,7 @@
         ],
         "notice": "AI 辅助归纳，需回到公开证据核验",
         "source": "deepseek_public_fact_summary",
-        "generatedAt": "2026-07-20T04:44:59.949Z"
+        "generatedAt": "2026-07-30T14:29:22.422Z"
       },
       "uncertainties": [],
       "quality": {
@@ -26445,8 +26445,8 @@
         "countCaveatZh": "包含 OpenAlex 归入该作者的多类学术成果，可能受同名合并与文献类型影响；请结合 ORCID、Crossref 与个人主页理解。",
         "crossSourceCounts": {
           "orcidRecordCount": 98,
-          "crossrefOrcidWorksCount": 22,
-          "checkedAt": "2026-07-20T04:44:36.795Z"
+          "crossrefOrcidWorksCount": 23,
+          "checkedAt": "2026-07-30T14:37:26.417Z"
         },
         "updatedAt": "2026-07-10T08:29:24.830Z",
         "topVenueCountsLowerBound": [
@@ -26928,7 +26928,7 @@
         {
           "type": "orcid_record",
           "url": "https://orcid.org/0000-0003-0481-272X",
-          "checkedAt": "2026-07-20T04:44:36.795Z",
+          "checkedAt": "2026-07-30T14:37:26.417Z",
           "confidence": "A",
           "supportsClaims": [
             "bibliographic_identity",
@@ -28329,9 +28329,9 @@
         "countLabelZh": "OpenAlex 收录成果（近似）",
         "countCaveatZh": "包含 OpenAlex 归入该作者的多类学术成果，可能受同名合并与文献类型影响；请结合 ORCID、Crossref 与个人主页理解。",
         "crossSourceCounts": {
-          "orcidRecordCount": 489,
-          "crossrefOrcidWorksCount": 156,
-          "checkedAt": "2026-07-20T04:44:37.343Z"
+          "orcidRecordCount": 490,
+          "crossrefOrcidWorksCount": 157,
+          "checkedAt": "2026-07-30T14:37:27.253Z"
         },
         "updatedAt": "2026-07-10T08:29:30.945Z",
         "topVenueCountsLowerBound": [
@@ -28778,7 +28778,7 @@
         {
           "type": "orcid_record",
           "url": "https://orcid.org/0000-0001-6833-5227",
-          "checkedAt": "2026-07-20T04:44:37.343Z",
+          "checkedAt": "2026-07-30T14:37:27.253Z",
           "confidence": "A",
           "supportsClaims": [
             "bibliographic_identity",
@@ -30107,7 +30107,7 @@
         "crossSourceCounts": {
           "orcidRecordCount": 66,
           "crossrefOrcidWorksCount": 21,
-          "checkedAt": "2026-07-20T04:44:37.522Z"
+          "checkedAt": "2026-07-30T14:37:27.515Z"
         },
         "updatedAt": "2026-07-10T08:29:33.059Z",
         "topVenueCountsLowerBound": [
@@ -30579,7 +30579,7 @@
         {
           "type": "orcid_record",
           "url": "https://orcid.org/0000-0001-9798-2482",
-          "checkedAt": "2026-07-20T04:44:37.522Z",
+          "checkedAt": "2026-07-30T14:37:27.515Z",
           "confidence": "A",
           "supportsClaims": [
             "bibliographic_identity",
@@ -67470,8 +67470,8 @@
         ],
         "featureProvenance": {
           "summary": "public_source_or_verified_summary",
-          "methods": "derived_from_public_research_fields",
-          "applications": "derived_from_public_research_fields"
+          "methods": "public_source_or_verified_supplement",
+          "applications": "public_source_or_verified_supplement"
         }
       },
       "publicationMetrics": {
@@ -67539,107 +67539,77 @@
         {
           "track": "optimization_operations_research",
           "tier": "top_core",
-          "count": 4,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 3
         },
         {
           "track": "optimization_operations_research",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "optimization_operations_research",
           "tier": "related_reference",
-          "count": 1,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "top_core",
-          "count": 3,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 2
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "important_mainstream",
-          "count": 1,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         }
       ],
       "representativeWorks": [
@@ -67919,13 +67889,15 @@
         ]
       },
       "publicAnalysis": {
-        "careerPatternZh": "公开教育与任职路径包括：Assistant Professor; PhD 2021 · Hong Kong Baptist University；2023 · Assistant Professor · Hong Kong Baptist University；2021-2023 · Research Assistant Professor · Hong Kong Polytechnic University。",
+        "careerPatternZh": "2021年博士毕业；2021-2023年香港理工大学应用数学系研究助理教授；2023年起任香港浸会大学数学系助理教授",
         "caveatsZh": [
-          "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+          "论文计数与招聘状态需以原始来源为准。"
         ],
-        "notice": "公开事实归纳，需回到证据台账核验",
-        "source": "deterministic_public_fact_summary"
+        "notice": "AI 辅助归纳，需回到公开证据核验",
+        "source": "deepseek_public_fact_summary",
+        "generatedAt": "2026-07-30T14:29:22.422Z"
       },
+      "uncertainties": [],
       "quality": {
         "status": "ready",
         "isPublicReady": true,
@@ -67955,22 +67927,31 @@
           "multiscale PDE",
           "scientific ML"
         ],
-        "summaryZh": "UW-Madison PhD、UT Austin Oden 博后；连续获得 RGC 项目",
+        "summaryZh": "UW-Madison PhD、UT Austin Oden 博后；连续获得 RGC 项目。研究主线为数值分析与科学计算，聚焦不确定性量化、多尺度偏微分方程及科学机器学习。",
         "recentEvolution": [
           "2017-2021 年以动力学方程、随机 Galerkin、渐近保持格式和不确定性量化为核心，集中解决多尺度输运与 Boltzmann 模型。",
           "2022-2026 年拓展到双保真/多保真计算、渐近保持神经网络、物理信息学习、反问题以及肿瘤和量子动力学模型。"
         ],
         "methods": [
           "stochastic optimization and uncertainty methods",
-          "numerical analysis and scientific computing"
+          "numerical analysis and scientific computing",
+          "asymptotic-preserving schemes",
+          "stochastic Galerkin method",
+          "multi-fidelity methods",
+          "physics-informed neural networks"
         ],
         "applications": [
-          "physical simulation and scientific computing"
+          "physical simulation and scientific computing",
+          "kinetic equations",
+          "Boltzmann equation",
+          "Schrödinger equation",
+          "tumor growth models",
+          "quantum dynamics"
         ],
         "featureProvenance": {
           "summary": "public_source_or_verified_summary",
-          "methods": "derived_from_public_research_fields",
-          "applications": "derived_from_public_research_fields"
+          "methods": "public_source_or_verified_supplement",
+          "applications": "public_source_or_verified_supplement"
         }
       },
       "publicationMetrics": {
@@ -68342,12 +68323,13 @@
         ]
       },
       "publicAnalysis": {
-        "careerPatternZh": "公开教育与任职路径包括：Assistant Professor; PhD 2017 · Chinese University of Hong Kong。",
+        "careerPatternZh": "2017年获得博士学位；之后在UT Austin Oden Institute从事博士后研究；现任香港中文大学助理教授。",
         "caveatsZh": [
-          "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+          "论文计数与招聘状态需以原始来源为准。"
         ],
-        "notice": "公开事实归纳，需回到证据台账核验",
-        "source": "deterministic_public_fact_summary"
+        "notice": "AI 辅助归纳，需回到公开证据核验",
+        "source": "deepseek_public_fact_summary",
+        "generatedAt": "2026-07-30T14:29:22.422Z"
       },
       "uncertainties": [],
       "quality": {
@@ -68569,8 +68551,8 @@
         ],
         "featureProvenance": {
           "summary": "public_source_or_verified_summary",
-          "methods": "derived_from_public_research_fields",
-          "applications": "derived_from_public_research_fields"
+          "methods": "public_source_or_verified_supplement",
+          "applications": "public_source_or_verified_supplement"
         }
       },
       "publicationMetrics": {
@@ -68638,107 +68620,77 @@
         {
           "track": "optimization_operations_research",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "optimization_operations_research",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "optimization_operations_research",
           "tier": "related_reference",
-          "count": 1,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 1
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "top_core",
-          "count": 2,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 2
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "important_mainstream",
-          "count": 1,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 1
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "related_reference",
-          "count": 1,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 1
         },
         {
           "track": "machine_learning_optimization",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "top_core",
-          "count": 1,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 1
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "related_reference",
-          "count": 2,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 2
         }
       ],
       "representativeWorks": [
@@ -69025,13 +68977,15 @@
         ]
       },
       "publicAnalysis": {
-        "careerPatternZh": "公开教育与任职路径包括：Assistant Professor / NRF Fellow; PhD 2016 · National University of Singapore；Assistant Professor · National University of Singapore；2016-2021 · Scientist · Institute of High Performance Computing。",
+        "careerPatternZh": "2016年Princeton应用数学博士毕业；2016-2021年任Institute of High Performance Computing科学家；现任National University of Singapore数学系助理教授，同时为NRF Fellow。",
         "caveatsZh": [
-          "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+          "论文计数与招聘状态需以原始来源为准。"
         ],
-        "notice": "公开事实归纳，需回到证据台账核验",
-        "source": "deterministic_public_fact_summary"
+        "notice": "AI 辅助归纳，需回到公开证据核验",
+        "source": "deepseek_public_fact_summary",
+        "generatedAt": "2026-07-30T14:29:22.422Z"
       },
+      "uncertainties": [],
       "quality": {
         "status": "ready",
         "isPublicReady": true,
@@ -69447,8 +69401,8 @@
         ],
         "featureProvenance": {
           "summary": "public_source_or_verified_summary",
-          "methods": "derived_from_public_research_fields",
-          "applications": "derived_from_public_research_fields"
+          "methods": "public_source_or_verified_supplement",
+          "applications": "public_source_or_verified_supplement"
         }
       },
       "publicationMetrics": {
@@ -69824,12 +69778,13 @@
         ]
       },
       "publicAnalysis": {
-        "careerPatternZh": "公开教育与任职路径包括：Assistant Professor; PhD 2022 · National University of Singapore；2016-2021 · Ph.D. in Algorithms, Combinatorics and Optimization · Georgia Institute of Technology；2014-2016 · Master  · Johns Hopkins University；2010-2014 · bachelor · University of Science and Technology Beijing；2022 · Assistant Professor · National University of Singapore；2021-2022 · Postdoc · Polytechnique Montréal。",
+        "careerPatternZh": "2010-2014 北京科技大学数学与应用数学学士；2014-2016 约翰霍普金斯大学应用数学与统计硕士；2016-2021 佐治亚理工学院算法、组合与优化博士；2021-2022 蒙特利尔理工学院博士后；2022至今 新加坡国立大学工业系统工程与管理系助理教授",
         "caveatsZh": [
-          "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+          "论文计数与招聘状态需以原始来源为准。"
         ],
-        "notice": "公开事实归纳，需回到证据台账核验",
-        "source": "deterministic_public_fact_summary"
+        "notice": "AI 辅助归纳，需回到公开证据核验",
+        "source": "deepseek_public_fact_summary",
+        "generatedAt": "2026-07-30T14:29:22.422Z"
       },
       "uncertainties": [],
       "quality": {
@@ -69861,7 +69816,7 @@
           "RL optimization",
           "complexity lower bounds"
         ],
-        "summaryZh": "Minnesota/Shuzhong Zhang 谱系；Math Programming、SIOPT、JMLR 成果",
+        "summaryZh": "研究主线为优化算法理论，涵盖鞍点优化、随机复合优化、黎曼优化、强化学习优化及复杂度下界，成果发表于Mathematical Programming、SIAM Journal on Optimization、JMLR等期刊。",
         "recentEvolution": [
           {
             "topic": "Stochastic and robust optimization",
@@ -70018,7 +69973,7 @@
         "applications": [],
         "featureProvenance": {
           "summary": "public_source_or_verified_summary",
-          "methods": "derived_from_public_research_fields",
+          "methods": "public_source_or_verified_supplement",
           "applications": "not_publicly_specified"
         }
       },
@@ -70087,107 +70042,77 @@
         {
           "track": "optimization_operations_research",
           "tier": "top_core",
-          "count": 4,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 3
         },
         {
           "track": "optimization_operations_research",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "optimization_operations_research",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "top_core",
-          "count": 4,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 3
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         }
       ],
       "representativeWorks": [
@@ -70475,13 +70400,15 @@
         ]
       },
       "publicAnalysis": {
-        "careerPatternZh": "公开教育与任职路径包括：Assistant Professor; PhD 2020 · National University of Singapore；2015-2020 · Ph.D. Candidate · University of Minnesota Twin Cities；2011-2015 · Bachelor of Science in Information and Computing Science · Peking University；2021 · Assistant Professor · National University of Singapore；2020-2021 · Postdoctoral research fellow · Princeton University。",
+        "careerPatternZh": "2011-2015年在北京大学元培学院获信息与计算科学学士学位；2015-2020年在明尼苏达大学双城分校工业与系统工程系获博士学位；2020-2021年在普林斯顿大学电气与计算机工程系从事博士后研究；2021年起任新加坡国立大学工业系统工程与管理系助理教授。",
         "caveatsZh": [
-          "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+          "论文计数与招聘状态需以原始来源为准。"
         ],
-        "notice": "公开事实归纳，需回到证据台账核验",
-        "source": "deterministic_public_fact_summary"
+        "notice": "AI 辅助归纳，需回到公开证据核验",
+        "source": "deepseek_public_fact_summary",
+        "generatedAt": "2026-07-30T14:29:22.422Z"
       },
+      "uncertainties": [],
       "quality": {
         "status": "ready",
         "isPublicReady": true,
