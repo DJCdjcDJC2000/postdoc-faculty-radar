@@ -1,8 +1,8 @@
-# 职业雷达月报 · 2026-07-14
+# 职业雷达月报 · 2026-08-01
 
 ## 核心变化
 
-- 当前机会：9
+- 当前机会：7
 - A/B 高匹配机会：3
 - 学术人物档案：132
 - 完整公开档案：132
@@ -17,8 +17,8 @@
 - 青年学者：80
 - 长期接受申请：7
 - Fellowship host：4
-- 高频方法：mathematical optimization 107；stochastic optimization and uncertainty methods 46；numerical analysis and scientific computing 24；nonsmooth and variational analysis 20；optimal-control methods 17；discrete and mixed-integer optimization 16；distributed and federated optimization 15；numerical linear algebra 15
-- 高频应用：machine learning and data science 36；physical simulation and scientific computing 24；control and dynamical systems 20；decision-making and operations 20；signal processing, imaging, and inverse problems 15；networked and distributed systems 10；markets and strategic decision-making 9；logistics, transportation, and operations 6
+- 高频方法：mathematical optimization 107；stochastic optimization and uncertainty methods 45；numerical analysis and scientific computing 23；nonsmooth and variational analysis 20；optimal-control methods 17；discrete and mixed-integer optimization 16；distributed and federated optimization 15；numerical linear algebra 15
+- 高频应用：machine learning and data science 36；physical simulation and scientific computing 23；control and dynamical systems 20；decision-making and operations 20；signal processing, imaging, and inverse problems 15；networked and distributed systems 10；markets and strategic decision-making 9；logistics, transportation, and operations 6
 
 ## 有公开招聘证据的人物
 
@@ -55,7 +55,7 @@
 
 ## 数据源健康
 
-- 正常来源：2/20
+- 正常来源：3/20
 - 待恢复：Academic Positions · HTTP 403
 - 待恢复：CUHK Mathematics Career Opportunities · fetch failed
 - 待恢复：Huawei Noah's Ark Lab · fetch failed
