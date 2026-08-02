@@ -33,10 +33,30 @@ const VENUE_TIER_ORDER = {
 };
 
 const PEOPLE_FILTER_STORAGE_KEY = "faculty-radar:people-filters:v1";
+const FUNDING_WORKSPACE_STORAGE_KEY = "faculty-radar:funding-workspace:v1";
+const FUNDING_TABS = [
+  ["opportunities", "基金机会"],
+  ["mentors", "导师通讯录"],
+  ["coverage", "来源覆盖"],
+  ["workspace", "本地行动台"]
+];
 
 const state = {
   data: null,
   view: "home",
+  fundingTab: "opportunities",
+  fundingFilters: {
+    search: "",
+    stage: "",
+    category: "",
+    region: "",
+    tier: "",
+    status: ""
+  },
+  fundingWorkspace: null,
+  fundingMessage: "",
+  selectedFundingOpportunityId: null,
+  selectedFundingMentorId: null,
   radarFilters: {
     search: "",
     region: "",
@@ -116,6 +136,7 @@ const els = {
   drawer: document.querySelector("#detail-drawer"),
   pages: {
     home: document.querySelector("#page-home"),
+    funding: document.querySelector("#page-funding"),
     radar: document.querySelector("#page-radar"),
     industry: document.querySelector("#page-industry"),
     routes: document.querySelector("#page-routes"),
@@ -131,6 +152,7 @@ await init();
 
 async function init() {
   state.data = await fetchJson("./data/site.json", fallbackData());
+  state.fundingWorkspace = loadFundingWorkspace();
   renderShell();
   renderAll();
   bindGlobalEvents();
@@ -158,6 +180,41 @@ function renderShell() {
 function bindGlobalEvents() {
   window.addEventListener("hashchange", () => setView(location.hash.replace("#", "") || "home"));
   document.addEventListener("click", (event) => {
+    const fundingTab = event.target.closest("[data-funding-tab]");
+    if (fundingTab) {
+      state.fundingTab = fundingTab.dataset.fundingTab;
+      state.fundingMessage = "";
+      closeDrawer();
+      renderFunding();
+      return;
+    }
+    const fundingOpportunity = event.target.closest("[data-funding-opportunity-id]");
+    if (fundingOpportunity) {
+      showFundingOpportunityDetail(fundingOpportunity.dataset.fundingOpportunityId);
+      return;
+    }
+    const fundingMentor = event.target.closest("[data-funding-mentor-id]");
+    if (fundingMentor) {
+      showFundingMentorDetail(fundingMentor.dataset.fundingMentorId);
+      return;
+    }
+    if (event.target.closest("[data-clear-funding-filters]")) {
+      Object.keys(state.fundingFilters).forEach((key) => { state.fundingFilters[key] = ""; });
+      renderFunding();
+      return;
+    }
+    if (event.target.closest("[data-export-funding-vault]")) {
+      exportFundingVault();
+      return;
+    }
+    if (event.target.closest("[data-import-funding-vault]")) {
+      document.querySelector("#funding-vault-file")?.click();
+      return;
+    }
+    if (event.target.closest("[data-export-funding-calendar]")) {
+      exportFundingCalendar();
+      return;
+    }
     const peopleTab = event.target.closest("[data-people-tab]");
     if (peopleTab) {
       state.peopleTab = peopleTab.dataset.peopleTab;
@@ -305,6 +362,7 @@ function bindGlobalEvents() {
 
 function renderAll() {
   renderHome();
+  renderFunding();
   renderRadar();
   renderIndustry();
   renderRoutes();
@@ -352,20 +410,63 @@ function renderHome() {
   const featuredIndustryOpportunities = sortedIndustryOpportunities().slice(0, 3);
   const featuredIndustryCompanies = sortedIndustryCompanies().slice(0, 3);
   const activeSources = (data.sources ?? []).filter((source) => source.status === "ok").slice(0, 6);
+  const featuredFunding = currentStageFundingPriorities(5);
+  const allFundingMentors = academicProfiles()
+    .filter((profile) => profile.profileType === "mentor_group")
+    .map((profile) => ({ ...profile, outreachScore: fundingMentorScore(profile) }))
+    .sort((a, b) => b.outreachScore - a.outreachScore);
+  const featuredMentors = allFundingMentors.slice(0, 5);
+  const fundingDeadlines = (fundingData().opportunities ?? [])
+    .filter((item) => item.deadline && item.status !== "currently_ineligible" && Number(item.deadlineDays) >= 0)
+    .sort((a, b) => Number(a.deadlineDays) - Number(b.deadlineDays))
+    .slice(0, 5);
 
   els.pages.home.innerHTML = `
     <section class="hero-band">
       <div class="hero-copy">
-        <p class="eyebrow">${escapeHtml(data.copy?.tagline ?? "官方优先、公开可证")}</p>
-        <h1>${escapeHtml(data.copy?.title ?? "博后教职职业情报门户")}</h1>
-        <p class="lead">${escapeHtml(data.copy?.subtitle ?? "")}</p>
+        <p class="eyebrow">Personal academic command desk · 2026–2031</p>
+        <h1>先做本周最值钱的事</h1>
+        <p class="lead">围绕 2026 年底投稿准备、2027–2028 访学窗口和 2029 年博士毕业，把基金、导师、截止日与能力缺口放在同一张行动图上。</p>
       </div>
       <div class="briefing-strip" aria-label="本周情报摘要">
-        ${metricCard("本周新增", data.updates?.newCount ?? metrics.newJobs ?? 0, `更新 ${data.updates?.updatedCount ?? metrics.updatedJobs ?? 0}`)}
-        ${metricCard("A/B 高匹配", metrics.highMatchJobs ?? 0, "优先查看")}
-        ${metricCard("目标课题组", metrics.targetLabs ?? 0, "导师/PI 雷达")}
-        ${metricCard("活跃数据源", `${metrics.activeSources ?? 0}/${metrics.totalSources ?? 0}`, "最近抓取")}
+        ${metricCard("基金与奖项", metrics.fundingOpportunities ?? 0, `A 级 ${metrics.priorityFunding ?? 0}`)}
+        ${metricCard("导师入口", allFundingMentors.length, "全部可直达官方页")}
+        ${metricCard("来源覆盖", `${metrics.fundingSourcesChecked ?? 0}/${metrics.fundingSourcesTotal ?? 0}`, "官方核验 / 台账")}
+        ${metricCard("博士目标", "2029.06", "2026 年底完成投稿准备")}
       </div>
+    </section>
+
+    <section class="home-command-band">
+      <div class="section-head">
+        <div><p class="eyebrow">This week · Top 5</p><h2>现在阶段最该推进的机会</h2></div>
+        <a href="#funding" class="text-link">打开完整基金行动台</a>
+      </div>
+      <div class="home-funding-actions">
+        ${featuredFunding.map(homeFundingActionCard).join("") || emptyBlock("博士阶段机会待补充")}
+      </div>
+    </section>
+
+    <section class="home-intelligence-grid">
+      <article class="home-ledger-panel">
+        <div class="home-ledger-head"><div><p class="eyebrow">Host shortlist</p><h2>优先建立学术连接的导师</h2></div><a href="#funding" class="text-link">查看全部</a></div>
+        <div class="home-mentor-ledger">${featuredMentors.map(homeMentorRow).join("")}</div>
+      </article>
+      <article class="home-ledger-panel">
+        <div class="home-ledger-head"><div><p class="eyebrow">Cycle reference</p><h2>最近官方周期</h2></div><button class="text-button" type="button" data-export-funding-calendar>导出日历</button></div>
+        <div class="home-deadline-ledger">${fundingDeadlines.map(homeFundingDeadlineRow).join("") || emptyBlock("暂无已核验精确日期")}</div>
+        <p class="home-ledger-note">这些日期用于掌握项目节奏；是否能申请仍以你的毕业阶段和当轮官方资格为准。</p>
+      </article>
+    </section>
+
+    <section class="home-readiness-band">
+      <div><p class="eyebrow">Readiness gaps</p><h2>未来 16 个月要补齐的四块证据</h2></div>
+      <ol class="home-readiness-list">
+        <li><span>01</span><div><strong>核心论文</strong><p>2026 年底完成投稿准备，并形成可供导师快速判断贡献的一页研究摘要。</p></div></li>
+        <li><span>02</span><div><strong>国际表达</strong><p>把工作压缩成 15 分钟英文报告，为会议、访学和学生论文奖共用。</p></div></li>
+        <li><span>03</span><div><strong>跨域桥接</strong><p>补一项 AI for Science、能源/交通或医疗中的可验证计算实验，而不是只写“愿意转方向”。</p></div></li>
+        <li><span>04</span><div><strong>Host 关系</strong><p>先讨论具体研究问题，再谈 2027–2028 访学和 2029 Fellowship host。</p></div></li>
+      </ol>
+      <div class="home-research-stamp"><strong>${fundingData().overview?.total ?? 0}</strong><span>项正式机会</span><strong>${fundingData().overview?.totalSources ?? 0}</strong><span>个覆盖来源</span><small>最近核验 ${escapeHtml(fundingData().researchedAt ?? "")}</small></div>
     </section>
 
     ${renderWeeklyUpdates(data.updates)}
@@ -454,6 +555,614 @@ function renderHome() {
       </div>
     </section>
   `;
+}
+
+function currentStageFundingPriorities(limit = 5) {
+  const doctoral = (fundingData().opportunities ?? [])
+    .filter((item) => item.stages?.includes("phd") && item.status !== "currently_ineligible")
+    .sort((a, b) => Number(b.baseScore ?? 0) - Number(a.baseScore ?? 0));
+  const future = (fundingData().opportunities ?? [])
+    .filter((item) => !item.stages?.includes("phd") && item.strategicTier === "A" && item.status !== "currently_ineligible")
+    .sort((a, b) => Number(b.baseScore ?? 0) - Number(a.baseScore ?? 0));
+  return [...doctoral, ...future].slice(0, limit);
+}
+
+function homeFundingActionCard(item, index) {
+  return `
+    <article class="home-funding-action">
+      <div class="home-action-index">0${index + 1}</div>
+      <div><p class="eyebrow">${escapeHtml(fundingCategoryLabel(item.category))}</p><button type="button" data-funding-opportunity-id="${escapeAttr(item.id)}">${escapeHtml(item.nameZh || item.name)}</button><small>${escapeHtml(item.provider ?? "")}</small></div>
+      <p>${escapeHtml(truncateText(item.nextActionZh ?? "", 92))}</p>
+      <span class="funding-tier tier-${escapeAttr(String(item.strategicTier ?? "C").toLowerCase())}">${escapeHtml(item.strategicTier ?? "C")}</span>
+    </article>`;
+}
+
+function homeMentorRow(profile, index) {
+  return `
+    <article>
+      <span>${String(index + 1).padStart(2, "0")}</span>
+      <div><strong>${escapeHtml(profileDisplayName(profile))}</strong><small>${escapeHtml(profile.institution ?? "")}</small></div>
+      <b>${profile.outreachScore}</b>
+      <button type="button" data-funding-mentor-id="${escapeAttr(profile.id)}">联系入口</button>
+    </article>`;
+}
+
+function homeFundingDeadlineRow(item) {
+  return `
+    <article>
+      <time datetime="${escapeAttr(item.deadline)}"><strong>${escapeHtml(String(item.deadline).slice(5))}</strong><span>${Number(item.deadlineDays)} 天</span></time>
+      <button type="button" data-funding-opportunity-id="${escapeAttr(item.id)}">${escapeHtml(item.nameZh || item.name)}</button>
+      <small>${escapeHtml(item.deadlineContextZh ?? item.timingSummaryZh ?? "")}</small>
+    </article>`;
+}
+
+function renderFunding() {
+  const funding = fundingData();
+  const overview = funding.overview ?? {};
+  const workspace = state.fundingWorkspace ?? createFundingWorkspace();
+  const trackedCount = Object.keys(workspace.opportunityTracking ?? {}).length;
+  const contactCount = Object.keys(workspace.mentorContacts ?? {}).length;
+  const tabContent = state.fundingTab === "mentors"
+    ? renderFundingMentors()
+    : state.fundingTab === "coverage"
+      ? renderFundingCoverage()
+      : state.fundingTab === "workspace"
+        ? renderFundingWorkspace()
+        : renderFundingOpportunities();
+
+  els.pages.funding.innerHTML = `
+    <section class="funding-command-hero">
+      <div class="funding-command-copy">
+        <p class="eyebrow">Funding × PI Command Desk</p>
+        <h1>基金与导师行动台</h1>
+        <p>从博士访学到 2031 年早期教职：先判断资格，再连接 host、材料和联系节奏。公开事实来自官方页面，个人记录只留在本机。</p>
+      </div>
+      <div class="funding-command-metrics">
+        ${metricCard("正式机会", overview.total ?? 0, `A 级 ${overview.priority ?? 0}`)}
+        ${metricCard("博士阶段", overview.doctoral ?? 0, "访学 / Fellowship")}
+        ${metricCard("博士后路线", overview.postdoctoral ?? 0, "全球项目")}
+        ${metricCard("官方来源", `${overview.checkedSources ?? 0}/${overview.totalSources ?? 0}`, "已核验 / 台账")}
+      </div>
+    </section>
+    <section class="funding-privacy-rail">
+      <span>LOCAL VAULT</span>
+      <p>已跟踪 ${trackedCount} 项机会 · 已建立 ${contactCount} 条导师联系记录 · 数据只存在当前浏览器</p>
+      <button class="ghost-button compact" type="button" data-funding-tab="workspace">打开本地行动台</button>
+    </section>
+    <nav class="funding-tabs" aria-label="基金行动台视图">
+      ${FUNDING_TABS.map(([id, label]) => `<button type="button" class="funding-tab ${state.fundingTab === id ? "active" : ""}" data-funding-tab="${id}">${label}</button>`).join("")}
+    </nav>
+    ${state.fundingMessage ? `<p class="funding-message">${escapeHtml(state.fundingMessage)}</p>` : ""}
+    <div class="funding-tab-panel">${tabContent}</div>
+    <input type="file" id="funding-vault-file" accept="application/json,.json" hidden>
+  `;
+  bindFundingPageControls();
+}
+
+function renderFundingOpportunities() {
+  const funding = fundingData();
+  const items = filteredFundingOpportunities();
+  const stages = uniqueFundingValues(funding.opportunities, "stages");
+  const regions = uniqueFundingValues(funding.opportunities, "regions");
+  const categories = [...new Set((funding.opportunities ?? []).map((item) => item.category).filter(Boolean))].sort();
+  return `
+    <section class="funding-workbench">
+      <div class="funding-filter-rail">
+        <label class="funding-search"><span>关键词</span><input data-funding-filter="search" value="${escapeAttr(state.fundingFilters.search)}" placeholder="项目、机构、研究方向"></label>
+        ${fundingFilterSelect("stage", "阶段", stages.map((value) => [value, fundingStageLabel(value)]))}
+        ${fundingFilterSelect("category", "类型", categories.map((value) => [value, fundingCategoryLabel(value)]))}
+        ${fundingFilterSelect("region", "地区", regions.map((value) => [value, value]))}
+        ${fundingFilterSelect("tier", "优先级", [["A", "A · 主申"], ["B", "B · 储备"], ["C", "C · 观察"]])}
+        ${fundingFilterSelect("status", "状态", fundingStatusOptions())}
+        <button class="ghost-button compact" type="button" data-clear-funding-filters>清空</button>
+      </div>
+      <div class="funding-result-head">
+        <div><p class="eyebrow">Verified opportunities</p><h2>${items.length} 项符合当前筛选</h2></div>
+        <button class="ghost-button" type="button" data-export-funding-calendar>导出截止日历</button>
+      </div>
+      <div class="funding-table-wrap">
+        <table class="funding-table">
+          <thead><tr><th>优先级</th><th>项目与机构</th><th>阶段 / 地区</th><th>资格与经费</th><th>当前动作</th></tr></thead>
+          <tbody>${items.map(fundingOpportunityRow).join("") || `<tr><td colspan="5">${professionalEmpty("没有匹配项目", "调整筛选条件或查看来源覆盖台账。", "筛选结果")}</td></tr>`}</tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
+function fundingOpportunityRow(item) {
+  const tracking = state.fundingWorkspace?.opportunityTracking?.[item.id] ?? {};
+  return `
+    <tr>
+      <td><span class="funding-tier tier-${escapeAttr(String(item.strategicTier ?? "C").toLowerCase())}">${escapeHtml(item.strategicTier ?? "C")}</span><strong class="funding-score">${formatMetric(item.baseScore)}</strong></td>
+      <td><button type="button" class="funding-title-button" data-funding-opportunity-id="${escapeAttr(item.id)}">${escapeHtml(item.nameZh || item.name)}</button><span>${escapeHtml(item.provider ?? "")}</span><small>${escapeHtml(item.statusZh ?? "")}</small>${item.deadline ? `<time class="funding-deadline-mark" datetime="${escapeAttr(item.deadline)}">最近官方周期 ${escapeHtml(item.deadline)}</time>` : ""}</td>
+      <td><div class="funding-chip-list">${(item.stages ?? []).map((value) => `<span>${escapeHtml(fundingStageLabel(value))}</span>`).join("")}</div><small>${escapeHtml((item.regions ?? []).join(" / "))}</small></td>
+      <td><p>${escapeHtml(truncateText(item.eligibilitySummaryZh ?? "", 95))}</p><small>${escapeHtml(truncateText(item.fundingSummaryZh ?? "", 82))}</small></td>
+      <td><p>${escapeHtml(tracking.nextAction || truncateText(item.nextActionZh ?? "", 88))}</p>${tracking.status ? `<span class="local-status-mark">${escapeHtml(fundingTrackingStatusLabel(tracking.status))}</span>` : `<span class="local-status-mark muted">未跟踪</span>`}</td>
+    </tr>
+  `;
+}
+
+function renderFundingMentors() {
+  const mentors = academicProfiles()
+    .filter((profile) => profile.profileType === "mentor_group")
+    .map((profile) => ({ ...profile, outreachScore: fundingMentorScore(profile) }))
+    .sort((a, b) => b.outreachScore - a.outreachScore);
+  return `
+    <section class="mentor-contact-desk">
+      <div class="funding-result-head">
+        <div><p class="eyebrow">Host & introduction map</p><h2>${mentors.length} 位导师 / 课题组联系入口</h2></div>
+        <p class="section-note">评分只衡量方法重合、公开招聘/基金信号和可联系性，不代表承诺招生。</p>
+      </div>
+      <div class="mentor-contact-grid">
+        ${mentors.map(fundingMentorCard).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function fundingMentorCard(profile) {
+  const contact = state.fundingWorkspace?.mentorContacts?.[profile.id] ?? {};
+  const signals = (profile.recruitmentSignals ?? []).filter((signal) => signal.type !== "no_public_signal").slice(0, 2);
+  return `
+    <article class="mentor-contact-card">
+      <div class="mentor-contact-score"><strong>${profile.outreachScore}</strong><span>${fundingMentorBand(profile.outreachScore)}</span></div>
+      <div class="mentor-contact-body">
+        <p class="eyebrow">${escapeHtml(profile.institution ?? "")}</p>
+        <h3>${escapeHtml(profileDisplayName(profile))}</h3>
+        <div class="funding-chip-list">${(profile.research?.methods ?? []).slice(0, 3).map((value) => `<span>${escapeHtml(value)}</span>`).join("")}</div>
+        <div class="mentor-contact-signals">${signals.length ? signals.map((signal) => renderRecruitmentSignal(signal, true)).join("") : `<span class="muted">未发现强招聘信号</span>`}</div>
+        <div class="mentor-contact-actions">
+          ${isExternalUrl(profile.links?.homepage) ? linkHtml(profile.links.homepage, "官方主页") : ""}
+          ${isExternalUrl(profile.links?.openings) ? linkHtml(profile.links.openings, "招聘入口") : ""}
+          <button type="button" class="text-button" data-funding-mentor-id="${escapeAttr(profile.id)}">${contact.email || contact.status ? "打开联系记录" : "建立联系记录"}</button>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function renderFundingCoverage() {
+  const funding = fundingData();
+  const groups = [...new Set((funding.coverage ?? []).map((item) => item.region))];
+  return `
+    <section class="coverage-ledger">
+      <div class="coverage-method-note">
+        <p class="eyebrow">Search audit</p>
+        <h2>来源覆盖台账</h2>
+        <p>${escapeHtml(funding.methodology?.coverageRuleZh ?? "")}</p>
+      </div>
+      ${groups.map((region) => `
+        <section class="coverage-region">
+          <div class="coverage-region-head"><h3>${escapeHtml(region)}</h3><span>${funding.coverage.filter((item) => item.region === region).length} 个来源</span></div>
+          <div class="coverage-source-list">
+            ${funding.coverage.filter((item) => item.region === region).map(coverageSourceRow).join("")}
+          </div>
+        </section>
+      `).join("")}
+      ${renderFundingSeedCases(funding.seedCases ?? [])}
+    </section>
+  `;
+}
+
+function coverageSourceRow(item) {
+  return `
+    <article class="coverage-source-row">
+      <span class="coverage-status status-${escapeAttr(item.status)}">${escapeHtml(fundingCoverageStatusLabel(item.status))}</span>
+      <div><h4>${escapeHtml(item.name)}</h4><p>${escapeHtml(item.scope ?? "")}</p><small>${escapeHtml(item.resultSummaryZh ?? "")}</small></div>
+      <div class="coverage-source-meta"><span>${escapeHtml(item.checkedAt ?? "")}</span>${linkHtml(item.url, "官方来源")}</div>
+    </article>
+  `;
+}
+
+function renderFundingSeedCases(items) {
+  if (!items.length) return "";
+  return `
+    <section class="seed-case-ledger">
+      <div class="coverage-region-head"><h3>公开路径种子</h3><span>只用于发现项目类别</span></div>
+      ${items.map((item) => `
+        <article class="seed-case-card">
+          <div><p class="eyebrow">${escapeHtml(item.institution)}</p><h4>${escapeHtml(item.nameZh || item.name)}</h4><p>${escapeHtml(item.relevanceZh ?? "")}</p></div>
+          <ul>${(item.verifiedSignals ?? []).map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul>
+          <div>${linkHtml(item.officialProfileUrl, "牛津官方档案")}${linkHtml(item.publicAcademicPageUrl, "公开学术主页")}</div>
+        </article>
+      `).join("")}
+    </section>
+  `;
+}
+
+function renderFundingWorkspace() {
+  const workspace = state.fundingWorkspace ?? createFundingWorkspace();
+  const profile = workspace.profile ?? {};
+  const tracked = Object.entries(workspace.opportunityTracking ?? {});
+  const contacts = Object.entries(workspace.mentorContacts ?? {});
+  return `
+    <section class="local-workspace-grid">
+      <article class="local-panel profile-panel">
+        <div class="local-panel-head"><div><p class="eyebrow">Browser-only profile</p><h2>本地申请画像</h2></div><span>不会上传</span></div>
+        <form id="funding-profile-form" class="local-profile-form">
+          <label><span>当前阶段</span><select name="careerStage"><option value="">请选择</option>${[["phd_year_1","博一"],["phd_year_2","博二"],["phd_year_3","博三"],["final_year","毕业年"],["postdoc","博士后"]].map(([value,label])=>`<option value="${value}" ${profile.careerStage===value?"selected":""}>${label}</option>`).join("")}</select></label>
+          <label><span>预计毕业</span><input name="graduationMonth" type="month" value="${escapeAttr(profile.graduationMonth ?? "")}"></label>
+          <label><span>出生年份</span><input name="birthYear" type="number" min="1950" max="2030" value="${escapeAttr(profile.birthYear ?? "")}"></label>
+          <label><span>当前地区</span><input name="currentRegion" value="${escapeAttr(profile.currentRegion ?? "")}" placeholder="例如 Hong Kong"></label>
+          <label><span>资格身份</span><input name="nationalityGroup" value="${escapeAttr(profile.nationalityGroup ?? "")}" placeholder="只写资格判断所需身份"></label>
+          <label><span>访学窗口</span><input name="visitWindow" value="${escapeAttr(profile.visitWindow ?? "")}" placeholder="例如 2027-07 to 2028-06"></label>
+          <label><span>自费上限（人民币）</span><input name="selfFundBudgetRmb" type="number" min="0" step="1000" value="${escapeAttr(profile.selfFundBudgetRmb ?? "")}"></label>
+          <label class="wide"><span>研究关键词</span><textarea name="researchKeywords" rows="3" placeholder="逗号分隔">${escapeHtml(profile.researchKeywords ?? "")}</textarea></label>
+          <button class="primary-button" type="submit">保存到本机</button>
+        </form>
+      </article>
+      <article class="local-panel roadmap-panel">
+        <div class="local-panel-head"><div><p class="eyebrow">Quarterly route</p><h2>行动时间线</h2></div><span>至 2031</span></div>
+        ${renderFundingRoadmap(profile)}
+      </article>
+      <article class="local-panel tracking-panel">
+        <div class="local-panel-head"><div><p class="eyebrow">Pipeline</p><h2>申请与联系看板</h2></div><span>${tracked.length + contacts.length} 条记录</span></div>
+        ${renderFundingTrackingSummary(tracked, contacts)}
+      </article>
+      <article class="local-panel lead-panel">
+        <div class="local-panel-head"><div><p class="eyebrow">Quick capture</p><h2>待核验线索</h2></div><span>${workspace.leads?.length ?? 0} 条</span></div>
+        <form id="funding-lead-form" class="lead-capture-form">
+          <input name="url" type="url" required placeholder="粘贴基金、导师或活动网址">
+          <input name="title" placeholder="可选标题">
+          <select name="kind"><option value="funding">基金</option><option value="mentor">导师</option><option value="event">活动</option></select>
+          <button class="primary-button" type="submit">加入待核验</button>
+        </form>
+        <div class="lead-list">${(workspace.leads ?? []).map((item) => `<div><span>${escapeHtml(item.kind)}</span><a href="${escapeAttr(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.title || item.url)}</a><small>${escapeHtml(item.addedAt?.slice(0,10) ?? "")}</small></div>`).join("") || `<p class="muted">尚未添加线索。</p>`}</div>
+      </article>
+      <article class="local-panel backup-panel">
+        <div><p class="eyebrow">Encrypted portability</p><h2>加密备份</h2><p>使用 AES-GCM 加密后导出。密码不会保存，忘记密码将无法恢复备份。</p></div>
+        <div><button class="primary-button" type="button" data-export-funding-vault>导出加密备份</button><button class="ghost-button" type="button" data-import-funding-vault>导入备份</button></div>
+      </article>
+    </section>
+  `;
+}
+
+function renderFundingRoadmap(profile) {
+  const graduation = profile.graduationMonth || "毕业月未设置";
+  return `
+    <ol class="funding-roadmap">
+      <li><time>2026 Q4</time><div><strong>第一篇论文完成投稿准备</strong><p>形成可向外部导师清晰讲述的问题、方法、误差结构和数值证据。</p></div></li>
+      <li><time>2027 H1</time><div><strong>筛选访问导师并与本导师沟通</strong><p>完成 5–10 位候选 host、一页式访学说明和 ICRF/RSAP 材料差距。</p></div></li>
+      <li><time>2027 H2–2028 H1</time><div><strong>海外访学 / 联合研究窗口</strong><p>优先产生合作论文、国际推荐关系和未来 Fellowship host。</p></div></li>
+      <li><time>2028 H2</time><div><strong>便携式 Fellowship 预申请</strong><p>围绕 MSCA、Humboldt、Newton、ETH、TUM、JRFS 和亚洲项目形成组合。</p></div></li>
+      <li><time>${escapeHtml(graduation)}</time><div><strong>博士毕业与正式申请</strong><p>以一项主申、两项强备选和持续开放的 PI 项目制博后降低单点风险。</p></div></li>
+    </ol>
+  `;
+}
+
+function renderFundingTrackingSummary(tracked, contacts) {
+  const stages = ["watch", "research", "prepare", "contacted", "applied", "waiting", "follow_up", "success", "paused"];
+  const all = [
+    ...tracked.map(([id, item]) => ({ ...item, id, kind: "基金" })),
+    ...contacts.map(([id, item]) => ({ ...item, id, kind: "导师" }))
+  ];
+  if (!all.length) return `<p class="muted">在基金详情或导师通讯录中建立第一条记录。</p>`;
+  return `<div class="tracking-summary">${stages.map((stage) => {
+    const count = all.filter((item) => item.status === stage).length;
+    return count ? `<div><strong>${count}</strong><span>${fundingTrackingStatusLabel(stage)}</span></div>` : "";
+  }).join("")}</div>`;
+}
+
+function bindFundingPageControls() {
+  els.pages.funding.querySelectorAll("[data-funding-filter]").forEach((control) => {
+    const eventName = control.tagName === "INPUT" ? "input" : "change";
+    control.addEventListener(eventName, () => {
+      state.fundingFilters[control.dataset.fundingFilter] = control.value;
+      renderFunding();
+    });
+  });
+  els.pages.funding.querySelector("#funding-profile-form")?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    state.fundingWorkspace.profile = Object.fromEntries([...data.entries()].map(([key, value]) => [key, String(value).trim()]));
+    persistFundingWorkspace("本地申请画像已保存。");
+    renderFunding();
+  });
+  els.pages.funding.querySelector("#funding-lead-form")?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    state.fundingWorkspace.leads = [
+      ...(state.fundingWorkspace.leads ?? []),
+      { url: String(data.get("url") || ""), title: String(data.get("title") || ""), kind: String(data.get("kind") || "funding"), addedAt: new Date().toISOString() }
+    ];
+    persistFundingWorkspace("线索已保存到本机待核验区。");
+    renderFunding();
+  });
+  els.pages.funding.querySelector("#funding-vault-file")?.addEventListener("change", importFundingVault);
+}
+
+function showFundingOpportunityDetail(id) {
+  const item = fundingData().opportunities?.find((value) => value.id === id);
+  if (!item) return;
+  state.selectedFundingOpportunityId = id;
+  const tracking = state.fundingWorkspace?.opportunityTracking?.[id] ?? {};
+  els.drawer.innerHTML = `
+    <button class="drawer-close" type="button" data-close-drawer aria-label="关闭">×</button>
+    <div class="drawer-content funding-drawer">
+      <p class="eyebrow">${escapeHtml(item.category ? fundingCategoryLabel(item.category) : "Funding")}</p>
+      <h2>${escapeHtml(item.nameZh || item.name)}</h2>
+      <p class="drawer-subtitle">${escapeHtml(item.provider ?? "")} · ${escapeHtml((item.regions ?? []).join(" / "))}</p>
+      <div class="funding-detail-score"><span class="funding-tier tier-${escapeAttr(String(item.strategicTier ?? "C").toLowerCase())}">${escapeHtml(item.strategicTier ?? "C")}</span><strong>${formatMetric(item.baseScore)}</strong><small>${escapeHtml(item.statusZh ?? "")}</small></div>
+      ${detailSection("为什么值得看", `<p>${escapeHtml(item.relevanceZh ?? "")}</p>`)}
+      ${detailSection("资格", `<p>${escapeHtml(item.eligibilitySummaryZh ?? "")}</p>`)}
+      ${detailSection("经费", `<p>${escapeHtml(item.fundingSummaryZh ?? "")}</p>`)}
+      ${detailSection("时间", `<p>${escapeHtml(item.timingSummaryZh ?? "")}</p>${item.deadline ? `<p class="funding-deadline-detail"><strong>${escapeHtml(item.deadline)}</strong>${escapeHtml(item.deadlineContextZh ?? "")}</p>` : ""}`)}
+      ${detailSection("默认下一步", `<p>${escapeHtml(item.nextActionZh ?? "")}</p>`)}
+      ${item.caveatsZh?.length ? detailSection("边界与风险", `<ul>${item.caveatsZh.map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul>`) : ""}
+      ${detailSection("官方证据", `${linkHtml(item.sourceUrl, "打开官方页面")}<p class="muted">${escapeHtml(item.evidenceGrade ?? "")}-level · 核验 ${escapeHtml(item.lastVerifiedAt ?? "")}</p>`)}
+      <form id="funding-opportunity-tracking-form" class="drawer-local-form">
+        <h3>本机行动记录</h3>
+        <label><span>状态</span><select name="status">${fundingTrackingStatusOptions(tracking.status)}</select></label>
+        <label><span>下一步</span><input name="nextAction" value="${escapeAttr(tracking.nextAction ?? "")}" placeholder="例如：整理 3 位潜在 host"></label>
+        <label><span>私人备注</span><textarea name="notes" rows="4">${escapeHtml(tracking.notes ?? "")}</textarea></label>
+        <button class="primary-button" type="submit">保存到本机</button>
+      </form>
+    </div>
+  `;
+  els.drawer.classList.add("open");
+  document.querySelector("#funding-opportunity-tracking-form")?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    state.fundingWorkspace.opportunityTracking[id] = {
+      status: String(data.get("status") || "watch"),
+      nextAction: String(data.get("nextAction") || "").trim(),
+      notes: String(data.get("notes") || "").trim(),
+      updatedAt: new Date().toISOString()
+    };
+    persistFundingWorkspace("基金行动记录已保存到本机。");
+    showFundingOpportunityDetail(id);
+  });
+}
+
+function showFundingMentorDetail(id) {
+  const profile = academicProfiles().find((value) => value.id === id);
+  if (!profile) return;
+  state.selectedFundingMentorId = id;
+  const contact = state.fundingWorkspace?.mentorContacts?.[id] ?? {};
+  els.drawer.innerHTML = `
+    <button class="drawer-close" type="button" data-close-drawer aria-label="关闭">×</button>
+    <div class="drawer-content funding-drawer">
+      <p class="eyebrow">Mentor contact desk</p>
+      <h2>${escapeHtml(profileDisplayName(profile))}</h2>
+      <p class="drawer-subtitle">${escapeHtml(profile.currentPosition ?? "")} · ${escapeHtml(profile.institution ?? "")}</p>
+      ${detailSection("研究连接", tagList([...(profile.research?.methods ?? []), ...(profile.research?.applications ?? [])].slice(0, 8)))}
+      ${detailSection("公开联系入口", `${isExternalUrl(profile.links?.homepage) ? linkHtml(profile.links.homepage, "官方主页") : ""}${isExternalUrl(profile.links?.groupHomepage) ? linkHtml(profile.links.groupHomepage, "课题组主页") : ""}${isExternalUrl(profile.links?.openings) ? linkHtml(profile.links.openings, "招聘 / 申请入口") : ""}`)}
+      ${detailSection("招聘与 Fellowship 信号", (profile.recruitmentSignals ?? []).map((signal) => renderRecruitmentSignal(signal)).join("") || `<p class="muted">未发现公开信号。</p>`)}
+      <form id="funding-mentor-contact-form" class="drawer-local-form">
+        <h3>本机导师通讯录</h3>
+        <label><span>公开职业邮箱</span><input name="email" type="email" value="${escapeAttr(contact.email ?? "")}" placeholder="从官方联系页核对后填写"></label>
+        <label><span>引荐路径</span><input name="introductionPath" value="${escapeAttr(contact.introductionPath ?? "")}" placeholder="例如：现导师 → 共同合作者"></label>
+        <label><span>状态</span><select name="status">${fundingTrackingStatusOptions(contact.status)}</select></label>
+        <label><span>联系主题</span><input name="subject" value="${escapeAttr(contact.subject ?? "")}" placeholder="研究问题 / 访学 / Fellowship host"></label>
+        <label><span>私人备注</span><textarea name="notes" rows="4">${escapeHtml(contact.notes ?? "")}</textarea></label>
+        <button class="primary-button" type="submit">保存到本机</button>
+      </form>
+    </div>
+  `;
+  els.drawer.classList.add("open");
+  document.querySelector("#funding-mentor-contact-form")?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    state.fundingWorkspace.mentorContacts[id] = {
+      email: String(data.get("email") || "").trim(),
+      introductionPath: String(data.get("introductionPath") || "").trim(),
+      status: String(data.get("status") || "watch"),
+      subject: String(data.get("subject") || "").trim(),
+      notes: String(data.get("notes") || "").trim(),
+      updatedAt: new Date().toISOString()
+    };
+    persistFundingWorkspace("导师联系记录已保存到本机。");
+    showFundingMentorDetail(id);
+  });
+}
+
+function fundingData() {
+  return state.data?.funding ?? fallbackFunding();
+}
+
+function filteredFundingOpportunities() {
+  const filters = state.fundingFilters;
+  return (fundingData().opportunities ?? []).filter((item) => {
+    const searchText = [item.name, item.nameZh, item.provider, item.relevanceZh, item.eligibilitySummaryZh, ...(item.researchFit ?? [])].join(" ").toLowerCase();
+    return (!filters.search || searchText.includes(filters.search.toLowerCase()))
+      && (!filters.stage || item.stages?.includes(filters.stage))
+      && (!filters.category || item.category === filters.category)
+      && (!filters.region || item.regions?.includes(filters.region))
+      && (!filters.tier || item.strategicTier === filters.tier)
+      && (!filters.status || item.status === filters.status);
+  });
+}
+
+function fundingMentorScore(profile) {
+  const targetTerms = ["complementarity", "variational", "nonsmooth", "stochastic", "sample average", "spectral", "numerical analysis", "scientific computing", "semismooth", "robust optimization"];
+  const researchText = [profile.research?.summary, ...(profile.research?.methods ?? []), ...(profile.research?.fields ?? [])].join(" ").toLowerCase();
+  const overlap = targetTerms.filter((term) => researchText.includes(term)).length;
+  const signalScore = (profile.recruitmentSignals ?? []).reduce((score, signal) => score + ({ official_opening: 16, funded_expansion_signal: 13, accepts_applications: 12, fellowship_host: 11, department_opening: 7 }[signal.type] ?? 0), 0);
+  const activeScore = Math.min(10, Number(profile.publicationMetrics?.recent5Years?.worksCount ?? profile.publicationMetrics?.recentWorksCount ?? 0));
+  return Math.min(99, 48 + overlap * 6 + Math.min(22, signalScore) + activeScore);
+}
+
+function fundingMentorBand(score) {
+  if (score >= 91) return "重点联系";
+  if (score >= 82) return "强匹配";
+  return "持续观察";
+}
+
+function uniqueFundingValues(items, key) {
+  return [...new Set((items ?? []).flatMap((item) => item[key] ?? []).filter(Boolean))].sort();
+}
+
+function fundingFilterSelect(name, label, options) {
+  return `<label><span>${escapeHtml(label)}</span><select data-funding-filter="${escapeAttr(name)}"><option value="">全部</option>${options.map(([value, text]) => `<option value="${escapeAttr(value)}" ${state.fundingFilters[name] === value ? "selected" : ""}>${escapeHtml(text)}</option>`).join("")}</select></label>`;
+}
+
+function fundingStageLabel(value) {
+  return ({ phd: "博士期间", final_year: "博士毕业年", postdoc: "博士后", early_faculty: "早期教职" })[value] ?? value;
+}
+
+function fundingCategoryLabel(value) {
+  return ({
+    doctoral_visit: "博士访学",
+    doctoral_fellowship: "博士 Fellowship",
+    portable_postdoc_fellowship: "便携式博士后基金",
+    institutional_postdoc_fellowship: "大学博士后 Fellowship",
+    international_postdoc_fellowship: "跨国博士后 Fellowship",
+    postdoc_research_visit: "博士后访问",
+    independent_postdoc_fellowship: "独立博士后基金",
+    global_independent_fellowship: "全球独立 Fellowship",
+    postdoc_independence: "博士后独立资助",
+    early_career_independence: "早期独立研究",
+    nominated_interdisciplinary_fellowship: "机构提名跨学科",
+    mathematics_postdoc_network: "数学研究所网络",
+    early_career_prize: "青年学术奖项",
+    uk_early_career_fellowship: "英国早期职业基金"
+  })[value] ?? value;
+}
+
+function fundingStatusOptions() {
+  return [...new Set((fundingData().opportunities ?? []).map((item) => item.status))].map((value) => [value, fundingOpportunityStatusLabel(value)]);
+}
+
+function fundingOpportunityStatusLabel(value) {
+  return ({
+    next_round_watch: "下一轮监测",
+    annual_watch: "年度监测",
+    currently_ineligible: "当前不符合",
+    future_priority: "未来重点",
+    long_term_watch: "长期目标",
+    upcoming: "即将开放",
+    source_watch: "来源监测"
+  })[value] ?? value;
+}
+
+function fundingCoverageStatusLabel(value) {
+  return ({ checked: "已核验", directory_watch: "目录监测", access_limited: "访问受限", source_watch: "待补 call", checked_currently_ineligible: "已核验·暂不符合" })[value] ?? value;
+}
+
+function fundingTrackingStatusLabel(value) {
+  return ({ watch: "关注", research: "调研", prepare: "准备材料", contacted: "已联系", applied: "已申请", waiting: "等待回复", follow_up: "跟进", success: "成功", paused: "暂停" })[value] ?? value;
+}
+
+function fundingTrackingStatusOptions(selected = "watch") {
+  return [["watch","关注"],["research","调研"],["prepare","准备材料"],["contacted","已联系"],["applied","已申请"],["waiting","等待回复"],["follow_up","跟进"],["success","成功"],["paused","暂停"]].map(([value,label])=>`<option value="${value}" ${selected===value?"selected":""}>${label}</option>`).join("");
+}
+
+function createFundingWorkspace() {
+  return { schemaVersion: 1, profile: {}, opportunityTracking: {}, mentorContacts: {}, leads: [], updatedAt: null };
+}
+
+function loadFundingWorkspace() {
+  try {
+    const value = JSON.parse(localStorage.getItem(FUNDING_WORKSPACE_STORAGE_KEY) || "null");
+    return value && value.schemaVersion === 1 ? { ...createFundingWorkspace(), ...value } : createFundingWorkspace();
+  } catch {
+    return createFundingWorkspace();
+  }
+}
+
+function persistFundingWorkspace(message = "") {
+  state.fundingWorkspace.updatedAt = new Date().toISOString();
+  localStorage.setItem(FUNDING_WORKSPACE_STORAGE_KEY, JSON.stringify(state.fundingWorkspace));
+  state.fundingMessage = message;
+}
+
+async function exportFundingVault() {
+  const password = window.prompt("请设置本次备份密码（至少 8 位）。密码不会被保存：");
+  if (!password) return;
+  if (password.length < 8) {
+    state.fundingMessage = "备份密码至少需要 8 位。";
+    renderFunding();
+    return;
+  }
+  try {
+    const salt = crypto.getRandomValues(new Uint8Array(16));
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const key = await deriveFundingVaultKey(password, salt, ["encrypt"]);
+    const plaintext = new TextEncoder().encode(JSON.stringify(state.fundingWorkspace));
+    const encrypted = await crypto.subtle.encrypt({ name: "AES-GCM", iv }, key, plaintext);
+    const payload = {
+      format: "faculty-radar-vault",
+      version: 1,
+      algorithm: "AES-GCM",
+      kdf: "PBKDF2-SHA-256",
+      iterations: 210000,
+      salt: bytesToBase64(salt),
+      iv: bytesToBase64(iv),
+      data: bytesToBase64(new Uint8Array(encrypted)),
+      exportedAt: new Date().toISOString()
+    };
+    downloadTextFile(`faculty-radar-vault-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(payload, null, 2), "application/json");
+    state.fundingMessage = "加密备份已导出。请妥善保存密码。";
+    renderFunding();
+  } catch {
+    state.fundingMessage = "当前浏览器无法完成加密导出。";
+    renderFunding();
+  }
+}
+
+async function importFundingVault(event) {
+  const file = event.target.files?.[0];
+  if (!file) return;
+  const password = window.prompt("请输入备份密码：");
+  if (!password) return;
+  try {
+    const payload = JSON.parse(await file.text());
+    if (payload.format !== "faculty-radar-vault" || payload.version !== 1) throw new Error("format");
+    const salt = base64ToBytes(payload.salt);
+    const iv = base64ToBytes(payload.iv);
+    const key = await deriveFundingVaultKey(password, salt, ["decrypt"]);
+    const decrypted = await crypto.subtle.decrypt({ name: "AES-GCM", iv }, key, base64ToBytes(payload.data));
+    const workspace = JSON.parse(new TextDecoder().decode(decrypted));
+    if (workspace.schemaVersion !== 1) throw new Error("version");
+    state.fundingWorkspace = { ...createFundingWorkspace(), ...workspace };
+    persistFundingWorkspace("加密备份已导入当前浏览器。");
+    renderFunding();
+  } catch {
+    state.fundingMessage = "导入失败：密码错误或备份文件无效。";
+    renderFunding();
+  } finally {
+    event.target.value = "";
+  }
+}
+
+async function deriveFundingVaultKey(password, salt, usages) {
+  const material = await crypto.subtle.importKey("raw", new TextEncoder().encode(password), "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey({ name: "PBKDF2", salt, iterations: 210000, hash: "SHA-256" }, material, { name: "AES-GCM", length: 256 }, false, usages);
+}
+
+function bytesToBase64(bytes) {
+  let value = "";
+  bytes.forEach((byte) => { value += String.fromCharCode(byte); });
+  return btoa(value);
+}
+
+function base64ToBytes(value) {
+  return Uint8Array.from(atob(value), (char) => char.charCodeAt(0));
+}
+
+function exportFundingCalendar() {
+  const items = (fundingData().opportunities ?? []).filter((item) => item.deadline && item.status !== "currently_ineligible" && Number(item.deadlineDays) >= 0);
+  if (!items.length) {
+    state.fundingMessage = "当前已核验机会没有可导出的精确截止日期。";
+    renderFunding();
+    return;
+  }
+  const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Postdoc Faculty Radar//Funding//ZH-CN", "CALSCALE:GREGORIAN"];
+  for (const item of items) {
+    const day = String(item.deadline).replaceAll("-", "");
+    lines.push("BEGIN:VEVENT", `UID:${item.id}@postdoc-faculty-radar`, `DTSTAMP:${new Date().toISOString().replaceAll("-", "").replaceAll(":", "").replace(/\.\d{3}Z$/, "Z")}`, `DTSTART;VALUE=DATE:${day}`, `SUMMARY:${icsText(item.nameZh || item.name)} 截止`, `DESCRIPTION:${icsText(item.deadlineContextZh || item.timingSummaryZh || "请以官方页面为准")}\\n${icsText(item.sourceUrl || "")}`, "END:VEVENT");
+  }
+  lines.push("END:VCALENDAR");
+  downloadTextFile("funding-deadlines.ics", lines.join("\r\n"), "text/calendar");
+}
+
+function icsText(value) {
+  return String(value ?? "").replaceAll("\\", "\\\\").replaceAll(";", "\\;").replaceAll(",", "\\,").replaceAll("\n", "\\n");
+}
+
+function fallbackFunding() {
+  return { schemaVersion: 1, opportunities: [], coverage: [], seedCases: [], overview: {} };
 }
 
 function renderRadar() {
@@ -3295,6 +4004,10 @@ function link(url, label) {
   return url ? { html: `<a href="${escapeAttr(url)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>` } : "";
 }
 
+function linkHtml(url, label) {
+  return link(url, label)?.html ?? "";
+}
+
 function emptyBlock(text) {
   return `<div class="empty">${escapeHtml(text)}</div>`;
 }
@@ -3370,6 +4083,7 @@ function fallbackData() {
     labs: [],
     academic: fallbackAcademic(),
     industry: fallbackIndustry(),
+    funding: fallbackFunding(),
     routes: [],
     sources: [],
     calendar: {}

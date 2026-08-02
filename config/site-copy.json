@@ -4,6 +4,7 @@
   "tagline": "官方优先、公开可证、成功案例驱动",
   "navigation": [
     {"id": "home", "label": "首页"},
+    {"id": "funding", "label": "基金与导师"},
     {"id": "radar", "label": "机会雷达"},
     {"id": "industry", "label": "产业雷达"},
     {"id": "routes", "label": "职业路线"},

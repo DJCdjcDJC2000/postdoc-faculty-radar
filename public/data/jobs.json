@@ -331,7 +331,7 @@
     "freshness": {
       "type": "expired",
       "labelZh": "已失效/已截止",
-      "highlighted": true
+      "highlighted": false
     }
   },
   {
@@ -471,7 +471,7 @@
     "freshness": {
       "type": "expired",
       "labelZh": "已失效/已截止",
-      "highlighted": true
+      "highlighted": false
     }
   },
   {

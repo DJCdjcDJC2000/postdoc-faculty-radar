@@ -10,6 +10,10 @@
         "label": "首页"
       },
       {
+        "id": "funding",
+        "label": "基金与导师"
+      },
+      {
         "id": "radar",
         "label": "机会雷达"
       },
@@ -51,7 +55,7 @@
     "jobCount": 16,
     "alertCount": 3,
     "sourceCount": 20,
-    "builtAt": "2026-07-30T14:40:28.334Z",
+    "builtAt": "2026-08-02T06:00:40.254Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -79,9 +83,9 @@
     "archivedJobs": 7,
     "newJobs": 3,
     "updatedJobs": 0,
-    "expiredJobs": 3,
+    "expiredJobs": 1,
     "highMatchJobs": 3,
-    "dueSoonJobs": 0,
+    "dueSoonJobs": 1,
     "activeSources": 3,
     "totalSources": 20,
     "peopleCount": 14,
@@ -91,7 +95,11 @@
     "industryPeople": 50,
     "industryOpportunities": 24,
     "activeIndustryOpportunities": 14,
-    "industryInternships": 5
+    "industryInternships": 5,
+    "fundingOpportunities": 41,
+    "priorityFunding": 21,
+    "fundingSourcesChecked": 33,
+    "fundingSourcesTotal": 51
   },
   "jobs": [
     {
@@ -426,7 +434,7 @@
       "freshness": {
         "type": "expired",
         "labelZh": "已失效/已截止",
-        "highlighted": true
+        "highlighted": false
       }
     },
     {
@@ -566,7 +574,7 @@
       "freshness": {
         "type": "expired",
         "labelZh": "已失效/已截止",
-        "highlighted": true
+        "highlighted": false
       }
     },
     {
@@ -83865,6 +83873,2223 @@
       }
     ]
   },
+  "funding": {
+    "schemaVersion": 1,
+    "researchedAt": "2026-08-02",
+    "planningWindow": {
+      "from": "2026-08-02",
+      "to": "2031-12-31",
+      "doctoralVisitWindow": "2027-07 to 2028-06",
+      "postdoctoralApplicationWindow": "2028-07 to 2031-12"
+    },
+    "methodology": {
+      "summaryZh": "按国家基金机构、大学、学会、研究所和产业研究计划建立来源台账；非官方信息只作为线索，资格、截止日期和待遇必须回到官方页面核验。",
+      "coverageRuleZh": "所有相关线索进入覆盖台账；只有具备官方来源、阶段判断和资格边界的项目进入正式机会库。",
+      "rankingRuleZh": "基础排序按研究匹配 25%、资格与时间 20%、导师或机构实力 20%、资助含金量 15%、职业杠杆 10%、可行性 10%；本机画像可进一步调整。",
+      "archiveRuleZh": "过期项目保留历史轮次并监测下一轮；明确停办才标记为结束。",
+      "privacyRuleZh": "公开构建只包含项目与公开证据；个人画像、联系方式、邮件草稿和申请记录仅保存在浏览器本机。"
+    },
+    "opportunities": [
+      {
+        "id": "polyu-icrf",
+        "name": "PolyU PhD Scholars International Collaborative Research Fellowship",
+        "nameZh": "港理工博士学者国际合作研究 Fellowship（ICRF）",
+        "provider": "The Hong Kong Polytechnic University Graduate School",
+        "category": "doctoral_visit",
+        "stages": [
+          "phd"
+        ],
+        "regions": [
+          "Global"
+        ],
+        "applicationMode": "institutional",
+        "status": "next_round_watch",
+        "statusZh": "下一轮重点监测",
+        "strategicTier": "A",
+        "baseScore": 97,
+        "requiresHost": true,
+        "researchFit": [
+          "applied mathematics",
+          "optimization",
+          "numerical analysis",
+          "scientific computing"
+        ],
+        "relevanceZh": "与 2027–2028 年海外访学窗口直接匹配，强调世界前列高校、顶尖合作导师和高质量研究计划。",
+        "eligibilitySummaryZh": "港理工在读博士生；访问院校须为世界综合排名 Top 50 或相关学科 Top 10；需要本校导师同意、海外导师邀请和研究计划。",
+        "fundingSummaryZh": "固定资助 HK$65,000；访问期 6–12 个月，原有奖学金通常继续发放，接收方学费等额外费用由学生承担。",
+        "timingSummaryZh": "每年通常两轮；2025/26 第二轮申请已于 2026-05-04 截止，下一轮需持续监测。",
+        "nextActionZh": "先形成 5–10 位 Top 50/学科 Top 10 的匹配导师清单，再准备三页合作研究计划与导师沟通材料。",
+        "sourceUrl": "https://www.polyu.edu.hk/gs/current-students/polyu-phd-scholars-icrf/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "ICRF 与 RSAP 在正常修读期内只能择一获得资助",
+          "正式申请前必须取得本校及海外导师支持"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "msca-european-pf",
+        "name": "Marie Skłodowska-Curie European Postdoctoral Fellowship",
+        "nameZh": "玛丽·居里欧洲博士后 Fellowship（MSCA PF）",
+        "provider": "European Commission",
+        "category": "portable_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "European Union",
+          "Horizon Europe Associated Countries"
+        ],
+        "applicationMode": "joint_with_host",
+        "status": "future_priority",
+        "statusZh": "2028–2029 重点准备",
+        "deadline": "2026-09-09",
+        "deadlineContextZh": "2026 轮官方截止；用于掌握年度节奏，正式主申预计在 2029 年后",
+        "strategicTier": "A",
+        "baseScore": 97,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines"
+        ],
+        "relevanceZh": "全球开放、可与欧洲顶尖导师共同设计独立项目，是 2029 博后路线的核心便携式资助。",
+        "eligibilitySummaryZh": "截止日前已取得博士或完成答辩；博士后研究经历通常不超过 8 年；申请前 36 个月在目标国居住或主要活动不超过 12 个月。",
+        "fundingSummaryZh": "资助雇佣工资、流动补贴及适用的家庭/特殊需求补贴，并提供科研、培训、管理与间接经费。",
+        "timingSummaryZh": "年度项目；需要与 host 提前约 9–12 个月共同准备。",
+        "nextActionZh": "2027 起建立欧洲 host 池，2028 确定 3–5 个共同提案对象。",
+        "sourceUrl": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "Global PF 只面向欧盟/关联国国民或长期居民；当前应关注 European PF",
+          "2026 起低于 80 分的重投受到限制"
+        ],
+        "deadlineDays": 39,
+        "lifecycle": "future"
+      },
+      {
+        "id": "rgc-jrfs",
+        "name": "RGC Junior Research Fellow Scheme",
+        "nameZh": "香港研究资助局 Junior Research Fellow Scheme（JRFS）",
+        "provider": "Research Grants Council of Hong Kong",
+        "category": "institutional_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "applicationMode": "university_nomination",
+        "status": "annual_watch",
+        "statusZh": "年度提名项目",
+        "strategicTier": "A",
+        "baseScore": 96,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines"
+        ],
+        "relevanceZh": "与香港学术网络和 2029 毕业时间高度匹配，可支持从博士后向助理教授或研究助理教授过渡。",
+        "eligibilitySummaryZh": "由香港 UGC 资助大学提名；须在指定日期前完成博士，并获拟任职大学支持及香港工作居留资格。",
+        "fundingSummaryZh": "每年约 60 名；博士后阶段通常 24 个月、可申请延长最多 12 个月，年资助约 HK$425,000（含约 HK$13,500 会议/研究差旅）。",
+        "timingSummaryZh": "年度校内遴选通常早于 RGC 截止，必须提前联系学院和 host。",
+        "nextActionZh": "2028 年开始同时布局 PolyU、HKU、CUHK、HKUST、CityU 等支持提名的目标组。",
+        "sourceUrl": "https://www.ugc.edu.hk/eng/rgc/funding_opport/jrfs/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "不能个人直接提交，大学内部名额竞争是关键",
+          "页面部分日期仍混有上一轮说明，须以当轮 call circular 为准"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "polyu-rsap-outgoing",
+        "name": "PolyU Research Student Attachment Programme – Outgoing",
+        "nameZh": "港理工研究生海外科研交流计划（RSAP-Outgoing）",
+        "provider": "The Hong Kong Polytechnic University Graduate School",
+        "category": "doctoral_visit",
+        "stages": [
+          "phd"
+        ],
+        "regions": [
+          "Global"
+        ],
+        "applicationMode": "institutional",
+        "status": "next_round_watch",
+        "statusZh": "下一轮重点监测",
+        "strategicTier": "A",
+        "baseScore": 95,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines"
+        ],
+        "relevanceZh": "比 ICRF 的学校排名约束更宽，适合作为 3–12 个月海外访学的主力备选。",
+        "eligibilitySummaryZh": "港理工在读博士生且学业状态良好；本校与海外导师研究兴趣须匹配，并取得正式邀请。",
+        "fundingSummaryZh": "生活补助 HK$250/天、最高 HK$45,000，另有固定 HK$10,000 旅费；访问期 3–12 个月。",
+        "timingSummaryZh": "每年通常两轮；2025/26 第二轮申请已于 2026-05-04 截止，下一轮需持续监测。",
+        "nextActionZh": "与 ICRF 共用导师池和研究计划，申请时根据院校排名、访问时长与预算选择一项。",
+        "sourceUrl": "https://www.polyu.edu.hk/gs/current-students/rsap_outgoing/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "访问必须在正常修读期内完成",
+          "ICRF 与 RSAP 只能择一获得资助"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "humboldt-research-fellowship",
+        "name": "Humboldt Research Fellowship",
+        "nameZh": "洪堡研究 Fellowship",
+        "provider": "Alexander von Humboldt Foundation",
+        "category": "portable_postdoc_fellowship",
+        "stages": [
+          "postdoc"
+        ],
+        "regions": [
+          "Germany"
+        ],
+        "applicationMode": "joint_with_host",
+        "status": "future_priority",
+        "statusZh": "2028–2029 重点准备",
+        "strategicTier": "A",
+        "baseScore": 95,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines"
+        ],
+        "relevanceZh": "不限国籍和学科，适合与德国优化、数值分析和科学计算强组建立 host 关系。",
+        "eligibilitySummaryZh": "面向德国以外国家的高水平博士后和资深研究者；需德国学术 host 与独立研究计划。",
+        "fundingSummaryZh": "支持在德国 6–24 个月研究，并提供洪堡网络和后续资助。",
+        "timingSummaryZh": "2026 起每年三轮且每轮最多接收约 800 份；项目当前已达上限，下一轮 2026-11-15 开放。",
+        "nextActionZh": "提前准备完整材料，开放后尽早提交，避免达到申请上限后关闭。",
+        "sourceUrl": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "2026 年官方预计批准率约 20–25%",
+          "开放轮次可能在达到数量上限后提前关闭"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "future"
+      },
+      {
+        "id": "newton-international-fellowship",
+        "name": "Newton International Fellowship",
+        "nameZh": "英国皇家学会 Newton International Fellowship",
+        "provider": "The Royal Society and the British Academy",
+        "category": "portable_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "United Kingdom"
+        ],
+        "applicationMode": "joint_with_host",
+        "status": "annual_watch",
+        "statusZh": "2026 轮关闭，年度监测",
+        "strategicTier": "A",
+        "baseScore": 94,
+        "requiresHost": true,
+        "researchFit": [
+          "science",
+          "engineering",
+          "mathematics"
+        ],
+        "relevanceZh": "面向非英国早期研究者赴英建立独立研究路线，与 Oxford、Imperial、Edinburgh 等目标组高度契合。",
+        "eligibilitySummaryZh": "非英国早期科研人员，申请赴英国机构开展研究；具体博士年限和流动规则以当轮指南为准。",
+        "fundingSummaryZh": "支持在英国开展独立研究、培训和国际合作，金额以当轮官方指南为准。",
+        "timingSummaryZh": "2026 轮于 2026-01-15 开放、2026-03-11 截止，年度监测下一轮。",
+        "nextActionZh": "2028 年前确定英国 host，并提前准备独立研究问题和两封强推荐。",
+        "sourceUrl": "https://royalsociety.org/grants/newton-international/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "竞争面向全学科的国际早期研究者",
+          "最终资格以具体年度指南为准"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "eth-postdoctoral-fellowship",
+        "name": "ETH Postdoctoral Fellowship",
+        "nameZh": "ETH Zurich 博士后 Fellowship",
+        "provider": "ETH Zurich",
+        "category": "institutional_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Switzerland"
+        ],
+        "applicationMode": "joint_with_host",
+        "status": "future_priority",
+        "statusZh": "毕业前六个月可申请",
+        "deadline": "2026-09-01",
+        "deadlineContextZh": "ETH 每年 3 月 1 日和 9 月 1 日两轮；此处记录最近一轮",
+        "strategicTier": "A",
+        "baseScore": 94,
+        "requiresHost": true,
+        "researchFit": [
+          "optimization",
+          "numerical analysis",
+          "scientific computing",
+          "machine learning"
+        ],
+        "relevanceZh": "ETH 有多位高度匹配导师，项目强调候选人自带独立想法且近年约 40–50% Fellows 后续获得教职。",
+        "eligibilitySummaryZh": "截止日前已取得博士或未来六个月内取得；取得博士不超过两年；至少一篇同行评审论文或博士论文奖；须满足瑞士流动规则。",
+        "fundingSummaryZh": "两年全职 ETH 标准工资，并提供每年 CHF 12,000 科研与差旅经费。",
+        "timingSummaryZh": "每年 3 月 1 日和 9 月 1 日两轮；官方近轮成功率约 15–20%。",
+        "nextActionZh": "优先建立 Niao He、Siddhartha Mishra、Christoph Schwab 等方向匹配组的实质联系。",
+        "sourceUrl": "https://grantsoffice.ethz.ch/funding-opportunities/internal/eth-fellowships.html",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "host 每轮只能支持一名候选人",
+          "候选人与 host 不应已有过度紧密合作"
+        ],
+        "deadlineDays": 31,
+        "lifecycle": "future"
+      },
+      {
+        "id": "tum-global-postdoc-fellowship",
+        "name": "TUM Global Postdoc Fellowship",
+        "nameZh": "慕尼黑工业大学 Global Postdoc Fellowship",
+        "provider": "Technical University of Munich",
+        "category": "institutional_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Germany"
+        ],
+        "applicationMode": "two_stage_host_match",
+        "status": "future_priority",
+        "statusZh": "毕业前一年可申请",
+        "strategicTier": "A",
+        "baseScore": 93,
+        "requiresHost": true,
+        "researchFit": [
+          "optimization",
+          "nonsmooth optimization",
+          "optimal control",
+          "scientific computing"
+        ],
+        "relevanceZh": "允许博士最后一年申请，并在第一阶段列出最多三位潜在 host，适合提前布局 Michael Ulbrich 等目标组。",
+        "eligibilitySummaryZh": "申请时居住在德国以外；博士毕业不超过三年，或已提交论文/未来 12 个月内毕业；第二阶段必须取得 TUM host 支持。",
+        "fundingSummaryZh": "两年 Fellowship；host 需共同承担约 20% 成本，额外科研耗材与会议经费通常由 host 负责。",
+        "timingSummaryZh": "2026 年第六轮对应最早 2027-04-01 入职；后续轮次持续监测。",
+        "nextActionZh": "2027–2028 年先通过访问或会议建立 TUM 联系，避免在申请时才首次接触 host。",
+        "sourceUrl": "https://www.tum.de/en/about-tum/careers-and-jobs/postdocs/tum-global-postdoc-fellowship",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "host 需要承担共同经费，支持意愿非常关键",
+          "Fellowship 主要覆盖生活费，科研成本需另行确认"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "future"
+      },
+      {
+        "id": "kaust-global-postdoctoral-fellowship",
+        "name": "KAUST Global Postdoctoral Fellowship",
+        "nameZh": "KAUST 全球博士后 Fellowship",
+        "provider": "King Abdullah University of Science and Technology",
+        "category": "global_independent_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Saudi Arabia"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "future_priority",
+        "statusZh": "毕业年主申，9 月启动",
+        "deadline": "2026-10-01",
+        "deadlineContextZh": "官网公布每年 9 月 1 日至 10 月 1 日提交 concept note；年份按当前周期记录",
+        "strategicTier": "A",
+        "baseScore": 93,
+        "requiresHost": true,
+        "researchFit": [
+          "AI",
+          "energy",
+          "health",
+          "scientific computing",
+          "optimization"
+        ],
+        "relevanceZh": "经费强、独立性高，AI、能源和健康三条应用线都能承接随机优化与科学计算方法。",
+        "eligibilitySummaryZh": "面向具有突破性独立项目的优秀早期博士后；需匹配 KAUST host PI，正式毕业年限与材料要求以当轮指南为准。",
+        "fundingSummaryZh": "三年；年津贴 US$75,000，另有每年最高 US$40,000 研究经费、住房、保险、搬迁和年度差旅支持。",
+        "timingSummaryZh": "两阶段：9 月 1 日至 10 月 1 日 concept note；入围者 11 月 15 日至 1 月 15 日提交 full proposal。",
+        "nextActionZh": "2027–2028 年先建立 KAUST CEMSE 中 AI、优化、计算数学 host 池；2029 毕业年准备独立项目。",
+        "sourceUrl": "https://kgfp.kaust.edu.sa/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "必须先找到研究方向匹配的 KAUST host",
+          "截止日期按官网年度节奏记录，申请前需重新核验当年 call"
+        ],
+        "deadlineDays": 61,
+        "lifecycle": "future"
+      },
+      {
+        "id": "ntu-ai4x-pdf",
+        "name": "NTU AI-for-X Postdoctoral Fellowship",
+        "nameZh": "NTU AI-for-X 博士后 Fellowship",
+        "provider": "Nanyang Technological University and Singapore NRF",
+        "category": "institutional_postdoc_fellowship",
+        "stages": [
+          "postdoc"
+        ],
+        "regions": [
+          "Singapore"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "future_priority",
+        "statusZh": "AI 延展路线重点",
+        "deadline": "2026-10-30",
+        "deadlineContextZh": "2026 轮官方提交截止 23:59（新加坡时间）；用户当前尚未到申请阶段",
+        "strategicTier": "A",
+        "baseScore": 91,
+        "requiresHost": true,
+        "researchFit": [
+          "AI for science",
+          "scientific computing",
+          "optimization",
+          "mathematical sciences"
+        ],
+        "relevanceZh": "允许将数值方法、科学计算和随机优化延展到 AI for Science，并提供较长独立发展周期。",
+        "eligibilitySummaryZh": "STEM 博士毕业三年内，研究计划须清晰使用 AI 解决科学问题，并确定 NTU 项目导师。",
+        "fundingSummaryZh": "最长四年、竞争性薪酬及福利、SGD 250,000 研究经费；转向 tenure-track 后可继续支持。",
+        "timingSummaryZh": "2026 轮截止 2026-10-30；按年度监测未来轮次。",
+        "nextActionZh": "博士阶段补充可核验的 AI/科学机器学习方法贡献，而不是只更换应用标签。",
+        "sourceUrl": "https://www.ntu.edu.sg/research/research-careers/ntu-ai-for-x-postdoctoral-fellowship",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "需要两页 AI-integrated 研究计划和 NTU mentor 支持",
+          "当前主论文仍需先建立核心数学贡献"
+        ],
+        "deadlineDays": 90,
+        "lifecycle": "future"
+      },
+      {
+        "id": "jsps-standard-postdoc",
+        "name": "JSPS Postdoctoral Fellowship for Research in Japan – Standard",
+        "nameZh": "JSPS 外国研究者日本博士后 Fellowship（Standard）",
+        "provider": "Japan Society for the Promotion of Science",
+        "category": "portable_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "applicationMode": "host_nomination",
+        "status": "annual_watch",
+        "statusZh": "年度多轮监测",
+        "strategicTier": "A",
+        "baseScore": 91,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines"
+        ],
+        "relevanceZh": "日本数学、优化和科学计算强组的重要外籍博士后通道，通常由日方 host 提交。",
+        "eligibilitySummaryZh": "非日本籍近期博士，须由日本 host 研究者按当轮指南申请；另有短期项目可独立监测。",
+        "fundingSummaryZh": "生活费、国际旅费及研究支持以当轮官方 Application Guidelines 为准。",
+        "timingSummaryZh": "Standard 与短期项目有独立申请日程，应在毕业前一年与日本 host 对齐。",
+        "nextActionZh": "建立日本数值优化/科学计算导师池并监测 host 提名截止。",
+        "sourceUrl": "https://www.jsps.go.jp/english/e-fellow/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "具体年龄、博士年限和资助额必须以对应年度 PDF 指南为准"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "miller-research-fellowship",
+        "name": "Miller Research Fellowship",
+        "nameZh": "伯克利 Miller 基础科学博士后 Fellowship",
+        "provider": "Miller Institute for Basic Research in Science, UC Berkeley",
+        "category": "institutional_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "applicationMode": "nomination_then_application",
+        "status": "annual_watch",
+        "statusZh": "世界级提名制项目",
+        "deadline": "2026-09-10",
+        "deadlineContextZh": "2027–30 届提名截止；完整申请截止为 2026-10-09",
+        "strategicTier": "A",
+        "baseScore": 91,
+        "requiresHost": false,
+        "researchFit": [
+          "basic sciences",
+          "mathematics",
+          "scientific computing",
+          "computational science"
+        ],
+        "relevanceZh": "高度独立、跨基础科学，适合作为世界顶尖档冲刺项目，也能连接 Berkeley 的优化、数值分析和科学计算网络。",
+        "eligibilitySummaryZh": "必须先由全球高校的系主任、导师或研究科学家在线提名；博士须在当轮规定窗口内获得，直接申请不受理。",
+        "fundingSummaryZh": "三年 Berkeley 校内独立研究 Fellowship；当轮薪酬和福利以官方 offer 为准。",
+        "timingSummaryZh": "2027–30 届提名 2026-09-10 截止，完整材料 2026-10-09 截止。",
+        "nextActionZh": "2028 年把‘请导师提名’加入引荐节奏，提前准备最强论文、独立研究陈述和 Berkeley 潜在合作面。",
+        "sourceUrl": "https://miller.berkeley.edu/nominate-apply/miller-research-fellowship",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "当前周期博士完成窗口不匹配，目标应是 2029 对应轮次",
+          "无正式 host 要求不等于无需展示 Berkeley 研究连接"
+        ],
+        "deadlineDays": 40,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "royal-commission-1851-research-fellowship",
+        "name": "Royal Commission for the Exhibition of 1851 Research Fellowship",
+        "nameZh": "英国皇家 1851 委员会 Research Fellowship",
+        "provider": "Royal Commission for the Exhibition of 1851",
+        "category": "independent_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "United Kingdom"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "upcoming",
+        "statusZh": "2027 轮预计 2026 年 10 月开放",
+        "strategicTier": "A",
+        "baseScore": 90,
+        "requiresHost": true,
+        "researchFit": [
+          "mathematics",
+          "physical sciences",
+          "engineering",
+          "applied science"
+        ],
+        "relevanceZh": "支持申请人自创研究项目，数学明确在学科范围内，品牌强且独立性高。",
+        "eligibilitySummaryZh": "面向有突出潜力的早期科学家与工程师，项目需在英国研究机构开展；详细博士年限以年度指南为准。",
+        "fundingSummaryZh": "通常三年，每年约 8–9 个名额；资助细节以开放后的当轮指南为准。",
+        "timingSummaryZh": "官方显示 2027 Fellowship 将于 2026 年 10 月开放。",
+        "nextActionZh": "监测 2028–2029 轮，并与英国 host 提前共同打磨独立研究问题。",
+        "sourceUrl": "https://royalcommission1851.org/fellowships/research-fellowships",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "近年约 400–500 份申请竞争约 9 个名额"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "upcoming"
+      },
+      {
+        "id": "oxford-hooke-titchmarsh",
+        "name": "Oxford Hooke and Titchmarsh Fellowship Programme",
+        "nameZh": "牛津数学研究所 Hooke / Titchmarsh Fellowship",
+        "provider": "University of Oxford Mathematical Institute",
+        "category": "institutional_postdoc_fellowship",
+        "stages": [
+          "postdoc"
+        ],
+        "regions": [
+          "United Kingdom"
+        ],
+        "applicationMode": "departmental",
+        "status": "annual_watch",
+        "statusZh": "院系轮次监测",
+        "strategicTier": "A",
+        "baseScore": 90,
+        "requiresHost": false,
+        "researchFit": [
+          "mathematics",
+          "numerical analysis",
+          "optimization"
+        ],
+        "relevanceZh": "牛津数学系内部三年独立 Fellowship，适合与 Coralia Cartis、Yuji Nakatsukasa 等研究网络衔接。",
+        "eligibilitySummaryZh": "具体学科方向、招聘轮次和博士年限随职位公告变化，须同时监测 Oxford vacancies。",
+        "fundingSummaryZh": "三年独立研究机会；薪资和岗位条件以具体公告为准。",
+        "timingSummaryZh": "院系集中招聘，不保证每年相同时间开放。",
+        "nextActionZh": "将 Oxford fellowship programme、vacancies 与目标导师动态联合监测。",
+        "sourceUrl": "https://www.maths.ox.ac.uk/people/research-fellowship-programmes",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "该页面是项目总览，正式申请必须回到具体 vacancy"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "forrest-research-fellowship",
+        "name": "Forrest Research Foundation Postdoctoral Fellowship",
+        "nameZh": "Forrest 研究基金会博士后 Fellowship",
+        "provider": "Forrest Research Foundation",
+        "category": "global_independent_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Australia"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "annual_watch",
+        "statusZh": "全球开放，年度主申",
+        "strategicTier": "A",
+        "baseScore": 90,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines",
+          "mathematics",
+          "scientific computing",
+          "interdisciplinary research"
+        ],
+        "relevanceZh": "全球、全学科、强调跨机构经历和超越博士论文的研究，适合把核心数值方法扩展到澳洲优势应用领域。",
+        "eligibilitySummaryZh": "申请时为博士最后一年或授予博士不超过两年；提交前须联系西澳五所合作大学之一的潜在导师。",
+        "fundingSummaryZh": "三年；2026 标准含 Level A Step 8 薪资、17% super、年度住宿补贴和一次性 AU$12,000 研究差旅费，总价值超过 AU$500,000。",
+        "timingSummaryZh": "2027 届已于 2026-06-30 截止；后续年度通常在 5–6 月完成申请。",
+        "nextActionZh": "2028 年上半年锁定西澳 host，提前形成一页跨学科项目和‘为什么必须在西澳’的证据。",
+        "sourceUrl": "https://forrestresearch.org.au/fellowships/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "每轮通常仅约四席，要求远高于普通博士后岗位",
+          "正式申请需以当轮 fellowship guidelines 为准"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "schmidt-ai-in-science-network",
+        "name": "Schmidt AI in Science Fellowship Network",
+        "nameZh": "Schmidt AI in Science 全球博士后网络",
+        "provider": "Schmidt Sciences and partner universities",
+        "category": "nominated_interdisciplinary_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Global"
+        ],
+        "applicationMode": "partner_university",
+        "status": "annual_watch",
+        "statusZh": "九校分散申请，逐校监测",
+        "strategicTier": "A",
+        "baseScore": 90,
+        "requiresHost": true,
+        "researchFit": [
+          "AI for Science",
+          "scientific computing",
+          "optimization",
+          "mathematical sciences"
+        ],
+        "relevanceZh": "每年约 160 位博士后、覆盖九所合作大学，是从优化/数值分析转向 AI for Science 的全球高价值入口。",
+        "eligibilitySummaryZh": "总项目不设统一申请；必须进入各合作大学页面核对研究主题、博士年限、host 和截止日。",
+        "fundingSummaryZh": "由合作大学提供博士后支持、AI 培训、计算资源和跨学科网络，金额因学校而异。",
+        "timingSummaryZh": "各校独立轮次；NTU 已单列，Oxford、Imperial、Cambridge 等按正式 vacancy 监测。",
+        "nextActionZh": "2026 年底前把现有论文抽象成 AI for Science 方法问题；2027 年补一项可验证的 ML/科学计算桥接成果。",
+        "sourceUrl": "https://www.schmidtsciences.org/ai-in-science/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "不是一份统一申请",
+          "每所大学的资格和资助结构必须单独核验"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "ntu-lky-pdf",
+        "name": "Lee Kuan Yew Postdoctoral Fellowship",
+        "nameZh": "NTU 李光耀博士后 Fellowship",
+        "provider": "Nanyang Technological University",
+        "category": "institutional_postdoc_fellowship",
+        "stages": [
+          "postdoc"
+        ],
+        "regions": [
+          "Singapore"
+        ],
+        "applicationMode": "direct",
+        "status": "annual_watch",
+        "statusZh": "2026 轮关闭，年度监测",
+        "strategicTier": "A",
+        "baseScore": 89,
+        "requiresHost": true,
+        "researchFit": [
+          "engineering",
+          "science",
+          "mathematics"
+        ],
+        "relevanceZh": "三年期并配套独立研究经费，适合作为新加坡方向的高含金量主申项目。",
+        "eligibilitySummaryZh": "优秀近期博士毕业生，通常最多有一段博士后经历；需完整研究计划、三封国际推荐信和代表作。",
+        "fundingSummaryZh": "三年任期、竞争性薪酬，并提供最高 SGD 180,000 研究经费。",
+        "timingSummaryZh": "2026 轮申请窗口为 2025-11-25 至 2026-02-06。",
+        "nextActionZh": "提前建立 NTU 数学、优化、AI for Science host 组合并准备三位国际推荐人。",
+        "sourceUrl": "https://www.ntu.edu.sg/research/research-careers/lee-kuan-yew-postdoctoral-fellowship-(lkypdf)",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "学校页面未给出固定国籍限制，但每轮研究领域和名额需复核"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "harvard-society-junior-fellowship",
+        "name": "Harvard Society of Fellows Junior Fellowship",
+        "nameZh": "哈佛 Society of Fellows 青年 Fellowship",
+        "provider": "Harvard University Society of Fellows",
+        "category": "global_independent_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "United States"
+        ],
+        "applicationMode": "nomination_only",
+        "status": "long_term_watch",
+        "statusZh": "超高选择性提名制",
+        "strategicTier": "A",
+        "baseScore": 89,
+        "requiresHost": false,
+        "researchFit": [
+          "any field",
+          "mathematics",
+          "independent research"
+        ],
+        "relevanceZh": "不限国籍与领域、研究自由度极高，是小众但含金量极高的顶层冲刺项目。",
+        "eligibilitySummaryZh": "候选人不能自荐，须由熟悉其工作的学者提名；面向学术生涯早期且已显示独立研究能力者。",
+        "fundingSummaryZh": "2025/26 首年年津贴为 US$101,000；当轮金额需复核。",
+        "timingSummaryZh": "通常 5 月开放提名、8 月初截止；2027 届截止为 2026-08-04。",
+        "nextActionZh": "不是现在申请；2028 年评估论文质量是否达到导师愿意主动强推的水平，再决定是否冲刺。",
+        "sourceUrl": "https://socfell.fas.harvard.edu/nomination-procedure",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "不能自荐",
+          "竞争面向所有学科，论文与推荐信必须达到极高门槛"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "future"
+      },
+      {
+        "id": "informs-optimization-student-paper-prize",
+        "name": "INFORMS Optimization Society Student Paper Prize",
+        "nameZh": "INFORMS 优化学会学生论文奖",
+        "provider": "INFORMS Optimization Society",
+        "category": "early_career_prize",
+        "stages": [
+          "phd",
+          "final_year"
+        ],
+        "regions": [
+          "Global"
+        ],
+        "applicationMode": "nomination",
+        "status": "annual_watch",
+        "statusZh": "强匹配学生奖项",
+        "strategicTier": "A",
+        "baseScore": 89,
+        "requiresHost": false,
+        "researchFit": [
+          "optimization",
+          "stochastic optimization",
+          "nonsmooth optimization",
+          "operations research"
+        ],
+        "relevanceZh": "与随机互补、变分不等式和非光滑优化高度匹配，是转向 OR 社群时最直接的学生级认可之一。",
+        "eligibilitySummaryZh": "论文须在获奖年前三个自然年内已发表或投稿至同行评审期刊，并满足学生主导等当轮资格条件。",
+        "fundingSummaryZh": "年度学生论文奖，主要价值是 INFORMS Annual Meeting 曝光和优化社群认可。",
+        "timingSummaryZh": "2026 轮已于 2026-07-15 截止；后续年度预测在年中。",
+        "nextActionZh": "论文投稿后核对‘学生主导’和作者资格，2027 年优先争取导师提名。",
+        "sourceUrl": "https://connect.informs.org/optimizationsociety/prizes/students-prize",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "奖项要求以当年 committee 页面为准",
+          "需要论文已发表或已正式投稿"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "ntu-schmidt-ai-science-pdf",
+        "name": "Eric and Wendy Schmidt AI in Science Postdoctoral Fellowship at NTU",
+        "nameZh": "NTU Schmidt AI in Science 博士后 Fellowship",
+        "provider": "NTU and Schmidt Sciences",
+        "category": "institutional_postdoc_fellowship",
+        "stages": [
+          "postdoc"
+        ],
+        "regions": [
+          "Singapore"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "annual_watch",
+        "statusZh": "年度监测",
+        "strategicTier": "A",
+        "baseScore": 88,
+        "requiresHost": true,
+        "researchFit": [
+          "AI for science",
+          "mathematical sciences",
+          "optimization"
+        ],
+        "relevanceZh": "明确支持非计算机专业博士把 AI 用于数学科学问题，适合形成真正的跨学科 pivot。",
+        "eligibilitySummaryZh": "博士毕业三年内且原专业为非计算机科学；须提出 AI 应用于工程、自然科学或数学科学的计划并确定 NTU mentor。",
+        "fundingSummaryZh": "最长两年、竞争性薪酬与福利、差旅支持和 AI 培训。",
+        "timingSummaryZh": "2025 call 已于 2025-12-31 截止，继续监测下一轮。",
+        "nextActionZh": "与 AI4X 共用导师池，但单独强调从数学优化向 AI-enabled discovery 的方法转向。",
+        "sourceUrl": "https://www.ntu.edu.sg/research/research-careers/the-eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellowship",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "申请人需证明实质跨学科能力",
+          "每年须完成至少一个 AI 模块"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "wallenberg-ntu-ppf",
+        "name": "Wallenberg-NTU Presidential Postdoctoral Fellowship",
+        "nameZh": "Wallenberg–NTU 校长博士后 Fellowship",
+        "provider": "NTU and Knut and Alice Wallenberg Foundation",
+        "category": "international_postdoc_fellowship",
+        "stages": [
+          "postdoc"
+        ],
+        "regions": [
+          "Singapore",
+          "Sweden"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "annual_watch",
+        "statusZh": "年度监测",
+        "strategicTier": "A",
+        "baseScore": 87,
+        "requiresHost": true,
+        "researchFit": [
+          "AI",
+          "machine learning",
+          "data analytics",
+          "autonomy",
+          "optimization"
+        ],
+        "relevanceZh": "一年新加坡加一年瑞典的双地路线，能同时建立亚洲和欧洲网络。",
+        "eligibilitySummaryZh": "博士毕业五年内，需表现出独立研究与未来学术领导潜力，并提交可行的研究计划。",
+        "fundingSummaryZh": "NTU 一年最高 SGD 100,000 研究经费、最高 SGD 80,000 年薪及搬迁/住房支持；瑞典一年按 WASP 标准提供薪酬、指导和差旅。",
+        "timingSummaryZh": "2026 轮已于 2025-12-31 截止，继续监测下一轮。",
+        "nextActionZh": "仅在机器学习优化或 AI for Science 形成强成果后列为主申。",
+        "sourceUrl": "https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "每轮仅少量名额",
+          "需同时匹配 NTU 与 WASP 合作方向"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "riken-spdr",
+        "name": "RIKEN Special Postdoctoral Researchers Program",
+        "nameZh": "RIKEN 特别博士后研究员计划（SPDR）",
+        "provider": "RIKEN",
+        "category": "institutional_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "annual_watch",
+        "statusZh": "日本高价值年度项目",
+        "strategicTier": "B",
+        "baseScore": 87,
+        "requiresHost": true,
+        "researchFit": [
+          "computational science",
+          "AI",
+          "mathematics",
+          "optimization"
+        ],
+        "relevanceZh": "三年相对独立研究，适合 RIKEN Center for Computational Science、AIP 等计算科学与 AI 团队。",
+        "eligibilitySummaryZh": "面向年轻且有创造力的博士后研究者；博士年限、国籍、研究单元和 host 规则以 FY 当轮 call 为准。",
+        "fundingSummaryZh": "三年固定期限职位，可使用 RIKEN 设施；薪酬与研究条件以当轮 call 为准。",
+        "timingSummaryZh": "FY2027 申请已关闭，后续按财政年度持续监测。",
+        "nextActionZh": "把 RIKEN AIP/R-CCS 的方法匹配导师加入通讯录，2028 年起监测 FY2030 call。",
+        "sourceUrl": "https://www.riken.jp/en/careers/programs/spdr/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "总计划覆盖多个领域，必须核对具体研究单元是否匹配",
+          "当前轮已关闭"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "arc-decra",
+        "name": "Discovery Early Career Researcher Award (DECRA)",
+        "nameZh": "澳大利亚 ARC DECRA 早期研究者奖",
+        "provider": "Australian Research Council",
+        "category": "early_career_independence",
+        "stages": [
+          "postdoc",
+          "early_faculty"
+        ],
+        "regions": [
+          "Australia"
+        ],
+        "applicationMode": "institutional",
+        "status": "long_term_watch",
+        "statusZh": "博士后阶段独立资助",
+        "strategicTier": "B",
+        "baseScore": 86,
+        "requiresHost": true,
+        "researchFit": [
+          "mathematical sciences",
+          "optimization",
+          "scientific computing",
+          "applied mathematics"
+        ],
+        "relevanceZh": "三年薪资和独立项目经费兼具，是澳洲路线从博士后转向独立研究者的核心杠杆。",
+        "eligibilitySummaryZh": "由澳大利亚 eligible organisation 提交；博士授予年限、career interruption 与项目规则以当轮 Grant Guidelines 为准。",
+        "fundingSummaryZh": "三年 DECRA salary/on-costs，并可申请每年最高 AU$50,000 项目经费。",
+        "timingSummaryZh": "通常比资助年度提前约一年申报，校内意向和预算截止更早。",
+        "nextActionZh": "若 2029 后选择澳洲博士后，入职第一年即与研究办公室核对 DECRA eligibility window。",
+        "sourceUrl": "https://www.arc.gov.au/funding-research/arc-funding-schemes/discovery/discovery-early-career-researcher-award-decra",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "不是博士毕业即自动可个人提交，必须由澳洲机构递交",
+          "金额和资格以当轮 Grant Guidelines 为真值"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "future"
+      },
+      {
+        "id": "fwo-junior-postdoctoral-fellowship",
+        "name": "FWO Junior Postdoctoral Fellowship",
+        "nameZh": "比利时 FWO 青年博士后 Fellowship",
+        "provider": "Research Foundation – Flanders (FWO)",
+        "category": "independent_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Belgium"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "annual_watch",
+        "statusZh": "三年独立研究路线",
+        "strategicTier": "B",
+        "baseScore": 86,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines",
+          "mathematics",
+          "optimization",
+          "scientific computing"
+        ],
+        "relevanceZh": "三年期限和独立研究定位适合连接 KU Leuven、Ghent、Antwerp 等优化与运筹团队。",
+        "eligibilitySummaryZh": "支持刚获得博士并计划走独立研究路线的申请者；博士年限、Flanders host 与申请次数以当轮 regulations 为准。",
+        "fundingSummaryZh": "三年个人 Fellowship，另有每年 €4,000–10,000 固定运行经费；具体薪资按 FWO 标准。",
+        "timingSummaryZh": "下一轮预计 2026-09 开放；官方页面显示上轮截止 2025-11-17。",
+        "nextActionZh": "2028 年开始联系比利时 host，并让 host 研究办公室提前核验当轮资格和内部截止。",
+        "sourceUrl": "https://www.fwo.be/en/support-programmes/all-calls/postdoctoral-researchers/junior-postdoctoral-fellowship/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "下一轮确切截止尚未公布，不能沿用上一年日期",
+          "需要 Flanders 接收机构配合"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "mos-tucker-prize",
+        "name": "A.W. Tucker Prize",
+        "nameZh": "数学优化学会 A.W. Tucker 博士论文奖",
+        "provider": "Mathematical Optimization Society",
+        "category": "early_career_prize",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Global"
+        ],
+        "applicationMode": "faculty_nomination",
+        "status": "long_term_watch",
+        "statusZh": "博士论文阶段顶级冲刺",
+        "strategicTier": "B",
+        "baseScore": 85,
+        "requiresHost": false,
+        "researchFit": [
+          "mathematical optimization",
+          "variational inequalities",
+          "complementarity",
+          "nonsmooth optimization"
+        ],
+        "relevanceZh": "面向优秀优化博士论文，若后续论文形成统一的优化主线，可作为 2029 毕业后的顶层奖项目标。",
+        "eligibilitySummaryZh": "博士论文须在相邻两届 ISMP 规定时间窗内正式获批，并由授予学位机构教师或论文委员会成员提名。",
+        "fundingSummaryZh": "非工资型国际博士论文奖，核心价值是 ISMP/MOS 的顶级优化社群认可。",
+        "timingSummaryZh": "随 International Symposium on Mathematical Programming 周期评选，不是每年一轮。",
+        "nextActionZh": "2028 年再判断博士论文是否具备统一、原创且可被优化社群识别的主线；现在不提前投入申请成本。",
+        "sourceUrl": "https://mathopt.zib.de/?nav=tucker",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "必须由教师或论文委员会成员提名",
+          "评选周期随 ISMP 变化"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "future"
+      },
+      {
+        "id": "matsumae-research-fellowship",
+        "name": "Matsumae International Foundation Research Fellowship",
+        "nameZh": "松前国际基金会研究 Fellowship",
+        "provider": "Matsumae International Foundation",
+        "category": "postdoc_research_visit",
+        "stages": [
+          "postdoc"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "annual_watch",
+        "statusZh": "2027 轮关闭，年度监测",
+        "strategicTier": "B",
+        "baseScore": 84,
+        "requiresHost": true,
+        "researchFit": [
+          "natural sciences",
+          "engineering",
+          "applied mathematics"
+        ],
+        "relevanceZh": "六个月全额支持且年龄宽松，适合作为博士后阶段建立日本合作网络的访问型项目。",
+        "eligibilitySummaryZh": "非日本籍、申请时已获博士、45 岁以下、此前无日本长期居留经历；须有本国全职工作并在结束后返回本国，申请前取得日本 host 接收。",
+        "fundingSummaryZh": "每月 JPY 220,000、JPY 120,000 抵达补助、往返经济舱机票和旅行保险。",
+        "timingSummaryZh": "2027 项目申请期为 2026-06-01 至 2026-06-30，现已关闭。",
+        "nextActionZh": "毕业后若已有国内或香港全职岗位且希望短期访日，可升级为高优先级。",
+        "sourceUrl": "https://www.mif-japan.org/en/fellowship/announcement/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "要求申请时在本国有全职工作并返回本国",
+          "不等同于常规两年博士后职位"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "branco-weiss-fellowship",
+        "name": "Branco Weiss Fellowship – Society in Science",
+        "nameZh": "Branco Weiss 非主流创新研究 Fellowship",
+        "provider": "Society in Science, based at ETH Zurich",
+        "category": "global_independent_fellowship",
+        "stages": [
+          "postdoc"
+        ],
+        "regions": [
+          "Global"
+        ],
+        "applicationMode": "direct",
+        "status": "upcoming",
+        "statusZh": "2027 轮将于 2026 年 10 月开放",
+        "deadline": "2027-01-15",
+        "deadlineContextZh": "2027 届官方截止；正式申请需博士毕业且形成超越博士论文的独立愿景",
+        "strategicTier": "B",
+        "baseScore": 84,
+        "requiresHost": true,
+        "researchFit": [
+          "unconventional interdisciplinary research",
+          "mathematics",
+          "scientific discovery"
+        ],
+        "relevanceZh": "允许在全球最佳地点开展最多五年的非主流独立项目，适合形成 AI 与数学发现等真正原创路线后冲刺。",
+        "eligibilitySummaryZh": "博士后至首次教职前阶段，强调超越主流的个人研究愿景、跨学科沟通和社会关联。",
+        "fundingSummaryZh": "最多五年，每年目标约 10 名；可在 Fellowship 期间晋升教职并继续支持。",
+        "timingSummaryZh": "官方显示 2027 轮从 2026 年 10 月起申请，截止 2027-01-15。",
+        "nextActionZh": "先积累一条可证明独立性和非传统价值的研究主线，再作为高风险高回报项目。",
+        "sourceUrl": "https://brancoweissfellowship.org/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "不是常规延续博士论文的项目",
+          "需要强跨学科叙事和独立愿景"
+        ],
+        "deadlineDays": 167,
+        "lifecycle": "upcoming"
+      },
+      {
+        "id": "leverhulme-early-career-fellowship",
+        "name": "Leverhulme Early Career Fellowship",
+        "nameZh": "Leverhulme Early Career Fellowship",
+        "provider": "The Leverhulme Trust",
+        "category": "uk_early_career_fellowship",
+        "stages": [
+          "postdoc"
+        ],
+        "regions": [
+          "United Kingdom"
+        ],
+        "applicationMode": "institutional_quota",
+        "status": "source_watch",
+        "statusZh": "官方项目持续，待下一轮深核",
+        "strategicTier": "B",
+        "baseScore": 84,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines except excluded clinical areas"
+        ],
+        "relevanceZh": "英国高校常用的三年早期职业 Fellowship，但校内名额和共同资助使 host/学院支持十分关键。",
+        "eligibilitySummaryZh": "博士毕业年限、英国关联要求及校内遴选以当轮指南为准。",
+        "fundingSummaryZh": "通常由 Trust 与英国 host 机构共同承担，具体金额以当轮指南为准。",
+        "timingSummaryZh": "年度项目，校内截止通常显著早于基金会截止。",
+        "nextActionZh": "先进入来源台账；到 2028 年按目标英国院校逐一核对内部遴选。",
+        "sourceUrl": "https://www.leverhulme.ac.uk/early-career-fellowships",
+        "sourceType": "official",
+        "evidenceGrade": "B",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "本次自动访问返回 403，未将搜索摘要当作资格依据"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "azrieli-international-postdoctoral-fellowship",
+        "name": "Azrieli International Postdoctoral Fellowship",
+        "nameZh": "Azrieli 国际博士后 Fellowship",
+        "provider": "Azrieli Foundation",
+        "category": "international_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Israel"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "annual_watch",
+        "statusZh": "全球全学科年度项目",
+        "deadline": "2026-11-11",
+        "deadlineContextZh": "2027–28 届官方截止；用户毕业年应重新核验",
+        "strategicTier": "B",
+        "baseScore": 84,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines",
+          "mathematics",
+          "optimization",
+          "scientific computing"
+        ],
+        "relevanceZh": "全学科、国际申请、资助结构清晰，可连接 Technion、Weizmann、Tel Aviv 等数学和计算科学团队。",
+        "eligibilitySummaryZh": "博士须在规定时间窗内由以色列以外机构授予；在读博士可申请，但需在当轮规定日期前完成答辩。",
+        "fundingSummaryZh": "月津贴 ILS 14,000，另有每年 ILS 20,000 研究与差旅经费，并提供职业发展网络。",
+        "timingSummaryZh": "2027–28 届于 2026-08-09 开放、2026-11-11 截止。",
+        "nextActionZh": "只在研究匹配与个人安全/出行条件都可接受时进入主申；先监测目标导师和地区风险。",
+        "sourceUrl": "https://azrielifoundation.org/fellows/internationalpostdoctoral/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "申请前需单独核验签证、旅行与安全条件",
+          "当前轮次不适用于 2029 毕业时间，仅用于周期建模"
+        ],
+        "deadlineDays": 102,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "ireland-government-postdoctoral-fellowship",
+        "name": "Government of Ireland Postdoctoral Fellowship Programme",
+        "nameZh": "爱尔兰政府博士后 Fellowship",
+        "provider": "Research Ireland / Irish Research Council",
+        "category": "portable_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Ireland"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "source_watch",
+        "statusZh": "项目存续，等待新 call",
+        "strategicTier": "B",
+        "baseScore": 84,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines",
+          "mathematics",
+          "optimization",
+          "scientific computing"
+        ],
+        "relevanceZh": "全学科、一至两年、host 协作型，能覆盖爱尔兰数学、OR、AI 和科学计算团队。",
+        "eligibilitySummaryZh": "在爱尔兰 eligible HEI/RPO 开展一至两年研究；申请资格须读取新一轮 call 文档。",
+        "fundingSummaryZh": "最近公开轮次首年薪资 €46,305、第二年 €47,879，并有每年 €5,000 直接研究经费。",
+        "timingSummaryZh": "当前官方页显示旧轮次已关闭；新管理架构下等待下一轮正式文件。",
+        "nextActionZh": "保留为欧洲补漏项目；只在官方发布新 call 后更新资格和金额。",
+        "sourceUrl": "https://research.ie/funding/goipd/",
+        "sourceType": "official",
+        "evidenceGrade": "B",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "当前页面日期仍是 2024/25 轮，不能当作 2026 开放信息",
+          "资助机构整合后名称与规则可能变化"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "siam-student-paper-prize",
+        "name": "SIAM Student Paper Prize",
+        "nameZh": "SIAM 学生论文奖",
+        "provider": "Society for Industrial and Applied Mathematics",
+        "category": "early_career_prize",
+        "stages": [
+          "phd",
+          "final_year"
+        ],
+        "regions": [
+          "Global"
+        ],
+        "applicationMode": "competition",
+        "status": "annual_watch",
+        "statusZh": "论文成型后年度主申",
+        "strategicTier": "B",
+        "baseScore": 83,
+        "requiresHost": false,
+        "researchFit": [
+          "applied mathematics",
+          "numerical analysis",
+          "optimization",
+          "scientific computing"
+        ],
+        "relevanceZh": "与你的第一篇数值方法论文直接相容，获奖或入围都能提升国际会议曝光和后续 Fellowship 材料。",
+        "eligibilitySummaryZh": "学生论文、作者身份、论文完成时间和会议报告要求以当轮 SIAM 官方 prize specifications 为准。",
+        "fundingSummaryZh": "非工资型奖项，核心价值是 SIAM 官方认可、会议报告与国际学术可见度。",
+        "timingSummaryZh": "年度 call；第一篇工作达到可独立报告质量后开始逐轮核对。",
+        "nextActionZh": "2026 年底投稿准备时同步做一版 15 分钟英文报告和一页贡献说明，作为 2027–2028 奖项材料底稿。",
+        "sourceUrl": "https://www.siam.org/programs-initiatives/prizes-awards/student-prizes/siam-student-paper-prize/",
+        "sourceType": "official",
+        "evidenceGrade": "B",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "官方页面自动访问受限，未猜测本轮日期",
+          "正式提交前必须读取 full prize specifications"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "pims-postdoctoral-fellowships",
+        "name": "PIMS Postdoctoral Fellowships",
+        "nameZh": "PIMS 数学科学博士后 Fellowship",
+        "provider": "Pacific Institute for the Mathematical Sciences",
+        "category": "mathematics_postdoc_network",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Canada",
+          "United States"
+        ],
+        "applicationMode": "host_institution",
+        "status": "annual_watch",
+        "statusZh": "数学网络年度监测",
+        "strategicTier": "B",
+        "baseScore": 82,
+        "requiresHost": true,
+        "researchFit": [
+          "mathematics",
+          "optimization",
+          "structure-preserving discretization",
+          "scientific computing"
+        ],
+        "relevanceZh": "覆盖加拿大西部和美国 PIMS 成员高校，并包含结构保持离散、数学与 AI 等主题网络。",
+        "eligibilitySummaryZh": "具体名额由 PIMS 成员高校和年度 call 决定，须结合 host 机构职位核对。",
+        "fundingSummaryZh": "由 PIMS 与成员机构共同支持，薪酬和任期以具体 call 为准。",
+        "timingSummaryZh": "年度项目与专题网络并行监测。",
+        "nextActionZh": "将 PIMS、Fields、ICERM、SLMath 作为北美数学研究所来源群联合扫描。",
+        "sourceUrl": "https://www.pims.math.ca/scientific/postdoctoral",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "总览页面不等同于当前开放职位"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "ima-leslie-fox-prize",
+        "name": "Leslie Fox Prize for Numerical Analysis",
+        "nameZh": "IMA Leslie Fox 数值分析奖",
+        "provider": "Institute of Mathematics and its Applications",
+        "category": "early_career_prize",
+        "stages": [
+          "phd",
+          "postdoc"
+        ],
+        "regions": [
+          "United Kingdom",
+          "International"
+        ],
+        "applicationMode": "competition",
+        "status": "source_watch",
+        "statusZh": "奖项轮次监测",
+        "strategicTier": "B",
+        "baseScore": 81,
+        "requiresHost": false,
+        "researchFit": [
+          "numerical analysis",
+          "scientific computing",
+          "optimization"
+        ],
+        "relevanceZh": "Wenqi Zhu 的牛津官方档案确认其获奖；该奖对青年数值分析研究者具有较高可见度。",
+        "eligibilitySummaryZh": "面向青年数值分析研究者，年龄、论文和现场报告规则以当轮 IMA 公告为准。",
+        "fundingSummaryZh": "主要价值是国际学术曝光、报告机会和奖项声誉，不作为工资型资助。",
+        "timingSummaryZh": "按 IMA 官方奖项轮次监测。",
+        "nextActionZh": "第一篇论文形成可独立讲述的数值分析贡献后，核对当轮年龄与提交规则。",
+        "sourceUrl": "https://www.maths.ox.ac.uk/node/72334",
+        "sourceType": "official_case_evidence",
+        "evidenceGrade": "B",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "本轮 IMA 详情页地址变更，需下一轮补充最新官方 call"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "singapore-nrf-fellowship",
+        "name": "Singapore NRF Fellowship",
+        "nameZh": "新加坡 NRF Fellowship",
+        "provider": "National Research Foundation Singapore",
+        "category": "early_career_independence",
+        "stages": [
+          "postdoc",
+          "early_faculty"
+        ],
+        "regions": [
+          "Singapore"
+        ],
+        "applicationMode": "host_longlist_and_direct",
+        "status": "long_term_watch",
+        "statusZh": "2030 前后长期目标",
+        "strategicTier": "B",
+        "baseScore": 80,
+        "requiresHost": true,
+        "researchFit": [
+          "science",
+          "technology",
+          "mathematics"
+        ],
+        "relevanceZh": "五年独立研究和 tenure-track 平台，适合作为博士后后期或早期教职阶段的冲刺目标。",
+        "eligibilitySummaryZh": "面向全球优秀青年科学家；先由新加坡 host 机构长名单筛选，再经历短名单和最终面试。",
+        "fundingSummaryZh": "五年独立研究经费，可用于人员、设备和耗材；获选人由新加坡合作大学或研究机构提供 tenure-track 职位。",
+        "timingSummaryZh": "每年一次，具体日期以 NRF IGMS 当轮指南为准。",
+        "nextActionZh": "作为长期能力基线跟踪，不在博士阶段投入申请材料。",
+        "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "目标阶段晚于博士毕业初期",
+          "必须具备清晰独立方向和强国际成果"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "future"
+      },
+      {
+        "id": "dfg-walter-benjamin",
+        "name": "DFG Walter Benjamin Programme",
+        "nameZh": "德国 DFG Walter Benjamin 计划",
+        "provider": "German Research Foundation (DFG)",
+        "category": "postdoc_independence",
+        "stages": [
+          "postdoc"
+        ],
+        "regions": [
+          "Germany",
+          "Global"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "source_watch",
+        "statusZh": "资格路径待按毕业时状态复核",
+        "strategicTier": "B",
+        "baseScore": 80,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines"
+        ],
+        "relevanceZh": "支持博士后早期独立研究，适合作为在德国建立研究路线后的后续资助。",
+        "eligibilitySummaryZh": "资格与德国科研体系关联、申请地点及博士后阶段有关，须按申请时履历逐项核对。",
+        "fundingSummaryZh": "可支持德国境内职位或境外 Fellowship 模块，具体结构以官方指南为准。",
+        "timingSummaryZh": "通常滚动或按官方系统受理，毕业后再核对。",
+        "nextActionZh": "与 TUM/Humboldt/MSCA 路线联动，不把它当作当前博士阶段可申请项目。",
+        "sourceUrl": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin",
+        "sourceType": "official",
+        "evidenceGrade": "B",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "当前页面结构复杂，正式资格需读取当轮 programme guidelines"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "hfsp-cross-disciplinary-fellowship",
+        "name": "HFSP Cross-Disciplinary Fellowship",
+        "nameZh": "HFSP 跨学科博士后 Fellowship",
+        "provider": "Human Frontier Science Program",
+        "category": "international_postdoc_fellowship",
+        "stages": [
+          "final_year",
+          "postdoc"
+        ],
+        "regions": [
+          "Global"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "long_term_watch",
+        "statusZh": "仅适合实质转向生命科学",
+        "strategicTier": "B",
+        "baseScore": 78,
+        "requiresHost": true,
+        "researchFit": [
+          "mathematics to life sciences",
+          "computational biology",
+          "health",
+          "high-risk interdisciplinary research"
+        ],
+        "relevanceZh": "专门欢迎数学、工程、计算机等非生物博士转向生命科学，是医疗/生物应用 pivot 中少见且含金量高的国际项目。",
+        "eligibilitySummaryZh": "非生物学科博士、此前生命科学经验很少，并需在新国家开展真正的前沿生命科学项目；不能只是给现有数学论文换应用标签。",
+        "fundingSummaryZh": "支持跨国博士后研究，具体生活津贴、研究与家庭支持按 host 国家和当轮 award information 计算。",
+        "timingSummaryZh": "每年一轮；2027 届 LOI 已于 2026-05-12 截止。",
+        "nextActionZh": "只有在 2027–2028 年形成可信的计算生物/医疗合作与预备成果后才进入主申。",
+        "sourceUrl": "https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "必须是实质生命科学转向",
+          "年度资格含论文、国别流动和博士年限细则，正式申请前须逐项核验"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "future"
+      },
+      {
+        "id": "schmidt-science-fellows",
+        "name": "Schmidt Science Fellows",
+        "nameZh": "Schmidt Science Fellows",
+        "provider": "Schmidt Sciences",
+        "category": "nominated_interdisciplinary_fellowship",
+        "stages": [
+          "final_year"
+        ],
+        "regions": [
+          "Global"
+        ],
+        "applicationMode": "institutional_nomination",
+        "status": "long_term_watch",
+        "statusZh": "需核对港理工提名资格",
+        "strategicTier": "B",
+        "baseScore": 74,
+        "requiresHost": true,
+        "researchFit": [
+          "mathematics",
+          "computing",
+          "engineering",
+          "interdisciplinary pivot"
+        ],
+        "relevanceZh": "强调从博士学科向新领域实质转向，适合数值优化向 AI for Science、计算生物或其他科学方向 pivot。",
+        "eligibilitySummaryZh": "必须由博士授予机构提名，且在指定窗口完成全部博士要求；机构须在 nominating partners 清单中。",
+        "fundingSummaryZh": "提供跨学科博士后安置、导师、领导力发展与全球 Fellows 网络，金额以当轮指南为准。",
+        "timingSummaryZh": "每届按毕业窗口滚动；2029 前须先确认港理工是否为提名伙伴。",
+        "nextActionZh": "2027 年核对提名伙伴与校内联系人；只有形成清晰跨学科 pivot 才正式准备。",
+        "sourceUrl": "https://schmidtsciencefellows.org/selection/who-can-apply/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "机构提名是硬门槛",
+          "不能只是延续博士论文的同方向项目"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "future"
+      },
+      {
+        "id": "google-phd-fellowship",
+        "name": "Google PhD Fellowship",
+        "nameZh": "Google 博士 Fellowship",
+        "provider": "Google Research",
+        "category": "doctoral_fellowship",
+        "stages": [
+          "phd"
+        ],
+        "regions": [
+          "Global",
+          "East Asia"
+        ],
+        "applicationMode": "institutional_nomination",
+        "status": "annual_watch",
+        "statusZh": "2026 轮已关闭，年度监测",
+        "strategicTier": "B",
+        "baseScore": 72,
+        "requiresHost": false,
+        "researchFit": [
+          "algorithms and theory",
+          "machine learning",
+          "optimization for AI"
+        ],
+        "relevanceZh": "若博士工作延展到机器学习优化、AI for Mathematics 或科学计算，可形成有竞争力的跨方向申请。",
+        "eligibilitySummaryZh": "不同地区采用学校提名或直接申请；需按东亚轮次和港理工校内流程核对。",
+        "fundingSummaryZh": "各地区资助结构不同，以当轮官方指南为准。",
+        "timingSummaryZh": "2026 轮于 2026-03-05 开放、2026-04-30 截止；下一轮按年度监测。",
+        "nextActionZh": "先确认港理工是否参与东亚提名，再把研究叙事与 algorithms/theory 或 ML 方向建立实质连接。",
+        "sourceUrl": "https://research.google/programs-and-events/phd-fellowship/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "当前研究主题与计算机科学的直接关联仍需加强",
+          "地区资格和提名方式每轮可能变化"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "nvidia-graduate-fellowship",
+        "name": "NVIDIA Graduate Fellowship Program",
+        "nameZh": "NVIDIA 博士研究 Fellowship",
+        "provider": "NVIDIA Research",
+        "category": "doctoral_fellowship",
+        "stages": [
+          "phd"
+        ],
+        "regions": [
+          "Global"
+        ],
+        "applicationMode": "direct_with_nomination",
+        "status": "annual_watch",
+        "statusZh": "当前关闭，年度监测",
+        "strategicTier": "B",
+        "baseScore": 66,
+        "requiresHost": false,
+        "researchFit": [
+          "accelerated computing",
+          "scientific computing",
+          "AI",
+          "optimization"
+        ],
+        "relevanceZh": "若形成 GPU/HPC、科学机器学习或大规模优化成果，可转化为博士阶段的高价值产业研究资助。",
+        "eligibilitySummaryZh": "申请时已完成博士第一年、获奖学年保持全日制在读，并能在奖学年前完成指定 NVIDIA 研究办公室的线下暑期实习。",
+        "fundingSummaryZh": "每项最高 US$60,000，由学校管理；包含强制线下暑期实习。",
+        "timingSummaryZh": "2026/27 轮已关闭，后续按年度监测。",
+        "nextActionZh": "仅在论文或项目出现明显的加速计算/AI 贡献时升级优先级。",
+        "sourceUrl": "https://research.nvidia.com/graduate-fellowships",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "强制实习可能与博士时间表冲突",
+          "需要导师提名且研究相关性要求高"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "watch"
+      },
+      {
+        "id": "snsf-ambizione",
+        "name": "SNSF Ambizione",
+        "nameZh": "瑞士 SNSF Ambizione 独立研究资助",
+        "provider": "Swiss National Science Foundation",
+        "category": "early_career_independence",
+        "stages": [
+          "postdoc",
+          "early_faculty"
+        ],
+        "regions": [
+          "Switzerland"
+        ],
+        "applicationMode": "direct_with_host",
+        "status": "currently_ineligible",
+        "statusZh": "当前缺少瑞士关联，长期监测",
+        "deadline": "2026-11-03",
+        "deadlineContextZh": "最后一轮 Ambizione 官方截止；用户当前不符合瑞士关联门槛",
+        "strategicTier": "C",
+        "baseScore": 43,
+        "requiresHost": true,
+        "researchFit": [
+          "all disciplines"
+        ],
+        "relevanceZh": "资助独立项目与本人薪资，但 2026 最后一轮要求瑞士国籍、瑞士学位或博士后阶段至少 12 个月瑞士研究经历。",
+        "eligibilitySummaryZh": "博士毕业四年内并有至少 12 个月博士后研究；另需满足瑞士关联规则。",
+        "fundingSummaryZh": "最长四年，覆盖申请人薪资和项目经费。",
+        "timingSummaryZh": "最终 Ambizione 截止为 2026-11-03；SNSF 计划 2028 推出新博士后资助。",
+        "nextActionZh": "若先在 ETH/EPFL 做满 12 个月研究，2030 前后重新评估新 SNSF 计划。",
+        "sourceUrl": "https://www.snf.ch/en/N18L3oGWomTSSGkF/funding/careers/ambizione",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "当前并非直接可申请",
+          "Ambizione 将结束，2028 新计划规则尚未公布"
+        ],
+        "deadlineDays": 94,
+        "lifecycle": "ineligible"
+      },
+      {
+        "id": "jane-street-grf",
+        "name": "Jane Street Graduate Research Fellowship",
+        "nameZh": "Jane Street 博士研究 Fellowship",
+        "provider": "Jane Street",
+        "category": "doctoral_fellowship",
+        "stages": [
+          "phd"
+        ],
+        "regions": [
+          "United States",
+          "Canada",
+          "United Kingdom",
+          "Europe",
+          "Australia",
+          "New Zealand"
+        ],
+        "applicationMode": "direct",
+        "status": "currently_ineligible",
+        "statusZh": "当前因就读地区不符合",
+        "strategicTier": "C",
+        "baseScore": 28,
+        "requiresHost": false,
+        "researchFit": [
+          "mathematics",
+          "statistics",
+          "physics",
+          "computer science"
+        ],
+        "relevanceZh": "Wenqi Zhu 的公开经历证明该项目与数值优化研究者有交集，但现行规则不覆盖香港高校在读博士。",
+        "eligibilitySummaryZh": "申请人须在官方列出的美国、加拿大、英国、欧洲、澳大利亚或新西兰研究型大学全日制攻读相关博士，并至少剩余一年。",
+        "fundingSummaryZh": "覆盖下一学年学费并提供 US$45,000 生活补助；决赛入围者另有 US$5,000。",
+        "timingSummaryZh": "2026 Fellowship 已关闭；继续监测地区范围是否变化。",
+        "nextActionZh": "不投入申请时间，只保留为规则变化监测和同类产业 Fellowship 的搜索种子。",
+        "sourceUrl": "https://www.janestreet.com/join-jane-street/programs-and-events/graduate-research-fellowship/",
+        "sourceType": "official",
+        "evidenceGrade": "A",
+        "lastVerifiedAt": "2026-08-02",
+        "caveatsZh": [
+          "国际学生可以申请，但香港高校当前不在就读地区清单中"
+        ],
+        "deadlineDays": null,
+        "lifecycle": "ineligible"
+      }
+    ],
+    "coverage": [
+      {
+        "id": "polyu-gs",
+        "name": "PolyU Graduate School current-student funding",
+        "region": "Hong Kong",
+        "scope": "博士访学、校内奖学金、专业发展",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.polyu.edu.hk/gs/current-students/",
+        "resultSummaryZh": "核验 ICRF 与 RSAP；部分校内奖项页面需要 PolyU 登录，保留为本地复核。"
+      },
+      {
+        "id": "rgc-hk",
+        "name": "Hong Kong Research Grants Council funding opportunities",
+        "region": "Hong Kong",
+        "scope": "JRFS、研究人员 Fellowship、联合研究和会议支持",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/",
+        "resultSummaryZh": "JRFS 对 2029 毕业后的香港路线直接相关；教授级 RFS/SRFS 仅作为导师经费信号。"
+      },
+      {
+        "id": "msca",
+        "name": "Marie Skłodowska-Curie Actions",
+        "region": "Europe",
+        "scope": "European/Global Postdoctoral Fellowships 与 COFUND",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
+        "resultSummaryZh": "European PF 高相关；Global PF 因国籍/长期居留规则当前不适用。"
+      },
+      {
+        "id": "euraxess",
+        "name": "EURAXESS Jobs & Funding",
+        "region": "Europe",
+        "scope": "欧盟研究岗位、Fellowship 和 host 线索",
+        "status": "directory_watch",
+        "checkedAt": "2026-08-02",
+        "url": "https://euraxess.ec.europa.eu/jobs/search",
+        "resultSummaryZh": "作为欧洲全域补漏源，正式项目回到资助方或大学官网核验。"
+      },
+      {
+        "id": "humboldt",
+        "name": "Alexander von Humboldt Foundation",
+        "region": "Germany",
+        "scope": "Humboldt Research Fellowship 与德国 host 网络",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+        "resultSummaryZh": "高相关且 2026 起每轮有申请数量上限。"
+      },
+      {
+        "id": "dfg",
+        "name": "German Research Foundation",
+        "region": "Germany",
+        "scope": "Walter Benjamin、Emmy Noether 与 PI 项目经费",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.dfg.de/en/research-funding/funding-opportunities",
+        "resultSummaryZh": "Walter Benjamin 为博士后后续路线；PI 项目用于扩组信号。"
+      },
+      {
+        "id": "daad",
+        "name": "DAAD postdoctoral funding",
+        "region": "Germany",
+        "scope": "PRIME 与国际研究流动",
+        "status": "directory_watch",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.daad.de/en/studying-in-germany/scholarships/",
+        "resultSummaryZh": "旧 PRIME 深链失效，保留 DAAD 官方奖学金目录并等待下一轮页面。"
+      },
+      {
+        "id": "tum",
+        "name": "TUM postdoctoral careers",
+        "region": "Germany",
+        "scope": "TUM Global Postdoc Fellowship 与 host matchmaking",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.tum.de/en/about-tum/careers-and-jobs/postdocs/tum-global-postdoc-fellowship",
+        "resultSummaryZh": "允许博士最后一年申请，与目标导师联动价值高。"
+      },
+      {
+        "id": "royal-society",
+        "name": "The Royal Society grants",
+        "region": "United Kingdom",
+        "scope": "Newton International、University Research Fellowship 等",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://royalsociety.org/grants/",
+        "resultSummaryZh": "Newton International 为毕业后赴英核心项目。"
+      },
+      {
+        "id": "ukri",
+        "name": "UK Research and Innovation opportunity finder",
+        "region": "United Kingdom",
+        "scope": "EPSRC 数学科学 Fellowship、Future Leaders 等",
+        "status": "directory_watch",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.ukri.org/opportunity/",
+        "resultSummaryZh": "持续按 mathematical sciences、postdoctoral fellowship 和 early career 过滤。"
+      },
+      {
+        "id": "leverhulme",
+        "name": "Leverhulme Trust",
+        "region": "United Kingdom",
+        "scope": "Early Career Fellowship 与研究项目",
+        "status": "access_limited",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.leverhulme.ac.uk/early-career-fellowships",
+        "resultSummaryZh": "官方页自动访问受限；仅保留项目入口，不猜测当轮资格。"
+      },
+      {
+        "id": "royal-commission-1851",
+        "name": "Royal Commission for the Exhibition of 1851",
+        "region": "United Kingdom",
+        "scope": "三年独立 Research Fellowship",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://royalcommission1851.org/fellowships/research-fellowships",
+        "resultSummaryZh": "数学明确符合学科范围，2027 轮将于 2026 年 10 月开放。"
+      },
+      {
+        "id": "oxford-maths",
+        "name": "Oxford Mathematical Institute fellowship programmes",
+        "region": "United Kingdom",
+        "scope": "Hooke、Titchmarsh、JRF 与外部 Fellowship host",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.maths.ox.ac.uk/people/research-fellowship-programmes",
+        "resultSummaryZh": "与 Coralia Cartis、Yuji Nakatsukasa 等导师网络联合监测。"
+      },
+      {
+        "id": "eth-fellows",
+        "name": "ETH Zurich Grants Office",
+        "region": "Switzerland",
+        "scope": "ETH Postdoctoral Fellowships",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://grantsoffice.ethz.ch/funding-opportunities/internal/eth-fellowships.html",
+        "resultSummaryZh": "两年全薪并有研究经费，host 每轮只能支持一人。"
+      },
+      {
+        "id": "snsf",
+        "name": "Swiss National Science Foundation careers",
+        "region": "Switzerland",
+        "scope": "Ambizione、Postdoc.Mobility 与 2028 新计划",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.snf.ch/en/zlU8StueXhcnxfaQ/page/funding/early-career-researchers",
+        "resultSummaryZh": "现行 Ambizione/Postdoc.Mobility 因瑞士关联不直接适用；监测 2028 新计划。"
+      },
+      {
+        "id": "branco-weiss",
+        "name": "Branco Weiss Fellowship",
+        "region": "Global",
+        "scope": "非常规跨学科独立研究",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://brancoweissfellowship.org/",
+        "resultSummaryZh": "高风险高回报，需独立且超越博士论文的研究愿景。"
+      },
+      {
+        "id": "lacaixa",
+        "name": "la Caixa Junior Leader",
+        "region": "Spain and Portugal",
+        "scope": "Incoming/Retaining postdoctoral fellowships",
+        "status": "access_limited",
+        "checkedAt": "2026-08-02",
+        "url": "https://lacaixafoundation.org/en/postdoctoral-junior-leader-fellowships",
+        "resultSummaryZh": "官方页自动访问受限；保留来源并在下一轮读取正式 call PDF。"
+      },
+      {
+        "id": "jsps",
+        "name": "Japan Society for the Promotion of Science",
+        "region": "Japan",
+        "scope": "Standard/Short-term foreign researcher fellowships",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.jsps.go.jp/english/e-fellow/",
+        "resultSummaryZh": "日本博士后主力 host 提名通道。"
+      },
+      {
+        "id": "matsumae",
+        "name": "Matsumae International Foundation",
+        "region": "Japan",
+        "scope": "六个月研究访问 Fellowship",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.mif-japan.org/en/fellowship/announcement/",
+        "resultSummaryZh": "全额短访但要求本国全职工作和回国。"
+      },
+      {
+        "id": "riken",
+        "name": "RIKEN careers and SPDR",
+        "region": "Japan",
+        "scope": "Special Postdoctoral Researchers 与研究岗位",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.riken.jp/en/careers/programs/spdr/",
+        "resultSummaryZh": "FY2027 已关闭；三年 SPDR 路线已进入正式机会库，继续按 R-CCS/AIP 研究单元监测。"
+      },
+      {
+        "id": "ntu",
+        "name": "NTU Elite Researcher Schemes",
+        "region": "Singapore",
+        "scope": "AI4X、Schmidt AI in Science、LKY PDF、Wallenberg-NTU PPF",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.ntu.edu.sg/research/research-careers",
+        "resultSummaryZh": "形成新加坡最完整的高价值 postdoc fellowship 组合。"
+      },
+      {
+        "id": "nrf-singapore",
+        "name": "National Research Foundation Singapore",
+        "region": "Singapore",
+        "scope": "NRF Fellowship、AI-for-X、PI 大型项目",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.nrf.gov.sg/grants/nrff/",
+        "resultSummaryZh": "NRF Fellowship 为长期独立教职目标；PI 项目用于扩组信号。"
+      },
+      {
+        "id": "arc-australia",
+        "name": "Australian Research Council",
+        "region": "Australia",
+        "scope": "DECRA、Industry Fellowships 与 Discovery 项目",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.arc.gov.au/funding-research/arc-funding-schemes/discovery/discovery-early-career-researcher-award-decra",
+        "resultSummaryZh": "DECRA 三年薪资及每年最高 AU$50,000 项目经费已核验；正式资格仍回到当轮 Grant Guidelines。"
+      },
+      {
+        "id": "forrest",
+        "name": "Forrest Research Foundation",
+        "region": "Australia",
+        "scope": "Western Australia postdoctoral fellowships",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://forrestresearch.org.au/fellowships/",
+        "resultSummaryZh": "全球全学科、博士最后一年或毕业两年内，三年总价值超过 AU$500,000。"
+      },
+      {
+        "id": "google-research",
+        "name": "Google Research student programs",
+        "region": "Global",
+        "scope": "PhD Fellowship 与学术项目",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://research.google/programs-and-events/phd-fellowship/",
+        "resultSummaryZh": "东亚轮次可能相关，但需校内提名和计算机方向连接。"
+      },
+      {
+        "id": "nvidia-research",
+        "name": "NVIDIA Research academic programs",
+        "region": "Global",
+        "scope": "Graduate Fellowship 与研究实习",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://research.nvidia.com/graduate-fellowships",
+        "resultSummaryZh": "适合形成加速计算、AI 或科学计算主线后申请。"
+      },
+      {
+        "id": "jane-street",
+        "name": "Jane Street Graduate Research Fellowship",
+        "region": "Selected regions",
+        "scope": "数学等博士研究资助",
+        "status": "checked_currently_ineligible",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.janestreet.com/join-jane-street/programs-and-events/graduate-research-fellowship/",
+        "resultSummaryZh": "香港高校目前不在 eligible institution regions；保留规则变化监测。"
+      },
+      {
+        "id": "schmidt-science",
+        "name": "Schmidt Science Fellows",
+        "region": "Global",
+        "scope": "机构提名的跨学科博士后转向",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://schmidtsciencefellows.org/selection/who-can-apply/",
+        "resultSummaryZh": "需核对港理工是否为 nominating partner。"
+      },
+      {
+        "id": "pims",
+        "name": "Pacific Institute for the Mathematical Sciences",
+        "region": "Canada and United States",
+        "scope": "数学博士后、访问与专题网络",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.pims.math.ca/scientific/postdoctoral",
+        "resultSummaryZh": "作为北美数学研究所集群来源。"
+      },
+      {
+        "id": "fields",
+        "name": "Fields Institute",
+        "region": "Canada",
+        "scope": "博士后、主题项目和访问支持",
+        "status": "directory_watch",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.fields.utoronto.ca/",
+        "resultSummaryZh": "监测 optimization、scientific computing 与 data science 主题项目。"
+      },
+      {
+        "id": "icerm",
+        "name": "ICERM",
+        "region": "United States",
+        "scope": "应用数学博士后、semester programmes 与访问支持",
+        "status": "directory_watch",
+        "checkedAt": "2026-08-02",
+        "url": "https://icerm.brown.edu/",
+        "resultSummaryZh": "重点关注优化、随机方法、数值计算和数据科学项目。"
+      },
+      {
+        "id": "slmath",
+        "name": "Simons Laufer Mathematical Sciences Institute",
+        "region": "United States",
+        "scope": "博士后、semester programmes 与 travel support",
+        "status": "directory_watch",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.slmath.org/",
+        "resultSummaryZh": "以具体项目和官方申请页为准，不把总览当作开放职位。"
+      },
+      {
+        "id": "ima-uk",
+        "name": "Institute of Mathematics and its Applications",
+        "region": "United Kingdom",
+        "scope": "Leslie Fox Prize、会议与青年研究者奖项",
+        "status": "source_watch",
+        "checkedAt": "2026-08-02",
+        "url": "https://ima.org.uk/",
+        "resultSummaryZh": "Wenqi Zhu 官方档案验证 Leslie Fox Prize 路线，最新 call 页待补。"
+      },
+      {
+        "id": "siam",
+        "name": "Society for Industrial and Applied Mathematics",
+        "region": "Global",
+        "scope": "学生差旅、会议奖项、Fellowship 与职业资源",
+        "status": "access_limited",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.siam.org/conferences-events/conference-support/",
+        "resultSummaryZh": "自动访问受限；具体奖项须回到 SIAM 官方 call。"
+      },
+      {
+        "id": "mos",
+        "name": "Mathematical Optimization Society",
+        "region": "Global",
+        "scope": "Tucker Prize、ICCOPT、青年优化研究者网络",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://mathopt.zib.de/?nav=tucker",
+        "resultSummaryZh": "Tucker Prize 的博士论文时间窗与教师提名规则已核验并进入正式机会库。"
+      },
+      {
+        "id": "imu-cdc",
+        "name": "IMU Commission for Developing Countries",
+        "region": "Global",
+        "scope": "研究访问、会议差旅与发展中国家数学家支持",
+        "status": "directory_watch",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.mathunion.org/cdc/grants",
+        "resultSummaryZh": "逐项核对国别、职业阶段和 host 条件，不能仅凭发展中国家标签判断。"
+      },
+      {
+        "id": "kaust-global",
+        "name": "KAUST Global Fellowship Program",
+        "region": "Saudi Arabia",
+        "scope": "AI、能源、健康、水与计算科学独立博士后",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://kgfp.kaust.edu.sa/",
+        "resultSummaryZh": "三年、年津贴 US$75,000、每年最高 US$40,000 研究经费及住房等支持。"
+      },
+      {
+        "id": "azrieli",
+        "name": "Azrieli International Postdoctoral Fellowship",
+        "region": "Israel",
+        "scope": "全球全学科博士后 Fellowship",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://azrielifoundation.org/fellows/internationalpostdoctoral/",
+        "resultSummaryZh": "2027–28 届 2026-11-11 截止；资格、月津贴和研究差旅支持已核验。"
+      },
+      {
+        "id": "fwo",
+        "name": "Research Foundation – Flanders",
+        "region": "Belgium",
+        "scope": "Junior/Senior Postdoctoral Fellowships 与研究项目",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.fwo.be/en/support-programmes/all-calls/postdoctoral-researchers/junior-postdoctoral-fellowship/",
+        "resultSummaryZh": "Junior Fellowship 三年并含年度运行经费；下一轮预计 2026-09 开放。"
+      },
+      {
+        "id": "research-ireland",
+        "name": "Research Ireland postdoctoral funding",
+        "region": "Ireland",
+        "scope": "Government of Ireland Postdoctoral Fellowship",
+        "status": "source_watch",
+        "checkedAt": "2026-08-02",
+        "url": "https://research.ie/funding/goipd/",
+        "resultSummaryZh": "官方页仍是旧轮次，保留一至两年全学科项目但不伪造 2026 开放信息。"
+      },
+      {
+        "id": "hfsp",
+        "name": "Human Frontier Science Program",
+        "region": "Global",
+        "scope": "生命科学 Long-Term/Cross-Disciplinary Fellowships",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships",
+        "resultSummaryZh": "数学等非生物博士可申请 CDF，但必须是真实生命科学转向；2027 届已截止。"
+      },
+      {
+        "id": "schmidt-ai-network",
+        "name": "Schmidt AI in Science Fellowship Network",
+        "region": "Global",
+        "scope": "九所大学 AI for Science 博士后与 faculty 网络",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.schmidtsciences.org/ai-in-science/",
+        "resultSummaryZh": "每年约支持 160 位博士后和 20 位 faculty fellows；各合作大学独立申请。"
+      },
+      {
+        "id": "miller-institute",
+        "name": "Miller Institute for Basic Research in Science",
+        "region": "United States",
+        "scope": "三年基础科学独立博士后 Fellowship",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://miller.berkeley.edu/nominate-apply/miller-research-fellowship",
+        "resultSummaryZh": "全球教师提名制；2027–30 届提名与完整申请日期、博士窗口已核验。"
+      },
+      {
+        "id": "harvard-society",
+        "name": "Harvard Society of Fellows",
+        "region": "United States",
+        "scope": "不限学科和国籍的 Junior Fellowship",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://socfell.fas.harvard.edu/nomination-procedure",
+        "resultSummaryZh": "不能自荐，需学者提名；2025/26 首年津贴 US$101,000。"
+      },
+      {
+        "id": "nsf-us",
+        "name": "U.S. National Science Foundation mathematics postdoctoral funding",
+        "region": "United States",
+        "scope": "MSPRF 与其他数学科学博士后资助",
+        "status": "checked_currently_ineligible",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.nsf.gov/funding/postdocs",
+        "resultSummaryZh": "MSPRF 等个人项目通常有美国公民/国民/永久居民硬门槛；不进入当前正式主申库。"
+      },
+      {
+        "id": "simons-travel",
+        "name": "Simons Foundation Travel Support for Mathematicians",
+        "region": "United States",
+        "scope": "数学家长期差旅与合作支持",
+        "status": "checked_currently_ineligible",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.simonsfoundation.org/grant/travel-support-for-mathematicians/",
+        "resultSummaryZh": "面向美国 tenure-track/tenured 数学教师，不适用于当前博士生；仅作未来 PI 经费信号。"
+      },
+      {
+        "id": "informs-optimization",
+        "name": "INFORMS Optimization Society",
+        "region": "Global",
+        "scope": "Student Paper Prize、Young Researchers Prize 与优化会议",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://connect.informs.org/optimizationsociety/prizes",
+        "resultSummaryZh": "学生论文奖与当前研究高度相关，2026 轮截止和资格已核验。"
+      },
+      {
+        "id": "cooperative-ai",
+        "name": "Cooperative AI Foundation",
+        "region": "Global",
+        "scope": "全球博士生 Cooperative AI Fellowship",
+        "status": "checked",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.cooperativeai.com/phd-fellowship/2026",
+        "resultSummaryZh": "全球高校在读博士可申，但研究必须实质聚焦多智能体/合作 AI；当前不作为高匹配正式项目。"
+      },
+      {
+        "id": "twosigma-phd",
+        "name": "Two Sigma PhD Fellowships",
+        "region": "United States and Canada",
+        "scope": "计算机、统计、应用数学博士 Fellowship",
+        "status": "checked_currently_ineligible",
+        "checkedAt": "2026-08-02",
+        "url": "https://www.twosigma.com/graduate-students/phd-fellowships/",
+        "resultSummaryZh": "检索确认项目存在，但学校地域范围与香港在读身份不匹配，保留规则变化监测。"
+      },
+      {
+        "id": "twascience",
+        "name": "The World Academy of Sciences fellowships",
+        "region": "Global South",
+        "scope": "博士、博士后与研究访问项目",
+        "status": "directory_watch",
+        "checkedAt": "2026-08-02",
+        "url": "https://twas.org/opportunities/fellowships",
+        "resultSummaryZh": "项目按国籍、发展中国家名单、host 国家和领域分散，必须逐项核对而非整体判定。"
+      },
+      {
+        "id": "axa-foundation",
+        "name": "AXA Foundation for Human Progress research funding",
+        "region": "Global",
+        "scope": "健康、气候、社会经济与新技术研究资助",
+        "status": "directory_watch",
+        "checkedAt": "2026-08-02",
+        "url": "https://axafoundation.org/en/science/field-of-research/fund-your-research",
+        "resultSummaryZh": "旧 AXA Research Fund 页面已迁移；等待新的正式 postdoctoral call，不使用历史第三方金额。"
+      }
+    ],
+    "seedCases": [
+      {
+        "id": "wenqi-zhu-oxford",
+        "name": "Wenqi Zhu",
+        "nameZh": "朱雯琪（牛津 Kate 朱朱）",
+        "role": "Postdoctoral Research Associate",
+        "institution": "University of Oxford Mathematical Institute",
+        "researchFit": [
+          "higher-order optimization",
+          "numerical analysis",
+          "tensor methods",
+          "AI for mathematics"
+        ],
+        "verifiedSignals": [
+          "Jane Street Graduate Fellowship Research Workshop travel grant (2024)",
+          "Full DPhil Studentship (INNOHK and CIMDA, 2021–2025)",
+          "UKRI-BBSRC DTP Studentship offer, voluntarily declined",
+          "Industrial CASE Studentship offer, voluntarily declined",
+          "Oxford Catherine Hughes Fund Research Internship Award (2021)",
+          "Leslie Fox Prize for Numerical Analysis"
+        ],
+        "relevanceZh": "用作发现基金类别和材料路径的种子，不把个人社交媒体叙述当作资格依据；其中 Jane Street 当前不覆盖香港高校，Oxford 内部奖项也不能直接迁移。",
+        "officialProfileUrl": "https://www.maths.ox.ac.uk/people/wenqi.zhu",
+        "publicAcademicPageUrl": "https://katewenqizhu.github.io/",
+        "lastVerifiedAt": "2026-08-02"
+      }
+    ],
+    "overview": {
+      "total": 41,
+      "priority": 21,
+      "doctoral": 8,
+      "postdoctoral": 36,
+      "checkedSources": 33,
+      "totalSources": 51
+    }
+  },
   "routes": [
     {
       "id": "europe-postdoc-fellowship",
@@ -84346,10 +86571,10 @@
   ],
   "updates": {
     "windowDays": 7,
-    "generatedAt": "2026-07-30T14:40:28.334Z",
+    "generatedAt": "2026-08-02T06:00:40.254Z",
     "newCount": 3,
     "updatedCount": 0,
-    "expiredCount": 3,
+    "expiredCount": 1,
     "items": [
       {
         "id": "f7539e27cf60ddfb",
@@ -84402,32 +86627,6 @@
         "score": 50,
         "sourceUrl": "https://www.jobs.ac.uk/job/DSI662/research-fellow-in-digital-twinning-for-crisis-and-resilience-in-transportation",
         "changedAt": "2026-07-28T04:26:10.587Z"
-      },
-      {
-        "id": "31e667ca303a4cb0",
-        "kind": "job",
-        "type": "expired",
-        "labelZh": "已失效/已截止",
-        "title": "Junior Professor Chair (tenure track position) Université Paris Sciences et Lettres Supporting an Efficient Logistics Transition Through Artificial Intelligence",
-        "organization": "EURAXESS Jobs",
-        "region": "Europe",
-        "priority": "C",
-        "score": 58,
-        "sourceUrl": "https://euraxess.ec.europa.eu/jobs/455412",
-        "changedAt": "2026-07-25T04:26:40.046Z"
-      },
-      {
-        "id": "c283d57a458340bb",
-        "kind": "job",
-        "type": "expired",
-        "labelZh": "已失效/已截止",
-        "title": "Researcher in Operations Research for Electric Vehicle Fleet Charging Optimization - G-SCOP",
-        "organization": "EURAXESS Jobs",
-        "region": "Europe",
-        "priority": "B",
-        "score": 63,
-        "sourceUrl": "https://euraxess.ec.europa.eu/jobs/454956",
-        "changedAt": "2026-07-24T04:30:09.195Z"
       }
     ]
   },

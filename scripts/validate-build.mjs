@@ -42,4 +42,18 @@ if (publicSite.industry?.private) {
   throw new Error("public industry build must not include private planning data");
 }
 
+if ((publicSite.funding?.opportunities ?? []).length < 40) {
+  throw new Error("public build must contain the verified funding intelligence library");
+}
+
+if ((publicSite.funding?.coverage ?? []).length < 50) {
+  throw new Error("public build must contain the funding source coverage ledger");
+}
+
+for (const item of publicSite.funding.opportunities) {
+  if (!item.id || !item.sourceUrl || !item.eligibilitySummaryZh || !item.nextActionZh) {
+    throw new Error(`Public funding opportunity ${item.id ?? item.name} is incomplete`);
+  }
+}
+
 console.log("Build validation passed.");

@@ -46,7 +46,8 @@ const [
   industryPeopleRaw,
   industryPeopleCurated,
   industryInsights,
-  industryPrivatePlan
+  industryPrivatePlan,
+  fundingIntelligence
 ] = await Promise.all([
   readJson(projectRoot, "data/generated/jobs.json", []),
   readJson(projectRoot, "data/generated/alerts.json", []),
@@ -77,7 +78,13 @@ const [
   readJson(projectRoot, "data/manual/industry-insights.json", {}),
   mode === "private"
     ? readPrivateJson("data/private/industry-plan.json", "data/private/industry-plan.example.json", null)
-    : null
+    : null,
+  readJson(projectRoot, "data/research/funding-intelligence.json", {
+    schemaVersion: 1,
+    opportunities: [],
+    coverage: [],
+    seedCases: []
+  })
 ]);
 
 const reports = (await Promise.all([
@@ -198,6 +205,8 @@ const industry = {
   ...(mode === "private" && industryPrivatePlan ? { private: industryPrivatePlan } : {})
 };
 
+const funding = buildFundingIntelligence(fundingIntelligence, buildDate);
+
 const metadata = {
   ...generatedMetadata,
   builtAt: buildDate.toISOString(),
@@ -211,13 +220,14 @@ const siteData = {
   copy: siteCopy,
   metadata,
   profile: mode === "public" ? publicProfile(profile) : profile,
-  metrics: buildMetrics(jobs, sourceStatuses, people, labs, industry),
+  metrics: buildMetrics(jobs, sourceStatuses, people, labs, industry, funding),
   jobs,
   alerts: jobs.length ? buildAlerts(jobs) : generatedAlerts,
   people,
   labs,
   academic,
   industry,
+  funding,
   routes: routes.sort((a, b) => (a.order ?? 99) - (b.order ?? 99)),
   sources: sourceStatuses,
   reports,
@@ -247,6 +257,7 @@ await writeJson(outputDir, "data/people.json", outputData.people);
 await writeJson(outputDir, "data/labs.json", outputData.labs);
 await writeJson(outputDir, "data/academic.json", outputData.academic);
 await writeJson(outputDir, "data/industry.json", outputData.industry);
+await writeJson(outputDir, "data/funding.json", outputData.funding);
 await writeJson(outputDir, "data/routes.json", outputData.routes);
 await writeJson(outputDir, "data/sources.json", outputData.sources);
 await writeJson(outputDir, "data/metadata.json", outputData.metadata);
@@ -257,7 +268,8 @@ console.log(
   `${outputData.jobs.length} jobs, ${outputData.alerts.length} alerts, ` +
     `${outputData.academic.overview.totalProfiles} tracked academic profiles, ` +
     `${outputData.academic.qualityGate.publishedProfiles} public-ready academic profiles, ` +
-    `${outputData.industry.companies.length} companies, ${outputData.industry.people.length} industry people.`
+    `${outputData.industry.companies.length} companies, ${outputData.industry.people.length} industry people, ` +
+    `${outputData.funding.opportunities.length} funding opportunities.`
 );
 
 async function readReport(kind, labelZh, relativePath) {
@@ -309,7 +321,7 @@ function readArg(name) {
   return index >= 0 ? process.argv[index + 1] : null;
 }
 
-function buildMetrics(jobs, sources, people, labs, industry) {
+function buildMetrics(jobs, sources, people, labs, industry, funding) {
   const currentJobs = jobs.filter((job) => job.lifecycleStatus !== "expired");
   const abJobs = currentJobs.filter((job) => ["A", "B"].includes(job.priority) && job.recordType !== "watch_seed");
   const dueSoon = jobs.filter((job) => {
@@ -334,7 +346,45 @@ function buildMetrics(jobs, sources, people, labs, industry) {
     industryPeople: industry.people.length,
     industryOpportunities: industry.opportunities.length,
     activeIndustryOpportunities: industry.opportunities.filter((item) => item.status === "active").length,
-    industryInternships: industry.opportunities.filter((item) => String(item.track).includes("internship")).length
+    industryInternships: industry.opportunities.filter((item) => String(item.track).includes("internship")).length,
+    fundingOpportunities: funding.opportunities.length,
+    priorityFunding: funding.opportunities.filter((item) => item.strategicTier === "A").length,
+    fundingSourcesChecked: funding.coverage.filter((item) => item.status === "checked").length,
+    fundingSourcesTotal: funding.coverage.length
+  };
+}
+
+function buildFundingIntelligence(value = {}, now = new Date()) {
+  const opportunities = (value.opportunities ?? [])
+    .map((item) => ({
+      ...item,
+      deadlineDays: daysUntil(item.deadline),
+      lifecycle: item.status === "upcoming"
+        ? "upcoming"
+        : item.status === "currently_ineligible"
+          ? "ineligible"
+          : item.status === "future_priority" || item.status === "long_term_watch"
+            ? "future"
+            : "watch"
+    }))
+    .sort((a, b) => Number(b.baseScore ?? 0) - Number(a.baseScore ?? 0));
+  const coverage = (value.coverage ?? []).map((item) => ({ ...item }));
+  return {
+    schemaVersion: value.schemaVersion ?? 1,
+    researchedAt: value.researchedAt ?? now.toISOString().slice(0, 10),
+    planningWindow: value.planningWindow ?? {},
+    methodology: value.methodology ?? {},
+    opportunities,
+    coverage,
+    seedCases: value.seedCases ?? [],
+    overview: {
+      total: opportunities.length,
+      priority: opportunities.filter((item) => item.strategicTier === "A").length,
+      doctoral: opportunities.filter((item) => item.stages?.includes("phd")).length,
+      postdoctoral: opportunities.filter((item) => item.stages?.some((stage) => ["final_year", "postdoc"].includes(stage))).length,
+      checkedSources: coverage.filter((item) => item.status === "checked").length,
+      totalSources: coverage.length
+    }
   };
 }
 
