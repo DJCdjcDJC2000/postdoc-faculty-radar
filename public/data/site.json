@@ -46,12 +46,12 @@
     }
   },
   "metadata": {
-    "generatedAt": "2026-08-01T04:33:31.605Z",
+    "generatedAt": "2026-08-02T04:35:53.465Z",
     "offline": false,
-    "jobCount": 17,
-    "alertCount": 3,
+    "jobCount": 18,
+    "alertCount": 4,
     "sourceCount": 20,
-    "builtAt": "2026-08-01T04:33:51.791Z",
+    "builtAt": "2026-08-02T04:36:13.094Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -75,14 +75,14 @@
     "careerPlanSummaryZh": "重点覆盖欧洲、香港、新加坡、内地和大厂研究岗，适用于应用数学、优化与科学计算方向的 PhD/Postdoc。"
   },
   "metrics": {
-    "totalJobs": 7,
+    "totalJobs": 8,
     "archivedJobs": 10,
-    "newJobs": 1,
+    "newJobs": 2,
     "updatedJobs": 0,
     "expiredJobs": 4,
-    "highMatchJobs": 3,
-    "dueSoonJobs": 0,
-    "activeSources": 3,
+    "highMatchJobs": 4,
+    "dueSoonJobs": 1,
+    "activeSources": 4,
     "totalSources": 20,
     "peopleCount": 14,
     "targetLabs": 24,
@@ -118,7 +118,7 @@
       "trust": "lead",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-08-01T04:33:31.605Z",
+      "createdAt": "2026-08-02T04:35:53.465Z",
       "id": "c4f0adb87a8dfd89",
       "matchScore": 100,
       "priority": "A",
@@ -139,11 +139,11 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "线索待核验",
       "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-      "updatedAt": "2026-08-01T04:33:31.605Z",
+      "updatedAt": "2026-08-02T04:35:53.465Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-01T04:33:31.605Z",
+      "lastSeenAt": "2026-08-02T04:35:53.465Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -192,7 +192,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-08-01T04:33:31.605Z",
+      "createdAt": "2026-08-02T04:35:53.465Z",
       "id": "1411a9a5c5c5768d",
       "matchScore": 74,
       "priority": "B",
@@ -205,11 +205,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-      "updatedAt": "2026-08-01T04:33:31.605Z",
+      "updatedAt": "2026-08-02T04:35:53.465Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-01T04:33:31.605Z",
+      "lastSeenAt": "2026-08-02T04:35:53.465Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -238,6 +238,67 @@
       "freshness": null
     },
     {
+      "title": "Postdoc Molecular Dynamics and Process Simulation of High Temperature Thermal Storage Systems",
+      "institution": "EURAXESS Jobs",
+      "department": "",
+      "region": "Europe",
+      "country": "Europe",
+      "roleType": "postdoc",
+      "track": "academia",
+      "sourceName": "EURAXESS Jobs",
+      "sourceId": "euraxess",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/457924",
+      "originalSourceUrl": "https://euraxess.ec.europa.eu/jobs/search",
+      "description": "Postdoc Molecular Dynamics and Process Simulation of High Temperature Thermal Storage Systems Delft University of Technology via AcademicTransferPosted on: 1 August 2026Postdoc Molecular Dynamics and Process Simulation of High Temperature Thermal Storage SystemsHelp accelerate the electrification of industry by combining molecular and process-scale simulations for high-temperature thermal energy storage.Job descriptionCarbon-based chemicals are essential building blocks for modern society, formi",
+      "keywords": [
+        "simulation"
+      ],
+      "deadline": "2026-09-22",
+      "fieldRelevantSource": false,
+      "status": "active",
+      "trust": "academic_board",
+      "fetchedAt": "2026-08-02T04:35:53.465Z",
+      "id": "43de50b3955768d5",
+      "matchScore": 68,
+      "priority": "B",
+      "matchedKeywords": [
+        "simulation"
+      ],
+      "negativeKeywords": [],
+      "relevance": "core",
+      "roleLabelZh": "博后",
+      "sourceTrustLabelZh": "权威平台",
+      "simpleReason": "Europe · 博后 · simulation",
+      "updatedAt": "2026-08-02T04:35:53.465Z",
+      "lifecycleStatus": "active",
+      "lifecycleLabelZh": "当前有效",
+      "firstSeenAt": "2026-08-02T04:35:53.465Z",
+      "lastSeenAt": "2026-08-02T04:35:53.465Z",
+      "lastChangedAt": "2026-08-02T04:35:53.465Z",
+      "changeType": "new",
+      "archivedAt": null,
+      "stale": false,
+      "ai": {
+        "status": "rule_fallback",
+        "notice": "AI 辅助生成，需核验",
+        "summaryZh": "Europe · 博后 · simulation",
+        "tagsZh": [
+          "simulation"
+        ],
+        "positiveZh": [
+          "Europe · 博后 · simulation"
+        ],
+        "negativeZh": [],
+        "riskZh": "需打开官方原始链接核验岗位细节。",
+        "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
+      }
+    },
+    {
       "title": "RGC Junior Research Fellow Scheme",
       "institution": "University Grants Committee / Research Grants Council",
       "department": "Hong Kong UGC-funded universities",
@@ -257,7 +318,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-08-01T04:33:31.605Z",
+      "createdAt": "2026-08-02T04:35:53.465Z",
       "id": "576a05e8b695f331",
       "matchScore": 64,
       "priority": "B",
@@ -267,11 +328,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Fellowship",
-      "updatedAt": "2026-08-01T04:33:31.605Z",
+      "updatedAt": "2026-08-02T04:35:53.465Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-01T04:33:31.605Z",
+      "lastSeenAt": "2026-08-02T04:35:53.465Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -319,7 +380,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-08-01T04:33:31.605Z",
+      "createdAt": "2026-08-02T04:35:53.465Z",
       "id": "bbac44b5da0bc36a",
       "matchScore": 64,
       "priority": "B",
@@ -329,11 +390,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Singapore · Fellowship",
-      "updatedAt": "2026-08-01T04:33:31.605Z",
+      "updatedAt": "2026-08-02T04:35:53.465Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-01T04:33:31.605Z",
+      "lastSeenAt": "2026-08-02T04:35:53.465Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -449,7 +510,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-08-01T04:33:31.605Z",
+      "createdAt": "2026-08-02T04:35:53.465Z",
       "id": "e1e5047f5f87635e",
       "matchScore": 59,
       "priority": "C",
@@ -459,11 +520,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship",
-      "updatedAt": "2026-08-01T04:33:31.605Z",
+      "updatedAt": "2026-08-02T04:35:53.465Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-01T04:33:31.605Z",
+      "lastSeenAt": "2026-08-02T04:35:53.465Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -932,7 +993,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "academic_board",
-      "fetchedAt": "2026-08-01T04:33:31.605Z",
+      "fetchedAt": "2026-08-02T04:35:53.465Z",
       "id": "7476ef3f34111b22",
       "matchScore": 46,
       "priority": "C",
@@ -944,11 +1005,11 @@
       "roleLabelZh": "Research Fellow",
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "United Kingdom · Research Fellow · AI",
-      "updatedAt": "2026-08-01T04:33:31.605Z",
+      "updatedAt": "2026-08-02T04:35:53.465Z",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-08-01T04:33:31.605Z",
-      "lastSeenAt": "2026-08-01T04:33:31.605Z",
+      "lastSeenAt": "2026-08-02T04:35:53.465Z",
       "lastChangedAt": "2026-08-01T04:33:31.605Z",
       "changeType": "new",
       "archivedAt": null,
@@ -990,7 +1051,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "official",
-      "fetchedAt": "2026-08-01T04:33:31.605Z",
+      "fetchedAt": "2026-08-02T04:35:53.465Z",
       "id": "8f0378d469afbb63",
       "matchScore": 45,
       "priority": "C",
@@ -1002,14 +1063,14 @@
       "roleLabelZh": "Research Fellow",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Research Fellow",
-      "updatedAt": "2026-08-01T04:33:31.605Z",
+      "updatedAt": "2026-08-02T04:35:53.465Z",
       "stale": false,
       "changeType": null,
       "sourceId": "hkust-math",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-01T04:33:31.605Z",
+      "lastSeenAt": "2026-08-02T04:35:53.465Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "ai": {
@@ -1262,6 +1323,20 @@
       "sourceUrl": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
       "reason": "Europe · Fellowship · scientific computing / applied mathematics",
       "aiSummaryZh": "德国洪堡基金会为博士后研究人员提供研究奖学金，支持在德国进行科研，适用于优化、应用数学和科学计算领域。"
+    },
+    {
+      "id": "43de50b3955768d5",
+      "title": "Postdoc Molecular Dynamics and Process Simulation of High Temperature Thermal Storage Systems",
+      "institution": "EURAXESS Jobs",
+      "region": "Europe",
+      "roleType": "postdoc",
+      "roleLabelZh": "博后",
+      "priority": "B",
+      "matchScore": 68,
+      "sourceName": "EURAXESS Jobs",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/457924",
+      "reason": "Europe · 博后 · simulation",
+      "aiSummaryZh": "Europe · 博后 · simulation"
     },
     {
       "id": "576a05e8b695f331",
@@ -84123,11 +84198,11 @@
       "url": "https://euraxess.ec.europa.eu/jobs/search",
       "trust": "academic_board",
       "sourceType": "academic_board",
-      "status": "no_candidates",
-      "message": "0 candidates",
-      "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 335
+      "status": "ok",
+      "message": "1 candidates",
+      "count": 1,
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 349
     },
     {
       "id": "academic-positions",
@@ -84139,8 +84214,8 @@
       "status": "error",
       "message": "HTTP 403",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 110
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 100
     },
     {
       "id": "academic-transfer",
@@ -84152,8 +84227,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 1068
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 1147
     },
     {
       "id": "mathjobs",
@@ -84163,10 +84238,10 @@
       "trust": "academic_board",
       "sourceType": "academic_board",
       "status": "ok",
-      "message": "3 candidates",
-      "count": 3,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 391
+      "message": "1 candidates",
+      "count": 1,
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 1068
     },
     {
       "id": "academic-jobs-online",
@@ -84178,8 +84253,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 445
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 752
     },
     {
       "id": "jobs-ac-uk",
@@ -84191,8 +84266,8 @@
       "status": "ok",
       "message": "22 candidates",
       "count": 22,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 1171
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 1563
     },
     {
       "id": "polyu",
@@ -84204,8 +84279,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 2545
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 2089
     },
     {
       "id": "hku",
@@ -84217,8 +84292,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 1104
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 842
     },
     {
       "id": "hkust-math",
@@ -84230,8 +84305,8 @@
       "status": "ok",
       "message": "3 candidates",
       "count": 3,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 867
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 674
     },
     {
       "id": "cuhk-math",
@@ -84243,8 +84318,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 1027
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 822
     },
     {
       "id": "nus",
@@ -84256,8 +84331,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 1446
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 1429
     },
     {
       "id": "ntu",
@@ -84269,8 +84344,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 530
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 798
     },
     {
       "id": "astar",
@@ -84282,8 +84357,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 1453
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 1196
     },
     {
       "id": "chinapostdoctor",
@@ -84295,8 +84370,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 1295
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 1016
     },
     {
       "id": "gaoxiaojob",
@@ -84308,8 +84383,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 1956
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 1770
     },
     {
       "id": "microsoft-research",
@@ -84321,8 +84396,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 1201
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 729
     },
     {
       "id": "google-research",
@@ -84334,8 +84409,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 214
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 244
     },
     {
       "id": "deepmind",
@@ -84347,8 +84422,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 324
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 505
     },
     {
       "id": "huawei-noah",
@@ -84360,8 +84435,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 1217
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 942
     },
     {
       "id": "bytedance-seed",
@@ -84373,8 +84448,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-01T04:33:31.605Z",
-      "latencyMs": 627
+      "checkedAt": "2026-08-02T04:35:53.465Z",
+      "latencyMs": 1402
     }
   ],
   "reports": [
@@ -84405,11 +84480,24 @@
   ],
   "updates": {
     "windowDays": 7,
-    "generatedAt": "2026-08-01T04:33:51.791Z",
-    "newCount": 1,
+    "generatedAt": "2026-08-02T04:36:13.094Z",
+    "newCount": 2,
     "updatedCount": 0,
     "expiredCount": 4,
     "items": [
+      {
+        "id": "43de50b3955768d5",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "Postdoc Molecular Dynamics and Process Simulation of High Temperature Thermal Storage Systems",
+        "organization": "EURAXESS Jobs",
+        "region": "Europe",
+        "priority": "B",
+        "score": 68,
+        "sourceUrl": "https://euraxess.ec.europa.eu/jobs/457924",
+        "changedAt": "2026-08-02T04:35:53.465Z"
+      },
       {
         "id": "f7539e27cf60ddfb",
         "kind": "job",
@@ -84499,7 +84587,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-08-01T04:33:31.605Z",
+        "createdAt": "2026-08-02T04:35:53.465Z",
         "id": "1411a9a5c5c5768d",
         "matchScore": 74,
         "priority": "B",
@@ -84512,11 +84600,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-        "updatedAt": "2026-08-01T04:33:31.605Z",
+        "updatedAt": "2026-08-02T04:35:53.465Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-08-01T04:33:31.605Z",
+        "lastSeenAt": "2026-08-02T04:35:53.465Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84564,7 +84652,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-08-01T04:33:31.605Z",
+        "createdAt": "2026-08-02T04:35:53.465Z",
         "id": "576a05e8b695f331",
         "matchScore": 64,
         "priority": "B",
@@ -84574,11 +84662,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Hong Kong · Fellowship",
-        "updatedAt": "2026-08-01T04:33:31.605Z",
+        "updatedAt": "2026-08-02T04:35:53.465Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-08-01T04:33:31.605Z",
+        "lastSeenAt": "2026-08-02T04:35:53.465Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84626,7 +84714,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-08-01T04:33:31.605Z",
+        "createdAt": "2026-08-02T04:35:53.465Z",
         "id": "bbac44b5da0bc36a",
         "matchScore": 64,
         "priority": "B",
@@ -84636,11 +84724,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Singapore · Fellowship",
-        "updatedAt": "2026-08-01T04:33:31.605Z",
+        "updatedAt": "2026-08-02T04:35:53.465Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-08-01T04:33:31.605Z",
+        "lastSeenAt": "2026-08-02T04:35:53.465Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84687,7 +84775,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-08-01T04:33:31.605Z",
+        "createdAt": "2026-08-02T04:35:53.465Z",
         "id": "e1e5047f5f87635e",
         "matchScore": 59,
         "priority": "C",
@@ -84697,11 +84785,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship",
-        "updatedAt": "2026-08-01T04:33:31.605Z",
+        "updatedAt": "2026-08-02T04:35:53.465Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-08-01T04:33:31.605Z",
+        "lastSeenAt": "2026-08-02T04:35:53.465Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84739,7 +84827,69 @@
         "freshness": null
       }
     ],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "title": "Postdoc Molecular Dynamics and Process Simulation of High Temperature Thermal Storage Systems",
+        "institution": "EURAXESS Jobs",
+        "department": "",
+        "region": "Europe",
+        "country": "Europe",
+        "roleType": "postdoc",
+        "track": "academia",
+        "sourceName": "EURAXESS Jobs",
+        "sourceId": "euraxess",
+        "sourceUrl": "https://euraxess.ec.europa.eu/jobs/457924",
+        "originalSourceUrl": "https://euraxess.ec.europa.eu/jobs/search",
+        "description": "Postdoc Molecular Dynamics and Process Simulation of High Temperature Thermal Storage Systems Delft University of Technology via AcademicTransferPosted on: 1 August 2026Postdoc Molecular Dynamics and Process Simulation of High Temperature Thermal Storage SystemsHelp accelerate the electrification of industry by combining molecular and process-scale simulations for high-temperature thermal energy storage.Job descriptionCarbon-based chemicals are essential building blocks for modern society, formi",
+        "keywords": [
+          "simulation"
+        ],
+        "deadline": "2026-09-22",
+        "fieldRelevantSource": false,
+        "status": "active",
+        "trust": "academic_board",
+        "fetchedAt": "2026-08-02T04:35:53.465Z",
+        "id": "43de50b3955768d5",
+        "matchScore": 68,
+        "priority": "B",
+        "matchedKeywords": [
+          "simulation"
+        ],
+        "negativeKeywords": [],
+        "relevance": "core",
+        "roleLabelZh": "博后",
+        "sourceTrustLabelZh": "权威平台",
+        "simpleReason": "Europe · 博后 · simulation",
+        "updatedAt": "2026-08-02T04:35:53.465Z",
+        "lifecycleStatus": "active",
+        "lifecycleLabelZh": "当前有效",
+        "firstSeenAt": "2026-08-02T04:35:53.465Z",
+        "lastSeenAt": "2026-08-02T04:35:53.465Z",
+        "lastChangedAt": "2026-08-02T04:35:53.465Z",
+        "changeType": "new",
+        "archivedAt": null,
+        "stale": false,
+        "ai": {
+          "status": "rule_fallback",
+          "notice": "AI 辅助生成，需核验",
+          "summaryZh": "Europe · 博后 · simulation",
+          "tagsZh": [
+            "simulation"
+          ],
+          "positiveZh": [
+            "Europe · 博后 · simulation"
+          ],
+          "negativeZh": [],
+          "riskZh": "需打开官方原始链接核验岗位细节。",
+          "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+        },
+        "freshness": {
+          "type": "new",
+          "labelZh": "本周新增",
+          "highlighted": true
+        }
+      }
+    ],
     "privateActions": []
   }
 }
