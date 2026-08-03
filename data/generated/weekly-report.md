@@ -1,22 +1,22 @@
-# 职业雷达周报 · 2026-07-30
+# 职业雷达周报 · 2026-08-03
 
-- 本周新增：3
+- 本周新增：1
 - 本周更新：0
-- 本周失效：3
+- 本周失效：5
 - A/B 高匹配：3
-- 30 天内截止：0
+- 30 天内截止：1
 - 学术候选池：132
 - 完整公开档案：132
 - 导师组 / 青年学者：52 / 84
 
 ## 本周变化
 
-- **本周新增** [Research Associate in Modelling and Simulation of Contrail Formation (Fixed Term)](https://www.jobs.ac.uk/job/DSK505/research-associate-in-modelling-and-simulation-of-contrail-formation-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 50
-- **本周新增** [Associate Professorship (or Professorship) in Applied Mathematics](https://www.jobs.ac.uk/job/DSK277/associate-professorship-or-professorship-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
-- **本周新增** [Associate / Full Professor in Applied Mathematics / Statistics](https://www.jobs.ac.uk/job/DSK054/associate-full-professor-in-applied-mathematics-statistics) · jobs.ac.uk Mathematics · United Kingdom · C 54
+- **已失效/已截止** [Postdoc Molecular Dynamics and Process Simulation of High Temperature Thermal Storage Systems](https://euraxess.ec.europa.eu/jobs/457924) · EURAXESS Jobs · Europe · B 68
+- **已失效/已截止** [Research Associate in Modelling and Simulation of Contrail Formation (Fixed Term)](https://www.jobs.ac.uk/job/DSK505/research-associate-in-modelling-and-simulation-of-contrail-formation-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 50
+- **本周新增** [Research Fellow in AI & Optimisation for Physical Systems](https://www.jobs.ac.uk/job/DSL605/research-fellow-in-ai-and-optimisation-for-physical-systems) · jobs.ac.uk Mathematics · United Kingdom · C 46
+- **已失效/已截止** [Associate / Full Professor in Applied Mathematics / Statistics](https://www.jobs.ac.uk/job/DSK054/associate-full-professor-in-applied-mathematics-statistics) · jobs.ac.uk Mathematics · United Kingdom · C 54
+- **已失效/已截止** [Associate Professorship (or Professorship) in Applied Mathematics](https://www.jobs.ac.uk/job/DSK277/associate-professorship-or-professorship-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
 - **已失效/已截止** [Research fellow in Digital Twinning for Crisis and Resilience in Transportation](https://www.jobs.ac.uk/job/DSI662/research-fellow-in-digital-twinning-for-crisis-and-resilience-in-transportation) · jobs.ac.uk Mathematics · United Kingdom · C 50
-- **已失效/已截止** [Junior Professor Chair (tenure track position) Université Paris Sciences et Lettres Supporting an Efficient Logistics Transition Through Artificial Intelligence](https://euraxess.ec.europa.eu/jobs/455412) · EURAXESS Jobs · Europe · C 58
-- **已失效/已截止** [Researcher in Operations Research for Electric Vehicle Fleet Charging Optimization - G-SCOP](https://euraxess.ec.europa.eu/jobs/454956) · EURAXESS Jobs · Europe · B 63
 
 ## 学术人物建设
 
@@ -39,7 +39,7 @@
 
 ## 数据源状态
 
-- 正常或有结果：3/20
+- 正常或有结果：2/20
 - 抓取失败：Academic Positions · HTTP 403
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
 - 抓取失败：高校人才网 · HTTP 403

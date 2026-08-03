@@ -1,23 +1,52 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-30T14:36:33.153Z",
+  "generatedAt": "2026-08-03T04:38:12.992Z",
   "methodNoteZh": "使用 ORCID 官方 expanded-search；只有姓名相似度不低于 0.94 且机构相似度不低于 0.6 的唯一记录进入二次校验。",
   "thresholds": {
     "nameSimilarity": 0.94,
     "institutionSimilarity": 0.6
   },
   "counts": {
-    "checked": 106,
-    "candidates": 65,
+    "checked": 105,
+    "candidates": 64,
     "review": 33,
     "errors": 0
   },
   "profiles": [
     {
+      "id": "person-niao-he",
+      "name": "Niao He",
+      "officialInstitution": "ETH Zurich",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0003-4225-7536",
+      "selected": {
+        "orcid": "0000-0003-4225-7536",
+        "observedName": "Niao He",
+        "institutionNames": [
+          "ETH Zurich"
+        ],
+        "nameScore": 1,
+        "institutionScore": 1
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0003-4225-7536",
+          "observedName": "Niao He",
+          "institutionNames": [
+            "ETH Zurich"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
+    },
+    {
       "id": "nus-math-kim-chuan-toh",
       "name": "Kim-Chuan Toh",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-7204-8933",
       "selected": {
@@ -45,39 +74,10 @@
       "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
     },
     {
-      "id": "person-niao-he",
-      "name": "Niao He",
-      "officialInstitution": "ETH Zurich",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
-      "status": "confirmed_candidate",
-      "orcid": "0000-0003-4225-7536",
-      "selected": {
-        "orcid": "0000-0003-4225-7536",
-        "observedName": "Niao He",
-        "institutionNames": [
-          "ETH Zurich"
-        ],
-        "nameScore": 1,
-        "institutionScore": 1
-      },
-      "candidates": [
-        {
-          "orcid": "0000-0003-4225-7536",
-          "observedName": "Niao He",
-          "institutionNames": [
-            "ETH Zurich"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1
-        }
-      ],
-      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
-    },
-    {
       "id": "person-napat-rujeerapaiboon",
       "name": "Napat Rujeerapaiboon",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-5996-335X",
       "selected": {
@@ -112,7 +112,7 @@
       "id": "person-viet-anh-nguyen",
       "name": "Viet Anh Nguyen",
       "officialInstitution": "The Chinese University of Hong Kong",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-9607-7891",
       "selected": {
@@ -173,7 +173,7 @@
       "id": "cuhk-seem-anthony-so",
       "name": "Anthony Man-Cho So",
       "officialInstitution": "The Chinese University of Hong Kong",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-2588-7851",
       "selected": {
@@ -202,7 +202,7 @@
       "id": "person-luze-xu",
       "name": "Luze Xu",
       "officialInstitution": "The Hong Kong University of Science and Technology",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-5705-4403",
       "selected": {
@@ -239,7 +239,7 @@
       "id": "epfl-rao-daniel-kuhn",
       "name": "Daniel Kuhn",
       "officialInstitution": "EPFL",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-2697-8886",
       "selected": {
@@ -298,7 +298,7 @@
       "id": "epfl-optim-nicolas-boumal",
       "name": "Nicolas Boumal",
       "officialInstitution": "EPFL",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-1322-958X",
       "selected": {
@@ -329,7 +329,7 @@
       "id": "tum-math-michael-ulbrich",
       "name": "Michael Ulbrich",
       "officialInstitution": "Technical University of Munich",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-4320-8616",
       "selected": {
@@ -358,7 +358,7 @@
       "id": "stanford-boyd-convex-optimization",
       "name": "Stephen Boyd",
       "officialInstitution": "Stanford University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-8353-6000",
       "selected": {
@@ -423,7 +423,7 @@
       "id": "stanford-yinyu-ye-optimization",
       "name": "Yinyu Ye",
       "officialInstitution": "Stanford University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0009-0001-3239-2622",
       "selected": {
@@ -452,7 +452,7 @@
       "id": "mit-bertsimas-analytics-optimization",
       "name": "Dimitris Bertsimas",
       "officialInstitution": "Massachusetts Institute of Technology",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-1985-1003",
       "selected": {
@@ -481,7 +481,7 @@
       "id": "princeton-amir-ali-ahmadi",
       "name": "Amir Ali Ahmadi",
       "officialInstitution": "Princeton University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0009-0001-5743-354X",
       "selected": {
@@ -529,7 +529,7 @@
       "id": "epfl-lions-volkan-cevher",
       "name": "Volkan Cevher",
       "officialInstitution": "EPFL",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-5004-201X",
       "selected": {
@@ -596,7 +596,7 @@
       "id": "cuhk-seem-huifu-xu",
       "name": "Huifu Xu",
       "officialInstitution": "The Chinese University of Hong Kong",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-8307-2920",
       "selected": {
@@ -625,7 +625,7 @@
       "id": "be-ku-leuven-patrinos-lab",
       "name": "Panagiotis Patrinos",
       "officialInstitution": "KU Leuven",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-4824-7697",
       "selected": {
@@ -663,7 +663,7 @@
       "id": "fr-inria-sierra-bach",
       "name": "Francis Bach",
       "officialInstitution": "Inria Paris / ENS-PSL / CNRS",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-8644-1058",
       "selected": {
@@ -696,7 +696,7 @@
       "id": "ch-eth-camlab-mishra",
       "name": "Siddhartha Mishra",
       "officialInstitution": "ETH Zurich",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-2665-5385",
       "selected": {
@@ -782,7 +782,7 @@
       "id": "ch-eth-schwab-cse",
       "name": "Christoph Schwab",
       "officialInstitution": "ETH Zurich",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-7570-1472",
       "selected": {
@@ -836,7 +836,7 @@
       "id": "ch-epfl-anchp-kressner",
       "name": "Daniel Kressner",
       "officialInstitution": "EPFL",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-3369-2958",
       "selected": {
@@ -889,7 +889,7 @@
       "id": "de-tu-berlin-pokutta-optimization",
       "name": "Sebastian Pokutta",
       "officialInstitution": "TU Berlin / Zuse Institute Berlin",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-7365-3000",
       "selected": {
@@ -920,7 +920,7 @@
       "id": "de-freiburg-syscop-diehl",
       "name": "Moritz Diehl",
       "officialInstitution": "University of Freiburg",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-6556-8252",
       "selected": {
@@ -953,7 +953,7 @@
       "id": "ch-epfl-mlo-jaggi",
       "name": "Martin Jaggi",
       "officialInstitution": "EPFL",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-1579-5558",
       "selected": {
@@ -982,7 +982,7 @@
       "id": "be-uclouvain-glineur-optimization",
       "name": "François Glineur",
       "officialInstitution": "UCLouvain / CORE",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-5890-1093",
       "selected": {
@@ -1013,7 +1013,7 @@
       "id": "hku-xiaoming-yuan",
       "name": "Xiaoming Yuan",
       "officialInstitution": "University of Hong Kong",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-6900-6983",
       "selected": {
@@ -1072,7 +1072,7 @@
       "id": "hkust-jiheng-zhang",
       "name": "Jiheng Zhang",
       "officialInstitution": "Hong Kong University of Science and Technology",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-3025-1495",
       "selected": {
@@ -1118,7 +1118,7 @@
       "id": "nus-weizhu-bao",
       "name": "Weizhu Bao",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-3418-9625",
       "selected": {
@@ -1155,7 +1155,7 @@
       "id": "nus-chung-piaw-teo",
       "name": "Chung Piaw Teo",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-0534-6858",
       "selected": {
@@ -1186,7 +1186,7 @@
       "id": "sutd-karthik-natarajan",
       "name": "Karthik Natarajan",
       "officialInstitution": "Singapore University of Technology and Design",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-3868-7587",
       "selected": {
@@ -1250,7 +1250,7 @@
       "id": "pku-zaiwen-wen",
       "name": "Zaiwen Wen",
       "officialInstitution": "Peking University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-1762-0671",
       "selected": {
@@ -1279,7 +1279,7 @@
       "id": "pku-pingwen-zhang",
       "name": "Pingwen Zhang",
       "officialInstitution": "Wuhan University / Peking University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0009-0005-0256-9158",
       "selected": {
@@ -1308,7 +1308,7 @@
       "id": "shaoning-han-nus",
       "name": "Shaoning Han",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-1145-7981",
       "selected": {
@@ -1339,7 +1339,7 @@
       "id": "madeleine-udell-stanford",
       "name": "Madeleine Udell",
       "officialInstitution": "Stanford University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-3985-915X",
       "selected": {
@@ -1368,7 +1368,7 @@
       "id": "mengdi-wang-princeton",
       "name": "Mengdi Wang",
       "officialInstitution": "Princeton University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-2101-9507",
       "selected": {
@@ -1431,7 +1431,7 @@
       "id": "de-ellis-antonio-orvieto",
       "name": "Antonio Orvieto",
       "officialInstitution": "ELLIS Institute Tübingen / MPI-IS",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-1914-0367",
       "selected": {
@@ -1478,7 +1478,7 @@
       "id": "de-zib-ksenia-bestuzheva",
       "name": "Ksenia Bestuzheva",
       "officialInstitution": "Zuse Institute Berlin",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-7018-7099",
       "selected": {
@@ -1511,7 +1511,7 @@
       "id": "de-zib-leon-eifler",
       "name": "Leon Eifler",
       "officialInstitution": "Zuse Institute Berlin",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-0245-9344",
       "selected": {
@@ -1542,7 +1542,7 @@
       "id": "se-kth-giuseppe-belgioioso",
       "name": "Giuseppe Belgioioso",
       "officialInstitution": "KTH Royal Institute of Technology",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-8892-1466",
       "selected": {
@@ -1579,7 +1579,7 @@
       "id": "at-vienna-philipp-petersen",
       "name": "Philipp Petersen",
       "officialInstitution": "University of Vienna",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-3566-1020",
       "selected": {
@@ -1614,7 +1614,7 @@
       "id": "it-imt-puya-latafat",
       "name": "Puya Latafat",
       "officialInstitution": "IMT School for Advanced Studies Lucca",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-7969-8565",
       "selected": {
@@ -1643,7 +1643,7 @@
       "id": "at-tuwien-tatjana-chavdarova",
       "name": "Tatjana Chavdarova",
       "officialInstitution": "TU Wien",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-6795-4576",
       "selected": {
@@ -1680,7 +1680,7 @@
       "id": "fr-polytechnique-aymeric-dieuleveut",
       "name": "Aymeric Dieuleveut",
       "officialInstitution": "École Polytechnique",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0009-0005-1848-1724",
       "selected": {
@@ -1706,47 +1706,10 @@
       "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
     },
     {
-      "id": "nl-maastricht-barbara-franci",
-      "name": "Barbara Franci",
-      "officialInstitution": "Maastricht University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
-      "status": "confirmed_candidate",
-      "orcid": "0000-0002-8298-0684",
-      "selected": {
-        "orcid": "0000-0002-8298-0684",
-        "observedName": "Barbara Franci",
-        "institutionNames": [
-          "Maastricht University",
-          "Politecnico di Torino",
-          "Polytechnic University of Turin",
-          "Technische Universiteit Delft",
-          "Università degli Studi di Siena"
-        ],
-        "nameScore": 1,
-        "institutionScore": 1
-      },
-      "candidates": [
-        {
-          "orcid": "0000-0002-8298-0684",
-          "observedName": "Barbara Franci",
-          "institutionNames": [
-            "Maastricht University",
-            "Politecnico di Torino",
-            "Polytechnic University of Turin",
-            "Technische Universiteit Delft",
-            "Università degli Studi di Siena"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1
-        }
-      ],
-      "noteZh": "ORCID 官方搜索中的姓名和机构均达到自动确认门槛；仍由 ORCID 记录姓名做最终复核。"
-    },
-    {
       "id": "ch-eth-mattia-bianchi",
       "name": "Mattia Bianchi",
       "officialInstitution": "ETH Zurich",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-5261-6718",
       "selected": {
@@ -1809,7 +1772,7 @@
       "id": "it-imt-filippo-fabiani",
       "name": "Filippo Fabiani",
       "officialInstitution": "IMT School for Advanced Studies Lucca",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-9911-4758",
       "selected": {
@@ -1846,7 +1809,7 @@
       "id": "fr-inria-thomas-moreau",
       "name": "Thomas Moreau",
       "officialInstitution": "Inria Saclay",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-1523-3419",
       "selected": {
@@ -1912,7 +1875,7 @@
       "id": "fr-polytechnique-maxime-breden",
       "name": "Maxime Breden",
       "officialInstitution": "École Polytechnique",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0009-0000-0072-404X",
       "selected": {
@@ -1941,7 +1904,7 @@
       "id": "it-pisa-alice-cortinovis",
       "name": "Alice Cortinovis",
       "officialInstitution": "University of Pisa",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-6917-5106",
       "selected": {
@@ -1970,7 +1933,7 @@
       "id": "it-pisa-stefano-massei",
       "name": "Stefano Massei",
       "officialInstitution": "University of Pisa",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-1813-4181",
       "selected": {
@@ -2005,7 +1968,7 @@
       "id": "at-innsbruck-gianluca-ceruti",
       "name": "Gianluca Ceruti",
       "officialInstitution": "University of Innsbruck",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0009-0009-2644-8093",
       "selected": {
@@ -2034,7 +1997,7 @@
       "id": "fr-sorbonne-theo-mary",
       "name": "Théo Mary",
       "officialInstitution": "CNRS / Sorbonne Université, LIP6",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-9949-4634",
       "selected": {
@@ -2065,7 +2028,7 @@
       "id": "uk-leeds-massimiliano-fasi",
       "name": "Massimiliano Fasi",
       "officialInstitution": "University of Leeds",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-6015-391X",
       "selected": {
@@ -2100,7 +2063,7 @@
       "id": "fr-inria-manu-upadhyaya",
       "name": "Manu Upadhyaya",
       "officialInstitution": "Inria Paris / École Normale Supérieure, SIERRA",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-8235-0789",
       "selected": {
@@ -2131,7 +2094,7 @@
       "id": "cityu-hongyi-jiang",
       "name": "Hongyi Jiang",
       "officialInstitution": "City University of Hong Kong",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-9840-078X",
       "selected": {
@@ -2196,7 +2159,7 @@
       "id": "cityu-menglong-li",
       "name": "Menglong Li",
       "officialInstitution": "City University of Hong Kong",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-9770-0908",
       "selected": {
@@ -2261,7 +2224,7 @@
       "id": "hkust-nian-si",
       "name": "Nian Si",
       "officialInstitution": "Hong Kong University of Science and Technology",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-4730-543X",
       "selected": {
@@ -2328,7 +2291,7 @@
       "id": "hkbu-xindong-tang",
       "name": "Xindong Tang",
       "officialInstitution": "Hong Kong Baptist University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-4951-768X",
       "selected": {
@@ -2361,7 +2324,7 @@
       "id": "nus-qianxiao-li",
       "name": "Qianxiao Li",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-3903-3737",
       "selected": {
@@ -2396,7 +2359,7 @@
       "id": "nus-guanyi-wang",
       "name": "Guanyi Wang",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-5491-732X",
       "selected": {
@@ -2463,7 +2426,7 @@
       "id": "nus-junyu-zhang",
       "name": "Junyu Zhang",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-2194-9664",
       "selected": {
@@ -2526,7 +2489,7 @@
       "id": "nus-hanzhang-qin",
       "name": "Hanzhang Qin",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-2787-0685",
       "selected": {
@@ -2571,7 +2534,7 @@
       "id": "sutd-niangjun-chen",
       "name": "Niangjun Chen",
       "officialInstitution": "Singapore University of Technology and Design",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-2289-9737",
       "selected": {
@@ -2600,7 +2563,7 @@
       "id": "pku-kun-yuan",
       "name": "Kun Yuan",
       "officialInstitution": "Peking University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0001-8394-8187",
       "selected": {
@@ -2661,7 +2624,7 @@
       "id": "tsinghua-junyi-liu",
       "name": "Junyi Liu",
       "officialInstitution": "Tsinghua University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0009-0007-4310-1775",
       "selected": {
@@ -2718,7 +2681,7 @@
       "id": "sustech-kailiang-wu",
       "name": "Kailiang Wu",
       "officialInstitution": "Southern University of Science and Technology",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-9042-3909",
       "selected": {
@@ -2789,7 +2752,7 @@
       "id": "hku-ids-yue-xie",
       "name": "Yue Xie",
       "officialInstitution": "The University of Hong Kong",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -2843,7 +2806,7 @@
       "id": "imperial-wolfram-wiesemann",
       "name": "Wolfram Wiesemann",
       "officialInstitution": "Imperial College London",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -2862,7 +2825,7 @@
       "id": "berkeley-lavaei-optimization-control",
       "name": "Javad Lavaei",
       "officialInstitution": "University of California, Berkeley",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -2881,7 +2844,7 @@
       "id": "nus-jie-sun-optimization-benchmark",
       "name": "Jie Sun",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -2933,7 +2896,7 @@
       "id": "nus-melvyn-sim",
       "name": "Melvyn Sim",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -2954,7 +2917,7 @@
       "id": "amss-yuhong-dai",
       "name": "Yu-Hong Dai",
       "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -2970,10 +2933,74 @@
       "noteZh": "姓名或机构证据不足，保留人工审核。"
     },
     {
+      "id": "amss-xin-liu",
+      "name": "Xin Liu",
+      "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-4090-1703",
+          "observedName": "Xin Liu",
+          "institutionNames": [
+            "SPACE STAR TECHNOLOGY CO.,LTD.",
+            "University of the Chinese Academy of Sciences"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-1828-4729",
+          "observedName": "Xin Liu",
+          "institutionNames": [
+            "Institute of Hydrobiology Chinese Academy of Sciences"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0009-0002-6188-9782",
+          "observedName": "Xin Liu",
+          "institutionNames": [
+            "Beijing University of Aeronautics and Astronautics",
+            "Huawei Technologies (China)",
+            "KTH Royal Institute of Technology",
+            "University of Chinese Academy of Sciences"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0009-0003-0737-2798",
+          "observedName": "Xin Liu",
+          "institutionNames": [
+            "University of Chinese Academy of Sciences"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0003-0847-182X",
+          "observedName": "Xin Liu",
+          "institutionNames": [
+            "Chinese Academy of Sciences",
+            "Huazhong University of Science and Technology",
+            "The University of Texas at Austin",
+            "University of Texas Southwestern Medical Center at Dallas"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
       "id": "sustech-tao-tang",
       "name": "Tao Tang",
       "officialInstitution": "Southern University of Science and Technology",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3043,74 +3070,10 @@
       "noteZh": "姓名或机构证据不足，保留人工审核。"
     },
     {
-      "id": "amss-xin-liu",
-      "name": "Xin Liu",
-      "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0003-4090-1703",
-          "observedName": "Xin Liu",
-          "institutionNames": [
-            "SPACE STAR TECHNOLOGY CO.,LTD.",
-            "University of the Chinese Academy of Sciences"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1
-        },
-        {
-          "orcid": "0000-0003-1828-4729",
-          "observedName": "Xin Liu",
-          "institutionNames": [
-            "Institute of Hydrobiology Chinese Academy of Sciences"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1
-        },
-        {
-          "orcid": "0009-0002-6188-9782",
-          "observedName": "Xin Liu",
-          "institutionNames": [
-            "Beijing University of Aeronautics and Astronautics",
-            "Huawei Technologies (China)",
-            "KTH Royal Institute of Technology",
-            "University of Chinese Academy of Sciences"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1
-        },
-        {
-          "orcid": "0009-0003-0737-2798",
-          "observedName": "Xin Liu",
-          "institutionNames": [
-            "University of Chinese Academy of Sciences"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1
-        },
-        {
-          "orcid": "0000-0003-0847-182X",
-          "observedName": "Xin Liu",
-          "institutionNames": [
-            "Chinese Academy of Sciences",
-            "Huazhong University of Science and Technology",
-            "The University of Texas at Austin",
-            "University of Texas Southwestern Medical Center at Dallas"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1
-        }
-      ],
-      "noteZh": "姓名或机构证据不足，保留人工审核。"
-    },
-    {
       "id": "liu-yang-nus",
       "name": "Liu Yang",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3172,7 +3135,7 @@
       "id": "rahul-mazumder-mit",
       "name": "Rahul Mazumder",
       "officialInstitution": "MIT Sloan School of Management",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3209,7 +3172,7 @@
       "id": "john-duchi-stanford",
       "name": "John Duchi",
       "officialInstitution": "Stanford University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3228,7 +3191,7 @@
       "id": "damek-davis-upenn",
       "name": "Damek Davis",
       "officialInstitution": "University of Pennsylvania, Wharton",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3247,7 +3210,7 @@
       "id": "ch-epfl-nicolas-flammarion",
       "name": "Nicolas Flammarion",
       "officialInstitution": "EPFL",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3266,7 +3229,7 @@
       "id": "fr-inria-adrien-taylor",
       "name": "Adrien Taylor",
       "officialInstitution": "Inria Paris / ENS",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3285,7 +3248,7 @@
       "id": "be-uclouvain-benoit-legat",
       "name": "Benoît Legat",
       "officialInstitution": "UCLouvain",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3304,7 +3267,7 @@
       "id": "fr-inria-hadrien-hendrikx",
       "name": "Hadrien Hendrikx",
       "officialInstitution": "Inria Grenoble",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3323,7 +3286,7 @@
       "id": "fr-inria-baptiste-goujaud",
       "name": "Baptiste Goujaud",
       "officialInstitution": "Inria Saclay",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3342,7 +3305,7 @@
       "id": "fr-inria-quentin-bertrand",
       "name": "Quentin Bertrand",
       "officialInstitution": "Inria Lyon",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3380,7 +3343,7 @@
       "id": "fr-apple-pierre-ablin",
       "name": "Pierre Ablin",
       "officialInstitution": "Apple Machine Learning Research, Paris",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3399,7 +3362,7 @@
       "id": "at-klagenfurt-caroline-geiersbach",
       "name": "Caroline Geiersbach",
       "officialInstitution": "University of Klagenfurt",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3418,7 +3381,7 @@
       "id": "it-pisa-cecilia-pagliantini",
       "name": "Cecilia Pagliantini",
       "officialInstitution": "University of Pisa",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3437,7 +3400,7 @@
       "id": "fr-ens-lyon-elisa-riccietti",
       "name": "Elisa Riccietti",
       "officialInstitution": "École Normale Supérieure de Lyon / Inria OCKHAM",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3459,7 +3422,7 @@
       "id": "fr-inria-frederik-kunstner",
       "name": "Frederik Kunstner",
       "officialInstitution": "Inria Paris / École Normale Supérieure, SIERRA",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3478,7 +3441,7 @@
       "id": "fr-inria-sorbonne-raphael-berthier",
       "name": "Raphaël Berthier",
       "officialInstitution": "Inria Sorbonne Université",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3497,7 +3460,7 @@
       "id": "cityu-jiaman-wu",
       "name": "Jiaman Wu",
       "officialInstitution": "City University of Hong Kong",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3549,7 +3512,7 @@
       "id": "nus-bo-lin",
       "name": "Bo Lin",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3606,7 +3569,7 @@
       "id": "nus-zaile-li",
       "name": "Zaile Li",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3628,7 +3591,7 @@
       "id": "sjtu-jingwei-liang",
       "name": "Jingwei Liang",
       "officialInstitution": "Shanghai Jiao Tong University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3681,7 +3644,7 @@
       "id": "sustech-shangzhi-zeng",
       "name": "Shangzhi Zeng",
       "officialInstitution": "Southern University of Science and Technology",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3701,10 +3664,77 @@
       "noteZh": "姓名或机构证据不足，保留人工审核。"
     },
     {
+      "id": "cuhksz-xiao-li",
+      "name": "Xiao Li",
+      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0007-6982-8681",
+          "observedName": "Xiao LI",
+          "institutionNames": [
+            "CUHK"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0002-1758-807X",
+          "observedName": "xiao li",
+          "institutionNames": [
+            "Shanxi Medical University",
+            "Sun Yat-sen Memorial Hospital",
+            "Sun Yat-sen University",
+            "The Chinese University of Hong Kong Faculty of Medicine"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1
+        },
+        {
+          "orcid": "0000-0001-9702-4153",
+          "observedName": "Xiao Li",
+          "institutionNames": [
+            "American Society of Civil Engineers",
+            "Curtin University",
+            "The Hong Kong Polytechnic University",
+            "The University of Hong Kong",
+            "University of Cambridge",
+            "University of Hong Kong"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92
+        },
+        {
+          "orcid": "0000-0002-1708-4314",
+          "observedName": "Xiao Li",
+          "institutionNames": [
+            "City University of Hong Kong",
+            "University of Maryland at College Park",
+            "University of Texas at Austin"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92
+        },
+        {
+          "orcid": "0000-0002-7630-0558",
+          "observedName": "Xiao Li",
+          "institutionNames": [
+            "City University of Hong Kong"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92
+        }
+      ],
+      "noteZh": "姓名或机构证据不足，保留人工审核。"
+    },
+    {
       "id": "cuhksz-rui-chen",
       "name": "Rui Chen",
       "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3766,74 +3796,10 @@
       "noteZh": "姓名或机构证据不足，保留人工审核。"
     },
     {
-      "id": "cuhksz-xiao-li",
-      "name": "Xiao Li",
-      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0009-0007-6982-8681",
-          "observedName": "Xiao LI",
-          "institutionNames": [
-            "CUHK"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1
-        },
-        {
-          "orcid": "0000-0002-1758-807X",
-          "observedName": "xiao li",
-          "institutionNames": [
-            "Shanxi Medical University",
-            "Sun Yat-sen Memorial Hospital",
-            "Sun Yat-sen University",
-            "The Chinese University of Hong Kong Faculty of Medicine"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1
-        },
-        {
-          "orcid": "0000-0002-7630-0558",
-          "observedName": "Xiao Li",
-          "institutionNames": [
-            "City University of Hong Kong"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.92
-        },
-        {
-          "orcid": "0000-0002-6630-4627",
-          "observedName": "Xiao Li",
-          "institutionNames": [
-            "City University of Hong Kong",
-            "South China University of Technology",
-            "University of Genoa"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.92
-        },
-        {
-          "orcid": "0000-0002-1708-4314",
-          "observedName": "Xiao Li",
-          "institutionNames": [
-            "City University of Hong Kong",
-            "University of Maryland at College Park",
-            "University of Texas at Austin"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.92
-        }
-      ],
-      "noteZh": "姓名或机构证据不足，保留人工审核。"
-    },
-    {
       "id": "pku-cong-fang",
       "name": "Cong Fang",
       "officialInstitution": "Peking University",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -3880,7 +3846,7 @@
       "id": "cuhksz-shi-pu",
       "name": "Shi Pu",
       "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-07-30T14:36:33.153Z",
+      "checkedAt": "2026-08-03T04:38:12.992Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,

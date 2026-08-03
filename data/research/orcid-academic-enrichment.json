@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
   "provider": "ORCID",
-  "generatedAt": "2026-07-30T14:37:24.720Z",
-  "fetchedAt": "2026-07-10T11:20:57.766Z",
+  "generatedAt": "2026-08-03T04:38:49.596Z",
+  "fetchedAt": "2026-07-10T11:20:58.677Z",
   "scopeNoteZh": "成果由作者 ORCID 公开记录与 Crossref 中带同一 ORCID 的 DOI 元数据合并，通常仍是论文量下界，不等同于完整论文总数。",
   "profiles": [
     {
@@ -103681,6 +103681,411 @@
       ]
     },
     {
+      "internalId": "sustech-shangzhi-zeng",
+      "sourceKind": "person",
+      "sourceKinds": [
+        "person"
+      ],
+      "sourceRecordIds": {
+        "labs": [],
+        "people": [
+          "sustech-shangzhi-zeng"
+        ]
+      },
+      "name": "Shangzhi Zeng",
+      "fetchedAt": "2026-07-10T11:20:58.677Z",
+      "resolution": {
+        "method": "explicit_orcid",
+        "status": "confirmed",
+        "confidence": "exact_orcid_and_name",
+        "reason": "The tracked record supplied an ORCID and the public ORCID name matches."
+      },
+      "author": {
+        "orcid": "0000-0002-6950-7825",
+        "orcidUrl": "https://orcid.org/0000-0002-6950-7825",
+        "displayName": "Shangzhi Zeng"
+      },
+      "metrics": {
+        "worksCount": 12,
+        "recentWorksCount": 6,
+        "citedByCount": null,
+        "hIndex": null,
+        "recent5Years": {
+          "fromYear": 2022,
+          "toYear": 2026,
+          "worksCount": 6,
+          "yearly": [
+            {
+              "year": 2022,
+              "worksCount": 1
+            },
+            {
+              "year": 2023,
+              "worksCount": 2
+            },
+            {
+              "year": 2024,
+              "worksCount": 0
+            },
+            {
+              "year": 2025,
+              "worksCount": 1
+            },
+            {
+              "year": 2026,
+              "worksCount": 2
+            }
+          ]
+        },
+        "countLabelZh": "ORCID / Crossref 关联成果记录",
+        "countCaveatZh": "合并作者 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据；去重后的记录通常仍是论文量下界。",
+        "sourceCounts": {
+          "orcidRecordCount": 12,
+          "crossrefOrcidWorksCount": 5,
+          "mergedRecordCount": 12,
+          "checkedAt": "2026-07-10T11:20:58.677Z"
+        }
+      },
+      "works": [
+        {
+          "title": "Augmenting Iterative Trajectory for Bilevel Optimization: Methodology, Analysis and Extensions",
+          "publicationYear": 2026,
+          "publicationDate": "2026-04",
+          "type": "journal-article",
+          "doi": "https://doi.org/10.1109/TPAMI.2025.3644443",
+          "url": "https://doi.org/10.1109/TPAMI.2025.3644443",
+          "source": {
+            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+          },
+          "citedByCount": null,
+          "selectionReason": "recent",
+          "selectionReasons": [
+            "recent_crossref_orcid",
+            "recent"
+          ],
+          "isRecent": true,
+          "orcidPutCode": 207655413
+        },
+        {
+          "title": "Moreau Envelope-Based Difference of Weakly Convex Reformulation and Algorithm for Bilevel Programs",
+          "publicationYear": 2026,
+          "publicationDate": "2026-06-27",
+          "type": "journal-article",
+          "doi": "https://doi.org/10.1007/s40305-026-00706-3",
+          "url": "https://doi.org/10.1007/s40305-026-00706-3",
+          "source": {
+            "displayName": "Journal of the Operations Research Society of China"
+          },
+          "citedByCount": null,
+          "selectionReason": "recent",
+          "selectionReasons": [
+            "recent_crossref_orcid",
+            "recent"
+          ],
+          "isRecent": true,
+          "orcidPutCode": 218921687
+        },
+        {
+          "title": "Optimality conditions for bilevel programmes via Moreau envelope reformulation*",
+          "publicationYear": 2025,
+          "publicationDate": "2025-09-10",
+          "type": "journal-article",
+          "doi": "https://doi.org/10.1080/02331934.2024.2358086",
+          "url": "https://doi.org/10.1080/02331934.2024.2358086",
+          "source": {
+            "displayName": "Optimization"
+          },
+          "citedByCount": null,
+          "selectionReason": "recent",
+          "selectionReasons": [
+            "recent_crossref_orcid",
+            "recent"
+          ],
+          "isRecent": true,
+          "orcidPutCode": 160384765
+        },
+        {
+          "title": "Hierarchical Optimization-Derived Learning",
+          "publicationYear": 2023,
+          "publicationDate": "2023",
+          "type": "journal-article",
+          "doi": "https://doi.org/10.1109/TPAMI.2023.3315333",
+          "url": "https://doi.org/10.1109/TPAMI.2023.3315333",
+          "source": {
+            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+          },
+          "citedByCount": null,
+          "selectionReason": "recent",
+          "selectionReasons": [
+            "recent_crossref_orcid",
+            "recent"
+          ],
+          "isRecent": true,
+          "orcidPutCode": 142379019
+        },
+        {
+          "title": "Value-Function-Based Sequential Minimization for Bi-Level Optimization",
+          "publicationYear": 2023,
+          "publicationDate": "2023-12",
+          "type": "journal-article",
+          "doi": "https://doi.org/10.1109/TPAMI.2023.3303227",
+          "url": "https://doi.org/10.1109/TPAMI.2023.3303227",
+          "source": {
+            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+          },
+          "citedByCount": null,
+          "selectionReason": "recent",
+          "selectionReasons": [
+            "recent_crossref_orcid",
+            "recent"
+          ],
+          "isRecent": true,
+          "orcidPutCode": 145909887
+        },
+        {
+          "orcidPutCode": 107036438,
+          "title": "A General Descent Aggregation Framework for Gradient-based Bi-level Optimization",
+          "publicationYear": 2022,
+          "publicationDate": "2022",
+          "type": "journal-article",
+          "doi": "https://doi.org/10.1109/TPAMI.2022.3140249",
+          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85122582445&partnerID=MN8TOARS",
+          "source": {
+            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+          },
+          "citedByCount": null,
+          "selectionReason": "recent",
+          "selectionReasons": [
+            "recent"
+          ],
+          "isRecent": true
+        },
+        {
+          "orcidPutCode": 94525756,
+          "title": "Perturbation Techniques for Convergence Analysis of Proximal Gradient Method and Other First-Order Algorithms via Variational Analysis",
+          "publicationYear": 2021,
+          "publicationDate": "2021",
+          "type": "journal-article",
+          "doi": "https://doi.org/10.1007/s11228-020-00570-0",
+          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85099909900&partnerID=MN8TOARS",
+          "source": {
+            "displayName": "Set-Valued and Variational Analysis"
+          },
+          "citedByCount": null,
+          "selectionReason": "career_record",
+          "selectionReasons": [
+            "career_record"
+          ],
+          "isRecent": false
+        },
+        {
+          "orcidPutCode": 107036437,
+          "title": "Variational Analysis Perspective on Linear Convergence of Some First Order Methods for Nonsmooth Convex Optimization Problems",
+          "publicationYear": 2021,
+          "publicationDate": "2021",
+          "type": "journal-article",
+          "doi": "https://doi.org/10.1007/s11228-021-00591-3",
+          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85109006557&partnerID=MN8TOARS",
+          "source": {
+            "displayName": "Set-Valued and Variational Analysis"
+          },
+          "citedByCount": null,
+          "selectionReason": "career_record",
+          "selectionReasons": [
+            "career_record"
+          ],
+          "isRecent": false
+        },
+        {
+          "orcidPutCode": 94525755,
+          "title": "A generic first-order algorithmic framework for bi-level programming beyond lower-level singleton",
+          "publicationYear": 2020,
+          "publicationDate": "2020",
+          "type": "conference-paper",
+          "doi": null,
+          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85105227421&partnerID=MN8TOARS",
+          "source": {
+            "displayName": "37th International Conference on Machine Learning, ICML 2020"
+          },
+          "citedByCount": null,
+          "selectionReason": "career_record",
+          "selectionReasons": [
+            "career_record"
+          ],
+          "isRecent": false
+        },
+        {
+          "orcidPutCode": 77336151,
+          "title": "Discerning the linear convergence of ADMM for structured convex optimization through the lens of variational analysis",
+          "publicationYear": 2020,
+          "publicationDate": "2020",
+          "type": "journal-article",
+          "doi": null,
+          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85087198884&partnerID=MN8TOARS",
+          "source": {
+            "displayName": "Journal of Machine Learning Research"
+          },
+          "citedByCount": null,
+          "selectionReason": "career_record",
+          "selectionReasons": [
+            "career_record"
+          ],
+          "isRecent": false
+        },
+        {
+          "orcidPutCode": 63142182,
+          "title": "Partial error bound conditions and the linear convergence rate of the alternating direction method of multipliers",
+          "publicationYear": 2018,
+          "publicationDate": "2018",
+          "type": "journal-article",
+          "doi": "https://doi.org/10.1137/17M1144623",
+          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85053517449&partnerID=MN8TOARS",
+          "source": {
+            "displayName": "SIAM Journal on Numerical Analysis"
+          },
+          "citedByCount": null,
+          "selectionReason": "career_record",
+          "selectionReasons": [
+            "career_record"
+          ],
+          "isRecent": false
+        },
+        {
+          "orcidPutCode": 63142181,
+          "title": "Primal–dual hybrid gradient method for distributionally robust optimization problems",
+          "publicationYear": 2017,
+          "publicationDate": "2017",
+          "type": "journal-article",
+          "doi": "https://doi.org/10.1016/j.orl.2017.10.001",
+          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85032192162&partnerID=MN8TOARS",
+          "source": {
+            "displayName": "Operations Research Letters"
+          },
+          "citedByCount": null,
+          "selectionReason": "career_record",
+          "selectionReasons": [
+            "career_record"
+          ],
+          "isRecent": false
+        }
+      ],
+      "conceptTrends": [
+        {
+          "displayName": "Machine learning optimization",
+          "worksCount": 1,
+          "citedByCount": null,
+          "shareOfWorks": 0.167,
+          "trend": "stable_or_low",
+          "yearly": [
+            {
+              "year": 2022,
+              "worksCount": 0
+            },
+            {
+              "year": 2023,
+              "worksCount": 1
+            },
+            {
+              "year": 2024,
+              "worksCount": 0
+            },
+            {
+              "year": 2025,
+              "worksCount": 0
+            },
+            {
+              "year": 2026,
+              "worksCount": 0
+            }
+          ]
+        },
+        {
+          "displayName": "Queueing, service, and stochastic systems",
+          "worksCount": 1,
+          "citedByCount": null,
+          "shareOfWorks": 0.167,
+          "trend": "stable_or_low",
+          "yearly": [
+            {
+              "year": 2022,
+              "worksCount": 0
+            },
+            {
+              "year": 2023,
+              "worksCount": 1
+            },
+            {
+              "year": 2024,
+              "worksCount": 0
+            },
+            {
+              "year": 2025,
+              "worksCount": 0
+            },
+            {
+              "year": 2026,
+              "worksCount": 0
+            }
+          ]
+        },
+        {
+          "displayName": "Algorithms and complexity",
+          "worksCount": 2,
+          "citedByCount": null,
+          "shareOfWorks": 0.333,
+          "trend": "rising_or_active",
+          "yearly": [
+            {
+              "year": 2022,
+              "worksCount": 1
+            },
+            {
+              "year": 2023,
+              "worksCount": 0
+            },
+            {
+              "year": 2024,
+              "worksCount": 0
+            },
+            {
+              "year": 2025,
+              "worksCount": 0
+            },
+            {
+              "year": 2026,
+              "worksCount": 1
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "type": "phd",
+          "degree": "Doctor of Philosophy",
+          "institution": "The University of Hong Kong",
+          "department": "Department of Mathematics",
+          "startYear": "2018",
+          "endYear": "2021"
+        },
+        {
+          "type": "phd",
+          "degree": "Master of Philosophy",
+          "institution": "Hong Kong Baptist University",
+          "department": "Department of Mathematics",
+          "startYear": "2015",
+          "endYear": "2017"
+        },
+        {
+          "type": "phd",
+          "degree": "Bachelor of Science",
+          "institution": "Wuhan University",
+          "department": "School of Mathematics and Statistics",
+          "startYear": "2011",
+          "endYear": "2015"
+        }
+      ]
+    },
+    {
       "internalId": "pku-kun-yuan",
       "sourceKind": "person",
       "sourceKinds": [
@@ -105211,411 +105616,6 @@
           "department": "Scientific Computing and Imaging Institute",
           "startYear": "2016",
           "endYear": "2016"
-        }
-      ]
-    },
-    {
-      "internalId": "sustech-shangzhi-zeng",
-      "sourceKind": "person",
-      "sourceKinds": [
-        "person"
-      ],
-      "sourceRecordIds": {
-        "labs": [],
-        "people": [
-          "sustech-shangzhi-zeng"
-        ]
-      },
-      "name": "Shangzhi Zeng",
-      "fetchedAt": "2026-07-10T11:20:58.677Z",
-      "resolution": {
-        "method": "explicit_orcid",
-        "status": "confirmed",
-        "confidence": "exact_orcid_and_name",
-        "reason": "The tracked record supplied an ORCID and the public ORCID name matches."
-      },
-      "author": {
-        "orcid": "0000-0002-6950-7825",
-        "orcidUrl": "https://orcid.org/0000-0002-6950-7825",
-        "displayName": "Shangzhi Zeng"
-      },
-      "metrics": {
-        "worksCount": 12,
-        "recentWorksCount": 6,
-        "citedByCount": null,
-        "hIndex": null,
-        "recent5Years": {
-          "fromYear": 2022,
-          "toYear": 2026,
-          "worksCount": 6,
-          "yearly": [
-            {
-              "year": 2022,
-              "worksCount": 1
-            },
-            {
-              "year": 2023,
-              "worksCount": 2
-            },
-            {
-              "year": 2024,
-              "worksCount": 0
-            },
-            {
-              "year": 2025,
-              "worksCount": 1
-            },
-            {
-              "year": 2026,
-              "worksCount": 2
-            }
-          ]
-        },
-        "countLabelZh": "ORCID / Crossref 关联成果记录",
-        "countCaveatZh": "合并作者 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据；去重后的记录通常仍是论文量下界。",
-        "sourceCounts": {
-          "orcidRecordCount": 12,
-          "crossrefOrcidWorksCount": 5,
-          "mergedRecordCount": 12,
-          "checkedAt": "2026-07-10T11:20:58.677Z"
-        }
-      },
-      "works": [
-        {
-          "title": "Augmenting Iterative Trajectory for Bilevel Optimization: Methodology, Analysis and Extensions",
-          "publicationYear": 2026,
-          "publicationDate": "2026-04",
-          "type": "journal-article",
-          "doi": "https://doi.org/10.1109/TPAMI.2025.3644443",
-          "url": "https://doi.org/10.1109/TPAMI.2025.3644443",
-          "source": {
-            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-          },
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent_crossref_orcid",
-            "recent"
-          ],
-          "isRecent": true,
-          "orcidPutCode": 207655413
-        },
-        {
-          "title": "Moreau Envelope-Based Difference of Weakly Convex Reformulation and Algorithm for Bilevel Programs",
-          "publicationYear": 2026,
-          "publicationDate": "2026-06-27",
-          "type": "journal-article",
-          "doi": "https://doi.org/10.1007/s40305-026-00706-3",
-          "url": "https://doi.org/10.1007/s40305-026-00706-3",
-          "source": {
-            "displayName": "Journal of the Operations Research Society of China"
-          },
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent_crossref_orcid",
-            "recent"
-          ],
-          "isRecent": true,
-          "orcidPutCode": 218921687
-        },
-        {
-          "title": "Optimality conditions for bilevel programmes via Moreau envelope reformulation*",
-          "publicationYear": 2025,
-          "publicationDate": "2025-09-10",
-          "type": "journal-article",
-          "doi": "https://doi.org/10.1080/02331934.2024.2358086",
-          "url": "https://doi.org/10.1080/02331934.2024.2358086",
-          "source": {
-            "displayName": "Optimization"
-          },
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent_crossref_orcid",
-            "recent"
-          ],
-          "isRecent": true,
-          "orcidPutCode": 160384765
-        },
-        {
-          "title": "Hierarchical Optimization-Derived Learning",
-          "publicationYear": 2023,
-          "publicationDate": "2023",
-          "type": "journal-article",
-          "doi": "https://doi.org/10.1109/TPAMI.2023.3315333",
-          "url": "https://doi.org/10.1109/TPAMI.2023.3315333",
-          "source": {
-            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-          },
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent_crossref_orcid",
-            "recent"
-          ],
-          "isRecent": true,
-          "orcidPutCode": 142379019
-        },
-        {
-          "title": "Value-Function-Based Sequential Minimization for Bi-Level Optimization",
-          "publicationYear": 2023,
-          "publicationDate": "2023-12",
-          "type": "journal-article",
-          "doi": "https://doi.org/10.1109/TPAMI.2023.3303227",
-          "url": "https://doi.org/10.1109/TPAMI.2023.3303227",
-          "source": {
-            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-          },
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent_crossref_orcid",
-            "recent"
-          ],
-          "isRecent": true,
-          "orcidPutCode": 145909887
-        },
-        {
-          "orcidPutCode": 107036438,
-          "title": "A General Descent Aggregation Framework for Gradient-based Bi-level Optimization",
-          "publicationYear": 2022,
-          "publicationDate": "2022",
-          "type": "journal-article",
-          "doi": "https://doi.org/10.1109/TPAMI.2022.3140249",
-          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85122582445&partnerID=MN8TOARS",
-          "source": {
-            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-          },
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent"
-          ],
-          "isRecent": true
-        },
-        {
-          "orcidPutCode": 94525756,
-          "title": "Perturbation Techniques for Convergence Analysis of Proximal Gradient Method and Other First-Order Algorithms via Variational Analysis",
-          "publicationYear": 2021,
-          "publicationDate": "2021",
-          "type": "journal-article",
-          "doi": "https://doi.org/10.1007/s11228-020-00570-0",
-          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85099909900&partnerID=MN8TOARS",
-          "source": {
-            "displayName": "Set-Valued and Variational Analysis"
-          },
-          "citedByCount": null,
-          "selectionReason": "career_record",
-          "selectionReasons": [
-            "career_record"
-          ],
-          "isRecent": false
-        },
-        {
-          "orcidPutCode": 107036437,
-          "title": "Variational Analysis Perspective on Linear Convergence of Some First Order Methods for Nonsmooth Convex Optimization Problems",
-          "publicationYear": 2021,
-          "publicationDate": "2021",
-          "type": "journal-article",
-          "doi": "https://doi.org/10.1007/s11228-021-00591-3",
-          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85109006557&partnerID=MN8TOARS",
-          "source": {
-            "displayName": "Set-Valued and Variational Analysis"
-          },
-          "citedByCount": null,
-          "selectionReason": "career_record",
-          "selectionReasons": [
-            "career_record"
-          ],
-          "isRecent": false
-        },
-        {
-          "orcidPutCode": 94525755,
-          "title": "A generic first-order algorithmic framework for bi-level programming beyond lower-level singleton",
-          "publicationYear": 2020,
-          "publicationDate": "2020",
-          "type": "conference-paper",
-          "doi": null,
-          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85105227421&partnerID=MN8TOARS",
-          "source": {
-            "displayName": "37th International Conference on Machine Learning, ICML 2020"
-          },
-          "citedByCount": null,
-          "selectionReason": "career_record",
-          "selectionReasons": [
-            "career_record"
-          ],
-          "isRecent": false
-        },
-        {
-          "orcidPutCode": 77336151,
-          "title": "Discerning the linear convergence of ADMM for structured convex optimization through the lens of variational analysis",
-          "publicationYear": 2020,
-          "publicationDate": "2020",
-          "type": "journal-article",
-          "doi": null,
-          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85087198884&partnerID=MN8TOARS",
-          "source": {
-            "displayName": "Journal of Machine Learning Research"
-          },
-          "citedByCount": null,
-          "selectionReason": "career_record",
-          "selectionReasons": [
-            "career_record"
-          ],
-          "isRecent": false
-        },
-        {
-          "orcidPutCode": 63142182,
-          "title": "Partial error bound conditions and the linear convergence rate of the alternating direction method of multipliers",
-          "publicationYear": 2018,
-          "publicationDate": "2018",
-          "type": "journal-article",
-          "doi": "https://doi.org/10.1137/17M1144623",
-          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85053517449&partnerID=MN8TOARS",
-          "source": {
-            "displayName": "SIAM Journal on Numerical Analysis"
-          },
-          "citedByCount": null,
-          "selectionReason": "career_record",
-          "selectionReasons": [
-            "career_record"
-          ],
-          "isRecent": false
-        },
-        {
-          "orcidPutCode": 63142181,
-          "title": "Primal–dual hybrid gradient method for distributionally robust optimization problems",
-          "publicationYear": 2017,
-          "publicationDate": "2017",
-          "type": "journal-article",
-          "doi": "https://doi.org/10.1016/j.orl.2017.10.001",
-          "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85032192162&partnerID=MN8TOARS",
-          "source": {
-            "displayName": "Operations Research Letters"
-          },
-          "citedByCount": null,
-          "selectionReason": "career_record",
-          "selectionReasons": [
-            "career_record"
-          ],
-          "isRecent": false
-        }
-      ],
-      "conceptTrends": [
-        {
-          "displayName": "Machine learning optimization",
-          "worksCount": 1,
-          "citedByCount": null,
-          "shareOfWorks": 0.167,
-          "trend": "stable_or_low",
-          "yearly": [
-            {
-              "year": 2022,
-              "worksCount": 0
-            },
-            {
-              "year": 2023,
-              "worksCount": 1
-            },
-            {
-              "year": 2024,
-              "worksCount": 0
-            },
-            {
-              "year": 2025,
-              "worksCount": 0
-            },
-            {
-              "year": 2026,
-              "worksCount": 0
-            }
-          ]
-        },
-        {
-          "displayName": "Queueing, service, and stochastic systems",
-          "worksCount": 1,
-          "citedByCount": null,
-          "shareOfWorks": 0.167,
-          "trend": "stable_or_low",
-          "yearly": [
-            {
-              "year": 2022,
-              "worksCount": 0
-            },
-            {
-              "year": 2023,
-              "worksCount": 1
-            },
-            {
-              "year": 2024,
-              "worksCount": 0
-            },
-            {
-              "year": 2025,
-              "worksCount": 0
-            },
-            {
-              "year": 2026,
-              "worksCount": 0
-            }
-          ]
-        },
-        {
-          "displayName": "Algorithms and complexity",
-          "worksCount": 2,
-          "citedByCount": null,
-          "shareOfWorks": 0.333,
-          "trend": "rising_or_active",
-          "yearly": [
-            {
-              "year": 2022,
-              "worksCount": 1
-            },
-            {
-              "year": 2023,
-              "worksCount": 0
-            },
-            {
-              "year": 2024,
-              "worksCount": 0
-            },
-            {
-              "year": 2025,
-              "worksCount": 0
-            },
-            {
-              "year": 2026,
-              "worksCount": 1
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "type": "phd",
-          "degree": "Doctor of Philosophy",
-          "institution": "The University of Hong Kong",
-          "department": "Department of Mathematics",
-          "startYear": "2018",
-          "endYear": "2021"
-        },
-        {
-          "type": "phd",
-          "degree": "Master of Philosophy",
-          "institution": "Hong Kong Baptist University",
-          "department": "Department of Mathematics",
-          "startYear": "2015",
-          "endYear": "2017"
-        },
-        {
-          "type": "phd",
-          "degree": "Bachelor of Science",
-          "institution": "Wuhan University",
-          "department": "School of Mathematics and Statistics",
-          "startYear": "2011",
-          "endYear": "2015"
         }
       ]
     }
