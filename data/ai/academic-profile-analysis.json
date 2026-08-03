@@ -342,5 +342,139 @@
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
     ]
+  },
+  "cuhk-changhong-zhao": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-03T04:39:18.453Z",
+    "profileFingerprint": "95ddc650bdebc79eed226b146d9bb39d12d34e16a3f7ee6aa7c410bb38c141cb",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "研究主线为大规模优化、非线性潮流、控制与网络优化的交叉，聚焦电力与能源系统的分布式、数据驱动及鲁棒优化方法，并探索机器学习在电力系统中的应用。",
+    "methods": [
+      "optimal-control methods",
+      "mathematical optimization",
+      "large-scale optimization",
+      "nonlinear power flow",
+      "control",
+      "network optimization",
+      "ML for power systems"
+    ],
+    "applications": [
+      "energy and power systems",
+      "control and dynamical systems",
+      "networked and distributed systems"
+    ],
+    "careerPatternZh": "现任香港中文大学副教授，2016年获得博士学位（Caltech PhD），曾获RGC Early Career Award。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "hkust-wei-you": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-03T04:39:18.453Z",
+    "profileFingerprint": "107cb0f003c948996ac79ae365005a93213de9010b8cc84cdd973e6cd9f29cef",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "哥伦比亚大学OR博士；研究聚焦鲁棒排队、应用概率、随机优化与序贯分析，涵盖服务系统与决策优化。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "博士毕业于哥伦比亚大学IEOR；现任香港科技大学助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "hkust-jiashuo-jiang": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-03T04:39:18.453Z",
+    "profileFingerprint": "06a0096f94a672c0123e01e756ca1fb3122fd37c6f18d1048e05f9b0095b7403",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Jiashuo Jiang 的研究聚焦于随机优化、在线优化、收益管理、库存管理和机制设计，尤其关注 prophet inequalities、网络收益管理、库存系统与在线随机优化的理论保证。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "game-theoretic methods",
+      "online optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "logistics, transportation, and operations",
+      "markets and strategic decision-making"
+    ],
+    "careerPatternZh": "公开信息显示其当前为香港科技大学助理教授，并于2022年获得博士学位。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "hkust-nian-si": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-03T04:39:18.453Z",
+    "profileFingerprint": "94c8f02beead8cf09f17de0b79d331b66d931d3bd3627a514eab1c49c8f89dca",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Nian Si 的研究主线集中在分布鲁棒优化、随机控制、应用概率、鲁棒强化学习与仿真方法。其工作涵盖高维反射布朗运动的漂移控制、奇异控制的计算方法、分布鲁棒 Q 学习的样本复杂度、分布鲁棒批量上下文赌博机、Wasserstein 分布鲁棒估计的置信区域，以及高维随机网络的稳态仿真。",
+    "methods": [
+      "distributionally robust optimization",
+      "stochastic control",
+      "applied probability",
+      "robust reinforcement learning",
+      "simulation",
+      "neural network based computational methods",
+      "optimal control"
+    ],
+    "applications": [
+      "queueing systems",
+      "advertising recommendation systems",
+      "control and dynamical systems",
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "Nian Si 于 2017 年至 2023 年在斯坦福大学管理科学与工程系攻读博士学位，2022 年起在芝加哥大学布斯商学院运营管理系担任博士后，现为香港科技大学工业工程与决策分析系助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "hkust-yiding-feng": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-03T04:39:18.453Z",
+    "profileFingerprint": "dfffa33ed6bca3e5b3d0f5dc114e2ac4cf256d4a7cf03ef1e41d978fcb05c512",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "研究主线集中在在线优化、机制设计、随机匹配、在线学习与运筹学的交叉领域，尤其关注市场与战略决策中的算法设计问题。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "game-theoretic methods",
+      "online optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "markets and strategic decision-making",
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "2012-2016年就读于上海交通大学致远学院获学士学位；2016-2021年在西北大学计算机科学系攻读博士学位；2021-2023年在微软研究院新英格兰担任博士后研究员；2023-2024年在芝加哥大学布斯商学院担任博士后首席研究员；2024年起任香港科技大学工业工程与决策分析系助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "cityu-menglong-li": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-03T04:39:18.453Z",
+    "profileFingerprint": "867798957253dc81822015688b326eadaa8dc7288f246516035ac294d117e14c",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "研究主线聚焦离散凸分析（discrete convex analysis）及其在运营管理中的应用，包括库存管理、收益管理和数据驱动决策。其工作结合随机优化与鲁棒优化，并探索机器学习与优化的交叉。代表成果包括半开环策略在随机提前期库存模型中的渐近最优性、S-凸性与总替代性、M♮-凸性及其在运营中的应用，以及离散凸分析综述。",
+    "methods": [
+      "discrete and mixed-integer optimization",
+      "mathematical optimization",
+      "stochastic and robust optimization",
+      "machine learning optimization"
+    ],
+    "applications": [
+      "logistics, transportation, and operations",
+      "decision-making and operations",
+      "inventory management",
+      "revenue management"
+    ],
+    "careerPatternZh": "教育背景：2010-2014年清华大学数学科学学士；2014-2015年巴黎第六大学数学硕士；2016-2020年伊利诺伊大学厄巴纳-香槟分校工业与企业系统工程博士。职业经历：2021年任麻省理工学院数据、系统与社会研究所博士后；现任香港城市大学助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
   }
 }
