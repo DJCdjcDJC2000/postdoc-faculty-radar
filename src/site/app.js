@@ -153,6 +153,7 @@ await init();
 async function init() {
   state.data = await fetchJson("./data/site.json", fallbackData());
   state.fundingWorkspace = loadFundingWorkspace();
+  state.peopleView = "cards";
   renderShell();
   renderAll();
   bindGlobalEvents();
@@ -172,7 +173,10 @@ async function fetchJson(url, fallback) {
 function renderShell() {
   const nav = state.data.copy?.navigation ?? [];
   els.nav.innerHTML = nav.map((item) => `
-    <a href="#${escapeAttr(item.id)}" class="nav-link" data-view="${escapeAttr(item.id)}">${escapeHtml(item.label)}</a>
+    <a href="#${escapeAttr(item.id)}" class="nav-link" data-view="${escapeAttr(item.id)}">
+      <span class="nav-icon nav-icon-${escapeAttr(item.id)}" aria-hidden="true"></span>
+      <span class="nav-label">${escapeHtml(item.label)}</span>
+    </a>
   `).join("");
   els.modePill.textContent = state.data.mode === "private" ? "个人版" : "公开版";
 }
@@ -1172,50 +1176,38 @@ function renderRadar() {
       <h1>机会雷达</h1>
       <p>常驻筛选用于日常浏览，高级筛选用于深度比较。点击任意岗位可查看匹配分析、申请信息和来源记录。</p>
     </section>
-    <section class="filter-band">
-      ${filterInput("search", "搜索", "optimization, HKUST, Postdoc")}
-      ${filterSelect("region", "地区", optionsFrom(state.data.jobs, "region"))}
-      ${filterSelect("roleType", "岗位类型", optionsFrom(state.data.jobs, "roleType", "roleLabelZh"))}
-      ${filterSelect("topic", "研究方向", keywordOptions())}
-      ${filterSelect("priority", "匹配度", ["A", "B", "C", "D"].map((v) => [v, v]))}
-      ${filterSelect("freshness", "更新状态", [["new", "本周新增"], ["updated", "本周更新"], ["active", "当前有效"], ["expired", "已失效/已截止"]])}
-      ${filterSelect("deadline", "截止日期", [["30", "30 天内"], ["90", "90 天内"], ["none", "长期/未知"]])}
-      ${filterSelect("stage", "申请阶段", stageOptions())}
-      <details class="advanced-filters">
-        <summary>高级筛选</summary>
-        <div class="advanced-grid">
-          ${filterInput("country", "国家/城市", "Netherlands / Hong Kong / Singapore")}
-          ${filterSelect("sourceTrust", "来源可信度", optionsFrom(state.data.jobs, "trust", "sourceTrustLabelZh"))}
-          ${filterSelect("timeline2029", "2029 时间线", [["yes", "适合"], ["watch", "观察"], ["early", "偏早"]])}
-          ${filterSelect("hostRequired", "host/提名", [["yes", "需要"], ["no", "不需要"], ["unknown", "未知"]])}
-          ${filterSelect("funding", "薪资/资助", [["yes", "有信息"], ["unknown", "未知"]])}
-          ${filterSelect("visa", "国际申请/签证", [["yes", "支持"], ["unknown", "未知"]])}
-          ${filterSelect("teaching", "teaching 要求", [["yes", "需要"], ["no", "不需要"], ["unknown", "未知"]])}
-          ${filterSelect("orientation", "理论/算法/应用/工程", [["theory", "理论"], ["algorithm", "算法"], ["application", "应用"], ["engineering", "工程"]])}
+    <section class="radar-workspace">
+      <div class="radar-results">
+        <div class="radar-results-head">
+          <div><p class="eyebrow">Live opportunity stream</p><h2>当前机会</h2></div>
+          <span class="results-count" id="jobs-results-count"></span>
         </div>
-      </details>
-    </section>
-    <section class="table-section">
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>匹配度</th>
-              <th>岗位标题</th>
-              <th>机构</th>
-              <th>地区</th>
-              <th>类型</th>
-              <th>研究方向</th>
-              <th>截止日期</th>
-              <th>状态</th>
-              <th>申请阶段</th>
-              <th>来源可信度</th>
-              <th>操作</th>
-            </tr>
-          </thead>
-          <tbody id="jobs-table-body"></tbody>
-        </table>
+        <div class="radar-job-list" id="jobs-card-list"></div>
       </div>
+      <aside class="filter-band radar-filter-panel" aria-label="机会筛选">
+        <div class="filter-panel-heading"><div><p class="eyebrow">Refine your view</p><h2>筛选条件</h2></div><button class="filter-reset" type="button" data-radar-clear>清除</button></div>
+        ${filterInput("search", "关键词", "optimization, HKUST, Postdoc")}
+        ${filterSelect("region", "地区", optionsFrom(state.data.jobs, "region"))}
+        ${filterSelect("roleType", "岗位类型", optionsFrom(state.data.jobs, "roleType", "roleLabelZh"))}
+        ${filterSelect("topic", "研究方向", keywordOptions())}
+        ${filterSelect("priority", "匹配度", ["A", "B", "C", "D"].map((v) => [v, v]))}
+        ${filterSelect("freshness", "更新状态", [["new", "本周新增"], ["updated", "本周更新"], ["active", "当前有效"], ["expired", "已失效/已截止"]])}
+        ${filterSelect("deadline", "截止日期", [["30", "30 天内"], ["90", "90 天内"], ["none", "长期/未知"]])}
+        ${filterSelect("stage", "申请阶段", stageOptions())}
+        <details class="advanced-filters">
+          <summary>更多筛选</summary>
+          <div class="advanced-grid">
+            ${filterInput("country", "国家/城市", "Netherlands / Hong Kong / Singapore")}
+            ${filterSelect("sourceTrust", "来源可信度", optionsFrom(state.data.jobs, "trust", "sourceTrustLabelZh"))}
+            ${filterSelect("timeline2029", "2029 时间线", [["yes", "适合"], ["watch", "观察"], ["early", "偏早"]])}
+            ${filterSelect("hostRequired", "host/提名", [["yes", "需要"], ["no", "不需要"], ["unknown", "未知"]])}
+            ${filterSelect("funding", "薪资/资助", [["yes", "有信息"], ["unknown", "未知"]])}
+            ${filterSelect("visa", "国际申请/签证", [["yes", "支持"], ["unknown", "未知"]])}
+            ${filterSelect("teaching", "teaching 要求", [["yes", "需要"], ["no", "不需要"], ["unknown", "未知"]])}
+            ${filterSelect("orientation", "理论/算法/应用/工程", [["theory", "理论"], ["algorithm", "算法"], ["application", "应用"], ["engineering", "工程"]])}
+          </div>
+        </details>
+      </aside>
     </section>
   `;
 
@@ -1225,14 +1217,20 @@ function renderRadar() {
       renderRadarTable();
     });
   });
+  els.pages.radar.querySelector("[data-radar-clear]")?.addEventListener("click", () => {
+    Object.keys(state.radarFilters).forEach((key) => { state.radarFilters[key] = ""; });
+    renderRadar();
+  });
   renderRadarTable();
 }
 
 function renderRadarTable() {
-  const body = document.querySelector("#jobs-table-body");
+  const body = document.querySelector("#jobs-card-list");
   if (!body) return;
   const jobs = filteredJobs();
-  body.innerHTML = jobs.length ? jobs.map(jobRow).join("") : `<tr><td colspan="11">${emptyBlock("没有匹配当前筛选的机会")}</td></tr>`;
+  const count = document.querySelector("#jobs-results-count");
+  if (count) count.textContent = `${jobs.length} 个机会`;
+  body.innerHTML = jobs.length ? jobs.map(jobRow).join("") : emptyBlock("没有匹配当前筛选的机会");
 }
 
 function renderIndustry() {
@@ -3547,19 +3545,26 @@ function jobCard(job) {
 
 function jobRow(job) {
   return `
-    <tr>
-      <td>${scoreBadge(job)}</td>
-      <td><div class="title-with-status">${freshnessBadge(job)}<button class="row-title" data-job-id="${escapeAttr(job.id)}">${escapeHtml(job.title)}</button></div><div class="table-note">${escapeHtml(job.ai?.summaryZh || job.simpleReason || "")}</div></td>
-      <td>${escapeHtml(job.institution || job.sourceName || "")}</td>
-      <td>${escapeHtml(job.region || "")}</td>
-      <td>${escapeHtml(job.roleLabelZh || "")}</td>
-      <td>${tagList(job.matchedKeywords ?? job.keywords ?? [])}</td>
-      <td>${escapeHtml(job.deadline || (job.evergreen ? "长期关注" : "未知"))}</td>
-      <td>${lifecycleBadge(job)}</td>
-      <td>${escapeHtml(job.private?.myStage ?? (state.data.mode === "private" ? "未看" : "公开版不显示"))}</td>
-      <td><span class="trust-label">${escapeHtml(job.sourceTrustLabelZh || "")}</span></td>
-      <td><button class="tiny-button" data-job-id="${escapeAttr(job.id)}">详情</button></td>
-    </tr>
+    <article class="radar-job-card">
+      <div class="radar-job-card-top">
+        <div class="radar-job-badges">${scoreBadge(job)} ${freshnessBadge(job)} ${lifecycleBadge(job)}</div>
+        <span class="trust-label">${escapeHtml(job.sourceTrustLabelZh || "")}</span>
+      </div>
+      <div class="radar-job-card-main">
+        <div class="radar-job-card-copy">
+          <h3><button class="row-title" data-job-id="${escapeAttr(job.id)}">${escapeHtml(job.title)}</button></h3>
+          <p class="radar-job-institution">${escapeHtml(job.institution || job.sourceName || "")}</p>
+          <div class="meta-row"><span>${escapeHtml(job.region || "")}</span><span>${escapeHtml(job.roleLabelZh || "")}</span><span>截止 ${escapeHtml(job.deadline || (job.evergreen ? "长期关注" : "未知"))}</span></div>
+          <div class="tag-list">${tagList(job.matchedKeywords ?? job.keywords ?? [])}</div>
+          <p class="reason">${escapeHtml(job.ai?.summaryZh || job.simpleReason || "")}</p>
+        </div>
+        <div class="radar-job-card-score"><span>匹配度</span><strong>${Number(job.matchScore ?? 0)}%</strong><i><b style="width:${Math.max(4, Math.min(100, Number(job.matchScore ?? 0)))}%"></b></i></div>
+      </div>
+      <div class="radar-job-card-footer">
+        <span>申请阶段：${escapeHtml(job.private?.myStage ?? (state.data.mode === "private" ? "未看" : "公开版不显示"))}</span>
+        <button class="tiny-button primary" data-job-id="${escapeAttr(job.id)}">查看详情</button>
+      </div>
+    </article>
   `;
 }
 
