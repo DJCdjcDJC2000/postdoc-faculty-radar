@@ -4449,6 +4449,11 @@ main {
 .radar-filter-panel .filter-control,
 .radar-filter-panel .filter-control input,
 .radar-filter-panel .filter-control select { min-width: 0; max-width: 100%; }
+.radar-filter-panel .advanced-filters { min-width: 0; }
+.radar-filter-panel .advanced-grid {
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
 
 @media (max-width: 1180px) {
   .radar-workspace {
