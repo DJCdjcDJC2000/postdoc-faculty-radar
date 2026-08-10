@@ -388,8 +388,8 @@
   },
   "hkust-jiashuo-jiang": {
     "status": "deepseek",
-    "generatedAt": "2026-08-03T04:39:18.453Z",
-    "profileFingerprint": "06a0096f94a672c0123e01e756ca1fb3122fd37c6f18d1048e05f9b0095b7403",
+    "generatedAt": "2026-08-10T03:18:17.833Z",
+    "profileFingerprint": "617f9d77f6369488b3dd86e1a0ed51a118e6ce69fd7bd3bea69848343d912b3b",
     "notice": "AI 辅助归纳，需回到公开证据核验",
     "researchSummaryZh": "Jiashuo Jiang 的研究聚焦于随机优化、在线优化、收益管理、库存管理和机制设计，尤其关注 prophet inequalities、网络收益管理、库存系统与在线随机优化的理论保证。",
     "methods": [
@@ -402,7 +402,7 @@
       "logistics, transportation, and operations",
       "markets and strategic decision-making"
     ],
-    "careerPatternZh": "公开信息显示其当前为香港科技大学助理教授，并于2022年获得博士学位。",
+    "careerPatternZh": "现任香港科技大学助理教授，于2022年获得博士学位。",
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
     ]
@@ -456,8 +456,8 @@
   },
   "cityu-menglong-li": {
     "status": "deepseek",
-    "generatedAt": "2026-08-03T04:39:18.453Z",
-    "profileFingerprint": "867798957253dc81822015688b326eadaa8dc7288f246516035ac294d117e14c",
+    "generatedAt": "2026-08-10T03:18:17.833Z",
+    "profileFingerprint": "8f4190e97ed13043443d47dde0976960c8ad3cec6ef1c46751e79ec202ae58de",
     "notice": "AI 辅助归纳，需回到公开证据核验",
     "researchSummaryZh": "研究主线聚焦离散凸分析（discrete convex analysis）及其在运营管理中的应用，包括库存管理、收益管理和数据驱动决策。其工作结合随机优化与鲁棒优化，并探索机器学习与优化的交叉。代表成果包括半开环策略在随机提前期库存模型中的渐近最优性、S-凸性与总替代性、M♮-凸性及其在运营中的应用，以及离散凸分析综述。",
     "methods": [
@@ -472,7 +472,87 @@
       "inventory management",
       "revenue management"
     ],
-    "careerPatternZh": "教育背景：2010-2014年清华大学数学科学学士；2014-2015年巴黎第六大学数学硕士；2016-2020年伊利诺伊大学厄巴纳-香槟分校工业与企业系统工程博士。职业经历：2021年任麻省理工学院数据、系统与社会研究所博士后；现任香港城市大学助理教授。",
+    "careerPatternZh": "本科毕业于清华大学数学科学（2010-2014），硕士毕业于巴黎第六大学数学（2014-2015），博士毕业于伊利诺伊大学厄巴纳-香槟分校工业与企业系统工程（2016-2020）。2021年在麻省理工学院数据、系统与社会研究所担任博士后研究员，之后任职于香港城市大学，现为助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "cityu-hongyi-jiang": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-10T03:18:17.833Z",
+    "profileFingerprint": "8da18aef76a7ddc043944fdca29d5a274cd84c37abaff715016dcbfb6754b1f7",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "JHU 优化博士、Cornell 博后；NSFC/UGC 支持；MIP 理论与算法高度相关",
+    "methods": [
+      "discrete and mixed-integer optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science"
+    ],
+    "careerPatternZh": "2015-2017 在 Wake Forest University 攻读博士；2017-2018 转至 North Carolina State University；2018-2021 在 Johns Hopkins University 获得博士学位；2021 年起在 Cornell University 担任博士后研究助理；现任香港城市大学助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "polyu-man-chung-yue": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-10T03:18:17.833Z",
+    "profileFingerprint": "5c706fddffd016e5c75c646ac41ca14bf57365bd679da9258b69f362d59ed5f0",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Man-Chung Yue 的研究主线集中在连续优化、分布鲁棒优化（DRO）、非凸优化、流形优化及其在信号处理等领域的应用。其近期工作涵盖非光滑非凸优化、数值分析、运筹学与决策系统、算法与复杂性等方向，并涉及零阶优化、随机优化、矩阵不等式推广等主题。",
+    "methods": [
+      "distributionally robust optimization",
+      "Riemannian and manifold optimization",
+      "mathematical optimization",
+      "zeroth-order optimization",
+      "randomized algorithms"
+    ],
+    "applications": [
+      "signal processing",
+      "imaging",
+      "inverse problems",
+      "contextual decision-making",
+      "algorithmic recourse"
+    ],
+    "careerPatternZh": "2013-2017年在香港中文大学系统工程与工程管理系攻读博士学位；2017-2019年在帝国理工学院商学院任研究助理；2019-2022年在香港理工大学应用数学系任助理教授；2022年起在香港大学任职；现为香港理工大学副教授（职位信息中标注PhD 2017）。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "fr-inria-manu-upadhyaya": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-10T03:18:17.833Z",
+    "profileFingerprint": "4f1a09d6f458dd11573f9710a018f3bb4f1d4e263509856087bf6245465ef81f",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "博士阶段已在Mathematical Programming发表自动Lyapunov分析并开发AutoLyap；毕业后由Adrien Taylor与Aymeric Dieuleveut联合指导，路径与一阶优化、PEP和分裂算法高度相关。",
+    "methods": [
+      "variational-inequality and monotone-operator methods",
+      "first-order methods",
+      "mathematical optimization"
+    ],
+    "applications": [],
+    "careerPatternZh": "公开记录显示其当前为Inria Paris / École Normale Supérieure SIERRA团队博士后研究员，同时关联Lund University；2026年起在Inria Paris Centre的Sierra团队任博士后。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "de-unibw-alberto-de-marchi": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-10T03:18:17.833Z",
+    "profileFingerprint": "d2fc559157b87144f9e362dee72cac7a3140a366932d996c894241f63c854e5c",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "博士论文发展约束结构优化的增广Lagrangian与近端方法，并获2022 COAP Best Paper Prize；近期覆盖非光滑非凸、混合整数和互补约束算法。",
+    "methods": [
+      "nonsmooth and variational analysis",
+      "discrete and mixed-integer optimization",
+      "optimal-control methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "control and dynamical systems"
+    ],
+    "careerPatternZh": "2011-2014年于特伦托大学获工业工程学士，2014-2016年获机电一体化工程硕士；2017年起在慕尼黑联邦国防军大学担任研究职位，2017-2021年完成博士（Dr. rer. nat），现为该校博士后研究员。",
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
     ]

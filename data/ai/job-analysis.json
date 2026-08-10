@@ -2475,5 +2475,58 @@
     "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
     "nextStepZh": "建议访问UCL官网或jobs.ac.uk页面获取详细职位描述和申请要求，并关注申请截止日期。",
     "depth": "shallow"
+  },
+  "5018943d88e95414": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-10T03:18:10.808Z",
+    "jobFingerprint": "B|71|Europe · 博后 · reinforcement learning / AI|core|reinforcement learning|AI",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "该岗位为马克斯·普朗克人类发展研究所人类与机器中心（CHM）提供的博士后研究员职位，研究方向为社会强化学习与人机混合系统。工作地点位于德国柏林，合同期限至2026年8月27日。该中心致力于跨学科研究，以理解、预测和塑造人工智能对人类思维、学习、工作、娱乐和合作方式的影响。",
+    "tagsZh": [
+      "博士后",
+      "社会强化学习",
+      "人机混合系统",
+      "人工智能",
+      "跨学科",
+      "德国"
+    ],
+    "positiveZh": [
+      "研究主题前沿，涉及AI与社会学习交叉领域",
+      "跨学科环境，有利于学术交流",
+      "知名研究机构，平台资源丰富"
+    ],
+    "negativeZh": [
+      "岗位描述信息有限，具体职责和申请要求不明确",
+      "工作地点在欧洲，可能涉及跨国搬迁"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "建议访问EURAXESS官网或马克斯·普朗克人类发展研究所网站，获取完整职位描述和申请要求，并准备相关申请材料。",
+    "depth": "浅层"
+  },
+  "f7ebb30dacf6165a": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-10T03:18:10.808Z",
+    "jobFingerprint": "C|50|United Kingdom · Research Fellow · applied mathematics|core|applied mathematics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "该岗位为剑桥大学应用数学与理论物理系招聘的固定期限研究助理，位于英国剑桥，年薪范围37,694至46,049英镑。岗位发布于2024年8月3日，未明确截止日期。",
+    "tagsZh": [
+      "研究助理",
+      "应用数学",
+      "剑桥大学",
+      "英国",
+      "固定期限"
+    ],
+    "positiveZh": [
+      "知名学府",
+      "薪资明确",
+      "专业对口"
+    ],
+    "negativeZh": [
+      "未提供截止日期",
+      "岗位信息有限"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "访问jobs.ac.uk查看完整职位描述和申请要求。",
+    "depth": "public"
   }
 }
