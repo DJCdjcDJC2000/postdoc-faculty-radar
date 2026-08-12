@@ -50,12 +50,12 @@
     }
   },
   "metadata": {
-    "generatedAt": "2026-08-11T03:10:17.854Z",
+    "generatedAt": "2026-08-12T03:28:47.682Z",
     "offline": false,
     "jobCount": 20,
     "alertCount": 3,
     "sourceCount": 20,
-    "builtAt": "2026-08-11T03:10:37.198Z",
+    "builtAt": "2026-08-12T03:29:12.904Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -126,7 +126,7 @@
       "trust": "lead",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-08-11T03:10:17.854Z",
+      "createdAt": "2026-08-12T03:28:47.682Z",
       "id": "c4f0adb87a8dfd89",
       "matchScore": 100,
       "priority": "A",
@@ -147,11 +147,11 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "线索待核验",
       "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-      "updatedAt": "2026-08-11T03:10:17.854Z",
+      "updatedAt": "2026-08-12T03:28:47.682Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-11T03:10:17.854Z",
+      "lastSeenAt": "2026-08-12T03:28:47.682Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -200,7 +200,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-08-11T03:10:17.854Z",
+      "createdAt": "2026-08-12T03:28:47.682Z",
       "id": "1411a9a5c5c5768d",
       "matchScore": 74,
       "priority": "B",
@@ -213,11 +213,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-      "updatedAt": "2026-08-11T03:10:17.854Z",
+      "updatedAt": "2026-08-12T03:28:47.682Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-11T03:10:17.854Z",
+      "lastSeenAt": "2026-08-12T03:28:47.682Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -413,7 +413,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-08-11T03:10:17.854Z",
+      "createdAt": "2026-08-12T03:28:47.682Z",
       "id": "576a05e8b695f331",
       "matchScore": 64,
       "priority": "B",
@@ -423,11 +423,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Fellowship",
-      "updatedAt": "2026-08-11T03:10:17.854Z",
+      "updatedAt": "2026-08-12T03:28:47.682Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-11T03:10:17.854Z",
+      "lastSeenAt": "2026-08-12T03:28:47.682Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -475,7 +475,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-08-11T03:10:17.854Z",
+      "createdAt": "2026-08-12T03:28:47.682Z",
       "id": "bbac44b5da0bc36a",
       "matchScore": 64,
       "priority": "B",
@@ -485,11 +485,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Singapore · Fellowship",
-      "updatedAt": "2026-08-11T03:10:17.854Z",
+      "updatedAt": "2026-08-12T03:28:47.682Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-11T03:10:17.854Z",
+      "lastSeenAt": "2026-08-12T03:28:47.682Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -605,7 +605,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-08-11T03:10:17.854Z",
+      "createdAt": "2026-08-12T03:28:47.682Z",
       "id": "e1e5047f5f87635e",
       "matchScore": 59,
       "priority": "C",
@@ -615,11 +615,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship",
-      "updatedAt": "2026-08-11T03:10:17.854Z",
+      "updatedAt": "2026-08-12T03:28:47.682Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-11T03:10:17.854Z",
+      "lastSeenAt": "2026-08-12T03:28:47.682Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -1232,7 +1232,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "official",
-      "fetchedAt": "2026-08-11T03:10:17.854Z",
+      "fetchedAt": "2026-08-12T03:28:47.682Z",
       "id": "8f0378d469afbb63",
       "matchScore": 45,
       "priority": "C",
@@ -1244,14 +1244,14 @@
       "roleLabelZh": "Research Fellow",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Research Fellow",
-      "updatedAt": "2026-08-11T03:10:17.854Z",
+      "updatedAt": "2026-08-12T03:28:47.682Z",
       "stale": false,
       "changeType": null,
       "sourceId": "hkust-math",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-08-11T03:10:17.854Z",
+      "lastSeenAt": "2026-08-12T03:28:47.682Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "ai": {
@@ -83944,7 +83944,7 @@
           "Global PF 只面向欧盟/关联国国民或长期居民；当前应关注 European PF",
           "2026 起低于 80 分的重投受到限制"
         ],
-        "deadlineDays": 30,
+        "deadlineDays": 29,
         "lifecycle": "future"
       },
       {
@@ -84139,7 +84139,7 @@
           "host 每轮只能支持一名候选人",
           "候选人与 host 不应已有过度紧密合作"
         ],
-        "deadlineDays": 22,
+        "deadlineDays": 21,
         "lifecycle": "future"
       },
       {
@@ -84224,7 +84224,7 @@
           "必须先找到研究方向匹配的 KAUST host",
           "截止日期按官网年度节奏记录，申请前需重新核验当年 call"
         ],
-        "deadlineDays": 52,
+        "deadlineDays": 51,
         "lifecycle": "future"
       },
       {
@@ -84266,7 +84266,7 @@
           "需要两页 AI-integrated 研究计划和 NTU mentor 支持",
           "当前主论文仍需先建立核心数学贡献"
         ],
-        "deadlineDays": 81,
+        "deadlineDays": 80,
         "lifecycle": "future"
       },
       {
@@ -84346,7 +84346,7 @@
           "当前周期博士完成窗口不匹配，目标应是 2029 对应轮次",
           "无正式 host 要求不等于无需展示 Berkeley 研究连接"
         ],
-        "deadlineDays": 31,
+        "deadlineDays": 30,
         "lifecycle": "watch"
       },
       {
@@ -84950,7 +84950,7 @@
           "不是常规延续博士论文的项目",
           "需要强跨学科叙事和独立愿景"
         ],
-        "deadlineDays": 158,
+        "deadlineDays": 157,
         "lifecycle": "upcoming"
       },
       {
@@ -85029,7 +85029,7 @@
           "申请前需单独核验签证、旅行与安全条件",
           "当前轮次不适用于 2029 毕业时间，仅用于周期建模"
         ],
-        "deadlineDays": 93,
+        "deadlineDays": 92,
         "lifecycle": "watch"
       },
       {
@@ -85470,7 +85470,7 @@
           "当前并非直接可申请",
           "Ambizione 将结束，2028 新计划规则尚未公布"
         ],
-        "deadlineDays": 85,
+        "deadlineDays": 84,
         "lifecycle": "ineligible"
       },
       {
@@ -86268,8 +86268,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 439
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 441
     },
     {
       "id": "academic-positions",
@@ -86281,8 +86281,8 @@
       "status": "error",
       "message": "HTTP 403",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 77
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 50
     },
     {
       "id": "academic-transfer",
@@ -86294,8 +86294,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 993
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 1075
     },
     {
       "id": "mathjobs",
@@ -86307,8 +86307,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 214
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 720
     },
     {
       "id": "academic-jobs-online",
@@ -86320,8 +86320,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 246
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 566
     },
     {
       "id": "jobs-ac-uk",
@@ -86333,8 +86333,8 @@
       "status": "ok",
       "message": "10 candidates",
       "count": 10,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 1193
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 1970
     },
     {
       "id": "polyu",
@@ -86346,8 +86346,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 2544
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 2204
     },
     {
       "id": "hku",
@@ -86359,8 +86359,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 869
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 834
     },
     {
       "id": "hkust-math",
@@ -86372,8 +86372,8 @@
       "status": "ok",
       "message": "3 candidates",
       "count": 3,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 979
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 778
     },
     {
       "id": "cuhk-math",
@@ -86385,8 +86385,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 1281
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 750
     },
     {
       "id": "nus",
@@ -86398,8 +86398,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 1582
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 1133
     },
     {
       "id": "ntu",
@@ -86411,8 +86411,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 553
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 748
     },
     {
       "id": "astar",
@@ -86424,8 +86424,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 1567
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 1111
     },
     {
       "id": "chinapostdoctor",
@@ -86437,8 +86437,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 1270
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 1052
     },
     {
       "id": "gaoxiaojob",
@@ -86447,11 +86447,11 @@
       "url": "https://www.gaoxiaojob.com/",
       "trust": "aggregator",
       "sourceType": "aggregator",
-      "status": "error",
-      "message": "HTTP 403",
+      "status": "no_candidates",
+      "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 1093
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 1933
     },
     {
       "id": "microsoft-research",
@@ -86463,8 +86463,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 558
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 1155
     },
     {
       "id": "google-research",
@@ -86476,8 +86476,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 170
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 213
     },
     {
       "id": "deepmind",
@@ -86489,8 +86489,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 401
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 763
     },
     {
       "id": "huawei-noah",
@@ -86502,8 +86502,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 1381
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 948
     },
     {
       "id": "bytedance-seed",
@@ -86515,8 +86515,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-08-11T03:10:17.854Z",
-      "latencyMs": 1721
+      "checkedAt": "2026-08-12T03:28:47.682Z",
+      "latencyMs": 6572
     }
   ],
   "reports": [
@@ -86547,7 +86547,7 @@
   ],
   "updates": {
     "windowDays": 7,
-    "generatedAt": "2026-08-11T03:10:37.198Z",
+    "generatedAt": "2026-08-12T03:29:12.904Z",
     "newCount": 0,
     "updatedCount": 0,
     "expiredCount": 3,
@@ -86615,7 +86615,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-08-11T03:10:17.854Z",
+        "createdAt": "2026-08-12T03:28:47.682Z",
         "id": "1411a9a5c5c5768d",
         "matchScore": 74,
         "priority": "B",
@@ -86628,11 +86628,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-        "updatedAt": "2026-08-11T03:10:17.854Z",
+        "updatedAt": "2026-08-12T03:28:47.682Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-08-11T03:10:17.854Z",
+        "lastSeenAt": "2026-08-12T03:28:47.682Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -86680,7 +86680,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-08-11T03:10:17.854Z",
+        "createdAt": "2026-08-12T03:28:47.682Z",
         "id": "576a05e8b695f331",
         "matchScore": 64,
         "priority": "B",
@@ -86690,11 +86690,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Hong Kong · Fellowship",
-        "updatedAt": "2026-08-11T03:10:17.854Z",
+        "updatedAt": "2026-08-12T03:28:47.682Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-08-11T03:10:17.854Z",
+        "lastSeenAt": "2026-08-12T03:28:47.682Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -86742,7 +86742,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-08-11T03:10:17.854Z",
+        "createdAt": "2026-08-12T03:28:47.682Z",
         "id": "bbac44b5da0bc36a",
         "matchScore": 64,
         "priority": "B",
@@ -86752,11 +86752,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Singapore · Fellowship",
-        "updatedAt": "2026-08-11T03:10:17.854Z",
+        "updatedAt": "2026-08-12T03:28:47.682Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-08-11T03:10:17.854Z",
+        "lastSeenAt": "2026-08-12T03:28:47.682Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -86803,7 +86803,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-08-11T03:10:17.854Z",
+        "createdAt": "2026-08-12T03:28:47.682Z",
         "id": "e1e5047f5f87635e",
         "matchScore": 59,
         "priority": "C",
@@ -86813,11 +86813,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship",
-        "updatedAt": "2026-08-11T03:10:17.854Z",
+        "updatedAt": "2026-08-12T03:28:47.682Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-08-11T03:10:17.854Z",
+        "lastSeenAt": "2026-08-12T03:28:47.682Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
