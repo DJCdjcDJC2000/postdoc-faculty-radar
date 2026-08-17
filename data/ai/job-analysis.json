@@ -2528,5 +2528,139 @@
     "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
     "nextStepZh": "访问jobs.ac.uk查看完整职位描述和申请要求。",
     "depth": "public"
+  },
+  "89b2d428a2620e94": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-17T02:24:15.289Z",
+    "jobFingerprint": "C|48|Global · 教职 · applied mathematics|core|applied mathematics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "该岗位为莫纳什大学数学科学学院的计算与应用数学讲师/高级讲师职位，通过MathJobs.org发布，申请截止日期为2026年8月15日。",
+    "tagsZh": [
+      "计算数学",
+      "应用数学",
+      "讲师",
+      "莫纳什大学",
+      "学术职位"
+    ],
+    "positiveZh": [
+      "岗位属于计算与应用数学领域，与您的专业背景匹配",
+      "职位级别为讲师/高级讲师，适合学术职业发展",
+      "莫纳什大学为世界知名高校，平台良好"
+    ],
+    "negativeZh": [
+      "岗位信息较为简略，未提供具体研究方向或教学任务细节",
+      "未明确薪资待遇、合同期限等关键信息"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "建议访问MathJobs.org查看完整职位描述，并准备申请材料，包括简历、研究陈述和教学陈述。",
+    "depth": "public"
+  },
+  "13934aaa48d84204": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-17T02:24:15.289Z",
+    "jobFingerprint": "C|48|United Kingdom · 博后|field_source",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "该岗位是牛津大学数学研究所的博士后研究助理职位，专注于人工智能的数学与计算基础。工作地点在英国牛津，薪资范围为£41,636至£47,779。岗位发布于2024年8月14日，但未明确截止日期。",
+    "tagsZh": [
+      "博士后",
+      "人工智能",
+      "数学",
+      "计算",
+      "牛津大学",
+      "英国"
+    ],
+    "positiveZh": [
+      "知名学府牛津大学",
+      "明确的薪资范围",
+      "研究领域前沿，人工智能基础"
+    ],
+    "negativeZh": [
+      "未提供截止日期",
+      "岗位描述信息有限"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "访问原始链接查看详细要求并准备申请材料。",
+    "depth": "shallow"
+  },
+  "a06fd2c3ba951f2c": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-17T02:24:15.289Z",
+    "jobFingerprint": "C|46|Europe · 大厂研究岗 · applied mathematics|core|applied mathematics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "该岗位是卑尔根大学数学系多孔介质研究组的永久研究员职位，专注于地质多孔材料的应用数学与计算科学。",
+    "tagsZh": [
+      "应用数学",
+      "计算科学",
+      "地质多孔材料",
+      "永久职位",
+      "挪威"
+    ],
+    "positiveZh": [
+      "永久职位，稳定性高",
+      "研究组专注多孔介质，方向明确",
+      "位于欧洲，学术环境良好"
+    ],
+    "negativeZh": [
+      "岗位描述有限，具体职责未详述",
+      "未提及薪资待遇",
+      "可能要求较高专业背景"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "访问EURAXESS或卑尔根大学官网获取完整职位描述，并准备申请材料。",
+    "depth": "shallow"
+  },
+  "53354ccf6b8998f4": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-17T02:24:15.289Z",
+    "jobFingerprint": "C|45|United Kingdom · Research Fellow|field_source",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "布里斯托大学科学与工程学院正在招聘数学与数据建模方向的研究助理或高级研究助理，工作地点在英国布里斯托，年薪范围为39,906至44,746英镑，具体取决于经验。岗位发布于2024年8月12日。",
+    "tagsZh": [
+      "数学建模",
+      "数据建模",
+      "研究助理",
+      "英国",
+      "布里斯托大学"
+    ],
+    "positiveZh": [
+      "岗位属于研究系列，适合学术发展",
+      "薪资水平在英国具有竞争力",
+      "学校声誉良好，位于英国"
+    ],
+    "negativeZh": [
+      "未提供具体研究项目或团队信息",
+      "未明确岗位的具体职责和申请要求",
+      "未提供申请截止日期"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "访问jobs.ac.uk网站查看完整职位描述，并准备申请材料。",
+    "depth": "浅层"
+  },
+  "2484f0dff49d3716": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-17T02:24:15.289Z",
+    "jobFingerprint": "C|42|Mainland China · 教职 · operations research / machine learning|core|operations research|machine learning|data science",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "该岗位为海南比勒费尔德应用科学大学招聘数据科学、机器学习与运筹学方向的讲师/副教授/教授，要求硕士研究生学历，工作地点在海南省儋州市，招聘人数若干。",
+    "tagsZh": [
+      "数据科学",
+      "机器学习",
+      "运筹学",
+      "教学科研",
+      "海南"
+    ],
+    "positiveZh": [
+      "岗位方向与数据科学、机器学习、运筹学高度相关，专业匹配度高",
+      "招聘级别覆盖讲师至教授，适合不同资历的申请者",
+      "工作地点在海南，可能享受当地人才政策"
+    ],
+    "negativeZh": [
+      "岗位要求硕士研究生学历，对于教授级别可能偏低，需确认实际要求",
+      "招聘人数为若干，竞争情况不明",
+      "未明确薪资待遇，需进一步了解"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "建议访问招聘链接或学校官网，获取详细岗位说明、申请流程及待遇信息，并核实学历要求是否适用于高级职称。",
+    "depth": 1
   }
 }

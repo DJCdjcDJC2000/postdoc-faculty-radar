@@ -479,8 +479,8 @@
   },
   "cityu-hongyi-jiang": {
     "status": "deepseek",
-    "generatedAt": "2026-08-10T03:18:17.833Z",
-    "profileFingerprint": "8da18aef76a7ddc043944fdca29d5a274cd84c37abaff715016dcbfb6754b1f7",
+    "generatedAt": "2026-08-17T02:24:30.657Z",
+    "profileFingerprint": "ead4cb933a6196d7d303f69fde4cbe7e6f23ac136c67b100dd1583971a06f246",
     "notice": "AI 辅助归纳，需回到公开证据核验",
     "researchSummaryZh": "JHU 优化博士、Cornell 博后；NSFC/UGC 支持；MIP 理论与算法高度相关",
     "methods": [
@@ -490,7 +490,7 @@
     "applications": [
       "machine learning and data science"
     ],
-    "careerPatternZh": "2015-2017 在 Wake Forest University 攻读博士；2017-2018 转至 North Carolina State University；2018-2021 在 Johns Hopkins University 获得博士学位；2021 年起在 Cornell University 担任博士后研究助理；现任香港城市大学助理教授。",
+    "careerPatternZh": "2015-2017 Wake Forest University；2017-2018 North Carolina State University；2018-2021 Johns Hopkins University（博士）；2021年起 Cornell University 博士后；现任香港城市大学助理教授",
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
     ]
@@ -553,6 +553,109 @@
       "control and dynamical systems"
     ],
     "careerPatternZh": "2011-2014年于特伦托大学获工业工程学士，2014-2016年获机电一体化工程硕士；2017年起在慕尼黑联邦国防军大学担任研究职位，2017-2021年完成博士（Dr. rer. nat），现为该校博士后研究员。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "de-bremen-sebastian-banert": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-17T02:24:30.657Z",
+    "profileFingerprint": "c98c285f5df75e32c732af3aa84add21cd0af286463392e4e5acf96aed6ca650",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "博士论文直接研究Hilbert空间分裂算法；此后在KTH、Lund和Bremen持续发表Chambolle-Pock、forward-backward及自动Lyapunov分析成果，包括Mathematical Programming和SIAM Journal on Optimization。",
+    "methods": [
+      "variational-inequality and monotone-operator methods",
+      "nonsmooth and variational analysis",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "signal processing, imaging, and inverse problems"
+    ],
+    "careerPatternZh": "2013-2017年在维也纳大学数学系攻读博士；2017-2019年在KTH皇家理工学院数学系做博士后；2019-2023年在隆德大学自动控制系做博士后；2023年起在不来梅大学工业数学中心做博士后。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "de-mainz-hendrik-ranocha": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-17T02:24:30.657Z",
+    "profileFingerprint": "1c388841001873544245318a4eb553e2491903854d31afe9be9fc9447e23b8fe",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Hendrik Ranocha 的研究主线是结构保持数值方法，特别是双曲型偏微分方程的高阶守恒律、熵稳定离散格式和 Runge-Kutta 时间积分方法。他是 Julia 科学计算库 Trixi.jl 的核心贡献者，在理论分析、软件实现和高性能计算方面均有重要影响。",
+    "methods": [
+      "numerical analysis and scientific computing",
+      "structure-preserving numerics",
+      "Runge-Kutta methods",
+      "entropy-stable discretization",
+      "Julia scientific computing"
+    ],
+    "applications": [
+      "physical simulation and scientific computing",
+      "hyperbolic PDEs"
+    ],
+    "careerPatternZh": "2016-2018 年在 Technische Universität Braunschweig 担任研究生助教；2018-2019 年在该校任博士后研究员兼教学助理，同时在 Ostfalia University of Applied Sciences 承担教学任务；2019-2021 年在 King Abdullah University of Science and Technology 做博士后；2021-2022 年在 University of Münster 做博士后；2022-2023 年在 Universität Hamburg 任助理教授；2023 年起任 Johannes Gutenberg University Mainz 教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "uk-leeds-massimiliano-fasi": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-17T02:24:30.657Z",
+    "profileFingerprint": "2133ea9a1f75ba4fafb575a5714c0d31741ad61d4ad9008eafff8629960a8c3d",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Massimiliano Fasi 的研究主线是数值线性代数、混合精度计算、舍入误差分析以及可扩展数学软件，尤其关注在 exascale 计算环境下的算法设计与实现。",
+    "methods": [
+      "numerical linear algebra",
+      "mixed precision",
+      "rounding error analysis",
+      "mathematical software",
+      "exascale computing"
+    ],
+    "applications": [],
+    "careerPatternZh": "公开履历显示：2019-2020 年在曼彻斯特大学数学系任研究助理；2020-2021 年在厄勒布鲁大学科学与技术学院任博士后研究员；2021-2023 年在杜伦大学计算机科学系任助理教授；2023 年起在利兹大学计算学院任软件工程讲师。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "fr-sorbonne-theo-mary": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-17T02:24:30.657Z",
+    "profileFingerprint": "cf276f5a72bd474e1ec84b1922ba1932296fe29d7116e7c0b806b883736094cb",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Théo Mary 是 CNRS 研究科学家，主要研究数值线性代数、混合精度计算、低秩压缩、稀疏直接求解器和高性能科学计算。其工作聚焦于混合精度策略在稀疏求解器、GMRES 迭代法和神经网络推理中的应用，以及浮点运算中的舍入误差分析。",
+    "methods": [
+      "numerical linear algebra",
+      "mixed precision",
+      "low-rank compression",
+      "sparse direct solvers",
+      "high-performance scientific computing",
+      "rounding error analysis"
+    ],
+    "applications": [
+      "sparse direct solvers",
+      "preconditioned GMRES",
+      "neural network inference",
+      "physical simulation and scientific computing"
+    ],
+    "careerPatternZh": "2014-2017 年在法国图卢兹大学攻读计算机科学与应用数学博士学位；2019 年起在 CNRS 担任全职永久研究员，隶属于 LIP6 实验室；目前为 CNRS 研究科学家，任职于 CNRS / Sorbonne Université, LIP6。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "at-innsbruck-gianluca-ceruti": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-17T02:24:30.657Z",
+    "profileFingerprint": "7d1b634d7933c1b2cdbc6261ee1deeb33867e037286c75c56c3da481882285ca",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "博士工作与Christian Lubich合作发展鲁棒、秩自适应的动力低秩积分器；2026年取得数学Habilitation，形成矩阵/张量微分方程的独立数值分析路线。",
+    "methods": [
+      "numerical linear algebra",
+      "numerical analysis and scientific computing"
+    ],
+    "applications": [
+      "physical simulation and scientific computing"
+    ],
+    "careerPatternZh": "博士阶段与Christian Lubich合作；2026年取得数学Habilitation；现为因斯布鲁克大学Privatdozent / Scientific Staff in Numerical Analysis。",
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
     ]
