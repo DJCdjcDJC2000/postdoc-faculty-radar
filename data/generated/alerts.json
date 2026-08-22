@@ -37,18 +37,5 @@
     "sourceName": "NRF Singapore",
     "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
     "reason": "Singapore · Fellowship"
-  },
-  {
-    "id": "b03ff6150accd104",
-    "title": "Doctoral Researcher (m/f/d) on Process Simulation for Metal Cycles",
-    "institution": "EURAXESS Jobs",
-    "region": "Europe",
-    "roleType": "industry_research",
-    "roleLabelZh": "大厂研究岗",
-    "priority": "B",
-    "matchScore": 60,
-    "sourceName": "EURAXESS Jobs",
-    "sourceUrl": "https://euraxess.ec.europa.eu/jobs/461044",
-    "reason": "Europe · 大厂研究岗 · simulation"
   }
 ]
