@@ -1,21 +1,19 @@
-# 职业雷达周报 · 2026-08-17
+# 职业雷达周报 · 2026-08-24
 
-- 本周新增：2
+- 本周新增：0
 - 本周更新：0
 - 本周失效：3
 - A/B 高匹配：3
-- 30 天内截止：2
+- 30 天内截止：4
 - 学术候选池：132
-- 完整公开档案：132
+- 完整公开档案：131
 - 导师组 / 青年学者：52 / 84
 
 ## 本周变化
 
-- **已失效/已截止** [Lecturer / Associate Professor / Professor in Data Science, Machine Learning & Operations Research 面议 硕士研究生 若干人 海南比勒费尔德应用科学大学 儋州市](https://www.gaoxiaojob.com/job/detail/2121703.html) · 高校人才网 · Mainland China · C 42
-- **已失效/已截止** [LECTURER](https://www.mathjobs.org/jobs?joblst-460-28536=) · MathJobs.org · Global · C 48
-- **已失效/已截止** [Researcher 1109 within applied mathematics and computationalscience for geological porous materials](https://euraxess.ec.europa.eu/jobs/460383) · EURAXESS Jobs · Europe · C 46
-- **本周新增** [Postdoctoral Research Associate in the Mathematical and Computational Foundations of Artificial Intelligence](https://www.jobs.ac.uk/job/DSP560/postdoctoral-research-associate-in-the-mathematical-and-computational-foundations-of-artificial-intelligence) · jobs.ac.uk Mathematics · United Kingdom · C 48
-- **本周新增** [Research Associate / Senior Research Associate in Mathematical and Data Modelling](https://www.jobs.ac.uk/job/DSO940/research-associate-senior-research-associate-in-mathematical-and-data-modelling) · jobs.ac.uk Mathematics · United Kingdom · C 45
+- **已失效/已截止** [Doctoral Researcher (m/f/d) on Process Simulation for Metal Cycles](https://euraxess.ec.europa.eu/jobs/461044) · EURAXESS Jobs · Europe · B 60
+- **已失效/已截止** [Postdoctoral Research Associate in the Mathematical and Computational Foundations of Artificial Intelligence](https://www.jobs.ac.uk/job/DSP560/postdoctoral-research-associate-in-the-mathematical-and-computational-foundations-of-artificial-intelligence) · jobs.ac.uk Mathematics · United Kingdom · C 48
+- **已失效/已截止** [Research Associate / Senior Research Associate in Mathematical and Data Modelling](https://www.jobs.ac.uk/job/DSO940/research-associate-senior-research-associate-in-mathematical-and-data-modelling) · jobs.ac.uk Mathematics · United Kingdom · C 45
 
 ## 学术人物建设
 
@@ -38,7 +36,7 @@
 
 ## 数据源状态
 
-- 正常或有结果：3/20
+- 正常或有结果：2/20
 - 抓取失败：Academic Positions · HTTP 403
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed

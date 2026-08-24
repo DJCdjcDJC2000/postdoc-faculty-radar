@@ -659,5 +659,134 @@
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
     ]
+  },
+  "it-bologna-davide-palitta": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-24T02:27:46.035Z",
+    "profileFingerprint": "aff2b146fbc10c53432fbfc7c52ec3cd0129f13ff955588428a85548f03b1427",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "从Bologna博士到Max Planck Magdeburg三年博后，再回Bologna进入tenure-track；研究聚焦大规模矩阵方程、随机Krylov方法和数据同化中的数值线性代数。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "numerical linear algebra"
+    ],
+    "applications": [],
+    "careerPatternZh": "2009-2012年于博洛尼亚大学攻读数学学士，2012-2014年获硕士学位，2014-2018年获数学博士学位。2018年短期担任博洛尼亚大学研究助理，随后于2018-2021年在Max Planck学会系统与控制理论计算方法组从事博士后研究。2021年起在博洛尼亚大学担任初级助理教授及固定期限研究员（RTD），现为高级固定期限研究员（RTD-B）。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "it-pisa-stefano-massei": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-24T02:27:46.035Z",
+    "profileFingerprint": "52a87b991e00736fd356f18951687f9c0538ed63f10cf103f17cb94a23b37bcc",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Stefano Massei的研究主线集中在数值线性代数领域，包括矩阵函数、低秩近似、矩阵方程（如Sylvester方程）以及混合精度优化。他是2020年Householder Prize的共同获奖者，博士毕业八年内晋升为副教授。近期工作涉及低秩更新与插值的并行时间积分、低精度浮点计算对梯度下降法收敛的影响，以及对称半定矩阵的最大体积和交叉近似算法。",
+    "methods": [
+      "numerical linear algebra",
+      "low-rank approximation",
+      "matrix functions",
+      "matrix equations",
+      "mixed-precision optimization",
+      "Krylov subspace methods",
+      "block Krylov subspace methods",
+      "cross approximation",
+      "maximum volume algorithms",
+      "parallel-in-time integration"
+    ],
+    "applications": [
+      "network robustness optimization",
+      "thermal simulations of electric components",
+      "imaging and inverse problems",
+      "control, energy, and network systems"
+    ],
+    "careerPatternZh": "2013-2017年在Scuola Normale Superiore攻读博士学位；2017-2020年在École Polytechnique Fédérale de Lausanne从事博士后研究；2020-2022年在Eindhoven University of Technology从事博士后研究；2022年起在University of Pisa担任助理教授（RTDb），现为数值分析副教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "it-pisa-alice-cortinovis": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-24T02:27:46.035Z",
+    "profileFingerprint": "df632ddba76fd3fb4edb1bf33a5faea4341ee95adf9e013f4708bac9e531b394",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Alice Cortinovis 的研究聚焦于数值线性代数，特别是随机化数值线性代数、低秩近似、矩阵函数、迹估计和 Krylov 方法。其工作包括改进 Hutch++ 算法用于迹估计、开发用于矩阵函数的低秩更新和分治方法，以及利用随机化加速 Krylov 子空间方法。",
+    "methods": [
+      "randomized numerical linear algebra",
+      "low-rank approximation",
+      "matrix functions",
+      "trace estimation",
+      "Krylov methods"
+    ],
+    "applications": [],
+    "careerPatternZh": "公开信息显示，Alice Cortinovis 于 2024 年起在比萨大学计算机科学系担任 tenure-track 研究员。此前，她曾在 EPFL 师从 Daniel Kressner 教授，并曾在 Stanford 大学担任 Szegő 助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "fr-polytechnique-maxime-breden": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-24T02:27:46.035Z",
+    "profileFingerprint": "5aef62d8b154cb6a462fec5cdd4d308ae5fb6f8a1ef4389b136669235c50076a",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Maxime Breden 的研究主线是将动力系统与偏微分方程中的分析问题转化为可验证的数值证明，发展计算机辅助证明方法，并应用于随机动力系统、交叉扩散、Navier-Stokes 周期轨道和半线性抛物方程等。",
+    "methods": [
+      "numerical analysis and scientific computing",
+      "computer-assisted proofs",
+      "rigorous numerics",
+      "polynomial chaos expansions",
+      "a posteriori error verification"
+    ],
+    "applications": [
+      "control and dynamical systems",
+      "physical simulation and scientific computing",
+      "nonlinear PDEs",
+      "stochastic dynamical systems",
+      "Navier-Stokes flow"
+    ],
+    "careerPatternZh": "2017年获得博士学位，之后在慕尼黑工业大学（TUM）从事博士后研究，2019年起任École Polytechnique应用数学系及CMAP的助理教授（Professeur assistant）。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "fr-inria-thomas-moreau": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-24T02:27:46.035Z",
+    "profileFingerprint": "d29cf836c311dbf206d2790e5b40f0920723c326428e160f9bfd5db4b06c5c2e",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Thomas Moreau 的研究主线围绕优化理论、逆问题与可复现科学计算展开，尤其关注双层优化、稀疏优化及其在信号处理、成像和逆问题中的应用。他是 Benchopt、joblib、loky 等开源生态的主要维护者，致力于连接优化理论、可复现基准和实际应用。",
+    "methods": [
+      "bilevel optimization",
+      "mathematical optimization",
+      "sparse optimization"
+    ],
+    "applications": [
+      "signal processing",
+      "imaging",
+      "inverse problems"
+    ],
+    "careerPatternZh": "2013-2014 年在巴黎高等师范学校（École Normale Supérieure Paris-Saclay）CMLA 攻读 Msc Mathematics Vision and Learning (MVA) 学位；2019 年起在 Inria Saclay 担任研究员（Researcher），现为终身研究员（Tenured Research Scientist），隶属于 Parietal 团队。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "it-imt-filippo-fabiani": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-24T02:27:46.035Z",
+    "profileFingerprint": "50d5a74cf033799c360b180f31b6e7e1f546c122385b100242ff0cd1f5c73e37",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Filippo Fabiani的研究主线集中在非凸博弈、均衡求解、鲁棒优化、数据驱动控制以及混合系统，尤其关注博弈论与MPEC（数学规划与均衡约束）及鲁棒控制的交叉领域。其近期工作涉及变分不等式、随机与鲁棒优化、机器学习优化、运筹与决策系统、变分方法与逆问题、控制能源网络系统以及科学机器学习与动力学。",
+    "methods": [
+      "robust optimization",
+      "optimal-control methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "control and dynamical systems"
+    ],
+    "careerPatternZh": "Filippo Fabiani于2009-2012年在比萨大学获得生物工程学士学位，2012-2015年获得机器人与自动化工程硕士学位，2015年起在比萨大学攻读博士学位。2015年在E. Piaggio研究中心担任研究助理，2018-2019年在代尔夫特理工大学系统与控制中心担任博士后研究员，2019-2022年在牛津大学工程科学系任职，2022年起在IMT卢卡高等研究院担任助理教授，2026年起升任副教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
   }
 }
