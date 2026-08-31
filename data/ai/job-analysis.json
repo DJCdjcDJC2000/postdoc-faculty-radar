@@ -2691,5 +2691,58 @@
     "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
     "nextStepZh": "访问EURAXESS或大学官网查看完整职位描述，联系教席了解具体研究课题和申请要求。",
     "depth": "shallow"
+  },
+  "f4e187e01ce8256c": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-31T06:57:15.656Z",
+    "jobFingerprint": "C|48|United Kingdom · 博后|field_source",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "该岗位为丹麦奥胡斯大学数学系提供的数学与随机学博士后职位，薪资具有竞争力，起始月薪分别为36,600和40,780丹麦克朗，外加养老金。岗位发布于2024年8月26日，工作地点位于丹麦奥胡斯。",
+    "tagsZh": [
+      "博士后",
+      "数学",
+      "随机学",
+      "丹麦",
+      "奥胡斯大学"
+    ],
+    "positiveZh": [
+      "薪资具有竞争力",
+      "提供养老金",
+      "位于知名大学"
+    ],
+    "negativeZh": [
+      "未提供具体研究方向",
+      "未明确申请截止日期"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "访问原始链接查看详细申请要求和截止日期。",
+    "depth": "public"
+  },
+  "d251583a881afa6a": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-31T06:57:15.656Z",
+    "jobFingerprint": "C|43|United Kingdom · 教职 · applied mathematics|core|applied mathematics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "该岗位为西交利物浦大学数学与物理学院的应用数学全职教师职位，级别不限，工作地点在苏州，薪资具有竞争力，发布日期为8月25日。",
+    "tagsZh": [
+      "应用数学",
+      "教师",
+      "苏州",
+      "西交利物浦大学",
+      "全职"
+    ],
+    "positiveZh": [
+      "职位级别不限，适合不同资历的申请者",
+      "位于苏州，生活成本相对较低",
+      "薪资具有竞争力"
+    ],
+    "negativeZh": [
+      "未明确具体研究方向",
+      "未提供薪资范围",
+      "未说明申请截止日期"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "访问jobs.ac.uk查看详细职位描述和申请要求。",
+    "depth": "basic"
   }
 }

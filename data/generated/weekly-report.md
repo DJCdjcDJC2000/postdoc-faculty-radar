@@ -1,8 +1,8 @@
-# 职业雷达周报 · 2026-08-24
+# 职业雷达周报 · 2026-08-31
 
-- 本周新增：0
+- 本周新增：2
 - 本周更新：0
-- 本周失效：3
+- 本周失效：0
 - A/B 高匹配：3
 - 30 天内截止：4
 - 学术候选池：132
@@ -11,9 +11,8 @@
 
 ## 本周变化
 
-- **已失效/已截止** [Doctoral Researcher (m/f/d) on Process Simulation for Metal Cycles](https://euraxess.ec.europa.eu/jobs/461044) · EURAXESS Jobs · Europe · B 60
-- **已失效/已截止** [Postdoctoral Research Associate in the Mathematical and Computational Foundations of Artificial Intelligence](https://www.jobs.ac.uk/job/DSP560/postdoctoral-research-associate-in-the-mathematical-and-computational-foundations-of-artificial-intelligence) · jobs.ac.uk Mathematics · United Kingdom · C 48
-- **已失效/已截止** [Research Associate / Senior Research Associate in Mathematical and Data Modelling](https://www.jobs.ac.uk/job/DSO940/research-associate-senior-research-associate-in-mathematical-and-data-modelling) · jobs.ac.uk Mathematics · United Kingdom · C 45
+- **本周新增** [Postdoctoral Positions in Mathematics and Stochastics](https://www.jobs.ac.uk/job/DSS937/postdoctoral-positions-in-mathematics-and-stochastics) · jobs.ac.uk Mathematics · United Kingdom · C 48
+- **本周新增** [Faculty Position in Applied Mathematics (Full Rank)](https://www.jobs.ac.uk/job/DSS252/faculty-position-in-applied-mathematics-full-rank) · jobs.ac.uk Mathematics · United Kingdom · C 43
 
 ## 学术人物建设
 
@@ -36,7 +35,7 @@
 
 ## 数据源状态
 
-- 正常或有结果：2/20
+- 正常或有结果：4/20
 - 抓取失败：Academic Positions · HTTP 403
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed

@@ -788,5 +788,132 @@
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
     ]
+  },
+  "ch-eth-mattia-bianchi": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-31T06:57:21.567Z",
+    "profileFingerprint": "332ae286f7f5a0333bce2c379d0b5a5c6cacc7ba8112b8f80eb3c9cc0e19e113",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Mattia Bianchi的研究主线集中在分布式优化、博弈论与均衡寻求算法，并应用于控制与网络系统。其工作涵盖广义纳什均衡问题的线性收敛性、分布式对偶上升算法的异步鲁棒性、时变通信网络下的分布式均衡寻求，以及在线反馈优化的稳定性条件。",
+    "methods": [
+      "distributed and federated optimization",
+      "optimal-control methods",
+      "game-theoretic methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "control and dynamical systems",
+      "markets and strategic decision-making"
+    ],
+    "careerPatternZh": "Mattia Bianchi于2016-2018年在University of L'Aquila获得控制系统工程硕士学位，后在Technische Universiteit Delft的DCSC获得博士学位，自2023年起在ETH Zurich的IfA担任博士后研究员。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "nl-maastricht-barbara-franci": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-31T06:57:21.567Z",
+    "profileFingerprint": "7e2e8d1793de5d662488f181a882238f96cae0f5464b388b5157a4874dfab058",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Barbara Franci的研究主线集中在随机变分不等式、博弈论（特别是纳什均衡问题）以及分布式优化，并关注不确定性下的决策问题。其工作涵盖随机广义纳什均衡问题的算法设计与收敛性分析、数据驱动的分布鲁棒优化、以及多领导者多跟随者博弈等方向。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "variational-inequality and monotone-operator methods",
+      "distributed and federated optimization",
+      "game-theoretic methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "markets and strategic decision-making"
+    ],
+    "careerPatternZh": "Barbara Franci于2009-2012年在锡耶纳大学获得学士学位，2012-2014年获得硕士学位。2014-2018年在都灵理工大学攻读博士学位。2017-2019年在都灵理工大学担任教学助理。2019-2021年在代尔夫特理工大学做博士后。2021-2025年在马斯特里赫特大学担任助理教授，2025年起在都灵理工大学担任助理教授，同时目前也在马斯特里赫特大学任职。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "de-tum-felix-dietrich": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-31T06:57:21.567Z",
+    "profileFingerprint": "93d53be652fa124e1d50774ef10fefb1feb5513c2eb9042470d2833579bd50a2",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Felix Dietrich 的研究主线是科学机器学习（Scientific Machine Learning），聚焦于动力系统、Koopman算子、物理信息机器学习与数值算法，并探索其在控制、能源、网络系统及物理模拟中的应用。",
+    "methods": [
+      "scientific machine learning",
+      "Koopman operators",
+      "physics-informed ML",
+      "numerical algorithms",
+      "graph neural networks",
+      "Gaussian processes"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "control and dynamical systems",
+      "physical simulation and scientific computing",
+      "brain activity modeling",
+      "pedestrian and evacuation dynamics"
+    ],
+    "careerPatternZh": "公开信息显示，Felix Dietrich 曾担任 Emmy Noether 组长，并于2024年获得慕尼黑工业大学（TUM）教授职位。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "fr-polytechnique-aymeric-dieuleveut": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-31T06:57:21.567Z",
+    "profileFingerprint": "51ee52a6b5c3da2e11d3c2b9a17ff07fbfcc199fe2594fc2a66cf868b6f34ead",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "研究主线聚焦于随机优化、一阶方法、联邦学习与统计学习的交叉领域，并涉及不确定性量化。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "first-order methods",
+      "distributed and federated optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "networked and distributed systems",
+      "physical simulation and scientific computing"
+    ],
+    "careerPatternZh": "公开信息显示其曾为ENS Sierra博士、EPFL博后，现为École Polytechnique教授并担任Hi! PARIS科学联合主任。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "fr-inria-fabian-schaipp": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-31T06:57:21.567Z",
+    "profileFingerprint": "770cb9f510f28cb9b6ea107a1b3a711cca4466c1fd213134f738877751bd3d45",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Michael Ulbrich博士生，现受Bach、Taylor、Şimşekli联合指导，连接传统优化与大模型训练。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science"
+    ],
+    "careerPatternZh": "2013-2017年在慕尼黑工业大学攻读数学学士，2017-2020年攻读数学硕士，2020-2024年在该校数学系担任Wissenschaftlicher Mitarbeiter并完成博士学业，现为Inria Paris博士后研究员。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "at-tuwien-tatjana-chavdarova": {
+    "status": "deepseek",
+    "generatedAt": "2026-08-31T06:57:21.567Z",
+    "profileFingerprint": "7ed9699e8682e748ea194239e7129df0c0b7cac41477e156cb6a5f1f8c365a3c",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "EPFL博士、Berkeley博后，获得€1.8M WWTF VRG并于2026建立新组，VI高度相关。",
+    "methods": [
+      "variational-inequality and monotone-operator methods",
+      "game-theoretic methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "markets and strategic decision-making"
+    ],
+    "careerPatternZh": "EPFL博士（2020年），Berkeley博后，现任TU Wien助理教授（2026年起，Faculty of Informatics）。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
   }
 }
