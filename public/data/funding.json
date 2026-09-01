@@ -93,7 +93,7 @@
         "Global PF 只面向欧盟/关联国国民或长期居民；当前应关注 European PF",
         "2026 起低于 80 分的重投受到限制"
       ],
-      "deadlineDays": 10,
+      "deadlineDays": 9,
       "lifecycle": "future"
     },
     {
@@ -288,7 +288,7 @@
         "host 每轮只能支持一名候选人",
         "候选人与 host 不应已有过度紧密合作"
       ],
-      "deadlineDays": 2,
+      "deadlineDays": 1,
       "lifecycle": "future"
     },
     {
@@ -373,7 +373,7 @@
         "必须先找到研究方向匹配的 KAUST host",
         "截止日期按官网年度节奏记录，申请前需重新核验当年 call"
       ],
-      "deadlineDays": 32,
+      "deadlineDays": 31,
       "lifecycle": "future"
     },
     {
@@ -415,7 +415,7 @@
         "需要两页 AI-integrated 研究计划和 NTU mentor 支持",
         "当前主论文仍需先建立核心数学贡献"
       ],
-      "deadlineDays": 61,
+      "deadlineDays": 60,
       "lifecycle": "future"
     },
     {
@@ -495,7 +495,7 @@
         "当前周期博士完成窗口不匹配，目标应是 2029 对应轮次",
         "无正式 host 要求不等于无需展示 Berkeley 研究连接"
       ],
-      "deadlineDays": 11,
+      "deadlineDays": 10,
       "lifecycle": "watch"
     },
     {
@@ -1099,7 +1099,7 @@
         "不是常规延续博士论文的项目",
         "需要强跨学科叙事和独立愿景"
       ],
-      "deadlineDays": 138,
+      "deadlineDays": 137,
       "lifecycle": "upcoming"
     },
     {
@@ -1178,7 +1178,7 @@
         "申请前需单独核验签证、旅行与安全条件",
         "当前轮次不适用于 2029 毕业时间，仅用于周期建模"
       ],
-      "deadlineDays": 73,
+      "deadlineDays": 72,
       "lifecycle": "watch"
     },
     {
@@ -1619,7 +1619,7 @@
         "当前并非直接可申请",
         "Ambizione 将结束，2028 新计划规则尚未公布"
       ],
-      "deadlineDays": 65,
+      "deadlineDays": 64,
       "lifecycle": "ineligible"
     },
     {

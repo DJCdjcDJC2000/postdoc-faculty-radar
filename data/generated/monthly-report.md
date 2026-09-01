@@ -1,24 +1,24 @@
-# 职业雷达月报 · 2026-08-01
+# 职业雷达月报 · 2026-09-01
 
 ## 核心变化
 
-- 当前机会：7
-- A/B 高匹配机会：3
-- 学术人物档案：132
-- 完整公开档案：132
-- 官方招聘信号：16
-- 活跃产业岗位：14
+- 当前机会：7（0）
+- A/B 高匹配机会：3（0）
+- 学术人物档案：132（0）
+- 完整公开档案：131（-1）
+- 官方招聘信号：16（0）
+- 活跃产业岗位：14（0）
 
-对比基线：首次生成，下一周期开始显示净变化。
+对比基线：2026-08-01
 
 ## 学术人物群体
 
 - 导师课题组：52
-- 青年学者：80
+- 青年学者：79
 - 长期接受申请：7
 - Fellowship host：4
-- 高频方法：mathematical optimization 107；stochastic optimization and uncertainty methods 45；numerical analysis and scientific computing 23；nonsmooth and variational analysis 20；optimal-control methods 17；discrete and mixed-integer optimization 16；distributed and federated optimization 15；numerical linear algebra 15
-- 高频应用：machine learning and data science 36；physical simulation and scientific computing 23；control and dynamical systems 20；decision-making and operations 20；signal processing, imaging, and inverse problems 15；networked and distributed systems 10；markets and strategic decision-making 9；logistics, transportation, and operations 6
+- 高频方法：mathematical optimization 104；stochastic optimization and uncertainty methods 43；numerical analysis and scientific computing 22；nonsmooth and variational analysis 20；discrete and mixed-integer optimization 16；optimal-control methods 16；distributed and federated optimization 15；numerical linear algebra 14
+- 高频应用：machine learning and data science 36；physical simulation and scientific computing 23；control and dynamical systems 20；decision-making and operations 20；signal processing, imaging, and inverse problems 13；networked and distributed systems 10；markets and strategic decision-making 9；logistics, transportation, and operations 6
 
 ## 有公开招聘证据的人物
 
