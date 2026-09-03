@@ -9,8 +9,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 519
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 341
   },
   {
     "id": "academic-positions",
@@ -22,8 +22,8 @@
     "status": "error",
     "message": "HTTP 403",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 130
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 101
   },
   {
     "id": "academic-transfer",
@@ -35,8 +35,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 1224
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 1301
   },
   {
     "id": "mathjobs",
@@ -48,8 +48,8 @@
     "status": "ok",
     "message": "1 candidates",
     "count": 1,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 977
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 841
   },
   {
     "id": "academic-jobs-online",
@@ -61,8 +61,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 490
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 749
   },
   {
     "id": "jobs-ac-uk",
@@ -72,10 +72,10 @@
     "trust": "academic_board",
     "sourceType": "academic_board",
     "status": "ok",
-    "message": "14 candidates",
-    "count": 14,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 1186
+    "message": "13 candidates",
+    "count": 13,
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 2260
   },
   {
     "id": "polyu",
@@ -87,8 +87,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 2111
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 2033
   },
   {
     "id": "hku",
@@ -100,8 +100,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 1119
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 868
   },
   {
     "id": "hkust-math",
@@ -110,11 +110,11 @@
     "url": "https://www.math.hkust.edu.hk/employment/",
     "trust": "official",
     "sourceType": "university",
-    "status": "error",
-    "message": "fetch failed",
-    "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 10029
+    "status": "ok",
+    "message": "3 candidates",
+    "count": 3,
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 689
   },
   {
     "id": "cuhk-math",
@@ -126,8 +126,8 @@
     "status": "error",
     "message": "fetch failed",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 1072
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 1013
   },
   {
     "id": "nus",
@@ -139,8 +139,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 1348
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 1177
   },
   {
     "id": "ntu",
@@ -152,8 +152,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 818
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 744
   },
   {
     "id": "astar",
@@ -165,8 +165,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 1305
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 1197
   },
   {
     "id": "chinapostdoctor",
@@ -178,8 +178,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 1076
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 1104
   },
   {
     "id": "gaoxiaojob",
@@ -191,8 +191,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 1812
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 1534
   },
   {
     "id": "microsoft-research",
@@ -204,8 +204,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 884
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 792
   },
   {
     "id": "google-research",
@@ -217,8 +217,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 319
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 157
   },
   {
     "id": "deepmind",
@@ -230,8 +230,8 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 411
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 324
   },
   {
     "id": "huawei-noah",
@@ -243,8 +243,8 @@
     "status": "error",
     "message": "fetch failed",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 1654
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 1029
   },
   {
     "id": "bytedance-seed",
@@ -256,7 +256,7 @@
     "status": "no_candidates",
     "message": "0 candidates",
     "count": 0,
-    "checkedAt": "2026-09-02T05:47:47.222Z",
-    "latencyMs": 930
+    "checkedAt": "2026-09-03T05:45:28.536Z",
+    "latencyMs": 1422
   }
 ]
