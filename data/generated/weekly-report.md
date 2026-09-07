@@ -1,18 +1,18 @@
-# 职业雷达周报 · 2026-08-31
+# 职业雷达周报 · 2026-09-07
 
-- 本周新增：2
+- 本周新增：0
 - 本周更新：0
-- 本周失效：0
+- 本周失效：2
 - A/B 高匹配：3
-- 30 天内截止：4
+- 30 天内截止：3
 - 学术候选池：132
-- 完整公开档案：131
+- 完整公开档案：130
 - 导师组 / 青年学者：52 / 84
 
 ## 本周变化
 
-- **本周新增** [Postdoctoral Positions in Mathematics and Stochastics](https://www.jobs.ac.uk/job/DSS937/postdoctoral-positions-in-mathematics-and-stochastics) · jobs.ac.uk Mathematics · United Kingdom · C 48
-- **本周新增** [Faculty Position in Applied Mathematics (Full Rank)](https://www.jobs.ac.uk/job/DSS252/faculty-position-in-applied-mathematics-full-rank) · jobs.ac.uk Mathematics · United Kingdom · C 43
+- **已失效/已截止** [Postdoctoral Positions in Mathematics and Stochastics](https://www.jobs.ac.uk/job/DSS937/postdoctoral-positions-in-mathematics-and-stochastics) · jobs.ac.uk Mathematics · United Kingdom · C 48
+- **已失效/已截止** [Faculty Position in Applied Mathematics (Full Rank)](https://www.jobs.ac.uk/job/DSS252/faculty-position-in-applied-mathematics-full-rank) · jobs.ac.uk Mathematics · United Kingdom · C 43
 
 ## 学术人物建设
 
@@ -35,7 +35,7 @@
 
 ## 数据源状态
 
-- 正常或有结果：4/20
+- 正常或有结果：2/20
 - 抓取失败：Academic Positions · HTTP 403
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed

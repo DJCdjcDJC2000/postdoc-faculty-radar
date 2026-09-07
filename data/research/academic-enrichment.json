@@ -6577,7 +6577,7 @@
       },
       "authorVerification": {
         "status": "cross_source_checked",
-        "checkedAt": "2026-08-31T06:56:53.395Z",
+        "checkedAt": "2026-09-07T05:58:18.535Z",
         "orcid": {
           "id": "0000-0003-0481-272X",
           "url": "https://orcid.org/0000-0003-0481-272X",
@@ -25236,15 +25236,15 @@
       },
       "authorVerification": {
         "status": "cross_source_checked",
-        "checkedAt": "2026-08-31T06:56:53.788Z",
+        "checkedAt": "2026-09-07T05:58:18.903Z",
         "orcid": {
           "id": "0000-0001-6833-5227",
           "url": "https://orcid.org/0000-0001-6833-5227",
-          "recordCount": 493
+          "recordCount": 494
         },
         "crossref": {
           "query": "orcid:0000-0001-6833-5227",
-          "worksCount": 160,
+          "worksCount": 161,
           "url": "https://api.crossref.org/works?filter=orcid:0000-0001-6833-5227&rows=0"
         },
         "warnings": [
@@ -28629,7 +28629,7 @@
       },
       "authorVerification": {
         "status": "cross_source_checked",
-        "checkedAt": "2026-08-31T06:56:54.684Z",
+        "checkedAt": "2026-09-07T05:58:20.247Z",
         "orcid": {
           "id": "0000-0001-9798-2482",
           "url": "https://orcid.org/0000-0001-9798-2482",
