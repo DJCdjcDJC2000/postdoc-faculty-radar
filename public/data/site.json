@@ -50,12 +50,12 @@
     }
   },
   "metadata": {
-    "generatedAt": "2026-09-11T05:56:23.388Z",
+    "generatedAt": "2026-09-12T05:45:23.810Z",
     "offline": false,
-    "jobCount": 31,
+    "jobCount": 33,
     "alertCount": 3,
     "sourceCount": 20,
-    "builtAt": "2026-09-11T05:56:43.640Z",
+    "builtAt": "2026-09-12T05:45:43.107Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -80,13 +80,13 @@
   },
   "metrics": {
     "totalJobs": 8,
-    "archivedJobs": 23,
+    "archivedJobs": 25,
     "newJobs": 2,
     "updatedJobs": 0,
-    "expiredJobs": 1,
+    "expiredJobs": 3,
     "highMatchJobs": 3,
     "dueSoonJobs": 4,
-    "activeSources": 3,
+    "activeSources": 2,
     "totalSources": 20,
     "peopleCount": 14,
     "targetLabs": 24,
@@ -126,7 +126,7 @@
       "trust": "lead",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-09-11T05:56:23.388Z",
+      "createdAt": "2026-09-12T05:45:23.810Z",
       "id": "c4f0adb87a8dfd89",
       "matchScore": 100,
       "priority": "A",
@@ -147,11 +147,11 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "线索待核验",
       "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-      "updatedAt": "2026-09-11T05:56:23.388Z",
+      "updatedAt": "2026-09-12T05:45:23.810Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-09-11T05:56:23.388Z",
+      "lastSeenAt": "2026-09-12T05:45:23.810Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -200,7 +200,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-09-11T05:56:23.388Z",
+      "createdAt": "2026-09-12T05:45:23.810Z",
       "id": "1411a9a5c5c5768d",
       "matchScore": 74,
       "priority": "B",
@@ -213,11 +213,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-      "updatedAt": "2026-09-11T05:56:23.388Z",
+      "updatedAt": "2026-09-12T05:45:23.810Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-09-11T05:56:23.388Z",
+      "lastSeenAt": "2026-09-12T05:45:23.810Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -478,7 +478,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-09-11T05:56:23.388Z",
+      "createdAt": "2026-09-12T05:45:23.810Z",
       "id": "576a05e8b695f331",
       "matchScore": 64,
       "priority": "B",
@@ -488,11 +488,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Fellowship",
-      "updatedAt": "2026-09-11T05:56:23.388Z",
+      "updatedAt": "2026-09-12T05:45:23.810Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-09-11T05:56:23.388Z",
+      "lastSeenAt": "2026-09-12T05:45:23.810Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -540,7 +540,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-09-11T05:56:23.388Z",
+      "createdAt": "2026-09-12T05:45:23.810Z",
       "id": "bbac44b5da0bc36a",
       "matchScore": 64,
       "priority": "B",
@@ -550,11 +550,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Singapore · Fellowship",
-      "updatedAt": "2026-09-11T05:56:23.388Z",
+      "updatedAt": "2026-09-12T05:45:23.810Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-09-11T05:56:23.388Z",
+      "lastSeenAt": "2026-09-12T05:45:23.810Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -746,7 +746,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-09-11T05:56:23.388Z",
+      "createdAt": "2026-09-12T05:45:23.810Z",
       "id": "e1e5047f5f87635e",
       "matchScore": 59,
       "priority": "C",
@@ -756,11 +756,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship",
-      "updatedAt": "2026-09-11T05:56:23.388Z",
+      "updatedAt": "2026-09-12T05:45:23.810Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-09-11T05:56:23.388Z",
+      "lastSeenAt": "2026-09-12T05:45:23.810Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -864,6 +864,69 @@
         "type": "expired",
         "labelZh": "已失效/已截止",
         "highlighted": false
+      }
+    },
+    {
+      "title": "Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics",
+      "institution": "jobs.ac.uk Mathematics",
+      "department": "",
+      "region": "United Kingdom",
+      "country": "United Kingdom",
+      "roleType": "postdoc",
+      "track": "academia",
+      "sourceName": "jobs.ac.uk Mathematics",
+      "sourceId": "jobs-ac-uk",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DSX108/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics",
+      "originalSourceUrl": "https://www.jobs.ac.uk/search/mathematics-and-statistics",
+      "description": "Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics Department of Mathematics Imperial College London Location: London Salary: £70,718 to £94,829 Date Placed: 11 Sep https://www.jobs.ac.uk/job/DSX108/assistant-associate-full-professor-in-applied-mathemat",
+      "keywords": [
+        "applied mathematics"
+      ],
+      "deadline": null,
+      "fieldRelevantSource": true,
+      "status": "active",
+      "trust": "academic_board",
+      "fetchedAt": "2026-09-12T05:45:23.810Z",
+      "id": "293ca94fefb2bf51",
+      "matchScore": 54,
+      "priority": "C",
+      "matchedKeywords": [
+        "applied mathematics",
+        "statistics"
+      ],
+      "negativeKeywords": [],
+      "relevance": "core",
+      "roleLabelZh": "博后",
+      "sourceTrustLabelZh": "权威平台",
+      "simpleReason": "United Kingdom · 博后 · applied mathematics / statistics",
+      "updatedAt": "2026-09-12T05:45:23.810Z",
+      "lifecycleStatus": "active",
+      "lifecycleLabelZh": "当前有效",
+      "firstSeenAt": "2026-09-12T05:45:23.810Z",
+      "lastSeenAt": "2026-09-12T05:45:23.810Z",
+      "lastChangedAt": "2026-09-12T05:45:23.810Z",
+      "changeType": "new",
+      "archivedAt": null,
+      "stale": false,
+      "ai": {
+        "status": "rule_fallback",
+        "notice": "AI 辅助生成，需核验",
+        "summaryZh": "United Kingdom · 博后 · applied mathematics / statistics",
+        "tagsZh": [
+          "applied mathematics",
+          "statistics"
+        ],
+        "positiveZh": [
+          "United Kingdom · 博后 · applied mathematics / statistics"
+        ],
+        "negativeZh": [],
+        "riskZh": "需打开官方原始链接核验岗位细节。",
+        "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
       }
     },
     {
@@ -1091,7 +1154,7 @@
       ],
       "deadline": null,
       "fieldRelevantSource": true,
-      "status": "active",
+      "status": "expired",
       "trust": "academic_board",
       "fetchedAt": "2026-09-11T05:56:23.388Z",
       "id": "cb31463045082ca0",
@@ -1107,13 +1170,13 @@
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "United Kingdom · Research Fellow · applied mathematics / machine learning",
       "updatedAt": "2026-09-11T05:56:23.388Z",
-      "lifecycleStatus": "active",
-      "lifecycleLabelZh": "当前有效",
+      "lifecycleStatus": "expired",
+      "lifecycleLabelZh": "已失效/已截止",
       "firstSeenAt": "2026-09-09T05:57:58.279Z",
       "lastSeenAt": "2026-09-11T05:56:23.388Z",
-      "lastChangedAt": "2026-09-09T05:57:58.279Z",
-      "changeType": "new",
-      "archivedAt": null,
+      "lastChangedAt": "2026-09-12T05:45:23.810Z",
+      "changeType": "expired",
+      "archivedAt": "2026-09-12T05:45:23.810Z",
       "stale": false,
       "ai": {
         "status": "rule_fallback",
@@ -1131,8 +1194,8 @@
         "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
       },
       "freshness": {
-        "type": "new",
-        "labelZh": "本周新增",
+        "type": "expired",
+        "labelZh": "已失效/已截止",
         "highlighted": true
       }
     },
@@ -1421,6 +1484,67 @@
       }
     },
     {
+      "title": "Chapman Fellowships in Mathematics (Applied Mathematics Section)",
+      "institution": "jobs.ac.uk Mathematics",
+      "department": "",
+      "region": "United Kingdom",
+      "country": "United Kingdom",
+      "roleType": "fellowship",
+      "track": "academia",
+      "sourceName": "jobs.ac.uk Mathematics",
+      "sourceId": "jobs-ac-uk",
+      "sourceUrl": "https://www.jobs.ac.uk/job/DSX287/chapman-fellowships-in-mathematics-applied-mathematics-section",
+      "originalSourceUrl": "https://www.jobs.ac.uk/search/mathematics-and-statistics",
+      "description": "Chapman Fellowships in Mathematics (Applied Mathematics Section) Chapman Fellowships in Mathematics (Applied Mathematics Section) Department of Mathematics Imperial College London Location: London, Hybrid Salary: £50,733 to £59,484 Research Family, Research Associate, per annum Date Placed: 11 Sep https://www.jobs.ac.uk/job/DSX287/chapman-fellowships-in-mathematics-applied-mathematics-section",
+      "keywords": [
+        "applied mathematics"
+      ],
+      "deadline": null,
+      "fieldRelevantSource": true,
+      "status": "active",
+      "trust": "academic_board",
+      "fetchedAt": "2026-09-12T05:45:23.810Z",
+      "id": "6f106c7cdc9a6e9a",
+      "matchScore": 48,
+      "priority": "C",
+      "matchedKeywords": [
+        "applied mathematics"
+      ],
+      "negativeKeywords": [],
+      "relevance": "core",
+      "roleLabelZh": "Fellowship",
+      "sourceTrustLabelZh": "权威平台",
+      "simpleReason": "United Kingdom · Fellowship · applied mathematics",
+      "updatedAt": "2026-09-12T05:45:23.810Z",
+      "lifecycleStatus": "active",
+      "lifecycleLabelZh": "当前有效",
+      "firstSeenAt": "2026-09-12T05:45:23.810Z",
+      "lastSeenAt": "2026-09-12T05:45:23.810Z",
+      "lastChangedAt": "2026-09-12T05:45:23.810Z",
+      "changeType": "new",
+      "archivedAt": null,
+      "stale": false,
+      "ai": {
+        "status": "rule_fallback",
+        "notice": "AI 辅助生成，需核验",
+        "summaryZh": "United Kingdom · Fellowship · applied mathematics",
+        "tagsZh": [
+          "applied mathematics"
+        ],
+        "positiveZh": [
+          "United Kingdom · Fellowship · applied mathematics"
+        ],
+        "negativeZh": [],
+        "riskZh": "需打开官方原始链接核验岗位细节。",
+        "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
+      }
+    },
+    {
       "title": "Postdoctoral Research Associate in Mathematical Modelling of Batteries",
       "institution": "jobs.ac.uk Mathematics",
       "department": "",
@@ -1436,7 +1560,7 @@
       "keywords": [],
       "deadline": null,
       "fieldRelevantSource": true,
-      "status": "active",
+      "status": "expired",
       "trust": "academic_board",
       "fetchedAt": "2026-09-11T05:56:23.388Z",
       "id": "415aa871ab67ecd0",
@@ -1449,13 +1573,13 @@
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "United Kingdom · 博后",
       "updatedAt": "2026-09-11T05:56:23.388Z",
-      "lifecycleStatus": "active",
-      "lifecycleLabelZh": "当前有效",
+      "lifecycleStatus": "expired",
+      "lifecycleLabelZh": "已失效/已截止",
       "firstSeenAt": "2026-09-09T05:57:58.279Z",
       "lastSeenAt": "2026-09-11T05:56:23.388Z",
-      "lastChangedAt": "2026-09-09T05:57:58.279Z",
-      "changeType": "new",
-      "archivedAt": null,
+      "lastChangedAt": "2026-09-12T05:45:23.810Z",
+      "changeType": "expired",
+      "archivedAt": "2026-09-12T05:45:23.810Z",
       "stale": false,
       "ai": {
         "status": "rule_fallback",
@@ -1470,8 +1594,8 @@
         "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
       },
       "freshness": {
-        "type": "new",
-        "labelZh": "本周新增",
+        "type": "expired",
+        "labelZh": "已失效/已截止",
         "highlighted": true
       }
     },
@@ -1779,7 +1903,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "official",
-      "fetchedAt": "2026-09-11T05:56:23.388Z",
+      "fetchedAt": "2026-09-12T05:45:23.810Z",
       "id": "8f0378d469afbb63",
       "matchScore": 45,
       "priority": "C",
@@ -1791,14 +1915,14 @@
       "roleLabelZh": "Research Fellow",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Research Fellow",
-      "updatedAt": "2026-09-11T05:56:23.388Z",
+      "updatedAt": "2026-09-12T05:45:23.810Z",
       "stale": false,
       "changeType": null,
       "sourceId": "hkust-math",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-09-11T05:56:23.388Z",
+      "lastSeenAt": "2026-09-12T05:45:23.810Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "ai": {
@@ -83100,7 +83224,7 @@
           "Global PF 只面向欧盟/关联国国民或长期居民；当前应关注 European PF",
           "2026 起低于 80 分的重投受到限制"
         ],
-        "deadlineDays": -1,
+        "deadlineDays": -2,
         "lifecycle": "future"
       },
       {
@@ -83295,7 +83419,7 @@
           "host 每轮只能支持一名候选人",
           "候选人与 host 不应已有过度紧密合作"
         ],
-        "deadlineDays": -9,
+        "deadlineDays": -10,
         "lifecycle": "future"
       },
       {
@@ -83380,7 +83504,7 @@
           "必须先找到研究方向匹配的 KAUST host",
           "截止日期按官网年度节奏记录，申请前需重新核验当年 call"
         ],
-        "deadlineDays": 21,
+        "deadlineDays": 20,
         "lifecycle": "future"
       },
       {
@@ -83422,7 +83546,7 @@
           "需要两页 AI-integrated 研究计划和 NTU mentor 支持",
           "当前主论文仍需先建立核心数学贡献"
         ],
-        "deadlineDays": 50,
+        "deadlineDays": 49,
         "lifecycle": "future"
       },
       {
@@ -83502,7 +83626,7 @@
           "当前周期博士完成窗口不匹配，目标应是 2029 对应轮次",
           "无正式 host 要求不等于无需展示 Berkeley 研究连接"
         ],
-        "deadlineDays": 0,
+        "deadlineDays": -1,
         "lifecycle": "watch"
       },
       {
@@ -84106,7 +84230,7 @@
           "不是常规延续博士论文的项目",
           "需要强跨学科叙事和独立愿景"
         ],
-        "deadlineDays": 127,
+        "deadlineDays": 126,
         "lifecycle": "upcoming"
       },
       {
@@ -84185,7 +84309,7 @@
           "申请前需单独核验签证、旅行与安全条件",
           "当前轮次不适用于 2029 毕业时间，仅用于周期建模"
         ],
-        "deadlineDays": 62,
+        "deadlineDays": 61,
         "lifecycle": "watch"
       },
       {
@@ -84626,7 +84750,7 @@
           "当前并非直接可申请",
           "Ambizione 将结束，2028 新计划规则尚未公布"
         ],
-        "deadlineDays": 54,
+        "deadlineDays": 53,
         "lifecycle": "ineligible"
       },
       {
@@ -85424,8 +85548,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 450
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 342
     },
     {
       "id": "academic-positions",
@@ -85437,8 +85561,8 @@
       "status": "error",
       "message": "HTTP 403",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 84
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 94
     },
     {
       "id": "academic-transfer",
@@ -85450,8 +85574,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 1143
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 1355
     },
     {
       "id": "mathjobs",
@@ -85460,11 +85584,11 @@
       "url": "https://www.mathjobs.org/jobs",
       "trust": "academic_board",
       "sourceType": "academic_board",
-      "status": "ok",
-      "message": "2 candidates",
-      "count": 2,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 355
+      "status": "no_candidates",
+      "message": "0 candidates",
+      "count": 0,
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 878
     },
     {
       "id": "academic-jobs-online",
@@ -85476,8 +85600,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 490
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 569
     },
     {
       "id": "jobs-ac-uk",
@@ -85487,10 +85611,10 @@
       "trust": "academic_board",
       "sourceType": "academic_board",
       "status": "ok",
-      "message": "12 candidates",
-      "count": 12,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 1287
+      "message": "14 candidates",
+      "count": 14,
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 2471
     },
     {
       "id": "polyu",
@@ -85502,8 +85626,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 2457
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 2031
     },
     {
       "id": "hku",
@@ -85515,8 +85639,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 1212
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 1197
     },
     {
       "id": "hkust-math",
@@ -85528,8 +85652,8 @@
       "status": "ok",
       "message": "3 candidates",
       "count": 3,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 779
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 729
     },
     {
       "id": "cuhk-math",
@@ -85541,8 +85665,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 966
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 842
     },
     {
       "id": "nus",
@@ -85554,8 +85678,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 1641
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 1129
     },
     {
       "id": "ntu",
@@ -85567,8 +85691,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 747
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 749
     },
     {
       "id": "astar",
@@ -85580,8 +85704,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 1470
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 1135
     },
     {
       "id": "chinapostdoctor",
@@ -85593,8 +85717,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 948
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 1172
     },
     {
       "id": "gaoxiaojob",
@@ -85606,8 +85730,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 1803
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 1555
     },
     {
       "id": "microsoft-research",
@@ -85619,8 +85743,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 798
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 754
     },
     {
       "id": "google-research",
@@ -85632,8 +85756,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 214
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 157
     },
     {
       "id": "deepmind",
@@ -85645,8 +85769,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 478
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 391
     },
     {
       "id": "huawei-noah",
@@ -85658,8 +85782,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 1052
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 837
     },
     {
       "id": "bytedance-seed",
@@ -85671,8 +85795,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-09-11T05:56:23.388Z",
-      "latencyMs": 1681
+      "checkedAt": "2026-09-12T05:45:23.810Z",
+      "latencyMs": 719
     }
   ],
   "reports": [
@@ -85703,11 +85827,63 @@
   ],
   "updates": {
     "windowDays": 7,
-    "generatedAt": "2026-09-11T05:56:43.640Z",
+    "generatedAt": "2026-09-12T05:45:43.107Z",
     "newCount": 2,
     "updatedCount": 0,
-    "expiredCount": 1,
+    "expiredCount": 3,
     "items": [
+      {
+        "id": "293ca94fefb2bf51",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics",
+        "organization": "jobs.ac.uk Mathematics",
+        "region": "United Kingdom",
+        "priority": "C",
+        "score": 54,
+        "sourceUrl": "https://www.jobs.ac.uk/job/DSX108/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics",
+        "changedAt": "2026-09-12T05:45:23.810Z"
+      },
+      {
+        "id": "cb31463045082ca0",
+        "kind": "job",
+        "type": "expired",
+        "labelZh": "已失效/已截止",
+        "title": "Research Associate in Machine Learning for Astronomical Imaging (Fixed Term)",
+        "organization": "jobs.ac.uk Mathematics",
+        "region": "United Kingdom",
+        "priority": "C",
+        "score": 51,
+        "sourceUrl": "https://www.jobs.ac.uk/job/DSV955/research-associate-in-machine-learning-for-astronomical-imaging-fixed-term",
+        "changedAt": "2026-09-12T05:45:23.810Z"
+      },
+      {
+        "id": "6f106c7cdc9a6e9a",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "Chapman Fellowships in Mathematics (Applied Mathematics Section)",
+        "organization": "jobs.ac.uk Mathematics",
+        "region": "United Kingdom",
+        "priority": "C",
+        "score": 48,
+        "sourceUrl": "https://www.jobs.ac.uk/job/DSX287/chapman-fellowships-in-mathematics-applied-mathematics-section",
+        "changedAt": "2026-09-12T05:45:23.810Z"
+      },
+      {
+        "id": "415aa871ab67ecd0",
+        "kind": "job",
+        "type": "expired",
+        "labelZh": "已失效/已截止",
+        "title": "Postdoctoral Research Associate in Mathematical Modelling of Batteries",
+        "organization": "jobs.ac.uk Mathematics",
+        "region": "United Kingdom",
+        "priority": "C",
+        "score": 48,
+        "sourceUrl": "https://www.jobs.ac.uk/job/DSV946/postdoctoral-research-associate-in-mathematical-modelling-of-batteries",
+        "changedAt": "2026-09-12T05:45:23.810Z"
+      },
       {
         "id": "a68b0148b8566f13",
         "kind": "job",
@@ -85720,32 +85896,6 @@
         "score": 72,
         "sourceUrl": "https://euraxess.ec.europa.eu/jobs/464481",
         "changedAt": "2026-09-10T05:57:05.267Z"
-      },
-      {
-        "id": "cb31463045082ca0",
-        "kind": "job",
-        "type": "new",
-        "labelZh": "本周新增",
-        "title": "Research Associate in Machine Learning for Astronomical Imaging (Fixed Term)",
-        "organization": "jobs.ac.uk Mathematics",
-        "region": "United Kingdom",
-        "priority": "C",
-        "score": 51,
-        "sourceUrl": "https://www.jobs.ac.uk/job/DSV955/research-associate-in-machine-learning-for-astronomical-imaging-fixed-term",
-        "changedAt": "2026-09-09T05:57:58.279Z"
-      },
-      {
-        "id": "415aa871ab67ecd0",
-        "kind": "job",
-        "type": "new",
-        "labelZh": "本周新增",
-        "title": "Postdoctoral Research Associate in Mathematical Modelling of Batteries",
-        "organization": "jobs.ac.uk Mathematics",
-        "region": "United Kingdom",
-        "priority": "C",
-        "score": 48,
-        "sourceUrl": "https://www.jobs.ac.uk/job/DSV946/postdoctoral-research-associate-in-mathematical-modelling-of-batteries",
-        "changedAt": "2026-09-09T05:57:58.279Z"
       }
     ]
   },
@@ -85771,7 +85921,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-09-11T05:56:23.388Z",
+        "createdAt": "2026-09-12T05:45:23.810Z",
         "id": "1411a9a5c5c5768d",
         "matchScore": 74,
         "priority": "B",
@@ -85784,11 +85934,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-        "updatedAt": "2026-09-11T05:56:23.388Z",
+        "updatedAt": "2026-09-12T05:45:23.810Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-09-11T05:56:23.388Z",
+        "lastSeenAt": "2026-09-12T05:45:23.810Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -85836,7 +85986,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-09-11T05:56:23.388Z",
+        "createdAt": "2026-09-12T05:45:23.810Z",
         "id": "576a05e8b695f331",
         "matchScore": 64,
         "priority": "B",
@@ -85846,11 +85996,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Hong Kong · Fellowship",
-        "updatedAt": "2026-09-11T05:56:23.388Z",
+        "updatedAt": "2026-09-12T05:45:23.810Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-09-11T05:56:23.388Z",
+        "lastSeenAt": "2026-09-12T05:45:23.810Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -85898,7 +86048,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-09-11T05:56:23.388Z",
+        "createdAt": "2026-09-12T05:45:23.810Z",
         "id": "bbac44b5da0bc36a",
         "matchScore": 64,
         "priority": "B",
@@ -85908,11 +86058,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Singapore · Fellowship",
-        "updatedAt": "2026-09-11T05:56:23.388Z",
+        "updatedAt": "2026-09-12T05:45:23.810Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-09-11T05:56:23.388Z",
+        "lastSeenAt": "2026-09-12T05:45:23.810Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -85959,7 +86109,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-09-11T05:56:23.388Z",
+        "createdAt": "2026-09-12T05:45:23.810Z",
         "id": "e1e5047f5f87635e",
         "matchScore": 59,
         "priority": "C",
@@ -85969,11 +86119,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship",
-        "updatedAt": "2026-09-11T05:56:23.388Z",
+        "updatedAt": "2026-09-12T05:45:23.810Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-09-11T05:56:23.388Z",
+        "lastSeenAt": "2026-09-12T05:45:23.810Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -86009,6 +86159,67 @@
           "depth": 1
         },
         "freshness": null
+      },
+      {
+        "title": "Chapman Fellowships in Mathematics (Applied Mathematics Section)",
+        "institution": "jobs.ac.uk Mathematics",
+        "department": "",
+        "region": "United Kingdom",
+        "country": "United Kingdom",
+        "roleType": "fellowship",
+        "track": "academia",
+        "sourceName": "jobs.ac.uk Mathematics",
+        "sourceId": "jobs-ac-uk",
+        "sourceUrl": "https://www.jobs.ac.uk/job/DSX287/chapman-fellowships-in-mathematics-applied-mathematics-section",
+        "originalSourceUrl": "https://www.jobs.ac.uk/search/mathematics-and-statistics",
+        "description": "Chapman Fellowships in Mathematics (Applied Mathematics Section) Chapman Fellowships in Mathematics (Applied Mathematics Section) Department of Mathematics Imperial College London Location: London, Hybrid Salary: £50,733 to £59,484 Research Family, Research Associate, per annum Date Placed: 11 Sep https://www.jobs.ac.uk/job/DSX287/chapman-fellowships-in-mathematics-applied-mathematics-section",
+        "keywords": [
+          "applied mathematics"
+        ],
+        "deadline": null,
+        "fieldRelevantSource": true,
+        "status": "active",
+        "trust": "academic_board",
+        "fetchedAt": "2026-09-12T05:45:23.810Z",
+        "id": "6f106c7cdc9a6e9a",
+        "matchScore": 48,
+        "priority": "C",
+        "matchedKeywords": [
+          "applied mathematics"
+        ],
+        "negativeKeywords": [],
+        "relevance": "core",
+        "roleLabelZh": "Fellowship",
+        "sourceTrustLabelZh": "权威平台",
+        "simpleReason": "United Kingdom · Fellowship · applied mathematics",
+        "updatedAt": "2026-09-12T05:45:23.810Z",
+        "lifecycleStatus": "active",
+        "lifecycleLabelZh": "当前有效",
+        "firstSeenAt": "2026-09-12T05:45:23.810Z",
+        "lastSeenAt": "2026-09-12T05:45:23.810Z",
+        "lastChangedAt": "2026-09-12T05:45:23.810Z",
+        "changeType": "new",
+        "archivedAt": null,
+        "stale": false,
+        "ai": {
+          "status": "rule_fallback",
+          "notice": "AI 辅助生成，需核验",
+          "summaryZh": "United Kingdom · Fellowship · applied mathematics",
+          "tagsZh": [
+            "applied mathematics"
+          ],
+          "positiveZh": [
+            "United Kingdom · Fellowship · applied mathematics"
+          ],
+          "negativeZh": [],
+          "riskZh": "需打开官方原始链接核验岗位细节。",
+          "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+        },
+        "freshness": {
+          "type": "new",
+          "labelZh": "本周新增",
+          "highlighted": true
+        }
       }
     ],
     "deadlines": [],
