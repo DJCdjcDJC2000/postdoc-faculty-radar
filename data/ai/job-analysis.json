@@ -2744,5 +2744,148 @@
     "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
     "nextStepZh": "访问jobs.ac.uk查看详细职位描述和申请要求。",
     "depth": "basic"
+  },
+  "a68b0148b8566f13": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-14T06:06:15.804Z",
+    "jobFingerprint": "B|72|Europe · 博后 · reinforcement learning / machine learning|core|reinforcement learning|machine learning|statistics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "该岗位为欧洲地区为期3年的博士后职位，研究方向为因果机器学习与强化学习的交叉领域，具体聚焦于通过机器学习与统计学的交叉融合，在因果推断和强化学习方面进行算法改进。招聘信息来自EURAXESS Jobs，截止日期为2026年9月27日。",
+    "tagsZh": [
+      "博士后",
+      "因果机器学习",
+      "强化学习",
+      "机器学习",
+      "统计学",
+      "算法改进"
+    ],
+    "positiveZh": [
+      "研究方向明确，聚焦因果推断与强化学习的算法改进，属于机器学习与统计学交叉前沿领域",
+      "岗位期限为3年，博士后阶段相对稳定",
+      "招聘信息发布于EURAXESS Jobs，为欧洲官方学术招聘平台，来源较可靠",
+      "匹配关键词包括强化学习、机器学习、统计学，与岗位描述高度一致"
+    ],
+    "negativeZh": [
+      "岗位描述信息不完整，具体工作地点仅显示为Nu，未明确具体国家或城市",
+      "未提供薪资待遇、福利、申请材料要求等关键信息",
+      "未说明所属院系、导师团队或具体研究项目背景",
+      "截止日期为2026年9月27日，距今时间较长，岗位可能尚未进入实质招聘阶段或信息可能更新"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
+    "depth": "basic"
+  },
+  "293ca94fefb2bf51": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-14T06:06:15.804Z",
+    "jobFingerprint": "C|54|United Kingdom · 博后 · applied mathematics / statistics|core|applied mathematics|statistics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "帝国理工学院数学系招聘应用数学与数学物理、统计学、数学金融或纯数学方向的助理/副教授/正教授，工作地点伦敦，薪资区间为70,718至94,829英镑，信息发布于9月11日，未提供截止日期。",
+    "tagsZh": [
+      "英国",
+      "高校教职",
+      "数学",
+      "统计学",
+      "应用数学",
+      "数学物理"
+    ],
+    "positiveZh": [
+      "帝国理工学院为英国知名高校，平台与学术声誉较强",
+      "薪资区间明确，上限较高",
+      "覆盖多个数学相关方向，方向选择较广"
+    ],
+    "negativeZh": [
+      "岗位为教授序列，通常对科研与教学资历要求较高",
+      "未提供截止日期，时间安排不明确",
+      "原始信息较简略，缺少具体职责、招聘条件与申请流程"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "basic"
+  },
+  "cb31463045082ca0": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-14T06:06:15.804Z",
+    "jobFingerprint": "C|51|United Kingdom · Research Fellow · applied mathematics / machine learning|core|applied mathematics|machine learning",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "剑桥大学应用数学与理论物理系招聘机器学习用于天文成像方向的研究助理（固定期限），薪资约3.77万至4.60万英镑/年，发布于jobs.ac.uk数学板块。",
+    "tagsZh": [
+      "研究助理",
+      "机器学习",
+      "天文成像",
+      "应用数学",
+      "剑桥大学",
+      "英国"
+    ],
+    "positiveZh": [
+      "依托剑桥大学应用数学与理论物理系，学术平台与资源较强",
+      "研究方向结合机器学习与天文成像，属于交叉学科前沿方向",
+      "薪资区间明确，约£37,694至£46,049每年"
+    ],
+    "negativeZh": [
+      "岗位为固定期限（Fixed Term），非长期稳定职位",
+      "公开信息未提供申请截止日期",
+      "公开信息未提供具体职责、任职要求与团队细节"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "brief"
+  },
+  "6f106c7cdc9a6e9a": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-14T06:06:15.804Z",
+    "jobFingerprint": "C|48|United Kingdom · Fellowship · applied mathematics|core|applied mathematics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "帝国理工学院数学系（应用数学方向）招聘 Chapman Fellowships 数学研究员，工作地点伦敦，支持混合办公，薪资为每年 50,733 至 59,484 英镑，属于研究系列岗位。",
+    "tagsZh": [
+      "应用数学",
+      "博士后/研究员",
+      "英国",
+      "伦敦",
+      "帝国理工学院",
+      "混合办公"
+    ],
+    "positiveZh": [
+      "依托帝国理工学院数学系，机构与研究环境具有较高声誉",
+      "薪资区间明确，为 50,733 至 59,484 英镑/年",
+      "岗位方向与应用数学匹配，关键词命中 applied mathematics",
+      "支持混合办公，工作地点在伦敦"
+    ],
+    "negativeZh": [
+      "岗位信息未提供申请截止日期",
+      "岗位描述较简略，未列出具体研究方向、教学任务或申请材料要求",
+      "未提供院系内部具体课题组或合作导师信息"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "basic"
+  },
+  "415aa871ab67ecd0": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-14T06:06:15.804Z",
+    "jobFingerprint": "C|48|United Kingdom · 博后|field_source",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "牛津大学数学研究所招聘电池数学建模方向博士后研究助理（Postdoctoral Research Associate），工作地点英国牛津，年薪£41,636至£47,779，发布于jobs.ac.uk数学板块，未提供截止日期。",
+    "tagsZh": [
+      "博士后",
+      "数学建模",
+      "电池",
+      "牛津大学",
+      "英国",
+      "数学研究所"
+    ],
+    "positiveZh": [
+      "依托牛津大学数学研究所，学术平台与声誉较高",
+      "薪资区间明确（£41,636–£47,779）",
+      "研究方向为电池数学建模，属于应用数学与能源交叉领域"
+    ],
+    "negativeZh": [
+      "岗位信息中未提供截止日期",
+      "未列出具体任职要求、职责描述与合同期限",
+      "未说明是否涉及实验、合作团队或资助来源"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "basic"
   }
 }

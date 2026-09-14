@@ -1,18 +1,21 @@
-# 职业雷达周报 · 2026-09-07
+# 职业雷达周报 · 2026-09-14
 
-- 本周新增：0
+- 本周新增：2
 - 本周更新：0
-- 本周失效：2
+- 本周失效：3
 - A/B 高匹配：3
-- 30 天内截止：3
+- 30 天内截止：4
 - 学术候选池：132
 - 完整公开档案：130
 - 导师组 / 青年学者：52 / 84
 
 ## 本周变化
 
-- **已失效/已截止** [Postdoctoral Positions in Mathematics and Stochastics](https://www.jobs.ac.uk/job/DSS937/postdoctoral-positions-in-mathematics-and-stochastics) · jobs.ac.uk Mathematics · United Kingdom · C 48
-- **已失效/已截止** [Faculty Position in Applied Mathematics (Full Rank)](https://www.jobs.ac.uk/job/DSS252/faculty-position-in-applied-mathematics-full-rank) · jobs.ac.uk Mathematics · United Kingdom · C 43
+- **本周新增** [Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics](https://www.jobs.ac.uk/job/DSX108/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 54
+- **已失效/已截止** [Research Associate in Machine Learning for Astronomical Imaging (Fixed Term)](https://www.jobs.ac.uk/job/DSV955/research-associate-in-machine-learning-for-astronomical-imaging-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 51
+- **本周新增** [Chapman Fellowships in Mathematics (Applied Mathematics Section)](https://www.jobs.ac.uk/job/DSX287/chapman-fellowships-in-mathematics-applied-mathematics-section) · jobs.ac.uk Mathematics · United Kingdom · C 48
+- **已失效/已截止** [Postdoctoral Research Associate in Mathematical Modelling of Batteries](https://www.jobs.ac.uk/job/DSV946/postdoctoral-research-associate-in-mathematical-modelling-of-batteries) · jobs.ac.uk Mathematics · United Kingdom · C 48
+- **已失效/已截止** [PostDoc in Causal Machine Learning and Reinforcement Learning (3 years)](https://euraxess.ec.europa.eu/jobs/464481) · EURAXESS Jobs · Europe · B 72
 
 ## 学术人物建设
 

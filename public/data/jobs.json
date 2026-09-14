@@ -23,7 +23,7 @@
     "trust": "lead",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-09-13T06:06:23.951Z",
+    "createdAt": "2026-09-14T06:05:53.167Z",
     "id": "c4f0adb87a8dfd89",
     "matchScore": 100,
     "priority": "A",
@@ -44,11 +44,11 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "线索待核验",
     "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-    "updatedAt": "2026-09-13T06:06:23.951Z",
+    "updatedAt": "2026-09-14T06:05:53.167Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-09-13T06:06:23.951Z",
+    "lastSeenAt": "2026-09-14T06:05:53.167Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -97,7 +97,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-09-13T06:06:23.951Z",
+    "createdAt": "2026-09-14T06:05:53.167Z",
     "id": "1411a9a5c5c5768d",
     "matchScore": 74,
     "priority": "B",
@@ -110,11 +110,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-    "updatedAt": "2026-09-13T06:06:23.951Z",
+    "updatedAt": "2026-09-14T06:05:53.167Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-09-13T06:06:23.951Z",
+    "lastSeenAt": "2026-09-14T06:05:53.167Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -186,20 +186,34 @@
     "archivedAt": "2026-09-10T05:57:05.267Z",
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-09-14T06:06:15.804Z",
+      "jobFingerprint": "B|72|Europe · 博后 · reinforcement learning / machine learning|core|reinforcement learning|machine learning|statistics",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "Europe · 博后 · reinforcement learning / machine learning",
+      "summaryZh": "该岗位为欧洲地区为期3年的博士后职位，研究方向为因果机器学习与强化学习的交叉领域，具体聚焦于通过机器学习与统计学的交叉融合，在因果推断和强化学习方面进行算法改进。招聘信息来自EURAXESS Jobs，截止日期为2026年9月27日。",
       "tagsZh": [
-        "reinforcement learning",
-        "machine learning",
-        "statistics"
+        "博士后",
+        "因果机器学习",
+        "强化学习",
+        "机器学习",
+        "统计学",
+        "算法改进"
       ],
       "positiveZh": [
-        "Europe · 博后 · reinforcement learning / machine learning"
+        "研究方向明确，聚焦因果推断与强化学习的算法改进，属于机器学习与统计学交叉前沿领域",
+        "岗位期限为3年，博士后阶段相对稳定",
+        "招聘信息发布于EURAXESS Jobs，为欧洲官方学术招聘平台，来源较可靠",
+        "匹配关键词包括强化学习、机器学习、统计学，与岗位描述高度一致"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位描述信息不完整，具体工作地点仅显示为Nu，未明确具体国家或城市",
+        "未提供薪资待遇、福利、申请材料要求等关键信息",
+        "未说明所属院系、导师团队或具体研究项目背景",
+        "截止日期为2026年9月27日，距今时间较长，岗位可能尚未进入实质招聘阶段或信息可能更新"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "expired",
@@ -375,7 +389,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-09-13T06:06:23.951Z",
+    "createdAt": "2026-09-14T06:05:53.167Z",
     "id": "576a05e8b695f331",
     "matchScore": 64,
     "priority": "B",
@@ -385,11 +399,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Fellowship",
-    "updatedAt": "2026-09-13T06:06:23.951Z",
+    "updatedAt": "2026-09-14T06:05:53.167Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-09-13T06:06:23.951Z",
+    "lastSeenAt": "2026-09-14T06:05:53.167Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -437,7 +451,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-09-13T06:06:23.951Z",
+    "createdAt": "2026-09-14T06:05:53.167Z",
     "id": "bbac44b5da0bc36a",
     "matchScore": 64,
     "priority": "B",
@@ -447,11 +461,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Singapore · Fellowship",
-    "updatedAt": "2026-09-13T06:06:23.951Z",
+    "updatedAt": "2026-09-14T06:05:53.167Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-09-13T06:06:23.951Z",
+    "lastSeenAt": "2026-09-14T06:05:53.167Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -643,7 +657,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-09-13T06:06:23.951Z",
+    "createdAt": "2026-09-14T06:05:53.167Z",
     "id": "e1e5047f5f87635e",
     "matchScore": 59,
     "priority": "C",
@@ -653,11 +667,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship",
-    "updatedAt": "2026-09-13T06:06:23.951Z",
+    "updatedAt": "2026-09-14T06:05:53.167Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-09-13T06:06:23.951Z",
+    "lastSeenAt": "2026-09-14T06:05:53.167Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -783,7 +797,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "academic_board",
-    "fetchedAt": "2026-09-13T06:06:23.951Z",
+    "fetchedAt": "2026-09-14T06:05:53.167Z",
     "id": "293ca94fefb2bf51",
     "matchScore": 54,
     "priority": "C",
@@ -796,29 +810,42 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后 · applied mathematics / statistics",
-    "updatedAt": "2026-09-13T06:06:23.951Z",
+    "updatedAt": "2026-09-14T06:05:53.167Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-09-12T05:45:23.810Z",
-    "lastSeenAt": "2026-09-13T06:06:23.951Z",
+    "lastSeenAt": "2026-09-14T06:05:53.167Z",
     "lastChangedAt": "2026-09-12T05:45:23.810Z",
     "changeType": "new",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-09-14T06:06:15.804Z",
+      "jobFingerprint": "C|54|United Kingdom · 博后 · applied mathematics / statistics|core|applied mathematics|statistics",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "United Kingdom · 博后 · applied mathematics / statistics",
+      "summaryZh": "帝国理工学院数学系招聘应用数学与数学物理、统计学、数学金融或纯数学方向的助理/副教授/正教授，工作地点伦敦，薪资区间为70,718至94,829英镑，信息发布于9月11日，未提供截止日期。",
       "tagsZh": [
-        "applied mathematics",
-        "statistics"
+        "英国",
+        "高校教职",
+        "数学",
+        "统计学",
+        "应用数学",
+        "数学物理"
       ],
       "positiveZh": [
-        "United Kingdom · 博后 · applied mathematics / statistics"
+        "帝国理工学院为英国知名高校，平台与学术声誉较强",
+        "薪资区间明确，上限较高",
+        "覆盖多个数学相关方向，方向选择较广"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位为教授序列，通常对科研与教学资历要求较高",
+        "未提供截止日期，时间安排不明确",
+        "原始信息较简略，缺少具体职责、招聘条件与申请流程"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "new",
@@ -1076,19 +1103,32 @@
     "archivedAt": "2026-09-12T05:45:23.810Z",
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-09-14T06:06:15.804Z",
+      "jobFingerprint": "C|51|United Kingdom · Research Fellow · applied mathematics / machine learning|core|applied mathematics|machine learning",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "United Kingdom · Research Fellow · applied mathematics / machine learning",
+      "summaryZh": "剑桥大学应用数学与理论物理系招聘机器学习用于天文成像方向的研究助理（固定期限），薪资约3.77万至4.60万英镑/年，发布于jobs.ac.uk数学板块。",
       "tagsZh": [
-        "applied mathematics",
-        "machine learning"
+        "研究助理",
+        "机器学习",
+        "天文成像",
+        "应用数学",
+        "剑桥大学",
+        "英国"
       ],
       "positiveZh": [
-        "United Kingdom · Research Fellow · applied mathematics / machine learning"
+        "依托剑桥大学应用数学与理论物理系，学术平台与资源较强",
+        "研究方向结合机器学习与天文成像，属于交叉学科前沿方向",
+        "薪资区间明确，约£37,694至£46,049每年"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位为固定期限（Fixed Term），非长期稳定职位",
+        "公开信息未提供申请截止日期",
+        "公开信息未提供具体职责、任职要求与团队细节"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "brief"
     },
     "freshness": {
       "type": "expired",
@@ -1400,7 +1440,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "academic_board",
-    "fetchedAt": "2026-09-13T06:06:23.951Z",
+    "fetchedAt": "2026-09-14T06:05:53.167Z",
     "id": "6f106c7cdc9a6e9a",
     "matchScore": 48,
     "priority": "C",
@@ -1412,28 +1452,43 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · Fellowship · applied mathematics",
-    "updatedAt": "2026-09-13T06:06:23.951Z",
+    "updatedAt": "2026-09-14T06:05:53.167Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-09-12T05:45:23.810Z",
-    "lastSeenAt": "2026-09-13T06:06:23.951Z",
+    "lastSeenAt": "2026-09-14T06:05:53.167Z",
     "lastChangedAt": "2026-09-12T05:45:23.810Z",
     "changeType": "new",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-09-14T06:06:15.804Z",
+      "jobFingerprint": "C|48|United Kingdom · Fellowship · applied mathematics|core|applied mathematics",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "United Kingdom · Fellowship · applied mathematics",
+      "summaryZh": "帝国理工学院数学系（应用数学方向）招聘 Chapman Fellowships 数学研究员，工作地点伦敦，支持混合办公，薪资为每年 50,733 至 59,484 英镑，属于研究系列岗位。",
       "tagsZh": [
-        "applied mathematics"
+        "应用数学",
+        "博士后/研究员",
+        "英国",
+        "伦敦",
+        "帝国理工学院",
+        "混合办公"
       ],
       "positiveZh": [
-        "United Kingdom · Fellowship · applied mathematics"
+        "依托帝国理工学院数学系，机构与研究环境具有较高声誉",
+        "薪资区间明确，为 50,733 至 59,484 英镑/年",
+        "岗位方向与应用数学匹配，关键词命中 applied mathematics",
+        "支持混合办公，工作地点在伦敦"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位信息未提供申请截止日期",
+        "岗位描述较简略，未列出具体研究方向、教学任务或申请材料要求",
+        "未提供院系内部具体课题组或合作导师信息"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "new",
@@ -1479,16 +1534,32 @@
     "archivedAt": "2026-09-12T05:45:23.810Z",
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-09-14T06:06:15.804Z",
+      "jobFingerprint": "C|48|United Kingdom · 博后|field_source",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "United Kingdom · 博后",
-      "tagsZh": [],
-      "positiveZh": [
-        "United Kingdom · 博后"
+      "summaryZh": "牛津大学数学研究所招聘电池数学建模方向博士后研究助理（Postdoctoral Research Associate），工作地点英国牛津，年薪£41,636至£47,779，发布于jobs.ac.uk数学板块，未提供截止日期。",
+      "tagsZh": [
+        "博士后",
+        "数学建模",
+        "电池",
+        "牛津大学",
+        "英国",
+        "数学研究所"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "positiveZh": [
+        "依托牛津大学数学研究所，学术平台与声誉较高",
+        "薪资区间明确（£41,636–£47,779）",
+        "研究方向为电池数学建模，属于应用数学与能源交叉领域"
+      ],
+      "negativeZh": [
+        "岗位信息中未提供截止日期",
+        "未列出具体任职要求、职责描述与合同期限",
+        "未说明是否涉及实验、合作团队或资助来源"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "expired",
@@ -1800,7 +1871,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "official",
-    "fetchedAt": "2026-09-13T06:06:23.951Z",
+    "fetchedAt": "2026-09-14T06:05:53.167Z",
     "id": "8f0378d469afbb63",
     "matchScore": 45,
     "priority": "C",
@@ -1812,14 +1883,14 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Research Fellow",
-    "updatedAt": "2026-09-13T06:06:23.951Z",
+    "updatedAt": "2026-09-14T06:05:53.167Z",
     "stale": false,
     "changeType": null,
     "sourceId": "hkust-math",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-09-13T06:06:23.951Z",
+    "lastSeenAt": "2026-09-14T06:05:53.167Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "ai": {

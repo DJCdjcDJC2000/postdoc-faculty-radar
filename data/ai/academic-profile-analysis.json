@@ -935,22 +935,28 @@
   },
   "it-imt-puya-latafat": {
     "status": "deepseek",
-    "generatedAt": "2026-09-07T05:58:40.112Z",
-    "profileFingerprint": "0485c3d2a72bc51ff8a3f79f9686d5d98307ab32e08804bab81142ef4e1914db",
+    "generatedAt": "2026-09-14T06:06:30.620Z",
+    "profileFingerprint": "22515218862a81982f3e70064a32be4b9a3745e2835dbef6b4ed4fb42013ccc0",
     "notice": "AI 辅助归纳，需回到公开证据核验",
-    "researchSummaryZh": "Patrinos学术谱系，长期研究非光滑、非凸、单调包含和双层优化，方向直接相关。",
+    "researchSummaryZh": "公开记录显示，其研究主线集中于非光滑与非凸优化、算子分裂、单调包含与双层优化，并涉及博弈论方法；近期成果围绕自适应邻近算法、非单调性下的分裂方法收敛性以及双层优化的邻近梯度方法展开。",
     "methods": [
       "nonsmooth and variational analysis",
       "bilevel optimization",
       "game-theoretic methods",
-      "mathematical optimization"
+      "mathematical optimization",
+      "operator splitting",
+      "proximal and incremental algorithms"
     ],
     "applications": [
       "markets and strategic decision-making"
     ],
-    "careerPatternZh": "现任IMT School for Advanced Studies Lucca助理教授，属于DYNAMICAL SYSTEMS, CONTROL, AND OPTIMIZATION (DYSCO)系，起始年份为2024年。",
+    "careerPatternZh": "公开时间线仅显示其现任 IMT School for Advanced Studies Lucca 助理教授，隶属 DYNAMICAL SYSTEMS, CONTROL, AND OPTIMIZATION (DYSCO)，起始年份为 2024；未提供更早的教育、博后或任职变化记录。",
     "caveatsZh": [
-      "论文计数与招聘状态需以原始来源为准。"
+      "成果计数来自 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界。",
+      "citedByCount 与 hIndex 缺失，无法据此评估引用影响。",
+      "代表性 venue 统计仅基于已核验代表作中可识别的核心 venue，是保守下限。",
+      "职业时间线仅含 2024 年起现任助理教授信息，缺少此前教育与任职记录。",
+      "招聘信号显示未发现其本人当前公开岗位，不能据此推断招聘或录用情况。"
     ]
   },
   "uk-gresearch-samuel-lanthaler": {
@@ -995,6 +1001,116 @@
       "operator learning"
     ],
     "careerPatternZh": "公开信息显示，Jakob Zech目前为海德堡大学教授。其学术轨迹包括在ETH Zurich师从Christoph Schwab（谱系），并在MIT从事博士后研究。2025年晋升为教授并建立科学机器学习数学基础研究组。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "at-vienna-philipp-petersen": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-14T06:06:30.620Z",
+    "profileFingerprint": "20cdecc4d590859119e64c342c6167637670bfb2b1d0bfdd39b6804541824bed",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Philipp Petersen 的研究主线位于数值分析与深度网络逼近理论的交叉方向，涉及神经网络逼近、反问题、偏微分方程求解器以及数学机器学习。其近期工作还延伸到脉冲神经网络的数学基础、大语言模型的数值误差分析以及高维分类问题的学习率研究。",
+    "methods": [
+      "numerical analysis and scientific computing",
+      "neural-network approximation theory",
+      "mathematical foundations of machine learning"
+    ],
+    "applications": [
+      "signal processing, imaging, and inverse problems",
+      "networked and distributed systems",
+      "physical simulation and scientific computing"
+    ],
+    "careerPatternZh": "公开时间线显示：2013 至 2016 年在 TU Berlin 数学系攻读博士；2016 至 2018 年在 TU Berlin 数学系从事博士后；2018 至 2019 年在 University of Oxford 数学系从事博士后；2019 年起在 University of Vienna 数学系任 Professor，当前公开身份为 University of Vienna 的 Associate Professor。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "se-kth-giuseppe-belgioioso": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-14T06:06:30.620Z",
+    "profileFingerprint": "48801ecef8673ceaf75e1bcfb17e0074331c854be5d806644ec03acf020f5016",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "研究主线围绕变分不等式、博弈论、分布式优化、算子分裂与反馈优化展开，近期工作涉及互补性与变分不等式、控制/能源/网络系统以及算法与复杂性等方向。",
+    "methods": [
+      "variational-inequality and monotone-operator methods",
+      "distributed and federated optimization",
+      "game-theoretic methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "markets and strategic decision-making"
+    ],
+    "careerPatternZh": "公开教育经历包括2010-2013年帕多瓦大学信息工程学士、2013-2015年帕多瓦大学自动化工程硕士；2016-2020年在埃因霍温理工大学控制系攻读博士；2020-2023年在苏黎世联邦理工学院自动控制实验室任博士后，2023-2024年任高级科学家；2024年起在KTH皇家理工学院决策与控制系任助理教授，并任WASP Fellow。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "uk-imperial-calvin-tsay": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-14T06:06:30.620Z",
+    "profileFingerprint": "e752357874b016012f5c4bea12d2fa01988e9f394d480522a52a6d55ba0ba353",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料显示，Calvin Tsay 的研究主线围绕计算优化展开，涵盖混合整数规划、过程控制、面向机器学习的优化以及不确定性下的决策；其近期工作涉及随机与鲁棒优化、机器学习优化、运筹与决策系统、控制/能源/网络系统以及离散与混合整数优化等方向。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "discrete and mixed-integer optimization",
+      "optimal-control methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "control and dynamical systems",
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "公开时间线仅显示其当前任职为 Imperial College London 的 Associate Professor；输入中未提供其教育经历、博士后经历或此前任职变化的具体记录。",
+    "caveatsZh": [
+      "成果计数基于 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常仍是论文量下界。",
+      "citedByCount 与 hIndex 均为 null，缺少引用与影响力指标。",
+      "招聘信号仅有长期 Fellowship 的资助扩张信号，没有明确博士后招聘广告。",
+      "时间线仅包含当前职位，缺少教育、博士后及任职变化记录。"
+    ]
+  },
+  "de-zib-leon-eifler": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-14T06:06:30.620Z",
+    "profileFingerprint": "32b093f50d1df766fc008d049d9c4fef41cb9170030e7b502fce5ffe6eaf0951",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "围绕精确（exact）混合整数规划与线性优化展开研究，涉及精确有理数MIP计算框架、Gomory混合整数割的安全性与验证、以及精确线性优化的精度提升与LP迭代精化；同时直接参与SCIP优化套件的开发与发布。",
+    "methods": [
+      "discrete and mixed-integer optimization",
+      "mathematical optimization",
+      "exact rational mixed-integer programming",
+      "branch and cut",
+      "LP iterative refinement"
+    ],
+    "applications": [
+      "energy and power systems"
+    ],
+    "careerPatternZh": "公开记录显示其在Technische Universität Berlin Institut für Mathematik取得硕士学位（2010–2017），自2017年起在Zuse Institute Berlin优化部门担任Research Assistant，当前公开身份为Zuse Institute Berlin的Guest Researcher。",
+    "caveatsZh": [
+      "成果计数基于ORCID公开记录与Crossref中携带同一ORCID的DOI元数据合并去重，通常为论文量下界。",
+      "citedByCount与hIndex缺失，无法据此评估影响力。",
+      "当前职位为Guest Researcher，公开信号未显示其具备招聘权，不推断录用或招聘可能性。",
+      "时间线中硕士学位的起止年份与学位名称按公开记录呈现，未补充其他教育或博后经历。"
+    ]
+  },
+  "de-zib-ksenia-bestuzheva": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-14T06:06:30.620Z",
+    "profileFingerprint": "7786b33726459a8e6f1ea30cf5f6ec893be5b40e221a9579ba005fe37a5486af",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料显示，Ksenia Bestuzheva 的研究主线围绕全局优化与混合整数非线性规划（MINLP），涉及切平面、广义凸性以及 SCIP 求解器的开发。其近期成果包括 RLT 切平面分离、SCIP 8 的全局 MINLP 优化、SCIP 优化套件 10.0、基于机器学习的 MINLP 分支规则选择、稀疏性驱动的混合整数规划聚合，以及非线性生产-维护调度等方向。",
+    "methods": [
+      "discrete and mixed-integer optimization",
+      "global and polynomial optimization",
+      "mathematical optimization",
+      "cutting planes",
+      "branch and price",
+      "machine learning for branching rules"
+    ],
+    "applications": [],
+    "careerPatternZh": "公开时间线显示：2015–2019 在澳大利亚国立大学工程与计算机科学学院攻读计算机科学博士；2018–2025 在 Zuse Institute Berlin 的 Artificial Intelligence in Society, Science and Technology 部门任 Researcher、group leader；2025–2026 在 GAMS Software GmbH 求解器开发团队任 Senior software developer；当前为 Zuse Institute Berlin 研究组负责人（Head of Research Group）。",
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
     ]
