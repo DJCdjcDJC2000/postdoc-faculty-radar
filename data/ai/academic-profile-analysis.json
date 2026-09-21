@@ -1073,8 +1073,8 @@
   },
   "de-zib-leon-eifler": {
     "status": "deepseek",
-    "generatedAt": "2026-09-14T06:06:30.620Z",
-    "profileFingerprint": "32b093f50d1df766fc008d049d9c4fef41cb9170030e7b502fce5ffe6eaf0951",
+    "generatedAt": "2026-09-21T06:10:37.637Z",
+    "profileFingerprint": "9d65cd1ecba1a429fa2d74220c87767c29110e5df2cbe62a7b0b559be761afc7",
     "notice": "AI 辅助归纳，需回到公开证据核验",
     "researchSummaryZh": "围绕精确（exact）混合整数规划与线性优化展开研究，涉及精确有理数MIP计算框架、Gomory混合整数割的安全性与验证、以及精确线性优化的精度提升与LP迭代精化；同时直接参与SCIP优化套件的开发与发布。",
     "methods": [
@@ -1087,12 +1087,9 @@
     "applications": [
       "energy and power systems"
     ],
-    "careerPatternZh": "公开记录显示其在Technische Universität Berlin Institut für Mathematik取得硕士学位（2010–2017），自2017年起在Zuse Institute Berlin优化部门担任Research Assistant，当前公开身份为Zuse Institute Berlin的Guest Researcher。",
+    "careerPatternZh": "公开记录显示其于Technische Universität Berlin Institut für Mathematik取得Master of Science（2010–2017）；自2017年起在Zuse Institute Berlin的Optimization部门担任Research Assistant；当前公开身份为Zuse Institute Berlin的Guest Researcher。",
     "caveatsZh": [
-      "成果计数基于ORCID公开记录与Crossref中携带同一ORCID的DOI元数据合并去重，通常为论文量下界。",
-      "citedByCount与hIndex缺失，无法据此评估影响力。",
-      "当前职位为Guest Researcher，公开信号未显示其具备招聘权，不推断录用或招聘可能性。",
-      "时间线中硕士学位的起止年份与学位名称按公开记录呈现，未补充其他教育或博后经历。"
+      "论文计数与招聘状态需以原始来源为准。"
     ]
   },
   "de-zib-ksenia-bestuzheva": {
@@ -1113,6 +1110,118 @@
     "careerPatternZh": "公开时间线显示：2015–2019 在澳大利亚国立大学工程与计算机科学学院攻读计算机科学博士；2018–2025 在 Zuse Institute Berlin 的 Artificial Intelligence in Society, Science and Technology 部门任 Researcher、group leader；2025–2026 在 GAMS Software GmbH 求解器开发团队任 Senior software developer；当前为 Zuse Institute Berlin 研究组负责人（Head of Research Group）。",
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "nus-bo-lin": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-21T06:10:37.637Z",
+    "profileFingerprint": "e4321319d22b6aabc89e26073d57d23d5c27a4ccf19d965677fc6083800b90e8",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "研究主线围绕随机优化、鲁棒优化、逆优化与双层优化，发展机器学习增强的优化方法，并应用于城市骑行网络设计、人机协作与可持续城市分析。",
+    "methods": [
+      "stochastic optimization",
+      "robust optimization",
+      "inverse optimization",
+      "bilevel optimization",
+      "learning-augmented optimization"
+    ],
+    "applications": [
+      "urban cycling network design",
+      "cycling infrastructure planning",
+      "cycling stress assessment",
+      "electric vehicle routing",
+      "prescriptive analytics"
+    ],
+    "careerPatternZh": "2014-2018 清华大学建设管理本科；2018-2020 滑铁卢大学运筹学 MASc；2020-2025 多伦多大学运筹学博士；此后有 MIT/多伦多博后经历；2026 年起任新加坡国立大学助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "se-kth-jan-kronqvist": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-21T06:10:37.637Z",
+    "profileFingerprint": "c887fa671e62e16d7ea0d6cf6debf08e17c7d744721b6b57d966db04d4822cc8",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "围绕混合整数非线性优化与全局优化展开，涉及离散与混合整数优化、全局与多项式优化、优化软件（SHOT 求解器）以及面向 AI 的优化；公开摘要提及最佳博士论文、Newton International Fellowship 与 SHOT 求解器开发者身份。",
+    "methods": [
+      "Newton and semismooth Newton methods",
+      "discrete and mixed-integer optimization",
+      "global and polynomial optimization",
+      "mathematical optimization"
+    ],
+    "applications": [],
+    "careerPatternZh": "公开时间线仅显示当前任职于 KTH Royal Institute of Technology，角色为 Assistant Professor / Lecturer；未提供此前教育、博后或任职变动的公开记录。",
+    "caveatsZh": [
+      "成果计数来自 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，为论文量下界，非完整履历。",
+      "citedByCount 与 hIndex 缺失，无法据此评估影响力。",
+      "applications 字段在公开来源中未明确给出。",
+      "招聘信号仅来自 KTH 官方主页列出的 Postdoc position，未包含具体岗位细节或录用证据。",
+      "职业时间线仅含当前职位，缺少教育、博后及历史任职信息。"
+    ]
+  },
+  "de-ellis-antonio-orvieto": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-21T06:10:37.637Z",
+    "profileFingerprint": "b2f51ee2ebe6510cb88db05c02b29754208b46a5af70436199781e3e770ae6c4",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Antonio Orvieto 的研究主线围绕非凸优化、自适应优化器、深度学习动力学、随机加速与序列模型展开，公开信息显示其博士毕业后即独立领导 Deep Models and Optimization 组，并获 ETH Medal 与 AI2050 Fellowship。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "first-order methods",
+      "mathematical optimization"
+    ],
+    "applications": [],
+    "careerPatternZh": "公开教育经历包括：2012-2015 年于 University of Padua 获 Bachelor of Information Technology Engineering；2016-2018 年于 ETH Zurich 获 Master of Science in Robotics, Systems and Control；2019-2023 年于 ETH Zurich 获 P.h.D in Machine Learning。任职与访学变化包括：2017 年 Hilti 研究实习、2017-2018 年 ETH Zurich 计算系统生物学硕士学生研究员、2018-2023 年 ETH Zurich 博士研究员兼首席助教、2021 年 Mila 研究实习、2021-2022 年 Inria Paris SIERRA 团队访问研究员、2022 年 DeepMind 研究实习、2022-2023 年 Meta / FAIR 研究实习；2023 年起任 Max Planck Institute for Intelligent Systems、ELLIS Institute Tübingen、Tübingen AI Center 独立研究组负责人兼 PI，当前职位为 ELLIS Institute Tübingen / MPI-IS 独立组长 / PI。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "mengdi-wang-princeton": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-21T06:10:37.637Z",
+    "profileFingerprint": "195fd9803a2d98d55c0a0c5d00e7587393422d8cdaf96e0753856bac579383bd",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料显示，Mengdi Wang 是 Princeton University 的活跃 PI，研究主线涵盖强化学习、随机优化、在线学习、AI for science 与算法决策，并涉及运筹学相关方向。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "reinforcement learning",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "decision-making and operations",
+      "AI for science"
+    ],
+    "careerPatternZh": "公开时间线显示：2007 年获 Tsinghua University 系统与控制工程方向 BS；2013 年获 Massachusetts Institute of Technology 电气工程与计算机科学方向 PhD；2014–2019 任 Princeton University 运筹学与金融工程系助理教授（计算机科学系 courtesy）；2019 年起任 Princeton University 电气工程系与统计及机器学习中心副教授；2019–2020 在 Google DeepMind 访问研究（自 Princeton 学术休假）；2024 年起任 Princeton University AI for Accelerated Innovation 联合主任。",
+    "caveatsZh": [
+      "成果计数来自 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常仍是论文量下界。",
+      "hIndex、citedByCount 等引用指标在输入中为 null，未提供可核验数值。",
+      "topVenueCountsLowerBound 为空，仅代表已核验代表作中可识别核心 venue 的保守下限，不等同完整履历。",
+      "招聘信号为 no_public_signal，输入中无公开招聘证据。",
+      "时间线中部分职位未给出结束年份，且 current_position 标签与历史职位混用，任职变化仅按公开字段归纳。"
+    ]
+  },
+  "madeleine-udell-stanford": {
+    "status": "deepseek",
+    "generatedAt": "2026-09-21T06:10:37.637Z",
+    "profileFingerprint": "e7829b244dc2db0a6b09b364b13822168932a8c5736eccc0c0cefd5c262d5b4f",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "该公开记录显示，Madeleine Udell 是 Stanford University 的活跃 PI，研究主线集中在优化建模、随机化数值线性代数、预条件、数值分析与科学计算，并涉及随机与鲁棒优化、机器学习优化、离散与混合整数优化、算法与复杂度等方向。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "numerical linear algebra",
+      "numerical analysis and scientific computing",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "physical simulation and scientific computing"
+    ],
+    "careerPatternZh": "公开时间线显示其当前为 Stanford University 的 Professor / Active PI，并曾/同时列为 Management Science and Engineering 的 Assistant Professor（2022 年起）。未提供更早的教育、博后或任职变化信息。",
+    "caveatsZh": [
+      "公开记录合并 ORCID 与 Crossref 中明确携带同一 ORCID 的 DOI 元数据，去重后通常仍是论文量下界。",
+      "citedByCount、hIndex 等指标未提供，无法据此判断影响力。",
+      "招聘信号为 no_public_signal，置信度 C，不能作为招聘或录用证据。",
+      "近期主题计数来自公开成果记录，部分年份为 0 或样本量很小，趋势判断受限。",
+      "职业时间线仅包含当前职位与 2022 年起 Assistant Professor 记录，缺少更早教育与博后信息。"
     ]
   }
 }

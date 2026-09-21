@@ -1,21 +1,20 @@
-# 职业雷达周报 · 2026-09-14
+# 职业雷达周报 · 2026-09-21
 
-- 本周新增：2
+- 本周新增：1
 - 本周更新：0
 - 本周失效：3
 - A/B 高匹配：3
 - 30 天内截止：4
 - 学术候选池：132
-- 完整公开档案：130
+- 完整公开档案：128
 - 导师组 / 青年学者：52 / 84
 
 ## 本周变化
 
-- **本周新增** [Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics](https://www.jobs.ac.uk/job/DSX108/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 54
-- **已失效/已截止** [Research Associate in Machine Learning for Astronomical Imaging (Fixed Term)](https://www.jobs.ac.uk/job/DSV955/research-associate-in-machine-learning-for-astronomical-imaging-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 51
-- **本周新增** [Chapman Fellowships in Mathematics (Applied Mathematics Section)](https://www.jobs.ac.uk/job/DSX287/chapman-fellowships-in-mathematics-applied-mathematics-section) · jobs.ac.uk Mathematics · United Kingdom · C 48
-- **已失效/已截止** [Postdoctoral Research Associate in Mathematical Modelling of Batteries](https://www.jobs.ac.uk/job/DSV946/postdoctoral-research-associate-in-mathematical-modelling-of-batteries) · jobs.ac.uk Mathematics · United Kingdom · C 48
-- **已失效/已截止** [PostDoc in Causal Machine Learning and Reinforcement Learning (3 years)](https://euraxess.ec.europa.eu/jobs/464481) · EURAXESS Jobs · Europe · B 72
+- **已失效/已截止** [Research Fellow in Modelling and Optimisation](https://www.jobs.ac.uk/job/DSX856/research-fellow-in-modelling-and-optimisation) · jobs.ac.uk Mathematics · United Kingdom · C 45
+- **已失效/已截止** [Chapman Fellowships in Mathematics (Applied Mathematics Section)](https://www.jobs.ac.uk/job/DSX287/chapman-fellowships-in-mathematics-applied-mathematics-section) · jobs.ac.uk Mathematics · United Kingdom · C 48
+- **本周新增** [4-year PhD fellowship in the Research Programme - Deep Learning-Accelerated Crystallography Pipeline](https://www.jobs.ac.uk/job/DSZ020/4-year-phd-fellowship-in-the-research-programme-deep-learning-accelerated-crystallography-pipeline) · jobs.ac.uk Mathematics · United Kingdom · C 43
+- **已失效/已截止** [Assistant / Associate / Full Professor in Applied Mathematics & Mathematical Physics, in Statistics, in Mathematical Finance, or in Pure Mathematics](https://www.jobs.ac.uk/job/DSX108/assistant-associate-full-professor-in-applied-mathematics-and-mathematical-physics-in-statistics-in-mathematical-finance-or-in-pure-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 54
 
 ## 学术人物建设
 

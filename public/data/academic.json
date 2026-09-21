@@ -14,7 +14,7 @@
   "qualityGate": {
     "enforced": true,
     "migrationMode": false,
-    "publishedProfiles": 130,
+    "publishedProfiles": 128,
     "trackedProfiles": 132,
     "minimumProfile": {
       "officialIdentitySources": 1,
@@ -26446,7 +26446,7 @@
         "crossSourceCounts": {
           "orcidRecordCount": 98,
           "crossrefOrcidWorksCount": 25,
-          "checkedAt": "2026-09-14T06:05:50.850Z"
+          "checkedAt": "2026-09-21T06:10:10.641Z"
         },
         "updatedAt": "2026-07-10T08:29:24.830Z",
         "topVenueCountsLowerBound": [
@@ -26928,7 +26928,7 @@
         {
           "type": "orcid_record",
           "url": "https://orcid.org/0000-0003-0481-272X",
-          "checkedAt": "2026-09-14T06:05:50.850Z",
+          "checkedAt": "2026-09-21T06:10:10.641Z",
           "confidence": "A",
           "supportsClaims": [
             "bibliographic_identity",
@@ -28329,9 +28329,9 @@
         "countLabelZh": "OpenAlex 收录成果（近似）",
         "countCaveatZh": "包含 OpenAlex 归入该作者的多类学术成果，可能受同名合并与文献类型影响；请结合 ORCID、Crossref 与个人主页理解。",
         "crossSourceCounts": {
-          "orcidRecordCount": 494,
-          "crossrefOrcidWorksCount": 161,
-          "checkedAt": "2026-09-14T06:05:51.466Z"
+          "orcidRecordCount": 495,
+          "crossrefOrcidWorksCount": 162,
+          "checkedAt": "2026-09-21T06:10:11.401Z"
         },
         "updatedAt": "2026-07-10T08:29:30.945Z",
         "topVenueCountsLowerBound": [
@@ -28778,7 +28778,7 @@
         {
           "type": "orcid_record",
           "url": "https://orcid.org/0000-0001-6833-5227",
-          "checkedAt": "2026-09-14T06:05:51.466Z",
+          "checkedAt": "2026-09-21T06:10:11.401Z",
           "confidence": "A",
           "supportsClaims": [
             "bibliographic_identity",
@@ -30107,7 +30107,7 @@
         "crossSourceCounts": {
           "orcidRecordCount": 78,
           "crossrefOrcidWorksCount": 33,
-          "checkedAt": "2026-09-14T06:05:52.908Z"
+          "checkedAt": "2026-09-21T06:10:12.049Z"
         },
         "updatedAt": "2026-07-10T08:29:33.059Z",
         "topVenueCountsLowerBound": [
@@ -30579,7 +30579,7 @@
         {
           "type": "orcid_record",
           "url": "https://orcid.org/0000-0001-9798-2482",
-          "checkedAt": "2026-09-14T06:05:52.908Z",
+          "checkedAt": "2026-09-21T06:10:12.049Z",
           "confidence": "A",
           "supportsClaims": [
             "bibliographic_identity",
@@ -36342,7 +36342,7 @@
           "preconditioning",
           "scientific computing"
         ],
-        "summaryZh": "Stanford 活跃 PI，研究优化、随机化数值线性代数、预条件、建模和科学计算。",
+        "summaryZh": "该公开记录显示，Madeleine Udell 是 Stanford University 的活跃 PI，研究主线集中在优化建模、随机化数值线性代数、预条件、数值分析与科学计算，并涉及随机与鲁棒优化、机器学习优化、离散与混合整数优化、算法与复杂度等方向。",
         "recentEvolution": [
           {
             "topic": "Complementarity and variational inequalities",
@@ -36588,8 +36588,8 @@
         ],
         "featureProvenance": {
           "summary": "public_source_or_verified_summary",
-          "methods": "derived_from_public_research_fields",
-          "applications": "derived_from_public_research_fields"
+          "methods": "public_source_or_verified_supplement",
+          "applications": "public_source_or_verified_supplement"
         }
       },
       "publicationMetrics": {
@@ -36653,107 +36653,77 @@
         {
           "track": "optimization_operations_research",
           "tier": "top_core",
-          "count": 3,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "optimization_operations_research",
           "tier": "important_mainstream",
-          "count": 1,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 1
         },
         {
           "track": "optimization_operations_research",
           "tier": "related_reference",
-          "count": 2,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 1
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "top_core",
-          "count": 1,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 1
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "related_reference",
-          "count": 1,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "top_core",
-          "count": 2,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "important_mainstream",
-          "count": 2,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 1
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "related_reference",
-          "count": 1,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 1
         },
         {
           "track": "machine_learning_optimization",
           "tier": "top_core",
-          "count": 6,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "related_reference",
-          "count": 1,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "top_core",
-          "count": 1,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "important_mainstream",
-          "count": 1,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "related_reference",
-          "count": 1,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 1
         }
       ],
       "representativeWorks": [
@@ -36957,13 +36927,19 @@
         ]
       },
       "publicAnalysis": {
-        "careerPatternZh": "公开教育与任职路径包括：Professor / Active PI in Operations Research, Optimization and Data Science · Stanford University；2022 · Assistant Professor · Stanford University。",
+        "careerPatternZh": "公开时间线显示其当前为 Stanford University 的 Professor / Active PI，并曾/同时列为 Management Science and Engineering 的 Assistant Professor（2022 年起）。未提供更早的教育、博后或任职变化信息。",
         "caveatsZh": [
-          "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+          "公开记录合并 ORCID 与 Crossref 中明确携带同一 ORCID 的 DOI 元数据，去重后通常仍是论文量下界。",
+          "citedByCount、hIndex 等指标未提供，无法据此判断影响力。",
+          "招聘信号为 no_public_signal，置信度 C，不能作为招聘或录用证据。",
+          "近期主题计数来自公开成果记录，部分年份为 0 或样本量很小，趋势判断受限。",
+          "职业时间线仅包含当前职位与 2022 年起 Assistant Professor 记录，缺少更早教育与博后信息。"
         ],
-        "notice": "公开事实归纳，需回到证据台账核验",
-        "source": "deterministic_public_fact_summary"
+        "notice": "AI 辅助归纳，需回到公开证据核验",
+        "source": "deepseek_public_fact_summary",
+        "generatedAt": "2026-09-21T06:10:37.637Z"
       },
+      "uncertainties": [],
       "quality": {
         "status": "ready",
         "isPublicReady": true,
@@ -37727,7 +37703,7 @@
           "AI for science",
           "operations research"
         ],
-        "summaryZh": "Princeton 活跃 PI，研究强化学习、随机优化、AI for science 和算法决策。",
+        "summaryZh": "公开资料显示，Mengdi Wang 是 Princeton University 的活跃 PI，研究主线涵盖强化学习、随机优化、在线学习、AI for science 与算法决策，并涉及运筹学相关方向。",
         "recentEvolution": [
           {
             "topic": "Complementarity and variational inequalities",
@@ -37939,12 +37915,13 @@
           "mathematical optimization"
         ],
         "applications": [
-          "decision-making and operations"
+          "decision-making and operations",
+          "AI for science"
         ],
         "featureProvenance": {
           "summary": "public_source_or_verified_summary",
-          "methods": "derived_from_public_research_fields",
-          "applications": "derived_from_public_research_fields"
+          "methods": "public_source_or_verified_supplement",
+          "applications": "public_source_or_verified_supplement"
         }
       },
       "publicationMetrics": {
@@ -38003,107 +37980,77 @@
         {
           "track": "optimization_operations_research",
           "tier": "top_core",
-          "count": 12,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "optimization_operations_research",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "optimization_operations_research",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "top_core",
-          "count": 9,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "top_core",
-          "count": 19,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "important_mainstream",
-          "count": 4,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 1
         },
         {
           "track": "machine_learning_optimization",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "top_core",
-          "count": 1,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "important_mainstream",
-          "count": 3,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 1
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         }
       ],
       "representativeWorks": [
@@ -38362,13 +38309,19 @@
         ]
       },
       "publicAnalysis": {
-        "careerPatternZh": "公开教育与任职路径包括：Professor / Active PI, Princeton AI and ORFE-related research · Princeton University；2013 · PhD · Massachusetts Institute of Technology ；2007 · BS · Tsinghua University；2024 · Co-Director · Princeton University；2019 · Associate Professor · Princeton University；2019-2020 · Visiting Research Scientist (On Sabbatical Leave from Princeton University) · Google DeepMind；2014-2019 · Assistant Professor · Princeton University。",
+        "careerPatternZh": "公开时间线显示：2007 年获 Tsinghua University 系统与控制工程方向 BS；2013 年获 Massachusetts Institute of Technology 电气工程与计算机科学方向 PhD；2014–2019 任 Princeton University 运筹学与金融工程系助理教授（计算机科学系 courtesy）；2019 年起任 Princeton University 电气工程系与统计及机器学习中心副教授；2019–2020 在 Google DeepMind 访问研究（自 Princeton 学术休假）；2024 年起任 Princeton University AI for Accelerated Innovation 联合主任。",
         "caveatsZh": [
-          "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+          "成果计数来自 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常仍是论文量下界。",
+          "hIndex、citedByCount 等引用指标在输入中为 null，未提供可核验数值。",
+          "topVenueCountsLowerBound 为空，仅代表已核验代表作中可识别核心 venue 的保守下限，不等同完整履历。",
+          "招聘信号为 no_public_signal，输入中无公开招聘证据。",
+          "时间线中部分职位未给出结束年份，且 current_position 标签与历史职位混用，任职变化仅按公开字段归纳。"
         ],
-        "notice": "公开事实归纳，需回到证据台账核验",
-        "source": "deterministic_public_fact_summary"
+        "notice": "AI 辅助归纳，需回到公开证据核验",
+        "source": "deepseek_public_fact_summary",
+        "generatedAt": "2026-09-21T06:10:37.637Z"
       },
+      "uncertainties": [],
       "quality": {
         "status": "ready",
         "isPublicReady": true,
@@ -39108,696 +39061,6 @@
       }
     },
     {
-      "id": "de-ellis-antonio-orvieto",
-      "canonicalId": "de-ellis-antonio-orvieto",
-      "profileType": "young_scholar",
-      "profileTypes": [
-        "young_scholar"
-      ],
-      "name": "Antonio Orvieto",
-      "currentPosition": "Independent Group Leader / PI",
-      "institution": "ELLIS Institute Tübingen / MPI-IS",
-      "country": "Germany",
-      "region": "Europe",
-      "roleType": "young scholar",
-      "group": null,
-      "research": {
-        "tags": [
-          "nonconvex optimization",
-          "adaptive optimizers",
-          "deep-learning dynamics",
-          "stochastic acceleration",
-          "sequence models"
-        ],
-        "summaryZh": "ETH Medal、AI2050 Fellowship，博士毕业即独立领导Deep Models and Optimization组。",
-        "recentEvolution": [
-          {
-            "topic": "Stochastic and robust optimization",
-            "trend": "rising_or_active",
-            "worksCount": 5,
-            "citedByCount": null,
-            "shareOfWorks": 0.085,
-            "yearly": [
-              {
-                "year": 2022,
-                "worksCount": 3
-              },
-              {
-                "year": 2023,
-                "worksCount": 0
-              },
-              {
-                "year": 2024,
-                "worksCount": 1
-              },
-              {
-                "year": 2025,
-                "worksCount": 1
-              },
-              {
-                "year": 2026,
-                "worksCount": 0
-              }
-            ]
-          },
-          {
-            "topic": "Machine learning optimization",
-            "trend": "rising_or_active",
-            "worksCount": 11,
-            "citedByCount": null,
-            "shareOfWorks": 0.186,
-            "yearly": [
-              {
-                "year": 2022,
-                "worksCount": 0
-              },
-              {
-                "year": 2023,
-                "worksCount": 5
-              },
-              {
-                "year": 2024,
-                "worksCount": 4
-              },
-              {
-                "year": 2025,
-                "worksCount": 1
-              },
-              {
-                "year": 2026,
-                "worksCount": 1
-              }
-            ]
-          },
-          {
-            "topic": "Variational methods, imaging, and inverse problems",
-            "trend": "rising_or_active",
-            "worksCount": 2,
-            "citedByCount": null,
-            "shareOfWorks": 0.034,
-            "yearly": [
-              {
-                "year": 2022,
-                "worksCount": 1
-              },
-              {
-                "year": 2023,
-                "worksCount": 1
-              },
-              {
-                "year": 2024,
-                "worksCount": 0
-              },
-              {
-                "year": 2025,
-                "worksCount": 0
-              },
-              {
-                "year": 2026,
-                "worksCount": 0
-              }
-            ]
-          },
-          {
-            "topic": "Control, energy, and network systems",
-            "trend": "rising_or_active",
-            "worksCount": 11,
-            "citedByCount": null,
-            "shareOfWorks": 0.186,
-            "yearly": [
-              {
-                "year": 2022,
-                "worksCount": 2
-              },
-              {
-                "year": 2023,
-                "worksCount": 2
-              },
-              {
-                "year": 2024,
-                "worksCount": 5
-              },
-              {
-                "year": 2025,
-                "worksCount": 1
-              },
-              {
-                "year": 2026,
-                "worksCount": 1
-              }
-            ]
-          },
-          {
-            "topic": "Algorithms and complexity",
-            "trend": "rising_or_active",
-            "worksCount": 8,
-            "citedByCount": null,
-            "shareOfWorks": 0.136,
-            "yearly": [
-              {
-                "year": 2022,
-                "worksCount": 2
-              },
-              {
-                "year": 2023,
-                "worksCount": 0
-              },
-              {
-                "year": 2024,
-                "worksCount": 4
-              },
-              {
-                "year": 2025,
-                "worksCount": 2
-              },
-              {
-                "year": 2026,
-                "worksCount": 0
-              }
-            ]
-          }
-        ],
-        "methods": [
-          "stochastic optimization and uncertainty methods",
-          "first-order methods",
-          "mathematical optimization"
-        ],
-        "applications": [],
-        "featureProvenance": {
-          "summary": "public_source_or_verified_summary",
-          "methods": "derived_from_public_research_fields",
-          "applications": "not_publicly_specified"
-        }
-      },
-      "publicationMetrics": {
-        "worksCount": 82,
-        "recentWorksCount": 59,
-        "citedByCount": null,
-        "hIndex": null,
-        "recent5Years": {
-          "fromYear": 2022,
-          "toYear": 2026,
-          "worksCount": 59,
-          "yearly": [
-            {
-              "year": 2022,
-              "worksCount": 10
-            },
-            {
-              "year": 2023,
-              "worksCount": 10
-            },
-            {
-              "year": 2024,
-              "worksCount": 13
-            },
-            {
-              "year": 2025,
-              "worksCount": 21
-            },
-            {
-              "year": 2026,
-              "worksCount": 5
-            }
-          ]
-        },
-        "countLabelZh": "ORCID / Crossref 关联成果记录",
-        "countCaveatZh": "合并作者 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据；去重后的记录通常仍是论文量下界。",
-        "sourceCounts": {
-          "orcidRecordCount": 81,
-          "crossrefOrcidWorksCount": 2,
-          "mergedRecordCount": 82,
-          "checkedAt": "2026-07-10T11:15:20.646Z"
-        },
-        "provider": "ORCID",
-        "authorId": "0000-0002-1914-0367",
-        "crossSourceCounts": {
-          "orcidRecordCount": 81,
-          "crossrefOrcidWorksCount": 2,
-          "mergedRecordCount": 82,
-          "checkedAt": "2026-07-10T11:15:20.646Z"
-        },
-        "updatedAt": "2026-07-10T11:15:20.646Z",
-        "topVenueCountsLowerBound": [],
-        "topVenueCountBasisZh": "仅按已核验代表作中可识别的核心 venue 统计，是保守下限，不等同于完整履历总数。"
-      },
-      "venueBreakdown": [
-        {
-          "track": "optimization_operations_research",
-          "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
-        },
-        {
-          "track": "optimization_operations_research",
-          "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
-        },
-        {
-          "track": "optimization_operations_research",
-          "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
-        },
-        {
-          "track": "numerical_analysis_scientific_computing",
-          "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
-        },
-        {
-          "track": "numerical_analysis_scientific_computing",
-          "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
-        },
-        {
-          "track": "numerical_analysis_scientific_computing",
-          "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
-        },
-        {
-          "track": "complementarity_vi_nonsmooth",
-          "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
-        },
-        {
-          "track": "complementarity_vi_nonsmooth",
-          "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
-        },
-        {
-          "track": "complementarity_vi_nonsmooth",
-          "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
-        },
-        {
-          "track": "machine_learning_optimization",
-          "tier": "top_core",
-          "count": 10,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
-        },
-        {
-          "track": "machine_learning_optimization",
-          "tier": "important_mainstream",
-          "count": 6,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
-        },
-        {
-          "track": "machine_learning_optimization",
-          "tier": "related_reference",
-          "count": 1,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
-        },
-        {
-          "track": "interdisciplinary_applications",
-          "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
-        },
-        {
-          "track": "interdisciplinary_applications",
-          "tier": "important_mainstream",
-          "count": 1,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
-        },
-        {
-          "track": "interdisciplinary_applications",
-          "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
-        }
-      ],
-      "representativeWorks": [
-        {
-          "title": "Explaining Grokking in Transformers through the Lens of Inductive Bias",
-          "year": 2026,
-          "publicationDate": "2026",
-          "venue": "arXiv preprint arXiv:2602.06702",
-          "doi": null,
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "arXiv preprint arXiv:2602.06702"
-          }
-        },
-        {
-          "title": "Improved state mixing in higher-order and block diagonal linear recurrent networks",
-          "year": 2026,
-          "publicationDate": "2026",
-          "venue": "arXiv preprint arXiv:2602.12021",
-          "doi": null,
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "arXiv preprint arXiv:2602.12021"
-          }
-        },
-        {
-          "title": "On the Interaction of Batch Noise, Adaptivity, and Compression, under $(L_0, L_1) $-Smoothness: An SDE Approach",
-          "year": 2026,
-          "publicationDate": "2026",
-          "venue": null,
-          "doi": null,
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": null
-        },
-        {
-          "title": "Sequence Modeling Architectures: Foundations [Special Issue on the Mathematics of Deep Learning]",
-          "year": 2026,
-          "publicationDate": "2026-05",
-          "venue": "IEEE Signal Processing Magazine",
-          "doi": "https://doi.org/10.1109/MSP.2026.3682808",
-          "url": "https://doi.org/10.1109/MSP.2026.3682808",
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent_crossref_orcid",
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "IEEE Signal Processing Magazine"
-          }
-        },
-        {
-          "title": "Universal Dynamics of Warmup Stable Decay: understanding WSD beyond Transformers",
-          "year": 2026,
-          "publicationDate": "2026",
-          "venue": "arXiv preprint arXiv:2601.09000",
-          "doi": null,
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "arXiv preprint arXiv:2601.09000"
-          }
-        },
-        {
-          "title": "(Almost) Free Modality Stitching of Foundation Models",
-          "year": 2025,
-          "publicationDate": "2025",
-          "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-          "doi": null,
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "conference-paper",
-          "source": {
-            "displayName": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
-          }
-        },
-        {
-          "title": "Adam Simplified: Bias Correction Debunked",
-          "year": 2025,
-          "publicationDate": "2025",
-          "venue": "arXiv preprint arXiv:2511.20516",
-          "doi": null,
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "arXiv preprint arXiv:2511.20516"
-          }
-        },
-        {
-          "title": "An accelerated lyapunov function for Polyak’s Heavy-ball on convex quadratics",
-          "year": 2025,
-          "publicationDate": "2025",
-          "venue": "Optimization Letters",
-          "doi": null,
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "Optimization Letters"
-          }
-        }
-      ],
-      "timeline": [
-        {
-          "type": "current_position",
-          "role": "Independent Group Leader / PI",
-          "institution": "ELLIS Institute Tübingen / MPI-IS"
-        },
-        {
-          "type": "phd",
-          "degree": "P.h.D in Machine Learning",
-          "institution": "ETH Zurich",
-          "department": "Computer Science",
-          "startYear": "2019",
-          "endYear": "2023"
-        },
-        {
-          "type": "phd",
-          "degree": "Master of Science in Robotics, Systems and Control",
-          "institution": "ETH Zurich",
-          "department": "Mechanical Engineering",
-          "startYear": "2016",
-          "endYear": "2018"
-        },
-        {
-          "type": "phd",
-          "degree": "Bachelor of Information Technology Engineering",
-          "institution": "University of Padua",
-          "department": "Electrical Engineering",
-          "startYear": "2012",
-          "endYear": "2015"
-        },
-        {
-          "type": "current_position",
-          "role": "Independent Research Group Leader & Principal Investigator",
-          "institution": "Max Planck Institute for Intelligent Systems, ELLIS Institute Tübingen, Tübingen AI Center",
-          "department": null,
-          "startYear": "2023",
-          "endYear": null
-        },
-        {
-          "type": "current_position",
-          "role": "PhD Researcher and Head Teaching Assistant",
-          "institution": "ETH Zurich",
-          "department": "Computer Science",
-          "startYear": "2018",
-          "endYear": "2023"
-        },
-        {
-          "type": "current_position",
-          "role": "Research Scientist (Intern)",
-          "institution": "Meta Platforms Inc",
-          "department": "Facebook AI Research",
-          "startYear": "2022",
-          "endYear": "2023"
-        },
-        {
-          "type": "current_position",
-          "role": "Research Scientist (Intern)",
-          "institution": "DeepMind (United Kingdom)",
-          "department": "Data Efficient Bayesian Learning Team",
-          "startYear": "2022",
-          "endYear": "2022"
-        },
-        {
-          "type": "current_position",
-          "role": "Visiting Researcher",
-          "institution": "Inria Centre de Recherche de Paris",
-          "department": "Francis Bach's SIERRA Team",
-          "startYear": "2021",
-          "endYear": "2022"
-        },
-        {
-          "type": "current_position",
-          "role": "Research Intern",
-          "institution": "Mila - Quebec Artificial Intelligence Institute",
-          "department": "Simon Lacoste-Julien Lab",
-          "startYear": "2021",
-          "endYear": "2021"
-        },
-        {
-          "type": "current_position",
-          "role": "Master Student Researcher (15h/week)",
-          "institution": "ETH Zurich",
-          "department": "Computational System Biology ",
-          "startYear": "2017",
-          "endYear": "2018"
-        },
-        {
-          "type": "current_position",
-          "role": "Research Intern",
-          "institution": "Hilti (Liechtenstein)",
-          "department": "Advanced Mechatronics",
-          "startYear": "2017",
-          "endYear": "2017"
-        }
-      ],
-      "grantsAwards": [],
-      "recruitmentSignals": [
-        {
-          "type": "no_public_signal",
-          "summaryZh": "未找到明确当前岗位。",
-          "sourceUrl": "https://is.mpg.de/person/aorvieto",
-          "sourceType": "public_signal",
-          "confidence": "A"
-        }
-      ],
-      "links": {
-        "homepage": "https://orvi.altervista.org/",
-        "googleScholar": null,
-        "openalex": null,
-        "orcid": "https://orcid.org/0000-0002-1914-0367"
-      },
-      "evidence": [
-        {
-          "type": "profile_homepage",
-          "url": "https://orvi.altervista.org/",
-          "confidence": "A",
-          "checkedAt": null,
-          "supportsClaims": [
-            "identity",
-            "position",
-            "research"
-          ]
-        },
-        {
-          "type": "research_source",
-          "url": "https://is.mpg.de/person/aorvieto",
-          "confidence": "A",
-          "checkedAt": null,
-          "supportsClaims": [
-            "identity",
-            "position",
-            "research",
-            "career_stage"
-          ]
-        },
-        {
-          "type": "research_source",
-          "url": "https://orvi.altervista.org/resume.pdf",
-          "confidence": "A",
-          "checkedAt": null,
-          "supportsClaims": [
-            "identity",
-            "position",
-            "research",
-            "career_stage"
-          ]
-        },
-        {
-          "type": "recruitment_signal",
-          "url": "https://is.mpg.de/person/aorvieto",
-          "confidence": "A",
-          "checkedAt": null,
-          "supportsClaims": [
-            "recruitment_signal"
-          ]
-        },
-        {
-          "type": "orcid_record",
-          "url": "https://orcid.org/0000-0002-1914-0367",
-          "checkedAt": "2026-07-10T11:15:20.646Z",
-          "confidence": "exact_orcid_and_name",
-          "supportsClaims": [
-            "bibliographic_identity",
-            "publication_metrics",
-            "representative_works",
-            "research_evolution"
-          ]
-        }
-      ],
-      "lastVerifiedAt": "2026-07-10T11:15:20.646Z",
-      "sourceKind": "legacy_person",
-      "sourceRecordIds": {
-        "labs": [],
-        "people": [
-          "de-ellis-antonio-orvieto"
-        ]
-      },
-      "publicationAnalysis": {
-        "provider": "ORCID",
-        "updatedAt": "2026-07-10T11:15:20.646Z",
-        "inputWorks": 82,
-        "countedWorks": 17,
-        "excludedWorks": 0,
-        "unclassifiedWorks": 65,
-        "deduplicatedWorks": 0
-      },
-      "enrichmentStatus": {
-        "provider": "ORCID",
-        "identityStatus": "confirmed",
-        "confidence": "exact_orcid_and_name",
-        "updatedAt": "2026-07-10T11:15:20.646Z",
-        "crossSourceStatus": "orcid_self_linked",
-        "warnings": [
-          "ORCID 记录通常是论文量下界，不等同于完整论文总数。"
-        ]
-      },
-      "publicAnalysis": {
-        "careerPatternZh": "公开教育与任职路径包括：Independent Group Leader / PI · ELLIS Institute Tübingen / MPI-IS；2019-2023 · P.h.D in Machine Learning · ETH Zurich；2016-2018 · Master of Science in Robotics, Systems and Control · ETH Zurich；2012-2015 · Bachelor of Information Technology Engineering · University of Padua；2023 · Independent Research Group Leader & Principal Investigator · Max Planck Institute for Intelligent Systems, ELLIS Institute Tübingen, Tübingen AI Center；2018-2023 · PhD Researcher and Head Teaching Assistant · ETH Zurich；2022-2023 · Research Scientist (Intern) · Meta Platforms Inc；2022-2022 · Research Scientist (Intern) · DeepMind (United Kingdom)。",
-        "caveatsZh": [
-          "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
-        ],
-        "notice": "公开事实归纳，需回到证据台账核验",
-        "source": "deterministic_public_fact_summary"
-      },
-      "quality": {
-        "status": "ready",
-        "isPublicReady": true,
-        "score": 100,
-        "missing": []
-      }
-    },
-    {
       "id": "se-kth-jan-kronqvist",
       "canonicalId": "se-kth-jan-kronqvist",
       "profileType": "young_scholar",
@@ -39819,7 +39082,7 @@
           "optimization for AI",
           "SHOT solver"
         ],
-        "summaryZh": "最佳博士论文、Newton International Fellowship、SHOT求解器开发者。",
+        "summaryZh": "围绕混合整数非线性优化与全局优化展开，涉及离散与混合整数优化、全局与多项式优化、优化软件（SHOT 求解器）以及面向 AI 的优化；公开摘要提及最佳博士论文、Newton International Fellowship 与 SHOT 求解器开发者身份。",
         "recentEvolution": [
           {
             "topic": "Stochastic and robust optimization",
@@ -40063,7 +39326,7 @@
         "applications": [],
         "featureProvenance": {
           "summary": "public_source_or_verified_summary",
-          "methods": "derived_from_public_research_fields",
+          "methods": "public_source_or_verified_supplement",
           "applications": "not_publicly_specified"
         }
       },
@@ -40128,107 +39391,77 @@
         {
           "track": "optimization_operations_research",
           "tier": "top_core",
-          "count": 2,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 1
         },
         {
           "track": "optimization_operations_research",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "optimization_operations_research",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "数学优化与运筹学",
-          "trackLabel": "Optimization and operations research"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "numerical_analysis_scientific_computing",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "数值分析与科学计算",
-          "trackLabel": "Numerical analysis and scientific computing"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "top_core",
-          "count": 2,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 1
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "complementarity_vi_nonsmooth",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "互补问题、变分不等式与非光滑优化",
-          "trackLabel": "Complementarity, variational inequalities, and nonsmooth analysis"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "machine_learning_optimization",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "机器学习优化与算法",
-          "trackLabel": "Machine learning and optimization"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "top_core",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "important_mainstream",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         },
         {
           "track": "interdisciplinary_applications",
           "tier": "related_reference",
-          "count": 0,
-          "trackLabelZh": "交叉应用方向",
-          "trackLabel": "Interdisciplinary applications"
+          "count": 0
         }
       ],
       "representativeWorks": [
@@ -40502,13 +39735,19 @@
         ]
       },
       "publicAnalysis": {
-        "careerPatternZh": "公开教育与任职路径包括：Assistant Professor / Lecturer · KTH Royal Institute of Technology；Employment · KTH Royal Institute of Technology。",
+        "careerPatternZh": "公开时间线仅显示当前任职于 KTH Royal Institute of Technology，角色为 Assistant Professor / Lecturer；未提供此前教育、博后或任职变动的公开记录。",
         "caveatsZh": [
-          "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+          "成果计数来自 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，为论文量下界，非完整履历。",
+          "citedByCount 与 hIndex 缺失，无法据此评估影响力。",
+          "applications 字段在公开来源中未明确给出。",
+          "招聘信号仅来自 KTH 官方主页列出的 Postdoc position，未包含具体岗位细节或录用证据。",
+          "职业时间线仅含当前职位，缺少教育、博后及历史任职信息。"
         ],
-        "notice": "公开事实归纳，需回到证据台账核验",
-        "source": "deterministic_public_fact_summary"
+        "notice": "AI 辅助归纳，需回到公开证据核验",
+        "source": "deepseek_public_fact_summary",
+        "generatedAt": "2026-09-21T06:10:37.637Z"
       },
+      "uncertainties": [],
       "quality": {
         "status": "ready",
         "isPublicReady": true,
@@ -41540,16 +40779,13 @@
         ]
       },
       "publicAnalysis": {
-        "careerPatternZh": "公开记录显示其在Technische Universität Berlin Institut für Mathematik取得硕士学位（2010–2017），自2017年起在Zuse Institute Berlin优化部门担任Research Assistant，当前公开身份为Zuse Institute Berlin的Guest Researcher。",
+        "careerPatternZh": "公开记录显示其于Technische Universität Berlin Institut für Mathematik取得Master of Science（2010–2017）；自2017年起在Zuse Institute Berlin的Optimization部门担任Research Assistant；当前公开身份为Zuse Institute Berlin的Guest Researcher。",
         "caveatsZh": [
-          "成果计数基于ORCID公开记录与Crossref中携带同一ORCID的DOI元数据合并去重，通常为论文量下界。",
-          "citedByCount与hIndex缺失，无法据此评估影响力。",
-          "当前职位为Guest Researcher，公开信号未显示其具备招聘权，不推断录用或招聘可能性。",
-          "时间线中硕士学位的起止年份与学位名称按公开记录呈现，未补充其他教育或博后经历。"
+          "论文计数与招聘状态需以原始来源为准。"
         ],
         "notice": "AI 辅助归纳，需回到公开证据核验",
         "source": "deepseek_public_fact_summary",
-        "generatedAt": "2026-09-14T06:06:30.620Z"
+        "generatedAt": "2026-09-21T06:10:37.637Z"
       },
       "uncertainties": [],
       "quality": {
@@ -66865,21 +66101,173 @@
           "bilevel optimization",
           "learning-augmented optimization"
         ],
-        "summaryZh": "2025 INFORMS Dantzig Dissertation Award；OR forthcoming 与 M&SOM 成果",
+        "summaryZh": "研究主线围绕随机优化、鲁棒优化、逆优化与双层优化，发展机器学习增强的优化方法，并应用于城市骑行网络设计、人机协作与可持续城市分析。",
         "recentEvolution": [
-          "从清华建设管理、滑铁卢运筹硕士进入多伦多大学运筹博士训练；博士阶段围绕城市骑行网络、双层与两阶段随机优化发展机器学习增强方法；MIT/多伦多博后及 NUS 独立任职后进一步研究逆优化、人机协作与可持续城市 AI。"
+          "从清华建设管理、滑铁卢运筹硕士进入多伦多大学运筹博士训练；博士阶段围绕城市骑行网络、双层与两阶段随机优化发展机器学习增强方法；MIT/多伦多博后及 NUS 独立任职后进一步研究逆优化、人机协作与可持续城市 AI。",
+          {
+            "topic": "Stochastic and robust optimization",
+            "trend": "stable_or_low",
+            "worksCount": 1,
+            "citedByCount": null,
+            "shareOfWorks": 0.333,
+            "yearly": [
+              {
+                "year": 2022,
+                "worksCount": 0
+              },
+              {
+                "year": 2023,
+                "worksCount": 0
+              },
+              {
+                "year": 2024,
+                "worksCount": 0
+              },
+              {
+                "year": 2025,
+                "worksCount": 1
+              },
+              {
+                "year": 2026,
+                "worksCount": 0
+              }
+            ]
+          },
+          {
+            "topic": "Machine learning optimization",
+            "trend": "rising_or_active",
+            "worksCount": 2,
+            "citedByCount": null,
+            "shareOfWorks": 0.667,
+            "yearly": [
+              {
+                "year": 2022,
+                "worksCount": 1
+              },
+              {
+                "year": 2023,
+                "worksCount": 0
+              },
+              {
+                "year": 2024,
+                "worksCount": 0
+              },
+              {
+                "year": 2025,
+                "worksCount": 1
+              },
+              {
+                "year": 2026,
+                "worksCount": 0
+              }
+            ]
+          },
+          {
+            "topic": "Operations research and decision systems",
+            "trend": "stable_or_low",
+            "worksCount": 1,
+            "citedByCount": null,
+            "shareOfWorks": 0.333,
+            "yearly": [
+              {
+                "year": 2022,
+                "worksCount": 1
+              },
+              {
+                "year": 2023,
+                "worksCount": 0
+              },
+              {
+                "year": 2024,
+                "worksCount": 0
+              },
+              {
+                "year": 2025,
+                "worksCount": 0
+              },
+              {
+                "year": 2026,
+                "worksCount": 0
+              }
+            ]
+          },
+          {
+            "topic": "Variational methods, imaging, and inverse problems",
+            "trend": "stable_or_low",
+            "worksCount": 1,
+            "citedByCount": null,
+            "shareOfWorks": 0.333,
+            "yearly": [
+              {
+                "year": 2022,
+                "worksCount": 0
+              },
+              {
+                "year": 2023,
+                "worksCount": 0
+              },
+              {
+                "year": 2024,
+                "worksCount": 0
+              },
+              {
+                "year": 2025,
+                "worksCount": 0
+              },
+              {
+                "year": 2026,
+                "worksCount": 1
+              }
+            ]
+          },
+          {
+            "topic": "Control, energy, and network systems",
+            "trend": "stable_or_low",
+            "worksCount": 1,
+            "citedByCount": null,
+            "shareOfWorks": 0.333,
+            "yearly": [
+              {
+                "year": 2022,
+                "worksCount": 0
+              },
+              {
+                "year": 2023,
+                "worksCount": 0
+              },
+              {
+                "year": 2024,
+                "worksCount": 0
+              },
+              {
+                "year": 2025,
+                "worksCount": 1
+              },
+              {
+                "year": 2026,
+                "worksCount": 0
+              }
+            ]
+          }
         ],
         "methods": [
-          "stochastic optimization and uncertainty methods",
+          "stochastic optimization",
           "robust optimization",
+          "inverse optimization",
           "bilevel optimization",
-          "mathematical optimization"
+          "learning-augmented optimization"
         ],
-        "applications": [],
+        "applications": [
+          "urban cycling network design",
+          "cycling infrastructure planning",
+          "cycling stress assessment",
+          "electric vehicle routing",
+          "prescriptive analytics"
+        ],
         "featureProvenance": {
           "summary": "public_source_or_verified_summary",
-          "methods": "derived_from_public_research_fields",
-          "applications": "not_publicly_specified"
+          "methods": "public_source_or_verified_supplement",
+          "applications": "public_source_or_verified_supplement"
         }
       },
       "publicationMetrics": {
@@ -66971,7 +66359,7 @@
         {
           "track": "interdisciplinary_applications",
           "tier": "related_reference",
-          "count": 0
+          "count": 1
         }
       ],
       "representativeWorks": [
@@ -67009,6 +66397,25 @@
           "venue": "Journal of Transport Geography",
           "url": "https://lin-bo.github.io/",
           "selectionReason": "作者主页关联的城市公平优化代表作"
+        },
+        {
+          "title": "Deep Reinforcement Learning for the Electric Vehicle Routing Problem With Time Windows",
+          "year": 2022,
+          "publicationDate": "2022-08",
+          "venue": "IEEE Transactions on Intelligent Transportation Systems",
+          "doi": "https://doi.org/10.1109/TITS.2021.3105232",
+          "url": "https://doi.org/10.1109/TITS.2021.3105232",
+          "citedByCount": null,
+          "selectionReason": "recent",
+          "selectionReasons": [
+            "recent_crossref_orcid",
+            "recent"
+          ],
+          "isRecent": true,
+          "type": "journal-article",
+          "source": {
+            "displayName": "IEEE Transactions on Intelligent Transportation Systems"
+          }
         }
       ],
       "timeline": [
@@ -67016,6 +66423,38 @@
           "type": "current_position",
           "role": "Assistant Professor; PhD 2025",
           "institution": "National University of Singapore"
+        },
+        {
+          "type": "phd",
+          "degree": "PhD in Operations Research",
+          "institution": "University of Toronto",
+          "department": null,
+          "startYear": "2020",
+          "endYear": "2025"
+        },
+        {
+          "type": "phd",
+          "degree": "MASc in Operations Research",
+          "institution": "University of Waterloo",
+          "department": null,
+          "startYear": "2018",
+          "endYear": "2020"
+        },
+        {
+          "type": "phd",
+          "degree": "Bachelor in Engineering",
+          "institution": "Tsinghua University",
+          "department": "Construction Management",
+          "startYear": "2014",
+          "endYear": "2018"
+        },
+        {
+          "type": "current_position",
+          "role": "Assistant Professor",
+          "institution": "National University of Singapore",
+          "department": null,
+          "startYear": "2026",
+          "endYear": null
         }
       ],
       "grantsAwards": [],
@@ -67031,7 +66470,7 @@
         "homepage": "https://cde.nus.edu.sg/isem/staff/lin-bo/",
         "googleScholar": null,
         "openalex": null,
-        "orcid": null
+        "orcid": "https://orcid.org/0000-0002-4225-9171"
       },
       "evidence": [
         {
@@ -67105,9 +66544,21 @@
             "publication_metrics",
             "representative_works"
           ]
+        },
+        {
+          "type": "orcid_record",
+          "url": "https://orcid.org/0000-0002-4225-9171",
+          "checkedAt": "2026-09-21T06:10:07.618Z",
+          "confidence": "exact_orcid_and_name",
+          "supportsClaims": [
+            "bibliographic_identity",
+            "publication_metrics",
+            "representative_works",
+            "research_evolution"
+          ]
         }
       ],
-      "lastVerifiedAt": "2026-07-10",
+      "lastVerifiedAt": "2026-09-21T06:10:07.618Z",
       "sourceKind": "legacy_person",
       "sourceRecordIds": {
         "labs": [],
@@ -67115,13 +66566,33 @@
           "nus-bo-lin"
         ]
       },
+      "publicationAnalysis": {
+        "provider": "ORCID",
+        "updatedAt": "2026-09-21T06:10:07.618Z",
+        "inputWorks": 5,
+        "countedWorks": 3,
+        "excludedWorks": 0,
+        "unclassifiedWorks": 2,
+        "deduplicatedWorks": 0
+      },
+      "enrichmentStatus": {
+        "provider": "ORCID",
+        "identityStatus": "confirmed",
+        "confidence": "exact_orcid_and_name",
+        "updatedAt": "2026-09-21T06:10:07.618Z",
+        "crossSourceStatus": "orcid_self_linked",
+        "warnings": [
+          "ORCID 记录通常是论文量下界，不等同于完整论文总数。"
+        ]
+      },
       "publicAnalysis": {
-        "careerPatternZh": "公开教育与任职路径包括：Assistant Professor; PhD 2025 · National University of Singapore。",
+        "careerPatternZh": "2014-2018 清华大学建设管理本科；2018-2020 滑铁卢大学运筹学 MASc；2020-2025 多伦多大学运筹学博士；此后有 MIT/多伦多博后经历；2026 年起任新加坡国立大学助理教授。",
         "caveatsZh": [
-          "研究方法由公开研究标签与摘要归纳，不等同于作者自述的方法清单。"
+          "论文计数与招聘状态需以原始来源为准。"
         ],
-        "notice": "公开事实归纳，需回到证据台账核验",
-        "source": "deterministic_public_fact_summary"
+        "notice": "AI 辅助归纳，需回到公开证据核验",
+        "source": "deepseek_public_fact_summary",
+        "generatedAt": "2026-09-21T06:10:37.637Z"
       },
       "uncertainties": [],
       "quality": {
@@ -69722,561 +69193,6 @@
         ],
         "notice": "公开事实归纳，需回到证据台账核验",
         "source": "deterministic_public_fact_summary"
-      },
-      "uncertainties": [],
-      "quality": {
-        "status": "ready",
-        "isPublicReady": true,
-        "score": 100,
-        "missing": []
-      }
-    },
-    {
-      "id": "sustech-shangzhi-zeng",
-      "canonicalId": "sustech-shangzhi-zeng",
-      "profileType": "young_scholar",
-      "profileTypes": [
-        "young_scholar"
-      ],
-      "name": "Shangzhi Zeng",
-      "currentPosition": "Associate Professor; PhD 2021",
-      "institution": "Southern University of Science and Technology",
-      "country": null,
-      "region": "Mainland China",
-      "roleType": "associate professor",
-      "group": null,
-      "research": {
-        "tags": [
-          "bilevel optimization",
-          "variational analysis",
-          "nonsmooth optimization",
-          "ML optimization",
-          "first-order methods"
-        ],
-        "summaryZh": "主要从事双层优化、非光滑优化、变分分析及一阶优化方法的研究，并将这些方法应用于机器学习与数据科学。",
-        "recentEvolution": [
-          {
-            "topic": "Machine learning optimization",
-            "trend": "stable_or_low",
-            "worksCount": 1,
-            "citedByCount": null,
-            "shareOfWorks": 0.167,
-            "yearly": [
-              {
-                "year": 2022,
-                "worksCount": 0
-              },
-              {
-                "year": 2023,
-                "worksCount": 1
-              },
-              {
-                "year": 2024,
-                "worksCount": 0
-              },
-              {
-                "year": 2025,
-                "worksCount": 0
-              },
-              {
-                "year": 2026,
-                "worksCount": 0
-              }
-            ]
-          },
-          {
-            "topic": "Queueing, service, and stochastic systems",
-            "trend": "stable_or_low",
-            "worksCount": 1,
-            "citedByCount": null,
-            "shareOfWorks": 0.167,
-            "yearly": [
-              {
-                "year": 2022,
-                "worksCount": 0
-              },
-              {
-                "year": 2023,
-                "worksCount": 1
-              },
-              {
-                "year": 2024,
-                "worksCount": 0
-              },
-              {
-                "year": 2025,
-                "worksCount": 0
-              },
-              {
-                "year": 2026,
-                "worksCount": 0
-              }
-            ]
-          },
-          {
-            "topic": "Algorithms and complexity",
-            "trend": "rising_or_active",
-            "worksCount": 2,
-            "citedByCount": null,
-            "shareOfWorks": 0.333,
-            "yearly": [
-              {
-                "year": 2022,
-                "worksCount": 1
-              },
-              {
-                "year": 2023,
-                "worksCount": 0
-              },
-              {
-                "year": 2024,
-                "worksCount": 0
-              },
-              {
-                "year": 2025,
-                "worksCount": 0
-              },
-              {
-                "year": 2026,
-                "worksCount": 1
-              }
-            ]
-          }
-        ],
-        "methods": [
-          "nonsmooth and variational analysis",
-          "first-order methods",
-          "bilevel optimization",
-          "mathematical optimization"
-        ],
-        "applications": [
-          "machine learning and data science"
-        ],
-        "featureProvenance": {
-          "summary": "public_source_or_verified_summary",
-          "methods": "public_source_or_verified_supplement",
-          "applications": "public_source_or_verified_supplement"
-        }
-      },
-      "publicationMetrics": {
-        "worksCount": 12,
-        "recentWorksCount": 6,
-        "citedByCount": null,
-        "hIndex": null,
-        "recent5Years": {
-          "fromYear": 2022,
-          "toYear": 2026,
-          "worksCount": 6,
-          "yearly": [
-            {
-              "year": 2022,
-              "worksCount": 1
-            },
-            {
-              "year": 2023,
-              "worksCount": 2
-            },
-            {
-              "year": 2024,
-              "worksCount": 0
-            },
-            {
-              "year": 2025,
-              "worksCount": 1
-            },
-            {
-              "year": 2026,
-              "worksCount": 2
-            }
-          ]
-        },
-        "countLabelZh": "ORCID / Crossref 关联成果记录",
-        "countCaveatZh": "合并作者 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据；去重后的记录通常仍是论文量下界。",
-        "sourceCounts": {
-          "orcidRecordCount": 12,
-          "crossrefOrcidWorksCount": 5,
-          "mergedRecordCount": 12,
-          "checkedAt": "2026-09-14T06:05:47.605Z"
-        },
-        "provider": "ORCID",
-        "authorId": "0000-0002-6950-7825",
-        "crossSourceCounts": {
-          "orcidRecordCount": 12,
-          "crossrefOrcidWorksCount": 5,
-          "mergedRecordCount": 12,
-          "checkedAt": "2026-09-14T06:05:47.605Z"
-        },
-        "updatedAt": "2026-09-14T06:05:47.605Z",
-        "topVenueCountsLowerBound": [],
-        "topVenueCountBasisZh": "仅按已核验代表作中可识别的核心 venue 统计，是保守下限，不等同于完整履历总数。"
-      },
-      "venueBreakdown": [
-        {
-          "track": "optimization_operations_research",
-          "tier": "top_core",
-          "count": 0
-        },
-        {
-          "track": "optimization_operations_research",
-          "tier": "important_mainstream",
-          "count": 0
-        },
-        {
-          "track": "optimization_operations_research",
-          "tier": "related_reference",
-          "count": 0
-        },
-        {
-          "track": "numerical_analysis_scientific_computing",
-          "tier": "top_core",
-          "count": 0
-        },
-        {
-          "track": "numerical_analysis_scientific_computing",
-          "tier": "important_mainstream",
-          "count": 0
-        },
-        {
-          "track": "numerical_analysis_scientific_computing",
-          "tier": "related_reference",
-          "count": 0
-        },
-        {
-          "track": "complementarity_vi_nonsmooth",
-          "tier": "top_core",
-          "count": 0
-        },
-        {
-          "track": "complementarity_vi_nonsmooth",
-          "tier": "important_mainstream",
-          "count": 2
-        },
-        {
-          "track": "complementarity_vi_nonsmooth",
-          "tier": "related_reference",
-          "count": 0
-        },
-        {
-          "track": "machine_learning_optimization",
-          "tier": "top_core",
-          "count": 0
-        },
-        {
-          "track": "machine_learning_optimization",
-          "tier": "important_mainstream",
-          "count": 4
-        },
-        {
-          "track": "machine_learning_optimization",
-          "tier": "related_reference",
-          "count": 0
-        },
-        {
-          "track": "interdisciplinary_applications",
-          "tier": "top_core",
-          "count": 0
-        },
-        {
-          "track": "interdisciplinary_applications",
-          "tier": "important_mainstream",
-          "count": 4
-        },
-        {
-          "track": "interdisciplinary_applications",
-          "tier": "related_reference",
-          "count": 0
-        }
-      ],
-      "representativeWorks": [
-        {
-          "title": "Augmenting Iterative Trajectory for Bilevel Optimization: Methodology, Analysis and Extensions",
-          "year": 2026,
-          "publicationDate": "2026-04",
-          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-          "doi": "https://doi.org/10.1109/TPAMI.2025.3644443",
-          "url": "https://doi.org/10.1109/TPAMI.2025.3644443",
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent_crossref_orcid",
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-          }
-        },
-        {
-          "title": "Moreau Envelope-Based Difference of Weakly Convex Reformulation and Algorithm for Bilevel Programs",
-          "year": 2026,
-          "publicationDate": "2026-06-27",
-          "venue": "Journal of the Operations Research Society of China",
-          "doi": "https://doi.org/10.1007/s40305-026-00706-3",
-          "url": "https://doi.org/10.1007/s40305-026-00706-3",
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent_crossref_orcid",
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "Journal of the Operations Research Society of China"
-          }
-        },
-        {
-          "title": "Optimality conditions for bilevel programmes via Moreau envelope reformulation*",
-          "year": 2025,
-          "publicationDate": "2025-09-10",
-          "venue": "Optimization",
-          "doi": "https://doi.org/10.1080/02331934.2024.2358086",
-          "url": "https://doi.org/10.1080/02331934.2024.2358086",
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent_crossref_orcid",
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "Optimization"
-          }
-        },
-        {
-          "title": "Hierarchical Optimization-Derived Learning",
-          "year": 2023,
-          "publicationDate": "2023",
-          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-          "doi": "https://doi.org/10.1109/TPAMI.2023.3315333",
-          "url": "https://doi.org/10.1109/TPAMI.2023.3315333",
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent_crossref_orcid",
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-          }
-        },
-        {
-          "title": "Value-Function-Based Sequential Minimization for Bi-Level Optimization",
-          "year": 2023,
-          "publicationDate": "2023-12",
-          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-          "doi": "https://doi.org/10.1109/TPAMI.2023.3303227",
-          "url": "https://doi.org/10.1109/TPAMI.2023.3303227",
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent_crossref_orcid",
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-          }
-        },
-        {
-          "title": "A General Descent Aggregation Framework for Gradient-based Bi-level Optimization",
-          "year": 2022,
-          "publicationDate": "2022",
-          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-          "doi": "https://doi.org/10.1109/TPAMI.2022.3140249",
-          "url": "https://doi.org/10.1109/TPAMI.2022.3140249",
-          "citedByCount": null,
-          "selectionReason": "recent",
-          "selectionReasons": [
-            "recent"
-          ],
-          "isRecent": true,
-          "type": "journal-article",
-          "source": {
-            "displayName": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-          }
-        },
-        {
-          "title": "Perturbation Techniques for Convergence Analysis of Proximal Gradient Method and Other First-Order Algorithms via Variational Analysis",
-          "year": 2021,
-          "publicationDate": "2021",
-          "venue": "Set-Valued and Variational Analysis",
-          "doi": "https://doi.org/10.1007/s11228-020-00570-0",
-          "url": "https://doi.org/10.1007/s11228-020-00570-0",
-          "citedByCount": null,
-          "selectionReason": "career_record",
-          "selectionReasons": [
-            "career_record"
-          ],
-          "isRecent": false,
-          "type": "journal-article",
-          "source": {
-            "displayName": "Set-Valued and Variational Analysis"
-          }
-        },
-        {
-          "title": "Variational Analysis Perspective on Linear Convergence of Some First Order Methods for Nonsmooth Convex Optimization Problems",
-          "year": 2021,
-          "publicationDate": "2021",
-          "venue": "Set-Valued and Variational Analysis",
-          "doi": "https://doi.org/10.1007/s11228-021-00591-3",
-          "url": "https://doi.org/10.1007/s11228-021-00591-3",
-          "citedByCount": null,
-          "selectionReason": "career_record",
-          "selectionReasons": [
-            "career_record"
-          ],
-          "isRecent": false,
-          "type": "journal-article",
-          "source": {
-            "displayName": "Set-Valued and Variational Analysis"
-          }
-        }
-      ],
-      "timeline": [
-        {
-          "type": "current_position",
-          "role": "Associate Professor; PhD 2021",
-          "institution": "Southern University of Science and Technology"
-        },
-        {
-          "type": "phd",
-          "degree": "Doctor of Philosophy",
-          "institution": "The University of Hong Kong",
-          "department": "Department of Mathematics",
-          "startYear": "2018",
-          "endYear": "2021"
-        },
-        {
-          "type": "phd",
-          "degree": "Master of Philosophy",
-          "institution": "Hong Kong Baptist University",
-          "department": "Department of Mathematics",
-          "startYear": "2015",
-          "endYear": "2017"
-        },
-        {
-          "type": "phd",
-          "degree": "Bachelor of Science",
-          "institution": "Wuhan University",
-          "department": "School of Mathematics and Statistics",
-          "startYear": "2011",
-          "endYear": "2015"
-        }
-      ],
-      "grantsAwards": [],
-      "recruitmentSignals": [
-        {
-          "type": "no_public_signal",
-          "sourceType": "public_signal",
-          "confidence": "C",
-          "observedAt": "2026-07-10"
-        }
-      ],
-      "links": {
-        "homepage": "https://math.sustech.edu.cn/e/zengshangzhi",
-        "googleScholar": null,
-        "openalex": "https://openalex.org/A5014555178",
-        "orcid": "https://orcid.org/0000-0002-6950-7825"
-      },
-      "evidence": [
-        {
-          "type": "profile_homepage",
-          "url": "https://math.sustech.edu.cn/e/zengshangzhi",
-          "confidence": "A",
-          "checkedAt": "2026-07-10",
-          "supportsClaims": [
-            "identity",
-            "position",
-            "research"
-          ]
-        },
-        {
-          "type": "research_source",
-          "url": "https://math.sustech.edu.cn/e/zengshangzhi",
-          "confidence": "A",
-          "checkedAt": "2026-07-10",
-          "supportsClaims": [
-            "identity",
-            "position",
-            "research",
-            "career_stage"
-          ]
-        },
-        {
-          "type": "research_source",
-          "url": "https://openalex.org/A5014555178",
-          "confidence": "A",
-          "checkedAt": "2026-07-10",
-          "supportsClaims": [
-            "identity",
-            "position",
-            "research",
-            "career_stage"
-          ]
-        },
-        {
-          "type": "openalex_identity_hint",
-          "url": "https://openalex.org/A5014555178",
-          "confidence": "B",
-          "checkedAt": "2026-07-10",
-          "supportsClaims": [
-            "bibliographic_identity_hint"
-          ]
-        },
-        {
-          "type": "orcid_record",
-          "url": "https://orcid.org/0000-0002-6950-7825",
-          "checkedAt": "2026-09-14T06:05:47.605Z",
-          "confidence": "exact_orcid_and_name",
-          "supportsClaims": [
-            "bibliographic_identity",
-            "publication_metrics",
-            "representative_works",
-            "research_evolution"
-          ]
-        }
-      ],
-      "lastVerifiedAt": "2026-09-14T06:05:47.605Z",
-      "sourceKind": "legacy_person",
-      "sourceRecordIds": {
-        "labs": [],
-        "people": [
-          "sustech-shangzhi-zeng"
-        ]
-      },
-      "publicationAnalysis": {
-        "provider": "ORCID",
-        "updatedAt": "2026-09-14T06:05:47.605Z",
-        "inputWorks": 12,
-        "countedWorks": 8,
-        "excludedWorks": 0,
-        "unclassifiedWorks": 4,
-        "deduplicatedWorks": 0
-      },
-      "enrichmentStatus": {
-        "provider": "ORCID",
-        "identityStatus": "confirmed",
-        "confidence": "exact_orcid_and_name",
-        "updatedAt": "2026-09-14T06:05:47.605Z",
-        "crossSourceStatus": "orcid_self_linked",
-        "warnings": [
-          "ORCID 记录通常是论文量下界，不等同于完整论文总数。"
-        ]
-      },
-      "publicAnalysis": {
-        "careerPatternZh": "2011-2015 武汉大学数学与统计学院本科；2015-2017 香港浸会大学数学系硕士；2018-2021 香港大学数学系博士；现任南方科技大学数学系副教授（2021年博士毕业）。",
-        "caveatsZh": [
-          "论文计数与招聘状态需以原始来源为准。"
-        ],
-        "notice": "AI 辅助归纳，需回到公开证据核验",
-        "source": "deepseek_public_fact_summary",
-        "generatedAt": "2026-07-13T04:38:49.952Z"
       },
       "uncertainties": [],
       "quality": {
@@ -72918,8 +71834,8 @@
   ],
   "overview": {
     "totalProfiles": 132,
-    "readyProfiles": 130,
-    "incompleteProfiles": 2,
+    "readyProfiles": 128,
+    "incompleteProfiles": 4,
     "byType": [
       {
         "value": "young_scholar",
@@ -73072,6 +71988,6 @@
     "expansionSignals": 20,
     "acceptingApplications": 7,
     "fellowshipHosts": 4,
-    "metricsUpdatedAt": "2026-09-14T06:05:47.605Z"
+    "metricsUpdatedAt": "2026-07-10T11:20:57.766Z"
   }
 }

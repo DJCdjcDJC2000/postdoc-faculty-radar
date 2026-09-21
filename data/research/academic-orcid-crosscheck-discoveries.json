@@ -1,23 +1,99 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-14T06:05:20.821Z",
+  "generatedAt": "2026-09-21T06:09:41.953Z",
   "methodNoteZh": "将 ORCID 作品标题与已核验主页及其同域 publication/research 页面比对；至少两篇匹配且严格领先其他候选才确认。",
   "thresholds": {
     "minimumExactTitleMatches": 2,
     "requiresUniqueLead": true
   },
   "counts": {
-    "checked": 33,
-    "candidates": 7,
+    "checked": 34,
+    "candidates": 8,
     "review": 26,
-    "errors": 0
+    "errors": 1
   },
   "profiles": [
+    {
+      "id": "person-napat-rujeerapaiboon",
+      "name": "Napat Rujeerapaiboon",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-5996-335X",
+      "selected": {
+        "orcid": "0000-0002-5996-335X",
+        "observedName": "Napat Rujeerapaiboon",
+        "institutionNames": [],
+        "nameScore": 1,
+        "institutionScore": 0,
+        "worksCount": 24,
+        "titleMatches": [
+          "Utility elicitation and maximization from uncertain certainty equivalents",
+          "Cost-sensitive, envy-resistant consensus in group decision making",
+          "Equitable transportation network design for signal-free smart intersections",
+          "Optimal Influence in Markovian Opinion Networks",
+          "Optimal Competitive Ratio in Opaque Sales",
+          "Discounted-likelihood valuation of variance and volatility swaps",
+          "Regret Minimization and Separation in Multi-Bidder, Multi-Item Auctions",
+          "A Planner-Trader Decomposition for Multimarket Hydro Scheduling",
+          "Robust Data-Driven CARA Optimization",
+          "Target-Oriented Regret Minimization for Satisficing Monopolists",
+          "Optimal deployment of an equitable CAV platoonable corridor on road networks with mixed traffic flow",
+          "Resilience of long chain under disruption",
+          "Distributionally Robust Inventory Management with Advance Purchase Contracts",
+          "Robust multidimensional pricing: separation without regret",
+          "A revised approach for risk-averse multi-armed bandits under CVaR criterion",
+          "Size Matters: Cardinality-Constrained Clustering and Outlier Detection via Conic Optimization",
+          "On Risk Reduction in Kelly Betting Using the Conservative Expected Value",
+          "Chebyshev Inequalities for Products of Random Variables",
+          "Scenario reduction revisited: fundamental limits and guarantees",
+          "Multi-period portfolio optimization: Translation of autocorrelation risk to excess variance",
+          "Robust Growth-Optimal Portfolios"
+        ]
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-5996-335X",
+          "observedName": "Napat Rujeerapaiboon",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 24,
+          "titleMatches": [
+            "Utility elicitation and maximization from uncertain certainty equivalents",
+            "Cost-sensitive, envy-resistant consensus in group decision making",
+            "Equitable transportation network design for signal-free smart intersections",
+            "Optimal Influence in Markovian Opinion Networks",
+            "Optimal Competitive Ratio in Opaque Sales",
+            "Discounted-likelihood valuation of variance and volatility swaps",
+            "Regret Minimization and Separation in Multi-Bidder, Multi-Item Auctions",
+            "A Planner-Trader Decomposition for Multimarket Hydro Scheduling",
+            "Robust Data-Driven CARA Optimization",
+            "Target-Oriented Regret Minimization for Satisficing Monopolists",
+            "Optimal deployment of an equitable CAV platoonable corridor on road networks with mixed traffic flow",
+            "Resilience of long chain under disruption",
+            "Distributionally Robust Inventory Management with Advance Purchase Contracts",
+            "Robust multidimensional pricing: separation without regret",
+            "A revised approach for risk-averse multi-armed bandits under CVaR criterion",
+            "Size Matters: Cardinality-Constrained Clustering and Outlier Detection via Conic Optimization",
+            "On Risk Reduction in Kelly Betting Using the Conservative Expected Value",
+            "Chebyshev Inequalities for Products of Random Variables",
+            "Scenario reduction revisited: fundamental limits and guarantees",
+            "Multi-period portfolio optimization: Translation of autocorrelation risk to excess variance",
+            "Robust Growth-Optimal Portfolios"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://sites.google.com/view/napatrujeerapaiboon/home"
+      ],
+      "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
+    },
     {
       "id": "imperial-wolfram-wiesemann",
       "name": "Wolfram Wiesemann",
       "officialInstitution": "Imperial College London",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-3076-1591",
       "selected": {
@@ -28,9 +104,9 @@
         "institutionScore": 0,
         "worksCount": 16,
         "titleMatches": [
+          "It’s All in the Mix: Wasserstein Classification and Regression with Mixed Features",
           "An MILP-Based Solution Scheme for Factored Markov Decision Processes",
           "A Note on Piecewise Affine Decision Rules for Robust, Stochastic, and Data-Driven Optimization",
-          "It’s All in the Mix: Wasserstein Classification and Regression with Mixed Features",
           "Differential Privacy via Distributionally Robust Optimization",
           "A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle",
           "Randomized Assortment Optimization",
@@ -51,9 +127,9 @@
           "institutionScore": 0,
           "worksCount": 16,
           "titleMatches": [
+            "It’s All in the Mix: Wasserstein Classification and Regression with Mixed Features",
             "An MILP-Based Solution Scheme for Factored Markov Decision Processes",
             "A Note on Piecewise Affine Decision Rules for Robust, Stochastic, and Data-Driven Optimization",
-            "It’s All in the Mix: Wasserstein Classification and Regression with Mixed Features",
             "Differential Privacy via Distributionally Robust Optimization",
             "A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle",
             "Randomized Assortment Optimization",
@@ -76,7 +152,7 @@
       "id": "john-duchi-stanford",
       "name": "John Duchi",
       "officialInstitution": "Stanford University",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-0045-7185",
       "selected": {
@@ -271,7 +347,7 @@
       "id": "fr-inria-adrien-taylor",
       "name": "Adrien Taylor",
       "officialInstitution": "Inria Paris / ENS",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-2509-1765",
       "selected": {
@@ -318,7 +394,7 @@
       "id": "be-uclouvain-benoit-legat",
       "name": "Benoît Legat",
       "officialInstitution": "UCLouvain",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-5921-368X",
       "selected": {
@@ -395,7 +471,7 @@
       "id": "fr-ens-lyon-elisa-riccietti",
       "name": "Elisa Riccietti",
       "officialInstitution": "École Normale Supérieure de Lyon / Inria OCKHAM",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-0864-6116",
       "selected": {
@@ -471,7 +547,7 @@
       "id": "cityu-jiaman-wu",
       "name": "Jiaman Wu",
       "officialInstitution": "City University of Hong Kong",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "confirmed_candidate",
       "orcid": "0009-0008-1216-3719",
       "selected": {
@@ -560,58 +636,93 @@
       "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
     },
     {
-      "id": "sustech-shangzhi-zeng",
-      "name": "Shangzhi Zeng",
-      "officialInstitution": "Southern University of Science and Technology",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "id": "nus-bo-lin",
+      "name": "Bo Lin",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "confirmed_candidate",
-      "orcid": "0000-0002-6950-7825",
+      "orcid": "0000-0002-4225-9171",
       "selected": {
-        "orcid": "0000-0002-6950-7825",
-        "observedName": "Shangzhi Zeng",
+        "orcid": "0000-0002-4225-9171",
+        "observedName": "Bo Lin",
         "institutionNames": [
-          "Hong Kong Baptist University",
-          "The University of Hong Kong",
-          "Wuhan University"
+          "National University of Singapore",
+          "Tsinghua University",
+          "University of Toronto",
+          "University of Waterloo"
         ],
         "nameScore": 1,
-        "institutionScore": 0,
-        "worksCount": 12,
+        "institutionScore": 1,
+        "worksCount": 5,
         "titleMatches": [
-          "Value-Function-Based Sequential Minimization for Bi-Level Optimization",
-          "Hierarchical Optimization-Derived Learning",
-          "A General Descent Aggregation Framework for Gradient-based Bi-level Optimization",
-          "Variational Analysis Perspective on Linear Convergence of Some First Order Methods for Nonsmooth Convex Optimization Problems",
-          "A generic first-order algorithmic framework for bi-level programming beyond lower-level singleton",
-          "Discerning the linear convergence of ADMM for structured convex optimization through the lens of variational analysis"
+          "Conformal Inverse Optimization for Adherence-Aware Prescriptive Analytics",
+          "Machine Learning–Augmented Optimization of Large Bilevel and Two-Stage Stochastic Programs: Application to Cycling Network Design"
         ]
       },
       "candidates": [
         {
-          "orcid": "0000-0002-6950-7825",
-          "observedName": "Shangzhi Zeng",
+          "orcid": "0000-0002-5081-3419",
+          "observedName": "Bo Lin",
           "institutionNames": [
-            "Hong Kong Baptist University",
-            "The University of Hong Kong",
-            "Wuhan University"
+            "National University of Singapore",
+            "University of Science and Technology of China"
           ],
           "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 12,
+          "institutionScore": 1,
+          "worksCount": 2,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-4225-9171",
+          "observedName": "Bo Lin",
+          "institutionNames": [
+            "National University of Singapore",
+            "Tsinghua University",
+            "University of Toronto",
+            "University of Waterloo"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1,
+          "worksCount": 5,
           "titleMatches": [
-            "Value-Function-Based Sequential Minimization for Bi-Level Optimization",
-            "Hierarchical Optimization-Derived Learning",
-            "A General Descent Aggregation Framework for Gradient-based Bi-level Optimization",
-            "Variational Analysis Perspective on Linear Convergence of Some First Order Methods for Nonsmooth Convex Optimization Problems",
-            "A generic first-order algorithmic framework for bi-level programming beyond lower-level singleton",
-            "Discerning the linear convergence of ADMM for structured convex optimization through the lens of variational analysis"
+            "Conformal Inverse Optimization for Adherence-Aware Prescriptive Analytics",
+            "Machine Learning–Augmented Optimization of Large Bilevel and Two-Stage Stochastic Programs: Application to Cycling Network Design"
           ]
+        },
+        {
+          "orcid": "0000-0001-5326-1747",
+          "observedName": "Bo Lin",
+          "institutionNames": [
+            "National University of Defense Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.25,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-9173-1671",
+          "observedName": "Bo Lin",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-5362-9174",
+          "observedName": "Bo Lin",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
         }
       ],
       "sourceUrls": [
-        "https://math.sustech.edu.cn/e/zengshangzhi",
-        "https://math.sustech.edu.cn/research_areas.html?lang=en",
-        "https://math.sustech.edu.cn/seminar_all.html?lang=en"
+        "https://cde.nus.edu.sg/isem/staff/lin-bo/",
+        "https://cde.nus.edu.sg/isem/graduate/research-degrees/",
+        "https://cde.nus.edu.sg/isem/graduate/research-students-placement/"
       ],
       "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
     }
@@ -621,7 +732,7 @@
       "id": "berkeley-lavaei-optimization-control",
       "name": "Javad Lavaei",
       "officialInstitution": "University of California, Berkeley",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -644,75 +755,10 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "nus-jie-sun-optimization-benchmark",
-      "name": "Jie Sun",
-      "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0002-5264-4428",
-          "observedName": "Jie Sun",
-          "institutionNames": [
-            "National University of Singapore"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 1,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-1334-5262",
-          "observedName": "Jie Sun",
-          "institutionNames": [
-            "Hong Kong Polytechnic University",
-            "National University of Singapore"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 16,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-3876-3631",
-          "observedName": "Jie Sun",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-6209-5506",
-          "observedName": "Jie Sun",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-0595-2396",
-          "observedName": "jie sun",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://discovery.nus.edu.sg/471-jie-sun"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
       "id": "nus-melvyn-sim",
       "name": "Melvyn Sim",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -740,7 +786,7 @@
       "id": "hku-ids-yue-xie",
       "name": "Yue Xie",
       "officialInstitution": "The University of Hong Kong",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -806,10 +852,75 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
+      "id": "nus-jie-sun-optimization-benchmark",
+      "name": "Jie Sun",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-5264-4428",
+          "observedName": "Jie Sun",
+          "institutionNames": [
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1,
+          "worksCount": 1,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0003-1334-5262",
+          "observedName": "Jie Sun",
+          "institutionNames": [
+            "Hong Kong Polytechnic University",
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1,
+          "worksCount": 16,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-3876-3631",
+          "observedName": "Jie Sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-6209-5506",
+          "observedName": "Jie Sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0003-0595-2396",
+          "observedName": "jie sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        }
+      ],
+      "sourceUrls": [
+        "https://discovery.nus.edu.sg/471-jie-sun"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
       "id": "amss-yuhong-dai",
       "name": "Yu-Hong Dai",
       "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -834,7 +945,7 @@
       "id": "amss-xin-liu",
       "name": "Xin Liu",
       "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -910,7 +1021,7 @@
       "id": "liu-yang-nus",
       "name": "Liu Yang",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -985,7 +1096,7 @@
       "id": "rahul-mazumder-mit",
       "name": "Rahul Mazumder",
       "officialInstitution": "MIT Sloan School of Management",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1030,34 +1141,10 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "damek-davis-upenn",
-      "name": "Damek Davis",
-      "officialInstitution": "University of Pennsylvania, Wharton",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0003-2105-4641",
-          "observedName": "Damek Davis",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://damek.github.io/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
       "id": "sustech-tao-tang",
       "name": "Tao Tang",
       "officialInstitution": "Southern University of Science and Technology",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1138,10 +1225,34 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
+      "id": "damek-davis-upenn",
+      "name": "Damek Davis",
+      "officialInstitution": "University of Pennsylvania, Wharton",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-2105-4641",
+          "observedName": "Damek Davis",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        }
+      ],
+      "sourceUrls": [
+        "https://damek.github.io/"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
       "id": "ch-epfl-nicolas-flammarion",
       "name": "Nicolas Flammarion",
       "officialInstitution": "EPFL",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1165,7 +1276,7 @@
       "id": "fr-inria-hadrien-hendrikx",
       "name": "Hadrien Hendrikx",
       "officialInstitution": "Inria Grenoble",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1191,7 +1302,7 @@
       "id": "fr-inria-baptiste-goujaud",
       "name": "Baptiste Goujaud",
       "officialInstitution": "Inria Saclay",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1217,7 +1328,7 @@
       "id": "fr-apple-pierre-ablin",
       "name": "Pierre Ablin",
       "officialInstitution": "Apple Machine Learning Research, Paris",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1242,7 +1353,7 @@
       "id": "fr-inria-quentin-bertrand",
       "name": "Quentin Bertrand",
       "officialInstitution": "Inria Lyon",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1251,6 +1362,17 @@
           "orcid": "0000-0003-1487-6671",
           "observedName": "QUENTIN BERTRAND",
           "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0009-0000-4214-1125",
+          "observedName": "Quentin Bertrand",
+          "institutionNames": [
+            "Yale University"
+          ],
           "nameScore": 1,
           "institutionScore": 0,
           "worksCount": 0,
@@ -1290,7 +1412,7 @@
       "id": "at-klagenfurt-caroline-geiersbach",
       "name": "Caroline Geiersbach",
       "officialInstitution": "University of Klagenfurt",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1316,7 +1438,7 @@
       "id": "fr-inria-frederik-kunstner",
       "name": "Frederik Kunstner",
       "officialInstitution": "Inria Paris / École Normale Supérieure, SIERRA",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1341,7 +1463,7 @@
       "id": "fr-inria-sorbonne-raphael-berthier",
       "name": "Raphaël Berthier",
       "officialInstitution": "Inria Sorbonne Université",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1362,35 +1484,10 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "it-pisa-cecilia-pagliantini",
-      "name": "Cecilia Pagliantini",
-      "officialInstitution": "University of Pisa",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0002-5649-1721",
-          "observedName": "Cecilia Pagliantini",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://www.unipi.it/ateneo/organizzazione/persone/cecilia-pagliantini-183262/",
-        "https://www.unipi.it/innovazione/networking/tavole-rotonde-tematiche/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
       "id": "nus-zaile-li",
       "name": "Zaile Li",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1416,65 +1513,17 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "nus-bo-lin",
-      "name": "Bo Lin",
-      "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "id": "it-pisa-cecilia-pagliantini",
+      "name": "Cecilia Pagliantini",
+      "officialInstitution": "University of Pisa",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
       "candidates": [
         {
-          "orcid": "0000-0002-5081-3419",
-          "observedName": "Bo Lin",
-          "institutionNames": [
-            "National University of Singapore",
-            "University of Science and Technology of China"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 2,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-4225-9171",
-          "observedName": "Bo Lin",
-          "institutionNames": [
-            "National University of Singapore",
-            "Tsinghua University",
-            "University of Toronto",
-            "University of Waterloo"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 4,
-          "titleMatches": [
-            "Machine Learning–Augmented Optimization of Large Bilevel and Two-Stage Stochastic Programs: Application to Cycling Network Design"
-          ]
-        },
-        {
-          "orcid": "0000-0001-5326-1747",
-          "observedName": "Bo Lin",
-          "institutionNames": [
-            "National University of Defense Technology"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.25,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-9173-1671",
-          "observedName": "Bo Lin",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-5362-9174",
-          "observedName": "Bo Lin",
+          "orcid": "0000-0002-5649-1721",
+          "observedName": "Cecilia Pagliantini",
           "institutionNames": [],
           "nameScore": 1,
           "institutionScore": 0,
@@ -1483,17 +1532,22 @@
         }
       ],
       "sourceUrls": [
-        "https://cde.nus.edu.sg/isem/staff/lin-bo/",
-        "https://cde.nus.edu.sg/isem/graduate/research-degrees/",
-        "https://cde.nus.edu.sg/isem/graduate/research-students-placement/"
+        "https://www.unipi.it/ateneo/organizzazione/persone/cecilia-pagliantini-183262/",
+        "https://www.unipi.it/innovazione/networking/tavole-rotonde-tematiche/"
       ],
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
+      "id": "sustech-shangzhi-zeng",
+      "name": "Shangzhi Zeng",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
     },
     {
       "id": "sjtu-jingwei-liang",
       "name": "Jingwei Liang",
       "officialInstitution": "Shanghai Jiao Tong University",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1557,92 +1611,10 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "cuhksz-xiao-li",
-      "name": "Xiao Li",
-      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0009-0007-6982-8681",
-          "observedName": "Xiao LI",
-          "institutionNames": [
-            "CUHK"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-1758-807X",
-          "observedName": "xiao li",
-          "institutionNames": [
-            "Shanxi Medical University",
-            "Sun Yat-sen Memorial Hospital",
-            "Sun Yat-sen University",
-            "The Chinese University of Hong Kong Faculty of Medicine"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-1708-4314",
-          "observedName": "Xiao Li",
-          "institutionNames": [
-            "City University of Hong Kong",
-            "University of Maryland at College Park",
-            "University of Texas at Austin"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.92,
-          "worksCount": 40,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0001-9702-4153",
-          "observedName": "Xiao Li",
-          "institutionNames": [
-            "American Society of Civil Engineers",
-            "Curtin University",
-            "The Hong Kong Polytechnic University",
-            "The University of Hong Kong",
-            "University of Cambridge",
-            "University of Hong Kong"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.92,
-          "worksCount": 58,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-7630-0558",
-          "observedName": "Xiao Li",
-          "institutionNames": [
-            "City University of Hong Kong"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.92,
-          "worksCount": 32,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://www.xiao-li.org/",
-        "https://www.xiao-li.org/research/",
-        "https://www.xiao-li.org/publications/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
       "id": "cuhksz-rui-chen",
       "name": "Rui Chen",
       "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1717,10 +1689,87 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
+      "id": "cuhksz-xiao-li",
+      "name": "Xiao Li",
+      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0007-6982-8681",
+          "observedName": "Xiao LI",
+          "institutionNames": [
+            "CUHK"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-1758-807X",
+          "observedName": "xiao li",
+          "institutionNames": [
+            "Shanxi Medical University",
+            "Sun Yat-sen Memorial Hospital",
+            "Sun Yat-sen University",
+            "The Chinese University of Hong Kong Faculty of Medicine"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-1708-4314",
+          "observedName": "Xiao Li",
+          "institutionNames": [
+            "City University of Hong Kong",
+            "University of Maryland at College Park",
+            "University of Texas at Austin"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92,
+          "worksCount": 40,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-7630-0558",
+          "observedName": "Xiao Li",
+          "institutionNames": [
+            "City University of Hong Kong"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92,
+          "worksCount": 32,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0009-0008-5418-8252",
+          "observedName": "Xiao Li",
+          "institutionNames": [
+            "Education University of Hong Kong"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92,
+          "worksCount": 1,
+          "titleMatches": []
+        }
+      ],
+      "sourceUrls": [
+        "https://www.xiao-li.org/",
+        "https://www.xiao-li.org/research/",
+        "https://www.xiao-li.org/publications/"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
       "id": "pku-cong-fang",
       "name": "Cong Fang",
       "officialInstitution": "Peking University",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1782,7 +1831,7 @@
       "id": "cuhksz-shi-pu",
       "name": "Shi Pu",
       "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-09-14T06:05:20.821Z",
+      "checkedAt": "2026-09-21T06:09:41.953Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1847,5 +1896,11 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "id": "sustech-shangzhi-zeng",
+      "name": "Shangzhi Zeng",
+      "error": "fetch failed"
+    }
+  ]
 }
