@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-21T06:09:41.953Z",
+  "generatedAt": "2026-09-28T06:40:09.151Z",
   "methodNoteZh": "将 ORCID 作品标题与已核验主页及其同域 publication/research 页面比对；至少两篇匹配且严格领先其他候选才确认。",
   "thresholds": {
     "minimumExactTitleMatches": 2,
@@ -8,16 +8,16 @@
   },
   "counts": {
     "checked": 34,
-    "candidates": 8,
-    "review": 26,
-    "errors": 1
+    "candidates": 9,
+    "review": 25,
+    "errors": 0
   },
   "profiles": [
     {
       "id": "person-napat-rujeerapaiboon",
       "name": "Napat Rujeerapaiboon",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-5996-335X",
       "selected": {
@@ -30,7 +30,7 @@
         "titleMatches": [
           "Utility elicitation and maximization from uncertain certainty equivalents",
           "Cost-sensitive, envy-resistant consensus in group decision making",
-          "Equitable transportation network design for signal-free smart intersections",
+          "Equitable Auction Design with Provable Regret Guarantees",
           "Optimal Influence in Markovian Opinion Networks",
           "Optimal Competitive Ratio in Opaque Sales",
           "Discounted-likelihood valuation of variance and volatility swaps",
@@ -62,7 +62,7 @@
           "titleMatches": [
             "Utility elicitation and maximization from uncertain certainty equivalents",
             "Cost-sensitive, envy-resistant consensus in group decision making",
-            "Equitable transportation network design for signal-free smart intersections",
+            "Equitable Auction Design with Provable Regret Guarantees",
             "Optimal Influence in Markovian Opinion Networks",
             "Optimal Competitive Ratio in Opaque Sales",
             "Discounted-likelihood valuation of variance and volatility swaps",
@@ -93,7 +93,7 @@
       "id": "imperial-wolfram-wiesemann",
       "name": "Wolfram Wiesemann",
       "officialInstitution": "Imperial College London",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-3076-1591",
       "selected": {
@@ -104,8 +104,8 @@
         "institutionScore": 0,
         "worksCount": 16,
         "titleMatches": [
-          "It’s All in the Mix: Wasserstein Classification and Regression with Mixed Features",
           "An MILP-Based Solution Scheme for Factored Markov Decision Processes",
+          "It’s All in the Mix: Wasserstein Classification and Regression with Mixed Features",
           "A Note on Piecewise Affine Decision Rules for Robust, Stochastic, and Data-Driven Optimization",
           "Differential Privacy via Distributionally Robust Optimization",
           "A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle",
@@ -127,8 +127,8 @@
           "institutionScore": 0,
           "worksCount": 16,
           "titleMatches": [
-            "It’s All in the Mix: Wasserstein Classification and Regression with Mixed Features",
             "An MILP-Based Solution Scheme for Factored Markov Decision Processes",
+            "It’s All in the Mix: Wasserstein Classification and Regression with Mixed Features",
             "A Note on Piecewise Affine Decision Rules for Robust, Stochastic, and Data-Driven Optimization",
             "Differential Privacy via Distributionally Robust Optimization",
             "A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle",
@@ -152,7 +152,7 @@
       "id": "john-duchi-stanford",
       "name": "John Duchi",
       "officialInstitution": "Stanford University",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-0045-7185",
       "selected": {
@@ -347,7 +347,7 @@
       "id": "fr-inria-adrien-taylor",
       "name": "Adrien Taylor",
       "officialInstitution": "Inria Paris / ENS",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-2509-1765",
       "selected": {
@@ -394,7 +394,7 @@
       "id": "be-uclouvain-benoit-legat",
       "name": "Benoît Legat",
       "officialInstitution": "UCLouvain",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-5921-368X",
       "selected": {
@@ -471,7 +471,7 @@
       "id": "fr-ens-lyon-elisa-riccietti",
       "name": "Elisa Riccietti",
       "officialInstitution": "École Normale Supérieure de Lyon / Inria OCKHAM",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0003-0864-6116",
       "selected": {
@@ -547,7 +547,7 @@
       "id": "cityu-jiaman-wu",
       "name": "Jiaman Wu",
       "officialInstitution": "City University of Hong Kong",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "confirmed_candidate",
       "orcid": "0009-0008-1216-3719",
       "selected": {
@@ -639,7 +639,7 @@
       "id": "nus-bo-lin",
       "name": "Bo Lin",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "confirmed_candidate",
       "orcid": "0000-0002-4225-9171",
       "selected": {
@@ -725,6 +725,62 @@
         "https://cde.nus.edu.sg/isem/graduate/research-students-placement/"
       ],
       "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
+    },
+    {
+      "id": "sustech-shangzhi-zeng",
+      "name": "Shangzhi Zeng",
+      "officialInstitution": "Southern University of Science and Technology",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "status": "confirmed_candidate",
+      "orcid": "0000-0002-6950-7825",
+      "selected": {
+        "orcid": "0000-0002-6950-7825",
+        "observedName": "Shangzhi Zeng",
+        "institutionNames": [
+          "Hong Kong Baptist University",
+          "The University of Hong Kong",
+          "Wuhan University"
+        ],
+        "nameScore": 1,
+        "institutionScore": 0,
+        "worksCount": 12,
+        "titleMatches": [
+          "Value-Function-Based Sequential Minimization for Bi-Level Optimization",
+          "Hierarchical Optimization-Derived Learning",
+          "A General Descent Aggregation Framework for Gradient-based Bi-level Optimization",
+          "Variational Analysis Perspective on Linear Convergence of Some First Order Methods for Nonsmooth Convex Optimization Problems",
+          "A generic first-order algorithmic framework for bi-level programming beyond lower-level singleton",
+          "Discerning the linear convergence of ADMM for structured convex optimization through the lens of variational analysis"
+        ]
+      },
+      "candidates": [
+        {
+          "orcid": "0000-0002-6950-7825",
+          "observedName": "Shangzhi Zeng",
+          "institutionNames": [
+            "Hong Kong Baptist University",
+            "The University of Hong Kong",
+            "Wuhan University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 12,
+          "titleMatches": [
+            "Value-Function-Based Sequential Minimization for Bi-Level Optimization",
+            "Hierarchical Optimization-Derived Learning",
+            "A General Descent Aggregation Framework for Gradient-based Bi-level Optimization",
+            "Variational Analysis Perspective on Linear Convergence of Some First Order Methods for Nonsmooth Convex Optimization Problems",
+            "A generic first-order algorithmic framework for bi-level programming beyond lower-level singleton",
+            "Discerning the linear convergence of ADMM for structured convex optimization through the lens of variational analysis"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://math.sustech.edu.cn/e/zengshangzhi",
+        "https://math.sustech.edu.cn/research_areas.html?lang=en",
+        "https://math.sustech.edu.cn/seminar_all.html?lang=en"
+      ],
+      "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
     }
   ],
   "review": [
@@ -732,7 +788,7 @@
       "id": "berkeley-lavaei-optimization-control",
       "name": "Javad Lavaei",
       "officialInstitution": "University of California, Berkeley",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -758,7 +814,7 @@
       "id": "nus-melvyn-sim",
       "name": "Melvyn Sim",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -783,10 +839,100 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
+      "id": "nus-jie-sun-optimization-benchmark",
+      "name": "Jie Sun",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-5264-4428",
+          "observedName": "Jie Sun",
+          "institutionNames": [
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1,
+          "worksCount": 1,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0003-1334-5262",
+          "observedName": "Jie Sun",
+          "institutionNames": [
+            "Hong Kong Polytechnic University",
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1,
+          "worksCount": 17,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-3876-3631",
+          "observedName": "Jie Sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-6209-5506",
+          "observedName": "Jie Sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0003-0595-2396",
+          "observedName": "jie sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        }
+      ],
+      "sourceUrls": [
+        "https://discovery.nus.edu.sg/471-jie-sun"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
+      "id": "amss-yuhong-dai",
+      "name": "Yu-Hong Dai",
+      "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0002-2088-562X",
+          "observedName": "Yu-hong Dai",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        }
+      ],
+      "sourceUrls": [
+        "https://lsec.cc.ac.cn/~dyh/",
+        "https://lsec.cc.ac.cn/~dyh/publication.html"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
       "id": "hku-ids-yue-xie",
       "name": "Yue Xie",
       "officialInstitution": "The University of Hong Kong",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -852,100 +998,10 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "nus-jie-sun-optimization-benchmark",
-      "name": "Jie Sun",
-      "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0002-5264-4428",
-          "observedName": "Jie Sun",
-          "institutionNames": [
-            "National University of Singapore"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 1,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-1334-5262",
-          "observedName": "Jie Sun",
-          "institutionNames": [
-            "Hong Kong Polytechnic University",
-            "National University of Singapore"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 16,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-3876-3631",
-          "observedName": "Jie Sun",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-6209-5506",
-          "observedName": "Jie Sun",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-0595-2396",
-          "observedName": "jie sun",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://discovery.nus.edu.sg/471-jie-sun"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
-      "id": "amss-yuhong-dai",
-      "name": "Yu-Hong Dai",
-      "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0009-0002-2088-562X",
-          "observedName": "Yu-hong Dai",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://lsec.cc.ac.cn/~dyh/",
-        "https://lsec.cc.ac.cn/~dyh/publication.html"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
       "id": "amss-xin-liu",
       "name": "Xin Liu",
       "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1021,7 +1077,7 @@
       "id": "liu-yang-nus",
       "name": "Liu Yang",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1096,7 +1152,7 @@
       "id": "rahul-mazumder-mit",
       "name": "Rahul Mazumder",
       "officialInstitution": "MIT Sloan School of Management",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1141,10 +1197,34 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
+      "id": "damek-davis-upenn",
+      "name": "Damek Davis",
+      "officialInstitution": "University of Pennsylvania, Wharton",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-2105-4641",
+          "observedName": "Damek Davis",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        }
+      ],
+      "sourceUrls": [
+        "https://damek.github.io/"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
       "id": "sustech-tao-tang",
       "name": "Tao Tang",
       "officialInstitution": "Southern University of Science and Technology",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1225,34 +1305,10 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "damek-davis-upenn",
-      "name": "Damek Davis",
-      "officialInstitution": "University of Pennsylvania, Wharton",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0003-2105-4641",
-          "observedName": "Damek Davis",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://damek.github.io/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
       "id": "ch-epfl-nicolas-flammarion",
       "name": "Nicolas Flammarion",
       "officialInstitution": "EPFL",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1273,36 +1329,10 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "fr-inria-hadrien-hendrikx",
-      "name": "Hadrien Hendrikx",
-      "officialInstitution": "Inria Grenoble",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0009-0007-2282-5109",
-          "observedName": "Hadrien Hendrikx",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 2,
-          "titleMatches": [
-            "Accelerated methods for distributed optimization"
-          ]
-        }
-      ],
-      "sourceUrls": [
-        "https://www.di.ens.fr/~hhendrikx/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
       "id": "fr-inria-baptiste-goujaud",
       "name": "Baptiste Goujaud",
       "officialInstitution": "Inria Saclay",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1325,10 +1355,36 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
+      "id": "fr-inria-hadrien-hendrikx",
+      "name": "Hadrien Hendrikx",
+      "officialInstitution": "Inria Grenoble",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0007-2282-5109",
+          "observedName": "Hadrien Hendrikx",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 2,
+          "titleMatches": [
+            "Accelerated methods for distributed optimization"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://www.di.ens.fr/~hhendrikx/"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
       "id": "fr-apple-pierre-ablin",
       "name": "Pierre Ablin",
       "officialInstitution": "Apple Machine Learning Research, Paris",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1353,7 +1409,7 @@
       "id": "fr-inria-quentin-bertrand",
       "name": "Quentin Bertrand",
       "officialInstitution": "Inria Lyon",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1362,17 +1418,6 @@
           "orcid": "0000-0003-1487-6671",
           "observedName": "QUENTIN BERTRAND",
           "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0000-4214-1125",
-          "observedName": "Quentin Bertrand",
-          "institutionNames": [
-            "Yale University"
-          ],
           "nameScore": 1,
           "institutionScore": 0,
           "worksCount": 0,
@@ -1400,6 +1445,17 @@
           "institutionScore": 0,
           "worksCount": 15,
           "titleMatches": []
+        },
+        {
+          "orcid": "0009-0000-4214-1125",
+          "observedName": "Quentin Bertrand",
+          "institutionNames": [
+            "Yale University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
         }
       ],
       "sourceUrls": [
@@ -1412,7 +1468,7 @@
       "id": "at-klagenfurt-caroline-geiersbach",
       "name": "Caroline Geiersbach",
       "officialInstitution": "University of Klagenfurt",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1438,7 +1494,7 @@
       "id": "fr-inria-frederik-kunstner",
       "name": "Frederik Kunstner",
       "officialInstitution": "Inria Paris / École Normale Supérieure, SIERRA",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1463,7 +1519,7 @@
       "id": "fr-inria-sorbonne-raphael-berthier",
       "name": "Raphaël Berthier",
       "officialInstitution": "Inria Sorbonne Université",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1487,7 +1543,7 @@
       "id": "nus-zaile-li",
       "name": "Zaile Li",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1516,7 +1572,7 @@
       "id": "it-pisa-cecilia-pagliantini",
       "name": "Cecilia Pagliantini",
       "officialInstitution": "University of Pisa",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1538,161 +1594,10 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "sustech-shangzhi-zeng",
-      "name": "Shangzhi Zeng",
-      "status": "needs_review",
-      "reason": "crosscheck_fetch_failed"
-    },
-    {
-      "id": "sjtu-jingwei-liang",
-      "name": "Jingwei Liang",
-      "officialInstitution": "Shanghai Jiao Tong University",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0009-0009-4476-6968",
-          "observedName": "Jingwei Liang",
-          "institutionNames": [
-            "University of Shanghai for Science and Technology"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.16666666666666666,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-3702-0606",
-          "observedName": "Jingwei Liang",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0000-7404-635X",
-          "observedName": "Jingwei Liang",
-          "institutionNames": [
-            "Affiliated Hospital of Hebei University"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0005-3152-3992",
-          "observedName": "Jingwei Liang",
-          "institutionNames": [
-            "Jilin University"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-6892-9188",
-          "observedName": "jingwei liang",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://ins.sjtu.edu.cn/people/jwliang/",
-        "https://ins.sjtu.edu.cn/people/jwliang/publications/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
-      "id": "cuhksz-rui-chen",
-      "name": "Rui Chen",
-      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0003-1002-9758",
-          "observedName": "Rui CHEN",
-          "institutionNames": [
-            "The Chinese University of Hong Kong",
-            "The Hong Kong University of Science and Technology"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 2,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-8848-6118",
-          "observedName": "Rui Chen",
-          "institutionNames": [
-            "Chinese University of Hong Kong, Shenzhen",
-            "Cornell Tech",
-            "University of Wisconsin–Madison"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 12,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-4671-4538",
-          "observedName": "Rui Chen",
-          "institutionNames": [
-            "City University of Hong Kong",
-            "The University of Adelaide",
-            "The University of Queensland",
-            "Xi'an Jiaotong University"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.92,
-          "worksCount": 22,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-3185-8208",
-          "observedName": "Rui Chen",
-          "institutionNames": [
-            "Hong Kong Polytechnic University",
-            "South China University of Technology",
-            "Xiamen University"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.5,
-          "worksCount": 27,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0003-7122-5207",
-          "observedName": "Rui Chen",
-          "institutionNames": [
-            "Hong Kong University of Science and Technology"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.4,
-          "worksCount": 6,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://sites.google.com/view/rchen/home"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
       "id": "cuhksz-xiao-li",
       "name": "Xiao Li",
       "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1766,10 +1671,155 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
+      "id": "sjtu-jingwei-liang",
+      "name": "Jingwei Liang",
+      "officialInstitution": "Shanghai Jiao Tong University",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0009-4476-6968",
+          "observedName": "Jingwei Liang",
+          "institutionNames": [
+            "University of Shanghai for Science and Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.16666666666666666,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0003-3702-0606",
+          "observedName": "Jingwei Liang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0009-0000-7404-635X",
+          "observedName": "Jingwei Liang",
+          "institutionNames": [
+            "Affiliated Hospital of Hebei University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0009-0005-3152-3992",
+          "observedName": "Jingwei Liang",
+          "institutionNames": [
+            "Jilin University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-6892-9188",
+          "observedName": "jingwei liang",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        }
+      ],
+      "sourceUrls": [
+        "https://ins.sjtu.edu.cn/people/jwliang/",
+        "https://ins.sjtu.edu.cn/people/jwliang/publications/"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
+      "id": "cuhksz-rui-chen",
+      "name": "Rui Chen",
+      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-1002-9758",
+          "observedName": "Rui CHEN",
+          "institutionNames": [
+            "The Chinese University of Hong Kong",
+            "The Hong Kong University of Science and Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1,
+          "worksCount": 2,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-8848-6118",
+          "observedName": "Rui Chen",
+          "institutionNames": [
+            "Chinese University of Hong Kong, Shenzhen",
+            "Cornell Tech",
+            "University of Wisconsin–Madison"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1,
+          "worksCount": 13,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0003-4671-4538",
+          "observedName": "Rui Chen",
+          "institutionNames": [
+            "City University of Hong Kong",
+            "The University of Adelaide",
+            "The University of Queensland",
+            "Xi'an Jiaotong University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.92,
+          "worksCount": 22,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-3185-8208",
+          "observedName": "Rui Chen",
+          "institutionNames": [
+            "Hong Kong Polytechnic University",
+            "South China University of Technology",
+            "Xiamen University"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.5,
+          "worksCount": 27,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0009-0003-7122-5207",
+          "observedName": "Rui Chen",
+          "institutionNames": [
+            "Hong Kong University of Science and Technology"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0.4,
+          "worksCount": 6,
+          "titleMatches": []
+        }
+      ],
+      "sourceUrls": [
+        "https://sites.google.com/view/rchen/home"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
       "id": "pku-cong-fang",
       "name": "Cong Fang",
       "officialInstitution": "Peking University",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1831,7 +1881,7 @@
       "id": "cuhksz-shi-pu",
       "name": "Shi Pu",
       "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-09-21T06:09:41.953Z",
+      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1896,11 +1946,5 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     }
   ],
-  "errors": [
-    {
-      "id": "sustech-shangzhi-zeng",
-      "name": "Shangzhi Zeng",
-      "error": "fetch failed"
-    }
-  ]
+  "errors": []
 }
