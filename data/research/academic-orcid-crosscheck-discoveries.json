@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-28T06:40:09.151Z",
+  "generatedAt": "2026-10-05T06:52:23.356Z",
   "methodNoteZh": "将 ORCID 作品标题与已核验主页及其同域 publication/research 页面比对；至少两篇匹配且严格领先其他候选才确认。",
   "thresholds": {
     "minimumExactTitleMatches": 2,
@@ -8,931 +8,17 @@
   },
   "counts": {
     "checked": 34,
-    "candidates": 9,
-    "review": 25,
-    "errors": 0
+    "candidates": 0,
+    "review": 34,
+    "errors": 18
   },
-  "profiles": [
-    {
-      "id": "person-napat-rujeerapaiboon",
-      "name": "Napat Rujeerapaiboon",
-      "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "confirmed_candidate",
-      "orcid": "0000-0002-5996-335X",
-      "selected": {
-        "orcid": "0000-0002-5996-335X",
-        "observedName": "Napat Rujeerapaiboon",
-        "institutionNames": [],
-        "nameScore": 1,
-        "institutionScore": 0,
-        "worksCount": 24,
-        "titleMatches": [
-          "Utility elicitation and maximization from uncertain certainty equivalents",
-          "Cost-sensitive, envy-resistant consensus in group decision making",
-          "Equitable Auction Design with Provable Regret Guarantees",
-          "Optimal Influence in Markovian Opinion Networks",
-          "Optimal Competitive Ratio in Opaque Sales",
-          "Discounted-likelihood valuation of variance and volatility swaps",
-          "Regret Minimization and Separation in Multi-Bidder, Multi-Item Auctions",
-          "A Planner-Trader Decomposition for Multimarket Hydro Scheduling",
-          "Robust Data-Driven CARA Optimization",
-          "Target-Oriented Regret Minimization for Satisficing Monopolists",
-          "Optimal deployment of an equitable CAV platoonable corridor on road networks with mixed traffic flow",
-          "Resilience of long chain under disruption",
-          "Distributionally Robust Inventory Management with Advance Purchase Contracts",
-          "Robust multidimensional pricing: separation without regret",
-          "A revised approach for risk-averse multi-armed bandits under CVaR criterion",
-          "Size Matters: Cardinality-Constrained Clustering and Outlier Detection via Conic Optimization",
-          "On Risk Reduction in Kelly Betting Using the Conservative Expected Value",
-          "Chebyshev Inequalities for Products of Random Variables",
-          "Scenario reduction revisited: fundamental limits and guarantees",
-          "Multi-period portfolio optimization: Translation of autocorrelation risk to excess variance",
-          "Robust Growth-Optimal Portfolios"
-        ]
-      },
-      "candidates": [
-        {
-          "orcid": "0000-0002-5996-335X",
-          "observedName": "Napat Rujeerapaiboon",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 24,
-          "titleMatches": [
-            "Utility elicitation and maximization from uncertain certainty equivalents",
-            "Cost-sensitive, envy-resistant consensus in group decision making",
-            "Equitable Auction Design with Provable Regret Guarantees",
-            "Optimal Influence in Markovian Opinion Networks",
-            "Optimal Competitive Ratio in Opaque Sales",
-            "Discounted-likelihood valuation of variance and volatility swaps",
-            "Regret Minimization and Separation in Multi-Bidder, Multi-Item Auctions",
-            "A Planner-Trader Decomposition for Multimarket Hydro Scheduling",
-            "Robust Data-Driven CARA Optimization",
-            "Target-Oriented Regret Minimization for Satisficing Monopolists",
-            "Optimal deployment of an equitable CAV platoonable corridor on road networks with mixed traffic flow",
-            "Resilience of long chain under disruption",
-            "Distributionally Robust Inventory Management with Advance Purchase Contracts",
-            "Robust multidimensional pricing: separation without regret",
-            "A revised approach for risk-averse multi-armed bandits under CVaR criterion",
-            "Size Matters: Cardinality-Constrained Clustering and Outlier Detection via Conic Optimization",
-            "On Risk Reduction in Kelly Betting Using the Conservative Expected Value",
-            "Chebyshev Inequalities for Products of Random Variables",
-            "Scenario reduction revisited: fundamental limits and guarantees",
-            "Multi-period portfolio optimization: Translation of autocorrelation risk to excess variance",
-            "Robust Growth-Optimal Portfolios"
-          ]
-        }
-      ],
-      "sourceUrls": [
-        "https://sites.google.com/view/napatrujeerapaiboon/home"
-      ],
-      "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
-    },
-    {
-      "id": "imperial-wolfram-wiesemann",
-      "name": "Wolfram Wiesemann",
-      "officialInstitution": "Imperial College London",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "confirmed_candidate",
-      "orcid": "0000-0003-3076-1591",
-      "selected": {
-        "orcid": "0000-0003-3076-1591",
-        "observedName": "Wolfram Wiesemann",
-        "institutionNames": [],
-        "nameScore": 1,
-        "institutionScore": 0,
-        "worksCount": 16,
-        "titleMatches": [
-          "An MILP-Based Solution Scheme for Factored Markov Decision Processes",
-          "It’s All in the Mix: Wasserstein Classification and Regression with Mixed Features",
-          "A Note on Piecewise Affine Decision Rules for Robust, Stochastic, and Data-Driven Optimization",
-          "Differential Privacy via Distributionally Robust Optimization",
-          "A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle",
-          "Randomized Assortment Optimization",
-          "A Unifying Framework for the Capacitated Vehicle Routing Problem Under Risk and Ambiguity",
-          "The Distributionally Robust Chance-Constrained Vehicle Routing Problem",
-          "A Primal–Dual Lifting Scheme for Two-Stage Robust Optimization",
-          "Distributionally Robust Mechanism Design",
-          "“Dice”-sion–Making Under Uncertainty: When Can a Random Decision Reduce Risk?",
-          "Robust Dual Dynamic Programming"
-        ]
-      },
-      "candidates": [
-        {
-          "orcid": "0000-0003-3076-1591",
-          "observedName": "Wolfram Wiesemann",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 16,
-          "titleMatches": [
-            "An MILP-Based Solution Scheme for Factored Markov Decision Processes",
-            "It’s All in the Mix: Wasserstein Classification and Regression with Mixed Features",
-            "A Note on Piecewise Affine Decision Rules for Robust, Stochastic, and Data-Driven Optimization",
-            "Differential Privacy via Distributionally Robust Optimization",
-            "A Unified Theory of Robust and Distributionally Robust Optimization via the Primal-Worst-Equals-Dual-Best Principle",
-            "Randomized Assortment Optimization",
-            "A Unifying Framework for the Capacitated Vehicle Routing Problem Under Risk and Ambiguity",
-            "The Distributionally Robust Chance-Constrained Vehicle Routing Problem",
-            "A Primal–Dual Lifting Scheme for Two-Stage Robust Optimization",
-            "Distributionally Robust Mechanism Design",
-            "“Dice”-sion–Making Under Uncertainty: When Can a Random Decision Reduce Risk?",
-            "Robust Dual Dynamic Programming"
-          ]
-        }
-      ],
-      "sourceUrls": [
-        "https://wp.doc.ic.ac.uk/wwiesema/",
-        "https://wp.doc.ic.ac.uk/wwiesema/publications/"
-      ],
-      "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
-    },
-    {
-      "id": "john-duchi-stanford",
-      "name": "John Duchi",
-      "officialInstitution": "Stanford University",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "confirmed_candidate",
-      "orcid": "0000-0003-0045-7185",
-      "selected": {
-        "orcid": "0000-0003-0045-7185",
-        "observedName": "John Duchi",
-        "institutionNames": [],
-        "nameScore": 1,
-        "institutionScore": 0,
-        "worksCount": 130,
-        "titleMatches": [
-          "Robust Validation: Confident Predictions Even When Distributions Shift",
-          "Predictive Inference with Weak Supervision",
-          "Lower bounds for non-convex stochastic optimization",
-          "Distributionally Robust Losses for Latent Covariate Mixtures",
-          "Statistics of Robust Optimization: A Generalized Empirical Likelihood Approach",
-          "Learning models with uniform performance via distributionally robust optimization",
-          "Conic Descent and its Application to Memory-efficient Optimization over Positive Semidefinite Matrices",
-          "First-Order Methods for Nonconvex Quadratic Minimization",
-          "FormulaZero: Distributionally Robust Online Adaptation via Offline Population Synthesis",
-          "Instance-optimality in differential privacy via approximate inverse sensitivity mechanisms",
-          "Knowing what you know: valid and validated confidence sets in multiclass and multilabel prediction",
-          "Large-Scale Methods for Distributionally Robust Optimization",
-          "Learning Models with Uniform Performance via Distributionally Robust Optimization",
-          "Lower bounds for finding stationary points\n I",
-          "Minibatch Stochastic Approximate Proximal Point Methods",
-          "Near Instance-Optimality in Differential Privacy",
-          "Neural Bridge Sampling for Evaluating Safety-Critical Autonomous Systems",
-          "Second-Order Information in Non-Convex Stochastic Optimization: Power and Limitations",
-          "Statistics of Robust Optimization: A Generalized Empirical\n    Likelihood Approach",
-          "Understanding and Mitigating the Tradeoff Between Robustness and Accuracy",
-          "A Rank-1 Sketch for Matrix Multiplicative Weights",
-          "Asymptotic Optimality in Stochastic Optimization",
-          "Lower Bounds for Locally Private Estimation via Communication Complexity",
-          "Lower Bounds for Non-Convex Stochastic Optimization",
-          "Lower bounds for finding stationary points\n II: First order methods",
-          "Modeling simple structures and geometry for better stochastic optimization algorithms",
-          "Stochastic (Approximate) Proximal Point Methods:\nConvergence, Optimality, and Adaptivity",
-          "The importance of better models in stochastic optimization",
-          "Unlabeled Data Improves Adversarial Robustness",
-          "Variance-based regularization with convex objectives",
-          "A constrained risk inequality for general losses",
-          "Accelerated Methods for Non-Convex Optimization",
-          "Analysis of Krylov Subspace Solutions of Regularized\n  Nonconvex Quadratic Problems",
-          "Bounds on the conditional and average treatment effect in the presence\n   of unobserved confounders",
-          "Certifying Some Distributional Robustness with Principled Adversarial Training",
-          "Generalizing to Unseen Domains via Adversarial Data Augmentation",
-          "Minimax Bounds on Stochastic Batched Convex Optimization",
-          "Multiclass classification, information, divergence,\n   and surrogate risk",
-          "Protection Against Reconstruction and Its Applications in Private\nFederated Learning",
-          "Scalable End-to-End Autonomous Vehicle Testing via Rare-event Simulation",
-          "Solving (most) of a set of quadratic equalities:\n  Composite optimization for robust phase retrieval",
-          "Stochastic Methods for Composite and Weakly Convex Optimization Problems",
-          "The Right Complexity Measure in Locally Private Estimation:\n  It is not the Fisher Information",
-          "Adaptive Sampling Probabilities for Non-Smooth Optimization",
-          "Introductory Lectures on Stochastic Convex Optimization",
-          "Unsupervised Transformation Learning via Convex Relaxations",
-          "Estimation from Indirect Supervision with Linear Moments",
-          "Learning Kernels with Random Features",
-          "Local Minimax Complexity of Stochastic Convex Optimization",
-          "Asynchronous stochastic convex optimization",
-          "Asynchronous stochastic convex optimization:\nthe noise is in the noise and SGD don't care",
-          "Divide and Conquer Kernel Ridge Regression:\n  A Distributed Algorithm with Minimax Optimal Rates",
-          "Optimal rates for zero-order optimization: the power of\ntwo function evaluations",
-          "Information-theoretic lower bounds for distributed statistical\n  estimation with communication constraints",
-          "Multiple Optimality Guarantees in Statistical Learning",
-          "Privacy and Statistical Risk: Formalisms and Minimax Bounds",
-          "Communication-Efficient Algorithms for Statistical Optimization",
-          "Distance-based and continuum Fano inequalities with\n        applications to statistical estimation",
-          "Divide and Conquer Kernel Ridge Regression",
-          "Estimation, Optimization, and Parallelism when Data is Sparse",
-          "Local Privacy and Minimax Bounds:\n   Sharp Rates for Probability Estimation",
-          "Local privacy and statistical minimax rates",
-          "The Asymptotics of Ranking Algorithms",
-          "The Generalization Ability of Online Algorithms for Dependent Data",
-          "Finite Sample Convergence Rates of Zero-Order Stochastic Optimization\nMethods",
-          "Local privacy and minimax bounds: sharp rates for probability\nestimation",
-          "Oracle inequalities for computationally adaptive model selection",
-          "Randomized Smoothing for (Parallel) Stochastic Optimization",
-          "Randomized Smoothing for Stochastic Optimization",
-          "Adaptive subgradient methods for online learning and stochastic\n         optimization",
-          "Distributed Delayed Stochastic Optimization",
-          "Oracle Inequalities for Computationally Budgeted Model Selection",
-          "Composite Objective Mirror Descent",
-          "Distributed dual averaging in networks",
-          "On the Consistency of Ranking Algorithms",
-          "Boosting with structural sparsity",
-          "Efficient learning using forward-backward splitting",
-          "Constrained Approximate Maximum Entropy Learning of\nMarkov Random Fields",
-          "Projected Subgradient Methods for Learning Sparse Gaussians",
-          "Using Combinatorial Optimization within Max-Product\n  Belief Propagation"
-        ]
-      },
-      "candidates": [
-        {
-          "orcid": "0000-0003-0045-7185",
-          "observedName": "John Duchi",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 130,
-          "titleMatches": [
-            "Robust Validation: Confident Predictions Even When Distributions Shift",
-            "Predictive Inference with Weak Supervision",
-            "Lower bounds for non-convex stochastic optimization",
-            "Distributionally Robust Losses for Latent Covariate Mixtures",
-            "Statistics of Robust Optimization: A Generalized Empirical Likelihood Approach",
-            "Learning models with uniform performance via distributionally robust optimization",
-            "Conic Descent and its Application to Memory-efficient Optimization over Positive Semidefinite Matrices",
-            "First-Order Methods for Nonconvex Quadratic Minimization",
-            "FormulaZero: Distributionally Robust Online Adaptation via Offline Population Synthesis",
-            "Instance-optimality in differential privacy via approximate inverse sensitivity mechanisms",
-            "Knowing what you know: valid and validated confidence sets in multiclass and multilabel prediction",
-            "Large-Scale Methods for Distributionally Robust Optimization",
-            "Learning Models with Uniform Performance via Distributionally Robust Optimization",
-            "Lower bounds for finding stationary points\n I",
-            "Minibatch Stochastic Approximate Proximal Point Methods",
-            "Near Instance-Optimality in Differential Privacy",
-            "Neural Bridge Sampling for Evaluating Safety-Critical Autonomous Systems",
-            "Second-Order Information in Non-Convex Stochastic Optimization: Power and Limitations",
-            "Statistics of Robust Optimization: A Generalized Empirical\n    Likelihood Approach",
-            "Understanding and Mitigating the Tradeoff Between Robustness and Accuracy",
-            "A Rank-1 Sketch for Matrix Multiplicative Weights",
-            "Asymptotic Optimality in Stochastic Optimization",
-            "Lower Bounds for Locally Private Estimation via Communication Complexity",
-            "Lower Bounds for Non-Convex Stochastic Optimization",
-            "Lower bounds for finding stationary points\n II: First order methods",
-            "Modeling simple structures and geometry for better stochastic optimization algorithms",
-            "Stochastic (Approximate) Proximal Point Methods:\nConvergence, Optimality, and Adaptivity",
-            "The importance of better models in stochastic optimization",
-            "Unlabeled Data Improves Adversarial Robustness",
-            "Variance-based regularization with convex objectives",
-            "A constrained risk inequality for general losses",
-            "Accelerated Methods for Non-Convex Optimization",
-            "Analysis of Krylov Subspace Solutions of Regularized\n  Nonconvex Quadratic Problems",
-            "Bounds on the conditional and average treatment effect in the presence\n   of unobserved confounders",
-            "Certifying Some Distributional Robustness with Principled Adversarial Training",
-            "Generalizing to Unseen Domains via Adversarial Data Augmentation",
-            "Minimax Bounds on Stochastic Batched Convex Optimization",
-            "Multiclass classification, information, divergence,\n   and surrogate risk",
-            "Protection Against Reconstruction and Its Applications in Private\nFederated Learning",
-            "Scalable End-to-End Autonomous Vehicle Testing via Rare-event Simulation",
-            "Solving (most) of a set of quadratic equalities:\n  Composite optimization for robust phase retrieval",
-            "Stochastic Methods for Composite and Weakly Convex Optimization Problems",
-            "The Right Complexity Measure in Locally Private Estimation:\n  It is not the Fisher Information",
-            "Adaptive Sampling Probabilities for Non-Smooth Optimization",
-            "Introductory Lectures on Stochastic Convex Optimization",
-            "Unsupervised Transformation Learning via Convex Relaxations",
-            "Estimation from Indirect Supervision with Linear Moments",
-            "Learning Kernels with Random Features",
-            "Local Minimax Complexity of Stochastic Convex Optimization",
-            "Asynchronous stochastic convex optimization",
-            "Asynchronous stochastic convex optimization:\nthe noise is in the noise and SGD don't care",
-            "Divide and Conquer Kernel Ridge Regression:\n  A Distributed Algorithm with Minimax Optimal Rates",
-            "Optimal rates for zero-order optimization: the power of\ntwo function evaluations",
-            "Information-theoretic lower bounds for distributed statistical\n  estimation with communication constraints",
-            "Multiple Optimality Guarantees in Statistical Learning",
-            "Privacy and Statistical Risk: Formalisms and Minimax Bounds",
-            "Communication-Efficient Algorithms for Statistical Optimization",
-            "Distance-based and continuum Fano inequalities with\n        applications to statistical estimation",
-            "Divide and Conquer Kernel Ridge Regression",
-            "Estimation, Optimization, and Parallelism when Data is Sparse",
-            "Local Privacy and Minimax Bounds:\n   Sharp Rates for Probability Estimation",
-            "Local privacy and statistical minimax rates",
-            "The Asymptotics of Ranking Algorithms",
-            "The Generalization Ability of Online Algorithms for Dependent Data",
-            "Finite Sample Convergence Rates of Zero-Order Stochastic Optimization\nMethods",
-            "Local privacy and minimax bounds: sharp rates for probability\nestimation",
-            "Oracle inequalities for computationally adaptive model selection",
-            "Randomized Smoothing for (Parallel) Stochastic Optimization",
-            "Randomized Smoothing for Stochastic Optimization",
-            "Adaptive subgradient methods for online learning and stochastic\n         optimization",
-            "Distributed Delayed Stochastic Optimization",
-            "Oracle Inequalities for Computationally Budgeted Model Selection",
-            "Composite Objective Mirror Descent",
-            "Distributed dual averaging in networks",
-            "On the Consistency of Ranking Algorithms",
-            "Boosting with structural sparsity",
-            "Efficient learning using forward-backward splitting",
-            "Constrained Approximate Maximum Entropy Learning of\nMarkov Random Fields",
-            "Projected Subgradient Methods for Learning Sparse Gaussians",
-            "Using Combinatorial Optimization within Max-Product\n  Belief Propagation"
-          ]
-        }
-      ],
-      "sourceUrls": [
-        "https://web.stanford.edu/~jduchi/",
-        "https://web.stanford.edu/~jduchi/publications.html"
-      ],
-      "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
-    },
-    {
-      "id": "fr-inria-adrien-taylor",
-      "name": "Adrien Taylor",
-      "officialInstitution": "Inria Paris / ENS",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "confirmed_candidate",
-      "orcid": "0000-0003-2509-1765",
-      "selected": {
-        "orcid": "0000-0003-2509-1765",
-        "observedName": "Adrien Taylor",
-        "institutionNames": [],
-        "nameScore": 1,
-        "institutionScore": 0,
-        "worksCount": 6,
-        "titleMatches": [
-          "Efficient first-order methods for convex minimization: a constructive approach",
-          "Exact Worst-Case Convergence Rates of the Proximal Gradient Method for Composite Convex Minimization",
-          " Exact Worst-case Performance of First-order Methods for Composite Convex Optimization",
-          "On the worst-case complexity of the gradient method with exact line search for smooth strongly convex functions",
-          "Performance estimation toolbox (PESTO): Automated worst-case analysis of first-order optimization methods",
-          "Smooth strongly convex interpolation and exact worst-case performance of first-order methods"
-        ]
-      },
-      "candidates": [
-        {
-          "orcid": "0000-0003-2509-1765",
-          "observedName": "Adrien Taylor",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 6,
-          "titleMatches": [
-            "Efficient first-order methods for convex minimization: a constructive approach",
-            "Exact Worst-Case Convergence Rates of the Proximal Gradient Method for Composite Convex Minimization",
-            " Exact Worst-case Performance of First-order Methods for Composite Convex Optimization",
-            "On the worst-case complexity of the gradient method with exact line search for smooth strongly convex functions",
-            "Performance estimation toolbox (PESTO): Automated worst-case analysis of first-order optimization methods",
-            "Smooth strongly convex interpolation and exact worst-case performance of first-order methods"
-          ]
-        }
-      ],
-      "sourceUrls": [
-        "https://adrientaylor.github.io/",
-        "https://adrientaylor.github.io/publications/"
-      ],
-      "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
-    },
-    {
-      "id": "be-uclouvain-benoit-legat",
-      "name": "Benoît Legat",
-      "officialInstitution": "UCLouvain",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "confirmed_candidate",
-      "orcid": "0000-0002-5921-368X",
-      "selected": {
-        "orcid": "0000-0002-5921-368X",
-        "observedName": "Benoît Legat",
-        "institutionNames": [],
-        "nameScore": 1,
-        "institutionScore": 0,
-        "worksCount": 38,
-        "titleMatches": [
-          "Geometric control of hybrid systems",
-          "Computation of invariant sets for complex systems",
-          "Abstraction-based branch and bound approach to Q-learning for hybrid optimal control",
-          "Geometric control of algebraic systems",
-          "MathOptInterface: a data structure for mathematical optimization problems",
-          "The Limits of Pairwise Correlation to Model the Joint Entropy",
-          "Certifying Unstability of Switched Systems Using Sum of Squares Programming",
-          "MathOptInterface: A Data Structure for Mathematical Optimization Problems",
-          "Piecewise Semi-Ellipsoidal Control Invariant Sets",
-          "Piecewise semi-ellipsoidal control invariant sets",
-          "Set programming : theory and computation",
-          "Stability of Planar Switched Systems under Delayed Event Detection",
-          "Sum-of-Squares methods for controlled invariant sets with applications to model-predictive control",
-          "An entropy-based bound for the computational complexity of a switched system",
-          "Computing controlled invariant sets for hybrid systems with applications to model-predictive control",
-          "Minimally Constrained Stable Switched Systems and Application to Co-simulation",
-          "PepsNMR for 1H-NMR metabolomic data pre-processing",
-          "Certifying unstability of Switched Systems using Sum of Squares Programming",
-          "Stable Adaptive Co-simulation: A Switched Systems Approach",
-          "Generating unstable trajectories for switched systems via Dual Sum-Of-Squares techniques",
-          "Parallel optimization on the Entropic Cone"
-        ]
-      },
-      "candidates": [
-        {
-          "orcid": "0000-0002-5921-368X",
-          "observedName": "Benoît Legat",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 38,
-          "titleMatches": [
-            "Geometric control of hybrid systems",
-            "Computation of invariant sets for complex systems",
-            "Abstraction-based branch and bound approach to Q-learning for hybrid optimal control",
-            "Geometric control of algebraic systems",
-            "MathOptInterface: a data structure for mathematical optimization problems",
-            "The Limits of Pairwise Correlation to Model the Joint Entropy",
-            "Certifying Unstability of Switched Systems Using Sum of Squares Programming",
-            "MathOptInterface: A Data Structure for Mathematical Optimization Problems",
-            "Piecewise Semi-Ellipsoidal Control Invariant Sets",
-            "Piecewise semi-ellipsoidal control invariant sets",
-            "Set programming : theory and computation",
-            "Stability of Planar Switched Systems under Delayed Event Detection",
-            "Sum-of-Squares methods for controlled invariant sets with applications to model-predictive control",
-            "An entropy-based bound for the computational complexity of a switched system",
-            "Computing controlled invariant sets for hybrid systems with applications to model-predictive control",
-            "Minimally Constrained Stable Switched Systems and Application to Co-simulation",
-            "PepsNMR for 1H-NMR metabolomic data pre-processing",
-            "Certifying unstability of Switched Systems using Sum of Squares Programming",
-            "Stable Adaptive Co-simulation: A Switched Systems Approach",
-            "Generating unstable trajectories for switched systems via Dual Sum-Of-Squares techniques",
-            "Parallel optimization on the Entropic Cone"
-          ]
-        }
-      ],
-      "sourceUrls": [
-        "https://blegat.github.io/",
-        "https://blegat.github.io/publications/"
-      ],
-      "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
-    },
-    {
-      "id": "fr-ens-lyon-elisa-riccietti",
-      "name": "Elisa Riccietti",
-      "officialInstitution": "École Normale Supérieure de Lyon / Inria OCKHAM",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "confirmed_candidate",
-      "orcid": "0000-0003-0864-6116",
-      "selected": {
-        "orcid": "0000-0003-0864-6116",
-        "observedName": "Elisa Riccietti",
-        "institutionNames": [
-          "Università degli Studi di Firenze",
-          "École normale supérieure de Lyon"
-        ],
-        "nameScore": 1,
-        "institutionScore": 0,
-        "worksCount": 26,
-        "titleMatches": [
-          "Rapture of the Deep: Highs and lows of sparsity in a world of depths",
-          "Multilevel Plug-and-Play Image Restoration",
-          "Butterfly Factorization with Error Guarantees",
-          "A block-coordinate approach of multi-level optimization with an application to physics-informed neural networks",
-          "IML FISTA: A Multilevel Framework for Inexact and Inertial Forward-Backward. Application to Image Restoration",
-          "Spurious Valleys, NP-Hardness, and Tractability of Sparse Matrix Factorization with Fixed Support",
-          "Efficient Identification of Butterfly Sparse Matrix Factorizations",
-          "Fast learning of fast transforms, with guarantees",
-          "On a multilevel Levenberg–Marquardt method for the training of artificial neural networks and its application to the solution of partial differential equations",
-          "Worst-Case Complexity Bounds of Directional Direct-Search Methods for Multiobjective Optimization",
-          "On High-Order Multilevel Optimization Strategies",
-          "On high-order multilevel optimization strategies",
-          "An inexact non stationary Tikhonov procedure for large-scale nonlinear ill-posed problems",
-          "On Iterative Solution of the Extended Normal Equations",
-          "Sequential linear programming and particle swarm optimization for the optimization of energy districts",
-          "Support vector machine classification applied to the parametric design of centrifugal pumps",
-          "On an adaptive regularization for ill-posed nonlinear systems and its trust-region implementation"
-        ]
-      },
-      "candidates": [
-        {
-          "orcid": "0000-0003-0864-6116",
-          "observedName": "Elisa Riccietti",
-          "institutionNames": [
-            "Università degli Studi di Firenze",
-            "École normale supérieure de Lyon"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 26,
-          "titleMatches": [
-            "Rapture of the Deep: Highs and lows of sparsity in a world of depths",
-            "Multilevel Plug-and-Play Image Restoration",
-            "Butterfly Factorization with Error Guarantees",
-            "A block-coordinate approach of multi-level optimization with an application to physics-informed neural networks",
-            "IML FISTA: A Multilevel Framework for Inexact and Inertial Forward-Backward. Application to Image Restoration",
-            "Spurious Valleys, NP-Hardness, and Tractability of Sparse Matrix Factorization with Fixed Support",
-            "Efficient Identification of Butterfly Sparse Matrix Factorizations",
-            "Fast learning of fast transforms, with guarantees",
-            "On a multilevel Levenberg–Marquardt method for the training of artificial neural networks and its application to the solution of partial differential equations",
-            "Worst-Case Complexity Bounds of Directional Direct-Search Methods for Multiobjective Optimization",
-            "On High-Order Multilevel Optimization Strategies",
-            "On high-order multilevel optimization strategies",
-            "An inexact non stationary Tikhonov procedure for large-scale nonlinear ill-posed problems",
-            "On Iterative Solution of the Extended Normal Equations",
-            "Sequential linear programming and particle swarm optimization for the optimization of energy districts",
-            "Support vector machine classification applied to the parametric design of centrifugal pumps",
-            "On an adaptive regularization for ill-posed nonlinear systems and its trust-region implementation"
-          ]
-        }
-      ],
-      "sourceUrls": [
-        "https://perso.ens-lyon.fr/elisa.riccietti/",
-        "https://perso.ens-lyon.fr/elisa.riccietti/research.php",
-        "https://perso.ens-lyon.fr/elisa.riccietti/publications.php"
-      ],
-      "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
-    },
-    {
-      "id": "cityu-jiaman-wu",
-      "name": "Jiaman Wu",
-      "officialInstitution": "City University of Hong Kong",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "confirmed_candidate",
-      "orcid": "0009-0008-1216-3719",
-      "selected": {
-        "orcid": "0009-0008-1216-3719",
-        "observedName": "Jiaman WU",
-        "institutionNames": [
-          "City University of Hong Kong"
-        ],
-        "nameScore": 1,
-        "institutionScore": 1,
-        "worksCount": 19,
-        "titleMatches": [
-          "A cluster-based appliance-level-of-use demand response program design",
-          "An optimal solutions-guided deep reinforcement learning approach for online energy storage control",
-          "Planning charging stations for 2050 to support flexible electric vehicle demand considering individual mobility patterns",
-          "Electric vehicles embedded virtual power plants dispatch mechanism design considering charging efficiencies",
-          "Learning-Aided Framework for Storage Control Facing Renewable Energy",
-          "Deadline Differentiated Dynamic EV Charging Price Menu Design"
-        ]
-      },
-      "candidates": [
-        {
-          "orcid": "0000-0002-7960-7731",
-          "observedName": "Jiaman Wu",
-          "institutionNames": [
-            "City University of Hong Kong",
-            "University of California, Berkeley"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 9,
-          "titleMatches": [
-            "Learning-Aided Framework for Storage Control Facing Renewable Energy",
-            "Deadline Differentiated Dynamic EV Charging Price Menu Design"
-          ]
-        },
-        {
-          "orcid": "0009-0008-1216-3719",
-          "observedName": "Jiaman WU",
-          "institutionNames": [
-            "City University of Hong Kong"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 19,
-          "titleMatches": [
-            "A cluster-based appliance-level-of-use demand response program design",
-            "An optimal solutions-guided deep reinforcement learning approach for online energy storage control",
-            "Planning charging stations for 2050 to support flexible electric vehicle demand considering individual mobility patterns",
-            "Electric vehicles embedded virtual power plants dispatch mechanism design considering charging efficiencies",
-            "Learning-Aided Framework for Storage Control Facing Renewable Energy",
-            "Deadline Differentiated Dynamic EV Charging Price Menu Design"
-          ]
-        },
-        {
-          "orcid": "0000-0001-8772-0980",
-          "observedName": "Jiaman Wu",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0003-7731-5588",
-          "observedName": "Jiaman Wu",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0004-8288-271X",
-          "observedName": "Jiaman Wu",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://charmainewu.github.io/"
-      ],
-      "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
-    },
-    {
-      "id": "nus-bo-lin",
-      "name": "Bo Lin",
-      "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "confirmed_candidate",
-      "orcid": "0000-0002-4225-9171",
-      "selected": {
-        "orcid": "0000-0002-4225-9171",
-        "observedName": "Bo Lin",
-        "institutionNames": [
-          "National University of Singapore",
-          "Tsinghua University",
-          "University of Toronto",
-          "University of Waterloo"
-        ],
-        "nameScore": 1,
-        "institutionScore": 1,
-        "worksCount": 5,
-        "titleMatches": [
-          "Conformal Inverse Optimization for Adherence-Aware Prescriptive Analytics",
-          "Machine Learning–Augmented Optimization of Large Bilevel and Two-Stage Stochastic Programs: Application to Cycling Network Design"
-        ]
-      },
-      "candidates": [
-        {
-          "orcid": "0000-0002-5081-3419",
-          "observedName": "Bo Lin",
-          "institutionNames": [
-            "National University of Singapore",
-            "University of Science and Technology of China"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 2,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-4225-9171",
-          "observedName": "Bo Lin",
-          "institutionNames": [
-            "National University of Singapore",
-            "Tsinghua University",
-            "University of Toronto",
-            "University of Waterloo"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 5,
-          "titleMatches": [
-            "Conformal Inverse Optimization for Adherence-Aware Prescriptive Analytics",
-            "Machine Learning–Augmented Optimization of Large Bilevel and Two-Stage Stochastic Programs: Application to Cycling Network Design"
-          ]
-        },
-        {
-          "orcid": "0000-0001-5326-1747",
-          "observedName": "Bo Lin",
-          "institutionNames": [
-            "National University of Defense Technology"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.25,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-9173-1671",
-          "observedName": "Bo Lin",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-5362-9174",
-          "observedName": "Bo Lin",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://cde.nus.edu.sg/isem/staff/lin-bo/",
-        "https://cde.nus.edu.sg/isem/graduate/research-degrees/",
-        "https://cde.nus.edu.sg/isem/graduate/research-students-placement/"
-      ],
-      "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
-    },
-    {
-      "id": "sustech-shangzhi-zeng",
-      "name": "Shangzhi Zeng",
-      "officialInstitution": "Southern University of Science and Technology",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "confirmed_candidate",
-      "orcid": "0000-0002-6950-7825",
-      "selected": {
-        "orcid": "0000-0002-6950-7825",
-        "observedName": "Shangzhi Zeng",
-        "institutionNames": [
-          "Hong Kong Baptist University",
-          "The University of Hong Kong",
-          "Wuhan University"
-        ],
-        "nameScore": 1,
-        "institutionScore": 0,
-        "worksCount": 12,
-        "titleMatches": [
-          "Value-Function-Based Sequential Minimization for Bi-Level Optimization",
-          "Hierarchical Optimization-Derived Learning",
-          "A General Descent Aggregation Framework for Gradient-based Bi-level Optimization",
-          "Variational Analysis Perspective on Linear Convergence of Some First Order Methods for Nonsmooth Convex Optimization Problems",
-          "A generic first-order algorithmic framework for bi-level programming beyond lower-level singleton",
-          "Discerning the linear convergence of ADMM for structured convex optimization through the lens of variational analysis"
-        ]
-      },
-      "candidates": [
-        {
-          "orcid": "0000-0002-6950-7825",
-          "observedName": "Shangzhi Zeng",
-          "institutionNames": [
-            "Hong Kong Baptist University",
-            "The University of Hong Kong",
-            "Wuhan University"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 12,
-          "titleMatches": [
-            "Value-Function-Based Sequential Minimization for Bi-Level Optimization",
-            "Hierarchical Optimization-Derived Learning",
-            "A General Descent Aggregation Framework for Gradient-based Bi-level Optimization",
-            "Variational Analysis Perspective on Linear Convergence of Some First Order Methods for Nonsmooth Convex Optimization Problems",
-            "A generic first-order algorithmic framework for bi-level programming beyond lower-level singleton",
-            "Discerning the linear convergence of ADMM for structured convex optimization through the lens of variational analysis"
-          ]
-        }
-      ],
-      "sourceUrls": [
-        "https://math.sustech.edu.cn/e/zengshangzhi",
-        "https://math.sustech.edu.cn/research_areas.html?lang=en",
-        "https://math.sustech.edu.cn/seminar_all.html?lang=en"
-      ],
-      "noteZh": "ORCID 中至少两篇作品标题与已核验主页完全匹配，且候选领先唯一。"
-    }
-  ],
+  "profiles": [],
   "review": [
-    {
-      "id": "berkeley-lavaei-optimization-control",
-      "name": "Javad Lavaei",
-      "officialInstitution": "University of California, Berkeley",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0003-4294-1338",
-          "observedName": "Javad Lavaei",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://lavaei.ieor.berkeley.edu/",
-        "https://lavaei.ieor.berkeley.edu/Group.html",
-        "https://lavaei.ieor.berkeley.edu/Publication.html"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
-      "id": "nus-melvyn-sim",
-      "name": "Melvyn Sim",
-      "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0001-9798-2482",
-          "observedName": "Melvyn Sim",
-          "institutionNames": [
-            "Massachusetts Institute of Technology"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 78,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://iora.nus.edu.sg/people-p/melvyn-sim/",
-        "https://iora.nus.edu.sg/people/research-fellows/",
-        "https://iora.nus.edu.sg/people/research-assistants/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
-      "id": "nus-jie-sun-optimization-benchmark",
-      "name": "Jie Sun",
-      "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0002-5264-4428",
-          "observedName": "Jie Sun",
-          "institutionNames": [
-            "National University of Singapore"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 1,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-1334-5262",
-          "observedName": "Jie Sun",
-          "institutionNames": [
-            "Hong Kong Polytechnic University",
-            "National University of Singapore"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 17,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-3876-3631",
-          "observedName": "Jie Sun",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-6209-5506",
-          "observedName": "Jie Sun",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-0595-2396",
-          "observedName": "jie sun",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://discovery.nus.edu.sg/471-jie-sun"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
-      "id": "amss-yuhong-dai",
-      "name": "Yu-Hong Dai",
-      "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0009-0002-2088-562X",
-          "observedName": "Yu-hong Dai",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://lsec.cc.ac.cn/~dyh/",
-        "https://lsec.cc.ac.cn/~dyh/publication.html"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
     {
       "id": "hku-ids-yue-xie",
       "name": "Yue Xie",
       "officialInstitution": "The University of Hong Kong",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -998,10 +84,144 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
+      "id": "berkeley-lavaei-optimization-control",
+      "name": "Javad Lavaei",
+      "officialInstitution": "University of California, Berkeley",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0003-4294-1338",
+          "observedName": "Javad Lavaei",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        }
+      ],
+      "sourceUrls": [
+        "https://lavaei.ieor.berkeley.edu/",
+        "https://lavaei.ieor.berkeley.edu/Group.html",
+        "https://lavaei.ieor.berkeley.edu/Publication.html"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
+      "id": "nus-jie-sun-optimization-benchmark",
+      "name": "Jie Sun",
+      "officialInstitution": "National University of Singapore",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0000-0002-5264-4428",
+          "observedName": "Jie Sun",
+          "institutionNames": [
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1,
+          "worksCount": 1,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0003-1334-5262",
+          "observedName": "Jie Sun",
+          "institutionNames": [
+            "Hong Kong Polytechnic University",
+            "National University of Singapore"
+          ],
+          "nameScore": 1,
+          "institutionScore": 1,
+          "worksCount": 17,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-3876-3631",
+          "observedName": "Jie Sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0002-6209-5506",
+          "observedName": "Jie Sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0000-0003-0595-2396",
+          "observedName": "jie sun",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        }
+      ],
+      "sourceUrls": [
+        "https://discovery.nus.edu.sg/471-jie-sun"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
+      "id": "person-napat-rujeerapaiboon",
+      "name": "Napat Rujeerapaiboon",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
+    },
+    {
+      "id": "imperial-wolfram-wiesemann",
+      "name": "Wolfram Wiesemann",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
+    },
+    {
+      "id": "amss-yuhong-dai",
+      "name": "Yu-Hong Dai",
+      "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
+      "status": "needs_review",
+      "orcid": null,
+      "selected": null,
+      "candidates": [
+        {
+          "orcid": "0009-0002-2088-562X",
+          "observedName": "Yu-hong Dai",
+          "institutionNames": [],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 0,
+          "titleMatches": []
+        }
+      ],
+      "sourceUrls": [
+        "https://lsec.cc.ac.cn/~dyh/",
+        "https://lsec.cc.ac.cn/~dyh/publication.html"
+      ],
+      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+    },
+    {
+      "id": "sustech-tao-tang",
+      "name": "Tao Tang",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
+    },
+    {
       "id": "amss-xin-liu",
       "name": "Xin Liu",
       "officialInstitution": "Academy of Mathematics and Systems Science, CAS",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1077,7 +297,7 @@
       "id": "liu-yang-nus",
       "name": "Liu Yang",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1152,7 +372,7 @@
       "id": "rahul-mazumder-mit",
       "name": "Rahul Mazumder",
       "officialInstitution": "MIT Sloan School of Management",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1167,18 +387,6 @@
           "titleMatches": []
         },
         {
-          "orcid": "0009-0003-5656-178X",
-          "observedName": "Rahul Mazumder",
-          "institutionNames": [
-            "Jorhat medical college and Hospital, Jorhat",
-            "PGIMER"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 1,
-          "titleMatches": []
-        },
-        {
           "orcid": "0009-0006-1865-7395",
           "observedName": "Rahul Mazumder",
           "institutionNames": [
@@ -1187,6 +395,18 @@
           "nameScore": 1,
           "institutionScore": 0,
           "worksCount": 0,
+          "titleMatches": []
+        },
+        {
+          "orcid": "0009-0003-5656-178X",
+          "observedName": "Rahul Mazumder",
+          "institutionNames": [
+            "Jorhat medical college and Hospital, Jorhat",
+            "PGIMER"
+          ],
+          "nameScore": 1,
+          "institutionScore": 0,
+          "worksCount": 2,
           "titleMatches": []
         }
       ],
@@ -1200,7 +420,7 @@
       "id": "damek-davis-upenn",
       "name": "Damek Davis",
       "officialInstitution": "University of Pennsylvania, Wharton",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1221,118 +441,40 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "sustech-tao-tang",
-      "name": "Tao Tang",
-      "officialInstitution": "Southern University of Science and Technology",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "id": "nus-melvyn-sim",
+      "name": "Melvyn Sim",
       "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0003-0477-8322",
-          "observedName": "Tao Tang",
-          "institutionNames": [
-            "Chongqing University",
-            "Hefei University of Technology",
-            "Nara Institute of Science and Technology",
-            "National University of Singapore"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.5,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-4474-1604",
-          "observedName": "TAO TANG",
-          "institutionNames": [
-            "Guangdong Institute of Intelligence Science and Technology",
-            "Nanyang Technological University",
-            "National University of Singapore",
-            "Zhejiang Lab"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.4,
-          "worksCount": 10,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0001-6327-0823",
-          "observedName": "Tao Tang",
-          "institutionNames": [
-            "Chengdu University of Information Technology",
-            "IEEE",
-            "Southwest Jiaotong University",
-            "Southwest Minzu University",
-            "University of Electronic Science and Technology of China",
-            "University of Waterloo"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.4,
-          "worksCount": 60,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-7649-0996",
-          "observedName": "Tao Tang",
-          "institutionNames": [
-            "Guilin University of Electronic Technology",
-            "Guilin University of Technology",
-            "Nanjing University",
-            "Wuhan University"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.25,
-          "worksCount": 38,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0008-2715-9392",
-          "observedName": "Tao Tang",
-          "institutionNames": [
-            "Harbin Institute of Technology"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.25,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://faculty.sustech.edu.cn/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+      "reason": "crosscheck_fetch_failed"
+    },
+    {
+      "id": "john-duchi-stanford",
+      "name": "John Duchi",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
     },
     {
       "id": "ch-epfl-nicolas-flammarion",
       "name": "Nicolas Flammarion",
-      "officialInstitution": "EPFL",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0009-0000-6402-7411",
-          "observedName": "Nicolas Flammarion",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 51,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://people.epfl.ch/nicolas.flammarion"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+      "reason": "crosscheck_fetch_failed"
+    },
+    {
+      "id": "fr-inria-adrien-taylor",
+      "name": "Adrien Taylor",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
+    },
+    {
+      "id": "be-uclouvain-benoit-legat",
+      "name": "Benoît Legat",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
     },
     {
       "id": "fr-inria-baptiste-goujaud",
       "name": "Baptiste Goujaud",
       "officialInstitution": "Inria Saclay",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1358,7 +500,7 @@
       "id": "fr-inria-hadrien-hendrikx",
       "name": "Hadrien Hendrikx",
       "officialInstitution": "Inria Grenoble",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1384,7 +526,7 @@
       "id": "fr-apple-pierre-ablin",
       "name": "Pierre Ablin",
       "officialInstitution": "Apple Machine Learning Research, Paris",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1406,52 +548,18 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "fr-inria-quentin-bertrand",
-      "name": "Quentin Bertrand",
-      "officialInstitution": "Inria Lyon",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "id": "it-pisa-cecilia-pagliantini",
+      "name": "Cecilia Pagliantini",
+      "officialInstitution": "University of Pisa",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
       "candidates": [
         {
-          "orcid": "0000-0003-1487-6671",
-          "observedName": "QUENTIN BERTRAND",
+          "orcid": "0000-0002-5649-1721",
+          "observedName": "Cecilia Pagliantini",
           "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0002-9243-2195",
-          "observedName": "Quentin Bertrand",
-          "institutionNames": [
-            "Sciences Po"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 10,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-3476-1775",
-          "observedName": "Quentin Bertrand",
-          "institutionNames": [
-            "Institut de Biologie Structurale",
-            "Paul Scherrer Institut PSI"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 15,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0000-4214-1125",
-          "observedName": "Quentin Bertrand",
-          "institutionNames": [
-            "Yale University"
-          ],
           "nameScore": 1,
           "institutionScore": 0,
           "worksCount": 0,
@@ -1459,8 +567,8 @@
         }
       ],
       "sourceUrls": [
-        "https://qb3.github.io/",
-        "https://qb3.github.io/research.html"
+        "https://www.unipi.it/ateneo/organizzazione/persone/cecilia-pagliantini-183262/",
+        "https://www.unipi.it/innovazione/networking/tavole-rotonde-tematiche/"
       ],
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
@@ -1468,7 +576,7 @@
       "id": "at-klagenfurt-caroline-geiersbach",
       "name": "Caroline Geiersbach",
       "officialInstitution": "University of Klagenfurt",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1491,35 +599,16 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "fr-inria-frederik-kunstner",
-      "name": "Frederik Kunstner",
-      "officialInstitution": "Inria Paris / École Normale Supérieure, SIERRA",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "id": "fr-inria-quentin-bertrand",
+      "name": "Quentin Bertrand",
       "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0002-4213-1944",
-          "observedName": "Frederik Kunstner",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 19,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://sierra-mlopt.github.io/team/",
-        "https://sierra-mlopt.github.io/publications/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+      "reason": "crosscheck_fetch_failed"
     },
     {
       "id": "fr-inria-sorbonne-raphael-berthier",
       "name": "Raphaël Berthier",
       "officialInstitution": "Inria Sorbonne Université",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1540,10 +629,28 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
+      "id": "fr-ens-lyon-elisa-riccietti",
+      "name": "Elisa Riccietti",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
+    },
+    {
+      "id": "fr-inria-frederik-kunstner",
+      "name": "Frederik Kunstner",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
+    },
+    {
+      "id": "cityu-jiaman-wu",
+      "name": "Jiaman Wu",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
+    },
+    {
       "id": "nus-zaile-li",
       "name": "Zaile Li",
       "officialInstitution": "National University of Singapore",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1569,257 +676,28 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
-      "id": "it-pisa-cecilia-pagliantini",
-      "name": "Cecilia Pagliantini",
-      "officialInstitution": "University of Pisa",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "id": "nus-bo-lin",
+      "name": "Bo Lin",
       "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0002-5649-1721",
-          "observedName": "Cecilia Pagliantini",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://www.unipi.it/ateneo/organizzazione/persone/cecilia-pagliantini-183262/",
-        "https://www.unipi.it/innovazione/networking/tavole-rotonde-tematiche/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+      "reason": "crosscheck_fetch_failed"
     },
     {
-      "id": "cuhksz-xiao-li",
-      "name": "Xiao Li",
-      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "id": "sustech-shangzhi-zeng",
+      "name": "Shangzhi Zeng",
       "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0009-0007-6982-8681",
-          "observedName": "Xiao LI",
-          "institutionNames": [
-            "CUHK"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-1758-807X",
-          "observedName": "xiao li",
-          "institutionNames": [
-            "Shanxi Medical University",
-            "Sun Yat-sen Memorial Hospital",
-            "Sun Yat-sen University",
-            "The Chinese University of Hong Kong Faculty of Medicine"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-1708-4314",
-          "observedName": "Xiao Li",
-          "institutionNames": [
-            "City University of Hong Kong",
-            "University of Maryland at College Park",
-            "University of Texas at Austin"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.92,
-          "worksCount": 40,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-7630-0558",
-          "observedName": "Xiao Li",
-          "institutionNames": [
-            "City University of Hong Kong"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.92,
-          "worksCount": 32,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0008-5418-8252",
-          "observedName": "Xiao Li",
-          "institutionNames": [
-            "Education University of Hong Kong"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.92,
-          "worksCount": 1,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://www.xiao-li.org/",
-        "https://www.xiao-li.org/research/",
-        "https://www.xiao-li.org/publications/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+      "reason": "crosscheck_fetch_failed"
     },
     {
       "id": "sjtu-jingwei-liang",
       "name": "Jingwei Liang",
-      "officialInstitution": "Shanghai Jiao Tong University",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0009-0009-4476-6968",
-          "observedName": "Jingwei Liang",
-          "institutionNames": [
-            "University of Shanghai for Science and Technology"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.16666666666666666,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-3702-0606",
-          "observedName": "Jingwei Liang",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0000-7404-635X",
-          "observedName": "Jingwei Liang",
-          "institutionNames": [
-            "Affiliated Hospital of Hebei University"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0005-3152-3992",
-          "observedName": "Jingwei Liang",
-          "institutionNames": [
-            "Jilin University"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-6892-9188",
-          "observedName": "jingwei liang",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://ins.sjtu.edu.cn/people/jwliang/",
-        "https://ins.sjtu.edu.cn/people/jwliang/publications/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
-    },
-    {
-      "id": "cuhksz-rui-chen",
-      "name": "Rui Chen",
-      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
-      "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0003-1002-9758",
-          "observedName": "Rui CHEN",
-          "institutionNames": [
-            "The Chinese University of Hong Kong",
-            "The Hong Kong University of Science and Technology"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 2,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-8848-6118",
-          "observedName": "Rui Chen",
-          "institutionNames": [
-            "Chinese University of Hong Kong, Shenzhen",
-            "Cornell Tech",
-            "University of Wisconsin–Madison"
-          ],
-          "nameScore": 1,
-          "institutionScore": 1,
-          "worksCount": 13,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-4671-4538",
-          "observedName": "Rui Chen",
-          "institutionNames": [
-            "City University of Hong Kong",
-            "The University of Adelaide",
-            "The University of Queensland",
-            "Xi'an Jiaotong University"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.92,
-          "worksCount": 22,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0002-3185-8208",
-          "observedName": "Rui Chen",
-          "institutionNames": [
-            "Hong Kong Polytechnic University",
-            "South China University of Technology",
-            "Xiamen University"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.5,
-          "worksCount": 27,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0003-7122-5207",
-          "observedName": "Rui Chen",
-          "institutionNames": [
-            "Hong Kong University of Science and Technology"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0.4,
-          "worksCount": 6,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://sites.google.com/view/rchen/home"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+      "reason": "crosscheck_fetch_failed"
     },
     {
       "id": "pku-cong-fang",
       "name": "Cong Fang",
       "officialInstitution": "Peking University",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
+      "checkedAt": "2026-10-05T06:52:23.356Z",
       "status": "needs_review",
       "orcid": null,
       "selected": null,
@@ -1878,73 +756,114 @@
       "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
     },
     {
+      "id": "cuhksz-xiao-li",
+      "name": "Xiao Li",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
+    },
+    {
+      "id": "cuhksz-rui-chen",
+      "name": "Rui Chen",
+      "status": "needs_review",
+      "reason": "crosscheck_fetch_failed"
+    },
+    {
       "id": "cuhksz-shi-pu",
       "name": "Shi Pu",
-      "officialInstitution": "Chinese University of Hong Kong, Shenzhen",
-      "checkedAt": "2026-09-28T06:40:09.151Z",
       "status": "needs_review",
-      "orcid": null,
-      "selected": null,
-      "candidates": [
-        {
-          "orcid": "0000-0001-8333-4628",
-          "observedName": "Shi Pu",
-          "institutionNames": [
-            "Penn State",
-            "Purdue University"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-3819-8983",
-          "observedName": "SHI PU",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0001-8102-1214",
-          "observedName": "Shi PU",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0009-0009-6349-3627",
-          "observedName": "Shi Pu",
-          "institutionNames": [],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 0,
-          "titleMatches": []
-        },
-        {
-          "orcid": "0000-0003-3496-621X",
-          "observedName": "Shi Pu",
-          "institutionNames": [
-            "Auburn University",
-            "Huazhong University of Science and Technology",
-            "University of Texas at Dallas"
-          ],
-          "nameScore": 1,
-          "institutionScore": 0,
-          "worksCount": 15,
-          "titleMatches": []
-        }
-      ],
-      "sourceUrls": [
-        "https://pu-shi.github.io/",
-        "https://pu-shi.github.io/publications/"
-      ],
-      "noteZh": "主页论文标题交叉证据不足，保留人工审核。"
+      "reason": "crosscheck_fetch_failed"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "id": "person-napat-rujeerapaiboon",
+      "name": "Napat Rujeerapaiboon",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "imperial-wolfram-wiesemann",
+      "name": "Wolfram Wiesemann",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "sustech-tao-tang",
+      "name": "Tao Tang",
+      "error": "fetch failed"
+    },
+    {
+      "id": "nus-melvyn-sim",
+      "name": "Melvyn Sim",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "john-duchi-stanford",
+      "name": "John Duchi",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "ch-epfl-nicolas-flammarion",
+      "name": "Nicolas Flammarion",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "fr-inria-adrien-taylor",
+      "name": "Adrien Taylor",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "be-uclouvain-benoit-legat",
+      "name": "Benoît Legat",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "fr-inria-quentin-bertrand",
+      "name": "Quentin Bertrand",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "fr-ens-lyon-elisa-riccietti",
+      "name": "Elisa Riccietti",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "fr-inria-frederik-kunstner",
+      "name": "Frederik Kunstner",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "cityu-jiaman-wu",
+      "name": "Jiaman Wu",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "nus-bo-lin",
+      "name": "Bo Lin",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "sustech-shangzhi-zeng",
+      "name": "Shangzhi Zeng",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "sjtu-jingwei-liang",
+      "name": "Jingwei Liang",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "cuhksz-xiao-li",
+      "name": "Xiao Li",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "cuhksz-rui-chen",
+      "name": "Rui Chen",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "cuhksz-shi-pu",
+      "name": "Shi Pu",
+      "error": "The operation was aborted due to timeout"
+    }
+  ]
 }

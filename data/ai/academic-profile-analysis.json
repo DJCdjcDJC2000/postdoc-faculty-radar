@@ -1307,8 +1307,8 @@
   },
   "sutd-karthik-natarajan": {
     "status": "deepseek",
-    "generatedAt": "2026-09-28T06:41:08.840Z",
-    "profileFingerprint": "0c2a22a45634bf227fe732eb83337b9195a2b09dbbee99cef8a4e6b6eb3a001e",
+    "generatedAt": "2026-10-05T06:55:39.610Z",
+    "profileFingerprint": "534a64312c05902be55cea509a10d804140a723818e0d0f3818885862d61702c",
     "notice": "AI 辅助归纳，需回到公开证据核验",
     "researchSummaryZh": "Karthik Natarajan 的研究主线围绕不确定性与分布信息不完整条件下的优化建模，涵盖分布鲁棒优化（DRO）、广义矩问题与极值概率界，并将这些方法应用于组合优化、消费者选择建模与多产品定价等决策问题。其公开成果发表于 Mathematical Programming、Operations Research、Management Science、SIAM Journal on Optimization 等期刊，并担任相关期刊编委。",
     "methods": [
@@ -1325,14 +1325,14 @@
       "machine learning and data science",
       "decision-making and operations"
     ],
-    "careerPatternZh": "公开记录显示其现任新加坡科技设计大学（SUTD）工程系统与设计系 Professor；公开时间线仅包含这一当前任职条目，未提供此前教育、博士后或其他任职变动的年份信息。",
+    "careerPatternZh": "公开记录显示其当前任职于 Singapore University of Technology and Design（Engineering Systems and Design），角色为 Professor；时间线仅记录该现任职位，未提供起始年份。公开证据未包含教育经历、博士后经历或此前任职变动的具体信息。",
     "caveatsZh": [
-      "成果计数基于 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界，非完整履历。",
+      "成果计数基于 ORCID 公开记录（42 条）与 Crossref 中明确携带同一 ORCID 的 DOI 元数据（15 条）合并去重后得到 51 条，通常仍为论文量下界。",
       "hIndex、citedByCount 等引用指标缺失，无法据此评估影响力。",
-      "近期主题演化统计中部分主题仅 1 篇作品，样本量小，趋势判断受限。",
-      "topVenueCountsLowerBound 仅按已核验代表作中可识别的核心 venue 统计，为保守下限。",
-      "公开时间线仅含当前任职，缺少教育、博士后及任职起止年份。",
-      "recruitmentSignals 显示无公开招聘信号，不能据此推断任何录用或招聘情况。"
+      "topVenueCountsLowerBound 仅按已核验代表作中可识别的核心 venue 统计，是保守下限，不等同于完整履历总数。",
+      "近期主题演化统计中部分主题 worksCount 仅为 1，样本量小，趋势判断受限。",
+      "招聘信号为 no_public_signal，confidence 为 C，公开渠道未发现明确招聘证据。",
+      "时间线仅含现任职位，缺少教育、博后及任职变动的公开记录。"
     ]
   },
   "nus-chung-piaw-teo": {
@@ -1385,6 +1385,133 @@
     "careerPatternZh": "公开时间线显示：1987–1992 年在清华大学数学科学系获 BSc，1992–1995 年获 Msc and PhD；1995–1998 年任清华大学讲师，1996–1997 年任 Imperial College London 数学系 EPSRC Research Fellow，1998–2000 年任清华大学副教授，并同期在 Georgia Institute of Technology 数学系任 Visiting Assistant Professor；2000 年任 University of Wisconsin Madison 数学系 Van Vleck Visiting Assistant Professor；2001–2004 年任新加坡国立大学助理教授，2005–2009 年任副教授，2009 年起任教授，2013–2016 年任 Provost's Chair Professor。",
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "hkust-jiheng-zhang": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-05T06:55:39.610Z",
+    "profileFingerprint": "d03cc9a11b36dd2126658024c3cc75aa511cd365a18ba8fa3e10b2b40156f600",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "张继恒（Jiheng Zhang）任职于香港科技大学，现任系主任（Department Head）及教授，所属院系为工业工程与决策分析（IEDA）。其研究主线围绕随机优化、应用概率、排队论、数值方法与运筹学展开，持续在 Operations Research、Mathematics of Operations Research、Management Science 等期刊发表成果。近期研究主题包括机器学习优化、运筹与决策系统、控制/能源/网络系统、排队与服务随机系统，以及变分方法、成像与反问题等方向。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "mathematical optimization",
+      "applied probability and queueing analysis",
+      "numerical methods"
+    ],
+    "applications": [
+      "decision-making and operations",
+      "queueing and service systems",
+      "control, energy, and network systems",
+      "machine learning optimization",
+      "dynamic pricing and revenue management"
+    ],
+    "careerPatternZh": "公开记录显示其在香港科技大学工业工程与物流管理系（Dept of Industrial Engineering & Logistics Management）担任副教授，并现任香港科技大学系主任及教授。公开时间线未提供完整的教育经历、博士后经历及任职起止年份。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "hku-xiaoming-yuan": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-05T06:55:39.610Z",
+    "profileFingerprint": "c226e9f3955c8028850c8d504916ee7f0a21edea60d07c9c1037f3526407e869",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料显示，Xiaoming Yuan 为香港大学数学系教授，是 HKU Optimization and OR 核心成员，长期从事计算优化与算法设计研究，研究标签涵盖优化算法、ADMM、最优控制、科学机器学习与应用数学。",
+    "methods": [
+      "ADMM",
+      "optimization algorithms",
+      "optimal control",
+      "scientific machine learning",
+      "applied mathematics"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "control and dynamical systems",
+      "image reconstruction",
+      "inverse problems",
+      "network systems"
+    ],
+    "careerPatternZh": "公开任职轨迹显示：2008 至 2013 年在香港浸会大学数学系任 Assistant Professor，2013 至 2015 年任 Associate Professor，2015 至 2018 年任 Professor；2018 年起任香港大学数学系 Professor。",
+    "caveatsZh": [
+      "成果计数来自 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界。",
+      "citedByCount、hIndex 等引用指标在输入中为 null，无法据此评估影响力。",
+      "topVenueCountsLowerBound 为空，仅代表已核验代表作中可识别核心 venue 的保守下限，不等同于完整履历总数。",
+      "recruitmentSignals 为 no_public_signal，未提供公开招聘证据。",
+      "timeline 中多条记录类型均为 current_position，任职起止年份的公开表述可能存在口径差异。"
+    ]
+  },
+  "fr-ens-peyre-ot": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-05T06:55:39.610Z",
+    "profileFingerprint": "249eb062bd4fbc9f49aee5e9a65ce638ee2a5109931230cdee7120f6a53da13a",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开记录显示，Gabriel Peyré 的研究主线围绕计算最优传输及其在机器学习、成像与反问题中的应用，同时涉及非光滑与变分分析、数学优化。近期公开成果还集中出现在单细胞多组学整合、空间转录组与细胞命运轨迹推断等方向，体现最优传输方法向计算生物学应用的延伸。",
+    "methods": [
+      "nonsmooth and variational analysis",
+      "mathematical optimization",
+      "computational optimal transport",
+      "inverse optimal transport"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "signal processing, imaging, and inverse problems",
+      "logistics, transportation, and operations",
+      "single-cell multi-omics integration",
+      "spatial transcriptomics and cell fate inference"
+    ],
+    "careerPatternZh": "公开时间线仅显示其自2006年起在 CNRS 的 DMA, Ecole Normale Supérieure 担任 Senior Researcher，当前身份为 CNRS Research Director / normalesup.ai scientific director；输入未提供更早的教育、博士后或其它任职变化记录。",
+    "caveatsZh": [
+      "公开成果计数来自 ORCID 记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并，去重后通常仍为论文量下界。",
+      "hIndex、citedByCount 等引用指标在输入中缺失，无法据此评估影响力。",
+      "招聘信号仅表明存在 ERC Advanced 与新建 normalesup.ai 平台等经费或平台扩张信号，未出现明确博后岗位。",
+      "时间线仅含一条 CNRS 任职记录，缺少教育、博士后及此前任职信息。",
+      "代表性成果中部分为预印本，且 venue 信息不完整。"
+    ]
+  },
+  "fr-dauphine-chambolle-variational": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-05T06:55:39.610Z",
+    "profileFingerprint": "24fd1603313725c5fdaf643844ea835df8641a8e6fcfa84961c168e8ec0ddadb",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Antonin Chambolle 的研究主线集中于非光滑变分优化、变分法与数值分析，并应用于成像、逆问题、自由不连续问题及曲面演化等方向。其公开成果显示近期持续关注变分方法、成像与逆问题，以及相关算法与复杂度问题。",
+    "methods": [
+      "nonsmooth and variational analysis",
+      "numerical analysis and scientific computing",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "signal processing, imaging, and inverse problems"
+    ],
+    "careerPatternZh": "公开任职信息显示，其于2003年至2020年在 Ecole Polytechnique 与 CNRS 的 CMAP 担任 CNRS Senior Scientist；自2020年起在 CNRS 与 Université Paris-Dauphine - PSL Research University 的 CEREMADE 担任 CNRS Senior Scientist。当前公开身份为 CNRS Research Director。",
+    "caveatsZh": [
+      "公开成果计数基于 ORCID 记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界，不代表完整履历。",
+      "citedByCount 与 hIndex 在输入中为 null，无法据此评估引用影响。",
+      "近期研究主题的 worksCount 与 shareOfWorks 仅覆盖输入中列出的有限主题，不代表全部研究方向。",
+      "招聘信号显示未发现当前公开岗位，仅反映公开信息状态，不构成岗位存在与否的推断。",
+      "时间线仅包含两条任职记录，未提供更早教育或博后经历。"
+    ]
+  },
+  "be-uclouvain-glineur-optimization": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-05T06:55:39.610Z",
+    "profileFingerprint": "50023d9f9545ab9e9fada3e025f508a7eaed5422d360b69a85c215a482e509c8",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开记录显示其研究主线集中在凸优化与一阶方法的理论分析，尤其是最坏情况收敛速率与性能估计（PEP）相关方向，并涉及锥优化、非负矩阵分解等主题；近期成果还覆盖随机与鲁棒优化、非光滑非凸优化、数值分析与科学计算、机器学习优化、变分方法与成像反问题、算法与复杂度等主题。",
+    "methods": [
+      "first-order methods",
+      "conic and semidefinite optimization",
+      "numerical linear algebra",
+      "mathematical optimization"
+    ],
+    "applications": [],
+    "careerPatternZh": "公开时间线显示：1997–2001 年在 Université de Mons 攻读博士学位；自 2002 年起在 Université catholique de Louvain 任 Professor（隶属 Institute of Information and Communication Technologies, Electronics and Applied Mathematics），当前职位为 Full Professor，所属机构为 UCLouvain / CORE。",
+    "caveatsZh": [
+      "成果计数来自 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常仍为论文量下界。",
+      "citedByCount、hIndex 等引用指标在输入中缺失，无法给出。",
+      "topVenueCountsLowerBound 仅按已核验代表作中可识别的核心 venue 统计，是保守下限，不等同于完整履历总数。",
+      "applications 字段在输入中标注为 not_publicly_specified，故为空。",
+      "招聘信号方面，输入仅记录未找到当前公开博后信息，未提供其他招聘证据。",
+      "近期主题的 worksCount 与 shareOfWorks 基于输入给定的统计口径，未提供引用数。"
     ]
   }
 }
