@@ -50,12 +50,12 @@
     }
   },
   "metadata": {
-    "generatedAt": "2026-10-07T07:11:41.022Z",
+    "generatedAt": "2026-10-08T07:20:19.119Z",
     "offline": false,
-    "jobCount": 41,
-    "alertCount": 3,
+    "jobCount": 42,
+    "alertCount": 4,
     "sourceCount": 20,
-    "builtAt": "2026-10-07T07:12:02.094Z",
+    "builtAt": "2026-10-08T07:20:42.942Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -79,14 +79,14 @@
     "careerPlanSummaryZh": "重点覆盖欧洲、香港、新加坡、内地和大厂研究岗，适用于应用数学、优化与科学计算方向的 PhD/Postdoc。"
   },
   "metrics": {
-    "totalJobs": 7,
+    "totalJobs": 8,
     "archivedJobs": 34,
-    "newJobs": 1,
+    "newJobs": 2,
     "updatedJobs": 0,
     "expiredJobs": 3,
-    "highMatchJobs": 3,
-    "dueSoonJobs": 1,
-    "activeSources": 3,
+    "highMatchJobs": 4,
+    "dueSoonJobs": 2,
+    "activeSources": 4,
     "totalSources": 20,
     "peopleCount": 14,
     "targetLabs": 24,
@@ -126,7 +126,7 @@
       "trust": "lead",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-10-07T07:11:41.022Z",
+      "createdAt": "2026-10-08T07:20:19.119Z",
       "id": "c4f0adb87a8dfd89",
       "matchScore": 100,
       "priority": "A",
@@ -147,11 +147,11 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "线索待核验",
       "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-      "updatedAt": "2026-10-07T07:11:41.022Z",
+      "updatedAt": "2026-10-08T07:20:19.119Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-10-07T07:11:41.022Z",
+      "lastSeenAt": "2026-10-08T07:20:19.119Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -200,7 +200,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-10-07T07:11:41.022Z",
+      "createdAt": "2026-10-08T07:20:19.119Z",
       "id": "1411a9a5c5c5768d",
       "matchScore": 74,
       "priority": "B",
@@ -213,11 +213,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-      "updatedAt": "2026-10-07T07:11:41.022Z",
+      "updatedAt": "2026-10-08T07:20:19.119Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-10-07T07:11:41.022Z",
+      "lastSeenAt": "2026-10-08T07:20:19.119Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -492,7 +492,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-10-07T07:11:41.022Z",
+      "createdAt": "2026-10-08T07:20:19.119Z",
       "id": "576a05e8b695f331",
       "matchScore": 64,
       "priority": "B",
@@ -502,11 +502,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Fellowship",
-      "updatedAt": "2026-10-07T07:11:41.022Z",
+      "updatedAt": "2026-10-08T07:20:19.119Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-10-07T07:11:41.022Z",
+      "lastSeenAt": "2026-10-08T07:20:19.119Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -554,7 +554,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-10-07T07:11:41.022Z",
+      "createdAt": "2026-10-08T07:20:19.119Z",
       "id": "bbac44b5da0bc36a",
       "matchScore": 64,
       "priority": "B",
@@ -564,11 +564,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Singapore · Fellowship",
-      "updatedAt": "2026-10-07T07:11:41.022Z",
+      "updatedAt": "2026-10-08T07:20:19.119Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-10-07T07:11:41.022Z",
+      "lastSeenAt": "2026-10-08T07:20:19.119Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -741,6 +741,67 @@
       }
     },
     {
+      "title": "Researcher in Structural Mechanics and Numerical Simulation – KIwin Project",
+      "institution": "EURAXESS Jobs",
+      "department": "",
+      "region": "Europe",
+      "country": "Europe",
+      "roleType": "industry_research",
+      "track": "industry",
+      "sourceName": "EURAXESS Jobs",
+      "sourceId": "euraxess",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/471379",
+      "originalSourceUrl": "https://euraxess.ec.europa.eu/jobs/search",
+      "description": "Researcher in Structural Mechanics and Numerical Simulation – KIwin Project Universite de MontpellierPosted on: 8 October 2026Researcher in Structural Mechanics and Numerical Simulation – KIwin ProjectÀ propos de nous Une université d’excellenceUniversité de recherche intensive, leader mondial en écologie, l’Université de Montpellier est un établissement public expérimental qui figure dans le top 200 du classement de Shanghai. Elle couvre plusieurs champs disciplinaires sciences et techniques...",
+      "keywords": [
+        "simulation"
+      ],
+      "deadline": "2026-11-06",
+      "fieldRelevantSource": false,
+      "status": "active",
+      "trust": "academic_board",
+      "fetchedAt": "2026-10-08T07:20:19.119Z",
+      "id": "fd8cd8428ae0844d",
+      "matchScore": 60,
+      "priority": "B",
+      "matchedKeywords": [
+        "simulation"
+      ],
+      "negativeKeywords": [],
+      "relevance": "core",
+      "roleLabelZh": "大厂研究岗",
+      "sourceTrustLabelZh": "权威平台",
+      "simpleReason": "Europe · 大厂研究岗 · simulation",
+      "updatedAt": "2026-10-08T07:20:19.119Z",
+      "lifecycleStatus": "active",
+      "lifecycleLabelZh": "当前有效",
+      "firstSeenAt": "2026-10-08T07:20:19.119Z",
+      "lastSeenAt": "2026-10-08T07:20:19.119Z",
+      "lastChangedAt": "2026-10-08T07:20:19.119Z",
+      "changeType": "new",
+      "archivedAt": null,
+      "stale": false,
+      "ai": {
+        "status": "rule_fallback",
+        "notice": "AI 辅助生成，需核验",
+        "summaryZh": "Europe · 大厂研究岗 · simulation",
+        "tagsZh": [
+          "simulation"
+        ],
+        "positiveZh": [
+          "Europe · 大厂研究岗 · simulation"
+        ],
+        "negativeZh": [],
+        "riskZh": "需打开官方原始链接核验岗位细节。",
+        "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
+      }
+    },
+    {
       "title": "MSCA Postdoctoral Fellowships",
       "institution": "European Commission",
       "department": "Horizon Europe",
@@ -760,7 +821,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-10-07T07:11:41.022Z",
+      "createdAt": "2026-10-08T07:20:19.119Z",
       "id": "e1e5047f5f87635e",
       "matchScore": 59,
       "priority": "C",
@@ -770,11 +831,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship",
-      "updatedAt": "2026-10-07T07:11:41.022Z",
+      "updatedAt": "2026-10-08T07:20:19.119Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-10-07T07:11:41.022Z",
+      "lastSeenAt": "2026-10-08T07:20:19.119Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -1192,7 +1253,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "academic_board",
-      "fetchedAt": "2026-10-07T07:11:41.022Z",
+      "fetchedAt": "2026-10-08T07:20:19.119Z",
       "id": "2f941a57056f4dc0",
       "matchScore": 53,
       "priority": "C",
@@ -1204,11 +1265,11 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "权威平台",
       "simpleReason": "United Kingdom · 博后 · applied mathematics",
-      "updatedAt": "2026-10-07T07:11:41.022Z",
+      "updatedAt": "2026-10-08T07:20:19.119Z",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-10-07T07:11:41.022Z",
-      "lastSeenAt": "2026-10-07T07:11:41.022Z",
+      "lastSeenAt": "2026-10-08T07:20:19.119Z",
       "lastChangedAt": "2026-10-07T07:11:41.022Z",
       "changeType": "new",
       "archivedAt": null,
@@ -2262,7 +2323,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "official",
-      "fetchedAt": "2026-10-07T07:11:41.022Z",
+      "fetchedAt": "2026-10-08T07:20:19.119Z",
       "id": "8f0378d469afbb63",
       "matchScore": 45,
       "priority": "C",
@@ -2274,14 +2335,14 @@
       "roleLabelZh": "Research Fellow",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Research Fellow",
-      "updatedAt": "2026-10-07T07:11:41.022Z",
+      "updatedAt": "2026-10-08T07:20:19.119Z",
       "stale": false,
       "changeType": null,
       "sourceId": "hkust-math",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-10-07T07:11:41.022Z",
+      "lastSeenAt": "2026-10-08T07:20:19.119Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "ai": {
@@ -3073,6 +3134,20 @@
       "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
       "reason": "Singapore · Fellowship",
       "aiSummaryZh": "新加坡国家研究基金会（NRF）提供早期独立研究职位，适合博士后向独立研究员过渡。"
+    },
+    {
+      "id": "fd8cd8428ae0844d",
+      "title": "Researcher in Structural Mechanics and Numerical Simulation – KIwin Project",
+      "institution": "EURAXESS Jobs",
+      "region": "Europe",
+      "roleType": "industry_research",
+      "roleLabelZh": "大厂研究岗",
+      "priority": "B",
+      "matchScore": 60,
+      "sourceName": "EURAXESS Jobs",
+      "sourceUrl": "https://euraxess.ec.europa.eu/jobs/471379",
+      "reason": "Europe · 大厂研究岗 · simulation",
+      "aiSummaryZh": "Europe · 大厂研究岗 · simulation"
     }
   ],
   "people": [
@@ -77649,7 +77724,7 @@
           "Global PF 只面向欧盟/关联国国民或长期居民；当前应关注 European PF",
           "2026 起低于 80 分的重投受到限制"
         ],
-        "deadlineDays": -27,
+        "deadlineDays": -28,
         "lifecycle": "future"
       },
       {
@@ -77844,7 +77919,7 @@
           "host 每轮只能支持一名候选人",
           "候选人与 host 不应已有过度紧密合作"
         ],
-        "deadlineDays": -35,
+        "deadlineDays": -36,
         "lifecycle": "future"
       },
       {
@@ -77929,7 +78004,7 @@
           "必须先找到研究方向匹配的 KAUST host",
           "截止日期按官网年度节奏记录，申请前需重新核验当年 call"
         ],
-        "deadlineDays": -5,
+        "deadlineDays": -6,
         "lifecycle": "future"
       },
       {
@@ -77971,7 +78046,7 @@
           "需要两页 AI-integrated 研究计划和 NTU mentor 支持",
           "当前主论文仍需先建立核心数学贡献"
         ],
-        "deadlineDays": 24,
+        "deadlineDays": 23,
         "lifecycle": "future"
       },
       {
@@ -78051,7 +78126,7 @@
           "当前周期博士完成窗口不匹配，目标应是 2029 对应轮次",
           "无正式 host 要求不等于无需展示 Berkeley 研究连接"
         ],
-        "deadlineDays": -26,
+        "deadlineDays": -27,
         "lifecycle": "watch"
       },
       {
@@ -78655,7 +78730,7 @@
           "不是常规延续博士论文的项目",
           "需要强跨学科叙事和独立愿景"
         ],
-        "deadlineDays": 101,
+        "deadlineDays": 100,
         "lifecycle": "upcoming"
       },
       {
@@ -78734,7 +78809,7 @@
           "申请前需单独核验签证、旅行与安全条件",
           "当前轮次不适用于 2029 毕业时间，仅用于周期建模"
         ],
-        "deadlineDays": 36,
+        "deadlineDays": 35,
         "lifecycle": "watch"
       },
       {
@@ -79175,7 +79250,7 @@
           "当前并非直接可申请",
           "Ambizione 将结束，2028 新计划规则尚未公布"
         ],
-        "deadlineDays": 28,
+        "deadlineDays": 27,
         "lifecycle": "ineligible"
       },
       {
@@ -79970,11 +80045,11 @@
       "url": "https://euraxess.ec.europa.eu/jobs/search",
       "trust": "academic_board",
       "sourceType": "academic_board",
-      "status": "no_candidates",
-      "message": "0 candidates",
-      "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 350
+      "status": "ok",
+      "message": "1 candidates",
+      "count": 1,
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 427
     },
     {
       "id": "academic-positions",
@@ -79986,8 +80061,8 @@
       "status": "error",
       "message": "HTTP 403",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 150
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 98
     },
     {
       "id": "academic-transfer",
@@ -79999,8 +80074,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 1289
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 1119
     },
     {
       "id": "mathjobs",
@@ -80012,8 +80087,8 @@
       "status": "ok",
       "message": "1 candidates",
       "count": 1,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 318
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 762
     },
     {
       "id": "academic-jobs-online",
@@ -80025,8 +80100,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 423
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 500
     },
     {
       "id": "jobs-ac-uk",
@@ -80038,8 +80113,8 @@
       "status": "ok",
       "message": "15 candidates",
       "count": 15,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 1969
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 2051
     },
     {
       "id": "polyu",
@@ -80051,8 +80126,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 2716
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 3031
     },
     {
       "id": "hku",
@@ -80064,8 +80139,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 1167
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 1249
     },
     {
       "id": "hkust-math",
@@ -80077,8 +80152,8 @@
       "status": "ok",
       "message": "3 candidates",
       "count": 3,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 868
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 784
     },
     {
       "id": "cuhk-math",
@@ -80090,8 +80165,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 1288
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 1107
     },
     {
       "id": "nus",
@@ -80103,8 +80178,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 1543
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 1544
     },
     {
       "id": "ntu",
@@ -80116,8 +80191,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 656
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 753
     },
     {
       "id": "astar",
@@ -80129,8 +80204,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 1729
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 1400
     },
     {
       "id": "chinapostdoctor",
@@ -80139,11 +80214,11 @@
       "url": "https://www.chinapostdoctor.org.cn/home",
       "trust": "official",
       "sourceType": "official",
-      "status": "error",
-      "message": "HTTP 500",
+      "status": "no_candidates",
+      "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 1136
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 1226
     },
     {
       "id": "gaoxiaojob",
@@ -80155,8 +80230,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 2208
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 1971
     },
     {
       "id": "microsoft-research",
@@ -80168,8 +80243,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 585
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 1008
     },
     {
       "id": "google-research",
@@ -80181,8 +80256,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 112
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 195
     },
     {
       "id": "deepmind",
@@ -80194,8 +80269,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 410
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 473
     },
     {
       "id": "huawei-noah",
@@ -80207,8 +80282,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 1236
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 1168
     },
     {
       "id": "bytedance-seed",
@@ -80220,8 +80295,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-10-07T07:11:41.022Z",
-      "latencyMs": 714
+      "checkedAt": "2026-10-08T07:20:19.119Z",
+      "latencyMs": 2804
     }
   ],
   "reports": [
@@ -80252,11 +80327,24 @@
   ],
   "updates": {
     "windowDays": 7,
-    "generatedAt": "2026-10-07T07:12:02.094Z",
-    "newCount": 1,
+    "generatedAt": "2026-10-08T07:20:42.942Z",
+    "newCount": 2,
     "updatedCount": 0,
     "expiredCount": 3,
     "items": [
+      {
+        "id": "fd8cd8428ae0844d",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "Researcher in Structural Mechanics and Numerical Simulation – KIwin Project",
+        "organization": "EURAXESS Jobs",
+        "region": "Europe",
+        "priority": "B",
+        "score": 60,
+        "sourceUrl": "https://euraxess.ec.europa.eu/jobs/471379",
+        "changedAt": "2026-10-08T07:20:19.119Z"
+      },
       {
         "id": "2f941a57056f4dc0",
         "kind": "job",
@@ -80333,7 +80421,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-10-07T07:11:41.022Z",
+        "createdAt": "2026-10-08T07:20:19.119Z",
         "id": "1411a9a5c5c5768d",
         "matchScore": 74,
         "priority": "B",
@@ -80346,11 +80434,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-        "updatedAt": "2026-10-07T07:11:41.022Z",
+        "updatedAt": "2026-10-08T07:20:19.119Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-10-07T07:11:41.022Z",
+        "lastSeenAt": "2026-10-08T07:20:19.119Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -80398,7 +80486,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-10-07T07:11:41.022Z",
+        "createdAt": "2026-10-08T07:20:19.119Z",
         "id": "576a05e8b695f331",
         "matchScore": 64,
         "priority": "B",
@@ -80408,11 +80496,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Hong Kong · Fellowship",
-        "updatedAt": "2026-10-07T07:11:41.022Z",
+        "updatedAt": "2026-10-08T07:20:19.119Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-10-07T07:11:41.022Z",
+        "lastSeenAt": "2026-10-08T07:20:19.119Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -80460,7 +80548,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-10-07T07:11:41.022Z",
+        "createdAt": "2026-10-08T07:20:19.119Z",
         "id": "bbac44b5da0bc36a",
         "matchScore": 64,
         "priority": "B",
@@ -80470,11 +80558,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Singapore · Fellowship",
-        "updatedAt": "2026-10-07T07:11:41.022Z",
+        "updatedAt": "2026-10-08T07:20:19.119Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-10-07T07:11:41.022Z",
+        "lastSeenAt": "2026-10-08T07:20:19.119Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -80521,7 +80609,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-10-07T07:11:41.022Z",
+        "createdAt": "2026-10-08T07:20:19.119Z",
         "id": "e1e5047f5f87635e",
         "matchScore": 59,
         "priority": "C",
@@ -80531,11 +80619,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship",
-        "updatedAt": "2026-10-07T07:11:41.022Z",
+        "updatedAt": "2026-10-08T07:20:19.119Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-10-07T07:11:41.022Z",
+        "lastSeenAt": "2026-10-08T07:20:19.119Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -80573,7 +80661,69 @@
         "freshness": null
       }
     ],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "title": "Researcher in Structural Mechanics and Numerical Simulation – KIwin Project",
+        "institution": "EURAXESS Jobs",
+        "department": "",
+        "region": "Europe",
+        "country": "Europe",
+        "roleType": "industry_research",
+        "track": "industry",
+        "sourceName": "EURAXESS Jobs",
+        "sourceId": "euraxess",
+        "sourceUrl": "https://euraxess.ec.europa.eu/jobs/471379",
+        "originalSourceUrl": "https://euraxess.ec.europa.eu/jobs/search",
+        "description": "Researcher in Structural Mechanics and Numerical Simulation – KIwin Project Universite de MontpellierPosted on: 8 October 2026Researcher in Structural Mechanics and Numerical Simulation – KIwin ProjectÀ propos de nous Une université d’excellenceUniversité de recherche intensive, leader mondial en écologie, l’Université de Montpellier est un établissement public expérimental qui figure dans le top 200 du classement de Shanghai. Elle couvre plusieurs champs disciplinaires sciences et techniques...",
+        "keywords": [
+          "simulation"
+        ],
+        "deadline": "2026-11-06",
+        "fieldRelevantSource": false,
+        "status": "active",
+        "trust": "academic_board",
+        "fetchedAt": "2026-10-08T07:20:19.119Z",
+        "id": "fd8cd8428ae0844d",
+        "matchScore": 60,
+        "priority": "B",
+        "matchedKeywords": [
+          "simulation"
+        ],
+        "negativeKeywords": [],
+        "relevance": "core",
+        "roleLabelZh": "大厂研究岗",
+        "sourceTrustLabelZh": "权威平台",
+        "simpleReason": "Europe · 大厂研究岗 · simulation",
+        "updatedAt": "2026-10-08T07:20:19.119Z",
+        "lifecycleStatus": "active",
+        "lifecycleLabelZh": "当前有效",
+        "firstSeenAt": "2026-10-08T07:20:19.119Z",
+        "lastSeenAt": "2026-10-08T07:20:19.119Z",
+        "lastChangedAt": "2026-10-08T07:20:19.119Z",
+        "changeType": "new",
+        "archivedAt": null,
+        "stale": false,
+        "ai": {
+          "status": "rule_fallback",
+          "notice": "AI 辅助生成，需核验",
+          "summaryZh": "Europe · 大厂研究岗 · simulation",
+          "tagsZh": [
+            "simulation"
+          ],
+          "positiveZh": [
+            "Europe · 大厂研究岗 · simulation"
+          ],
+          "negativeZh": [],
+          "riskZh": "需打开官方原始链接核验岗位细节。",
+          "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+        },
+        "freshness": {
+          "type": "new",
+          "labelZh": "本周新增",
+          "highlighted": true
+        }
+      }
+    ],
     "privateActions": []
   }
 }

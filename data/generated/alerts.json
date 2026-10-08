@@ -37,5 +37,18 @@
     "sourceName": "NRF Singapore",
     "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
     "reason": "Singapore · Fellowship"
+  },
+  {
+    "id": "fd8cd8428ae0844d",
+    "title": "Researcher in Structural Mechanics and Numerical Simulation – KIwin Project",
+    "institution": "EURAXESS Jobs",
+    "region": "Europe",
+    "roleType": "industry_research",
+    "roleLabelZh": "大厂研究岗",
+    "priority": "B",
+    "matchScore": 60,
+    "sourceName": "EURAXESS Jobs",
+    "sourceUrl": "https://euraxess.ec.europa.eu/jobs/471379",
+    "reason": "Europe · 大厂研究岗 · simulation"
   }
 ]
