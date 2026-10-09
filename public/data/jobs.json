@@ -23,7 +23,7 @@
     "trust": "lead",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-10-08T07:20:19.119Z",
+    "createdAt": "2026-10-09T07:21:13.442Z",
     "id": "c4f0adb87a8dfd89",
     "matchScore": 100,
     "priority": "A",
@@ -44,11 +44,11 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "线索待核验",
     "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-    "updatedAt": "2026-10-08T07:20:19.119Z",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-10-08T07:20:19.119Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -97,7 +97,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-10-08T07:20:19.119Z",
+    "createdAt": "2026-10-09T07:21:13.442Z",
     "id": "1411a9a5c5c5768d",
     "matchScore": 74,
     "priority": "B",
@@ -110,11 +110,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-    "updatedAt": "2026-10-08T07:20:19.119Z",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-10-08T07:20:19.119Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -370,6 +370,73 @@
     }
   },
   {
+    "title": "博士后-大数据分析、智能决策与供应链运筹优化 33万/年 博士研究生 若干人 深圳大学经济学院 深圳",
+    "institution": "高校人才网",
+    "department": "",
+    "region": "Mainland China",
+    "country": "Mainland China",
+    "roleType": "postdoc",
+    "track": "academia",
+    "sourceName": "高校人才网",
+    "sourceId": "gaoxiaojob",
+    "sourceUrl": "https://www.gaoxiaojob.com/job/detail/2351658.html",
+    "originalSourceUrl": "https://www.gaoxiaojob.com/",
+    "description": "博士后-大数据分析、智能决策与供应链运筹优化 33万/年 博士研究生 若干人 深圳大学经济学院 深圳 https://www.gaoxiaojob.com/job/detail/2351658.html",
+    "keywords": [
+      "优化",
+      "运筹",
+      "供应链"
+    ],
+    "deadline": null,
+    "fieldRelevantSource": false,
+    "status": "active",
+    "trust": "aggregator",
+    "fetchedAt": "2026-10-09T07:21:13.442Z",
+    "id": "96a2fed9bacc9bfa",
+    "matchScore": 65,
+    "priority": "B",
+    "matchedKeywords": [
+      "优化",
+      "运筹",
+      "供应链"
+    ],
+    "negativeKeywords": [],
+    "relevance": "core",
+    "roleLabelZh": "博后",
+    "sourceTrustLabelZh": "聚合补漏",
+    "simpleReason": "Mainland China · 博后 · 优化 / 运筹",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
+    "lifecycleStatus": "active",
+    "lifecycleLabelZh": "当前有效",
+    "firstSeenAt": "2026-10-09T07:21:13.442Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
+    "lastChangedAt": "2026-10-09T07:21:13.442Z",
+    "changeType": "new",
+    "archivedAt": null,
+    "stale": false,
+    "ai": {
+      "status": "rule_fallback",
+      "notice": "AI 辅助生成，需核验",
+      "summaryZh": "Mainland China · 博后 · 优化 / 运筹",
+      "tagsZh": [
+        "优化",
+        "运筹",
+        "供应链"
+      ],
+      "positiveZh": [
+        "Mainland China · 博后 · 优化 / 运筹"
+      ],
+      "negativeZh": [],
+      "riskZh": "需打开官方原始链接核验岗位细节。",
+      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+    },
+    "freshness": {
+      "type": "new",
+      "labelZh": "本周新增",
+      "highlighted": true
+    }
+  },
+  {
     "title": "RGC Junior Research Fellow Scheme",
     "institution": "University Grants Committee / Research Grants Council",
     "department": "Hong Kong UGC-funded universities",
@@ -389,7 +456,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-10-08T07:20:19.119Z",
+    "createdAt": "2026-10-09T07:21:13.442Z",
     "id": "576a05e8b695f331",
     "matchScore": 64,
     "priority": "B",
@@ -399,11 +466,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Fellowship",
-    "updatedAt": "2026-10-08T07:20:19.119Z",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-10-08T07:20:19.119Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -451,7 +518,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-10-08T07:20:19.119Z",
+    "createdAt": "2026-10-09T07:21:13.442Z",
     "id": "bbac44b5da0bc36a",
     "matchScore": 64,
     "priority": "B",
@@ -461,11 +528,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Singapore · Fellowship",
-    "updatedAt": "2026-10-08T07:20:19.119Z",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-10-08T07:20:19.119Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -655,7 +722,7 @@
     ],
     "deadline": "2026-11-06",
     "fieldRelevantSource": false,
-    "status": "active",
+    "status": "expired",
     "trust": "academic_board",
     "fetchedAt": "2026-10-08T07:20:19.119Z",
     "id": "fd8cd8428ae0844d",
@@ -670,13 +737,13 @@
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · 大厂研究岗 · simulation",
     "updatedAt": "2026-10-08T07:20:19.119Z",
-    "lifecycleStatus": "active",
-    "lifecycleLabelZh": "当前有效",
+    "lifecycleStatus": "expired",
+    "lifecycleLabelZh": "已失效/已截止",
     "firstSeenAt": "2026-10-08T07:20:19.119Z",
     "lastSeenAt": "2026-10-08T07:20:19.119Z",
-    "lastChangedAt": "2026-10-08T07:20:19.119Z",
-    "changeType": "new",
-    "archivedAt": null,
+    "lastChangedAt": "2026-10-09T07:21:13.442Z",
+    "changeType": "expired",
+    "archivedAt": "2026-10-09T07:21:13.442Z",
     "stale": false,
     "ai": {
       "status": "rule_fallback",
@@ -693,8 +760,8 @@
       "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
     },
     "freshness": {
-      "type": "new",
-      "labelZh": "本周新增",
+      "type": "expired",
+      "labelZh": "已失效/已截止",
       "highlighted": true
     }
   },
@@ -718,7 +785,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-10-08T07:20:19.119Z",
+    "createdAt": "2026-10-09T07:21:13.442Z",
     "id": "e1e5047f5f87635e",
     "matchScore": 59,
     "priority": "C",
@@ -728,11 +795,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship",
-    "updatedAt": "2026-10-08T07:20:19.119Z",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-10-08T07:20:19.119Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -877,7 +944,7 @@
     "firstSeenAt": "2026-09-26T06:08:15.559Z",
     "lastSeenAt": "2026-10-01T07:10:02.469Z",
     "lastChangedAt": "2026-10-02T06:59:02.164Z",
-    "changeType": "expired",
+    "changeType": null,
     "archivedAt": "2026-10-02T06:59:02.164Z",
     "stale": false,
     "ai": {
@@ -912,7 +979,7 @@
     "freshness": {
       "type": "expired",
       "labelZh": "已失效/已截止",
-      "highlighted": true
+      "highlighted": false
     }
   },
   {
@@ -1150,7 +1217,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "academic_board",
-    "fetchedAt": "2026-10-08T07:20:19.119Z",
+    "fetchedAt": "2026-10-09T07:21:13.442Z",
     "id": "2f941a57056f4dc0",
     "matchScore": 53,
     "priority": "C",
@@ -1162,11 +1229,11 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后 · applied mathematics",
-    "updatedAt": "2026-10-08T07:20:19.119Z",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-10-07T07:11:41.022Z",
-    "lastSeenAt": "2026-10-08T07:20:19.119Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
     "lastChangedAt": "2026-10-07T07:11:41.022Z",
     "changeType": "new",
     "archivedAt": null,
@@ -1410,6 +1477,70 @@
       "type": "expired",
       "labelZh": "已失效/已截止",
       "highlighted": false
+    }
+  },
+  {
+    "title": "博士后-供应链ESG与低碳智慧物流体系 33万/年 博士研究生 若干人 深圳大学经济学院 深圳",
+    "institution": "高校人才网",
+    "department": "",
+    "region": "Mainland China",
+    "country": "Mainland China",
+    "roleType": "postdoc",
+    "track": "academia",
+    "sourceName": "高校人才网",
+    "sourceId": "gaoxiaojob",
+    "sourceUrl": "https://www.gaoxiaojob.com/job/detail/2351661.html",
+    "originalSourceUrl": "https://www.gaoxiaojob.com/",
+    "description": "博士后-供应链ESG与低碳智慧物流体系 33万/年 博士研究生 若干人 深圳大学经济学院 深圳 https://www.gaoxiaojob.com/job/detail/2351661.html",
+    "keywords": [
+      "物流",
+      "供应链"
+    ],
+    "deadline": null,
+    "fieldRelevantSource": false,
+    "status": "active",
+    "trust": "aggregator",
+    "fetchedAt": "2026-10-09T07:21:13.442Z",
+    "id": "5a0b533e3d8249e3",
+    "matchScore": 50,
+    "priority": "C",
+    "matchedKeywords": [
+      "物流",
+      "供应链"
+    ],
+    "negativeKeywords": [],
+    "relevance": "core",
+    "roleLabelZh": "博后",
+    "sourceTrustLabelZh": "聚合补漏",
+    "simpleReason": "Mainland China · 博后 · 物流 / 供应链",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
+    "lifecycleStatus": "active",
+    "lifecycleLabelZh": "当前有效",
+    "firstSeenAt": "2026-10-09T07:21:13.442Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
+    "lastChangedAt": "2026-10-09T07:21:13.442Z",
+    "changeType": "new",
+    "archivedAt": null,
+    "stale": false,
+    "ai": {
+      "status": "rule_fallback",
+      "notice": "AI 辅助生成，需核验",
+      "summaryZh": "Mainland China · 博后 · 物流 / 供应链",
+      "tagsZh": [
+        "物流",
+        "供应链"
+      ],
+      "positiveZh": [
+        "Mainland China · 博后 · 物流 / 供应链"
+      ],
+      "negativeZh": [],
+      "riskZh": "需打开官方原始链接核验岗位细节。",
+      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+    },
+    "freshness": {
+      "type": "new",
+      "labelZh": "本周新增",
+      "highlighted": true
     }
   },
   {
@@ -2132,6 +2263,69 @@
     }
   },
   {
+    "title": "博士后-低空物流专家智能体与垂域AI模型 33万/年 博士研究生 若干人 深圳大学经济学院 深圳",
+    "institution": "高校人才网",
+    "department": "",
+    "region": "Mainland China",
+    "country": "Mainland China",
+    "roleType": "postdoc",
+    "track": "academia",
+    "sourceName": "高校人才网",
+    "sourceId": "gaoxiaojob",
+    "sourceUrl": "https://www.gaoxiaojob.com/job/detail/2351660.html",
+    "originalSourceUrl": "https://www.gaoxiaojob.com/",
+    "description": "博士后-低空物流专家智能体与垂域AI模型 33万/年 博士研究生 若干人 深圳大学经济学院 深圳 https://www.gaoxiaojob.com/job/detail/2351660.html",
+    "keywords": [
+      "物流"
+    ],
+    "deadline": null,
+    "fieldRelevantSource": false,
+    "status": "active",
+    "trust": "aggregator",
+    "fetchedAt": "2026-10-09T07:21:13.442Z",
+    "id": "2c70e910faea6459",
+    "matchScore": 46,
+    "priority": "C",
+    "matchedKeywords": [
+      "物流",
+      "AI"
+    ],
+    "negativeKeywords": [],
+    "relevance": "core",
+    "roleLabelZh": "博后",
+    "sourceTrustLabelZh": "聚合补漏",
+    "simpleReason": "Mainland China · 博后 · 物流 / AI",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
+    "lifecycleStatus": "active",
+    "lifecycleLabelZh": "当前有效",
+    "firstSeenAt": "2026-10-09T07:21:13.442Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
+    "lastChangedAt": "2026-10-09T07:21:13.442Z",
+    "changeType": "new",
+    "archivedAt": null,
+    "stale": false,
+    "ai": {
+      "status": "rule_fallback",
+      "notice": "AI 辅助生成，需核验",
+      "summaryZh": "Mainland China · 博后 · 物流 / AI",
+      "tagsZh": [
+        "物流",
+        "AI"
+      ],
+      "positiveZh": [
+        "Mainland China · 博后 · 物流 / AI"
+      ],
+      "negativeZh": [],
+      "riskZh": "需打开官方原始链接核验岗位细节。",
+      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+    },
+    "freshness": {
+      "type": "new",
+      "labelZh": "本周新增",
+      "highlighted": true
+    }
+  },
+  {
     "title": "Research Fellow in AI & Optimisation for Physical Systems",
     "institution": "jobs.ac.uk Mathematics",
     "department": "",
@@ -2220,7 +2414,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "official",
-    "fetchedAt": "2026-10-08T07:20:19.119Z",
+    "fetchedAt": "2026-10-09T07:21:13.442Z",
     "id": "8f0378d469afbb63",
     "matchScore": 45,
     "priority": "C",
@@ -2232,14 +2426,14 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Research Fellow",
-    "updatedAt": "2026-10-08T07:20:19.119Z",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
     "stale": false,
     "changeType": null,
     "sourceId": "hkust-math",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-10-08T07:20:19.119Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "ai": {
@@ -2268,6 +2462,128 @@
       "depth": "shallow"
     },
     "freshness": null
+  },
+  {
+    "title": "博士后-数字经济理论与供应链平台生态治理 33万/年 博士研究生 若干人 深圳大学经济学院 深圳",
+    "institution": "高校人才网",
+    "department": "",
+    "region": "Mainland China",
+    "country": "Mainland China",
+    "roleType": "postdoc",
+    "track": "academia",
+    "sourceName": "高校人才网",
+    "sourceId": "gaoxiaojob",
+    "sourceUrl": "https://www.gaoxiaojob.com/job/detail/2351662.html",
+    "originalSourceUrl": "https://www.gaoxiaojob.com/",
+    "description": "博士后-数字经济理论与供应链平台生态治理 33万/年 博士研究生 若干人 深圳大学经济学院 深圳 https://www.gaoxiaojob.com/job/detail/2351662.html",
+    "keywords": [
+      "供应链"
+    ],
+    "deadline": null,
+    "fieldRelevantSource": false,
+    "status": "active",
+    "trust": "aggregator",
+    "fetchedAt": "2026-10-09T07:21:13.442Z",
+    "id": "d8474661b1094815",
+    "matchScore": 45,
+    "priority": "C",
+    "matchedKeywords": [
+      "供应链"
+    ],
+    "negativeKeywords": [],
+    "relevance": "core",
+    "roleLabelZh": "博后",
+    "sourceTrustLabelZh": "聚合补漏",
+    "simpleReason": "Mainland China · 博后 · 供应链",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
+    "lifecycleStatus": "active",
+    "lifecycleLabelZh": "当前有效",
+    "firstSeenAt": "2026-10-09T07:21:13.442Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
+    "lastChangedAt": "2026-10-09T07:21:13.442Z",
+    "changeType": "new",
+    "archivedAt": null,
+    "stale": false,
+    "ai": {
+      "status": "rule_fallback",
+      "notice": "AI 辅助生成，需核验",
+      "summaryZh": "Mainland China · 博后 · 供应链",
+      "tagsZh": [
+        "供应链"
+      ],
+      "positiveZh": [
+        "Mainland China · 博后 · 供应链"
+      ],
+      "negativeZh": [],
+      "riskZh": "需打开官方原始链接核验岗位细节。",
+      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+    },
+    "freshness": {
+      "type": "new",
+      "labelZh": "本周新增",
+      "highlighted": true
+    }
+  },
+  {
+    "title": "博士后-跨境多式联运与全球供应链韧性 33万/年 博士研究生 若干人 深圳大学经济学院 深圳",
+    "institution": "高校人才网",
+    "department": "",
+    "region": "Mainland China",
+    "country": "Mainland China",
+    "roleType": "postdoc",
+    "track": "academia",
+    "sourceName": "高校人才网",
+    "sourceId": "gaoxiaojob",
+    "sourceUrl": "https://www.gaoxiaojob.com/job/detail/2351659.html",
+    "originalSourceUrl": "https://www.gaoxiaojob.com/",
+    "description": "博士后-跨境多式联运与全球供应链韧性 33万/年 博士研究生 若干人 深圳大学经济学院 深圳 https://www.gaoxiaojob.com/job/detail/2351659.html",
+    "keywords": [
+      "供应链"
+    ],
+    "deadline": null,
+    "fieldRelevantSource": false,
+    "status": "active",
+    "trust": "aggregator",
+    "fetchedAt": "2026-10-09T07:21:13.442Z",
+    "id": "cdf4c92a8170e812",
+    "matchScore": 45,
+    "priority": "C",
+    "matchedKeywords": [
+      "供应链"
+    ],
+    "negativeKeywords": [],
+    "relevance": "core",
+    "roleLabelZh": "博后",
+    "sourceTrustLabelZh": "聚合补漏",
+    "simpleReason": "Mainland China · 博后 · 供应链",
+    "updatedAt": "2026-10-09T07:21:13.442Z",
+    "lifecycleStatus": "active",
+    "lifecycleLabelZh": "当前有效",
+    "firstSeenAt": "2026-10-09T07:21:13.442Z",
+    "lastSeenAt": "2026-10-09T07:21:13.442Z",
+    "lastChangedAt": "2026-10-09T07:21:13.442Z",
+    "changeType": "new",
+    "archivedAt": null,
+    "stale": false,
+    "ai": {
+      "status": "rule_fallback",
+      "notice": "AI 辅助生成，需核验",
+      "summaryZh": "Mainland China · 博后 · 供应链",
+      "tagsZh": [
+        "供应链"
+      ],
+      "positiveZh": [
+        "Mainland China · 博后 · 供应链"
+      ],
+      "negativeZh": [],
+      "riskZh": "需打开官方原始链接核验岗位细节。",
+      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+    },
+    "freshness": {
+      "type": "new",
+      "labelZh": "本周新增",
+      "highlighted": true
+    }
   },
   {
     "title": "Research Fellow in Modelling and Optimisation",

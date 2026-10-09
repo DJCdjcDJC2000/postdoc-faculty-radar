@@ -14,6 +14,20 @@
     "aiSummaryZh": "德国洪堡基金会为博士后研究人员提供研究奖学金，支持在德国进行科研，适用于优化、应用数学和科学计算领域。"
   },
   {
+    "id": "96a2fed9bacc9bfa",
+    "title": "博士后-大数据分析、智能决策与供应链运筹优化 33万/年 博士研究生 若干人 深圳大学经济学院 深圳",
+    "institution": "高校人才网",
+    "region": "Mainland China",
+    "roleType": "postdoc",
+    "roleLabelZh": "博后",
+    "priority": "B",
+    "matchScore": 65,
+    "sourceName": "高校人才网",
+    "sourceUrl": "https://www.gaoxiaojob.com/job/detail/2351658.html",
+    "reason": "Mainland China · 博后 · 优化 / 运筹",
+    "aiSummaryZh": "Mainland China · 博后 · 优化 / 运筹"
+  },
+  {
     "id": "576a05e8b695f331",
     "title": "RGC Junior Research Fellow Scheme",
     "institution": "University Grants Committee / Research Grants Council",
@@ -40,19 +54,5 @@
     "sourceUrl": "https://www.nrf.gov.sg/grants/nrff/",
     "reason": "Singapore · Fellowship",
     "aiSummaryZh": "新加坡国家研究基金会（NRF）提供早期独立研究职位，适合博士后向独立研究员过渡。"
-  },
-  {
-    "id": "fd8cd8428ae0844d",
-    "title": "Researcher in Structural Mechanics and Numerical Simulation – KIwin Project",
-    "institution": "EURAXESS Jobs",
-    "region": "Europe",
-    "roleType": "industry_research",
-    "roleLabelZh": "大厂研究岗",
-    "priority": "B",
-    "matchScore": 60,
-    "sourceName": "EURAXESS Jobs",
-    "sourceUrl": "https://euraxess.ec.europa.eu/jobs/471379",
-    "reason": "Europe · 大厂研究岗 · simulation",
-    "aiSummaryZh": "Europe · 大厂研究岗 · simulation"
   }
 ]
