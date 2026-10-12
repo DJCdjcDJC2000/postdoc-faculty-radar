@@ -1,20 +1,25 @@
-# 职业雷达周报 · 2026-10-05
+# 职业雷达周报 · 2026-10-12
 
-- 本周新增：2
+- 本周新增：0
 - 本周更新：0
-- 本周失效：2
+- 本周失效：9
 - A/B 高匹配：3
-- 30 天内截止：1
+- 30 天内截止：2
 - 学术候选池：132
-- 完整公开档案：120
+- 完整公开档案：126
 - 导师组 / 青年学者：52 / 84
 
 ## 本周变化
 
-- **已失效/已截止** [Associate / Full Professor in Applied Mathematics / Statistics](https://www.jobs.ac.uk/job/DTB506/associate-full-professor-in-applied-mathematics-statistics) · jobs.ac.uk Mathematics · United Kingdom · C 54
-- **本周新增** [Post Doctoral Research Associate in Mathematical Relativity (Fixed Term)](https://www.jobs.ac.uk/job/DTC600/post-doctoral-research-associate-in-mathematical-relativity-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 49
-- **本周新增** [Postdoctoral Research Associate in Applied Mathematics and Computational Neuroscience](https://www.jobs.ac.uk/job/DTC674/postdoctoral-research-associate-in-applied-mathematics-and-computational-neuroscience) · jobs.ac.uk Mathematics · United Kingdom · C 41
-- **已失效/已截止** [Associate Professorship (or Professorship) in Applied Mathematics](https://www.jobs.ac.uk/job/DTB564/associate-professorship-or-professorship-in-applied-mathematics) · jobs.ac.uk Mathematics · United Kingdom · C 43
+- **已失效/已截止** [博士后-大数据分析、智能决策与供应链运筹优化 33万/年 博士研究生 若干人 深圳大学经济学院 深圳](https://www.gaoxiaojob.com/job/detail/2351658.html) · 高校人才网 · Mainland China · B 65
+- **已失效/已截止** [Postdoctoral Research Associate in Mathematical and Statistical Methods for Genome Privacy (Fixed Term)](https://www.jobs.ac.uk/job/DTE231/postdoctoral-research-associate-in-mathematical-and-statistical-methods-for-genome-privacy-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 53
+- **已失效/已截止** [博士后-供应链ESG与低碳智慧物流体系 33万/年 博士研究生 若干人 深圳大学经济学院 深圳](https://www.gaoxiaojob.com/job/detail/2351661.html) · 高校人才网 · Mainland China · C 50
+- **已失效/已截止** [博士后-低空物流专家智能体与垂域AI模型 33万/年 博士研究生 若干人 深圳大学经济学院 深圳](https://www.gaoxiaojob.com/job/detail/2351660.html) · 高校人才网 · Mainland China · C 46
+- **已失效/已截止** [博士后-数字经济理论与供应链平台生态治理 33万/年 博士研究生 若干人 深圳大学经济学院 深圳](https://www.gaoxiaojob.com/job/detail/2351662.html) · 高校人才网 · Mainland China · C 45
+- **已失效/已截止** [博士后-跨境多式联运与全球供应链韧性 33万/年 博士研究生 若干人 深圳大学经济学院 深圳](https://www.gaoxiaojob.com/job/detail/2351659.html) · 高校人才网 · Mainland China · C 45
+- **已失效/已截止** [Researcher in Structural Mechanics and Numerical Simulation – KIwin Project](https://euraxess.ec.europa.eu/jobs/471379) · EURAXESS Jobs · Europe · B 60
+- **已失效/已截止** [Post Doctoral Research Associate in Mathematical Relativity (Fixed Term)](https://www.jobs.ac.uk/job/DTC600/post-doctoral-research-associate-in-mathematical-relativity-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 49
+- **已失效/已截止** [Postdoctoral Research Associate in Applied Mathematics and Computational Neuroscience](https://www.jobs.ac.uk/job/DTC674/postdoctoral-research-associate-in-applied-mathematics-and-computational-neuroscience) · jobs.ac.uk Mathematics · United Kingdom · C 41
 
 ## 学术人物建设
 
@@ -31,16 +36,15 @@
 - [谢岳 / Yue Xie](https://postdoc-faculty-radar-public.vercel.app/#people/hku-ids-yue-xie) · The University of Hong Kong · AuthorPublicationPage
 - [Daniel Kuhn](https://postdoc-faculty-radar-public.vercel.app/#people/epfl-rao-daniel-kuhn) · EPFL · ORCID
 - [Nicolas Boumal](https://postdoc-faculty-radar-public.vercel.app/#people/epfl-optim-nicolas-boumal) · EPFL · ORCID
+- [Wolfram Wiesemann](https://postdoc-faculty-radar-public.vercel.app/#people/imperial-wolfram-wiesemann) · Imperial College London · ORCID
 - [Coralia Cartis](https://postdoc-faculty-radar-public.vercel.app/#people/oxford-coralia-cartis) · University of Oxford · ORCID
 - [Michael Ulbrich](https://postdoc-faculty-radar-public.vercel.app/#people/tum-math-michael-ulbrich) · Technical University of Munich · ORCID
-- [Stephen Boyd](https://postdoc-faculty-radar-public.vercel.app/#people/stanford-boyd-convex-optimization) · Stanford University · ORCID
 
 ## 数据源状态
 
-- 正常或有结果：3/20
+- 正常或有结果：2/20
 - 抓取失败：Academic Positions · HTTP 403
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
-- 抓取失败：中国博士后 · HTTP 500
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed
 
 ## 查看网站

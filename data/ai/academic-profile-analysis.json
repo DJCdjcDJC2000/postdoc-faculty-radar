@@ -21,8 +21,8 @@
   },
   "cityu-jiaman-wu": {
     "status": "deepseek",
-    "generatedAt": "2026-07-13T04:38:49.952Z",
-    "profileFingerprint": "9b0eba85e327722ef69489c01613b6b6cc0c1cf4a6a8c372665e011cb2f1c75e",
+    "generatedAt": "2026-10-12T07:17:04.934Z",
+    "profileFingerprint": "7112b9a360888688603888c4017e11edc335bf77bf25f5d6e2e9c7b0fa73559e",
     "notice": "AI 辅助归纳，需回到公开证据核验",
     "researchSummaryZh": "研究主线为数据驱动的优化方法在能源与交通系统中的应用，涵盖电动汽车充电行为建模、充电站规划、电网与交通网络协同优化等。",
     "methods": [
@@ -35,9 +35,14 @@
       "networked and distributed systems",
       "markets and strategic decision-making"
     ],
-    "careerPatternZh": "公开信息显示，Jiaman Wu 于 2025 年获得博士学位，同年起任香港城市大学数据科学系助理教授。",
+    "careerPatternZh": "公开记录显示其现任香港城市大学数据科学学院助理教授（2025年起），标注为2025年博士；公开时间线仅包含香港城市大学的任职信息，未见其他教育或博后经历记录。",
     "caveatsZh": [
-      "论文计数与招聘状态需以原始来源为准。"
+      "成果计数基于ORCID公开记录与Crossref中明确携带同一ORCID的DOI元数据合并去重，通常为论文量下界。",
+      "Crossref关联成果仅2条，合并记录19条，来源覆盖不完整。",
+      "citedByCount与hIndex缺失，无法评估引用影响。",
+      "topVenueCountsLowerBound为空，仅按已核验代表作中可识别的核心venue统计，为保守下限。",
+      "招聘信号仅来自个人主页的official_opening页面，未提供具体岗位、名额或截止日期等细节。",
+      "时间线中部分任职条目缺少部门与起止年份，教育背景与博后经历未见公开记录。"
     ]
   },
   "fr-ens-lyon-elisa-riccietti": {
@@ -80,18 +85,20 @@
   },
   "fr-inria-adrien-taylor": {
     "status": "deepseek",
-    "generatedAt": "2026-07-13T04:38:49.952Z",
-    "profileFingerprint": "56d1fa67271a827c707e9d988237eefa8521b4b00494a1ad3a5bbdcb03be66b8",
+    "generatedAt": "2026-10-12T07:17:04.934Z",
+    "profileFingerprint": "5620671f93199dc7a60baaa53d462de58a1c9aa0d46a9b22045d94ea8ec67647",
     "notice": "AI 辅助归纳，需回到公开证据核验",
-    "researchSummaryZh": "Tucker Prize finalist、ERC Starting Grant 2024、PEPit核心作者，青年优化学者上限样本。",
+    "researchSummaryZh": "围绕一阶优化方法的精确最坏情形分析与性能估计展开研究，结合半正定性能估计、自动化证明，并延伸至随机与分布式优化；在 2024-2029 年 ERC CASPER 项目中推进可复现、计算机辅助的优化理论。",
     "methods": [
       "first-order methods",
       "distributed and federated optimization",
       "numerical analysis and scientific computing",
-      "mathematical optimization"
+      "mathematical optimization",
+      "performance estimation",
+      "computer-assisted proofs"
     ],
     "applications": [],
-    "careerPatternZh": "当前职位为Inria Paris / ENS的Tenured Research Scientist / ERC PI。",
+    "careerPatternZh": "公开记录显示其现任 Inria Paris / ENS 终身研究科学家（Tenured Research Scientist）并担任 ERC PI；博士阶段围绕一阶优化方法的精确最坏情形分析和性能估计展开，此后将半正定性能估计、自动化证明与随机、分布式优化相结合。公开时间线仅列出当前职位，未提供更早的教育、博后或任职变化细节。",
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
     ]
@@ -1442,8 +1449,8 @@
   },
   "fr-ens-peyre-ot": {
     "status": "deepseek",
-    "generatedAt": "2026-10-05T06:55:39.610Z",
-    "profileFingerprint": "249eb062bd4fbc9f49aee5e9a65ce638ee2a5109931230cdee7120f6a53da13a",
+    "generatedAt": "2026-10-12T07:17:04.934Z",
+    "profileFingerprint": "e401ac07b7179c44c5e9849b3d8586986cbad457f4cc0f837f14d2672a4618e8",
     "notice": "AI 辅助归纳，需回到公开证据核验",
     "researchSummaryZh": "公开记录显示，Gabriel Peyré 的研究主线围绕计算最优传输及其在机器学习、成像与反问题中的应用，同时涉及非光滑与变分分析、数学优化。近期公开成果还集中出现在单细胞多组学整合、空间转录组与细胞命运轨迹推断等方向，体现最优传输方法向计算生物学应用的延伸。",
     "methods": [
@@ -1459,13 +1466,13 @@
       "single-cell multi-omics integration",
       "spatial transcriptomics and cell fate inference"
     ],
-    "careerPatternZh": "公开时间线仅显示其自2006年起在 CNRS 的 DMA, Ecole Normale Supérieure 担任 Senior Researcher，当前身份为 CNRS Research Director / normalesup.ai scientific director；输入未提供更早的教育、博士后或其它任职变化记录。",
+    "careerPatternZh": "公开时间线仅显示其自2006年起在 CNRS 的 DMA, Ecole Normale Supérieure 担任 Senior Researcher，当前职位为 CNRS Research Director / normalesup.ai scientific director；输入未提供更早的教育、博后或其他任职变化记录。",
     "caveatsZh": [
-      "公开成果计数来自 ORCID 记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并，去重后通常仍为论文量下界。",
-      "hIndex、citedByCount 等引用指标在输入中缺失，无法据此评估影响力。",
-      "招聘信号仅表明存在 ERC Advanced 与新建 normalesup.ai 平台等经费或平台扩张信号，未出现明确博后岗位。",
-      "时间线仅含一条 CNRS 任职记录，缺少教育、博士后及此前任职信息。",
-      "代表性成果中部分为预印本，且 venue 信息不完整。"
+      "成果计数基于 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常仍为论文量下界。",
+      "hIndex、citedByCount 等引用指标缺失，无法据此评估影响力。",
+      "代表性成果多为预印本或期刊论文，venue 统计仅为已核验代表作中可识别核心 venue 的保守下限。",
+      "招聘信号仅表明存在 ERC Advanced 与新建 normalesup.ai 平台等资助/扩展信号，并无明确博后岗位信息。",
+      "时间线仅含一条当前职位记录，缺少教育、博后及任职变化的完整公开履历。"
     ]
   },
   "fr-dauphine-chambolle-variational": {
@@ -1512,6 +1519,81 @@
       "applications 字段在输入中标注为 not_publicly_specified，故为空。",
       "招聘信号方面，输入仅记录未找到当前公开博后信息，未提供其他招聘证据。",
       "近期主题的 worksCount 与 shareOfWorks 基于输入给定的统计口径，未提供引用数。"
+    ]
+  },
+  "person-napat-rujeerapaiboon": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-12T07:17:04.934Z",
+    "profileFingerprint": "ebb69eaf3fc88055792eceddcdf0292a294e57b7641f8712b1cb30aa02d974cf",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "NUS 工业系统工程与管理系助理教授，研究主线为分布鲁棒优化、鲁棒优化与数据驱动优化，并延伸至风险分析与运筹决策。",
+    "methods": [
+      "distributionally robust optimization",
+      "robust optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "finance and risk analytics",
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "公开时间线显示：2018 年在 EPFL 获博士学位，导师为 Daniel Kuhn；现任新加坡国立大学工业系统工程与管理系助理教授。",
+    "caveatsZh": [
+      "成果计数来自 ORCID 公开记录与 Crossref 中携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界。",
+      "citedByCount 与 hIndex 缺失，无法据此评估影响力。",
+      "近期主题趋势基于少量成果计数，年度分布稀疏，趋势判断受限。",
+      "招聘信号为 no_public_signal，仅表明历史上公开招过相关方向研究员，当前是否有新职位需人工复核。"
+    ]
+  },
+  "ch-epfl-mlo-jaggi": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-12T07:17:04.934Z",
+    "profileFingerprint": "ec2bd1470991c0b5a7fd75caa7962f548686c0b9b8847da437bd487a00f20f4d",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开信息显示，Martin Jaggi 的研究主线集中在机器学习优化，包括分布式优化、联邦学习、Frank-Wolfe 方法、深度学习优化与 ML 系统；近期成果还涉及大语言模型预训练、数据选择与开放合规 LLM 等方向。",
+    "methods": [
+      "distributed and federated optimization",
+      "mathematical optimization",
+      "Frank-Wolfe methods",
+      "deep-learning optimization",
+      "ML systems"
+    ],
+    "applications": [
+      "networked and distributed systems",
+      "large language model pretraining",
+      "collaborative learning"
+    ],
+    "careerPatternZh": "公开时间线仅显示其自 2016 年起在 EPFL 计算机与通信科学学院任 Associate Professor，并担任 MLO head；未提供更早的教育、博后或其他任职变化信息。",
+    "caveatsZh": [
+      "公开记录未提供完整教育经历、博后经历及 2016 年前的任职变化。",
+      "publicationMetrics 为 ORCID 与 Crossref 合并去重后的记录，通常仍是论文量下界；citedByCount 与 hIndex 缺失。",
+      "recentEvolution 中各主题的 worksCount、shareOfWorks 与年度分布来自公开记录聚合，部分主题样本量很小。",
+      "recruitmentSignals 仅显示官方 Open Positions 页当前列出 PostDoc Positions，未提供名额、截止日期或录用条件。",
+      "representativeWorks 仅按 recent 规则选取，不代表完整代表作或全部发表。"
+    ]
+  },
+  "at-tu-graz-vlo-pock": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-12T07:17:04.934Z",
+    "profileFingerprint": "2fca59c1181c7649b74ea35810e6924aba43aa255efcb3f40217aca982c48566",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "Thomas Pock 的研究主线集中在变分成像、非光滑优化与双层优化，并将这些方法应用于计算机视觉与机器学习。其公开成果涉及 Chambolle-Pock 算法、变分方法与逆问题、机器学习优化，以及医学图像重建等方向。",
+    "methods": [
+      "nonsmooth and variational analysis",
+      "bilevel optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "signal processing, imaging, and inverse problems"
+    ],
+    "careerPatternZh": "公开教育记录显示其于1998至2004年在 Technische Universität Graz 完成 MSc，2005至2008年在同校完成 PhD。自2014年起任 Technische Universität Graz 计算机图形与视觉研究所 Univ.-Prof.，当前同时担任 IVC head 与 VLO lead。",
+    "caveatsZh": [
+      "公开成果计数基于 ORCID 与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界，不代表完整发表记录。",
+      "citedByCount 与 hIndex 在输入中为 null，无法据此评估引用影响力。",
+      "topVenueCountsLowerBound 为空，仅代表已核验代表作中可识别核心 venue 的保守下限。",
+      "招聘信号显示未发现当前公开岗位，不能据此推断是否存在未公开招聘。",
+      "近期研究主题的 worksCount 与 shareOfWorks 仅基于有限公开记录，趋势标签为输入中已有归纳。"
     ]
   }
 }
