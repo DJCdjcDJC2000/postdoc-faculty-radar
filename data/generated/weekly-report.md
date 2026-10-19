@@ -1,9 +1,9 @@
-# 职业雷达周报 · 2026-10-12
+# 职业雷达周报 · 2026-10-19
 
-- 本周新增：0
+- 本周新增：1
 - 本周更新：0
-- 本周失效：9
-- A/B 高匹配：3
+- 本周失效：1
+- A/B 高匹配：4
 - 30 天内截止：2
 - 学术候选池：132
 - 完整公开档案：126
@@ -11,15 +11,8 @@
 
 ## 本周变化
 
-- **已失效/已截止** [博士后-大数据分析、智能决策与供应链运筹优化 33万/年 博士研究生 若干人 深圳大学经济学院 深圳](https://www.gaoxiaojob.com/job/detail/2351658.html) · 高校人才网 · Mainland China · B 65
-- **已失效/已截止** [Postdoctoral Research Associate in Mathematical and Statistical Methods for Genome Privacy (Fixed Term)](https://www.jobs.ac.uk/job/DTE231/postdoctoral-research-associate-in-mathematical-and-statistical-methods-for-genome-privacy-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 53
-- **已失效/已截止** [博士后-供应链ESG与低碳智慧物流体系 33万/年 博士研究生 若干人 深圳大学经济学院 深圳](https://www.gaoxiaojob.com/job/detail/2351661.html) · 高校人才网 · Mainland China · C 50
-- **已失效/已截止** [博士后-低空物流专家智能体与垂域AI模型 33万/年 博士研究生 若干人 深圳大学经济学院 深圳](https://www.gaoxiaojob.com/job/detail/2351660.html) · 高校人才网 · Mainland China · C 46
-- **已失效/已截止** [博士后-数字经济理论与供应链平台生态治理 33万/年 博士研究生 若干人 深圳大学经济学院 深圳](https://www.gaoxiaojob.com/job/detail/2351662.html) · 高校人才网 · Mainland China · C 45
-- **已失效/已截止** [博士后-跨境多式联运与全球供应链韧性 33万/年 博士研究生 若干人 深圳大学经济学院 深圳](https://www.gaoxiaojob.com/job/detail/2351659.html) · 高校人才网 · Mainland China · C 45
-- **已失效/已截止** [Researcher in Structural Mechanics and Numerical Simulation – KIwin Project](https://euraxess.ec.europa.eu/jobs/471379) · EURAXESS Jobs · Europe · B 60
-- **已失效/已截止** [Post Doctoral Research Associate in Mathematical Relativity (Fixed Term)](https://www.jobs.ac.uk/job/DTC600/post-doctoral-research-associate-in-mathematical-relativity-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 49
-- **已失效/已截止** [Postdoctoral Research Associate in Applied Mathematics and Computational Neuroscience](https://www.jobs.ac.uk/job/DTC674/postdoctoral-research-associate-in-applied-mathematics-and-computational-neuroscience) · jobs.ac.uk Mathematics · United Kingdom · C 41
+- **本周新增** [Postdoc (3 years) on simulation of composite hydrogen tanks (Belgium)](https://euraxess.ec.europa.eu/jobs/473778) · EURAXESS Jobs · Europe · B 68
+- **已失效/已截止** [Accelerated Knowledge Transfer (AKT) Associate in Reinforcement Learning](https://www.jobs.ac.uk/job/DTG314/accelerated-knowledge-transfer-akt-associate-in-reinforcement-learning) · jobs.ac.uk Mathematics · United Kingdom · C 53
 
 ## 学术人物建设
 
@@ -42,7 +35,7 @@
 
 ## 数据源状态
 
-- 正常或有结果：2/20
+- 正常或有结果：3/20
 - 抓取失败：Academic Positions · HTTP 403
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed
