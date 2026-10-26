@@ -3345,5 +3345,33 @@
     "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
     "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
     "depth": "basic"
+  },
+  "68112f9ae26bba7f": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-26T06:00:37.404Z",
+    "jobFingerprint": "C|50|United Kingdom · Research Fellow · applied mathematics|core|applied mathematics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "南安普顿大学应用数学与理论物理方向招聘 Research Fellow，年薪 £37,369–£45,641，发布于 jobs.ac.uk，未提供截止日期与岗位细节。",
+    "tagsZh": [
+      "英国",
+      "南安普顿大学",
+      "研究型岗位",
+      "应用数学",
+      "理论物理",
+      "高校科研"
+    ],
+    "positiveZh": [
+      "依托英国高校 jobs.ac.uk 官方渠道发布，来源相对可靠",
+      "薪资区间明确（£37,369–£45,641）",
+      "方向与应用数学关键词匹配，学科相关性较高"
+    ],
+    "negativeZh": [
+      "岗位描述极简，未说明研究方向、职责、团队与合同期限",
+      "未提供申请截止日期",
+      "未列出申请资格、博士要求或资助来源"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "basic"
   }
 }

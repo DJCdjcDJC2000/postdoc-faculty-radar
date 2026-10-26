@@ -1,18 +1,18 @@
-# 职业雷达周报 · 2026-10-19
+# 职业雷达周报 · 2026-10-26
 
 - 本周新增：1
 - 本周更新：0
 - 本周失效：1
-- A/B 高匹配：4
-- 30 天内截止：2
+- A/B 高匹配：3
+- 30 天内截止：1
 - 学术候选池：132
-- 完整公开档案：126
+- 完整公开档案：125
 - 导师组 / 青年学者：52 / 84
 
 ## 本周变化
 
-- **本周新增** [Postdoc (3 years) on simulation of composite hydrogen tanks (Belgium)](https://euraxess.ec.europa.eu/jobs/473778) · EURAXESS Jobs · Europe · B 68
-- **已失效/已截止** [Accelerated Knowledge Transfer (AKT) Associate in Reinforcement Learning](https://www.jobs.ac.uk/job/DTG314/accelerated-knowledge-transfer-akt-associate-in-reinforcement-learning) · jobs.ac.uk Mathematics · United Kingdom · C 53
+- **本周新增** [Research Fellow](https://www.jobs.ac.uk/job/DTJ821/research-fellow) · jobs.ac.uk Mathematics · United Kingdom · C 50
+- **已失效/已截止** [Postdoc (3 years) on simulation of composite hydrogen tanks (Belgium)](https://euraxess.ec.europa.eu/jobs/473778) · EURAXESS Jobs · Europe · B 68
 
 ## 学术人物建设
 
@@ -35,7 +35,8 @@
 
 ## 数据源状态
 
-- 正常或有结果：3/20
+- 正常或有结果：4/20
+- 抓取失败：EURAXESS Jobs · HTTP 403
 - 抓取失败：Academic Positions · HTTP 403
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed

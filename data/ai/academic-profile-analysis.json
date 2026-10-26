@@ -1740,5 +1740,164 @@
       "招聘信号为未发现当前明确博后页面，不能据此推断是否存在招聘计划。",
       "公开摘要中的奖项与ERC信息来自输入摘要，未在结构化字段中逐项核验。"
     ]
+  },
+  "fr-inria-sierra-bach": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-26T06:00:41.017Z",
+    "profileFingerprint": "c1c546f6048228b7a91df4cbf3a6e2c326ccb48395aed26a1f67f1c144c35419",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "研究主线集中在机器学习中的优化与统计学习，涵盖凸优化、随机优化、稀疏方法与核方法；公开材料还列出变分方法、成像与逆问题方向，并包含采样与生成建模、大模型训练学习率调度、核方法与全局优化、科学机器学习等近期代表作。",
+    "methods": [
+      "convex optimization",
+      "stochastic optimization",
+      "statistical learning",
+      "sparse methods",
+      "kernel methods",
+      "stochastic optimization and uncertainty methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "sampling and generative modeling",
+      "large model training optimization",
+      "physics-informed kernel learning",
+      "imaging and inverse problems"
+    ],
+    "careerPatternZh": "公开教育记录显示曾在École Polytechnique学习数学、在University of California Berkeley计算机科学方向攻读博士；当前任职于Inria Centre de Recherche de Paris，身份为Inria Research Director / SIERRA lead，并与Inria Paris / ENS-PSL / CNRS关联。",
+    "caveatsZh": [
+      "公开成果计数为ORCID与Crossref按同一ORCID合并去重后的记录，仅2条，通常只是论文量下界，不代表完整发表履历。",
+      "hIndex与citedByCount为空，缺少引用计量证据。",
+      "topVenueCountsLowerBound仅基于已核验代表作中可识别的venue统计，是保守下限。",
+      "timeline中博士与任职均无起止年份，无法判断时间跨度与任职变化细节。",
+      "grantsAwards为空数组，虽研究摘要提及Lagrange Prize与两项ERC，但结构化字段未列出具体奖项记录。",
+      "recruitmentSignals中唯一记录为已截止并撤下的岗位页面，不构成当前招聘证据。"
+    ]
+  },
+  "uk-edinburgh-gondzio-optimization": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-26T06:00:41.017Z",
+    "profileFingerprint": "7e000518aab766644fe52abb4f50c23504a77aa8766aa6920e125cb95e8dda9c",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "该公开记录显示，Jacek Gondzio 的研究主线为大规模优化，尤其围绕内点法、稀疏线性代数与并行优化展开，并涉及凸优化。近期公开成果主题包括算法与复杂度、变分方法与成像及反问题、数值分析与科学计算、控制能源与网络系统等方向。",
+    "methods": [
+      "interior-point methods",
+      "large-scale optimization",
+      "sparse linear algebra",
+      "parallel optimization",
+      "convex optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "linear programming",
+      "discrete optimal transport",
+      "kidney exchange programs",
+      "portfolio diversification",
+      "truss structure layout optimization"
+    ],
+    "careerPatternZh": "公开时间线仅显示其在 University of Edinburgh 担任 Professor of Optimization 的当前任职；未提供可核验的完整教育经历、博士后经历或此前任职变化记录。",
+    "caveatsZh": [
+      "成果计数来自 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界。",
+      "h-index、被引总数等指标未提供，无法据此评估影响力。",
+      "近期主题计数基于有限记录，部分年份工作量为零，不能推断研究活动停止。",
+      "代表性 venue 统计仅为已核验代表作中可识别核心 venue 的保守下限。",
+      "招聘信号仅表明有延续至2027年的活跃项目，未发现公开博后岗位，不能据此推断招聘计划。",
+      "公开时间线缺少教育、博士后及历次任职信息，职业路径不完整。"
+    ]
+  },
+  "be-ku-leuven-patrinos-lab": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-26T06:00:41.017Z",
+    "profileFingerprint": "309785c7580b0e6475f114bb1efef38927679404ccabc0f746d4be6701eb4dae",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料显示其研究主线为结构化、非凸、随机与分布式优化，以及预测控制；个人页将其描述为一阶与二阶优化、前向后向包络和嵌入式优化方向的研究者。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "distributed and federated optimization",
+      "optimal-control methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "control and dynamical systems"
+    ],
+    "careerPatternZh": "公开时间线仅显示：2015年起在KU Leuven电气工程系任Professor，当前为Associate Professor / active PI；未提供更早的教育、博后或其他任职变化记录。",
+    "caveatsZh": [
+      "成果计数来自ORCID与Crossref中明确携带同一ORCID的DOI元数据合并去重，属于论文量下界，非完整履历。",
+      "h-index与citedByCount缺失，无法据此评估影响力。",
+      "topVenueCountsLowerBound仅统计已核验代表作中可识别的核心venue，为保守下限。",
+      "招聘信号仅来自官方个人页的currently looking表述，未给出岗位细节、人数以外的条件或截止时间。",
+      "时间线仅含一条当前职位记录，教育背景与博后经历未见公开信息。"
+    ]
+  },
+  "person-xiaojun-chen": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-26T06:00:41.017Z",
+    "profileFingerprint": "79c594b4f093aa412daafd6b73d7cb8b77c23aa40bb82e0c4e6eb28901749da0",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "长期围绕随机均衡、互补问题、非光滑方程与优化建立理论、算法和应用体系，并持续拓展到动态随机变分不等式与分布鲁棒模型。",
+    "methods": [
+      "semismooth Newton methods",
+      "sample average approximation",
+      "regularization and smoothing",
+      "projection methods",
+      "distributionally robust optimization"
+    ],
+    "applications": [
+      "stochastic equilibrium",
+      "two-stage decision systems",
+      "dynamic complementarity systems"
+    ],
+    "careerPatternZh": "公开记录显示其博士阶段在西安交通大学数学系（1984-1987）；现任香港理工大学应用数学系 Chair Professor / Professor，任职起始年份未在输入中给出。",
+    "caveatsZh": [
+      "成果计数基于 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界。",
+      "h-index、被引次数等指标在输入中缺失，未作推断。",
+      "招聘信号仅为官方主页列有 2025-2028 与 2026-2029 在研基金，属可能扩组信号，不等于公开招聘；未发现明确的当前博后岗位、名额或截止日期。",
+      "top venue 计数仅按已核验代表作中可识别的核心 venue 统计，为保守下限，不等同于完整履历总数。"
+    ]
+  },
+  "cuhk-seem-huifu-xu": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-26T06:00:41.017Z",
+    "profileFingerprint": "e08d4ce2515423cc0118c7ce6ea814be5891c7a64b8b1530dbc02a31b3f08bf8",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将研究方向概括为随机规划、鲁棒优化、风险分析、数据驱动优化以及金融中的优化；近期代表作涉及偏好鲁棒优化、扭曲风险度量、贝叶斯纳什均衡与随机广义方程的统计稳健性等主题。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "robust optimization",
+      "mathematical optimization",
+      "preference robust optimization",
+      "sample average approximation and statistical robustness"
+    ],
+    "applications": [
+      "finance and risk analytics",
+      "risk measures and optimal decision making",
+      "price competition equilibrium modeling"
+    ],
+    "careerPatternZh": "公开时间线显示其自2019年起任香港中文大学系统工程与工程管理系教授；输入未提供更早的教育、博士后或其他任职变化记录。",
+    "caveatsZh": [
+      "成果计数来自ORCID公开记录与Crossref中明确携带同一ORCID的DOI元数据合并去重，通常为论文量下界。",
+      "citedByCount与hIndex均为空，无法据此判断引用影响力。",
+      "顶级venue计数仅基于已核验代表作中可识别的核心venue，是保守下限，不等同于完整履历总数。",
+      "近期主题年度计数存在2026年数据，可能受收录时点影响。",
+      "招聘信号为no_public_signal，未见公开常驻openings，不能据此推断招聘可能性。",
+      "输入未提供完整教育背景、博士后经历及全部任职变动。"
+    ]
+  },
+  "epfl-lions-volkan-cevher": {
+    "status": "deepseek",
+    "generatedAt": "2026-10-26T06:00:41.017Z",
+    "profileFingerprint": "44e54d6af73854c57615e5d37daccfbd594aa3ca7caf72db37ca650765a18a89",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将 Volkan Cevher 的研究主线概括为凸优化、非凸优化、统计学习、信号处理与大规模优化；其近期公开成果主题集中在机器学习优化、算法与复杂度、控制/能源/网络系统、变分方法与成像/反问题等方向。",
+    "methods": [
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "signal processing, imaging, and inverse problems"
+    ],
+    "careerPatternZh": "公开教育记录显示：1995-1999 年在 Bilkent University 电子工程与电子学方向获 B.Sc，1999-2005 年在 Georgia Institute of Technology 电子与计算机工程方向获 PhD；2005-2007 年在 University of Maryland, Baltimore 任博士后（导师 Rama Chellappa），2008-2009 年在 Rice University 任研究科学家（导师 Richard G. Baraniuk）；2010-2012 年在 Idiap Research Institute 任助理教授，2010-2016 年在 EPFL 任助理教授并任 LIONS 主任，2016 年起在 EPFL 任主任/副教授，公开记录另列有 2009-2026 年 EPFL 任职及 2025-2026 年教育相关职务。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
   }
 }
