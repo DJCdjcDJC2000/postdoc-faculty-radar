@@ -1,32 +1,30 @@
-# 职业雷达月报 · 2026-10-01
+# 职业雷达月报 · 2026-11-01
 
 ## 核心变化
 
-- 当前机会：9（+2）
-- A/B 高匹配机会：3（0）
+- 当前机会：14（+5）
+- A/B 高匹配机会：4（+1）
 - 学术人物档案：132（0）
-- 完整公开档案：129（-3）
-- 官方招聘信号：16（0）
+- 完整公开档案：125（-4）
+- 官方招聘信号：14（-2）
 - 活跃产业岗位：14（0）
 
-对比基线：2026-08-01
+对比基线：2026-10-01
 
 ## 学术人物群体
 
-- 导师课题组：52
+- 导师课题组：48
 - 青年学者：77
 - 长期接受申请：7
 - Fellowship host：4
-- 高频方法：mathematical optimization 101；stochastic optimization and uncertainty methods 40；nonsmooth and variational analysis 20；numerical analysis and scientific computing 20；discrete and mixed-integer optimization 17；optimal-control methods 16；distributed and federated optimization 15；numerical linear algebra 14
-- 高频应用：machine learning and data science 36；physical simulation and scientific computing 22；control and dynamical systems 20；decision-making and operations 20；signal processing, imaging, and inverse problems 12；markets and strategic decision-making 9；networked and distributed systems 9；logistics, transportation, and operations 6
+- 高频方法：mathematical optimization 96；stochastic optimization and uncertainty methods 40；nonsmooth and variational analysis 19；numerical analysis and scientific computing 19；discrete and mixed-integer optimization 17；optimal-control methods 15；distributed and federated optimization 14；numerical linear algebra 14
+- 高频应用：machine learning and data science 34；physical simulation and scientific computing 22；control and dynamical systems 20；decision-making and operations 19；signal processing, imaging, and inverse problems 10；markets and strategic decision-making 9；networked and distributed systems 8；logistics, transportation, and operations 6
 
 ## 有公开招聘证据的人物
 
 - [何鸟 / Niao He](https://postdoc-faculty-radar-public.vercel.app/#people/person-niao-he) · ETH Zurich
 - [杜锦泉 / Kim-Chuan Toh](https://postdoc-faculty-radar-public.vercel.app/#people/nus-math-kim-chuan-toh) · National University of Singapore
-- [Volkan Cevher](https://postdoc-faculty-radar-public.vercel.app/#people/epfl-lions-volkan-cevher) · EPFL
 - [Panagiotis Patrinos](https://postdoc-faculty-radar-public.vercel.app/#people/be-ku-leuven-patrinos-lab) · KU Leuven
-- [Martin Jaggi](https://postdoc-faculty-radar-public.vercel.app/#people/ch-epfl-mlo-jaggi) · EPFL
 - [Defeng Sun](https://postdoc-faculty-radar-public.vercel.app/#people/polyu-defeng-sun) · Hong Kong Polytechnic University
 - [Zaiwen Wen](https://postdoc-faculty-radar-public.vercel.app/#people/pku-zaiwen-wen) · Peking University
 - [刘洋 / Liu Yang](https://postdoc-faculty-radar-public.vercel.app/#people/liu-yang-nus) · National University of Singapore
@@ -37,6 +35,8 @@
 - [Massimiliano Fasi](https://postdoc-faculty-radar-public.vercel.app/#people/uk-leeds-massimiliano-fasi) · University of Leeds
 - [Elisa Riccietti](https://postdoc-faculty-radar-public.vercel.app/#people/fr-ens-lyon-elisa-riccietti) · École Normale Supérieure de Lyon / Inria OCKHAM
 - [Raphaël Berthier](https://postdoc-faculty-radar-public.vercel.app/#people/fr-inria-sorbonne-raphael-berthier) · Inria Sorbonne Université
+- [Man-Chung Yue](https://postdoc-faculty-radar-public.vercel.app/#people/polyu-man-chung-yue) · Hong Kong Polytechnic University
+- [Jiaman Wu](https://postdoc-faculty-radar-public.vercel.app/#people/cityu-jiaman-wu) · City University of Hong Kong
 
 ## 产业观察
 
@@ -55,10 +55,9 @@
 
 ## 数据源健康
 
-- 正常来源：3/20
+- 正常来源：5/20
 - 待恢复：Academic Positions · HTTP 403
 - 待恢复：CUHK Mathematics Career Opportunities · fetch failed
-- 待恢复：中国博士后 · HTTP 500
 - 待恢复：Huawei Noah's Ark Lab · fetch failed
 
 > 本报告由公开来源自动汇总。岗位、论文、基金和人员状态应回到原始链接复核；软信号不等于公开招聘。
