@@ -23,7 +23,7 @@
     "trust": "lead",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-11-01T07:29:24.068Z",
+    "createdAt": "2026-11-02T07:36:02.970Z",
     "id": "c4f0adb87a8dfd89",
     "matchScore": 100,
     "priority": "A",
@@ -44,11 +44,11 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "线索待核验",
     "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -97,7 +97,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-11-01T07:29:24.068Z",
+    "createdAt": "2026-11-02T07:36:02.970Z",
     "id": "1411a9a5c5c5768d",
     "matchScore": 74,
     "priority": "B",
@@ -110,11 +110,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -314,7 +314,7 @@
     ],
     "deadline": "2026-11-16",
     "fieldRelevantSource": false,
-    "status": "active",
+    "status": "expired",
     "trust": "academic_board",
     "fetchedAt": "2026-11-01T07:29:24.068Z",
     "id": "3a1fd6bda77450fb",
@@ -329,31 +329,45 @@
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Europe · 博后 · simulation",
     "updatedAt": "2026-11-01T07:29:24.068Z",
-    "lifecycleStatus": "active",
-    "lifecycleLabelZh": "当前有效",
+    "lifecycleStatus": "expired",
+    "lifecycleLabelZh": "已失效/已截止",
     "firstSeenAt": "2026-10-31T06:57:14.927Z",
     "lastSeenAt": "2026-11-01T07:29:24.068Z",
-    "lastChangedAt": "2026-10-31T06:57:14.927Z",
-    "changeType": "new",
-    "archivedAt": null,
+    "lastChangedAt": "2026-11-02T07:36:02.970Z",
+    "changeType": "expired",
+    "archivedAt": "2026-11-02T07:36:02.970Z",
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-02T07:36:25.608Z",
+      "jobFingerprint": "B|70|Europe · 博后 · simulation|core|simulation",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "Europe · 博后 · simulation",
+      "summaryZh": "该岗位为瑞典乌普萨拉大学（经EURAXESS Jobs发布）的博士后职位，研究方向为人口规模多层社会网络中传播过程的计算建模与仿真，属于计算社会科学/网络科学交叉领域，截止日期为2026年11月16日。",
       "tagsZh": [
-        "simulation"
+        "博士后",
+        "计算建模",
+        "仿真",
+        "多层网络",
+        "社会网络",
+        "传播过程"
       ],
       "positiveZh": [
-        "Europe · 博后 · simulation"
+        "研究方向明确，聚焦多层社会网络传播过程的计算建模与仿真，方法学定位清晰",
+        "依托乌普萨拉大学，国际化学术环境，岗位描述强调有能力的友好同事支持",
+        "属于当前计算社会科学与网络科学的热点交叉方向，方法可迁移性较强"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位信息较简略，未提供院系、导师、薪资、合同期限等关键细节",
+        "未明确列出申请者所需的编程语言、学科背景或发表要求",
+        "仅匹配到simulation一个关键词，与个人研究方向的契合度需进一步核实"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
+      "depth": "basic"
     },
     "freshness": {
-      "type": "new",
-      "labelZh": "本周新增",
+      "type": "expired",
+      "labelZh": "已失效/已截止",
       "highlighted": true
     }
   },
@@ -607,7 +621,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-11-01T07:29:24.068Z",
+    "createdAt": "2026-11-02T07:36:02.970Z",
     "id": "576a05e8b695f331",
     "matchScore": 64,
     "priority": "B",
@@ -617,11 +631,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Fellowship",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -669,7 +683,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-11-01T07:29:24.068Z",
+    "createdAt": "2026-11-02T07:36:02.970Z",
     "id": "bbac44b5da0bc36a",
     "matchScore": 64,
     "priority": "B",
@@ -679,11 +693,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Singapore · Fellowship",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -952,7 +966,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-11-01T07:29:24.068Z",
+    "createdAt": "2026-11-02T07:36:02.970Z",
     "id": "e1e5047f5f87635e",
     "matchScore": 59,
     "priority": "C",
@@ -962,11 +976,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -1384,7 +1398,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "academic_board",
-    "fetchedAt": "2026-11-01T07:29:24.068Z",
+    "fetchedAt": "2026-11-02T07:36:02.970Z",
     "id": "2438728351694a1a",
     "matchScore": 53,
     "priority": "C",
@@ -1396,28 +1410,42 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后 · applied mathematics",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-11-01T07:29:24.068Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
     "lastChangedAt": "2026-11-01T07:29:24.068Z",
     "changeType": "new",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-02T07:36:25.608Z",
+      "jobFingerprint": "C|53|United Kingdom · 博后 · applied mathematics|core|applied mathematics",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "United Kingdom · 博后 · applied mathematics",
+      "summaryZh": "伯明翰大学数学学院发布应用数学方向博士学生职位（PhD Studentships），面向配方产品（Formulated Products）相关研究，工作地点为英国伯明翰，薪资未说明，发布日期为10月30日，未提供截止日期。",
       "tagsZh": [
-        "applied mathematics"
+        "应用数学",
+        "博士学生职位",
+        "配方产品",
+        "英国",
+        "伯明翰大学",
+        "数学学院"
       ],
       "positiveZh": [
-        "United Kingdom · 博后 · applied mathematics"
+        "依托伯明翰大学数学学院，机构与学科背景清晰",
+        "研究方向聚焦应用数学与配方产品交叉，具有一定产业关联性",
+        "岗位信息通过 jobs.ac.uk 数学频道公开发布，来源可追溯"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位描述信息非常有限，未说明资助额度、学制、入学时间与申请要求",
+        "未提供截止日期，时间安排不明确",
+        "标题为博士学生职位，与 roleType 标注的 postdoc 存在不一致，需核实岗位性质"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "new",
@@ -1445,7 +1473,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "academic_board",
-    "fetchedAt": "2026-11-01T07:29:24.068Z",
+    "fetchedAt": "2026-11-02T07:36:02.970Z",
     "id": "45bd359f8cc28e6d",
     "matchScore": 53,
     "priority": "C",
@@ -1457,28 +1485,42 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 博后 · applied mathematics",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-11-01T07:29:24.068Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
     "lastChangedAt": "2026-11-01T07:29:24.068Z",
     "changeType": "new",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-02T07:36:25.608Z",
+      "jobFingerprint": "C|53|United Kingdom · 博后 · applied mathematics|core|applied mathematics",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "United Kingdom · 博后 · applied mathematics",
+      "summaryZh": "剑桥大学应用数学与理论物理系招聘核酸计算与分子编程方向博士后研究助理（固定期限），薪资£38,448–£46,970，发布于jobs.ac.uk数学板块，未提供截止日期与详细职位描述。",
       "tagsZh": [
-        "applied mathematics"
+        "博士后",
+        "核酸计算",
+        "分子编程",
+        "应用数学",
+        "剑桥大学",
+        "英国"
       ],
       "positiveZh": [
-        "United Kingdom · 博后 · applied mathematics"
+        "依托剑桥大学应用数学与理论物理系，学术平台与声誉较高",
+        "研究方向明确聚焦核酸计算与分子编程，交叉学科特色鲜明",
+        "薪资区间公开透明（£38,448–£46,970）"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位信息中未提供截止日期，时间安排不明确",
+        "缺少详细职位描述、职责范围与申请要求",
+        "未说明固定期限的具体时长与续签可能性"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "new",
@@ -1878,7 +1920,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "academic_board",
-    "fetchedAt": "2026-11-01T07:29:24.068Z",
+    "fetchedAt": "2026-11-02T07:36:02.970Z",
     "id": "a6409b475882e03d",
     "matchScore": 50,
     "priority": "C",
@@ -1890,28 +1932,42 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · Research Fellow · simulation",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-10-30T07:03:40.033Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
     "lastChangedAt": "2026-10-31T06:57:14.927Z",
     "changeType": "expired",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-02T07:36:25.608Z",
+      "jobFingerprint": "C|50|United Kingdom · Research Fellow · simulation|core|simulation",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "United Kingdom · Research Fellow · simulation",
+      "summaryZh": "南安普顿大学招聘气候模拟研究方向的研究员（Research Fellow），隶属古海洋学与古气候方向，工作地点为英国南安普顿，薪资为 £45,641，岗位发布于 10 月 29 日，未提供截止日期。",
       "tagsZh": [
-        "simulation"
+        "英国",
+        "南安普顿大学",
+        "研究研究员",
+        "气候模拟",
+        "古海洋学",
+        "古气候"
       ],
       "positiveZh": [
-        "United Kingdom · Research Fellow · simulation"
+        "岗位方向明确，聚焦气候模拟与古气候研究",
+        "薪资信息明确（£45,641）",
+        "依托南安普顿大学，机构与研究方向匹配度较高"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位描述信息较少，未说明具体职责、任职要求与合同期限",
+        "未提供申请截止日期",
+        "未说明院系归属与团队构成"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "brief"
     },
     "freshness": {
       "type": "new",
@@ -2301,9 +2357,9 @@
     ],
     "deadline": "2026-11-01",
     "fieldRelevantSource": true,
-    "status": "active",
+    "status": "expired",
     "trust": "academic_board",
-    "fetchedAt": "2026-11-01T07:29:24.068Z",
+    "fetchedAt": "2026-11-02T07:36:02.970Z",
     "id": "778aac7579f6f75a",
     "matchScore": 49,
     "priority": "C",
@@ -2316,33 +2372,48 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Global · 教职 · applied mathematics / statistics",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
-    "lifecycleStatus": "active",
-    "lifecycleLabelZh": "当前有效",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
+    "lifecycleStatus": "expired",
+    "lifecycleLabelZh": "已失效/已截止",
     "firstSeenAt": "2026-11-01T07:29:24.068Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
-    "lastChangedAt": "2026-11-01T07:29:24.068Z",
-    "changeType": "new",
-    "archivedAt": null,
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
+    "lastChangedAt": "2026-11-02T07:36:02.970Z",
+    "changeType": "expired",
+    "archivedAt": "2026-11-02T07:36:02.970Z",
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-02T07:36:25.608Z",
+      "jobFingerprint": "C|49|Global · 教职 · applied mathematics / statistics|core|applied mathematics|statistics",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "Global · 教职 · applied mathematics / statistics",
+      "summaryZh": "悉尼大学通过 MathJobs.org 发布三个 Lecturer 岗位，分别属于数学、应用数学和统计学方向，截止日期均为 2026 年 11 月 1 日。岗位属于教职（faculty），工作地点在澳大利亚，但给定信息未提供院系、薪资、教学负担、任期类型或申请材料等细节。",
       "tagsZh": [
-        "applied mathematics",
-        "statistics"
+        "数学",
+        "应用数学",
+        "统计学",
+        "讲师",
+        "澳大利亚",
+        "高校教职"
       ],
       "positiveZh": [
-        "Global · 教职 · applied mathematics / statistics"
+        "三个方向同时招聘，方向覆盖数学、应用数学与统计学，选择面较宽",
+        "悉尼大学为知名高校，平台与学术环境具备吸引力",
+        "截止日期明确，便于规划申请时间",
+        "通过 MathJobs.org 集中发布，申请入口清晰"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "给定信息未说明是否为终身教职轨道、合同期限或续聘条件",
+        "未提供薪资范围、教学工作量、科研启动资源等关键条件",
+        "未列出申请材料清单、推荐信要求与遴选流程",
+        "仅给出 Global 地区标签，具体工作地点与院系归属需进一步确认"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
-      "type": "new",
-      "labelZh": "本周新增",
+      "type": "expired",
+      "labelZh": "已失效/已截止",
       "highlighted": true
     }
   },
@@ -2364,9 +2435,9 @@
     ],
     "deadline": "2026-11-01",
     "fieldRelevantSource": true,
-    "status": "active",
+    "status": "expired",
     "trust": "academic_board",
-    "fetchedAt": "2026-11-01T07:29:24.068Z",
+    "fetchedAt": "2026-11-02T07:36:02.970Z",
     "id": "528f0d618a5dba8e",
     "matchScore": 49,
     "priority": "C",
@@ -2379,33 +2450,46 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "Global · 教职 · applied mathematics / statistics",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
-    "lifecycleStatus": "active",
-    "lifecycleLabelZh": "当前有效",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
+    "lifecycleStatus": "expired",
+    "lifecycleLabelZh": "已失效/已截止",
     "firstSeenAt": "2026-11-01T07:29:24.068Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
-    "lastChangedAt": "2026-11-01T07:29:24.068Z",
-    "changeType": "new",
-    "archivedAt": null,
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
+    "lastChangedAt": "2026-11-02T07:36:02.970Z",
+    "changeType": "expired",
+    "archivedAt": "2026-11-02T07:36:02.970Z",
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-02T07:36:25.608Z",
+      "jobFingerprint": "C|49|Global · 教职 · applied mathematics / statistics|core|applied mathematics|statistics",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "Global · 教职 · applied mathematics / statistics",
+      "summaryZh": "悉尼大学通过 MathJobs.org 发布三个讲师（Lecturer）岗位，分别侧重数学、应用数学和统计学，截止日期均为 2026 年 11 月 1 日；岗位信息仅含标题与链接，未提供职责、薪酬或申请要求细节。",
       "tagsZh": [
-        "applied mathematics",
-        "statistics"
+        "数学",
+        "应用数学",
+        "统计学",
+        "讲师",
+        "高校教职",
+        "澳大利亚"
       ],
       "positiveZh": [
-        "Global · 教职 · applied mathematics / statistics"
+        "三方向同时招聘，方向覆盖数学、应用数学与统计学",
+        "来自正规学术招聘平台 MathJobs.org",
+        "截止日期明确，便于规划申请时间"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位描述极简，缺少职责、教学负担、薪酬与资格要求",
+        "未提供院系、合同期限与是否终身轨等信息",
+        "地区标注为 Global，实际地点需以原始链接确认"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
-      "type": "new",
-      "labelZh": "本周新增",
+      "type": "expired",
+      "labelZh": "已失效/已截止",
       "highlighted": true
     }
   },
@@ -2429,7 +2513,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "academic_board",
-    "fetchedAt": "2026-11-01T07:29:24.068Z",
+    "fetchedAt": "2026-11-02T07:36:02.970Z",
     "id": "3b2027cbb9ce68d3",
     "matchScore": 49,
     "priority": "C",
@@ -2442,29 +2526,41 @@
     "roleLabelZh": "教职",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · 教职 · numerical analysis / data science",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-10-30T07:03:40.033Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
     "lastChangedAt": "2026-10-31T06:57:14.927Z",
     "changeType": "expired",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-02T07:36:25.608Z",
+      "jobFingerprint": "C|49|United Kingdom · 教职 · numerical analysis / data science|core|numerical analysis|data science",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "United Kingdom · 教职 · numerical analysis / data science",
+      "summaryZh": "英国巴斯大学数学科学系招聘数值分析与数据科学讲师（Grade 8），薪资£48,337–£57,666，发布于jobs.ac.uk，未提供截止日期与详细职位描述。",
       "tagsZh": [
-        "numerical analysis",
-        "data science"
+        "数值分析",
+        "数据科学",
+        "英国高校",
+        "讲师职位",
+        "数学科学"
       ],
       "positiveZh": [
-        "United Kingdom · 教职 · numerical analysis / data science"
+        "薪资区间明确（£48,337–£57,666）",
+        "岗位方向与数值分析、数据科学关键词匹配",
+        "英国罗素集团高校平台"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "职位描述信息极少，缺少教学、科研与任职要求细节",
+        "未提供申请截止日期",
+        "未说明合同类型与是否终身轨"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "new",
@@ -2947,19 +3043,34 @@
     "archivedAt": "2026-10-30T07:03:40.033Z",
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-02T07:36:25.608Z",
+      "jobFingerprint": "C|47|Global · 大厂研究岗 · simulation / AI|core|simulation|AI",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "Global · 大厂研究岗 · simulation / AI",
+      "summaryZh": "微软研究院招聘高级研究员/工程师，方向为面向生物分子建模与仿真的AI，工作地点包括阿姆斯特丹、柏林、剑桥和伦敦，研究领域为人工智能，目标是规模化解析生物分子功能。",
       "tagsZh": [
-        "simulation",
-        "AI"
+        "AI",
+        "生物分子建模",
+        "分子仿真",
+        "工业研究院",
+        "欧洲多地点",
+        "高级岗位"
       ],
       "positiveZh": [
-        "Global · 大厂研究岗 · simulation / AI"
+        "依托微软研究院平台，研究资源与工程基础设施较强",
+        "方向聚焦AI与生物分子建模/仿真的交叉，属于计算生物学前沿",
+        "岗位为高级研究员/工程师，职级与影响力预期较高",
+        "提供多个欧洲城市可选工作地点"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位描述较短，未说明具体技术栈、团队规模与职责边界",
+        "未明确学历、论文发表或工程经验等硬性要求",
+        "未提供薪资、签证或 relocation 支持信息",
+        "截止日期为2026-10-29，时间窗口与招聘节奏需核实"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "expired",
@@ -3209,7 +3320,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "academic_board",
-    "fetchedAt": "2026-11-01T07:29:24.068Z",
+    "fetchedAt": "2026-11-02T07:36:02.970Z",
     "id": "d56a38552aa36ebb",
     "matchScore": 45,
     "priority": "C",
@@ -3219,26 +3330,42 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "权威平台",
     "simpleReason": "United Kingdom · Research Fellow",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-10-30T07:03:40.033Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
     "lastChangedAt": "2026-10-31T06:57:14.927Z",
     "changeType": "expired",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-02T07:36:25.608Z",
+      "jobFingerprint": "C|45|United Kingdom · Research Fellow|field_source",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "United Kingdom · Research Fellow",
-      "tagsZh": [],
-      "positiveZh": [
-        "United Kingdom · Research Fellow"
+      "summaryZh": "南安普顿大学航空航天工程方向招聘热流体拓扑优化方向研究员（Research fellow），薪资£37,369–£41,885，发布日期10月29日，未提供截止日期。",
+      "tagsZh": [
+        "英国",
+        "南安普顿大学",
+        "研究员",
+        "热流体",
+        "拓扑优化",
+        "航空航天工程"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "positiveZh": [
+        "依托南安普顿大学航空航天工程学科，研究方向明确为热流体拓扑优化",
+        "薪资区间公开透明（£37,369–£41,885）",
+        "岗位为研究序列，适合从事计算流体/优化方向的研究人员"
+      ],
+      "negativeZh": [
+        "岗位信息简略，未提供职位描述、任职要求、合同期限与截止日期",
+        "未说明是否需要博士学位或具体技能要求",
+        "信息来自招聘聚合页面，细节需回到原始链接核验"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "brief"
     },
     "freshness": {
       "type": "new",
@@ -3263,7 +3390,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "official",
-    "fetchedAt": "2026-11-01T07:29:24.068Z",
+    "fetchedAt": "2026-11-02T07:36:02.970Z",
     "id": "8f0378d469afbb63",
     "matchScore": 45,
     "priority": "C",
@@ -3275,14 +3402,14 @@
     "roleLabelZh": "Research Fellow",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Research Fellow",
-    "updatedAt": "2026-11-01T07:29:24.068Z",
+    "updatedAt": "2026-11-02T07:36:02.970Z",
     "stale": false,
     "changeType": null,
     "sourceId": "hkust-math",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-11-01T07:29:24.068Z",
+    "lastSeenAt": "2026-11-02T07:36:02.970Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "ai": {

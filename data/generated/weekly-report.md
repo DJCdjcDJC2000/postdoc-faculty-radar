@@ -1,18 +1,26 @@
-# 职业雷达周报 · 2026-10-26
+# 职业雷达周报 · 2026-11-02
 
-- 本周新增：1
+- 本周新增：5
 - 本周更新：0
-- 本周失效：1
+- 本周失效：5
 - A/B 高匹配：3
-- 30 天内截止：1
+- 30 天内截止：4
 - 学术候选池：132
-- 完整公开档案：125
+- 完整公开档案：124
 - 导师组 / 青年学者：52 / 84
 
 ## 本周变化
 
-- **本周新增** [Research Fellow](https://www.jobs.ac.uk/job/DTJ821/research-fellow) · jobs.ac.uk Mathematics · United Kingdom · C 50
-- **已失效/已截止** [Postdoc (3 years) on simulation of composite hydrogen tanks (Belgium)](https://euraxess.ec.europa.eu/jobs/473778) · EURAXESS Jobs · Europe · B 68
+- **已失效/已截止** [Postdoctoral position in computational modeling and simulation of spreading processes in population-scale multilayer social networks](https://euraxess.ec.europa.eu/jobs/476689) · EURAXESS Jobs · Europe · B 70
+- **已失效/已截止** [LECTURER](https://www.mathjobs.org/jobs?joblst-382-29086=) · MathJobs.org · Global · C 49
+- **已失效/已截止** [LECTURER1](https://www.mathjobs.org/jobs?joblst-382-29087=) · MathJobs.org · Global · C 49
+- **本周新增** [PhD Studentships in Applied Mathematics for Formulated Products](https://www.jobs.ac.uk/job/DTM191/phd-studentships-in-applied-mathematics-for-formulated-products) · jobs.ac.uk Mathematics · United Kingdom · C 53
+- **本周新增** [Postdoctoral Research Associate in Nucleic Acid Computing and Molecular Programming (Fixed Term)](https://www.jobs.ac.uk/job/DTL951/postdoctoral-research-associate-in-nucleic-acid-computing-and-molecular-programming-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 53
+- **本周新增** [Research Fellow in Climate Simulation](https://www.jobs.ac.uk/job/DTL700/research-fellow-in-climate-simulation) · jobs.ac.uk Mathematics · United Kingdom · C 50
+- **本周新增** [Lecturer in Numerical Analysis & Data Science](https://www.jobs.ac.uk/job/DTL723/lecturer-in-numerical-analysis-and-data-science) · jobs.ac.uk Mathematics · United Kingdom · C 49
+- **本周新增** [Research fellow in thermofluid topology optimisation](https://www.jobs.ac.uk/job/DTL745/research-fellow-in-thermofluid-topology-optimisation) · jobs.ac.uk Mathematics · United Kingdom · C 45
+- **已失效/已截止** [Senior Researcher/Engineer: AI for biomolecular modelling and simulation](https://apply.careers.microsoft.com/careers/job/1970393557048767) · Microsoft Research Careers · Global · C 47
+- **已失效/已截止** [Research Fellow](https://www.jobs.ac.uk/job/DTJ821/research-fellow) · jobs.ac.uk Mathematics · United Kingdom · C 50
 
 ## 学术人物建设
 
@@ -36,7 +44,6 @@
 ## 数据源状态
 
 - 正常或有结果：4/20
-- 抓取失败：EURAXESS Jobs · HTTP 403
 - 抓取失败：Academic Positions · HTTP 403
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed

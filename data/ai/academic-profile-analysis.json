@@ -1775,10 +1775,10 @@
   },
   "uk-edinburgh-gondzio-optimization": {
     "status": "deepseek",
-    "generatedAt": "2026-10-26T06:00:41.017Z",
-    "profileFingerprint": "7e000518aab766644fe52abb4f50c23504a77aa8766aa6920e125cb95e8dda9c",
+    "generatedAt": "2026-11-02T07:36:52.700Z",
+    "profileFingerprint": "c1098e0eb5461345fcdd0d1841ab1fa0a5b61bca41ebacf453a7b8a64c456fb7",
     "notice": "AI 辅助归纳，需回到公开证据核验",
-    "researchSummaryZh": "该公开记录显示，Jacek Gondzio 的研究主线为大规模优化，尤其围绕内点法、稀疏线性代数与并行优化展开，并涉及凸优化。近期公开成果主题包括算法与复杂度、变分方法与成像及反问题、数值分析与科学计算、控制能源与网络系统等方向。",
+    "researchSummaryZh": "公开记录显示，Jacek Gondzio 的研究主线为大规模优化，尤其围绕内点法、稀疏线性代数与并行优化展开，并涉及凸优化。近期公开成果主题包括算法与复杂度、变分方法与成像及反问题、数值分析与科学计算、控制能源与网络系统等方向。",
     "methods": [
       "interior-point methods",
       "large-scale optimization",
@@ -1794,14 +1794,14 @@
       "portfolio diversification",
       "truss structure layout optimization"
     ],
-    "careerPatternZh": "公开时间线仅显示其在 University of Edinburgh 担任 Professor of Optimization 的当前任职；未提供可核验的完整教育经历、博士后经历或此前任职变化记录。",
+    "careerPatternZh": "公开时间线仅显示其现任爱丁堡大学优化方向教授（Professor of Optimization）这一任职记录，未提供可核验的完整教育经历、博士后经历或此前任职变化信息。",
     "caveatsZh": [
-      "成果计数来自 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界。",
-      "h-index、被引总数等指标未提供，无法据此评估影响力。",
-      "近期主题计数基于有限记录，部分年份工作量为零，不能推断研究活动停止。",
-      "代表性 venue 统计仅为已核验代表作中可识别核心 venue 的保守下限。",
-      "招聘信号仅表明有延续至2027年的活跃项目，未发现公开博后岗位，不能据此推断招聘计划。",
-      "公开时间线缺少教育、博士后及历次任职信息，职业路径不完整。"
+      "成果计数基于 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界。",
+      "h-index、被引总数等指标缺失，无法据此评估影响力。",
+      "top venue 计数仅为已核验代表作中可识别核心期刊的保守下限，不等同于完整履历总数。",
+      "近期主题年度分布显示 2024 年多数主题计数为 0，可能反映记录收录滞后而非研究中断。",
+      "招聘信号仅表明存在延续至 2027 年的活跃项目，未发现公开博后岗位，不能据此推断招聘计划。",
+      "时间线仅含现任教授职位，教育、博后及此前任职信息缺失。"
     ]
   },
   "be-ku-leuven-patrinos-lab": {
@@ -1898,6 +1898,116 @@
     "careerPatternZh": "公开教育记录显示：1995-1999 年在 Bilkent University 电子工程与电子学方向获 B.Sc，1999-2005 年在 Georgia Institute of Technology 电子与计算机工程方向获 PhD；2005-2007 年在 University of Maryland, Baltimore 任博士后（导师 Rama Chellappa），2008-2009 年在 Rice University 任研究科学家（导师 Richard G. Baraniuk）；2010-2012 年在 Idiap Research Institute 任助理教授，2010-2016 年在 EPFL 任助理教授并任 LIONS 主任，2016 年起在 EPFL 任主任/副教授，公开记录另列有 2009-2026 年 EPFL 任职及 2025-2026 年教育相关职务。",
     "caveatsZh": [
       "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "hku-ids-yue-xie": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-02T07:36:52.700Z",
+    "profileFingerprint": "ba2df505a9db3276bd6c312ca45e3f10bd818b19225770513758d550cb46ccd6",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将 Yue Xie 的研究主线概括为非凸优化、随机优化、机器学习与数据科学；其博士阶段研究不确定线性互补问题与随机 inexact ADMM，博后阶段转向非凸等式/边界约束优化的复杂度分析，在 HKU 建组后继续发展无正则最优传输、随机一阶方法与大规模约束优化。",
+    "methods": [
+      "stochastic ADMM",
+      "projected Newton-CG",
+      "proximal augmented Lagrangian",
+      "randomized block coordinate descent"
+    ],
+    "applications": [
+      "optimal transport",
+      "machine learning",
+      "data science",
+      "low-rank matrix optimization"
+    ],
+    "careerPatternZh": "Ph.D. 于 Pennsylvania State University（导师 Uday V. Shanbhag，2018 年）；随后在 University of Wisconsin-Madison 做博士后（导师 Stephen J. Wright）；现任 The University of Hong Kong 研究助理教授，隶属 Musketeers Foundation Institute of Data Science / Department of Mathematics。",
+    "caveatsZh": [
+      "论文计数 8 项来自个人论文页逐条列出，含期刊扩展版与会议版的关联版本，不等同于独立成果数。",
+      "顶刊计数为已核验代表作中可识别核心 venue 的保守下限，不代表完整履历总数。",
+      "近期工作趋势标注为 stable_or_low，仅基于单条算法与复杂度主题记录，样本量有限。",
+      "招聘信号中个人主页欢迎博士申请者不等于博士后招聘；2025 年 1 月博士后岗位公告已过期，不能视为当前开放；HKU 平台人物页无公开招聘信号，需人工复核。",
+      "部分代表作年份字段为空或存在期刊版与会议版并存，引用计数缺失，无法据此推断影响力。"
+    ]
+  },
+  "princeton-amir-ali-ahmadi": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-02T07:36:52.700Z",
+    "profileFingerprint": "b62f313749de0b2ca9185c19ee9d60e19be054f6490e96522cbf2342144be978",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将研究主线概括为非凸优化、多项式优化、半定规划、动力系统与控制，并涉及机器学习优化、算法与复杂度、科学机器学习与动力学等近期活跃主题。",
+    "methods": [
+      "conic and semidefinite optimization",
+      "optimal-control methods",
+      "global and polynomial optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "control and dynamical systems"
+    ],
+    "careerPatternZh": "公开教育记录显示：2002-2006年在马里兰大学巴尔的摩分校获电气工程学士、在麻省理工学院获数学学士；2006-2008年在麻省理工学院电气工程与计算机科学系获S.M.；2008-2011年在该系获Ph.D.。2011-2012年在麻省理工学院计算机科学与人工智能实验室及LIDS机器人运动组任博士后；2012-2014年在IBM Research Thomas J. Watson研究中心任Herman Goldstine Fellow；2014-2019年任普林斯顿大学运筹学与金融工程系助理教授，2019年起任该系教授；2015年起在普林斯顿大学计算机科学系、2016年起在统计与机器学习中心、2017年起在机械与航空航天工程系、2020年起在电气与计算机工程系任Associated Professor；2019年起任优化与量化决策科学证书项目主任。另有2020-2021年谷歌Brain机器人组访问研究科学家、2021-2022年Citadel全球量化策略访问高级优化研究员、2024-2025年Ivypedia远程教学顾问等记录。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "mit-bertsimas-analytics-optimization": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-02T07:36:52.700Z",
+    "profileFingerprint": "355278b1d308bb49dad73afd44e411c1a584745ff1f4805040a0fb21080e719c",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将 Dimitris Bertsimas 的研究方向概括为 robust optimization、stochastic optimization、operations research、analytics 与 integer optimization；近期公开成果主题涉及随机与鲁棒优化、机器学习优化、离散与混合整数优化、运筹与决策系统、控制能源与网络系统等。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "robust optimization",
+      "discrete and mixed-integer optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "公开时间线仅显示其在 Massachusetts Institute of Technology 的现任职务（Vice Provost；Open Learning 与 Sloan School of Management 的 Associate Dean）以及 Employment 记录，未提供可核验的完整教育、博后或任职变动序列。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "stanford-yinyu-ye-optimization": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-02T07:36:52.700Z",
+    "profileFingerprint": "82ee7a18cf4cb01a73ab863c854b0565fdbb165f76482847852f332ad9d0a904",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将其研究方向概括为内点法、线性规划、半定规划、凸优化与在线优化；近期成果涉及非凸二阶下降方法、在线线性规划、Tarski 不动点与超模博弈的计算复杂性、半定规划低秩 ADMM 分裂方法、大规模二次规划的原对偶混合共轭梯度法，以及线性与锥优化的内点法实现。",
+    "methods": [
+      "interior-point methods",
+      "conic and semidefinite optimization",
+      "online optimization",
+      "ADMM splitting approaches",
+      "primal-dual hybrid conjugate gradient methods",
+      "mathematical optimization"
+    ],
+    "applications": [],
+    "careerPatternZh": "公开时间线显示其自2002年起在 Stanford University 管理科学与工程系任 K.T. Li Professor；输入未提供更早的教育、博后或任职变化记录。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "stanford-boyd-convex-optimization": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-02T07:36:52.700Z",
+    "profileFingerprint": "668588b49c8d46b2a63a075b3f8641768f6dd2875986f71aae119d2642649871",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将 Stephen Boyd 的研究主线概括为凸优化、数值优化、优化建模、控制与信号处理；近期公开成果涉及随机与鲁棒优化、机器学习优化、变分方法与成像/反问题、控制/能源/网络系统、算法与复杂度等主题。",
+    "methods": [
+      "optimal-control methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "signal processing, imaging, and inverse problems",
+      "control and dynamical systems"
+    ],
+    "careerPatternZh": "公开时间线显示其自1985年起在 Stanford University 电气工程系任 Professor；输入未提供其他教育、博后或任职变化记录。",
+    "caveatsZh": [
+      "成果计数基于 ORCID 公开记录与 Crossref 中明确携带同一 ORCID 的 DOI 元数据合并去重，共11条，通常为论文量下界。",
+      "h-index、被引总数等指标缺失，无法据此评估影响力。",
+      "近期主题计数样本很小（各主题1-2篇），趋势标签仅反映输入中的计数分布。",
+      "招聘信号为“未见常驻 postdoc openings”，置信度C，不构成招聘证据。",
+      "输入未提供完整教育经历、博后经历及除1985年起 Stanford 任职外的职业变动信息。"
     ]
   }
 }
