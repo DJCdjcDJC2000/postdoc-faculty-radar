@@ -2009,5 +2009,140 @@
       "招聘信号为“未见常驻 postdoc openings”，置信度C，不构成招聘证据。",
       "输入未提供完整教育经历、博后经历及除1985年起 Stanford 任职外的职业变动信息。"
     ]
+  },
+  "tum-math-michael-ulbrich": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-09T07:53:04.376Z",
+    "profileFingerprint": "dc3c3dee472e9fa756ed9991cac5bf14c94850a53b537b598a339ebb8f25b66b",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将其研究方向概括为优化理论与方法、最优控制、数值分析、非光滑分析与科学计算；近期公开成果涉及互补与变分不等式、随机与鲁棒优化、非光滑非凸优化、数值分析与科学计算、变分方法/成像与反问题、控制能源与网络系统、算法与复杂度等主题。",
+    "methods": [
+      "nonsmooth and variational analysis",
+      "numerical analysis and scientific computing",
+      "optimal-control methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "control and dynamical systems",
+      "physical simulation and scientific computing"
+    ],
+    "careerPatternZh": "公开任职记录显示其自2006年起任慕尼黑工业大学数学系数学优化方向全职教授并担任教席；输入未提供其教育经历与博士后经历的公开记录。",
+    "caveatsZh": [
+      "成果计数基于ORCID公开记录与Crossref中明确携带同一ORCID的DOI元数据合并去重，合并记录数76低于ORCID记录数77，通常仍为论文量下界。",
+      "近期主题计数为2022–2026年窗口内的记录统计，部分年份为0，不代表研究活动停止。",
+      "hIndex与citedByCount在输入中为空，未提供引用指标。",
+      "topVenueCountsLowerBound仅按已核验代表作中可识别的核心venue统计，是保守下限，不等同于完整履历总数。",
+      "招聘信号仅为机构层面博士后项目入口，confidence为C，不构成具体课题组招聘证据。",
+      "输入未提供教育、博士后经历及完整任职变动记录，careerPatternZh仅依据已出现的当前任职条目。"
+    ]
+  },
+  "oxford-coralia-cartis": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-09T07:53:04.376Z",
+    "profileFingerprint": "7f7c52ae83ddda00608b4e8629fadb289c7dccbe082018c8ef92ef652bf64343",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将其研究方向概括为数值优化、非凸优化、复杂度分析、无导数优化与压缩感知；近期成果涉及非凸优化算法评估复杂度、张量方法、随机嵌入全局优化及非线性矩阵恢复等主题。",
+    "methods": [
+      "mathematical optimization",
+      "complexity analysis",
+      "derivative-free optimization",
+      "random embeddings",
+      "tensor methods"
+    ],
+    "applications": [
+      "compressed sensing",
+      "nonlinear matrix recovery",
+      "ocean biogeochemical model optimization"
+    ],
+    "careerPatternZh": "公开时间线仅显示其在 University of Oxford 的 Balliol College 与 Mathematical Institute 任职；未提供可核验的完整教育经历、博士后经历或任职起止年份。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "epfl-optim-nicolas-boumal": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-09T07:53:04.376Z",
+    "profileFingerprint": "4385030956e84baf481b4cbc17d17bd49cbd8ff409118e4336e86d6d6e524eda",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将研究方向概括为连续优化、非凸优化、流形优化、数值优化与统计估计；早期工作将黎曼流形优化用于同步、相位恢复、低秩估计和统计反演，并发展 Manopt 算法工具；2022-2027 年 ERC GEOSYM 项目进一步把几何、对称性与统计估计结合，用结构化方法处理非凸性和全局最优性。",
+    "methods": [
+      "Riemannian and manifold optimization",
+      "mathematical optimization"
+    ],
+    "applications": [],
+    "careerPatternZh": "公开任职记录显示：2016-2020 年在普林斯顿大学数学系任 Assistant Professor；2020 年起在 EPFL - École Polytechnique Fédérale de Lausanne 任职（记录标注为 Employment，至 2026 年）。未提供更早的教育或博士后经历信息。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "epfl-rao-daniel-kuhn": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-09T07:53:04.376Z",
+    "profileFingerprint": "e9d5fa70d8fe114bec9988267dfcf49691cc53f5cedf2b50a5d38b108f1675da",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将研究方向概括为随机规划、鲁棒优化、分布鲁棒优化、数据驱动优化与运筹学；近期成果集中于随机与鲁棒优化、机器学习优化、变分方法与成像反问题、控制能源与网络系统等主题。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "distributionally robust optimization",
+      "robust optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "公开任职记录显示其在EPFL - École Polytechnique Fédérale de Lausanne有任职记录：2013年至2026年，以及2021年至2026年在College of Management of Technology, CDM - Director's Office, CDM Direction任职；输入未提供更早的教育或博后经历。",
+    "caveatsZh": [
+      "成果计数基于ORCID与Crossref中明确携带同一ORCID的DOI元数据合并去重，通常为论文量下界。",
+      "hIndex与citedByCount缺失，无法据此评估影响力。",
+      "近期主题计数为公开成果的主题归类统计，份额基于已归集成果，不代表完整履历。",
+      "招聘信号为no_public_signal且置信度C，仅提及曾发布mathematical optimization postdoc，无当前招聘证据。",
+      "输入未提供教育背景与博后经历，careerPatternZh仅覆盖公开任职记录。"
+    ]
+  },
+  "person-sanyou-mei": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-09T07:53:04.376Z",
+    "profileFingerprint": "71bfd5f49ff846dacf3b10149d2b9c64b1c4a2499e4f86716a30d05bfd76b505",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "2025 年加入 HKUST IEDA，研究随机、双层、minimax、分布式和在线优化；博士阶段先从局部 Lipschitz 梯度下的一阶加速与单调包含出发，随后转向双层、约束 minimax 和确定约束随机非凸优化；进入 HKUST 后继续推进可扩展一阶算法及其在数据科学、机器学习和不确定决策中的应用。",
+    "methods": [
+      "first-order methods",
+      "augmented Lagrangian methods",
+      "primal-dual extrapolation",
+      "variance reduction"
+    ],
+    "applications": [
+      "data science",
+      "machine learning",
+      "healthcare",
+      "decision-making under uncertainty"
+    ],
+    "careerPatternZh": "2020 至 2025 年在 University of Minnesota 攻读工业工程博士，导师为 Zhaosong Lu；2025 年起任 The Hong Kong University of Science and Technology 工业工程与决策分析系助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "person-luze-xu": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-09T07:53:04.376Z",
+    "profileFingerprint": "f2080d789a3fcfbfcc803e173add0e90d02daa4479f514b2ef4449a8b00ef36c",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "研究主线为混合整数规划、全局优化与连续-离散优化，涉及整数点、邻近界与扩展 formulation 等优化理论问题。",
+    "methods": [
+      "discrete and mixed-integer optimization",
+      "global and polynomial optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "2013-2017 北京大学数学科学学院计算与应用数学本科；2017-2022 密歇根大学安娜堡分校工业与运筹工程博士；2022-2025 加州大学戴维斯分校数学系 Krener Assistant Professor；2025 威斯康星大学麦迪逊分校博士后研究；2026 起任香港科技大学数学系助理教授。",
+    "caveatsZh": [
+      "成果计数来自 ORCID 与 Crossref 合并记录（19 条），为去重后下界，非完整履历。",
+      "h-index 与 citedByCount 缺失，无法据此评估影响力。",
+      "topVenueCountsLowerBound 仅基于已核验代表作中可识别 venue，为保守下限。",
+      "招聘信号为 no_public_signal，无公开招聘证据。",
+      "时间线中部分任职条目存在重复表述（如博士后与 current_position 并存），以公开来源为准。"
+    ]
   }
 }

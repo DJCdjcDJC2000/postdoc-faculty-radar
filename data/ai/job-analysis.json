@@ -3628,5 +3628,90 @@
     "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
     "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
     "depth": "brief"
+  },
+  "437606d96066de5f": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-09T07:52:52.297Z",
+    "jobFingerprint": "C|51|United Kingdom · Research Fellow · simulation / AI|core|simulation|AI",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "该岗位为阿联酋航空大学（Emirates Aviation University，工作地点迪拜）的航空仿真、数字孪生与AI系统开发研究助理（Research Associate）职位，信息发布在jobs.ac.uk数学板块，发布日期为11月3日，薪资未注明，未提供截止日期。岗位描述仅包含标题与基本发布信息，未列出具体职责、任职要求或申请流程。",
+    "tagsZh": [
+      "航空仿真",
+      "数字孪生",
+      "AI系统开发",
+      "研究助理",
+      "阿联酋",
+      "迪拜"
+    ],
+    "positiveZh": [
+      "研究方向明确聚焦航空仿真、数字孪生与AI系统开发，与仿真、AI关键词匹配",
+      "依托航空类大学，研究场景与航空领域结合紧密",
+      "发布在jobs.ac.uk平台，来源相对可追溯"
+    ],
+    "negativeZh": [
+      "岗位描述信息极少，缺少职责、任职资格、薪资、合同期限等关键内容",
+      "工作地点为迪拜，与英国发布平台存在地域差异，需确认签证与搬迁安排",
+      "未提供申请截止日期，招聘时间线不明确",
+      "机构部门字段为空，无法判断具体所属院系或团队"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "basic"
+  },
+  "d037fb9381b9e954": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-09T07:52:52.297Z",
+    "jobFingerprint": "C|48|United Kingdom · 博后|field_source",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "牛津大学数学研究所招聘数学物理方向博士后研究助理（Postdoctoral Research Associate in Mathematical Physics），工作地点为英国牛津，年薪 41,636–47,779 英镑。岗位信息来自 jobs.ac.uk Mathematics，发布日期为 11 月 5 日，但未提供截止日期、院系、职位描述、申请要求等细节。",
+    "tagsZh": [
+      "数学物理",
+      "博士后",
+      "英国",
+      "牛津大学",
+      "高校科研岗位"
+    ],
+    "positiveZh": [
+      "依托牛津大学数学研究所，学术平台与声誉较高",
+      "薪资区间明确（41,636–47,779 英镑/年）",
+      "岗位方向为数学物理，学科定位清晰"
+    ],
+    "negativeZh": [
+      "缺少职位描述、研究方向、教学或科研职责等核心内容",
+      "未提供申请资格、所需技能、发表要求等条件",
+      "未提供截止日期，时间安排不明确",
+      "未说明合同期限、是否可续签及福利细节"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "basic"
+  },
+  "a3fb4c496344a167": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-09T07:52:52.297Z",
+    "jobFingerprint": "C|46|United Kingdom · Research Fellow · statistics|field_source|statistics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "剑桥大学纯数学与数理统计系（DPMMS）招聘“Cambridge Mathematical Innovation Research Associate”，固定期限研究岗位，工作地点剑桥，薪资为Grade 7（£38,448-£46,970）或Grade 8（£43,099-£48,337），发布日期为11月3日，未提供截止日期。",
+    "tagsZh": [
+      "英国",
+      "剑桥大学",
+      "研究助理/研究员",
+      "固定期限",
+      "数学",
+      "数理统计"
+    ],
+    "positiveZh": [
+      "隶属剑桥大学纯数学与数理统计系，学术平台与声誉较高",
+      "薪资区间明确，Grade 7至Grade 8覆盖较宽，可按资历定级",
+      "岗位名称含“Mathematical Innovation”，可能涉及数学与创新交叉方向"
+    ],
+    "negativeZh": [
+      "岗位为固定期限（Fixed Term），非长期稳定职位",
+      "公开信息未提供岗位职责、申请要求、截止日期等细节",
+      "仅匹配到“statistics”一个关键词，与数理统计的直接关联度有限"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "basic"
   }
 }

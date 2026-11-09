@@ -1,26 +1,24 @@
-# 职业雷达周报 · 2026-11-02
+# 职业雷达周报 · 2026-11-09
 
-- 本周新增：5
+- 本周新增：0
 - 本周更新：0
-- 本周失效：5
+- 本周失效：8
 - A/B 高匹配：3
-- 30 天内截止：4
+- 30 天内截止：1
 - 学术候选池：132
-- 完整公开档案：124
+- 完整公开档案：125
 - 导师组 / 青年学者：52 / 84
 
 ## 本周变化
 
-- **已失效/已截止** [Postdoctoral position in computational modeling and simulation of spreading processes in population-scale multilayer social networks](https://euraxess.ec.europa.eu/jobs/476689) · EURAXESS Jobs · Europe · B 70
-- **已失效/已截止** [LECTURER](https://www.mathjobs.org/jobs?joblst-382-29086=) · MathJobs.org · Global · C 49
-- **已失效/已截止** [LECTURER1](https://www.mathjobs.org/jobs?joblst-382-29087=) · MathJobs.org · Global · C 49
-- **本周新增** [PhD Studentships in Applied Mathematics for Formulated Products](https://www.jobs.ac.uk/job/DTM191/phd-studentships-in-applied-mathematics-for-formulated-products) · jobs.ac.uk Mathematics · United Kingdom · C 53
-- **本周新增** [Postdoctoral Research Associate in Nucleic Acid Computing and Molecular Programming (Fixed Term)](https://www.jobs.ac.uk/job/DTL951/postdoctoral-research-associate-in-nucleic-acid-computing-and-molecular-programming-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 53
-- **本周新增** [Research Fellow in Climate Simulation](https://www.jobs.ac.uk/job/DTL700/research-fellow-in-climate-simulation) · jobs.ac.uk Mathematics · United Kingdom · C 50
-- **本周新增** [Lecturer in Numerical Analysis & Data Science](https://www.jobs.ac.uk/job/DTL723/lecturer-in-numerical-analysis-and-data-science) · jobs.ac.uk Mathematics · United Kingdom · C 49
-- **本周新增** [Research fellow in thermofluid topology optimisation](https://www.jobs.ac.uk/job/DTL745/research-fellow-in-thermofluid-topology-optimisation) · jobs.ac.uk Mathematics · United Kingdom · C 45
-- **已失效/已截止** [Senior Researcher/Engineer: AI for biomolecular modelling and simulation](https://apply.careers.microsoft.com/careers/job/1970393557048767) · Microsoft Research Careers · Global · C 47
-- **已失效/已截止** [Research Fellow](https://www.jobs.ac.uk/job/DTJ821/research-fellow) · jobs.ac.uk Mathematics · United Kingdom · C 50
+- **已失效/已截止** [Postdoctoral Research Associate in Mathematical Physics](https://www.jobs.ac.uk/job/DTN864/postdoctoral-research-associate-in-mathematical-physics) · jobs.ac.uk Mathematics · United Kingdom · C 48
+- **已失效/已截止** [Cambridge Mathematical Innovation Research Associate (Fixed Term)](https://www.jobs.ac.uk/job/DTN166/cambridge-mathematical-innovation-research-associate-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 46
+- **已失效/已截止** [Research Associate – Aviation Simulation, Digital Twins and AI Systems Development](https://www.jobs.ac.uk/job/DTM026/research-associate-aviation-simulation-digital-twins-and-ai-systems-development) · jobs.ac.uk Mathematics · United Kingdom · C 51
+- **已失效/已截止** [PhD Studentships in Applied Mathematics for Formulated Products](https://www.jobs.ac.uk/job/DTM191/phd-studentships-in-applied-mathematics-for-formulated-products) · jobs.ac.uk Mathematics · United Kingdom · C 53
+- **已失效/已截止** [Postdoctoral Research Associate in Nucleic Acid Computing and Molecular Programming (Fixed Term)](https://www.jobs.ac.uk/job/DTL951/postdoctoral-research-associate-in-nucleic-acid-computing-and-molecular-programming-fixed-term) · jobs.ac.uk Mathematics · United Kingdom · C 53
+- **已失效/已截止** [Research Fellow in Climate Simulation](https://www.jobs.ac.uk/job/DTL700/research-fellow-in-climate-simulation) · jobs.ac.uk Mathematics · United Kingdom · C 50
+- **已失效/已截止** [Lecturer in Numerical Analysis & Data Science](https://www.jobs.ac.uk/job/DTL723/lecturer-in-numerical-analysis-and-data-science) · jobs.ac.uk Mathematics · United Kingdom · C 49
+- **已失效/已截止** [Research fellow in thermofluid topology optimisation](https://www.jobs.ac.uk/job/DTL745/research-fellow-in-thermofluid-topology-optimisation) · jobs.ac.uk Mathematics · United Kingdom · C 45
 
 ## 学术人物建设
 
@@ -43,7 +41,7 @@
 
 ## 数据源状态
 
-- 正常或有结果：4/20
+- 正常或有结果：2/20
 - 抓取失败：Academic Positions · HTTP 403
 - 抓取失败：CUHK Mathematics Career Opportunities · fetch failed
 - 抓取失败：Huawei Noah's Ark Lab · fetch failed
