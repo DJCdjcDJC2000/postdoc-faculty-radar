@@ -2077,8 +2077,8 @@
   },
   "epfl-rao-daniel-kuhn": {
     "status": "deepseek",
-    "generatedAt": "2026-11-09T07:53:04.376Z",
-    "profileFingerprint": "e9d5fa70d8fe114bec9988267dfcf49691cc53f5cedf2b50a5d38b108f1675da",
+    "generatedAt": "2026-11-16T07:53:53.535Z",
+    "profileFingerprint": "4d277f3b8639934ad92a03051204818d486bfc5c80b32eb8b9a225c848ef44ae",
     "notice": "AI 辅助归纳，需回到公开证据核验",
     "researchSummaryZh": "公开资料将研究方向概括为随机规划、鲁棒优化、分布鲁棒优化、数据驱动优化与运筹学；近期成果集中于随机与鲁棒优化、机器学习优化、变分方法与成像反问题、控制能源与网络系统等主题。",
     "methods": [
@@ -2090,13 +2090,13 @@
     "applications": [
       "decision-making and operations"
     ],
-    "careerPatternZh": "公开任职记录显示其在EPFL - École Polytechnique Fédérale de Lausanne有任职记录：2013年至2026年，以及2021年至2026年在College of Management of Technology, CDM - Director's Office, CDM Direction任职；输入未提供更早的教育或博后经历。",
+    "careerPatternZh": "公开时间线显示其在EPFL - École Polytechnique Fédérale de Lausanne有任职记录：2013年至2026年的一段任职，以及2021年至2026年在College of Management of Technology, CDM - Director's Office, CDM Direction的任职；输入未提供更早的教育或博后经历。",
     "caveatsZh": [
-      "成果计数基于ORCID与Crossref中明确携带同一ORCID的DOI元数据合并去重，通常为论文量下界。",
-      "hIndex与citedByCount缺失，无法据此评估影响力。",
-      "近期主题计数为公开成果的主题归类统计，份额基于已归集成果，不代表完整履历。",
-      "招聘信号为no_public_signal且置信度C，仅提及曾发布mathematical optimization postdoc，无当前招聘证据。",
-      "输入未提供教育背景与博后经历，careerPatternZh仅覆盖公开任职记录。"
+      "成果计数基于ORCID公开记录与Crossref中明确携带同一ORCID的DOI元数据合并去重，共22条，通常仍为论文量下界。",
+      "hIndex与citedByCount为空，未提供引用指标。",
+      "topVenueCountsLowerBound仅按已核验代表作中可识别的核心venue统计，是保守下限，不等同于完整履历总数。",
+      "时间线仅含EPFL任职记录，缺少教育、博后及其他任职变化信息。",
+      "recruitmentSignals为no_public_signal且置信度C，不构成招聘证据。"
     ]
   },
   "person-sanyou-mei": {
@@ -2124,8 +2124,8 @@
   },
   "person-luze-xu": {
     "status": "deepseek",
-    "generatedAt": "2026-11-09T07:53:04.376Z",
-    "profileFingerprint": "f2080d789a3fcfbfcc803e173add0e90d02daa4479f514b2ef4449a8b00ef36c",
+    "generatedAt": "2026-11-16T07:53:53.535Z",
+    "profileFingerprint": "fd249c8ab9428b08150170684e4e4e0defa0249e0f552192d36ca8901ee35e81",
     "notice": "AI 辅助归纳，需回到公开证据核验",
     "researchSummaryZh": "研究主线为混合整数规划、全局优化与连续-离散优化，涉及整数点、邻近界与扩展 formulation 等优化理论问题。",
     "methods": [
@@ -2136,13 +2136,106 @@
     "applications": [
       "decision-making and operations"
     ],
-    "careerPatternZh": "2013-2017 北京大学数学科学学院计算与应用数学本科；2017-2022 密歇根大学安娜堡分校工业与运筹工程博士；2022-2025 加州大学戴维斯分校数学系 Krener Assistant Professor；2025 威斯康星大学麦迪逊分校博士后研究；2026 起任香港科技大学数学系助理教授。",
+    "careerPatternZh": "2013-2017年在北京大学数学科学学院获计算与应用数学学士；2017-2022年在密歇根大学安娜堡分校工业与运筹工程系获博士；2022-2025年任加州大学戴维斯分校数学系Krener Assistant Professor；2025年任威斯康星大学麦迪逊分校Wisconsin Institute for Discovery与工业及系统工程系博士后研究助理；2026年起任香港科技大学数学系助理教授。",
     "caveatsZh": [
-      "成果计数来自 ORCID 与 Crossref 合并记录（19 条），为去重后下界，非完整履历。",
-      "h-index 与 citedByCount 缺失，无法据此评估影响力。",
-      "topVenueCountsLowerBound 仅基于已核验代表作中可识别 venue，为保守下限。",
-      "招聘信号为 no_public_signal，无公开招聘证据。",
-      "时间线中部分任职条目存在重复表述（如博士后与 current_position 并存），以公开来源为准。"
+      "成果计数基于ORCID公开记录与Crossref中明确携带同一ORCID的DOI元数据合并去重，为论文量下界，非完整履历。",
+      "citedByCount与hIndex为null，缺少引用计量证据。",
+      "topVenueCountsLowerBound仅统计已核验代表作中可识别的核心venue，为保守下限。",
+      "招聘信号为no_public_signal、confidence C，无公开招聘证据。",
+      "近期演化主题Variational methods, imaging, and inverse problems的worksCount为2，citedByCount为null，样本量小。"
+    ]
+  },
+  "person-viet-anh-nguyen": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-16T07:53:53.535Z",
+    "profileFingerprint": "a085ffc227093829fb5347d73ff042cdb29e13c2eb6e80cc7cef04f48144189e",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "CUHK 系统工程与工程管理系助理教授，研究主线为分布鲁棒优化、统计优化与不确定性下的决策，并延伸到负责的机器学习与运筹决策系统。",
+    "methods": [
+      "distributionally robust optimization",
+      "robust optimization",
+      "stochastic optimization and uncertainty methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "2015-2019 在 EPFL 风险分析与优化方向攻读博士，导师 Daniel Kuhn；2019-2021 在 Stanford 管理科学与工程系任博士后；2022 年起任 CUHK 系统工程与工程管理系助理教授。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "cuhk-seem-anthony-so": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-16T07:53:53.535Z",
+    "profileFingerprint": "00b7d618183ed783ce93e45915eac7088ea0cab70d6a9faaebd065dbfdc40d57",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将其研究方向概括为优化理论、非凸优化、机器学习优化、信号处理与统计；近期成果涉及非光滑与非凸优化、机器学习优化、算法与复杂度，以及随机与鲁棒优化、运筹与决策系统、控制能源与网络系统等主题。",
+    "methods": [
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "signal processing, imaging, and inverse problems"
+    ],
+    "careerPatternZh": "公开时间线显示其自2007年起任香港中文大学系统工程与工程管理学系教授；输入未提供更早的教育、博士后或其他任职变化信息。",
+    "caveatsZh": [
+      "成果计数来自ORCID公开记录与Crossref中明确携带同一ORCID的DOI元数据合并去重，通常仍是论文量下界。",
+      "h-index与citedByCount缺失，无法据此评估引用影响。",
+      "topVenueCountsLowerBound仅按已核验代表作中可识别的核心venue统计，是保守下限，不等同于完整履历总数。",
+      "近期主题的worksCount与shareOfWorks基于有限记录，趋势标签为stable_or_low或rising_or_active，不代表完整发表分布。",
+      "招聘信息为no_public_signal，未发现持续openings页面，不能据此推断实际招聘状态。",
+      "输入未提供教育经历、博士后经历及2007年之前的任职信息。"
+    ]
+  },
+  "nus-math-kim-chuan-toh": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-16T07:53:53.535Z",
+    "profileFingerprint": "53aa8f23dee481526642dbe84259dc44969eb95f99d4946a16f551b74dbb82f3",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将其研究方向概括为半定规划、锥优化、非光滑牛顿法、科学计算与数值优化；近期成果涉及非光滑非凸优化、多项式半定规划的平方和层级收敛速率、稀疏半定规划、加速Jacobi型方法以及极小极大优化等主题。",
+    "methods": [
+      "nonsmooth and variational analysis",
+      "Newton and semismooth Newton methods",
+      "conic and semidefinite optimization",
+      "numerical analysis and scientific computing",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "physical simulation and scientific computing"
+    ],
+    "careerPatternZh": "公开教育记录显示其于1986至1990年在NUS数学系获B.Sc.（一等荣誉），1990至1991年获M.Sc.；任职记录显示1996至2002年任Assistant Professor，2002至2008年任Associate Professor，2008年起任Professor，均在新加坡国立大学数学系。",
+    "caveatsZh": [
+      "成果计数基于ORCID与Crossref中明确携带同一ORCID的DOI元数据合并去重，通常为论文量下界。",
+      "h-index与citedByCount缺失，无法据此评估影响力。",
+      "topVenueCountsLowerBound仅统计已核验代表作中可识别的核心venue，为保守下限。",
+      "招聘信号仅为院系公开的博士后与助理教授职位页面，未表明与该人物课题组直接相关。",
+      "时间线中phd类型条目实际记录的是B.Sc.与M.Sc.学位，并非博士记录。"
+    ]
+  },
+  "person-niao-he": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-16T07:53:53.535Z",
+    "profileFingerprint": "2d181c9e3175ad277375bebe7aa6f5d931c6288750e96fa79861e2f482125201",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "何妮奥（Niao He）是 ETH Zurich 优化与决策智能组的 PI，研究主线围绕优化展开，涵盖不确定性下的优化、机器学习优化、强化学习与数据驱动决策，并延伸到随机与鲁棒优化、非光滑非凸优化、变分方法与逆问题、控制与网络系统以及算法与复杂度等方向。",
+    "methods": [
+      "stochastic optimization and uncertainty methods",
+      "reinforcement learning",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "公开记录显示其博士阶段就读于 Georgia Institute of Technology（2015 年）；现任 ETH Zurich 计算机科学系 Associate Professor。",
+    "caveatsZh": [
+      "成果计数基于 ORCID 公开记录与 Crossref 中携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界。",
+      "h-index、被引次数等指标缺失，无法据此评估影响力。",
+      "top venue 统计仅基于已核验代表作中可识别的核心 venue，是保守下限，不等同于完整履历总数。",
+      "招聘信息来自课题组官网长期列出的 postdoc openings，置信度为 C，仅表明公开列出申请方式，不构成录用证据。",
+      "时间线中部分任职记录缺少起止年份。"
     ]
   }
 }

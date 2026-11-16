@@ -3713,5 +3713,118 @@
     "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
     "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
     "depth": "basic"
+  },
+  "6dcc3f754c395d14": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-16T07:53:41.809Z",
+    "jobFingerprint": "C|53|United Kingdom · 博后 · applied mathematics|core|applied mathematics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "剑桥大学应用数学与理论物理系（DAMTP）招聘非平衡统计物理中稀有事件方向博士后研究助理（固定期限），薪资£38,448–£46,970，发布于11月11日，未提供截止日期。",
+    "tagsZh": [
+      "博士后",
+      "统计物理",
+      "非平衡物理",
+      "稀有事件",
+      "应用数学",
+      "剑桥大学"
+    ],
+    "positiveZh": [
+      "依托剑桥大学DAMTP，学术平台与声誉较高",
+      "研究方向明确聚焦非平衡统计物理中的稀有事件，主题集中",
+      "薪资区间公开（£38,448–£46,970）",
+      "岗位为固定期限博士后，符合早期学术职业路径"
+    ],
+    "negativeZh": [
+      "岗位信息为转载摘要，未包含具体职责、导师、期限长度与申请要求",
+      "未提供申请截止日期",
+      "未说明资助来源与合同起止时间"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "brief"
+  },
+  "2d2e617e04944d62": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-16T07:53:41.809Z",
+    "jobFingerprint": "C|50|United Kingdom · Research Fellow · applied mathematics|core|applied mathematics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "香港理工大学应用数学系招聘研究助理教授（Research Assistant Professor），发布在 jobs.ac.uk 数学板块，工作地点为香港，提供有竞争力的薪酬包，发布日期为11月9日，未提供截止日期。岗位描述信息非常有限，仅包含标题、地点、薪酬概述和来源链接。",
+    "tagsZh": [
+      "应用数学",
+      "研究助理教授",
+      "香港",
+      "高校科研岗位",
+      "英国招聘平台发布"
+    ],
+    "positiveZh": [
+      "岗位来自正规高校（香港理工大学）应用数学系",
+      "薪酬表述为有竞争力的薪酬包",
+      "研究方向与应用数学匹配",
+      "通过 jobs.ac.uk 学术招聘平台发布，来源相对可靠"
+    ],
+    "negativeZh": [
+      "岗位描述极简，缺少研究方向、职责、教学要求等关键信息",
+      "未提供申请截止日期",
+      "未说明合同期限、起始时间与资格要求",
+      "发布平台为英国站点但实际地点在香港，信息呈现可能不完整"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "basic"
+  },
+  "51adf36969bd669b": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-16T07:53:41.809Z",
+    "jobFingerprint": "C|48|Global · Fellowship|field_source",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "Jane Street Capital 通过 MathJobs.org 发布的 2027 届 Graduate Research Fellowship，截止日期为 2026 年 11 月 13 日；岗位信息仅含标题、机构与截止日期，未提供职责、资格、薪酬或地点细节。",
+    "tagsZh": [
+      "研究生奖学金",
+      "量化金融",
+      "Jane Street Capital",
+      "MathJobs.org",
+      "2027届"
+    ],
+    "positiveZh": [
+      "由知名量化交易机构 Jane Street Capital 提供",
+      "通过 MathJobs.org 学术招聘平台发布，信息可追溯",
+      "截止日期明确（2026-11-13）"
+    ],
+    "negativeZh": [
+      "岗位描述极简，缺少职责、申请资格、资助额度与工作地点",
+      "未说明是否需要数理背景或具体研究方向",
+      "无法判断与个人背景的匹配度"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "basic"
+  },
+  "596c5e9deca2fa06": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-16T07:53:41.809Z",
+    "jobFingerprint": "C|43|United Kingdom · 教职 · applied mathematics|core|applied mathematics",
+    "notice": "AI 辅助生成，需核验",
+    "summaryZh": "伦敦国王学院（King's College London）数学系招聘应用数学讲师（优化方向），工作地点伦敦，年薪 £54,923–£64,515（含伦敦加权津贴），发布于 jobs.ac.uk，具体截止日期未在给定信息中列出。",
+    "tagsZh": [
+      "应用数学",
+      "优化",
+      "讲师",
+      "高校教职",
+      "英国",
+      "伦敦国王学院"
+    ],
+    "positiveZh": [
+      "岗位来自伦敦国王学院数学系，机构与学科方向明确",
+      "薪资区间公开，含伦敦加权津贴，待遇信息较清晰",
+      "优化方向属于应用数学中需求较广的研究领域"
+    ],
+    "negativeZh": [
+      "给定信息未包含截止日期，时间安排不明确",
+      "未提供职位职责、教学负担、终身教职轨道等关键细节",
+      "未说明申请资格、博士要求及招聘人数"
+    ],
+    "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+    "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+    "depth": "brief"
   }
 }
