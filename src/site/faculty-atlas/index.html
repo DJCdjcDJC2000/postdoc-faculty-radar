@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#143e35" name="theme-color"/>
+<meta content="探索香港五校数学相关教师的公开履历、学术训练、研究成果与职业路径。" name="description"/>
+<title>港校学术路径 · Faculty Atlas</title>
+<link href="./styles.css" rel="stylesheet"/>
+<script defer="" src="./app.js"></script>
+<link href="data:," rel="icon"/></head>
+<body>
+<a class="skip-link" href="#directory">跳至人物档案</a>
+<header class="site-header">
+<a aria-label="港校学术路径首页" class="brand" href="#"><span class="brand-mark">∑</span><span>港校学术路径<small>THE FACULTY ATLAS</small></span></a>
+<nav aria-label="主导航"><a href="../#home">返回职业雷达</a>
+<a href="#directory">人物档案</a><a href="#pathways">路径观察</a><a href="#updates">更新记录</a>
+</nav>
+<a class="header-report" href="./research-report-2026-11.pdf" rel="noopener" target="_blank">阅读研究报告 <span aria-hidden="true">↗</span></a>
+</header>
+<main>
+<section aria-labelledby="hero-title" class="hero">
+<div class="hero-copy">
+<div class="eyebrow">
+<span class="live-dot"></span> HONG KONG · MATHEMATICS
+          </div>
+<h1 id="hero-title">
+            香港数学教职<br/><em>路径图谱</em><span class="title-period">。</span>
+</h1>
+<p class="hero-intro">
+            沿着真实的学术履历，探索从博士训练、博士后研究到香港高校教职的不同路径。
+          </p>
+<a class="primary-link" href="#directory">探索人物档案 <span aria-hidden="true">↗</span></a>
+<div aria-label="资料概况" class="hero-stats" id="hero-stats"></div>
+</div>
+<div class="journey-panel">
+<div class="panel-top">
+<span>一段真实的学术旅程</span><span class="panel-edition">FIELD NOTES / <span id="edition">2026.11</span></span>
+</div>
+<div aria-label="选择职业路径" class="journey-tabs" role="tablist">
+<button aria-selected="true" data-journey="europe" role="tab">
+              欧洲研究经历
+            </button>
+<button aria-selected="false" data-journey="local" role="tab">
+              香港本地博后
+            </button>
+<button aria-selected="false" data-journey="direct" role="tab">
+              博士直接入职
+            </button>
+</div>
+<div aria-live="polite" id="featured-journey" role="tabpanel"></div>
+<div class="journey-bottom">
+<span>公开履历中的路径切片</span><span>TRAINING → RESEARCH → FACULTY</span>
+</div>
+</div>
+</section>
+<div aria-label="收录学校" class="school-band">
+<span>五校 · 数学相关院系</span>
+<div>
+<span>HKU <small>香港大学</small></span><span>CUHK <small>香港中文大学</small></span><span>HKUST <small>香港科技大学</small></span><span>CityU <small>香港城市大学</small></span><span>PolyU <small>香港理工大学</small></span>
+</div>
+</div>
+<section aria-labelledby="directory-title" class="directory section-wrap" id="directory">
+<div class="section-heading">
+<div>
+<div class="eyebrow">PEOPLE &amp; RESEARCH</div>
+<h2 id="directory-title">从一个人，读懂一条路径</h2>
+</div>
+<p>
+            学历、任职、研究成果与公开学术连接，<br/>在同一份档案里顺序展开。
+          </p>
+</div>
+<div class="workspace">
+<aside class="directory-aside">
+<h3>院校分布</h3>
+<p class="aside-note">已建立的人物档案</p>
+<div aria-label="按院校筛选" id="school-chart"></div>
+<div class="aside-divider"></div>
+<h3>研究口径</h3>
+<p>涵盖近期入职、跨校流动、资深引进、历史对照及研究岗位。</p>
+<p>人物数量反映本次资料收录范围。具体岗位与时间证据见个案。</p>
+<button class="text-button" id="method-button">
+              查看证据与覆盖范围 <span aria-hidden="true">↗</span>
+</button>
+<a class="aside-pdf" href="./research-report-2026-11.pdf" rel="noopener" target="_blank"><span class="pdf-symbol">PDF</span><span>完整研究报告<small>2026 年 11 月 · 118 页</small></span><span aria-hidden="true">↗</span></a>
+</aside>
+<div class="directory-main">
+<div class="search-row">
+<label class="search-box"><span aria-hidden="true">⌕</span><input aria-label="搜索人物、导师和研究关键词" autocomplete="off" id="search" placeholder="搜索姓名、导师、研究关键词…" type="search"/><kbd>/</kbd></label><button aria-pressed="false" class="favorite-filter" id="favorite-filter">
+                ☆ <span>我的收藏</span><span id="favorite-count">0</span>
+</button>
+</div>
+<div aria-label="学校筛选" class="school-tabs" id="school-tabs"></div>
+<div class="filter-row">
+<label>研究主题<select id="topic-filter">
+<option value="">全部方向</option>
+</select></label><label>职业阶段<select id="stage-filter">
+<option value="">全部阶段</option>
+<option value="recent">近期入职与流动</option>
+<option value="senior">资深引进</option>
+<option value="historical">历史与边界对照</option>
+<option value="research">研究岗位</option>
+<option value="departed">已离港</option>
+<option value="pending">入职日期待核</option>
+</select></label><label class="sort-label">排序<select id="sort">
+<option value="recommended">推荐阅读</option>
+<option value="name">姓名 A–Z</option>
+<option value="papers">精选论文数</option>
+</select></label>
+</div>
+<div class="results-line">
+<p aria-live="polite" id="results-count" role="status"></p>
+<button class="text-button" id="reset-filters">重置筛选 ↺</button>
+</div>
+<div aria-busy="true" class="people-grid" id="people-grid">
+<div class="loading-message">正在载入研究档案…</div>
+</div>
+<div class="pagination" id="pagination"></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="pathways-title" class="pathways" id="pathways">
+<div class="section-wrap">
+<div class="section-heading">
+<div>
+<div class="eyebrow">PATHWAYS IN CONTEXT</div>
+<h2 id="pathways-title">每一条路，都有具体的条件</h2>
+</div>
+<p>把经历放回时间顺序，<br/>把选择落到研究问题与合作平台。</p>
+</div>
+<div class="pathway-grid" id="pathway-grid"></div>
+<div class="pathway-note">
+<span class="note-mark">↳</span>
+<p>
+              欧洲与香港本地研究岗位都有进入香港教职的公开案例。选择具体博后时，可以比较独立题目、方法训练、持续成果、外部合作和求职支持。
+            </p>
+<button class="light-text-button" id="decision-button">
+              打开博后选择清单 ↗
+            </button>
+</div>
+</div>
+</section>
+<section aria-labelledby="updates-title" class="updates section-wrap" id="updates">
+<div class="section-heading">
+<div>
+<div class="eyebrow">A LIVING RESEARCH ARCHIVE</div>
+<h2 id="updates-title">让资料跟上变化</h2>
+</div>
+<div class="update-status">
+<span class="live-dot"></span><span id="schedule-label">更新安排配置中</span><small id="updated-label"></small>
+</div>
+</div>
+<div class="updates-layout">
+<div class="update-explainer">
+<h3>每一次变化，都保留来处。</h3>
+<p>
+              持续核查教师名录、本人 CV
+              与论文列表，记录新入职、晋升、跨校流动和新增成果。
+            </p>
+<p>待核事项随证据更新。每份人物档案保留独立的核查日期。</p>
+<button class="text-button" id="roster-button">
+              查看名录筛查底表 ↗
+            </button>
+</div>
+<div class="change-list" id="change-list"></div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<a class="brand" href="#"><span class="brand-mark">∑</span><span>港校学术路径<small>THE FACULTY ATLAS</small></span></a>
+<p>基于公开资料的职业路径研究<br/><span id="footer-coverage"></span></p>
+<a href="#">回到顶部 ↑</a>
+</footer>
+<div class="compare-tray" hidden="" id="compare-tray">
+<div>
+<span id="compare-count"></span><span class="compare-names" id="compare-names"></span>
+</div>
+<button class="tray-clear" id="clear-compare">清空</button><button class="tray-open" id="open-compare">并排比较 ↗</button>
+</div>
+<dialog aria-labelledby="profile-title" class="profile-dialog" id="profile-dialog">
+<div id="profile-content"></div>
+</dialog>
+<dialog aria-labelledby="compare-title" class="wide-dialog" id="compare-dialog">
+<div class="dialog-heading">
+<div>
+<div class="eyebrow">SIDE BY SIDE</div>
+<h2 id="compare-title">研究路径比较</h2>
+</div>
+<button aria-label="关闭比较" class="close-button" data-close="compare-dialog">
+          ×
+        </button>
+</div>
+<div id="comparison-content"></div>
+</dialog>
+<dialog aria-labelledby="info-title" class="info-dialog" id="info-dialog">
+<div class="dialog-heading">
+<h2 id="info-title"></h2>
+<button aria-label="关闭窗口" class="close-button" data-close="info-dialog">
+          ×
+        </button>
+</div>
+<div id="info-content"></div>
+</dialog>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+</body>
+</html>

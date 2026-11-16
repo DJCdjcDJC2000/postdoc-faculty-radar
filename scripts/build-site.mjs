@@ -249,6 +249,7 @@ await fs.mkdir(outputDir, { recursive: true });
 for (const fileName of ["index.html", "app.js", "styles.css"]) {
   await copyFileEnsuringDir(path.join(siteSource, fileName), path.join(outputDir, fileName));
 }
+await fs.cp(path.join(siteSource, "faculty-atlas"), path.join(outputDir, "faculty-atlas"), { recursive: true });
 
 await writeJson(outputDir, "data/site.json", outputData);
 await writeJson(outputDir, "data/jobs.json", outputData.jobs);

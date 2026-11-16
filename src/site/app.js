@@ -177,7 +177,12 @@ function renderShell() {
       <span class="nav-icon nav-icon-${escapeAttr(item.id)}" aria-hidden="true"></span>
       <span class="nav-label">${escapeHtml(item.label)}</span>
     </a>
-  `).join("");
+  `).join("") + `
+    <a href="./faculty-atlas/" class="nav-link atlas-entry-link">
+      <span class="atlas-nav-mark" aria-hidden="true">∑</span>
+      <span class="nav-label">港校学术路径</span>
+    </a>
+  `;
   els.modePill.textContent = state.data.mode === "private" ? "个人版" : "公开版";
 }
 
@@ -438,6 +443,14 @@ function renderHome() {
         ${metricCard("来源覆盖", `${metrics.fundingSourcesChecked ?? 0}/${metrics.fundingSourcesTotal ?? 0}`, "官方核验 / 台账")}
         ${metricCard("博士目标", "2029.06", "2026 年底完成投稿准备")}
       </div>
+    </section>
+
+    <section class="atlas-entry-band" aria-labelledby="atlas-entry-title">
+      <div>
+        <h2 id="atlas-entry-title">港校学术路径</h2>
+        <p>五校教师履历、代表论文与学术连接，支持搜索、筛选和路径比较。</p>
+      </div>
+      <a class="atlas-entry-action" href="./faculty-atlas/">进入路径图谱 <span aria-hidden="true">↗</span></a>
     </section>
 
     <section class="home-command-band">
