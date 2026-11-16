@@ -178,7 +178,7 @@ function renderShell() {
       <span class="nav-label">${escapeHtml(item.label)}</span>
     </a>
   `).join("") + `
-    <a href="./faculty-atlas/" class="nav-link atlas-entry-link">
+    <a href="./faculty-atlas/index.html" class="nav-link atlas-entry-link">
       <span class="atlas-nav-mark" aria-hidden="true">∑</span>
       <span class="nav-label">港校学术路径</span>
     </a>
@@ -450,7 +450,7 @@ function renderHome() {
         <h2 id="atlas-entry-title">港校学术路径</h2>
         <p>五校教师履历、代表论文与学术连接，支持搜索、筛选和路径比较。</p>
       </div>
-      <a class="atlas-entry-action" href="./faculty-atlas/">进入路径图谱 <span aria-hidden="true">↗</span></a>
+      <a class="atlas-entry-action" href="./faculty-atlas/index.html">进入路径图谱 <span aria-hidden="true">↗</span></a>
     </section>
 
     <section class="home-command-band">

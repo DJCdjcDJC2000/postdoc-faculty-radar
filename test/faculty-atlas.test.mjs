@@ -9,7 +9,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 test("faculty atlas is available through both portal entry points", async () => {
   const app = await fs.readFile(path.join(root, "src/site/app.js"), "utf8");
-  assert.equal((app.match(/href="\.\/faculty-atlas\/"/g) ?? []).length, 2);
+  assert.equal((app.match(/href="\.\/faculty-atlas\/index\.html"/g) ?? []).length, 2);
   const html = await fs.readFile(path.join(root, "src/site/faculty-atlas/index.html"), "utf8");
   assert.ok(html.includes('href="../#home"'));
   assert.ok(html.includes('src="./app.js"'));
