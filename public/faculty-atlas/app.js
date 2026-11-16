@@ -309,7 +309,7 @@ function openProfile(id) {
   const papers = person.papers
     .map(
       ([year, title, venue, authors]) =>
-        `<article class="profile-paper"><time>${esc(year)}</time><div><h4>${esc(title)}</h4><p>${esc(venue)}</p><p>${esc(authors)}</p></div></article>`,
+        `<article class="profile-paper"><time>${esc(year)}</time><div><h4>${esc(title)}</h4><p>${esc(venue)}</p><p>${esc(authors)}</p>${person.facultyStart ? `<p class="paper-timing">${Number(year) < Number(person.facultyStart.slice(0, 4)) ? "书目年份早于 AP 入职年份" : Number(year) === Number(person.facultyStart.slice(0, 4)) ? "书目与 AP 入职同年，具体先后待核" : "书目年份晚于 AP 入职年份，申请时状态待核"}</p>` : ""}</div></article>`,
     )
     .join("");
   $("#profile-content").innerHTML =
@@ -392,6 +392,65 @@ function renderRoster(query = "") {
       .join("");
 }
 
+function renderAnalysisRoute(key) {
+  const route = data.analysis.routes.find((item) => item.id === key);
+  const tabs = document.querySelectorAll("[data-analysis-route]");
+  tabs.forEach((tab) => {
+    const selected = tab.dataset.analysisRoute === key;
+    tab.setAttribute("aria-selected", String(selected));
+    tab.tabIndex = selected ? 0 : -1;
+  });
+  $("#analysis-route").setAttribute("aria-labelledby", `analysis-tab-${key}`);
+  $("#analysis-route").innerHTML = `
+    <div class="route-judgment"><h3>${esc(route.title)}</h3><p>${esc(route.judgment)}</p></div>
+    <div class="evidence-cases">${route.cases.map((item) => {
+      const person = data.people.find((p) => p.id === item.personId);
+      return `<article class="evidence-case"><div class="case-heading"><span>${esc(person.school)}</span><h4>${esc(person.zhName || person.name)}</h4></div><p>${esc(item.observation)}</p><p class="case-lesson">${esc(item.lesson)}</p><button class="text-button" data-open="${person.id}">履历、论文与原始来源 ↗</button></article>`;
+    }).join("")}</div>
+    <div class="route-questions"><h4>核实具体岗位时，可以逐项了解</h4><ul>${route.questions.map((item) => `<li>${esc(item)}</li>`).join("")}</ul></div>`;
+}
+
+function renderResearch() {
+  const analysis = data.analysis;
+  $("#analysis-summary").textContent = analysis.summary;
+  $("#analysis-basis").textContent = analysis.basis;
+  $("#report-caption").textContent = `${data.meta.report.pages} 页 · ${data.meta.report.edition}`;
+  $("#analysis-tabs").innerHTML = analysis.routes.map((route) =>
+    `<button role="tab" id="analysis-tab-${route.id}" data-analysis-route="${route.id}" aria-controls="analysis-route" aria-selected="false" tabindex="-1">${esc(route.label)}</button>`,
+  ).join("");
+  renderAnalysisRoute(analysis.routes[0].id);
+  $("#decision-factors").innerHTML = analysis.factors.map(([title, body]) =>
+    `<article><h4>${esc(title)}</h4><p>${esc(body)}</p></article>`,
+  ).join("");
+  $("#analysis-ai").textContent = analysis.aiNote;
+  $("#research-roadmap").innerHTML = analysis.roadmap.map((step, index) =>
+    `<details class="roadmap-step" ${index === 0 ? "open" : ""}><summary><span>${esc(step.stage)}</span><strong>${esc(step.title)}</strong></summary><ul>${step.items.map((item) => `<li>${esc(item)}</li>`).join("")}</ul></details>`,
+  ).join("");
+  const withoutPapers = data.people.filter((p) => !p.papers.length);
+  const uncertainDates = data.people.filter((p) => p.category === "待核日期");
+  $("#coverage-metrics").innerHTML = `
+    <div><strong>${data.people.length}</strong><span>已建人物档案</span></div>
+    <div><strong>${data.people.reduce((sum, p) => sum + p.papers.length, 0)}</strong><span>精选书目条目</span></div>
+    <button data-audit="papers"><strong>${withoutPapers.length}</strong><span>尚无精选书目的档案 ↗</span></button>
+    <button data-audit="dates"><strong>${uncertainDates.length}</strong><span>归类为入职日期待核 ↗</span></button>`;
+  const rows = Object.entries(schools).map(([key, name]) => {
+    const profiles = data.people.filter((p) => p.school === key);
+    return `<tr><th scope="row">${key}<small>${name}</small></th><td>${data.roster.filter((p) => p.school === key).length}</td><td>${profiles.length}</td><td>${profiles.filter((p) => p.category === "窗口内").length}</td><td>${profiles.filter((p) => !p.papers.length).length}</td></tr>`;
+  }).join("");
+  $("#coverage-schools").innerHTML = `<table><caption>五校资料收录概况</caption><thead><tr><th scope="col">学校</th><th scope="col">名录记录</th><th scope="col">人物档案</th><th scope="col">窗口内入职与流动</th><th scope="col">尚无精选书目</th></tr></thead><tbody>${rows}</tbody></table>`;
+  $("#research-tasks").innerHTML = analysis.tasks.map((task) =>
+    `<article class="research-task"><div><h3>${esc(task.title)}</h3><span>${esc(task.status)}</span></div><p>${esc(task.detail)}</p></article>`,
+  ).join("");
+}
+
+function showResearchAudit(kind) {
+  const missingPapers = kind === "papers";
+  const people = data.people.filter((p) => missingPapers ? !p.papers.length : p.category === "待核日期");
+  showInfo(missingPapers ? "尚无精选书目的档案" : "入职日期待核档案",
+    `<p>${missingPapers ? "以下档案的论文精选尚待补充。可进入档案查看现有主页与 CV 来源。" : "以下人物已建立档案，正式入职年月仍待核。其余分类中的日期精度也需分别查看。"}</p><div class="audit-list">${people.map((p) => `<button data-open="${p.id}"><strong>${esc(p.name)}</strong><span>${esc(p.school)} · ${esc(p.joined)} ↗</span></button>`).join("")}</div>`,
+  );
+}
+
 function renderStaticSections() {
   const papers = data.people.reduce((sum, p) => sum + p.papers.length, 0);
   $("#hero-stats").innerHTML = [
@@ -458,6 +517,7 @@ function renderStaticSections() {
       ? "每月 1 日 · 10:00 更新"
       : "月度更新安排配置中";
   $("#footer-coverage").textContent = data.meta.coverageNote;
+  renderResearch();
 }
 
 function bindEvents() {
@@ -469,6 +529,8 @@ function bindEvents() {
     else if (button.dataset.compare) toggleCompare(button.dataset.compare);
     else if (button.dataset.close) closeDialog(button.dataset.close);
     else if (button.dataset.journey) renderJourney(button.dataset.journey);
+    else if (button.dataset.analysisRoute) renderAnalysisRoute(button.dataset.analysisRoute);
+    else if (button.dataset.audit) showResearchAudit(button.dataset.audit);
     else if ("school" in button.dataset) setSchool(button.dataset.school);
     else if (button.dataset.page) {
       state.page = Number(button.dataset.page);
@@ -586,6 +648,15 @@ function bindEvents() {
     });
   });
   document.addEventListener("keydown", (event) => {
+    const analysisTab = event.target.closest("[data-analysis-route]");
+    if (analysisTab && ["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) {
+      event.preventDefault();
+      const tabs = [...document.querySelectorAll("[data-analysis-route]")];
+      const index = tabs.indexOf(analysisTab);
+      const next = event.key === "Home" ? 0 : event.key === "End" ? tabs.length - 1 : (index + (event.key === "ArrowRight" ? 1 : -1) + tabs.length) % tabs.length;
+      renderAnalysisRoute(tabs[next].dataset.analysisRoute);
+      tabs[next].focus();
+    }
     if (
       event.key === "/" &&
       !document.querySelector("dialog[open]") &&

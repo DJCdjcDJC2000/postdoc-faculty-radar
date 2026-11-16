@@ -4,10 +4,10 @@
     "updatedAt": "2026-11-16",
     "windowStart": "2020-11-16",
     "windowEnd": "2026-11-16",
-    "version": "2026.11",
-    "sourceCount": 286,
+    "version": "2026.11 · 补充核查",
+    "sourceCount": 204,
     "scope": "五校主要数学院系及交叉案例",
-    "coverageNote": "部分入职日期与个人 tenure 决定待核。历史离职名单的穷尽性尚未验证。",
+    "coverageNote": "已收录档案与精选书目持续补证。历史离职、跨院系全量覆盖及部分入职日期、长期聘任决定仍待核实。",
     "schedule": {
       "cadence": "monthly",
       "day": 1,
@@ -17,6 +17,10 @@
       "automationId": "automation-4",
       "execution": "codex-local",
       "nextRun": "2026-12-01T10:00:00+08:00"
+    },
+    "report": {
+      "pages": 123,
+      "edition": "2026-11-16 修订版"
     }
   },
   "people": [
@@ -72,11 +76,11 @@
       "id": "P001",
       "zhName": "赖乐潇",
       "topics": [
-        "优化与运筹",
-        "几何与数论"
+        "优化与运筹"
       ],
       "reviewedAt": "2026-11-16",
-      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
+      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。",
+      "facultyStart": "2024-07"
     },
     {
       "name": "Xinlin Cao",
@@ -119,10 +123,11 @@
       "zhName": "曹鑫林",
       "topics": [
         "计算数学",
-        "几何与数论"
+        "分析与 PDE"
       ],
       "reviewedAt": "2026-11-16",
-      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
+      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。",
+      "facultyStart": "2024-12"
     },
     {
       "name": "Guanxing Fu",
@@ -210,7 +215,8 @@
         "分析与 PDE"
       ],
       "reviewedAt": "2026-11-16",
-      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
+      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。",
+      "facultyStart": "2026-05"
     },
     {
       "name": "Rong Tang",
@@ -260,7 +266,8 @@
         "计算数学"
       ],
       "reviewedAt": "2026-11-16",
-      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
+      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。",
+      "facultyStart": "2026-05"
     },
     {
       "name": "Guohao Shen",
@@ -348,7 +355,7 @@
       "id": "P007",
       "zhName": "陈可心",
       "topics": [
-        "AI 与学习理论",
+        "优化与运筹",
         "概率与统计"
       ],
       "reviewedAt": "2026-11-16",
@@ -409,16 +416,17 @@
         "AI 与学习理论"
       ],
       "reviewedAt": "2026-11-16",
-      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
+      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。",
+      "facultyStart": "2024-07"
     },
     {
       "name": "Yancheng Yuan",
       "school": "PolyU",
-      "joined": "AP 起始年月待核",
+      "joined": "2022-12 已任 RAP；2024-01 已任 AP，确切任命日待核",
       "role": "Assistant Professor",
       "category": "待核日期",
       "education": "2011–2015 USTC 计算数学本科，本科导师 Juyong Zhang；2015–2020 NUS 数学博士，导师 Kim-Chuan Toh，Defeng Sun 参与指导至 2018 年。",
-      "career": "公开主页确认曾任 NUS NExT Center Research Fellow，导师 Tat-Seng Chua；现任理大 AMA AP。未用第三方自动履历补齐入职年份。",
+      "career": "本人主页记载 NUS NExT Center Research Fellow，导师 Tat-Seng Chua。2022-12-21 SUTD 官方报告简介仍列理大 RAP，2024-01-26 中大 SEEM 官方报告已列理大 AP。当前为理大 AMA AP。两条带日期材料可约束公开职称记录，正式任命日期仍待 CV 或任命公告。",
       "connections": "公开师承 Toh、Sun；研究岗位连接 Chua；合作与软件项目连接理大优化、统计和 AI 团队。",
       "papers": [
         [
@@ -444,22 +452,29 @@
           "An efficient semismooth Newton based algorithm for convex clustering",
           "Proceedings of the 35th International Conference on Machine Learning, 2018 (ICML '18).",
           "Yancheng Yuan, Defeng Sun, and Kim-Chuan Toh"
+        ],
+        [
+          2021,
+          "Convex clustering: model, theoretical guarantee and efficient algorithm",
+          "Journal of Machine Learning Research 22(9), 1–32",
+          "Sun、Toh、Yuan"
         ]
       ],
       "sources": [
         "https://paulyuanmath.github.io/",
         "https://paulyuanmath.github.io/publications.html",
-        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yuan-yancheng/"
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yuan-yancheng/",
+        "https://www.sutd.edu.sg/events-listing/yancheng-yuan-the-hong-kong-polytechnic-university-convex-clustering-model-a-new-fashion-for-clustering",
+        "https://seminar.se.cuhk.edu.hk/node/329"
       ],
       "relevance": "与你的研究环境和优化算法路线接近。可重点分析其优化理论、求解器实现和后续 AI 工作如何衔接，以及各自的实质贡献。",
-      "notes": "现职和学历已核；AP 起始年月仍需本人 CV 或任命公告。HPR-LP、HPR-QP、HOT 为软件项目，不能直接当作已发表论文。",
+      "notes": "已找到 RAP 与 AP 的带日期官方报告简介。旧活动页面可能更新，2024-01 仅说明当时公开简介已列 AP。首次进入理大日期及实际 AP 任命日仍待核。HPR-LP、HPR-QP、HOT 分别保留为软件项目。",
       "progress": "",
       "id": "P009",
       "zhName": "袁雁城",
       "topics": [
         "优化与运筹",
-        "AI 与学习理论",
-        "概率与统计"
+        "AI 与学习理论"
       ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
@@ -536,7 +551,9 @@
       "progress": "",
       "id": "P011",
       "zhName": "蒋招立",
-      "topics": [],
+      "topics": [
+        "概率与统计"
+      ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
     },
@@ -761,6 +778,7 @@
       "id": "P016",
       "zhName": "",
       "topics": [
+        "计算数学",
         "AI 与学习理论"
       ],
       "reviewedAt": "2026-11-16",
@@ -1072,24 +1090,25 @@
         [
           2026,
           "Solving the Fokker–Planck Equation of Discretized Dean–Kawasaki Models with Functional Hierarchical Tensor",
-          "SIAM 期刊具体卷页见完整列表",
+          "SIAM Journal on Scientific Computing 48(4), A2182–A2205；2026-08-06 online；DOI 10.1137/25M1746318",
           "Tang、Ying"
         ]
       ],
       "sources": [
         "https://www.math.hkust.edu.hk/people/faculty/profile/xuntang/",
         "https://researchportal.hkust.edu.hk/en/persons/xun-tang/",
-        "https://xun-tang123.github.io/Xun_website/"
+        "https://xun-tang123.github.io/Xun_website/",
+        "https://researchportal.hkust.edu.hk/en/publications/solving-the-fokkerplanck-equation-of-discretized-deankawasaki-mod/"
       ],
       "relevance": "高维计算与快速算法方向的近期教职案例。博后只有约一年，比较时应关注此前已完成的研究积累。",
-      "notes": "第二篇论文的期刊卷页未在本次记录中完整核准。",
+      "notes": "已补准第二篇论文的卷页与线上出版日。其出版与 2026-08 入职同月，具体招聘决定时间仍待核。",
       "progress": "",
       "id": "P023",
       "zhName": "",
       "topics": [
+        "计算数学",
         "优化与运筹",
-        "AI 与学习理论",
-        "分析与 PDE"
+        "AI 与学习理论"
       ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
@@ -1406,8 +1425,7 @@
       "zhName": "",
       "topics": [
         "优化与运筹",
-        "概率与统计",
-        "几何与数论"
+        "AI 与学习理论"
       ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
@@ -2069,7 +2087,6 @@
       "id": "P044",
       "zhName": "",
       "topics": [
-        "优化与运筹",
         "几何与数论"
       ],
       "reviewedAt": "2026-11-16",
@@ -2150,7 +2167,9 @@
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P046",
       "zhName": "",
-      "topics": [],
+      "topics": [
+        "几何与数论"
+      ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
     },
@@ -2244,7 +2263,26 @@
       "education": "北京航空航天大学博士 2015。其余学历与具体导师未核。",
       "career": "曾在英国研究机构工作；本人 news 记载 2022-08 入科大。现属数学与跨学科联合聘任体系。",
       "connections": "具体正式指导关系及英国任职起止待 CV 补充。",
-      "papers": [],
+      "papers": [
+        [
+          2020,
+          "Fast convergence and asymptotic preserving of the general synthetic iterative scheme",
+          "SIAM Journal on Scientific Computing 42(6), B1517–B1540",
+          "Su、Zhu、Wu"
+        ],
+        [
+          2020,
+          "Can we find steady-state solutions to multiscale rarefied gas flows within dozens of iterations?",
+          "Journal of Computational Physics 407, 109245",
+          "Su、Zhu、Wang、Zhang、Wu"
+        ],
+        [
+          2020,
+          "Implicit discontinuous Galerkin method for the Boltzmann equation with full collision operator",
+          "Journal of Scientific Computing 82, 39",
+          "Su、Wang、Zhang、Wu"
+        ]
+      ],
       "sources": [
         "https://weisu-mae.github.io/"
       ],
@@ -2253,7 +2291,10 @@
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P049",
       "zhName": "",
-      "topics": [],
+      "topics": [
+        "计算数学",
+        "分析与 PDE"
+      ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
     },
@@ -2329,7 +2370,6 @@
       "id": "P051",
       "zhName": "",
       "topics": [
-        "优化与运筹",
         "分析与 PDE"
       ],
       "reviewedAt": "2026-11-16",
@@ -2577,7 +2617,9 @@
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P057",
       "zhName": "",
-      "topics": [],
+      "topics": [
+        "分析与 PDE"
+      ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
     },
@@ -2628,10 +2670,25 @@
       "education": "Université Paris VI 数学博士。2012 获博士论文奖。",
       "career": "本人主页明确 2022 加入 CityU。此前任 NYU Shanghai faculty、NYU Courant Instructor、Université Côte d’Azur maître de conférences。现为 CityU 助理教授。",
       "connections": "研究涉及应用随机分析、PDE、最优控制与数值分析；指导及合作关系有待完整 CV。",
-      "papers": [],
+      "papers": [
+        [
+          2024,
+          "Exponential mixing of constrained random dynamical systems via controllability conditions",
+          "arXiv:2403.16058；相关期刊 DOI 10.1137/24M164999X，正式出版年待核",
+          "Mertz、Nersesyan、Rissel"
+        ],
+        [
+          2025,
+          "Constrained non-linear estimation and links with stochastic filtering",
+          "arXiv:2502.01200，预印本",
+          "Chaintron、Mertz、Moireau、Zidani"
+        ]
+      ],
       "sources": [
         "https://www.cityu.edu.hk/stfprofile/laurent-mertz.htm",
-        "https://sites.google.com/view/laurentmertz"
+        "https://sites.google.com/view/laurentmertz",
+        "https://arxiv.org/abs/2403.16058",
+        "https://arxiv.org/abs/2502.01200"
       ],
       "relevance": "应用概率与控制。可进一步回溯其纽约和上海任职期间的研究独立性。",
       "notes": "本人主页提供首次入职年，完整各阶段月份待 CV 补充。",
@@ -2693,7 +2750,20 @@
       "education": "Texas A&M 博士 2015。",
       "career": "2015–2018 Bonn Hausdorff 博后；2018–2019 Imperial Newton Fellow；2019–2020 Groningen AP；2020-08 HKU AP。",
       "connections": "公开研究连接多尺度计算、随机 PDE、反问题和学习方法。正式导师关系待 CV。",
-      "papers": [],
+      "papers": [
+        [
+          2018,
+          "On the decay rate of the singular values of bivariate functions",
+          "SIAM Journal on Numerical Analysis 56(2), 974–993",
+          "Griebel、Li"
+        ],
+        [
+          2018,
+          "Low-Rank Approximation to Heterogeneous Elliptic Problems",
+          "Multiscale Modeling & Simulation 16(1), 477–502",
+          "Li"
+        ]
+      ],
       "sources": [
         "https://sites.google.com/site/lotusli0707/",
         "https://sites.google.com/site/lotusli0707/research"
@@ -2720,7 +2790,20 @@
       "education": "Johns Hopkins 博士 2017。",
       "career": "2017–2020 Vanderbilt 研究岗位；2020-08 中大 AP；2026-08 Associate Professor。",
       "connections": "公开 PDE 研究合作连接 Hans Lindblad 等。",
-      "papers": [],
+      "papers": [
+        [
+          2020,
+          "On the incompressible limit for the compressible free-boundary Euler equations with surface tension in the case of a liquid",
+          "Archive for Rational Mechanics and Analysis 237(2), 829–897",
+          "Disconzi、Luo"
+        ],
+        [
+          2024,
+          "A Generalized Beale–Kato–Majda Breakdown Criterion for the Free-Boundary Problem in Euler Equations with Surface Tension",
+          "SIAM Journal on Mathematical Analysis 56(1), 374–411",
+          "Luo、Zhou"
+        ]
+      ],
       "sources": [
         "https://chenyunluo.github.io/"
       ],
@@ -2769,7 +2852,26 @@
       "education": "HKBU 本科 2012；Wisconsin–Madison 博士 2017，导师 Shi Jin。",
       "career": "UT Austin Peter O’Donnell 博后后于 2020 入 CUHK，现助理教授。",
       "connections": "博士师承 Shi Jin，研究为动力学方程、随机不确定性和科学计算。",
-      "papers": [],
+      "papers": [
+        [
+          2018,
+          "Hypocoercivity based sensitivity analysis and spectral convergence of the stochastic Galerkin approximation to collisional kinetic equations with multiple scales and random inputs",
+          "Multiscale Modeling & Simulation",
+          "Jin、Liu"
+        ],
+        [
+          2019,
+          "A stochastic Asymptotic-preserving scheme for the bipolar semiconductor Boltzmann-Poisson system with random inputs and diffusive scalings",
+          "Journal of Computational Physics",
+          "Liu（独作）"
+        ],
+        [
+          2020,
+          "A bi-fidelity method for the Boltzmann equation with random parameters and multiple scales",
+          "Journal of Computational Physics",
+          "Liu、Zhu"
+        ]
+      ],
       "sources": [
         "https://www.math.cuhk.edu.hk/people/academic-staff/lliu"
       ],
@@ -2904,7 +3006,10 @@
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P069",
       "zhName": "",
-      "topics": [],
+      "topics": [
+        "计算数学",
+        "分析与 PDE"
+      ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
     },
@@ -2936,18 +3041,50 @@
     {
       "name": "Ting Kei Pong",
       "school": "PolyU",
-      "joined": "2013 入职，窗口外",
+      "joined": "2014-08-01 入职，窗口外",
       "role": "Professor",
       "category": "窗口外对照",
-      "education": "CUHK 本科及硕士；Washington 博士 2011，导师 Maryam Fazel。",
-      "career": "2011–2013 Waterloo，与 Henry Wolkowicz 研究，亦有 UBC 短期研究经历；2013 PolyU，现 Professor。",
-      "connections": "师承 Fazel，博后合作 Wolkowicz。公开研究涉及非光滑非凸优化、KL 性质和算法收敛。",
-      "papers": [],
+      "education": "2004 中大数学本科，2006 中大 MPhil，导师 Kung Fu Ng。2011-06 University of Washington 数学博士，先由 Paul Tseng 指导，后由 Maryam Fazel、Rekha Thomas 共同指导。",
+      "career": "2010-07 至 2011-03 Simon Fraser 访问研究，与 Zhaosong Lu 合作。2011-06 至 2013-07 Waterloo 博后，导师 Stephen Vavasis、Henry Wolkowicz。2013-07 至 2014-07 UBC PIMS 博后，与 Michael Friedlander 合作。2014-08-01 加入理大，现为 Professor。",
+      "connections": "公开指导关系包括 Kung Fu Ng、Paul Tseng、Maryam Fazel、Rekha Thomas、Stephen Vavasis、Henry Wolkowicz、Michael Friedlander。与 Xiaojun Chen、Guoyin Li 等持续合作。",
+      "papers": [
+        [
+          2013,
+          "Hankel matrix rank minimization with applications in system identification and realization",
+          "SIAM Journal on Matrix Analysis and Applications 34, 946–977",
+          "Fazel、Pong、Sun、Tseng"
+        ],
+        [
+          2014,
+          "Gauge optimization and duality",
+          "SIAM Journal on Optimization 24, 1999–2022",
+          "Friedlander、Macêdo、Pong"
+        ],
+        [
+          2018,
+          "Calculus of the exponent of Kurdyka-Łojasiewicz inequality and its applications to linear convergence of first-order methods",
+          "Foundations of Computational Mathematics 18, 1199–1232",
+          "Li、Pong"
+        ],
+        [
+          2018,
+          "A proximal difference-of-convex algorithm with extrapolation",
+          "Computational Optimization and Applications 69, 297–324",
+          "Wen、Chen、Pong"
+        ],
+        [
+          2025,
+          "Subdifferentially polynomially bounded functions and Gaussian smoothing-based zeroth-order optimization",
+          "SIAM Journal on Optimization 35, 1393–1418",
+          "Lei、Pong、Sun、Yue"
+        ]
+      ],
       "sources": [
-        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-pong-ting-kei/"
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-pong-ting-kei/",
+        "https://www.polyu.edu.hk/ama/profile/pong/"
       ],
       "relevance": "与你的优化方向相关的长期发展对照。",
-      "notes": "",
+      "notes": "本轮按本人主页纠正原档案中 2013 年入职的错误，并补全加拿大博后序列。属于六年窗口外对照。",
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P071",
       "zhName": "",
@@ -2955,7 +3092,8 @@
         "优化与运筹"
       ],
       "reviewedAt": "2026-11-16",
-      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
+      "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。",
+      "facultyStart": "2014-08"
     },
     {
       "name": "Xuhua He",
@@ -3114,7 +3252,26 @@
       "education": "浙江大学本科及硕士；CUHK 博士 2008，导师 Jun Zou。",
       "career": "博士后和任职经历包括欧洲及美国，来港前任 UCL 教授；2022-07 中大教授、Global STEM Scholar。完整岗位起止待 CV。",
       "connections": "博士导师 Jun Zou，研究为反问题、数值分析、科学机器学习。",
-      "papers": [],
+      "papers": [
+        [
+          2021,
+          "Error analysis of finite element approximations of diffusion coefficient identification for elliptic and parabolic problems",
+          "SIAM Journal on Numerical Analysis 59(1), 119–142",
+          "Jin、Zhou"
+        ],
+        [
+          2021,
+          "On the saturation phenomenon of stochastic gradient descent for linear inverse problems",
+          "SIAM/ASA Journal on Uncertainty Quantification 9(4), 1553–1588",
+          "Jin、Zhou、Zou"
+        ],
+        [
+          2022,
+          "Imaging conductivity from current density magnitude using neural networks",
+          "Inverse Problems 38(7), 075003",
+          "Jin、Li、Lu"
+        ]
+      ],
       "sources": [
         "https://www.math.cuhk.edu.hk/people/academic-staff/btjin"
       ],
@@ -3247,8 +3404,7 @@
       "zhName": "",
       "topics": [
         "优化与运筹",
-        "计算数学",
-        "几何与数论"
+        "计算数学"
       ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
@@ -3356,19 +3512,58 @@
     {
       "name": "Yue Xie",
       "school": "HKU",
-      "joined": "现 RAP；首次入职日待核",
+      "joined": "2021-11-01 RAP",
       "role": "Research Assistant Professor",
       "category": "研究岗位",
-      "education": "清华本科；Penn State 博士。",
-      "career": "现任 HKU 数学与 Institute of Data Science Research Assistant Professor，HKU-IDS Scholar，由 HKU-100 招聘计划引入。",
-      "connections": "研究非凸与随机优化，具体师承和前职待完整 CV。",
-      "papers": [],
+      "education": "2009–2013 清华大学数学本科。2013–2018 Penn State 工业工程博士，兼 Operations Research 双学位方向，导师 Uday V. Shanbhag。",
+      "career": "2018-10 至 2021-08 Wisconsin Institute for Discovery 博后，导师 Stephen J. Wright。2021-11-01 起任 HKU 数学系与 Musketeers Foundation Institute of Data Science RAP，通过 HKU-100 招聘计划引入。2025-03 至 2025-05 曾访问 Georgia Tech。",
+      "connections": "博士导师 Uday V. Shanbhag，博后导师 Stephen J. Wright。与 Zhongjian Wang、Zhiwen Zhang 合作最优传输算法。",
+      "papers": [
+        [
+          2016,
+          "On robust solutions to uncertain linear complementarity problems and their variants",
+          "SIAM Journal on Optimization，DOI 10.1137/15M1010427",
+          "Xie、Shanbhag"
+        ],
+        [
+          2020,
+          "SI-ADMM: A stochastic inexact ADMM framework for stochastic convex programs",
+          "IEEE Transactions on Automatic Control 65(6), 2355–2370；2019 online",
+          "Xie、Shanbhag"
+        ],
+        [
+          2020,
+          "Tractable ADMM schemes for computing KKT points and local minimizers for l0-minimization problems",
+          "Computational Optimization and Applications，DOI 10.1007/s10589-020-00227-6",
+          "Xie、Shanbhag"
+        ],
+        [
+          2021,
+          "Complexity of proximal augmented Lagrangian for nonconvex optimization with nonlinear equality constraints",
+          "Journal of Scientific Computing，DOI 10.1007/s10915-021-01409-y",
+          "Xie、Wright"
+        ],
+        [
+          2023,
+          "Complexity of a Projected Newton-CG Method for Optimization with Bounds",
+          "Mathematical Programming，DOI 10.1007/s10107-023-02000-z",
+          "Xie、Wright"
+        ],
+        [
+          2024,
+          "Randomized methods for computing optimal transport without regularization and their convergence analysis",
+          "Journal of Scientific Computing，DOI 10.1007/s10915-024-02570-w",
+          "Xie、Wang、Zhang"
+        ]
+      ],
       "sources": [
         "https://hkumath.hku.hk/MathWWW/people.php?faculty.yxie",
-        "https://yue-xie.github.io/"
+        "https://yue-xie.github.io/",
+        "https://yue-xie.github.io/files/CV_YX_2026.pdf",
+        "https://yue-xie.github.io/publications/"
       ],
-      "relevance": "与你研究方法相近的香港 RAP 平台案例。",
-      "notes": "",
+      "relevance": "在优化方向可重点对照鲁棒互补问题、投影 Newton-CG、增广拉格朗日复杂度与最优传输的研究延伸。其公开现职为 RAP。",
+      "notes": "本人 2026 CV 明确入职日期。RAP 转 AP 或个人长期聘任的公开决定尚未发现。SIOPT 2016 论文与互补问题直接相关，具体结论需阅读原文。",
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P088",
       "zhName": "",
@@ -3383,21 +3578,48 @@
       "name": "Shiping Cao",
       "school": "CUHK",
       "joined": "2025 RAP；当前职称有冲突",
-      "role": "RAP / AP 冲突待核",
+      "role": "Research Assistant Professor（个人 profile 标题 AP，冲突保留）",
       "category": "研究岗位",
       "education": "南京大学本科 2016；Cornell 博士 2022，导师 Robert Strichartz，最后一学期 Laurent Saloff-Coste。",
       "career": "2022–2025 Washington PIMS-Simons 博后，mentor Zhen-Qing Chen；本人页列 2025 起 CUHK RAP，系个人 profile 标题出现 Assistant Professor，岗位待确认。",
       "connections": "博士及博后指导关系为本人主页明确记录。",
-      "papers": [],
+      "papers": [
+        [
+          2021,
+          "Existence and uniqueness of diffusions on the Julia sets of Misiurewicz-Sierpinski maps",
+          "Advances in Mathematics 389, 107922",
+          "Cao、Hassler、Qiu、Sandine、Strichartz"
+        ],
+        [
+          2022,
+          "p-energies on p.c.f. self-similar sets",
+          "Advances in Mathematics 405, 108517",
+          "Cao、Gu、Qiu"
+        ],
+        [
+          2023,
+          "Scaling limits of loop-erased Markov chains on resistance spaces via a partial loop erasing procedure",
+          "Advances in Mathematics 435, 109382",
+          "Cao"
+        ],
+        [
+          2024,
+          "Dirichlet forms on unconstrained Sierpinski carpets",
+          "Probability Theory and Related Fields 189, 613–657",
+          "Cao、Qiu"
+        ]
+      ],
       "sources": [
         "https://sites.google.com/view/shipingcao",
-        "https://www.math.cuhk.edu.hk/people/academic-staff/spcao"
+        "https://www.math.cuhk.edu.hk/people/academic-staff/spcao",
+        "https://www.sci.cuhk.edu.hk/enewsletter/issue84/new_staff.pdf",
+        "https://research.cuhk.edu.hk/en/persons/shiping-cao/"
       ],
       "relevance": "分形上的随机过程与分析。",
-      "notes": "",
+      "notes": "2025 官方新教师公告、院系分类名录、大学研究库与本人主页均记录 RAP。院系个人页标题写 Assistant Professor。当前按多份一致来源展示 RAP，同时保留冲突，AP 任命日期待公开证明。",
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P089",
-      "zhName": "",
+      "zhName": "曹仕平",
       "topics": [
         "概率与统计"
       ],
@@ -3425,13 +3647,25 @@
           "On symmetry breaking for the Navier-Stokes equations",
           "Communications in Mathematical Physics",
           "Barker、Prange、Tan"
+        ],
+        [
+          2025,
+          "Free boundary regularity of vacuum states for incompressible viscous flows in unbounded domains",
+          "American Journal of Mathematics，本人主页记载 accepted 2025",
+          "Prange、Tan"
+        ],
+        [
+          2026,
+          "Weak solutions of Moffatt’s magnetic relaxation equations",
+          "SIAM Journal on Mathematical Analysis，本人主页记载 accepted 2026",
+          "Tan"
         ]
       ],
       "sources": [
         "https://sites.google.com/view/math-jintan/"
       ],
       "relevance": "流体 PDE。可观察法国博士及博后后进入香港研究岗位的过程。",
-      "notes": "网页仍在求职市场，公开名录无法确认续聘结果。",
+      "notes": "本轮本人主页仍列 RAP 且在求职市场。主页所列 GRF 项目期为 2025-09 至 2028-08，合约续期仍待正式任职证据。",
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P090",
       "zhName": "",
@@ -3444,22 +3678,41 @@
     {
       "name": "Neng Wan",
       "school": "CUHK",
-      "joined": "首次入职及现岗待核",
-      "role": "RAP / Principal Scientist 冲突",
+      "joined": "2025 RAP（官方新教师公告）",
+      "role": "Research Assistant Professor / CMAI Deputy Director",
       "category": "研究岗位",
       "education": "学历与完整 CV 本轮未完成核验。",
-      "career": "院系名单列 Research Assistant Professor，个人 profile 出现 Principal Scientist，岗位类型待核。",
+      "career": "2025 官方新教师公告记载加入 CUHK 数学系任 RAP。CMAI 官方人员页列 Deputy Director 及 Research Assistant Professor，大学研究库亦列 RAP。院系个人页另用 Principal Scientist 描述其工作。",
       "connections": "正式指导关系尚未核实。",
-      "papers": [],
-      "sources": [
-        "https://www.math.cuhk.edu.hk/people/academic-staff/nengwan"
+      "papers": [
+        [
+          2026,
+          "A two-stage stochastic optimization approach for supply storage and allocation with fairness in humanitarian relief",
+          "Computers & Industrial Engineering 219, 112161；大学研究库所列",
+          "Wu、Fan、Song、Jiang、Wan"
+        ],
+        [
+          2026,
+          "Consensus Adjustment Mechanism Based on Semisupervised Clustering and Cross Allocation for Large-Scale Social Network Group Decision Making",
+          "IEEE Transactions on Computational Social Systems 13(4), 5171–5184；大学研究库所列",
+          "Wu、Huang、Guo、Liu、Wan"
+        ]
       ],
-      "relevance": "作为名录冲突记录保留。",
-      "notes": "",
+      "sources": [
+        "https://www.math.cuhk.edu.hk/people/academic-staff/nengwan",
+        "https://www.sci.cuhk.edu.hk/enewsletter/issue84/new_staff.pdf",
+        "https://cmai.math.cuhk.edu.hk/People.html",
+        "https://research.cuhk.edu.hk/en/persons/neng-wan/"
+      ],
+      "relevance": "数学 AI 中心的研究岗位与组织任职案例。当前证据可补充入职年份和中心职务。",
+      "notes": "RAP 与 Principal Scientist 两种称谓均有官方来源，暂无法确定后者是独立职位还是职能描述。2025 公告明确 RAP 入职年份，完整学历、导师与更早研究经历仍待核实。",
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P091",
-      "zhName": "",
-      "topics": [],
+      "zhName": "万能",
+      "topics": [
+        "AI 与学习理论",
+        "优化与运筹"
+      ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
     },
@@ -3469,107 +3722,221 @@
       "joined": "现职已核；首次入职待核",
       "role": "Research Assistant Professor",
       "category": "研究岗位",
-      "education": "本轮未完成个人学历及 CV 核验。",
-      "career": "理大 AMA 现行 Academic Staff 名录列 Research Assistant Professor。",
-      "connections": "指导关系和共同论文需后续核对本人资料。",
-      "papers": [],
-      "sources": [
-        "https://www.polyu.edu.hk/ama/people/academic-staff/"
+      "education": "中国科学技术大学数学本科。2021 Purdue University 数学博士，指导关系由 Xiangxiong Zhang 的官方 CV 学生列表确认。论文题目为 Accuracy and monotonicity of spectral element method on structured meshes。",
+      "career": "2022–2023 University of Texas at Austin Oden Institute 博后。2024-03 至 2025-06 理大博后，与 Buyang Li 合作。当前理大 AMA 名录及原指导老师 CV 均列 RAP，正式 RAP 任命日待核。",
+      "connections": "博士阶段与 Xiangxiong Zhang、Daniel Appelö 共同发表谱元方法工作。理大研究阶段由 Buyang Li 的团队页确认。",
+      "papers": [
+        [
+          2020,
+          "On the monotonicity and discrete maximum principle of the finite difference implementation of C0-Q2 finite element method",
+          "Numerische Mathematik 145, 437–472",
+          "Li、Zhang"
+        ],
+        [
+          2020,
+          "Superconvergence of high order finite difference schemes based on variational formulation for elliptic equations",
+          "Journal of Scientific Computing 82, 36",
+          "Li、Zhang"
+        ],
+        [
+          2022,
+          "Accuracy of Spectral Element Method for Wave, Parabolic, and Schrödinger Equations",
+          "SIAM Journal on Numerical Analysis 60(1), 339–363；2021-08-27 accepted，2022-02-10 online",
+          "Li、Appelö、Zhang"
+        ]
       ],
-      "relevance": "保留 RAP 人员入口，以便追踪研究岗位与后续教职变化。",
-      "notes": "",
+      "sources": [
+        "https://www.polyu.edu.hk/ama/people/academic-staff/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-hao/",
+        "https://www.math.purdue.edu/~zhan1966/cv.pdf",
+        "https://www.math.purdue.edu/~zhan1966/research/index.html",
+        "https://libuyang.com/group.htm",
+        "https://epubs.siam.org/doi/10.1137/21M1401760"
+      ],
+      "relevance": "与你的谱方法训练直接相邻，可从谱元误差、单调性、数值实现和后续学习方法交叉观察研究延续。",
+      "notes": "院系所链个人主页本轮返回 404，学历与任职改由院系简介、博士导师 CV 和博后团队页交叉补证。",
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P092",
       "zhName": "",
-      "topics": [],
+      "topics": [
+        "计算数学",
+        "AI 与学习理论"
+      ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
     },
     {
       "name": "Mingxiang Li",
       "school": "PolyU",
-      "joined": "现职已核；首次入职待核",
+      "joined": "2026-09-02 RAP",
       "role": "Research Assistant Professor",
       "category": "研究岗位",
-      "education": "本轮未完成个人学历及 CV 核验。",
-      "career": "理大 AMA 现行 Academic Staff 名录列 Research Assistant Professor。",
-      "connections": "指导关系和共同论文需后续核对本人资料。",
-      "papers": [],
-      "sources": [
-        "https://www.polyu.edu.hk/ama/people/academic-staff/"
+      "education": "2015–2019 南京大学本科，2019–2024 南京大学博士。2022-10 至 2023-08 University Paul Sabatier 访问博士生。正式博士导师尚待明确材料。",
+      "career": "2024-09-02 至 2026-09-01 中大博士后。2026-09-02 起理大 RAP，日期由本人主页及本人 ORCID 记录交叉确认。",
+      "connections": "论文共同作者包括 Xingwang Xu、Juncheng Wei、Yuxin Ge、Zhao Lian 等。共同作者与正式博士后指导关系分别保留。",
+      "papers": [
+        [
+          2024,
+          "The total Q-curvature, volume entropy and polynomial growth polyharmonic functions",
+          "Advances in Mathematics 450, 109768",
+          "Li（独作）"
+        ],
+        [
+          2024,
+          "A Liouville-type theorem in conformally invariant equations",
+          "Mathematische Annalen 389(3), 2499–2517",
+          "Li（独作）"
+        ],
+        [
+          2025,
+          "On positivity of the Q-curvatures of conformal metrics",
+          "Journal of Functional Analysis 289(8), 111011",
+          "Li、Xu"
+        ]
       ],
-      "relevance": "保留 RAP 人员入口，以便追踪研究岗位与后续教职变化。",
-      "notes": "",
+      "sources": [
+        "https://www.polyu.edu.hk/ama/people/academic-staff/",
+        "https://limingxiangmath.github.io/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-mingxiang/",
+        "https://orcid.org/0000-0002-6565-9864"
+      ],
+      "relevance": "几何分析研究岗位案例，展示中大博后后跨校进入理大 RAP 的序列。",
+      "notes": "本人主页与 ORCID 提供任职日期。RAP 后续转 AP 或长期聘任尚待未来公开决定。",
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P093",
-      "zhName": "",
-      "topics": [],
+      "zhName": "李明翔",
+      "topics": [
+        "分析与 PDE",
+        "几何与数论"
+      ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
     },
     {
       "name": "Wei Liu",
       "school": "PolyU",
-      "joined": "现职已核；首次入职待核",
+      "joined": "2025 起 RAP（本人任职序列）",
       "role": "Research Assistant Professor",
       "category": "研究岗位",
-      "education": "本轮未完成个人学历及 CV 核验。",
-      "career": "理大 AMA 现行 Academic Staff 名录列 Research Assistant Professor。",
-      "connections": "指导关系和共同论文需后续核对本人资料。",
-      "papers": [],
-      "sources": [
-        "https://www.polyu.edu.hk/ama/people/academic-staff/"
+      "education": "2013–2017 浙江大学数学本科。2017–2022 中科院数学与系统科学研究院，2022-06 获计算数学博士，导师 Xin Liu。",
+      "career": "2019-08 至 2021-08 在理大任研究助理，由 Xiaojun Chen 支持。2022-08 至 2025-08 Rensselaer Polytechnic Institute 博后，与 Yangyang Xu 合作。随后进入理大 RAP，现职由院系名录确认。",
+      "connections": "博士导师 Xin Liu，理大访问支持 Xiaojun Chen，RPI 博后合作 Yangyang Xu，均由本人主页明确记载。",
+      "papers": [
+        [
+          2022,
+          "Linearly-constrained nonsmooth optimization for training autoencoders",
+          "SIAM Journal on Optimization",
+          "Liu、Liu、Chen"
+        ],
+        [
+          2023,
+          "An inexact augmented Lagrangian algorithm for training leaky ReLU neural network with group sparsity",
+          "Journal of Machine Learning Research",
+          "Liu、Liu、Chen"
+        ]
       ],
-      "relevance": "保留 RAP 人员入口，以便追踪研究岗位与后续教职变化。",
-      "notes": "",
+      "sources": [
+        "https://www.polyu.edu.hk/ama/people/academic-staff/",
+        "https://sites.google.com/view/liu-wei/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-liu-wei/"
+      ],
+      "relevance": "与你的陈小君课题组背景尤其接近。可比较非光滑约束优化、复杂度理论与外部博后方法训练的衔接，并从实际成果了解合作网络如何扩展。",
+      "notes": "本人主页另有自 2027 年起赴武汉的未来表述。当前为 2026-11，保留为未来节点待核，当前岗位仍按理大名录。",
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P094",
       "zhName": "",
-      "topics": [],
+      "topics": [
+        "优化与运筹",
+        "AI 与学习理论"
+      ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
     },
     {
       "name": "Qi Wang",
       "school": "PolyU",
-      "joined": "现职已核；首次入职待核",
+      "joined": "2024-07 博后；2026-06 RAP",
       "role": "Research Assistant Professor",
       "category": "研究岗位",
-      "education": "本轮未完成个人学历及 CV 核验。",
-      "career": "理大 AMA 现行 Academic Staff 名录列 Research Assistant Professor。",
-      "connections": "指导关系和共同论文需后续核对本人资料。",
-      "papers": [],
-      "sources": [
-        "https://www.polyu.edu.hk/ama/people/academic-staff/"
+      "education": "2015–2019 哈尔滨工业大学电气工程及自动化本科。2019–2024 清华大学电机系博士。正式博士导师未在本轮读取材料中明确列出。",
+      "career": "2024-07 至 2026-06 理大 AMA 博后，获 Postdoc Matching Fund Scheme 支持。2026-06 起任 RAP，日期来自院系所链个人网站的公开数据。",
+      "connections": "共同作者包括 Wenchuan Wu、Defeng Sun、Chenhui Lin 等。共同作者身份有书目支持，正式指导关系仍待核。",
+      "papers": [
+        [
+          2024,
+          "An exact relaxation method for complementarity constraints of energy storages in power grid optimization problems",
+          "Applied Energy 371, 123592",
+          "Wang、Wu、Lin、Xu、Wang、Tian"
+        ],
+        [
+          2025,
+          "An Efficient GPU-Based Halpern Accelerating Algorithm for Large-Scale DC Optimal Power Flow",
+          "IEEE Transactions on Power Systems；本人网页所列年，卷期待核",
+          "Wang、Zhang、Yang、Ren、Wu、Zhao、Skoglund、Sun"
+        ]
       ],
-      "relevance": "保留 RAP 人员入口，以便追踪研究岗位与后续教职变化。",
-      "notes": "",
+      "sources": [
+        "https://www.polyu.edu.hk/ama/people/academic-staff/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-qi/",
+        "https://qiwang-site.github.io/",
+        "https://qiwang-site.github.io/site-data.js"
+      ],
+      "relevance": "电力系统中的大规模优化、互补约束和 GPU 算法，与优化求解器方向存在具体方法交集。",
+      "notes": "院系链接指向该个人网站，身份据此匹配。网站部分 IEEE 书目的 online 年与卷期年不同，精选条目保留本人所列年份并标记待逐篇核对。",
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P095",
       "zhName": "",
-      "topics": [],
+      "topics": [
+        "优化与运筹",
+        "AI 与学习理论"
+      ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
     },
     {
       "name": "Fangyan Yao",
       "school": "PolyU",
-      "joined": "现职已核；首次入职待核",
+      "joined": "2022-10 博后；2024-12 后已任 RAP，确切任命日待核",
       "role": "Research Assistant Professor",
       "category": "研究岗位",
-      "education": "本轮未完成个人学历及 CV 核验。",
-      "career": "理大 AMA 现行 Academic Staff 名录列 Research Assistant Professor。",
-      "connections": "指导关系和共同论文需后续核对本人资料。",
-      "papers": [],
-      "sources": [
-        "https://www.polyu.edu.hk/ama/people/academic-staff/"
+      "education": "华南理工大学博士，导师 Yongsheng Li、Yifei Wu。博士期间获 CSC 联合培养资助赴奥地利 Innsbruck，与 Alexander Ostermann 合作。",
+      "career": "Buyang Li 团队页记载 2022-10 至 2024-12 为理大博后，现岗位为理大 RAP。个人主页亦列 RAP。RAP 确切任命年月待核。",
+      "connections": "本人主页明确记载 Yongsheng Li、Yifei Wu、Alexander Ostermann 与 Buyang Li 的训练或合作关系。另与 Arieh Iserles 共同研究移动窗口数值方法。",
+      "papers": [
+        [
+          2024,
+          "Convergence of a moving window method for the Schrödinger equation with potential on Rd",
+          "Preprint，arXiv:2408.09463",
+          "Iserles、Li、Yao"
+        ],
+        [
+          2026,
+          "Computing rough solutions of the KdV equation below L2",
+          "SIAM Journal on Numerical Analysis；本人页所列，卷页待核",
+          "Cao、Li、Wu、Yao"
+        ],
+        [
+          2026,
+          "Second-order uniformly accurate method for the semiclassical nonlinear Schrödinger equation with initial data in H2",
+          "Numerische Mathematik；DOI 10.1007/s00211-026-01541-7",
+          "Li、Wu、Yao"
+        ]
       ],
-      "relevance": "保留 RAP 人员入口，以便追踪研究岗位与后续教职变化。",
-      "notes": "",
+      "sources": [
+        "https://www.polyu.edu.hk/ama/people/academic-staff/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-yao-fangyan/",
+        "https://fangyan-yao.github.io/",
+        "https://libuyang.com/group.htm"
+      ],
+      "relevance": "低正则积分器及色散方程数值分析案例，包含奥地利联合培养和香港本地博后。可参考如何处理正则性限制与计算方法的关系。",
+      "notes": "博后期限来自团队页，RAP 起始日期保留待核。2024 moving-window 条目仍按本人页记为预印本。",
       "progress": "现职按院系名录记录。个人合约及长期聘任状态未公开核实。",
       "id": "P096",
       "zhName": "",
-      "topics": [],
+      "topics": [
+        "计算数学",
+        "分析与 PDE"
+      ],
       "reviewedAt": "2026-11-16",
       "evidenceNote": "岗位与履历以所附来源为准，长期聘任状态另待公开决定。"
     }
@@ -4550,6 +4917,231 @@
       "summary": "收录 96 份人物记录、177 条精选论文与 179 条名录筛查记录，保留公开来源和待核事项。",
       "personIds": [],
       "type": "initial"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "补充研究分析与证据核查",
+      "summary": "纠正 Pong Ting-kei 入职年份，补齐 Yue Xie RAP 日期、CUHK 研究岗位证据及 Xun Tang 论文卷页，扩充精选书目并加入路径比较、阶段行动表和研究进度。",
+      "personIds": [
+        "P009",
+        "P023",
+        "P049",
+        "P059",
+        "P071",
+        "P088",
+        "P089",
+        "P090",
+        "P091"
+      ],
+      "type": "research"
     }
-  ]
+  ],
+  "analysis": {
+    "reviewedAt": "2026-11-16",
+    "summary": "当前建议同时保留欧洲与香港的申请线。把具体岗位带来的新方法、独立题目、外部推荐人与持续产出逐项比较，再决定博后去向。",
+    "basis": "公开路径判断依据所附教师履历。个人稿件与 CV 的深入评估已另行形成本地报告。各条路线的适合程度需结合具体课题、指导条件与岗位合同判断。",
+    "routes": [
+      {
+        "id": "europe",
+        "label": "欧洲研究经历",
+        "title": "欧洲岗位需要带来哪些增量",
+        "judgment": "当欧洲合作导师能支持你掌握互补方法、主导新问题，并让新的同行持续了解你的贡献时，这段经历值得优先争取。",
+        "cases": [
+          {
+            "personId": "P002",
+            "observation": "香港浸会博士 → 奥地利 Radon 研究科学家 → 理大 RAP → AP。欧洲研究约三年，回港后另经 RAP 阶段。",
+            "lesson": "可沿 CV 和论文追踪 Sini 合作如何扩展其原有反问题方向。其研究领域与 DSLCP 的契合度仍需逐题判断。"
+          },
+          {
+            "personId": "P014",
+            "observation": "香港博士 → 德国研究经历 → 2024 CityU AP → 2025 NTU AP。",
+            "lesson": "适合观察数值优化与最优控制的回港获聘路径。其后续公开任职为新加坡，离职原因未公开核实。"
+          },
+          {
+            "personId": "P029",
+            "observation": "中大博士 → Imperial Research Associate → 港大 AP → 理大副教授。",
+            "lesson": "优化方向较接近，可阅读三次牛顿、误差界与鲁棒优化等主线。完整任命日期与申请时成果仍需回溯。"
+          }
+        ],
+        "questions": [
+          "前两年能启动的两个具体问题是什么，与你现有谱方法研究有哪些技术衔接？",
+          "能否从直接合作中形成新的外部推荐人，谁会读你的证明和代码？",
+          "导师近年博后到岗与离岗时的代表作、独立研究和公开去向怎样？"
+        ]
+      },
+      {
+        "id": "local",
+        "label": "香港本地博后",
+        "title": "本地岗位需要支持怎样的独立成长",
+        "judgment": "留港也有可核查的转 AP 案例。比较陈小君老师课题组的具体机会时，重点落实新题目、外部合作、报告机会与求职时间安排。",
+        "cases": [
+          {
+            "personId": "P004",
+            "observation": "清华博士 → 理大博后 2021-03 至 2024-12 → RAP → 2026-05 AP。",
+            "lesson": "可以研究数值分析、稳定性和算法连续工作的组合，以及约五年本地研究经历的发展过程。"
+          },
+          {
+            "personId": "P005",
+            "observation": "Johns Hopkins 博士 → 理大博后 2023-08 至 2026-04 → 2026-05 AP。",
+            "lesson": "可比较博后期间形成的几何流与守恒算法工作，并逐篇回溯预印本和接收日期。"
+          },
+          {
+            "personId": "P006",
+            "observation": "中大统计博士 → 理大 RAP → 2023-09 AP。",
+            "lesson": "香港训练与本地 RAP 的另一实例，统计学习方向的成果尺度需结合领域评估。"
+          }
+        ],
+        "questions": [
+          "能否明确一条由你主导、可以写进研究陈述的新问题线？",
+          "能否安排外校合作、短访和独立报告，使外部同行深入了解你的贡献？",
+          "博后合同、教学量和求职准备时间如何安排，是否有跨校申请支持？"
+        ]
+      },
+      {
+        "id": "other",
+        "label": "直聘与海外教职",
+        "title": "把其他职业入口纳入申请安排",
+        "judgment": "毕业时若已有成熟代表作，可同步尝试合适的 AP 机会。也可在海外先进入独立教职，再关注香港招聘。",
+        "cases": [
+          {
+            "personId": "P001",
+            "observation": "Columbia 运筹学博士 2024-05 → 港大 AP 2024-07。",
+            "lesson": "2023 年已公开多篇连续的一阶方法理论工作，博士毕业时的成果成熟度值得对照。"
+          },
+          {
+            "personId": "P008",
+            "observation": "NUS 博士及 Research Fellow → Duke 研究岗位 → 理大 AP 2024-07。",
+            "lesson": "其近似理论延续到新合作，可观察如何把数学训练拓展到 AI 研究。"
+          },
+          {
+            "personId": "P053",
+            "observation": "海外博士与研究经历 → 英国已有教职 → CityU。",
+            "lesson": "该路线包含独立教学与研究阶段，所需年限应按完整职业序列规划。"
+          }
+        ],
+        "questions": [
+          "毕业前能否讲清代表作、个人贡献与下一阶段研究计划？",
+          "是否愿意先在香港以外建立独立研究与教学记录？",
+          "申请时的岗位方向是否与你的具体方法匹配，能否讲出可推进的合作问题？"
+        ]
+      }
+    ],
+    "factors": [
+      [
+        "独立题目",
+        "列出准备主导的问题、现有基础、主要困难和首年可检验的目标。"
+      ],
+      [
+        "方法互补",
+        "明确需要补足的分析或算法工具，以及谁能提供持续指导。"
+      ],
+      [
+        "成果连续性",
+        "考察第一项工作之后能否自然发展第二个问题，预计需要哪些条件。"
+      ],
+      [
+        "外部推荐",
+        "通过实际研究交流，让新的同行充分了解你的具体贡献。"
+      ],
+      [
+        "培养与去向",
+        "逐人查看近年博后的完整履历，记录去向和未公开项目。"
+      ],
+      [
+        "合同与求职支持",
+        "核实资金、期限、教学量、报告与访问安排以及申请准备时间。"
+      ]
+    ],
+    "roadmap": [
+      {
+        "stage": "现在至 2027 年 1 月",
+        "title": "完成第一篇可经外部审阅的工作",
+        "items": [
+          "用一页说明 DSLCP 的正式定义、现有方法限制、你的新增结论与适用假设。",
+          "把定理、算法与实验结论逐项对齐，记录你主导的证明和实现。",
+          "保留环境、参数、数据入口与复现命令，检查谱方法的数值稳定性和误差来源。",
+          "与导师确定投稿安排，并整理 15 分钟和 40 分钟两个报告版本。"
+        ]
+      },
+      {
+        "stage": "投稿后 6—12 个月",
+        "title": "形成可以持续推进的研究主线",
+        "items": [
+          "从第一篇工作的真实局限中选择后续问题，先写清假设、困难和验证标准。",
+          "依据问题需要，探索更弱假设、理论误差、规模化计算或新的应用。",
+          "参加相关研讨会，围绕具体技术问题建立外部交流与实质合作。",
+          "保留投稿、修订与接收记录，为今后申请阶段复原成果时间线。"
+        ]
+      },
+      {
+        "stage": "预计毕业前 12—18 个月",
+        "title": "比较具体博后与合适的 AP 机会",
+        "items": [
+          "先建立小而精的导师名单，分别写明方法匹配、潜在问题和合作依据。",
+          "准备 CV、代表作说明、研究陈述和教学经历，向熟悉工作的同行征求反馈。",
+          "并行了解欧洲与香港的具体岗位，按六项条件记录已知与待核内容。",
+          "拿到具体机会后再比较合同、研究条件和求职支持，时间按实际毕业计划调整。"
+        ]
+      },
+      {
+        "stage": "博后首年至求职季",
+        "title": "积累独立研究与教学证据",
+        "items": [
+          "与合作导师约定首年问题和讨论节奏，定期复核进度与方向。",
+          "形成由你主导的新工作，并维护面向同行的论文、代码和报告材料。",
+          "积累适度教学经验，准备 job talk 与未来三至五年的研究计划。",
+          "按目标院系当年的招聘方向申请，分别核对岗位职级和考核条款。"
+        ]
+      }
+    ],
+    "aiNote": "AI 相关方向已出现于部分数学系聘任案例。对 DSLCP 后续选题，可优先判断现有数学问题能否与学习、采样或科学计算形成明确联系，并用定理与可靠实验检验。个人竞争力仍需结合实际稿件和贡献评估。",
+    "limits": [
+      "现有资料以现行名录反向追溯为主，历史离职者和未获聘申请者的分母缺失，路径成功率尚无法估计。",
+      "现职、晋升和长期聘任需要分别取得证据。个人 tenure 或 substantiation 决定仍有公开资料缺口。",
+      "入职当年出版、入职后出版与申请时已接收之间的先后，需要招聘时间、CV 历史版本与论文记录共同核实。",
+      "公开导师与共同作者能说明训练和合作关系，招聘委员会的评价与推荐信内容通常无法从中复原。"
+    ],
+    "tasks": [
+      {
+        "title": "交互网页与门户入口",
+        "status": "已验证",
+        "detail": "已支持筛选、搜索、详情、收藏、比较和返回职业雷达，发布后复核正式入口。"
+      },
+      {
+        "title": "五校主要数学院系名录底表",
+        "status": "已有底表",
+        "detail": "保留现行名录入口，按学校查看记录数。六年历史入职完整性仍需逐年核对。"
+      },
+      {
+        "title": "重点职业路径与行动建议",
+        "status": "本轮补充",
+        "detail": "加入三类路径、九个案例切片、六项岗位比较维度与四阶段行动表。"
+      },
+      {
+        "title": "全部人物的完整书目",
+        "status": "继续补证",
+        "detail": "当前为精选书目。可在下方直接筛出尚无精选论文条目的档案。"
+      },
+      {
+        "title": "历史离职及跨院系名单",
+        "status": "继续补证",
+        "detail": "已保留发现的离港个案，统计、工程、运筹和 AI 相关院系的逐年完整名单尚待系统扩展。"
+      },
+      {
+        "title": "个人长期聘任与申请时成果",
+        "status": "公开证据待补",
+        "detail": "部分岗位决定、精确录用日、历史 CV 和求职时间未公开。逐人保留待核项。"
+      },
+      {
+        "title": "个人能力与稿件诊断",
+        "status": "本地报告",
+        "detail": "已结合提供的稿件、CV 与本人贡献说明形成个人研究路径报告，保存在用户本地交付目录。具体岗位与资助需按申请时条件核实。"
+      },
+      {
+        "title": "月度信息维护",
+        "status": "已安排",
+        "detail": "每月 1 日 10:00（上海时间）由本机 Codex 执行，需要电脑开机且 Codex 可运行。首次计划执行尚未验证。"
+      }
+    ]
+  }
 }
