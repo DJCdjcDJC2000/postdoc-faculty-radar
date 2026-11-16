@@ -302,24 +302,92 @@ function closeDialog(id) {
   document.getElementById(id).close();
 }
 
+function evidenceLinks(urls, label = "依据") {
+  return [...new Set(urls || [])]
+    .map(safeSource)
+    .filter(Boolean)
+    .map((source, index) => `<a href="${esc(source.href)}" target="_blank" rel="noopener noreferrer">${esc(label)} ${index + 1} ↗</a>`)
+    .join(" ");
+}
+
+function venueContext(venue) {
+  let normalized = venue;
+  for (const [alias, name] of Object.entries(data.venueAliases || {})) {
+    normalized = normalized.replace(alias, name);
+  }
+  if (/Preprint|预印本|arXiv|最终卷页/i.test(normalized)) {
+    return { judgment: "本条的预印本或正式出版状态需按书目说明核对。", sources: [] };
+  }
+  return [...(data.venueGuide || [])]
+    .sort((a, b) => b.name.length - a.name.length)
+    .find((guide) => normalized.toLowerCase().startsWith(guide.name.toLowerCase()));
+}
+
+function assessmentHtml(person, compact = false) {
+  const assessment = person.assessment;
+  if (!assessment) return "";
+  if (compact) {
+    return `<h4>训练与平台作用</h4><p>${esc(assessment.training)}</p><h4>获聘竞争力 · 研究判断</h4><p>${esc(assessment.competition)}</p><h4>你可以借鉴</h4><p>${esc(assessment.lesson)}</p>`;
+  }
+  const mentors = assessment.mentorIds
+    .map((id) => data.mentors[id])
+    .filter(Boolean)
+    .map((mentor) => `<article class="mentor-card"><h4>${esc(mentor.name)}</h4><p class="mentor-standing">${esc(mentor.standing)}</p><p>${esc(mentor.field)}</p><p>${esc(mentor.contribution)}</p><div class="assessment-sources">${evidenceLinks(mentor.sources, "学者来源")}</div></article>`)
+    .join("");
+  const timeline = (assessment.timeline || [])
+    .map(([date, detail]) => `<li><time>${esc(date)}</time><p>${esc(detail)}</p></li>`)
+    .join("");
+  return `<section class="profile-section assessment-intro"><p class="assessment-kicker">人物解读 · ${esc(assessment.basis)}</p><h3>从这份经历中能学到什么</h3><div class="assessment-grid"><article><h4>获聘竞争力 · 研究判断</h4><p>${esc(assessment.competition)}</p></article><article><h4>你可以借鉴</h4><p>${esc(assessment.lesson)}</p></article></div><p class="assessment-method">${esc(data.assessmentPolicy.text)}</p></section><section class="profile-section"><h3>导师与学术平台</h3><p>${esc(person.connections)}</p><p>${esc(assessment.training)}</p><div class="mentor-grid">${mentors}</div><div class="assessment-sources">${evidenceLinks(assessment.sources.slice(0, 3), "人物来源")}</div></section>${timeline ? `<section class="profile-section"><h3>成果与岗位时间线</h3><ol class="assessment-timeline">${timeline}</ol></section>` : ""}`;
+}
+
+function paperHtml(person, paper) {
+  const [year, title, venue, authors] = paper;
+  const work = person.assessment?.works.find((item) => item.title === title);
+  const guide = venueContext(venue);
+  let timing = "";
+  if (person.facultyStart && Number.isFinite(Number(year))) {
+    const start = Number(person.facultyStart.slice(0, 4));
+    timing = Number(year) < start
+      ? "书目年份早于 AP 入职年份"
+      : Number(year) === start
+        ? "书目与 AP 入职同年，申请时状态待核"
+        : "书目年份晚于 AP 入职年份，申请时状态待核";
+  }
+  return `<article class="profile-paper"><time>${esc(year)}</time><div><h4>${esc(title)}</h4><p>${esc(venue)}</p><p>${esc(authors)}</p>${timing ? `<p class="paper-timing">${esc(timing)}</p>` : ""}${work ? `<div class="paper-reading"><span>${esc(work.reading)}</span><p>${esc(work.assessment)}</p><div class="assessment-sources">${evidenceLinks(work.sources.slice(0, 3), "论文依据")}</div></div>` : ""}${guide ? `<details class="venue-context"><summary>刊物定位 · 项目判断</summary><p>${esc(guide.judgment)}</p><div class="assessment-sources">${evidenceLinks(guide.sources, "刊物来源")}</div></details>` : ""}</div></article>`;
+}
+
 function openProfile(id) {
   const person = data.people.find((p) => p.id === id);
   if (!person) return;
-  const meta = `<p class="profile-meta">档案 ${person.id} · 最近核查 ${esc(person.reviewedAt)} · ${esc(stageLabel(person))}</p>`;
-  const papers = person.papers
-    .map(
-      ([year, title, venue, authors]) =>
-        `<article class="profile-paper"><time>${esc(year)}</time><div><h4>${esc(title)}</h4><p>${esc(venue)}</p><p>${esc(authors)}</p>${person.facultyStart ? `<p class="paper-timing">${Number(year) < Number(person.facultyStart.slice(0, 4)) ? "书目年份早于 AP 入职年份" : Number(year) === Number(person.facultyStart.slice(0, 4)) ? "书目与 AP 入职同年，具体先后待核" : "书目年份晚于 AP 入职年份，申请时状态待核"}</p>` : ""}</div></article>`,
-    )
+  const assessment = person.assessment;
+  const audit = (person.bibliographyAudit || [])
+    .map((entry) => `<p>${esc(entry.record.join(" · "))}。${esc(entry.reason)}</p>`)
     .join("");
-  $("#profile-content").innerHTML =
-    `<div class="profile-toolbar"><span>THE FACULTY ATLAS / ${person.id}</span><button class="close-button" data-close="profile-dialog" aria-label="关闭人物档案">×</button></div><div class="profile-body"><span class="school-chip" data-school="${person.school}">${person.school} · ${schools[person.school]}</span><h2 id="profile-title">${esc(person.name)}</h2><p class="profile-subline">${esc(person.zhName)}${person.zhName ? " · " : ""}${esc(person.role)}</p>${meta}<div class="profile-actions"><button data-favorite="${person.id}" aria-pressed="${favorites.has(id)}">${favorites.has(id) ? "★ 已收藏" : "☆ 收藏档案"}</button><button data-compare="${person.id}" aria-pressed="${compare.has(id)}">${compare.has(id) ? "✓ 已加入比较" : "＋ 加入比较"}</button><button data-copy="${person.id}">复制档案链接 ↗</button></div><section class="profile-section"><h3>学历与学术训练</h3><p>${esc(person.education)}</p></section><section class="profile-section"><h3>任职与流动</h3><p>${esc(person.joined)}</p><div class="career-text">${esc(person.career)}</div></section><section class="profile-section"><h3>公开学术连接</h3><p>${esc(person.connections)}</p></section><section class="profile-section"><h3>精选论文 <span class="profile-meta">${person.papers.length} 条书目</span></h3><p class="paper-time-note">年份按原始书目记载。申请时的录用状态与入职同年论文的先后，需结合 CV 和出版社记录核对。</p>${papers || "<p>本档保留论文列表与 CV 入口，精选书目尚待补充。</p>"}</section><section class="profile-section"><h3>职业路径参考</h3><p>${esc(person.relevance)}</p></section><section class="profile-section"><h3>证据与待核事项</h3><p>${esc([person.notes, person.progress].filter(Boolean).join("\n")) || esc(person.evidenceNote)}</p><div class="evidence-box">当前在职、职称晋升与个人长期聘任分别记录。主题标签作为阅读辅助，来自公开研究介绍和精选论文的关键词。</div></section><section class="profile-section"><h3>原始来源</h3>${sourcesHtml(person)}</section></div>`;
+  const questions = (assessment?.openQuestions || [])
+    .map((question) => `<li>${esc(question)}</li>`)
+    .join("");
+  $("#profile-content").innerHTML = `
+    <div class="profile-toolbar"><span>THE FACULTY ATLAS / ${person.id}</span><button class="close-button" data-close="profile-dialog" aria-label="关闭人物档案">×</button></div>
+    <div class="profile-body">
+      <span class="school-chip" data-school="${person.school}">${person.school} · ${schools[person.school]}</span>
+      <h2 id="profile-title">${esc(person.name)}</h2>
+      <p class="profile-subline">${esc(person.zhName)}${person.zhName ? " · " : ""}${esc(person.role)}</p>
+      <p class="profile-meta">档案 ${person.id} · 最近资料核查 ${esc(person.reviewedAt)} · ${esc(stageLabel(person))}</p>
+      <div class="profile-actions"><button data-favorite="${person.id}" aria-pressed="${favorites.has(id)}">${favorites.has(id) ? "★ 已收藏" : "☆ 收藏档案"}</button><button data-compare="${person.id}" aria-pressed="${compare.has(id)}">${compare.has(id) ? "✓ 已加入比较" : "＋ 加入比较"}</button><button data-copy="${person.id}">复制档案链接 ↗</button></div>
+      ${assessmentHtml(person)}
+      <section class="profile-section"><h3>学历与任职记录</h3><p>${esc(person.education)}</p><p>${esc(person.joined)}</p><div class="career-text">${esc(person.career)}</div></section>
+      <section class="profile-section"><h3>代表作与刊物 <span class="profile-meta">${person.papers.length} 条书目</span></h3><p class="paper-time-note">${esc(data.assessmentPolicy.journalNote)} 年份按书目记载，申请时状态以 CV 和录用记录核定。</p>${person.papers.map((paper) => paperHtml(person, paper)).join("") || "<p>精选书目待补充。</p>"}${audit ? `<details class="bibliography-audit"><summary>原始书目校核记录</summary>${audit}</details>` : ""}</section>
+      <section class="profile-section"><h3>进一步阅读</h3><p>${esc(person.relevance)}</p></section>
+      <section class="profile-section"><h3>仍需核实</h3><ul class="assessment-questions">${questions}</ul><p>${esc([person.notes, person.progress].filter(Boolean).join("\n")) || esc(person.evidenceNote)}</p></section>
+      <section class="profile-section"><h3>原始来源</h3>${sourcesHtml(person)}</section>
+    </div>`;
   const url = new URL(location.href);
   url.searchParams.set("person", id);
   history.replaceState(null, "", url);
   openDialog("profile-dialog");
   $("#profile-dialog").scrollTop = 0;
 }
+
 
 function toggleCompare(id) {
   if (compare.has(id)) compare.delete(id);
@@ -354,7 +422,7 @@ function openComparison() {
     `<div class="comparison-grid" style="--columns:${people.length}">${people
       .map(
         (person) =>
-          `<article class="compare-column"><span class="school-chip" data-school="${person.school}">${person.school}</span><h3>${esc(person.name)}</h3><p>${esc(person.role)}</p><h4>香港任职节点</h4><p>${esc(person.joined)}</p><h4>学历与训练</h4><p>${esc(person.education)}</p><h4>任职与流动</h4><p>${esc(person.career)}</p><h4>公开学术连接</h4><p>${esc(person.connections)}</p><h4>精选论文 · ${person.papers.length} 条</h4>${
+          `<article class="compare-column"><span class="school-chip" data-school="${person.school}">${person.school}</span><h3>${esc(person.name)}</h3><p>${esc(person.role)}</p><h4>香港任职节点</h4><p>${esc(person.joined)}</p><h4>学历与训练</h4><p>${esc(person.education)}</p><h4>任职与流动</h4><p>${esc(person.career)}</p><h4>公开学术连接</h4><p>${esc(person.connections)}</p>${assessmentHtml(person, true)}<h4>精选论文 · ${person.papers.length} 条</h4>${
             person.papers
               .slice(0, 3)
               .map(
@@ -412,6 +480,8 @@ function renderAnalysisRoute(key) {
 
 function renderResearch() {
   const analysis = data.analysis;
+  const coverage = data.meta.assessmentCoverage;
+  $("#assessment-coverage").textContent = `${coverage.profiles} 份逐人解读 · ${coverage.mentorBiographies} 位导师与平台学者背景，覆盖 ${coverage.profilesWithMentorBiographies} 份档案 · ${coverage.abstractReadProfiles} 人含原始摘要核读。各档案标注核读依据与待核事项。`;
   $("#analysis-summary").textContent = analysis.summary;
   $("#analysis-basis").textContent = analysis.basis;
   $("#report-caption").textContent = `${data.meta.report.pages} 页 · ${data.meta.report.edition}`;

@@ -1259,6 +1259,132 @@ dialog::backdrop {
   font: 24px/1.5 var(--serif);
   margin-bottom: 12px;
 }
+.assessment-intro {
+  border-top: 3px solid var(--green);
+}
+.assessment-kicker {
+  color: var(--copper) !important;
+  font-size: 14px !important;
+  margin-bottom: 8px;
+}
+.assessment-grid,
+.mentor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.assessment-grid article {
+  background: #f0f2e9;
+  padding: 22px;
+  border-bottom: 1px solid #cad5c5;
+}
+.assessment-grid h4,
+.mentor-card h4 {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.assessment-grid p,
+.mentor-card p,
+.assessment-timeline p,
+.assessment-questions li {
+  font-size: 17px;
+  line-height: 1.95;
+  color: #455d4d;
+}
+.assessment-method {
+  font-size: 14px !important;
+  margin-top: 16px;
+}
+.mentor-grid {
+  margin-top: 24px;
+}
+.mentor-card {
+  border: 1px solid var(--line);
+  padding: 23px;
+  min-width: 0;
+}
+.mentor-card p + p {
+  margin-top: 13px;
+}
+.mentor-card .mentor-standing {
+  color: var(--copper);
+}
+.assessment-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--green);
+}
+.assessment-sources a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.assessment-timeline {
+  list-style: none;
+  padding-left: 0;
+}
+.assessment-timeline li {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 20px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+.assessment-timeline time {
+  color: var(--copper);
+  font-size: 16px;
+}
+.paper-reading {
+  border-left: 2px solid #a6b49d;
+  padding: 10px 0 10px 16px;
+  margin-top: 13px;
+}
+.paper-reading > span {
+  font-size: 12px;
+  color: var(--copper);
+}
+.profile-paper .paper-reading p,
+.profile-paper .venue-context p {
+  font-size: 16px;
+  line-height: 1.95;
+  color: #455d4d;
+  margin-top: 6px;
+}
+.venue-context,
+.bibliography-audit {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: #f4f2eb;
+  font-size: 14px;
+}
+.venue-context summary,
+.bibliography-audit summary {
+  cursor: pointer;
+}
+.assessment-questions {
+  padding-left: 22px;
+}
+.assessment-questions li + li {
+  margin-top: 9px;
+}
+@media (max-width: 700px) {
+  .assessment-grid,
+  .mentor-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .assessment-grid article,
+  .mentor-card {
+    padding: 18px;
+  }
+  .assessment-timeline li {
+    grid-template-columns: 1fr;
+    gap: 3px;
+  }
+}
 .profile-section > p {
   font-size: 15px;
   line-height: 2;
