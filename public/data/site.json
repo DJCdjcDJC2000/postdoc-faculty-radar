@@ -50,12 +50,12 @@
     }
   },
   "metadata": {
-    "generatedAt": "2026-11-16T07:53:22.784Z",
+    "generatedAt": "2026-11-17T09:10:02.476Z",
     "offline": false,
-    "jobCount": 66,
-    "alertCount": 3,
+    "jobCount": 69,
+    "alertCount": 4,
     "sourceCount": 20,
-    "builtAt": "2026-11-16T07:54:08.229Z",
+    "builtAt": "2026-11-17T09:10:27.928Z",
     "mode": "public",
     "title": "博后教职职业情报门户",
     "publicBuild": true
@@ -79,14 +79,14 @@
     "careerPlanSummaryZh": "重点覆盖欧洲、香港、新加坡、内地和大厂研究岗，适用于应用数学、优化与科学计算方向的 PhD/Postdoc。"
   },
   "metrics": {
-    "totalJobs": 6,
+    "totalJobs": 9,
     "archivedJobs": 60,
-    "newJobs": 0,
+    "newJobs": 3,
     "updatedJobs": 0,
     "expiredJobs": 4,
-    "highMatchJobs": 3,
+    "highMatchJobs": 4,
     "dueSoonJobs": 1,
-    "activeSources": 3,
+    "activeSources": 4,
     "totalSources": 20,
     "peopleCount": 14,
     "targetLabs": 24,
@@ -126,7 +126,7 @@
       "trust": "lead",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-11-16T07:53:22.784Z",
+      "createdAt": "2026-11-17T09:10:02.476Z",
       "id": "c4f0adb87a8dfd89",
       "matchScore": 100,
       "priority": "A",
@@ -147,11 +147,11 @@
       "roleLabelZh": "博后",
       "sourceTrustLabelZh": "线索待核验",
       "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-      "updatedAt": "2026-11-16T07:53:22.784Z",
+      "updatedAt": "2026-11-17T09:10:02.476Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-11-16T07:53:22.784Z",
+      "lastSeenAt": "2026-11-17T09:10:02.476Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -200,7 +200,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-11-16T07:53:22.784Z",
+      "createdAt": "2026-11-17T09:10:02.476Z",
       "id": "1411a9a5c5c5768d",
       "matchScore": 74,
       "priority": "B",
@@ -213,11 +213,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-      "updatedAt": "2026-11-16T07:53:22.784Z",
+      "updatedAt": "2026-11-17T09:10:02.476Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-11-16T07:53:22.784Z",
+      "lastSeenAt": "2026-11-17T09:10:02.476Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -625,6 +625,67 @@
       }
     },
     {
+      "title": "Analysis and PDE Seminar",
+      "institution": "CUHK Mathematics Career Opportunities",
+      "department": "",
+      "region": "Hong Kong",
+      "country": "Hong Kong",
+      "roleType": "postdoc",
+      "track": "academia",
+      "sourceName": "CUHK Mathematics Career Opportunities",
+      "sourceId": "cuhk-math",
+      "sourceUrl": "https://www.math.cuhk.edu.hk/research/analysis-and-pde-seminar",
+      "originalSourceUrl": "https://www.math.cuhk.edu.hk/about-us/career-opportunities",
+      "description": "Analysis and PDE Seminar https://www.math.cuhk.edu.hk/research/analysis-and-pde-seminar",
+      "keywords": [
+        "PDE"
+      ],
+      "deadline": null,
+      "fieldRelevantSource": true,
+      "status": "active",
+      "trust": "official",
+      "fetchedAt": "2026-11-17T09:10:02.476Z",
+      "id": "e8c1c3510e8bd648",
+      "matchScore": 65,
+      "priority": "B",
+      "matchedKeywords": [
+        "PDE"
+      ],
+      "negativeKeywords": [],
+      "relevance": "core",
+      "roleLabelZh": "博后",
+      "sourceTrustLabelZh": "官方源",
+      "simpleReason": "Hong Kong · 博后 · PDE",
+      "updatedAt": "2026-11-17T09:10:02.476Z",
+      "lifecycleStatus": "active",
+      "lifecycleLabelZh": "当前有效",
+      "firstSeenAt": "2026-11-17T09:10:02.476Z",
+      "lastSeenAt": "2026-11-17T09:10:02.476Z",
+      "lastChangedAt": "2026-11-17T09:10:02.476Z",
+      "changeType": "new",
+      "archivedAt": null,
+      "stale": false,
+      "ai": {
+        "status": "rule_fallback",
+        "notice": "AI 辅助生成，需核验",
+        "summaryZh": "Hong Kong · 博后 · PDE",
+        "tagsZh": [
+          "PDE"
+        ],
+        "positiveZh": [
+          "Hong Kong · 博后 · PDE"
+        ],
+        "negativeZh": [],
+        "riskZh": "需打开官方原始链接核验岗位细节。",
+        "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
+      }
+    },
+    {
       "title": "博士后-大数据分析、智能决策与供应链运筹优化 33万/年 博士研究生 若干人 深圳大学经济学院 深圳",
       "institution": "高校人才网",
       "department": "",
@@ -724,7 +785,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-11-16T07:53:22.784Z",
+      "createdAt": "2026-11-17T09:10:02.476Z",
       "id": "576a05e8b695f331",
       "matchScore": 64,
       "priority": "B",
@@ -734,11 +795,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Fellowship",
-      "updatedAt": "2026-11-16T07:53:22.784Z",
+      "updatedAt": "2026-11-17T09:10:02.476Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-11-16T07:53:22.784Z",
+      "lastSeenAt": "2026-11-17T09:10:02.476Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -786,7 +847,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-11-16T07:53:22.784Z",
+      "createdAt": "2026-11-17T09:10:02.476Z",
       "id": "bbac44b5da0bc36a",
       "matchScore": 64,
       "priority": "B",
@@ -796,11 +857,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Singapore · Fellowship",
-      "updatedAt": "2026-11-16T07:53:22.784Z",
+      "updatedAt": "2026-11-17T09:10:02.476Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-11-16T07:53:22.784Z",
+      "lastSeenAt": "2026-11-17T09:10:02.476Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -1069,7 +1130,7 @@
       "trust": "official",
       "evergreen": true,
       "fieldRelevantSource": false,
-      "createdAt": "2026-11-16T07:53:22.784Z",
+      "createdAt": "2026-11-17T09:10:02.476Z",
       "id": "e1e5047f5f87635e",
       "matchScore": 59,
       "priority": "C",
@@ -1079,11 +1140,11 @@
       "roleLabelZh": "Fellowship",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Europe · Fellowship",
-      "updatedAt": "2026-11-16T07:53:22.784Z",
+      "updatedAt": "2026-11-17T09:10:02.476Z",
       "lifecycleStatus": "watchlist",
       "lifecycleLabelZh": "长期关注",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-11-16T07:53:22.784Z",
+      "lastSeenAt": "2026-11-17T09:10:02.476Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "stale": false,
@@ -1187,6 +1248,116 @@
         "type": "expired",
         "labelZh": "已失效/已截止",
         "highlighted": false
+      }
+    },
+    {
+      "title": "Hong Kong PhD Fellowship Scheme (HKPFS)",
+      "institution": "CUHK Mathematics Career Opportunities",
+      "department": "",
+      "region": "Hong Kong",
+      "country": "Hong Kong",
+      "roleType": "fellowship",
+      "track": "academia",
+      "sourceName": "CUHK Mathematics Career Opportunities",
+      "sourceId": "cuhk-math",
+      "sourceUrl": "https://www.math.cuhk.edu.hk/postgraduates/financial-aid/hong-kong-phd-fellowship-scheme-hkpfs",
+      "originalSourceUrl": "https://www.math.cuhk.edu.hk/about-us/career-opportunities",
+      "description": "Hong Kong PhD Fellowship Scheme (HKPFS) https://www.math.cuhk.edu.hk/postgraduates/financial-aid/hong-kong-phd-fellowship-scheme-hkpfs",
+      "keywords": [],
+      "deadline": null,
+      "fieldRelevantSource": true,
+      "status": "active",
+      "trust": "official",
+      "fetchedAt": "2026-11-17T09:10:02.476Z",
+      "id": "590db377b3a38b8f",
+      "matchScore": 55,
+      "priority": "C",
+      "matchedKeywords": [],
+      "negativeKeywords": [],
+      "relevance": "field_source",
+      "roleLabelZh": "Fellowship",
+      "sourceTrustLabelZh": "官方源",
+      "simpleReason": "Hong Kong · Fellowship",
+      "updatedAt": "2026-11-17T09:10:02.476Z",
+      "lifecycleStatus": "active",
+      "lifecycleLabelZh": "当前有效",
+      "firstSeenAt": "2026-11-17T09:10:02.476Z",
+      "lastSeenAt": "2026-11-17T09:10:02.476Z",
+      "lastChangedAt": "2026-11-17T09:10:02.476Z",
+      "changeType": "new",
+      "archivedAt": null,
+      "stale": false,
+      "ai": {
+        "status": "rule_fallback",
+        "notice": "AI 辅助生成，需核验",
+        "summaryZh": "Hong Kong · Fellowship",
+        "tagsZh": [],
+        "positiveZh": [
+          "Hong Kong · Fellowship"
+        ],
+        "negativeZh": [],
+        "riskZh": "需打开官方原始链接核验岗位细节。",
+        "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
+      }
+    },
+    {
+      "title": "Hong Kong PhD Fellowship Scheme",
+      "institution": "CUHK Mathematics Career Opportunities",
+      "department": "",
+      "region": "Hong Kong",
+      "country": "Hong Kong",
+      "roleType": "fellowship",
+      "track": "academia",
+      "sourceName": "CUHK Mathematics Career Opportunities",
+      "sourceId": "cuhk-math",
+      "sourceUrl": "https://www.math.cuhk.edu.hk/postgraduates/research-programmes/hong-kong-phd-fellowship-scheme",
+      "originalSourceUrl": "https://www.math.cuhk.edu.hk/about-us/career-opportunities",
+      "description": "Hong Kong PhD Fellowship Scheme https://www.math.cuhk.edu.hk/postgraduates/research-programmes/hong-kong-phd-fellowship-scheme",
+      "keywords": [],
+      "deadline": null,
+      "fieldRelevantSource": true,
+      "status": "active",
+      "trust": "official",
+      "fetchedAt": "2026-11-17T09:10:02.476Z",
+      "id": "90495fdf51b8a39a",
+      "matchScore": 55,
+      "priority": "C",
+      "matchedKeywords": [],
+      "negativeKeywords": [],
+      "relevance": "field_source",
+      "roleLabelZh": "Fellowship",
+      "sourceTrustLabelZh": "官方源",
+      "simpleReason": "Hong Kong · Fellowship",
+      "updatedAt": "2026-11-17T09:10:02.476Z",
+      "lifecycleStatus": "active",
+      "lifecycleLabelZh": "当前有效",
+      "firstSeenAt": "2026-11-17T09:10:02.476Z",
+      "lastSeenAt": "2026-11-17T09:10:02.476Z",
+      "lastChangedAt": "2026-11-17T09:10:02.476Z",
+      "changeType": "new",
+      "archivedAt": null,
+      "stale": false,
+      "ai": {
+        "status": "rule_fallback",
+        "notice": "AI 辅助生成，需核验",
+        "summaryZh": "Hong Kong · Fellowship",
+        "tagsZh": [],
+        "positiveZh": [
+          "Hong Kong · Fellowship"
+        ],
+        "negativeZh": [],
+        "riskZh": "需打开官方原始链接核验岗位细节。",
+        "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      },
+      "freshness": {
+        "type": "new",
+        "labelZh": "本周新增",
+        "highlighted": true
       }
     },
     {
@@ -3865,7 +4036,7 @@
       "fieldRelevantSource": true,
       "status": "active",
       "trust": "official",
-      "fetchedAt": "2026-11-16T07:53:22.784Z",
+      "fetchedAt": "2026-11-17T09:10:02.476Z",
       "id": "8f0378d469afbb63",
       "matchScore": 45,
       "priority": "C",
@@ -3877,14 +4048,14 @@
       "roleLabelZh": "Research Fellow",
       "sourceTrustLabelZh": "官方源",
       "simpleReason": "Hong Kong · Research Fellow",
-      "updatedAt": "2026-11-16T07:53:22.784Z",
+      "updatedAt": "2026-11-17T09:10:02.476Z",
       "stale": false,
       "changeType": null,
       "sourceId": "hkust-math",
       "lifecycleStatus": "active",
       "lifecycleLabelZh": "当前有效",
       "firstSeenAt": "2026-07-09T16:37:03.501Z",
-      "lastSeenAt": "2026-11-16T07:53:22.784Z",
+      "lastSeenAt": "2026-11-17T09:10:02.476Z",
       "lastChangedAt": "2026-07-09T16:37:03.501Z",
       "archivedAt": null,
       "ai": {
@@ -4947,6 +5118,20 @@
       "sourceUrl": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
       "reason": "Europe · Fellowship · scientific computing / applied mathematics",
       "aiSummaryZh": "德国洪堡基金会为博士后研究人员提供研究奖学金，支持在德国进行科研，适用于优化、应用数学和科学计算领域。"
+    },
+    {
+      "id": "e8c1c3510e8bd648",
+      "title": "Analysis and PDE Seminar",
+      "institution": "CUHK Mathematics Career Opportunities",
+      "region": "Hong Kong",
+      "roleType": "postdoc",
+      "roleLabelZh": "博后",
+      "priority": "B",
+      "matchScore": 65,
+      "sourceName": "CUHK Mathematics Career Opportunities",
+      "sourceUrl": "https://www.math.cuhk.edu.hk/research/analysis-and-pde-seminar",
+      "reason": "Hong Kong · 博后 · PDE",
+      "aiSummaryZh": "Hong Kong · 博后 · PDE"
     },
     {
       "id": "576a05e8b695f331",
@@ -81289,7 +81474,7 @@
           "Global PF 只面向欧盟/关联国国民或长期居民；当前应关注 European PF",
           "2026 起低于 80 分的重投受到限制"
         ],
-        "deadlineDays": -67,
+        "deadlineDays": -68,
         "lifecycle": "future"
       },
       {
@@ -81484,7 +81669,7 @@
           "host 每轮只能支持一名候选人",
           "候选人与 host 不应已有过度紧密合作"
         ],
-        "deadlineDays": -75,
+        "deadlineDays": -76,
         "lifecycle": "future"
       },
       {
@@ -81569,7 +81754,7 @@
           "必须先找到研究方向匹配的 KAUST host",
           "截止日期按官网年度节奏记录，申请前需重新核验当年 call"
         ],
-        "deadlineDays": -45,
+        "deadlineDays": -46,
         "lifecycle": "future"
       },
       {
@@ -81611,7 +81796,7 @@
           "需要两页 AI-integrated 研究计划和 NTU mentor 支持",
           "当前主论文仍需先建立核心数学贡献"
         ],
-        "deadlineDays": -16,
+        "deadlineDays": -17,
         "lifecycle": "future"
       },
       {
@@ -81691,7 +81876,7 @@
           "当前周期博士完成窗口不匹配，目标应是 2029 对应轮次",
           "无正式 host 要求不等于无需展示 Berkeley 研究连接"
         ],
-        "deadlineDays": -66,
+        "deadlineDays": -67,
         "lifecycle": "watch"
       },
       {
@@ -82295,7 +82480,7 @@
           "不是常规延续博士论文的项目",
           "需要强跨学科叙事和独立愿景"
         ],
-        "deadlineDays": 61,
+        "deadlineDays": 60,
         "lifecycle": "upcoming"
       },
       {
@@ -82374,7 +82559,7 @@
           "申请前需单独核验签证、旅行与安全条件",
           "当前轮次不适用于 2029 毕业时间，仅用于周期建模"
         ],
-        "deadlineDays": -4,
+        "deadlineDays": -5,
         "lifecycle": "watch"
       },
       {
@@ -82815,7 +83000,7 @@
           "当前并非直接可申请",
           "Ambizione 将结束，2028 新计划规则尚未公布"
         ],
-        "deadlineDays": -12,
+        "deadlineDays": -13,
         "lifecycle": "ineligible"
       },
       {
@@ -83613,8 +83798,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 323
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 563
     },
     {
       "id": "academic-positions",
@@ -83626,8 +83811,8 @@
       "status": "error",
       "message": "HTTP 403",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 91
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 122
     },
     {
       "id": "academic-transfer",
@@ -83639,8 +83824,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 1086
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 1323
     },
     {
       "id": "mathjobs",
@@ -83650,10 +83835,10 @@
       "trust": "academic_board",
       "sourceType": "academic_board",
       "status": "ok",
-      "message": "3 candidates",
-      "count": 3,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 514
+      "message": "1 candidates",
+      "count": 1,
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 443
     },
     {
       "id": "academic-jobs-online",
@@ -83665,8 +83850,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 408
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 443
     },
     {
       "id": "jobs-ac-uk",
@@ -83676,10 +83861,10 @@
       "trust": "academic_board",
       "sourceType": "academic_board",
       "status": "ok",
-      "message": "9 candidates",
-      "count": 9,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 1400
+      "message": "12 candidates",
+      "count": 12,
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 2838
     },
     {
       "id": "polyu",
@@ -83691,8 +83876,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 1896
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 2206
     },
     {
       "id": "hku",
@@ -83704,8 +83889,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 2474
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 1030
     },
     {
       "id": "hkust-math",
@@ -83717,8 +83902,8 @@
       "status": "ok",
       "message": "3 candidates",
       "count": 3,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 1167
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 1072
     },
     {
       "id": "cuhk-math",
@@ -83727,11 +83912,11 @@
       "url": "https://www.math.cuhk.edu.hk/about-us/career-opportunities",
       "trust": "official",
       "sourceType": "university",
-      "status": "error",
-      "message": "fetch failed",
-      "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 466
+      "status": "ok",
+      "message": "6 candidates",
+      "count": 6,
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 1622
     },
     {
       "id": "nus",
@@ -83743,8 +83928,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 1088
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 1357
     },
     {
       "id": "ntu",
@@ -83756,8 +83941,8 @@
       "status": "error",
       "message": "HTTP 429",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 555
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 481
     },
     {
       "id": "astar",
@@ -83769,8 +83954,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 1180
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 3953
     },
     {
       "id": "chinapostdoctor",
@@ -83782,8 +83967,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 890
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 2198
     },
     {
       "id": "gaoxiaojob",
@@ -83795,8 +83980,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 1328
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 1496
     },
     {
       "id": "microsoft-research",
@@ -83808,8 +83993,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 805
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 838
     },
     {
       "id": "google-research",
@@ -83821,8 +84006,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 158
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 173
     },
     {
       "id": "deepmind",
@@ -83834,8 +84019,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 338
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 494
     },
     {
       "id": "huawei-noah",
@@ -83847,8 +84032,8 @@
       "status": "error",
       "message": "fetch failed",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 919
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 1018
     },
     {
       "id": "bytedance-seed",
@@ -83860,8 +84045,8 @@
       "status": "no_candidates",
       "message": "0 candidates",
       "count": 0,
-      "checkedAt": "2026-11-16T07:53:22.784Z",
-      "latencyMs": 1773
+      "checkedAt": "2026-11-17T09:10:02.476Z",
+      "latencyMs": 1611
     }
   ],
   "reports": [
@@ -83892,11 +84077,50 @@
   ],
   "updates": {
     "windowDays": 7,
-    "generatedAt": "2026-11-16T07:54:08.229Z",
-    "newCount": 0,
+    "generatedAt": "2026-11-17T09:10:27.928Z",
+    "newCount": 3,
     "updatedCount": 0,
     "expiredCount": 4,
     "items": [
+      {
+        "id": "e8c1c3510e8bd648",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "Analysis and PDE Seminar",
+        "organization": "CUHK Mathematics Career Opportunities",
+        "region": "Hong Kong",
+        "priority": "B",
+        "score": 65,
+        "sourceUrl": "https://www.math.cuhk.edu.hk/research/analysis-and-pde-seminar",
+        "changedAt": "2026-11-17T09:10:02.476Z"
+      },
+      {
+        "id": "590db377b3a38b8f",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "Hong Kong PhD Fellowship Scheme (HKPFS)",
+        "organization": "CUHK Mathematics Career Opportunities",
+        "region": "Hong Kong",
+        "priority": "C",
+        "score": 55,
+        "sourceUrl": "https://www.math.cuhk.edu.hk/postgraduates/financial-aid/hong-kong-phd-fellowship-scheme-hkpfs",
+        "changedAt": "2026-11-17T09:10:02.476Z"
+      },
+      {
+        "id": "90495fdf51b8a39a",
+        "kind": "job",
+        "type": "new",
+        "labelZh": "本周新增",
+        "title": "Hong Kong PhD Fellowship Scheme",
+        "organization": "CUHK Mathematics Career Opportunities",
+        "region": "Hong Kong",
+        "priority": "C",
+        "score": 55,
+        "sourceUrl": "https://www.math.cuhk.edu.hk/postgraduates/research-programmes/hong-kong-phd-fellowship-scheme",
+        "changedAt": "2026-11-17T09:10:02.476Z"
+      },
       {
         "id": "51adf36969bd669b",
         "kind": "job",
@@ -83973,7 +84197,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-11-16T07:53:22.784Z",
+        "createdAt": "2026-11-17T09:10:02.476Z",
         "id": "1411a9a5c5c5768d",
         "matchScore": 74,
         "priority": "B",
@@ -83986,11 +84210,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-        "updatedAt": "2026-11-16T07:53:22.784Z",
+        "updatedAt": "2026-11-17T09:10:02.476Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-11-16T07:53:22.784Z",
+        "lastSeenAt": "2026-11-17T09:10:02.476Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84038,7 +84262,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-11-16T07:53:22.784Z",
+        "createdAt": "2026-11-17T09:10:02.476Z",
         "id": "576a05e8b695f331",
         "matchScore": 64,
         "priority": "B",
@@ -84048,11 +84272,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Hong Kong · Fellowship",
-        "updatedAt": "2026-11-16T07:53:22.784Z",
+        "updatedAt": "2026-11-17T09:10:02.476Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-11-16T07:53:22.784Z",
+        "lastSeenAt": "2026-11-17T09:10:02.476Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84100,7 +84324,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-11-16T07:53:22.784Z",
+        "createdAt": "2026-11-17T09:10:02.476Z",
         "id": "bbac44b5da0bc36a",
         "matchScore": 64,
         "priority": "B",
@@ -84110,11 +84334,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Singapore · Fellowship",
-        "updatedAt": "2026-11-16T07:53:22.784Z",
+        "updatedAt": "2026-11-17T09:10:02.476Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-11-16T07:53:22.784Z",
+        "lastSeenAt": "2026-11-17T09:10:02.476Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84161,7 +84385,7 @@
         "trust": "official",
         "evergreen": true,
         "fieldRelevantSource": false,
-        "createdAt": "2026-11-16T07:53:22.784Z",
+        "createdAt": "2026-11-17T09:10:02.476Z",
         "id": "e1e5047f5f87635e",
         "matchScore": 59,
         "priority": "C",
@@ -84171,11 +84395,11 @@
         "roleLabelZh": "Fellowship",
         "sourceTrustLabelZh": "官方源",
         "simpleReason": "Europe · Fellowship",
-        "updatedAt": "2026-11-16T07:53:22.784Z",
+        "updatedAt": "2026-11-17T09:10:02.476Z",
         "lifecycleStatus": "watchlist",
         "lifecycleLabelZh": "长期关注",
         "firstSeenAt": "2026-07-09T16:37:03.501Z",
-        "lastSeenAt": "2026-11-16T07:53:22.784Z",
+        "lastSeenAt": "2026-11-17T09:10:02.476Z",
         "lastChangedAt": "2026-07-09T16:37:03.501Z",
         "archivedAt": null,
         "stale": false,
@@ -84211,6 +84435,116 @@
           "depth": 1
         },
         "freshness": null
+      },
+      {
+        "title": "Hong Kong PhD Fellowship Scheme (HKPFS)",
+        "institution": "CUHK Mathematics Career Opportunities",
+        "department": "",
+        "region": "Hong Kong",
+        "country": "Hong Kong",
+        "roleType": "fellowship",
+        "track": "academia",
+        "sourceName": "CUHK Mathematics Career Opportunities",
+        "sourceId": "cuhk-math",
+        "sourceUrl": "https://www.math.cuhk.edu.hk/postgraduates/financial-aid/hong-kong-phd-fellowship-scheme-hkpfs",
+        "originalSourceUrl": "https://www.math.cuhk.edu.hk/about-us/career-opportunities",
+        "description": "Hong Kong PhD Fellowship Scheme (HKPFS) https://www.math.cuhk.edu.hk/postgraduates/financial-aid/hong-kong-phd-fellowship-scheme-hkpfs",
+        "keywords": [],
+        "deadline": null,
+        "fieldRelevantSource": true,
+        "status": "active",
+        "trust": "official",
+        "fetchedAt": "2026-11-17T09:10:02.476Z",
+        "id": "590db377b3a38b8f",
+        "matchScore": 55,
+        "priority": "C",
+        "matchedKeywords": [],
+        "negativeKeywords": [],
+        "relevance": "field_source",
+        "roleLabelZh": "Fellowship",
+        "sourceTrustLabelZh": "官方源",
+        "simpleReason": "Hong Kong · Fellowship",
+        "updatedAt": "2026-11-17T09:10:02.476Z",
+        "lifecycleStatus": "active",
+        "lifecycleLabelZh": "当前有效",
+        "firstSeenAt": "2026-11-17T09:10:02.476Z",
+        "lastSeenAt": "2026-11-17T09:10:02.476Z",
+        "lastChangedAt": "2026-11-17T09:10:02.476Z",
+        "changeType": "new",
+        "archivedAt": null,
+        "stale": false,
+        "ai": {
+          "status": "rule_fallback",
+          "notice": "AI 辅助生成，需核验",
+          "summaryZh": "Hong Kong · Fellowship",
+          "tagsZh": [],
+          "positiveZh": [
+            "Hong Kong · Fellowship"
+          ],
+          "negativeZh": [],
+          "riskZh": "需打开官方原始链接核验岗位细节。",
+          "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+        },
+        "freshness": {
+          "type": "new",
+          "labelZh": "本周新增",
+          "highlighted": true
+        }
+      },
+      {
+        "title": "Hong Kong PhD Fellowship Scheme",
+        "institution": "CUHK Mathematics Career Opportunities",
+        "department": "",
+        "region": "Hong Kong",
+        "country": "Hong Kong",
+        "roleType": "fellowship",
+        "track": "academia",
+        "sourceName": "CUHK Mathematics Career Opportunities",
+        "sourceId": "cuhk-math",
+        "sourceUrl": "https://www.math.cuhk.edu.hk/postgraduates/research-programmes/hong-kong-phd-fellowship-scheme",
+        "originalSourceUrl": "https://www.math.cuhk.edu.hk/about-us/career-opportunities",
+        "description": "Hong Kong PhD Fellowship Scheme https://www.math.cuhk.edu.hk/postgraduates/research-programmes/hong-kong-phd-fellowship-scheme",
+        "keywords": [],
+        "deadline": null,
+        "fieldRelevantSource": true,
+        "status": "active",
+        "trust": "official",
+        "fetchedAt": "2026-11-17T09:10:02.476Z",
+        "id": "90495fdf51b8a39a",
+        "matchScore": 55,
+        "priority": "C",
+        "matchedKeywords": [],
+        "negativeKeywords": [],
+        "relevance": "field_source",
+        "roleLabelZh": "Fellowship",
+        "sourceTrustLabelZh": "官方源",
+        "simpleReason": "Hong Kong · Fellowship",
+        "updatedAt": "2026-11-17T09:10:02.476Z",
+        "lifecycleStatus": "active",
+        "lifecycleLabelZh": "当前有效",
+        "firstSeenAt": "2026-11-17T09:10:02.476Z",
+        "lastSeenAt": "2026-11-17T09:10:02.476Z",
+        "lastChangedAt": "2026-11-17T09:10:02.476Z",
+        "changeType": "new",
+        "archivedAt": null,
+        "stale": false,
+        "ai": {
+          "status": "rule_fallback",
+          "notice": "AI 辅助生成，需核验",
+          "summaryZh": "Hong Kong · Fellowship",
+          "tagsZh": [],
+          "positiveZh": [
+            "Hong Kong · Fellowship"
+          ],
+          "negativeZh": [],
+          "riskZh": "需打开官方原始链接核验岗位细节。",
+          "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+        },
+        "freshness": {
+          "type": "new",
+          "labelZh": "本周新增",
+          "highlighted": true
+        }
       }
     ],
     "deadlines": [],

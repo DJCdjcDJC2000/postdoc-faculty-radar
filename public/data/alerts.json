@@ -14,6 +14,20 @@
     "aiSummaryZh": "德国洪堡基金会为博士后研究人员提供研究奖学金，支持在德国进行科研，适用于优化、应用数学和科学计算领域。"
   },
   {
+    "id": "e8c1c3510e8bd648",
+    "title": "Analysis and PDE Seminar",
+    "institution": "CUHK Mathematics Career Opportunities",
+    "region": "Hong Kong",
+    "roleType": "postdoc",
+    "roleLabelZh": "博后",
+    "priority": "B",
+    "matchScore": 65,
+    "sourceName": "CUHK Mathematics Career Opportunities",
+    "sourceUrl": "https://www.math.cuhk.edu.hk/research/analysis-and-pde-seminar",
+    "reason": "Hong Kong · 博后 · PDE",
+    "aiSummaryZh": "Hong Kong · 博后 · PDE"
+  },
+  {
     "id": "576a05e8b695f331",
     "title": "RGC Junior Research Fellow Scheme",
     "institution": "University Grants Committee / Research Grants Council",
