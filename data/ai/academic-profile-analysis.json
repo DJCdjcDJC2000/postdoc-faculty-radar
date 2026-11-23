@@ -2216,8 +2216,8 @@
   },
   "person-niao-he": {
     "status": "deepseek",
-    "generatedAt": "2026-11-16T07:53:53.535Z",
-    "profileFingerprint": "2d181c9e3175ad277375bebe7aa6f5d931c6288750e96fa79861e2f482125201",
+    "generatedAt": "2026-11-23T08:55:38.427Z",
+    "profileFingerprint": "3624435985356c5e5ca328b349627f769821d58d21f1c177294c4bc8b96f47ee",
     "notice": "AI 辅助归纳，需回到公开证据核验",
     "researchSummaryZh": "何妮奥（Niao He）是 ETH Zurich 优化与决策智能组的 PI，研究主线围绕优化展开，涵盖不确定性下的优化、机器学习优化、强化学习与数据驱动决策，并延伸到随机与鲁棒优化、非光滑非凸优化、变分方法与逆问题、控制与网络系统以及算法与复杂度等方向。",
     "methods": [
@@ -2229,13 +2229,127 @@
       "machine learning and data science",
       "decision-making and operations"
     ],
-    "careerPatternZh": "公开记录显示其博士阶段就读于 Georgia Institute of Technology（2015 年）；现任 ETH Zurich 计算机科学系 Associate Professor。",
+    "careerPatternZh": "公开时间线显示其博士就读于 Georgia Institute of Technology（2015 年），现任 ETH Zurich 计算机科学系 Associate Professor；未提供博后或其他任职变化信息。",
     "caveatsZh": [
-      "成果计数基于 ORCID 公开记录与 Crossref 中携带同一 ORCID 的 DOI 元数据合并去重，通常为论文量下界。",
-      "h-index、被引次数等指标缺失，无法据此评估影响力。",
-      "top venue 统计仅基于已核验代表作中可识别的核心 venue，是保守下限，不等同于完整履历总数。",
-      "招聘信息来自课题组官网长期列出的 postdoc openings，置信度为 C，仅表明公开列出申请方式，不构成录用证据。",
-      "时间线中部分任职记录缺少起止年份。"
+      "成果计数基于 ORCID 公开记录（61 条）与 Crossref 中明确携带同一 ORCID 的 DOI 元数据（12 条）合并去重，共 73 条，通常仍为论文量下界。",
+      "h-index、被引次数等指标缺失（null），无法据此评估影响力。",
+      "近期主题年度计数存在空档年份，趋势标签为系统归类，不代表逐年连续产出。",
+      "topVenueCountsLowerBound 仅按已核验代表作中可识别的核心 venue 统计，是保守下限，不等同于完整履历总数。",
+      "招聘信号来自课题组官网长期列出的 Postdoc Positions 页面，置信度为 C，不构成具体岗位或录用证据。",
+      "时间线未提供博后经历及任职起始年份，职业路径信息不完整。"
+    ]
+  },
+  "nus-melvyn-sim": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-23T08:55:38.427Z",
+    "profileFingerprint": "1093e7f1d236ee80f62de266cfc54b65984cb600ed74f0e2707636c7901c84ed",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料显示，Melvyn Sim 的研究主线围绕鲁棒优化与不确定性下的优化展开，涵盖分布鲁棒凸优化、随机规划视角下的鲁棒优化、风险规避库存管理等方向，并将方法延伸至医疗运营、供应链与物流运输等应用场景。",
+    "methods": [
+      "robust optimization",
+      "distributionally robust optimization",
+      "stochastic optimization and uncertainty methods",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "logistics, transportation, and operations",
+      "healthcare and biomedical systems",
+      "supply chain and inventory management"
+    ],
+    "careerPatternZh": "公开信息仅显示其现任新加坡国立大学（NUS）Professor and Provost's Chair，并担任新加坡 MOE Tier-3 项目 PI；输入材料未提供其教育经历、博士后经历或此前任职变动的具体信息。",
+    "caveatsZh": [
+      "成果计数来自 OpenAlex 收录（约 108 条），可能受同名合并与文献类型影响，需结合 ORCID、Crossref 与个人主页理解。",
+      "ORCID 记录数与 Crossref ORCID 关联成果数（78 与 33）与 OpenAlex 计数不一致，说明不同来源口径存在差异。",
+      "topVenueCountsLowerBound 仅基于已核验代表作中可识别的核心期刊统计，是保守下限，不等同于完整履历总数。",
+      "近期主题趋势与份额基于有限窗口内的作品计数，样本量小，趋势判断存在不确定性。",
+      "输入未提供教育、博后与任职变动的完整时间线，careerPatternZh 仅能总结当前公开身份。",
+      "recruitmentSignals 中的 funded_expansion_signal 仅为公开信号，输入未提供具体招聘岗位、名额或录用条件，不能据此推断录用概率。"
+    ]
+  },
+  "hkbu-michael-ng": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-23T08:55:38.427Z",
+    "profileFingerprint": "b29eece29a319c8e345d3fa8a5ebcd6907c63212383d066594ea17b3f4d3ce19",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料显示，其研究主线为数值线性代数与科学计算，涵盖张量计算、优化、计算成像与数据科学；公开身份标注为 AMS Fellow。",
+    "methods": [
+      "numerical linear algebra",
+      "numerical analysis and scientific computing",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "machine learning and data science",
+      "physical simulation and scientific computing"
+    ],
+    "careerPatternZh": "公开信息仅显示其现任香港浸会大学理学院院长/讲座教授；输入未提供可核验的完整教育、博后与任职变动时间线。",
+    "caveatsZh": [
+      "OpenAlex 成果计数（约940）可能受同名合并与文献类型影响，不等同于完整履历。",
+      "ORCID 记录数与 Crossref ORCID 成果数不一致，需结合多源核验。",
+      "输入未提供教育、博后与任职变动的完整时间线。",
+      "招聘信号为 no_public_signal，不能据此推断招聘状态。",
+      "近期主题趋势与份额基于输入统计，不代表录用或学术评价。"
+    ]
+  },
+  "polyu-defeng-sun": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-23T08:55:38.427Z",
+    "profileFingerprint": "6e3159cd171398e47c0e67a11510a39f1edd54bd99f0b600cde13274194aad4a",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "孙德锋的研究主线集中于锥优化、矩阵优化、变分分析与半光滑牛顿方法，并涉及优化软件与数值线性代数；公开资料列出的研究标签包括 conic optimization、matrix optimization、semismooth Newton、variational analysis 与 optimization software。其代表性成果涵盖半定规划增广拉格朗日方法、矩阵值半光滑函数、最近相关矩阵计算、Hankel 矩阵秩最小化及非线性共轭梯度方法收敛性等。",
+    "methods": [
+      "nonsmooth and variational analysis",
+      "Newton and semismooth Newton methods",
+      "conic and semidefinite optimization",
+      "numerical linear algebra",
+      "mathematical optimization"
+    ],
+    "applications": [],
+    "careerPatternZh": "公开信息显示其现任香港理工大学数学系（应用数学系）系主任及讲座教授；公开材料列出 AMS/SIAM/CSIAM/ORSC Fellow、Beale–Orchard-Hays Prize 及 RGC Senior Research Fellow 等荣誉，并列出 RGC Senior Research Fellowship 2023-2027、GRF 非线性锥优化/非光滑优化项目及华为优化求解器项目等资助信息。输入未提供完整教育经历、博士后经历或任职时间线，故不作补写。",
+    "caveatsZh": [
+      "OpenAlex 收录成果数为近似值，可能受同名合并与文献类型影响，需结合 ORCID、Crossref 与个人主页理解。",
+      "近期成果计数基于 OpenAlex 窗口数据，作者角色统计包含第一作者、中间作者、末位作者与通讯作者等分类，不能直接等同于独立贡献或招聘证据。",
+      "topVenueCountsLowerBound 仅按已核验代表作中可识别的核心 venue 统计，是保守下限，不等同于完整履历总数。",
+      "输入未提供完整教育、博士后与任职时间线，careerPatternZh 仅归纳已出现的公开任职与荣誉信息。",
+      "recruitmentSignals 中列有官方招聘页面，但输入未给出具体职位、名额或截止日期，不能据此推断录用概率。",
+      "applications 字段因公开资料未明确列出应用领域而留空。"
+    ]
+  },
+  "cornell-adrian-lewis-nonsmooth": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-23T08:55:38.427Z",
+    "profileFingerprint": "9617dd0416851c5fb0787eb22cc2182b62ea58eda2a3c9b9c10203901af3f1e9",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将研究方向概括为非光滑优化、变分分析、矩阵优化、凸分析与优化理论；早期以凸分析、矩阵特征值的变分性质和非光滑分析建立理论基础，随后将半代数几何与优化算法局部收敛结合，发展梯度采样、近端方法和非凸交替投影的统一分析。",
+    "methods": [
+      "nonsmooth and variational analysis",
+      "numerical linear algebra",
+      "mathematical optimization"
+    ],
+    "applications": [],
+    "careerPatternZh": "输入未提供公开教育、博后或任职变化的时间线信息，仅显示当前任职于 Cornell University。",
+    "caveatsZh": [
+      "论文计数与招聘状态需以原始来源为准。"
+    ]
+  },
+  "eth-weismantel-discrete-optimization": {
+    "status": "deepseek",
+    "generatedAt": "2026-11-23T08:55:38.427Z",
+    "profileFingerprint": "9e448e585f3cf5b197e84dbf32d0d7d2385298eb889e3b5e9a1e9b0326b6ab3f",
+    "notice": "AI 辅助归纳，需回到公开证据核验",
+    "researchSummaryZh": "公开资料将 Robert Weismantel 的研究主线概括为离散优化、整数规划、优化算法、运筹学与复杂性；其近期演进以多面体组合、格理论与 Graver 基为工具研究整数与混合整数优化，并推进 Steinitz 引理邻近界、稀疏整数解、块结构整数规划与有界子式矩阵，连接离散几何与强多项式算法。",
+    "methods": [
+      "discrete and mixed-integer optimization",
+      "mathematical optimization"
+    ],
+    "applications": [
+      "decision-making and operations"
+    ],
+    "careerPatternZh": "输入未提供公开教育、博后或任职变化的时间线信息，仅显示其当前任职于 ETH Zurich。",
+    "caveatsZh": [
+      "成果计数 145 来自 zbMATH 作者档案，含 1 本书和 7 个额外预印本；近期数 12 为 2018-2026 核验条目的下界。",
+      "核心 venue 计数仅基于已核验代表作中可识别者，为保守下限，不等同于完整履历总数。",
+      "招聘信号为 no_public_signal，个人组是否招 postdoc 需逐次核验，置信度 C。",
+      "输入未包含教育、博后与任职变化记录，无法归纳职业路径细节。"
     ]
   }
 }

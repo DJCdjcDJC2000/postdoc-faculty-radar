@@ -23,7 +23,7 @@
     "trust": "lead",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-11-22T07:57:54.271Z",
+    "createdAt": "2026-11-23T08:54:42.016Z",
     "id": "c4f0adb87a8dfd89",
     "matchScore": 100,
     "priority": "A",
@@ -44,11 +44,11 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "线索待核验",
     "simpleReason": "Global · 博后 · complementarity / stochastic complementarity",
-    "updatedAt": "2026-11-22T07:57:54.271Z",
+    "updatedAt": "2026-11-23T08:54:42.016Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-11-22T07:57:54.271Z",
+    "lastSeenAt": "2026-11-23T08:54:42.016Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -97,7 +97,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-11-22T07:57:54.271Z",
+    "createdAt": "2026-11-23T08:54:42.016Z",
     "id": "1411a9a5c5c5768d",
     "matchScore": 74,
     "priority": "B",
@@ -110,11 +110,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship · scientific computing / applied mathematics",
-    "updatedAt": "2026-11-22T07:57:54.271Z",
+    "updatedAt": "2026-11-23T08:54:42.016Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-11-22T07:57:54.271Z",
+    "lastSeenAt": "2026-11-23T08:54:42.016Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -541,7 +541,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "official",
-    "fetchedAt": "2026-11-22T07:57:54.271Z",
+    "fetchedAt": "2026-11-23T08:54:42.016Z",
     "id": "e8c1c3510e8bd648",
     "matchScore": 65,
     "priority": "B",
@@ -553,28 +553,42 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · 博后 · PDE",
-    "updatedAt": "2026-11-22T07:57:54.271Z",
+    "updatedAt": "2026-11-23T08:54:42.016Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-11-17T09:10:02.476Z",
-    "lastSeenAt": "2026-11-22T07:57:54.271Z",
+    "lastSeenAt": "2026-11-23T08:54:42.016Z",
     "lastChangedAt": "2026-11-17T09:10:02.476Z",
     "changeType": "new",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-23T08:55:13.952Z",
+      "jobFingerprint": "B|65|Hong Kong · 博后 · PDE|core|PDE",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "Hong Kong · 博后 · PDE",
+      "summaryZh": "该岗位信息实为香港中文大学数学系“分析偏微分方程研讨会”的页面链接，并非独立的博士后招聘公告；仅凭给定信息无法确认具体职位、职责、薪酬或申请截止日期。",
       "tagsZh": [
-        "PDE"
+        "香港",
+        "高校",
+        "数学",
+        "偏微分方程",
+        "博士后",
+        "研讨会页面"
       ],
       "positiveZh": [
-        "Hong Kong · 博后 · PDE"
+        "所属机构为香港中文大学数学系，学术平台明确",
+        "研究方向涉及分析与偏微分方程，与关键词PDE匹配",
+        "地区为香港，属于常见博士后流动目的地"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "给定信息为研讨会页面而非招聘公告，缺少职位描述",
+        "未提供截止日期、薪酬、合同期限等关键信息",
+        "无法确认是否实际开放博士后岗位及申请方式"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "优先打开官方链接，确认 host、申请材料和时间线。",
+      "depth": "shallow"
     },
     "freshness": {
       "type": "new",
@@ -682,7 +696,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-11-22T07:57:54.271Z",
+    "createdAt": "2026-11-23T08:54:42.016Z",
     "id": "576a05e8b695f331",
     "matchScore": 64,
     "priority": "B",
@@ -692,11 +706,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Fellowship",
-    "updatedAt": "2026-11-22T07:57:54.271Z",
+    "updatedAt": "2026-11-23T08:54:42.016Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-11-22T07:57:54.271Z",
+    "lastSeenAt": "2026-11-23T08:54:42.016Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -744,7 +758,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-11-22T07:57:54.271Z",
+    "createdAt": "2026-11-23T08:54:42.016Z",
     "id": "bbac44b5da0bc36a",
     "matchScore": 64,
     "priority": "B",
@@ -754,11 +768,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Singapore · Fellowship",
-    "updatedAt": "2026-11-22T07:57:54.271Z",
+    "updatedAt": "2026-11-23T08:54:42.016Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-11-22T07:57:54.271Z",
+    "lastSeenAt": "2026-11-23T08:54:42.016Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -1027,7 +1041,7 @@
     "trust": "official",
     "evergreen": true,
     "fieldRelevantSource": false,
-    "createdAt": "2026-11-22T07:57:54.271Z",
+    "createdAt": "2026-11-23T08:54:42.016Z",
     "id": "e1e5047f5f87635e",
     "matchScore": 59,
     "priority": "C",
@@ -1037,11 +1051,11 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Europe · Fellowship",
-    "updatedAt": "2026-11-22T07:57:54.271Z",
+    "updatedAt": "2026-11-23T08:54:42.016Z",
     "lifecycleStatus": "watchlist",
     "lifecycleLabelZh": "长期关注",
     "firstSeenAt": "2026-07-09T16:37:03.501Z",
-    "lastSeenAt": "2026-11-22T07:57:54.271Z",
+    "lastSeenAt": "2026-11-23T08:54:42.016Z",
     "lastChangedAt": "2026-07-09T16:37:03.501Z",
     "archivedAt": null,
     "stale": false,
@@ -1165,7 +1179,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "official",
-    "fetchedAt": "2026-11-22T07:57:54.271Z",
+    "fetchedAt": "2026-11-23T08:54:42.016Z",
     "id": "590db377b3a38b8f",
     "matchScore": 55,
     "priority": "C",
@@ -1175,26 +1189,42 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Fellowship",
-    "updatedAt": "2026-11-22T07:57:54.271Z",
+    "updatedAt": "2026-11-23T08:54:42.016Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-11-17T09:10:02.476Z",
-    "lastSeenAt": "2026-11-22T07:57:54.271Z",
+    "lastSeenAt": "2026-11-23T08:54:42.016Z",
     "lastChangedAt": "2026-11-17T09:10:02.476Z",
     "changeType": "new",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-23T08:55:13.952Z",
+      "jobFingerprint": "C|55|Hong Kong · Fellowship|field_source",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "Hong Kong · Fellowship",
-      "tagsZh": [],
-      "positiveZh": [
-        "Hong Kong · Fellowship"
+      "summaryZh": "香港中文大学数学系页面列出的香港博士研究生奖学金计划（HKPFS）信息，属于面向博士申请者的奖学金/资助机会，而非具体教职或研究岗位；给定信息仅含标题与链接，未提供截止日期、名额、金额或申请条件等细节。",
+      "tagsZh": [
+        "香港",
+        "博士奖学金",
+        "数学",
+        "CUHK",
+        "HKPFS",
+        "资助机会"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "positiveZh": [
+        "依托香港中文大学数学系，机构与学科方向明确",
+        "HKPFS 为香港统一的博士奖学金渠道，适合作为博士申请的资助入口",
+        "公开页面提供官方链接，便于进一步核验具体条款"
+      ],
+      "negativeZh": [
+        "给定信息未包含截止日期、资助额度、名额与申请资格等关键细节",
+        "描述仅为标题加链接，无法判断具体研究方向或导师匹配情况",
+        "属于奖学金计划而非具体岗位，实际录取仍取决于院系与导师"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "new",
@@ -1220,7 +1250,7 @@
     "fieldRelevantSource": true,
     "status": "active",
     "trust": "official",
-    "fetchedAt": "2026-11-22T07:57:54.271Z",
+    "fetchedAt": "2026-11-23T08:54:42.016Z",
     "id": "90495fdf51b8a39a",
     "matchScore": 55,
     "priority": "C",
@@ -1230,26 +1260,41 @@
     "roleLabelZh": "Fellowship",
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Fellowship",
-    "updatedAt": "2026-11-22T07:57:54.271Z",
+    "updatedAt": "2026-11-23T08:54:42.016Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-11-17T09:10:02.476Z",
-    "lastSeenAt": "2026-11-22T07:57:54.271Z",
+    "lastSeenAt": "2026-11-23T08:54:42.016Z",
     "lastChangedAt": "2026-11-17T09:10:02.476Z",
     "changeType": "new",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-23T08:55:13.952Z",
+      "jobFingerprint": "C|55|Hong Kong · Fellowship|field_source",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "Hong Kong · Fellowship",
-      "tagsZh": [],
-      "positiveZh": [
-        "Hong Kong · Fellowship"
+      "summaryZh": "香港博士奖学金计划（Hong Kong PhD Fellowship Scheme）由香港中文大学数学系职业机会页面发布，指向该系研究课程下的奖学金项目页面。给定信息仅包含项目名称与链接，未提供截止日期、资助额度、申请条件或具体研究方向等细节。",
+      "tagsZh": [
+        "香港博士奖学金",
+        "博士项目",
+        "数学",
+        "香港中文大学",
+        "奖学金"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "positiveZh": [
+        "属于香港博士奖学金计划，为博士阶段提供资助渠道",
+        "依托香港中文大学数学系，学术平台明确",
+        "公开信息指向研究课程页面，便于进一步查询项目细节"
+      ],
+      "negativeZh": [
+        "给定信息未包含截止日期、资助金额、申请资格等关键内容",
+        "未说明具体研究方向或导师信息",
+        "仅有链接，缺少可核验的文本细节"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "new",
@@ -2244,7 +2289,7 @@
     "fieldRelevantSource": false,
     "status": "active",
     "trust": "aggregator",
-    "fetchedAt": "2026-11-22T07:57:54.271Z",
+    "fetchedAt": "2026-11-23T08:54:42.016Z",
     "id": "cdd39d78c6b49040",
     "matchScore": 50,
     "priority": "C",
@@ -2256,28 +2301,44 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 优化",
-    "updatedAt": "2026-11-22T07:57:54.271Z",
+    "updatedAt": "2026-11-23T08:54:42.016Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-11-21T08:14:52.324Z",
-    "lastSeenAt": "2026-11-22T07:57:54.271Z",
+    "lastSeenAt": "2026-11-23T08:54:42.016Z",
     "lastChangedAt": "2026-11-21T08:14:52.324Z",
     "changeType": "new",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-23T08:55:13.952Z",
+      "jobFingerprint": "C|50|Mainland China · 博后 · 优化|core|优化",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "Mainland China · 博后 · 优化",
+      "summaryZh": "中国科学院数学与系统科学研究院李韬课题组招聘博士后，方向为分布式统计学习、联邦学习与分布式优化，工作地点北京，年薪25-40万元，招聘若干人，学历要求博士研究生。岗位信息来自高校人才网，未提供截止日期与具体职责细节。",
       "tagsZh": [
-        "优化"
+        "博士后",
+        "分布式统计学习",
+        "联邦学习",
+        "分布式优化",
+        "北京",
+        "科研院所"
       ],
       "positiveZh": [
-        "Mainland China · 博后 · 优化"
+        "依托中国科学院数学与系统科学研究院，平台与学术声誉较强",
+        "研究方向明确聚焦分布式统计学习、联邦学习与分布式优化，属于当前热点交叉领域",
+        "年薪25-40万元，在博士后岗位中具有一定竞争力",
+        "招聘若干人，名额相对宽松"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位描述信息有限，未列出具体职责、考核要求与出站条件",
+        "未提供申请截止日期，时间安排不明确",
+        "未说明合作导师团队规模、实验条件与经费支持细节",
+        "未提及户口、住房、子女入学等博士后常见配套信息"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "new",
@@ -2305,7 +2366,7 @@
     "fieldRelevantSource": false,
     "status": "active",
     "trust": "aggregator",
-    "fetchedAt": "2026-11-22T07:57:54.271Z",
+    "fetchedAt": "2026-11-23T08:54:42.016Z",
     "id": "4d34c1909ba328f0",
     "matchScore": 50,
     "priority": "C",
@@ -2317,28 +2378,43 @@
     "roleLabelZh": "博后",
     "sourceTrustLabelZh": "聚合补漏",
     "simpleReason": "Mainland China · 博后 · 优化",
-    "updatedAt": "2026-11-22T07:57:54.271Z",
+    "updatedAt": "2026-11-23T08:54:42.016Z",
     "lifecycleStatus": "active",
     "lifecycleLabelZh": "当前有效",
     "firstSeenAt": "2026-11-21T08:14:52.324Z",
-    "lastSeenAt": "2026-11-22T07:57:54.271Z",
+    "lastSeenAt": "2026-11-23T08:54:42.016Z",
     "lastChangedAt": "2026-11-21T08:14:52.324Z",
     "changeType": "new",
     "archivedAt": null,
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-23T08:55:13.952Z",
+      "jobFingerprint": "C|50|Mainland China · 博后 · 优化|core|优化",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "Mainland China · 博后 · 优化",
+      "summaryZh": "中国科学院数学与系统科学研究院李韬课题组招聘博士后，方向为智慧能源系统能量管理、能源市场预测与优化调度，工作地点北京，年薪25-40万元，招聘若干人，要求博士研究生学历。",
       "tagsZh": [
-        "优化"
+        "博士后",
+        "智慧能源系统",
+        "能量管理",
+        "能源市场预测",
+        "优化调度",
+        "北京"
       ],
       "positiveZh": [
-        "Mainland China · 博后 · 优化"
+        "依托中国科学院数学与系统科学研究院，科研平台与学术声誉较强",
+        "研究方向聚焦智慧能源与优化调度，与数学优化方法结合紧密",
+        "年薪25-40万元，在博士后岗位中具有一定竞争力",
+        "招聘若干人，名额相对灵活"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位信息来自高校人才网转载，课题组与岗位细节披露有限",
+        "未明确截止日期、聘期长度、出站考核与留用机制",
+        "未说明薪酬构成、住房及科研启动经费等配套条件"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "new",
@@ -3344,16 +3420,33 @@
     "archivedAt": "2026-11-20T08:29:33.409Z",
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-23T08:55:13.952Z",
+      "jobFingerprint": "C|48|Global · Fellowship|field_source",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "Global · Fellowship",
-      "tagsZh": [],
-      "positiveZh": [
-        "Global · Fellowship"
+      "summaryZh": "Sandia National Laboratories 通过 MathJobs.org 发布的 John von Neumann Fellowship 2027 招聘信息，岗位类型为 fellowship，工作地点标注为 Global，申请截止日期为 2026-11-19。公开信息仅包含职位名称、机构、截止日期和原始链接，未提供研究方向、申请资格、资助期限或薪酬等细节。",
+      "tagsZh": [
+        "博士后奖学金",
+        "国家实验室",
+        "应用数学/计算科学相关（仅据职位名称推断）",
+        "美国能源部国家实验室体系（机构背景）",
+        "MathJobs.org 发布"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "positiveZh": [
+        "Sandia National Laboratories 为国家实验室，平台资源与科研环境通常较强",
+        "Fellowship 类型岗位通常具有较高独立性和职业发展价值",
+        "截止日期明确（2026-11-19），便于规划申请时间",
+        "通过 MathJobs.org 发布，属于数学与计算科学领域常用正规渠道"
+      ],
+      "negativeZh": [
+        "公开信息极少，缺少研究方向、申请资格、资助期限、薪酬等关键内容",
+        "地点标注为 Global，实际工作地点与是否需现场办公不明确",
+        "未提供院系信息与具体联系人",
+        "matchedKeywords 为空，与用户背景的匹配度无法从现有信息判断"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "expired",
@@ -4123,7 +4216,7 @@
     "sourceTrustLabelZh": "官方源",
     "simpleReason": "Hong Kong · Research Fellow",
     "updatedAt": "2026-11-22T07:57:54.271Z",
-    "stale": false,
+    "stale": true,
     "changeType": null,
     "sourceId": "hkust-math",
     "lifecycleStatus": "active",
@@ -4566,19 +4659,32 @@
     "archivedAt": "2026-11-21T08:14:52.324Z",
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-23T08:55:13.952Z",
+      "jobFingerprint": "C|44|United Kingdom · 教职 · applied mathematics / statistics|core|applied mathematics|statistics",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "United Kingdom · 教职 · applied mathematics / statistics",
+      "summaryZh": "诺丁汉大学宁波中国校区数学科学学院招聘应用数学/统计学助理教授，工作地点为中国宁波，薪资约£51,221–£67,448/年，发布于11月18日，未提供截止日期。",
       "tagsZh": [
-        "applied mathematics",
-        "statistics"
+        "应用数学",
+        "统计学",
+        "助理教授",
+        "英国高校海外校区",
+        "中国宁波",
+        "高校教职"
       ],
       "positiveZh": [
-        "United Kingdom · 教职 · applied mathematics / statistics"
+        "英国罗素集团高校海外校区教职，岗位方向与应用数学/统计学匹配",
+        "薪资区间明确，按英镑计价",
+        "工作地点在中国宁波，便于关注国内发展机会的申请者"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "岗位信息简略，未说明教学任务、科研要求、合同期限与晋升路径",
+        "未提供申请截止日期，时间安排不明确",
+        "未说明是否要求中文能力、签证或人事归属安排"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "basic"
     },
     "freshness": {
       "type": "expired",
@@ -4628,18 +4734,33 @@
     "archivedAt": "2026-11-20T08:29:33.409Z",
     "stale": false,
     "ai": {
-      "status": "rule_fallback",
+      "status": "deepseek",
+      "generatedAt": "2026-11-23T08:55:13.952Z",
+      "jobFingerprint": "C|43|United Kingdom · 教职 · applied mathematics|core|applied mathematics",
       "notice": "AI 辅助生成，需核验",
-      "summaryZh": "United Kingdom · 教职 · applied mathematics",
+      "summaryZh": "西交利物浦大学数学与物理学院招聘应用数学教职（不限职级），工作地点为中国苏州，薪资未说明，发布日期为11月18日，未提供截止日期。",
       "tagsZh": [
-        "applied mathematics"
+        "应用数学",
+        "教职",
+        "不限职级",
+        "西交利物浦大学",
+        "苏州",
+        "中外合办"
       ],
       "positiveZh": [
-        "United Kingdom · 教职 · applied mathematics"
+        "职级开放（Any Rank），可能覆盖助理教授至教授层级",
+        "依托jobs.ac.uk发布，信息渠道相对正规",
+        "工作地点为苏州，属于中外合作大学环境"
       ],
-      "negativeZh": [],
-      "riskZh": "需打开官方原始链接核验岗位细节。",
-      "nextStepZh": "收藏后检查截止日期、host 要求和申请材料。"
+      "negativeZh": [
+        "未提供薪资范围",
+        "未提供申请截止日期",
+        "岗位描述信息极少，缺少研究方向、教学负担、招聘人数等细节",
+        "机构字段显示为jobs.ac.uk Mathematics，而非具体院系名称"
+      ],
+      "riskZh": "尚未完成 DeepSeek 深度分析；申请前需要核验官方原文、截止日期和材料要求。",
+      "nextStepZh": "先入库观察，除非后续出现强方向匹配信号。",
+      "depth": "brief"
     },
     "freshness": {
       "type": "expired",
